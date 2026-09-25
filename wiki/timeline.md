@@ -8,6 +8,6 @@ At most three milestones a day, one line each, with the commit.
 - M0 done: Planetfall engine and tools lifted, content removed; M1 started (03b9fb6).
 
 ## 2026-09-25
-- M2 and M3 done: all nine modules integrated, 586/586 routines, walkthrough 336/336 against the original (c9b59ee).
-- Contract v1.3: Greg never ends his turn; a 15-minute unread alert goes to the sponsor (1742b91).
+- M2 to M4 done: 586/586 routines, walkthrough 336/336 against the original, and the whole game playable by clicks, 335/335 (c9b59ee, 4b9d15d).
 - M6 done: the sponsor accepted the Deck Twelve pilot; Greg moved to Sol; M7 started (1bcdc5e).
+- Playtest round 3 plays all seven stages and wins for the first time (83a6301).

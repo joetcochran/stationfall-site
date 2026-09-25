@@ -76,14 +76,33 @@
 <circle cx="541.3" cy="104.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/>
 <circle cx="548.3" cy="104.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/>
 <circle cx="520.3" cy="129.6" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/>
+<circle cx="527.3" cy="114.5" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/>
+<circle cx="534.3" cy="114.5" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/>
+<circle cx="541.3" cy="114.5" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/>
+<circle cx="548.3" cy="114.5" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/>
+<circle cx="520.3" cy="115.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/>
+<circle cx="527.3" cy="115.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/>
+<circle cx="534.3" cy="115.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/>
+<circle cx="383.7" cy="111.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/>
+<circle cx="390.7" cy="111.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/>
+<circle cx="397.7" cy="111.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/>
+<circle cx="541.3" cy="102.5" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/>
+<circle cx="548.3" cy="102.5" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/>
+<circle cx="520.3" cy="102.5" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/>
+<circle cx="527.3" cy="104.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/>
+<circle cx="534.3" cy="104.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/>
+<circle cx="541.3" cy="102.3" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/>
+<circle cx="685.0" cy="101.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/>
+<circle cx="404.7" cy="140.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/>
+<circle cx="411.7" cy="140.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/>
 <line x1="213.2" y1="252.2" x2="308.8" y2="252.2" stroke="#d9e3ea" stroke-width="2"/>
-<line x1="349.8" y1="182.4" x2="445.5" y2="182.4" stroke="#d9e3ea" stroke-width="2"/>
-<line x1="486.5" y1="155.3" x2="582.2" y2="155.3" stroke="#d9e3ea" stroke-width="2"/>
+<line x1="349.8" y1="140.8" x2="445.5" y2="140.8" stroke="#d9e3ea" stroke-width="2"/>
+<line x1="486.5" y1="114.5" x2="582.2" y2="114.5" stroke="#d9e3ea" stroke-width="2"/>
 <line x1="623.2" y1="140.8" x2="718.8" y2="140.8" stroke="#d9e3ea" stroke-width="2"/>
 <line x1="759.8" y1="221.4" x2="855.5" y2="221.4" stroke="#d9e3ea" stroke-width="2"/>
 <rect x="56" y="62" width="820" height="278" fill="none" stroke="#34495a"/>
 <circle cx="62" cy="40" r="4.5" fill="#d95926"/>
-<text x="73.0" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">stamped when sent (13)</text>
+<text x="73.0" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">stamped when sent (32)</text>
 <circle cx="242.2" cy="40" r="4" fill="none" stroke="#d95926" stroke-width="1.8"/>
 <text x="253.2" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">retrospective (41)</text>
 <line x1="390" y1="40" x2="406" y2="40" stroke="#d9e3ea" stroke-width="2.5"/>

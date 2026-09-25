@@ -33,12 +33,13 @@ Sol,design/packages/CARGO-BAY-ENTRANCE/reference/DR-002_CARGO-BAY-ENTRANCE-000_G
 Sol,design/packages/ROBOT-POOL/reference/DR-003_ROBOT-POOL-090_GREG.png,2,guide>approved
 Sol,design/packages/SPACETRUCK/reference/DR-005_SPACETRUCK-000_GREG.png,2,guide>approved
 Sol,design/packages/SPACETRUCK/reference/DR-005_SPACETRUCK-180_GREG.png,3,changes>changes>approved
-Sol,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-090_GREG.png,2,guide>changes
-Sol,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-270_GREG.png,1,guide
+Sol,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-090_GREG.png,4,guide>changes>guide>guide
+Sol,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-270_GREG.png,4,guide>guide>changes
 Sol,design/packages/FORM-STORAGE-ROOM/reference/DR-006_FORM-STORAGE-ROOM-270_GREG.png,1,approved
-Sol,design/packages/FORM-STORAGE-ROOM/reference/DR-006_FORM-STORAGE-ROOM-000_SEED.png,1,guide
-Sol,design/packages/ROBOT-POOL/reference/DR-003_ROBOT-POOL-180_SEED.png,1,changes
-Sol,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-180_SEED.png,1,pending
+Sol,design/packages/FORM-STORAGE-ROOM/reference/DR-006_FORM-STORAGE-ROOM-000_SEED.png,4,guide>changes>guide
+Sol,design/packages/ROBOT-POOL/reference/DR-003_ROBOT-POOL-180_SEED.png,3,changes>guide>approved
+Sol,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-180_SEED.png,2,changes>changes
+Sol,design/packages/SPACETRUCK/reference/DR-005_SPACETRUCK-270_SEED.png,2,changes>guide
 none (scan-derived),design/papers/BLUEPRINT-1.png,2,changes>approved
 none (scan-derived),design/papers/BLUEPRINT-2.png,2,changes>approved
 none (scan-derived),design/papers/BLUEPRINT-3.png,2,changes>approved

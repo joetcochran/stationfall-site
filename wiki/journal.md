@@ -83,3 +83,104 @@ This summary condenses the three entries above at the M3 and M6 gates. They stay
 - **The sponsor's decisions so far:** D1–D5, D7, D9 and D12, plus accepting the pilot and moving Greg to Sol.
 
 <!-- through: git 1bcdc5e · mail 20260925-033657-norm-0036 · decisions 13 -->
+
+## 2026-09-25 -- The whole game by mouse, the first playtest and the Duffy seeds (M4, M5, M7)
+
+Overnight, M4 made the whole game playable by mouse: 335 of 335 walkthrough steps by real clicks on drawn pixels, with the transcript still 336 of 336 against the original (4b9d15d). The first blind playtest round and the five Duffy seeds followed.
+
+**Decisions**
+- The sponsor ***set Greg's polling cycle at 10 minutes, to save tokens***. Norm's unread alert rose to 20 minutes to match (D14, 9a2507d).
+- D15 (Norm): a toggle for the original text, and one uniform More... submenu so no entry marks a puzzle.
+- D16: an art-reviewer agent takes routine reviews. In calibration it caught 2 of 2 faults Norm had missed.
+- The sponsor ***allowed UNDO for early playtest rounds only, and declined checkpoint reloads for players as spoiling puzzles*** (D18). They ***kept Greg on Sol, as Astra burned tokens too fast*** (D20).
+
+**What went wrong and what changed**
+- A re-delivery overwrote the first Robot Pool seed, and it was lost. Every delivered file is now snapshotted at send (ecb0f82).
+- The Robot Pool and Cargo Bay each needed a second change ask: the first gave no endpoints, and one invited cropping (365ceb5, 9a83317). `check-lines.mjs` followed (ea729c0).
+- Round 1 found 34 issues (13 A, 1 B, 20 C). The class fix: each object's verbs are extracted from the ZIL (ee26d71).
+
+**Milestone status**
+M4 done. M5 and M7 started; all five Duffy seeds approved by 01:45 (566fd58).
+
+<!-- through: git f6c9786 · mail 20260925-055641-greg-0041 · decisions 20 -->
+
+## 2026-09-25 -- The wiki goes public, and every token is counted (D21, D22)
+
+The sponsor ***wanted colleagues to be able to follow the agentic loop***, so the wiki now publishes on its own. The game stays private until M9.
+
+**Decisions**
+- D21: a page of generated efficiency charts; every agent run logged, and a `Work:` trailer on every commit (18d6d2e, e179050).
+- D22: the wiki publishes twice a day behind a privacy gate, `check-wiki-public`, which refuses secrets, local paths, quotes of the sponsor and anything from the original game (2383f02).
+- The sponsor ***asked for every token counted, Greg's and Norm's own included***. `agent-tokens.mjs` reads both agents' logs without changing them and writes hourly sums (221de66).
+
+**What went wrong and what changed**
+- A hand-kept table credited Astra with everything before 23:54, and the page first read "Astra 4%, Sol 40%". Greg's tags were wrong too: seventeen deliveries tagged Astra were made on Sol. The Codex log shows Astra only from 22:50 to 00:03. Credit now comes from the log (841c00f).
+- Completion reports undercount: one porter reported 307,000 tokens where its transcript shows 329,000, plus 14.5M cached reads.
+
+**Efficiency (D21), at 10:00**
+- 89 of 98 asks to Greg closed; 15 room views approved.
+- Cycle p50/p90: Norm 4 and 8 minutes; Greg 28 minutes and 1.2 hours, up from 11 and 39 minutes at first drawing, as ring views replaced acknowledgements.
+- 652,000 work tokens per accepted view, up from 530,000.
+- 10.5 sponsor touches a day.
+
+<!-- through: git 841c00f · mail 20260925-113941-greg-0065 · decisions 22 -->
+
+## 2026-09-25 -- Rework, and a check for each kind of fault (M7)
+
+The Duffy's ring views drew 20 send-backs, and 11 were Norm's own guide or ask faults. Each kind got its own fix.
+
+**What went wrong and what changed**
+- **Grain.** The fabric aimed the Cargo Bay deckhead grain at the vanishing point: two send-backs (norm-0077, norm-0083). Grain is now set per room and tested (5dfa6dd); D23 lets a verdict be recharged to `guide` (norm-0085).
+- **Stale asks.** FSR 000 was painted to an ask a later approval had overtaken (norm-0086), so stale asks are flagged (596ad2f). Flagging on sibling verdicts made Greg hold good work twice (greg-0068, greg-0071); now only an approval counts (bc2e0a4).
+- **Pasted guide pixels.** Raw blockout passed on RP 180 (norm-0087), then blockout one level off on CB 180 (norm-0097). The check now fails exact copies, then anything within 2 levels (64c4e08, 247c791).
+- **Bundled asks.** One CB 090 ask left four faults (norm-0084). Each box now gets its own ask.
+- **Short boxes.** A CB 270 box stopped 170 px short, freezing old paint (norm-0096). Boxes must cover the whole fault (548f6ce).
+- **Accepts Greg could not measure** caused most rework. D25: `check-accept.mjs`, 17 check kinds (262bfc1).
+- **Checks that moved.** A backfill changed a live check and broke the checker mid-delivery (greg-0079). Greg's proposal became D26: checks freeze when sent, tools change atomically (3828d8a). PASS* marks lines judged by eye (3713d3b).
+
+**Rework by model (D20)**
+Sol: 41 views, 31 first-pass, 24% rework, 1.56 rounds per view (15% of 39 at 07:42). Astra: 0 of 2, too few to compare. Greg was on Sol throughout. The 11 guide faults are excluded and are Norm's to fix. Overall, 36% of 81 went back, above PLAN's 20% target.
+
+<!-- through: git 3713d3b · mail 20260925-134745-norm-0118 · decisions 26 -->
+
+## 2026-09-25 -- Three playtest rounds and the first win (M5, D24)
+
+Round 3 put a blind tester at every one of the seven stages, and the Factory's tester won, the first win in any round (83a6301).
+
+![Points gained per stage, by round](wiki/metrics-playtest-progress.svg)
+
+**Progress by stage** (points gained, rounds 1, 2, 3): Duffy 21, 28, 17 of 5; Station 12, 6, 12 of 6; Village 13, 20, 24 of 12; Day 1 end 13 of 3 (round 3 only); Day 2 0, 12, 21 of 25; Plato 10, 3, 10 of 22; Factory 7 of 7, won (round 3 only).
+
+**How sessions ended:** round 1, three spent their budget still progressing and two stuck; round 2, four and one; round 3, one won, five progressing, one stuck. Plato was stuck every round.
+
+**Triage:** round 1, 13 A, 1 B, 20 C; round 2, 11 A, 2 B, 22 C, repeat rate 0.47; round 3, 12 A, 4 B, 21 C, repeat rate 0.36.
+
+Caveats: the personas rotate, the testers are agents, there is one session per stage per round, and UNDO was on in rounds 2 and 3.
+
+**Decisions**
+- D24: segmented rounds until every stage ends still progressing, then full runs from the opening. Plato blocks the switch so far.
+- Q5's two B items were built on their defaults, behind the conveniences switch (c11bf9d); Q6's four are being built on their defaults for round 4. Both batches await the sponsor.
+
+**What went wrong**
+- A harness fix made the keypad close after every digit (SF-061).
+- Plato's tester lost the only explosive to its melt (SF-077).
+
+<!-- through: git cb27b9d · mail 20260925-134745-norm-0118 · decisions 26 -->
+
+## 2026-09-25 -- The Duffy's views: approved, and one fix away (M7)
+
+The Duffy is the first region painted after the pilot. Fifteen room views are approved in all (metrics.json).
+
+**Approved and registered today:** Cargo Bay Entrance 000 (7bfef66), Robot Pool 090 (b0bb6ca), Spacetruck 000 (93ea940), Forms Storage Room 270 (cfda544), Spacetruck 180 (735f09d) and the Robot Pool 180 second seed (98d6948, norm-0118), after the five seeds overnight, and Forms Storage Room 000 as that room's second seed (6a62568).
+
+**One fix away**
+- Cargo Bay 090: two boxes (norm-0116, guide).
+- Cargo Bay 180: three boxes (norm-0110, material).
+- Spacetruck 270: three boxes (norm-0111, guide).
+- Cargo Bay 270: the wedge correction (greg-0083) was reviewed; the held-edge seam remains. The verdict waits on a mask fix and a new held-edge check, so that the ask is measurable (norm-0120).
+
+**What it cost.** Cargo Bay 090 has been sent back four times, three for Norm's guide (rework-by-model.csv).
+
+**Milestone status.** M7 is on the Duffy. M5 is in round 3 of its segmented phase.
+
+<!-- through: git cb27b9d · mail 20260925-135331-greg-0084 · decisions 26 -->

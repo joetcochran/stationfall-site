@@ -28,6 +28,12 @@
 <text x="300.0" y="194.8" fill="#d9e3ea" font-size="11" text-anchor="middle">2.19</text>
 <text x="276.0" y="306.0" fill="#d9e3ea" font-size="11" text-anchor="middle">round 2</text>
 <text x="276.0" y="321.0" fill="#8fa3b1" font-size="10" text-anchor="middle">1964 cmds · 0 wins · 14 deaths</text>
+<path d="M376.7,290.0 V149.2 Q376.7,146.2 379.7,146.2 H417.7 Q420.7,146.2 420.7,149.2 V290.0 Z" fill="#d55181"/>
+<path d="M424.7,290.0 V201.1 Q424.7,198.1 427.7,198.1 H465.7 Q468.7,198.1 468.7,201.1 V290.0 Z" fill="#d95926"/>
+<text x="398.7" y="141.2" fill="#d9e3ea" font-size="11" text-anchor="middle">3.49</text>
+<text x="446.7" y="193.1" fill="#d9e3ea" font-size="11" text-anchor="middle">2.23</text>
+<text x="422.7" y="306.0" fill="#d9e3ea" font-size="11" text-anchor="middle">round 3</text>
+<text x="422.7" y="321.0" fill="#8fa3b1" font-size="10" text-anchor="middle">2376 cmds · 1 wins · 12 deaths</text>
 <text x="576.0" y="74.0" fill="#d9e3ea" font-size="12" text-anchor="start">Negative rows per 100 commands, by severity</text>
 <line x1="576" y1="290.0" x2="876" y2="290.0" stroke="#34495a"/>
 <text x="568.0" y="294.0" fill="#8fa3b1" font-size="11" text-anchor="end">0</text>
@@ -47,6 +53,11 @@
 <g><title>round 2: high 0.1 per 100 commands</title><path d="M702.0,145.2 V143.3 Q702.0,140.3 705.0,140.3 H747.0 Q750.0,140.3 750.0,143.3 V145.2 Z" fill="#d95926"/></g>
 <text x="726.0" y="135.3" fill="#d9e3ea" font-size="10" text-anchor="middle">2.2 (weighted 3.16)</text>
 <text x="726.0" y="306.0" fill="#d9e3ea" font-size="11" text-anchor="middle">round 2</text>
+<g><title>round 3: low 0.8 per 100 commands</title><rect x="802.0" y="235.1" width="48.0" height="54.9" fill="#8fa3b1"/></g>
+<g><title>round 3: medium 1.14 per 100 commands</title><rect x="802.0" y="156.8" width="48.0" height="76.3" fill="#c98500"/></g>
+<g><title>round 3: high 0.29 per 100 commands</title><path d="M802.0,154.8 V139.9 Q802.0,136.9 805.0,136.9 H847.0 Q850.0,136.9 850.0,139.9 V154.8 Z" fill="#d95926"/></g>
+<text x="826.0" y="131.9" fill="#d9e3ea" font-size="10" text-anchor="middle">2.2 (weighted 3.96)</text>
+<text x="826.0" y="306.0" fill="#d9e3ea" font-size="11" text-anchor="middle">round 3</text>
 <rect x="56" y="34" width="12" height="12" rx="2" fill="#d55181"/>
 <text x="73.0" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">all rows per 100</text>
 <rect x="196.6" y="34" width="12" height="12" rx="2" fill="#d95926"/>

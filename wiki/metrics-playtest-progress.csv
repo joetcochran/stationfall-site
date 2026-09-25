@@ -9,3 +9,10 @@ round,session,date,mode,checkpoint,undo,start_score,best_score,gained,available,
 2,r2-click-06plato,2026-09-25,click,06-plato,1,51,54,3,22,0.136,0.14,398,400,12,386,4,0,stuck
 2,r2-typed-02station,2026-09-25,typed,02-station,1,5,11,6,6,1,1,397,400,336,61,5,0,budget
 2,r2-typed-05day2,2026-09-25,typed,05-day2,1,26,38,12,25,0.48,0.48,391,400,383,8,3,0,budget
+3,r3-click-02station,2026-09-25,click,02-station,1,5,17,12,6,2,1.5,394,400,304,90,1,0,budget
+3,r3-click-04day1end,2026-09-25,click,04-day1-end,1,23,36,13,3,4.333,1.4,387,400,356,31,2,0,budget
+3,r3-click-05day2,2026-09-25,click,05-day2,1,26,47,21,25,0.84,0.84,376,400,313,63,0,0,budget
+3,r3-click-07factory,2026-09-25,click,07-factory,1,73,80,7,7,1,1,38,400,38,0,3,1,won
+3,r3-typed-01duffy,2026-09-25,typed,01-duffy,1,0,17,17,5,3.4,2.5,395,400,317,78,3,0,budget
+3,r3-typed-03village,2026-09-25,typed,03-village,1,11,35,24,12,2,2.36,387,400,321,66,1,0,budget
+3,r3-typed-06plato,2026-09-25,typed,06-plato,1,51,61,10,22,0.455,0.45,399,400,33,366,2,0,stuck

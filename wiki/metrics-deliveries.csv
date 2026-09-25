@@ -77,3 +77,10 @@ delivery,file,room,model,passes,delivered_eastern,verdict,judged_eastern,state,c
 20260925-121729-greg-0072,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-090_GREG.png,,Sol,1,2026-09-25 08:17,20260925-122416-norm-0104,2026-09-25 08:24,changes-guide,guide
 20260925-122723-greg-0073,design/packages/ROBOT-POOL/reference/DR-003_ROBOT-POOL-180_SEED.png,,Sol,1,2026-09-25 08:27,20260925-123342-norm-0105,2026-09-25 08:33,changes-guide,guide
 20260925-123415-greg-0074,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-270_GREG.png,,Sol,0,2026-09-25 08:34,20260925-123941-norm-0107,2026-09-25 08:39,changes-paint,content
+20260925-125250-greg-0076,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-180_SEED.png,CARGO-BAY,Sol,1,2026-09-25 08:52,20260925-130222-norm-0110,2026-09-25 09:02,changes-paint,material
+20260925-130106-greg-0077,design/packages/SPACETRUCK/reference/DR-005_SPACETRUCK-270_SEED.png,SPACETRUCK,Sol,1,2026-09-25 09:01,20260925-131125-norm-0111,2026-09-25 09:11,changes-guide,guide
+20260925-131233-greg-0078,design/packages/FORM-STORAGE-ROOM/reference/DR-006_FORM-STORAGE-ROOM-000_SEED.png,FORM-STORAGE-ROOM,Sol,1,2026-09-25 09:12,20260925-131728-norm-0112,2026-09-25 09:17,changes-guide,guide
+20260925-133604-greg-0081,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-090_GREG.png,CARGO-BAY,Sol,1,2026-09-25 09:36,20260925-134318-norm-0116,2026-09-25 09:43,changes-guide,guide
+20260925-134239-greg-0082,design/packages/ROBOT-POOL/reference/DR-003_ROBOT-POOL-180_SEED.png,ROBOT-POOL,Sol,1,2026-09-25 09:42,20260925-134745-norm-0118,2026-09-25 09:47,approved,
+20260925-135149-greg-0083,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-270_GREG.png,CARGO-BAY,Sol,1,2026-09-25 09:51,,,pending,
+20260925-135331-greg-0084,design/packages/FORM-STORAGE-ROOM/reference/DR-006_FORM-STORAGE-ROOM-000_SEED.png,FORM-STORAGE-ROOM,none (scan-derived),1,2026-09-25 09:53,,,pending,
