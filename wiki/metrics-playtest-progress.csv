@@ -16,3 +16,10 @@ round,session,date,mode,checkpoint,undo,start_score,best_score,gained,available,
 3,r3-typed-01duffy,2026-09-25,typed,01-duffy,1,0,17,17,5,3.4,2.5,395,400,317,78,3,0,budget
 3,r3-typed-03village,2026-09-25,typed,03-village,1,11,35,24,12,2,2.36,387,400,321,66,1,0,budget
 3,r3-typed-06plato,2026-09-25,typed,06-plato,1,51,61,10,22,0.455,0.45,399,400,33,366,2,0,stuck
+4,r4-click-01duffy,2026-09-25,click,01-duffy,1,0,17,17,5,3.4,2.5,375,400,253,122,1,0,budget
+4,r4-click-03village,2026-09-25,click,03-village,1,11,24,13,12,1.083,1.33,376,400,193,183,1,0,budget
+4,r4-click-06plato,2026-09-25,click,06-plato,1,51,54,3,22,0.136,0.14,396,400,15,381,1,0,stuck
+4,r4-typed-02station,2026-09-25,typed,02-station,1,5,21,16,6,2.667,1.83,396,400,340,56,0,0,budget
+4,r4-typed-04day1end,2026-09-25,typed,04-day1-end,1,23,29,6,3,2,1.12,382,400,368,14,1,0,budget
+4,r4-typed-05day2,2026-09-25,typed,05-day2,1,26,41,15,25,0.6,0.6,371,400,356,15,1,0,budget
+4,r4-typed-07factory,2026-09-25,typed,07-factory,1,73,80,7,7,1,1,35,400,33,2,0,1,won

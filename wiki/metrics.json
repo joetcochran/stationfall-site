@@ -1,60 +1,60 @@
 {
- "generated": "2026-09-25T13:55:26.214Z",
+ "generated": "2026-09-25T15:56:30.656Z",
  "clock": "US Eastern wall-clock",
  "span": {
   "from": "2026-09-24 20:34",
-  "to": "2026-09-25 09:55",
-  "hours": 13.3
+  "to": "2026-09-25 11:56",
+  "hours": 15.4
  },
  "binHours": 1,
  "headline": {
-  "asksClosed": 89,
-  "asksRaised": 98,
-  "normItemsClosed": 61,
-  "normItems": 64,
-  "itemsClosedPerActiveHour": 11.2,
-  "roomViewsRegistered": 15,
+  "asksClosed": 104,
+  "asksRaised": 104,
+  "normItemsClosed": 69,
+  "normItems": 70,
+  "itemsClosedPerActiveHour": 11.3,
+  "roomViewsRegistered": 20,
   "cycle": {
    "norm": {
-    "n": 61,
+    "n": 69,
     "p50": 0.06,
     "p90": 0.14
    },
    "greg": {
-    "n": 89,
-    "p50": 0.47,
-    "p90": 1.2
+    "n": 104,
+    "p50": 0.46,
+    "p90": 1.21
    },
    "all": {
-    "n": 150,
-    "p50": 0.14,
-    "p90": 1.16
+    "n": 173,
+    "p50": 0.16,
+    "p90": 1.19
    }
   },
   "reviewLatency": {
-   "n": 48,
+   "n": 56,
    "p50": 0.08,
    "p90": 0.16
   },
   "gregTurnaround": {
-   "n": 73,
+   "n": 87,
    "p50": 0.73,
    "p90": 1.22
   },
   "openNow": {
-   "norm": 3,
-   "greg": 9
+   "norm": 1,
+   "greg": 0
   },
   "rework": {
    "share": 0.36,
    "paint": 0.22,
-   "guide": 0.14,
-   "judged": 81
+   "guide": 0.13,
+   "judged": 89
   },
-  "tokensPerAcceptedView": 652001,
+  "tokensPerAcceptedView": 567459,
   "tokensPerAcceptedViewBasis": "greg + norm-main + art subagents, work tokens (fresh + cache writes + output)",
-  "tokensPerAcceptedViewWithCachedReads": 32218293,
-  "sponsorTouchesPerDay": 10.5
+  "tokensPerAcceptedViewWithCachedReads": 28027436,
+  "sponsorTouchesPerDay": 11
  },
  "throughput": [
   {
@@ -150,24 +150,38 @@
   },
   {
    "start": "2026-09-25 09:00",
-   "closedByNorm": 6,
+   "closedByNorm": 7,
    "closedByGreg": 16,
+   "roomViews": 2,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-09-25 10:00",
+   "closedByNorm": 6,
+   "closedByGreg": 14,
+   "roomViews": 3,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-09-25 11:00",
+   "closedByNorm": 1,
+   "closedByGreg": 1,
    "roomViews": 1,
    "otherArt": 0
   }
  ],
  "rework": {
-  "judged": 81,
-  "paint": 18,
-  "guide": 11,
+  "judged": 89,
+  "paint": 20,
+  "guide": 12,
   "share": 0.36,
   "paintShare": 0.22,
-  "guideShare": 0.14,
+  "guideShare": 0.13,
   "byCategory": {
    "content": 6,
-   "geometry": 10,
-   "material": 2,
-   "guide": 11
+   "geometry": 11,
+   "material": 3,
+   "guide": 12
   },
   "byModel": {
    "Sol": {
@@ -175,7 +189,7 @@
     "judged": 41,
     "rework": 10,
     "rate": 0.24,
-    "roundsPerView": 1.56
+    "roundsPerView": 1.71
    },
    "none (scan-derived)": {
     "views": 13,
@@ -274,9 +288,21 @@
   },
   {
    "start": "2026-09-25 09:00",
-   "approved": 1,
+   "approved": 2,
    "paint": 1,
    "guide": 3
+  },
+  {
+   "start": "2026-09-25 10:00",
+   "approved": 3,
+   "paint": 2,
+   "guide": 1
+  },
+  {
+   "start": "2026-09-25 11:00",
+   "approved": 1,
+   "paint": 0,
+   "guide": 0
   }
  ],
  "complexity": [
@@ -841,12 +867,68 @@
    "hours": 1.202
   },
   {
+   "ask": "20260925-123953-norm-0108#1",
+   "room": "CARGO-BAY",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.409
+  },
+  {
    "ask": "20260925-124014-norm-0109#1",
    "room": "FORM-STORAGE-ROOM",
    "score": 8,
    "retro": false,
    "kind": "seed",
    "hours": 1.221
+  },
+  {
+   "ask": "20260925-130222-norm-0110#1",
+   "room": "CARGO-BAY",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.212
+  },
+  {
+   "ask": "20260925-130222-norm-0110#2",
+   "room": "CARGO-BAY",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.212
+  },
+  {
+   "ask": "20260925-130222-norm-0110#3",
+   "room": "CARGO-BAY",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.212
+  },
+  {
+   "ask": "20260925-131125-norm-0111#1",
+   "room": "SPACETRUCK",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.193
+  },
+  {
+   "ask": "20260925-131125-norm-0111#2",
+   "room": "SPACETRUCK",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.193
+  },
+  {
+   "ask": "20260925-131125-norm-0111#3",
+   "room": "SPACETRUCK",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.193
   },
   {
    "ask": "20260925-131728-norm-0112#1",
@@ -863,12 +945,68 @@
    "retro": false,
    "kind": "region",
    "hours": 0.601
+  },
+  {
+   "ask": "20260925-134318-norm-0116#1",
+   "room": "CARGO-BAY",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.352
+  },
+  {
+   "ask": "20260925-134318-norm-0116#2",
+   "room": "CARGO-BAY",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.352
+  },
+  {
+   "ask": "20260925-141157-norm-0121#1",
+   "room": "CARGO-BAY",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.377
+  },
+  {
+   "ask": "20260925-142344-norm-0122#1",
+   "room": "CARGO-BAY",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.321
+  },
+  {
+   "ask": "20260925-142344-norm-0122#2",
+   "room": "CARGO-BAY",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.321
+  },
+  {
+   "ask": "20260925-142344-norm-0122#3",
+   "room": "CARGO-BAY",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.321
+  },
+  {
+   "ask": "20260925-144915-norm-0127#1",
+   "room": "CARGO-BAY",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.336
   }
  ],
  "cost": {
-  "runs": 95,
-  "tokens": 19622505,
-  "agentHours": 24.34,
+  "runs": 113,
+  "tokens": 23562825,
+  "agentHours": 27.85,
   "byMilestone": {
    "planning": {
     "runs": 4,
@@ -906,14 +1044,14 @@
     "hours": 0.81
    },
    "M7": {
-    "runs": 41,
-    "tokens": 6258787,
-    "hours": 7.07
+    "runs": 55,
+    "tokens": 7827278,
+    "hours": 8.67
    },
    "M5": {
-    "runs": 26,
-    "tokens": 6269369,
-    "hours": 9.55
+    "runs": 30,
+    "tokens": 8641198,
+    "hours": 11.46
    },
    "D21": {
     "runs": 3,
@@ -933,19 +1071,19 @@
     "hours": 0.24
    },
    "tooling": {
-    "runs": 18,
-    "tokens": 3502015,
-    "hours": 4.62
+    "runs": 20,
+    "tokens": 3873429,
+    "hours": 5.28
    },
    "engine": {
-    "runs": 5,
-    "tokens": 1714710,
-    "hours": 2.13
+    "runs": 7,
+    "tokens": 2185578,
+    "hours": 3.09
    },
    "history": {
-    "runs": 2,
-    "tokens": 144661,
-    "hours": 0.07
+    "runs": 3,
+    "tokens": 279549,
+    "hours": 0.19
    },
    "porting": {
     "runs": 10,
@@ -963,81 +1101,81 @@
     "hours": 0.72
    },
    "playtest": {
-    "runs": 17,
-    "tokens": 4406902,
-    "hours": 7.39
+    "runs": 18,
+    "tokens": 6074133,
+    "hours": 8.09
    },
    "review": {
-    "runs": 30,
-    "tokens": 2894895,
-    "hours": 2.48
+    "runs": 41,
+    "tokens": 3957084,
+    "hours": 3.3
    },
    "triage": {
-    "runs": 3,
-    "tokens": 841509,
-    "hours": 1.05
+    "runs": 4,
+    "tokens": 1075239,
+    "hours": 1.3
    }
   },
-  "artTokens": 4574924,
-  "roomViewsRegistered": 15,
-  "tokensPerAcceptedView": 304995,
+  "artTokens": 5637113,
+  "roomViewsRegistered": 20,
+  "tokensPerAcceptedView": 281856,
   "passes": {
-   "tagged": 20,
-   "deliveries": 85,
-   "perDelivery": 1.15
+   "tagged": 26,
+   "deliveries": 91,
+   "perDelivery": 1.12
   }
  },
  "tokens": {
   "present": true,
   "source": "wwwroot/wiki/tokens.csv",
-  "rows": 42,
+  "rows": 48,
   "span": {
    "from": "2026-09-24 19:00",
-   "to": "2026-09-25 09:59"
+   "to": "2026-09-25 11:59"
   },
   "byAgent": {
    "greg": {
-    "calls": 780,
-    "fresh": 2173166,
-    "cached": 95939840,
+    "calls": 898,
+    "fresh": 2420034,
+    "cached": 112973696,
     "cacheWrite": 0,
-    "output": 266849,
-    "reasoning": 74911,
-    "work": 2440015,
-    "all": 98379855
+    "output": 307333,
+    "reasoning": 88225,
+    "work": 2727367,
+    "all": 115701063
    },
    "norm-main": {
-    "calls": 807,
-    "fresh": 1922,
-    "cached": 377554538,
-    "cacheWrite": 2196051,
-    "output": 567100,
-    "reasoning": 107178,
-    "work": 2765073,
-    "all": 380319611
+    "calls": 918,
+    "fresh": 2210,
+    "cached": 436225855,
+    "cacheWrite": 2351127,
+    "output": 631358,
+    "reasoning": 115657,
+    "work": 2984695,
+    "all": 439210550
    },
    "norm-subagents": {
-    "calls": 9489,
-    "fresh": 18996,
-    "cached": 1692366077,
-    "cacheWrite": 21113299,
-    "output": 1078691,
-    "reasoning": 176226,
-    "work": 22210986,
-    "all": 1714577063
+    "calls": 12671,
+    "fresh": 25362,
+    "cached": 2210461398,
+    "cacheWrite": 25621534,
+    "output": 1261676,
+    "reasoning": 217196,
+    "work": 26908572,
+    "all": 2237369970
    }
   },
   "byModel": {
    "greg": {
     "gpt-5.6-sol": {
-     "calls": 657,
-     "fresh": 1898254,
-     "cached": 82206848,
+     "calls": 775,
+     "fresh": 2145122,
+     "cached": 99240704,
      "cacheWrite": 0,
-     "output": 252285,
-     "reasoning": 74304,
-     "work": 2150539,
-     "all": 84357387
+     "output": 292769,
+     "reasoning": 87618,
+     "work": 2437891,
+     "all": 101678595
     },
     "gpt-6-astra": {
      "calls": 123,
@@ -1052,58 +1190,58 @@
    },
    "norm-main": {
     "claude-opus-5-5": {
-     "calls": 807,
-     "fresh": 1922,
-     "cached": 377554538,
-     "cacheWrite": 2196051,
-     "output": 567100,
-     "reasoning": 107178,
-     "work": 2765073,
-     "all": 380319611
+     "calls": 918,
+     "fresh": 2210,
+     "cached": 436225855,
+     "cacheWrite": 2351127,
+     "output": 631358,
+     "reasoning": 115657,
+     "work": 2984695,
+     "all": 439210550
     }
    },
    "norm-subagents": {
     "claude-opus-5-5": {
-     "calls": 9489,
-     "fresh": 18996,
-     "cached": 1692366077,
-     "cacheWrite": 21113299,
-     "output": 1078691,
-     "reasoning": 176226,
-     "work": 22210986,
-     "all": 1714577063
+     "calls": 12671,
+     "fresh": 25362,
+     "cached": 2210461398,
+     "cacheWrite": 25621534,
+     "output": 1261676,
+     "reasoning": 217196,
+     "work": 26908572,
+     "all": 2237369970
     }
    }
   },
   "cachedShareOfInput": {
-   "greg": 0.978,
-   "norm-main": 0.994,
-   "norm-subagents": 0.988
+   "greg": 0.979,
+   "norm-main": 0.995,
+   "norm-subagents": 0.989
   },
   "total": {
-   "calls": 11076,
-   "fresh": 2194084,
-   "cached": 2165860455,
-   "cacheWrite": 23309350,
-   "output": 1912640,
-   "reasoning": 358315,
-   "work": 27416074,
-   "all": 2193276529
+   "calls": 14487,
+   "fresh": 2447606,
+   "cached": 2759660949,
+   "cacheWrite": 27972661,
+   "output": 2200367,
+   "reasoning": 421078,
+   "work": 32620634,
+   "all": 2792281583
   },
   "perAcceptedView": {
-   "views": 15,
-   "work": 652001,
-   "all": 32218293,
+   "views": 20,
+   "work": 567459,
+   "all": 28027436,
    "parts": {
     "greg": {
-     "work": 2440015,
-     "all": 98379855
+     "work": 2727367,
+     "all": 115701063
     },
     "normMain": {
-     "work": 2765073,
-     "all": 380319611
+     "work": 2984695,
+     "all": 439210550
     },
-    "subagentArtFromWorkLog": 4574924
+    "subagentArtFromWorkLog": 5637113
    }
   },
   "gregByModelPerView": {
@@ -1111,11 +1249,11 @@
     "models": [
      "gpt-5.6-sol"
     ],
-    "work": 2150539,
-    "all": 84357387,
-    "views": 13,
-    "workPerView": 165426,
-    "allPerView": 6489030
+    "work": 2437891,
+    "all": 101678595,
+    "views": 18,
+    "workPerView": 135438,
+    "allPerView": 5648811
    },
    "Astra": {
     "models": [
@@ -1384,26 +1522,62 @@
    {
     "start": "2026-09-25 09:00",
     "greg": {
-     "input": 207367,
-     "output": 40655,
-     "cached": 13319424
+     "input": 228784,
+     "output": 45909,
+     "cached": 14737792
     },
     "norm-main": {
-     "input": 81501,
-     "output": 32870,
-     "cached": 29964627
+     "input": 90159,
+     "output": 36076,
+     "cached": 32719304
     },
     "norm-subagents": {
-     "input": 2313652,
-     "output": 88419,
-     "cached": 304443417
+     "input": 2545809,
+     "output": 96130,
+     "cached": 314218889
+    }
+   },
+   {
+    "start": "2026-09-25 10:00",
+    "greg": {
+     "input": 189462,
+     "output": 24573,
+     "cached": 11307648
+    },
+    "norm-main": {
+     "input": 107697,
+     "output": 44779,
+     "cached": 42257941
+    },
+    "norm-subagents": {
+     "input": 2923547,
+     "output": 92789,
+     "cached": 381400636
+    }
+   },
+   {
+    "start": "2026-09-25 11:00",
+    "greg": {
+     "input": 35989,
+     "output": 10657,
+     "cached": 4307840
+    },
+    "norm-main": {
+     "input": 39009,
+     "output": 16273,
+     "cached": 13658699
+    },
+    "norm-subagents": {
+     "input": 1358897,
+     "output": 82485,
+     "cached": 126919213
     }
    }
   ]
  },
  "touches": {
   "decisions": 15,
-  "questions": 6,
+  "questions": 7,
   "days": [
    {
     "date": "2026-09-24",
@@ -1413,10 +1587,10 @@
    {
     "date": "2026-09-25",
     "decisions": 8,
-    "questions": 5
+    "questions": 6
    }
   ],
-  "perDay": 10.5
+  "perDay": 11
  },
  "milestones": [
   {
@@ -1527,6 +1701,23 @@
     "high": 0.29
    },
    "weightedPer100": 3.96
+  },
+  {
+   "round": "4",
+   "sessions": 7,
+   "commands": 2331,
+   "wins": 1,
+   "deaths": 5,
+   "per100": 4.12,
+   "negativePer100": 2.75,
+   "repeatRate": 0.5,
+   "issuesRaised": 26,
+   "severityPer100": {
+    "low": 1.54,
+    "medium": 0.99,
+    "high": 0.21
+   },
+   "weightedPer100": 4.16
   }
  ],
  "progress": {
@@ -1586,12 +1777,14 @@
   "rounds": [
    "1",
    "2",
-   "3"
+   "3",
+   "4"
   ],
   "segmentedRounds": [
    "1",
    "2",
-   "3"
+   "3",
+   "4"
   ],
   "fullRounds": [],
   "byRound": {
@@ -1626,6 +1819,19 @@
     "sessions": 7,
     "commands": 2376,
     "gained": 104,
+    "ends": {
+     "won": 1,
+     "budget": 5,
+     "stuck": 1,
+     "died": 0,
+     "open": 0
+    }
+   },
+   "4": {
+    "kind": "segmented",
+    "sessions": 7,
+    "commands": 2331,
+    "gained": 77,
     "ends": {
      "won": 1,
      "budget": 5,
@@ -2579,42 +2785,385 @@
     "turnCap": 1500,
     "capped": false,
     "roundKind": "segmented"
+   },
+   {
+    "session": "r4-click-01duffy",
+    "date": "2026-09-25",
+    "round": "4",
+    "mode": "click",
+    "persona": "an adult who played Zork in the 1980s but has never played this game",
+    "checkpoint": "01-duffy",
+    "fromOpening": false,
+    "undo": true,
+    "budget": 400,
+    "commands": 375,
+    "legs": 1,
+    "startScore": 0,
+    "bestScore": 17,
+    "gained": 17,
+    "available": 5,
+    "share": 3.4,
+    "stagesAdvanced": 2.5,
+    "stuckAt": 253,
+    "tail": 122,
+    "deaths": [
+     {
+      "n": 53,
+      "gained": 5
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      7,
+      5
+     ],
+     [
+      63,
+      8
+     ],
+     [
+      107,
+      11
+     ],
+     [
+      253,
+      17
+     ]
+    ],
+    "legStarts": [],
+    "turnCap": 1500,
+    "capped": false,
+    "roundKind": "segmented"
+   },
+   {
+    "session": "r4-click-03village",
+    "date": "2026-09-25",
+    "round": "4",
+    "mode": "click",
+    "persona": "a retired engineer who enjoys logic puzzles but loses patience with long text",
+    "checkpoint": "03-village",
+    "fromOpening": false,
+    "undo": true,
+    "budget": 400,
+    "commands": 376,
+    "legs": 1,
+    "startScore": 11,
+    "bestScore": 24,
+    "gained": 13,
+    "available": 12,
+    "share": 1.083,
+    "stagesAdvanced": 1.33,
+    "stuckAt": 193,
+    "tail": 183,
+    "deaths": [
+     {
+      "n": 124,
+      "gained": 7
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      81,
+      3
+     ],
+     [
+      112,
+      7
+     ],
+     [
+      147,
+      10
+     ],
+     [
+      193,
+      13
+     ]
+    ],
+    "legStarts": [],
+    "turnCap": 1500,
+    "capped": false,
+    "roundKind": "segmented"
+   },
+   {
+    "session": "r4-click-06plato",
+    "date": "2026-09-25",
+    "round": "4",
+    "mode": "click",
+    "persona": "a millennial who knows text adventures exist but has never finished one",
+    "checkpoint": "06-plato",
+    "fromOpening": false,
+    "undo": true,
+    "budget": 400,
+    "commands": 396,
+    "legs": 1,
+    "startScore": 51,
+    "bestScore": 54,
+    "gained": 3,
+    "available": 22,
+    "share": 0.136,
+    "stagesAdvanced": 0.14,
+    "stuckAt": 15,
+    "tail": 381,
+    "deaths": [
+     {
+      "n": 69,
+      "gained": 3
+     }
+    ],
+    "won": false,
+    "reason": "stuck",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      15,
+      3
+     ]
+    ],
+    "legStarts": [],
+    "turnCap": 1500,
+    "capped": false,
+    "roundKind": "segmented"
+   },
+   {
+    "session": "r4-typed-02station",
+    "date": "2026-09-25",
+    "round": "4",
+    "mode": "typed",
+    "persona": "a 14-year-old who has never played a text adventure, used to phone games",
+    "checkpoint": "02-station",
+    "fromOpening": false,
+    "undo": true,
+    "budget": 400,
+    "commands": 396,
+    "legs": 1,
+    "startScore": 5,
+    "bestScore": 21,
+    "gained": 16,
+    "available": 6,
+    "share": 2.667,
+    "stagesAdvanced": 1.83,
+    "stuckAt": 340,
+    "tail": 56,
+    "deaths": [],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      63,
+      3
+     ],
+     [
+      123,
+      6
+     ],
+     [
+      267,
+      12
+     ],
+     [
+      340,
+      16
+     ]
+    ],
+    "legStarts": [],
+    "turnCap": 1500,
+    "capped": false,
+    "roundKind": "segmented"
+   },
+   {
+    "session": "r4-typed-04day1end",
+    "date": "2026-09-25",
+    "round": "4",
+    "mode": "typed",
+    "persona": "a casual puzzle fan who plays escape-room games on a tablet, never a text adventure",
+    "checkpoint": "04-day1-end",
+    "fromOpening": false,
+    "undo": true,
+    "budget": 400,
+    "commands": 382,
+    "legs": 1,
+    "startScore": 23,
+    "bestScore": 29,
+    "gained": 6,
+    "available": 3,
+    "share": 2,
+    "stagesAdvanced": 1.12,
+    "stuckAt": 368,
+    "tail": 14,
+    "deaths": [
+     {
+      "n": 233,
+      "gained": 3
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      6,
+      3
+     ],
+     [
+      368,
+      6
+     ]
+    ],
+    "legStarts": [],
+    "turnCap": 1500,
+    "capped": false,
+    "roundKind": "segmented"
+   },
+   {
+    "session": "r4-typed-05day2",
+    "date": "2026-09-25",
+    "round": "4",
+    "mode": "typed",
+    "persona": "a fast-moving gamer who tries everything on screen quickly and hates reading instructions",
+    "checkpoint": "05-day2",
+    "fromOpening": false,
+    "undo": true,
+    "budget": 400,
+    "commands": 371,
+    "legs": 1,
+    "startScore": 26,
+    "bestScore": 41,
+    "gained": 15,
+    "available": 25,
+    "share": 0.6,
+    "stagesAdvanced": 0.6,
+    "stuckAt": 356,
+    "tail": 15,
+    "deaths": [
+     {
+      "n": 194,
+      "gained": 0
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      269,
+      3
+     ],
+     [
+      284,
+      8
+     ],
+     [
+      356,
+      15
+     ]
+    ],
+    "legStarts": [],
+    "turnCap": 1500,
+    "capped": false,
+    "roundKind": "segmented"
+   },
+   {
+    "session": "r4-typed-07factory",
+    "date": "2026-09-25",
+    "round": "4",
+    "mode": "typed",
+    "persona": "someone who played Planetfall on an Apple II in 1983 and loved Floyd, but never played the sequel",
+    "checkpoint": "07-factory",
+    "fromOpening": false,
+    "undo": true,
+    "budget": 400,
+    "commands": 35,
+    "legs": 1,
+    "startScore": 73,
+    "bestScore": 80,
+    "gained": 7,
+    "available": 7,
+    "share": 1,
+    "stagesAdvanced": 1,
+    "stuckAt": 33,
+    "tail": 2,
+    "deaths": [],
+    "won": true,
+    "reason": "won",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      4,
+      2
+     ],
+     [
+      33,
+      7
+     ]
+    ],
+    "legStarts": [],
+    "turnCap": 1500,
+    "capped": false,
+    "roundKind": "segmented"
    }
   ]
  },
  "git": {
-  "commits": 118,
-  "withWorkTrailer": 4,
+  "commits": 136,
+  "withWorkTrailer": 5,
   "churnByArea": {
    "wwwroot/data": 122947,
    "stationfall-master": 44064,
-   "scripts": 31740,
-   "design": 20995,
-   "wwwroot/wiki": 13012,
-   "playtests": 9721,
-   "wwwroot/rules": 8950,
-   "wwwroot/engine": 4311,
+   "scripts": 32301,
+   "design": 22519,
+   "wwwroot/wiki": 16928,
+   "playtests": 13289,
+   "wwwroot/rules": 9048,
+   "wwwroot/engine": 4438,
    "porting": 4081,
-   "wwwroot/scene": 3632,
-   "wwwroot/dashboard": 3377,
+   "wwwroot/scene": 3635,
+   "wwwroot/dashboard": 3394,
    "reference": 1649,
-   "wwwroot": 1044,
-   "(top)": 862,
-   "wwwroot/ui": 393,
-   "decisions": 142,
+   "wwwroot": 1049,
+   "(top)": 877,
+   "wwwroot/ui": 417,
+   "decisions": 165,
    "Properties": 23
   },
   "byWork": [
+   {
+    "work": "M7 DR-004",
+    "commits": 2
+   },
    {
     "work": "M7 DR-005",
     "commits": 1
    },
    {
     "work": "M7 DR-003",
-    "commits": 1
-   },
-   {
-    "work": "M7 DR-004",
     "commits": 1
    },
    {
@@ -2630,9 +3179,9 @@
   }
  ],
  "readLog": {
-  "entries": 17,
+  "entries": 24,
   "byAgent": {
-   "greg": 17
+   "greg": 24
   },
   "since": "2026-09-25T10:40:02.380Z"
  }

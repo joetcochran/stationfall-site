@@ -31,3 +31,5 @@ The project's own tools, one line each, in the order they arrived.
 - `mail.mjs` stale asks: flags an open ask when a later approval lands in its room (596ad2f); approvals only (bc2e0a4).
 - `scripts/agent-tokens.mjs`: every agent's tokens from the local session logs, read-only, written as hourly sums (221de66); Greg's model switch times too (841c00f).
 - `scripts/check-accept.mjs` and `scripts/lib/accept-checks.mjs`: every measurable accept as a check Greg runs (D25) (262bfc1); PASS* for by-eye lines, a send-time dry run (3713d3b).
+- `check-accept.mjs` held-edge check: measures a seam, a level gap or a moved crease along the boundary between held and new paint, with `release` boxes that hand held pixels back to Greg (a8b93ce).
+- Process, not a tool: D27 stops repaint rounds at diminishing returns, recording a faint fault as a known defect to fix by compute (28cd04f); contract v1.8 makes the checks a floor, not the target (97f289e); worktree branches that change Greg's tools land by fast-forward only (D26).

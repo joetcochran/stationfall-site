@@ -3,40 +3,42 @@
 <rect width="900" height="360" fill="#111a22" rx="6"/>
 <text x="70.0" y="24.0" fill="#d9e3ea" font-size="15" text-anchor="start" font-weight="600">Milestone lead time: started to done</text>
 <text x="70.0" y="348.0" fill="#8fa3b1" font-size="11" text-anchor="start">Timed by the commits named in decisions/milestones.jsonl. A milestone with no start event shows only its end; an open one runs to now.</text>
-<line x1="143.5" y1="302" x2="143.5" y2="306" stroke="#34495a"/>
-<text x="143.5" y="318.0" fill="#8fa3b1" font-size="11" text-anchor="middle">21:00</text>
-<line x1="274.2" y1="62" x2="274.2" y2="302" stroke="#34495a" stroke-dasharray="3 3"/>
-<text x="274.2" y="318.0" fill="#d9e3ea" font-size="11" text-anchor="middle">09/25</text>
-<line x1="404.8" y1="302" x2="404.8" y2="306" stroke="#34495a"/>
-<text x="404.8" y="318.0" fill="#8fa3b1" font-size="11" text-anchor="middle">03:00</text>
-<line x1="535.5" y1="302" x2="535.5" y2="306" stroke="#34495a"/>
-<text x="535.5" y="318.0" fill="#8fa3b1" font-size="11" text-anchor="middle">06:00</text>
-<line x1="666.2" y1="302" x2="666.2" y2="306" stroke="#34495a"/>
-<text x="666.2" y="318.0" fill="#8fa3b1" font-size="11" text-anchor="middle">09:00</text>
+<line x1="135.1" y1="302" x2="135.1" y2="306" stroke="#34495a"/>
+<text x="135.1" y="318.0" fill="#8fa3b1" font-size="11" text-anchor="middle">21:00</text>
+<line x1="250.8" y1="62" x2="250.8" y2="302" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="250.8" y="318.0" fill="#d9e3ea" font-size="11" text-anchor="middle">09/25</text>
+<line x1="366.5" y1="302" x2="366.5" y2="306" stroke="#34495a"/>
+<text x="366.5" y="318.0" fill="#8fa3b1" font-size="11" text-anchor="middle">03:00</text>
+<line x1="482.2" y1="302" x2="482.2" y2="306" stroke="#34495a"/>
+<text x="482.2" y="318.0" fill="#8fa3b1" font-size="11" text-anchor="middle">06:00</text>
+<line x1="598.0" y1="302" x2="598.0" y2="306" stroke="#34495a"/>
+<text x="598.0" y="318.0" fill="#8fa3b1" font-size="11" text-anchor="middle">09:00</text>
+<line x1="713.7" y1="302" x2="713.7" y2="306" stroke="#34495a"/>
+<text x="713.7" y="318.0" fill="#8fa3b1" font-size="11" text-anchor="middle">12:00</text>
 <text x="60.0" y="81.0" fill="#d9e3ea" font-size="12" text-anchor="end">M0</text>
-<rect x="113.6" y="69.0" width="20.2" height="16" rx="3" fill="#3987e5"/>
-<text x="141.8" y="81.0" fill="#8fa3b1" font-size="11" text-anchor="start">30 min</text>
+<rect x="108.6" y="69.0" width="17.9" height="16" rx="3" fill="#3987e5"/>
+<text x="134.5" y="81.0" fill="#8fa3b1" font-size="11" text-anchor="start">30 min</text>
 <text x="60.0" y="111.0" fill="#d9e3ea" font-size="12" text-anchor="end">M6</text>
-<rect x="125.4" y="99.0" width="132.2" height="16" rx="3" fill="#3987e5"/>
-<text x="265.6" y="111.0" fill="#8fa3b1" font-size="11" text-anchor="start">3.0 h</text>
+<rect x="119.1" y="99.0" width="117.1" height="16" rx="3" fill="#3987e5"/>
+<text x="244.1" y="111.0" fill="#8fa3b1" font-size="11" text-anchor="start">3.0 h</text>
 <text x="60.0" y="141.0" fill="#d9e3ea" font-size="12" text-anchor="end">M1</text>
-<rect x="133.8" y="129.0" width="19.2" height="16" rx="3" fill="#3987e5"/>
-<text x="161.0" y="141.0" fill="#8fa3b1" font-size="11" text-anchor="start">24 min</text>
+<rect x="126.5" y="129.0" width="17.0" height="16" rx="3" fill="#3987e5"/>
+<text x="151.5" y="141.0" fill="#8fa3b1" font-size="11" text-anchor="start">24 min</text>
 <text x="60.0" y="171.0" fill="#d9e3ea" font-size="12" text-anchor="end">M2</text>
-<rect x="154.3" y="159.0" width="83.5" height="16" rx="3" fill="#3987e5"/>
-<text x="245.8" y="171.0" fill="#8fa3b1" font-size="11" text-anchor="start">1.9 h</text>
+<rect x="144.6" y="159.0" width="74.0" height="16" rx="3" fill="#3987e5"/>
+<text x="226.6" y="171.0" fill="#8fa3b1" font-size="11" text-anchor="start">1.9 h</text>
 <text x="60.0" y="201.0" fill="#d9e3ea" font-size="12" text-anchor="end">M3</text>
-<path d="M237.8,189.0 l7,8 l-7,8 l-7,-8 Z" fill="#3987e5"/>
-<text x="249.8" y="201.0" fill="#8fa3b1" font-size="11" text-anchor="start">done (no start logged)</text>
+<path d="M218.6,189.0 l7,8 l-7,8 l-7,-8 Z" fill="#3987e5"/>
+<text x="230.6" y="201.0" fill="#8fa3b1" font-size="11" text-anchor="start">done (no start logged)</text>
 <text x="60.0" y="231.0" fill="#d9e3ea" font-size="12" text-anchor="end">M7</text>
-<rect x="257.6" y="219.0" width="448.9" height="16" rx="3" fill="url(#hatch)" stroke="#3987e5" stroke-width="1.5"/>
-<text x="714.4" y="231.0" fill="#8fa3b1" font-size="11" text-anchor="start">open, 10.3 h so far</text>
+<rect x="236.1" y="219.0" width="475.3" height="16" rx="3" fill="url(#hatch)" stroke="#3987e5" stroke-width="1.5"/>
+<text x="719.4" y="231.0" fill="#8fa3b1" font-size="11" text-anchor="start">open, 12.3 h so far</text>
 <text x="60.0" y="261.0" fill="#d9e3ea" font-size="12" text-anchor="end">M4</text>
-<path d="M287.1,249.0 l7,8 l-7,8 l-7,-8 Z" fill="#3987e5"/>
-<text x="299.1" y="261.0" fill="#8fa3b1" font-size="11" text-anchor="start">done (no start logged)</text>
+<path d="M262.3,249.0 l7,8 l-7,8 l-7,-8 Z" fill="#3987e5"/>
+<text x="274.3" y="261.0" fill="#8fa3b1" font-size="11" text-anchor="start">done (no start logged)</text>
 <text x="60.0" y="291.0" fill="#d9e3ea" font-size="12" text-anchor="end">M5</text>
-<rect x="302.0" y="279.0" width="404.4" height="16" rx="3" fill="url(#hatch)" stroke="#3987e5" stroke-width="1.5"/>
-<text x="714.4" y="291.0" fill="#8fa3b1" font-size="11" text-anchor="start">open, 9.3 h so far</text>
+<rect x="275.4" y="279.0" width="436.0" height="16" rx="3" fill="url(#hatch)" stroke="#3987e5" stroke-width="1.5"/>
+<text x="719.4" y="291.0" fill="#8fa3b1" font-size="11" text-anchor="start">open, 11.3 h so far</text>
 <rect x="70" y="62" width="680" height="240" fill="none" stroke="#34495a"/>
 <rect x="70" y="34" width="12" height="12" rx="2" fill="#3987e5"/>
 <text x="87.0" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">done</text>

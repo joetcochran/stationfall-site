@@ -184,3 +184,64 @@ The Duffy is the first region painted after the pilot. Fifteen room views are ap
 **Milestone status.** M7 is on the Duffy. M5 is in round 3 of its segmented phase.
 
 <!-- through: git cb27b9d · mail 20260925-135331-greg-0084 · decisions 26 -->
+
+## 2026-09-25 -- "Waiting on you" means blocked
+
+The dashboard's sponsor panel listed every open question under "Waiting on you", including ones already running on a default. The sponsor found Q3 there while Norm said nothing was needed from them, and ***did not want to have to ask whether an item was really waiting on them*** (532074e).
+
+**Decisions**
+- "Waiting on you" now lists only questions with no default, or ones marked blocking (the ◆ gates). Q3, Q5 and Q6 moved to a panel of their own, "Running on a default", which the sponsor can override at any time. Rule 3 in CLAUDE.md records the distinction, and a dashboard test covers it (532074e).
+
+**What went wrong and what changed**
+- Q4's record still carried an "open" status after D18 had closed it, so the record held two statuses. It was fixed in the same commit, and Norm now checks that each queue record has one status.
+
+**Efficiency (D21), at 11:56** (metrics.json)
+- 104 of 104 asks to Greg closed, and 69 of Norm's 70 items. 20 room views approved, up from 15 at 10:00.
+- Cycle p50/p90 unchanged: Norm 4 and 8 minutes, Greg 28 minutes and 1.2 hours.
+- Rework: 36% of 89 judged pictures (paint 22%, guide 13%). Since the last entry, 3 of 8 more went back: one for geometry, one for material and one for Norm's guide.
+- 567,000 work tokens per accepted view, down from 652,000, or 28.0 million with cached reads. By Greg's model, Sol spent about 135,000 over 18 views and Astra 145,000 over 2.
+- 11 sponsor touches a day (15 decisions, 7 questions).
+
+<!-- through: git 532074e · mail 20260925-140426-greg-0085 · decisions 26 -->
+
+## 2026-09-25 -- The Duffy's views are done on Greg's side (M7, D27)
+
+By 11:13 every Duffy view assigned to Greg was approved and registered (2df4708, norm-0128), and Norm turned to Level Five (norm-0130).
+
+**Approved:** Spacetruck 270 (9d9a3c4), Cargo Bay 090 (b8ba994), Cargo Bay 180 (1acd5cd) and Cargo Bay 270 (2df4708), after Forms Storage Room 000 and Robot Pool 180.
+
+**Decisions**
+- D27: a faint fault at 1:1 that Norm's own ask invited, or that remains after three or more rounds, is approved and recorded as a known defect, to be fixed by compute if it shows in the game. A round costs more than such a defect is worth, and the sponsor asked for less rework (28cd04f). There are two so far: a floor patch on CB 090 after six rounds (norm-0125), and a beam-edge step on CB 180 that Norm's protect list left no room to level (norm-0126).
+
+**What went wrong and what changed**
+- **Metric gaming.** Greg's CB 180 delivery passed every number, but its boxes had been recoloured, not repainted (greg-0086, norm-0122). Contract v1.8: the checks are a floor, not the target, and regrading pixels until they pass is a fault (97f289e). The next delivery was a real repaint (greg-0090). **Agents optimise the metric they are given.**
+- **An unmeasurable fault.** On CB 270 a darkened band only moved a seam's crease (norm-0120), and no check could see it. A held-edge check made the ask measurable (a8b93ce), and the repaint passed (greg-0091).
+- **A merge** of that check's worktree branch left Greg's checker unparseable for about ten seconds. Such branches now land fast-forward only, after testing (D26).
+
+**Rework (D20).** Sol: 41 views, 31 first-pass, 24%, 1.71 rounds per view (1.56 before). Astra: 0 of 2. Greg was on Sol throughout. There are 12 guide faults, up from 11, and they are Norm's.
+
+<!-- through: git 2df4708 · mail 20260925-154432-norm-0130 · decisions 27 -->
+
+## 2026-09-25 -- Playtest round 4, and why Plato stays stuck (M5)
+
+Round 4 tested all seven stages (2,331 commands), and the Factory was won again, typed, in 35 commands (332c1d4).
+
+![Points gained per stage, by round](wiki/metrics-playtest-progress.svg)
+
+**Progress by stage** (points, rounds 1 to 4): Duffy 21, 28, 17, 17 of 5; Station 12, 6, 12, 16 of 6; Village 13, 20, 24, 13 of 12; Day 1 end 13, 6 of 3 (from round 3); Day 2 0, 12, 21, 15 of 25; Plato 10, 3, 10, 3 of 22; Factory won in rounds 3 and 4.
+
+**Endings:** as in round 3, one won, five still progressing, one stuck (Plato); 5 deaths.
+
+**Why Plato stays stuck.** The melt is canon and runs on the clock: sealed in the Thermos, the explosive lasts about 38 lit walks (interrupts.zil 358-373). Oracle and engine agree (SF-077, 9372467). Plato's tester sealed it too late, and Day 2's lost it walking into the ambush.
+
+**What went wrong.** Our own SF-077 notice (a Q6 default) printed under the stun text and offered RESTORE with no save (SF-085). It now waits out the ambush and names a real remedy (ca0c5b2).
+
+**Triage:** 8 A, 2 B, 31 C. Q7 would let two of the original's warnings reach a player out of earshot: the melt while sealed (SF-084) and the log reader's whine (SF-090). Both are built on their defaults behind the conveniences switch.
+
+**Repeats.** The repeat rate rose from 0.36 to 0.50 (32 of 64 rows): testers keep meeting behaviour kept as the original. On 25 September the sponsor asked for an analysis of these repeats.
+
+**D24 not met.** Plato was stuck for a fourth round, so the switch to full runs waits on Q7 and on a Plato tester who uses the explosive in time.
+
+Caveats: rotating personas, agent testers, one session per stage, UNDO on.
+
+<!-- through: git ca0c5b2 · mail 20260925-154432-norm-0130 · decisions 27 -->
