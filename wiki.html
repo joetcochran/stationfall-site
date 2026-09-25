@@ -1,0 +1,43 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>History · Stationfall</title>
+<style>
+  :root { --bg: #0b1117; --panel: #111a22; --ink: #d9e3ea; --dim: #8fa3b1; --line: #22313d; --link: #79bdce; --code: #16222c; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .wrap { display: grid; grid-template-columns: 15rem minmax(0, 1fr); max-width: 72rem; margin: 0 auto; padding: 0 1rem; gap: 2rem; }
+  header { max-width: 72rem; margin: 0 auto; padding: 1rem; display: flex; gap: 1rem; align-items: baseline; flex-wrap: wrap; border-bottom: 1px solid var(--line); }
+  header strong { font-size: 1.1rem; letter-spacing: .04em; }
+  header a { color: var(--link); text-decoration: none; font-size: .9rem; }
+  nav { position: sticky; top: 0; align-self: start; padding: 1.5rem 0; display: flex; flex-direction: column; gap: .15rem; }
+  nav a { color: var(--dim); text-decoration: none; padding: .3rem .6rem; border-radius: .3rem; font-size: .95rem; }
+  nav a:hover { color: var(--ink); background: var(--panel); }
+  nav a.here { color: var(--ink); background: var(--panel); border-left: 3px solid var(--link); }
+  nav .group .head { display: flex; align-items: center; }
+  nav .group .head > a { flex: 1; }
+  nav .group .fold { background: none; border: 0; color: var(--dim); cursor: pointer; width: 1.1rem; margin-left: -1.1rem; padding: 0; font-size: .8rem; line-height: 1; }
+  nav .group .fold::before { content: '\25B8'; display: inline-block; transition: transform .15s; }
+  nav .group.open .fold::before { transform: rotate(90deg); }
+  nav .group .fold:hover { color: var(--ink); }
+  nav .group .count { color: var(--dim); font-size: .75rem; padding-right: .4rem; }
+  nav .group .kids { display: flex; flex-direction: column; gap: .15rem; }
+  nav .group .kids[hidden] { display: none; }
+  main { padding: 1.5rem 0 4rem; min-width: 0; }
+  main h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 1rem; }
+  main h2 { margin-top: 2.2rem; padding-top: .6rem; border-top: 1px solid var(--line); }
+  main a { color: var(--link); }
+  main code { background: var(--code); padding: .1em .35em; border-radius: .25em; font-size: .9em; }
+  main pre { background: var(--code); padding: .9rem 1rem; border-radius: .4rem; overflow-x: auto; }
+  main pre code { background: none; padding: 0; }
+  main blockquote { margin: 1rem 0; padding: .2rem 1rem; border-left: 3px solid var(--link); color: var(--dim); }
+  main img { max-width: 100%; border-radius: .4rem; }
+  .table { overflow-x: auto; }
+  main table { border-collapse: collapse; margin: 1rem 0; font-size: .95rem; }
+  main th, main td { border: 1px solid var(--line); padding: .4rem .6rem; vertical-align: top; text-align: left; }
+  main th { background: var(--panel); }
+  @media (max-width: 760px) { .wrap { grid-template-columns: 1fr; gap: 0; } nav { position: static; flex-direction: row; flex-wrap: wrap; padding: .8rem 0 0; } }
+</style>  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="apple-touch-icon" href="favicon-180.png">
+</head><body>
+<header><strong>STATIONFALL · how it was made</strong><span class="soon" style="color:var(--dim);font-size:.9rem">the game: coming at release</span></header>
+<div class="wrap"><nav id="contents" aria-label="Pages"></nav><main id="page"><p>Loading…</p></main></div>
+<script type="module">import('./wiki/wiki.js').then(m => m.show()).catch(e => { document.getElementById('page').textContent = 'Unable to load: ' + e.message; });</script>
+</body></html>

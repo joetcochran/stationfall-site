@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="The loop: Norm's review latency and Greg's turnaround (log scale)">
+<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#111a22"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8fa3b1" stroke-width="2"/></pattern></defs>
+<rect width="900" height="300" fill="#111a22" rx="6"/>
+<text x="190.0" y="24.0" fill="#d9e3ea" font-size="15" text-anchor="start" font-weight="600">The loop: Norm's review latency and Greg's turnaround (log scale)</text>
+<text x="190.0" y="288.0" fill="#8fa3b1" font-size="11" text-anchor="start">Review: a delivery to Norm's first verdict on it. Turnaround: a paint ask to the delivery that closed it (includes Greg's queue and cycle wait).</text>
+<line x1="190.0" y1="62" x2="190.0" y2="242" stroke="#1f2c37"/>
+<text x="190.0" y="258.0" fill="#8fa3b1" font-size="11" text-anchor="middle">1 min</text>
+<line x1="448.2" y1="62" x2="448.2" y2="242" stroke="#1f2c37"/>
+<text x="448.2" y="258.0" fill="#8fa3b1" font-size="11" text-anchor="middle">5 min</text>
+<line x1="624.4" y1="62" x2="624.4" y2="242" stroke="#1f2c37"/>
+<text x="624.4" y="258.0" fill="#8fa3b1" font-size="11" text-anchor="middle">15 min</text>
+<line x1="735.6" y1="62" x2="735.6" y2="242" stroke="#1f2c37"/>
+<text x="735.6" y="258.0" fill="#8fa3b1" font-size="11" text-anchor="middle">30 min</text>
+<line x1="846.8" y1="62" x2="846.8" y2="242" stroke="#1f2c37"/>
+<text x="846.8" y="258.0" fill="#8fa3b1" font-size="11" text-anchor="middle">1 h</text>
+<text x="180.0" y="105.0" fill="#d9e3ea" font-size="12" text-anchor="end">Norm: delivery to verdict</text>
+<text x="180.0" y="120.0" fill="#8fa3b1" font-size="11" text-anchor="end">p50 2 min · p90 8 min · n=29</text>
+<circle cx="360.8" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="260.3" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="262.0" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="190.0" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="247.7" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="200.4" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="190.0" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="190.0" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="219.2" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="358.0" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="677.1" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="623.0" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="217.0" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="461.5" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="390.9" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="491.9" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="393.2" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="310.3" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="433.6" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="234.1" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="260.3" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="245.9" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="445.5" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="495.5" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="446.6" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="441.6" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="523.2" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="223.6" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="200.4" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<line x1="330.4" y1="74.6" x2="330.4" y2="139.4" stroke="#d9e3ea" stroke-width="2"/>
+<line x1="519.5" y1="74.6" x2="519.5" y2="139.4" stroke="#d9e3ea" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="180.0" y="195.0" fill="#d9e3ea" font-size="12" text-anchor="end">Greg: ask to delivery</text>
+<text x="180.0" y="210.0" fill="#8fa3b1" font-size="11" text-anchor="end">p50 16 min · p90 39 min · n=33</text>
+<circle cx="477.4" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="643.5" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="444.4" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="535.5" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="422.1" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="644.6" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="609.1" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="405.5" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="462.5" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="468.2" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="370.6" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="795.2" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="815.8" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="486.5" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="393.2" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="472.0" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="533.0" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="776.6" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="796.6" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="628.6" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="667.8" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="693.6" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="656.3" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="653.3" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="619.3" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="714.2" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="549.4" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="579.0" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="762.3" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="679.5" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="718.4" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="723.4" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<circle cx="713.7" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
+<line x1="630.7" y1="164.6" x2="630.7" y2="229.4" stroke="#d9e3ea" stroke-width="2"/>
+<line x1="777.7" y1="164.6" x2="777.7" y2="229.4" stroke="#d9e3ea" stroke-width="2" stroke-dasharray="4 3"/>
+<rect x="190" y="62" width="686" height="180" fill="none" stroke="#34495a"/>
+<line x1="190" y1="40" x2="206" y2="40" stroke="#d9e3ea" stroke-width="2.5"/>
+<text x="212.0" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">p50</text>
+<line x1="249.8" y1="40" x2="265.8" y2="40" stroke="#d9e3ea" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="271.8" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">p90</text>
+</svg>

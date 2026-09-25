@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 242" width="900" height="242" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="Rework by Greg's model: share of judged views that needed another round">
+<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#111a22"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8fa3b1" stroke-width="2"/></pattern></defs>
+<rect width="900" height="242" fill="#111a22" rx="6"/>
+<text x="190.0" y="24.0" fill="#d9e3ea" font-size="15" text-anchor="start" font-weight="600">Rework by Greg's model: share of judged views that needed another round</text>
+<text x="190.0" y="230.0" fill="#8fa3b1" font-size="11" text-anchor="start">From rework-by-model.mjs. A guide fault is Norm's and not counted. Few views per model so far: read the n, not only the bar.</text>
+<line x1="190.0" y1="62" x2="190.0" y2="184" stroke="#34495a"/>
+<text x="190.0" y="200.0" fill="#8fa3b1" font-size="11" text-anchor="middle">0%</text>
+<line x1="312.5" y1="62" x2="312.5" y2="184" stroke="#1f2c37"/>
+<text x="312.5" y="200.0" fill="#8fa3b1" font-size="11" text-anchor="middle">25%</text>
+<line x1="435.0" y1="62" x2="435.0" y2="184" stroke="#1f2c37"/>
+<text x="435.0" y="200.0" fill="#8fa3b1" font-size="11" text-anchor="middle">50%</text>
+<line x1="557.5" y1="62" x2="557.5" y2="184" stroke="#1f2c37"/>
+<text x="557.5" y="200.0" fill="#8fa3b1" font-size="11" text-anchor="middle">75%</text>
+<line x1="680.0" y1="62" x2="680.0" y2="184" stroke="#1f2c37"/>
+<text x="680.0" y="200.0" fill="#8fa3b1" font-size="11" text-anchor="middle">100%</text>
+<text x="180.0" y="86.3" fill="#d9e3ea" font-size="12" text-anchor="end">Astra</text>
+<path d="M190.0,73.3 H206.6 Q209.6,73.3 209.6,76.3 V88.3 Q209.6,91.3 206.6,91.3 H190.0 Z" fill="#3987e5"/>
+<text x="217.6" y="86.3" fill="#d9e3ea" font-size="11" text-anchor="start">4%  1 of 27 views · 1.03 rounds/view</text>
+<text x="180.0" y="127.0" fill="#d9e3ea" font-size="12" text-anchor="end">none (scan-derived)</text>
+<path d="M190.0,114.0 H338.9 Q341.9,114.0 341.9,117.0 V129.0 Q341.9,132.0 338.9,132.0 H190.0 Z" fill="#d95926"/>
+<text x="349.9" y="127.0" fill="#d9e3ea" font-size="11" text-anchor="start">31%  4 of 13 views · 1.31 rounds/view</text>
+<text x="180.0" y="167.7" fill="#d9e3ea" font-size="12" text-anchor="end">Sol</text>
+<path d="M190.0,154.7 H383.0 Q386.0,154.7 386.0,157.7 V169.7 Q386.0,172.7 383.0,172.7 H190.0 Z" fill="#199e70"/>
+<text x="394.0" y="167.7" fill="#d9e3ea" font-size="11" text-anchor="start">40%  4 of 10 views · 1.7 rounds/view</text>
+</svg>

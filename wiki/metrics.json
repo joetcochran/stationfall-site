@@ -1,0 +1,759 @@
+{
+ "generated": "2026-09-25T10:35:07.673Z",
+ "clock": "US Eastern wall-clock",
+ "span": {
+  "from": "2026-09-24 20:34",
+  "to": "2026-09-25 06:35",
+  "hours": 10
+ },
+ "binHours": 1,
+ "headline": {
+  "asksClosed": 42,
+  "asksRaised": 51,
+  "normItemsClosed": 38,
+  "normItems": 39,
+  "itemsClosedPerActiveHour": 8,
+  "roomViewsRegistered": 12,
+  "cycle": {
+   "norm": {
+    "n": 38,
+    "p50": 0.03,
+    "p90": 0.11
+   },
+   "greg": {
+    "n": 42,
+    "p50": 0.19,
+    "p90": 0.65
+   },
+   "all": {
+    "n": 80,
+    "p50": 0.09,
+    "p90": 0.44
+   }
+  },
+  "reviewLatency": {
+   "n": 29,
+   "p50": 0.04,
+   "p90": 0.13
+  },
+  "gregTurnaround": {
+   "n": 33,
+   "p50": 0.26,
+   "p90": 0.65
+  },
+  "openNow": {
+   "norm": 1,
+   "greg": 9
+  },
+  "rework": {
+   "share": 0.21,
+   "paint": 0.18,
+   "guide": 0.03,
+   "judged": 62
+  },
+  "tokensPerAcceptedView": 219730,
+  "sponsorTouchesPerDay": 8.5
+ },
+ "throughput": [
+  {
+   "start": "2026-09-24 20:00",
+   "closedByNorm": 2,
+   "closedByGreg": 5,
+   "roomViews": 0,
+   "otherArt": 8
+  },
+  {
+   "start": "2026-09-24 21:00",
+   "closedByNorm": 7,
+   "closedByGreg": 8,
+   "roomViews": 0,
+   "otherArt": 28
+  },
+  {
+   "start": "2026-09-24 22:00",
+   "closedByNorm": 4,
+   "closedByGreg": 5,
+   "roomViews": 2,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-09-24 23:00",
+   "closedByNorm": 3,
+   "closedByGreg": 2,
+   "roomViews": 2,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-09-25 00:00",
+   "closedByNorm": 3,
+   "closedByGreg": 4,
+   "roomViews": 1,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-09-25 01:00",
+   "closedByNorm": 9,
+   "closedByGreg": 10,
+   "roomViews": 4,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-09-25 02:00",
+   "closedByNorm": 0,
+   "closedByGreg": 0,
+   "roomViews": 0,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-09-25 03:00",
+   "closedByNorm": 0,
+   "closedByGreg": 0,
+   "roomViews": 0,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-09-25 04:00",
+   "closedByNorm": 0,
+   "closedByGreg": 0,
+   "roomViews": 0,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-09-25 05:00",
+   "closedByNorm": 3,
+   "closedByGreg": 2,
+   "roomViews": 1,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-09-25 06:00",
+   "closedByNorm": 7,
+   "closedByGreg": 6,
+   "roomViews": 2,
+   "otherArt": 0
+  }
+ ],
+ "rework": {
+  "judged": 62,
+  "paint": 11,
+  "guide": 2,
+  "share": 0.21,
+  "paintShare": 0.18,
+  "guideShare": 0.03,
+  "byCategory": {
+   "content": 5,
+   "geometry": 5,
+   "material": 1,
+   "guide": 2
+  },
+  "byModel": {
+   "Astra": {
+    "views": 29,
+    "judged": 27,
+    "rework": 1,
+    "rate": 0.04,
+    "roundsPerView": 1.03
+   },
+   "none (scan-derived)": {
+    "views": 13,
+    "judged": 13,
+    "rework": 4,
+    "rate": 0.31,
+    "roundsPerView": 1.31
+   },
+   "Sol": {
+    "views": 10,
+    "judged": 10,
+    "rework": 4,
+    "rate": 0.4,
+    "roundsPerView": 1.7
+   }
+  }
+ },
+ "reworkBins": [
+  {
+   "start": "2026-09-24 20:00",
+   "approved": 8,
+   "paint": 0,
+   "guide": 0
+  },
+  {
+   "start": "2026-09-24 21:00",
+   "approved": 28,
+   "paint": 5,
+   "guide": 0
+  },
+  {
+   "start": "2026-09-24 22:00",
+   "approved": 2,
+   "paint": 0,
+   "guide": 0
+  },
+  {
+   "start": "2026-09-24 23:00",
+   "approved": 2,
+   "paint": 0,
+   "guide": 0
+  },
+  {
+   "start": "2026-09-25 00:00",
+   "approved": 1,
+   "paint": 2,
+   "guide": 0
+  },
+  {
+   "start": "2026-09-25 01:00",
+   "approved": 5,
+   "paint": 2,
+   "guide": 0
+  },
+  {
+   "start": "2026-09-25 02:00",
+   "approved": 0,
+   "paint": 0,
+   "guide": 0
+  },
+  {
+   "start": "2026-09-25 03:00",
+   "approved": 0,
+   "paint": 0,
+   "guide": 0
+  },
+  {
+   "start": "2026-09-25 04:00",
+   "approved": 0,
+   "paint": 0,
+   "guide": 0
+  },
+  {
+   "start": "2026-09-25 05:00",
+   "approved": 1,
+   "paint": 0,
+   "guide": 1
+  },
+  {
+   "start": "2026-09-25 06:00",
+   "approved": 2,
+   "paint": 2,
+   "guide": 1
+  }
+ ],
+ "complexity": [
+  {
+   "ask": "20260925-003439-norm-0001#1",
+   "room": null,
+   "score": 3,
+   "retro": true,
+   "kind": "other",
+   "hours": 0.1
+  },
+  {
+   "ask": "20260925-003458-norm-0002#1",
+   "room": null,
+   "score": 3,
+   "retro": true,
+   "kind": "other",
+   "hours": 0.282
+  },
+  {
+   "ask": "20260925-005444-norm-0008#1",
+   "room": null,
+   "score": 2,
+   "retro": true,
+   "kind": "other",
+   "hours": 0.081
+  },
+  {
+   "ask": "20260925-005445-norm-0009#1",
+   "room": null,
+   "score": 2,
+   "retro": true,
+   "kind": "other",
+   "hours": 0.144
+  },
+  {
+   "ask": "20260925-010456-norm-0011#1",
+   "room": null,
+   "score": 3,
+   "retro": true,
+   "kind": "other",
+   "hours": 0.071
+  },
+  {
+   "ask": "20260925-011053-norm-0014#1",
+   "room": null,
+   "score": 3,
+   "retro": true,
+   "kind": "other",
+   "hours": 0.284
+  },
+  {
+   "ask": "20260925-013145-norm-0018#1",
+   "room": null,
+   "score": 3,
+   "retro": true,
+   "kind": "other",
+   "hours": 0.227
+  },
+  {
+   "ask": "20260925-014627-norm-0020#1",
+   "room": null,
+   "score": 2,
+   "retro": true,
+   "kind": "other",
+   "hours": 0.064
+  },
+  {
+   "ask": "20260925-015147-norm-0022#1",
+   "room": null,
+   "score": 2,
+   "retro": true,
+   "kind": "other",
+   "hours": 0.091
+  },
+  {
+   "ask": "20260925-015652-norm-0023#1",
+   "room": "DECK-TWELVE",
+   "score": 13,
+   "retro": true,
+   "kind": "seed",
+   "hours": 0.094
+  },
+  {
+   "ask": "20260925-020344-norm-0026#1",
+   "room": "DECK-TWELVE",
+   "score": 13,
+   "retro": true,
+   "kind": "seed",
+   "hours": 0.051
+  },
+  {
+   "ask": "20260925-021551-norm-0028#1",
+   "room": "DECK-TWELVE",
+   "score": 8,
+   "retro": true,
+   "kind": "ring",
+   "hours": 0.725
+  },
+  {
+   "ask": "20260925-021552-norm-0029#1",
+   "room": "DECK-TWELVE",
+   "score": 8,
+   "retro": true,
+   "kind": "ring",
+   "hours": 0.824
+  },
+  {
+   "ask": "20260925-032247-norm-0034#1",
+   "room": "DECK-TWELVE",
+   "score": 5,
+   "retro": true,
+   "kind": "cap",
+   "hours": 0.106
+  },
+  {
+   "ask": "20260925-044255-norm-0038#1",
+   "room": "CARGO-BAY-ENTRANCE",
+   "score": 8,
+   "retro": true,
+   "kind": "seed",
+   "hours": 0.059
+  },
+  {
+   "ask": "20260925-044256-norm-0039#1",
+   "room": "ROBOT-POOL",
+   "score": 13,
+   "retro": true,
+   "kind": "seed",
+   "hours": 0.097
+  },
+  {
+   "ask": "20260925-044257-norm-0040#1",
+   "room": "CARGO-BAY",
+   "score": 13,
+   "retro": true,
+   "kind": "seed",
+   "hours": 0.141
+  },
+  {
+   "ask": "20260925-044258-norm-0041#1",
+   "room": "SPACETRUCK",
+   "score": 13,
+   "retro": true,
+   "kind": "seed",
+   "hours": 0.646
+  },
+  {
+   "ask": "20260925-044258-norm-0042#1",
+   "room": "FORM-STORAGE-ROOM",
+   "score": 8,
+   "retro": true,
+   "kind": "seed",
+   "hours": 0.731
+  },
+  {
+   "ask": "20260925-045410-norm-0044#1",
+   "room": "ROBOT-POOL",
+   "score": 5,
+   "retro": true,
+   "kind": "region",
+   "hours": 0.257
+  },
+  {
+   "ask": "20260925-045456-norm-0045#1",
+   "room": "CARGO-BAY",
+   "score": 5,
+   "retro": true,
+   "kind": "region",
+   "hours": 0.328
+  },
+  {
+   "ask": "20260925-045457-norm-0046#1",
+   "room": "CARGO-BAY-ENTRANCE",
+   "score": 8,
+   "retro": true,
+   "kind": "seed",
+   "hours": 0.385
+  },
+  {
+   "ask": "20260925-050325-norm-0047#1",
+   "room": "SPACETRUCK",
+   "score": 5,
+   "retro": true,
+   "kind": "region",
+   "hours": 0.305
+  },
+  {
+   "ask": "20260925-050853-norm-0048#1",
+   "room": "FORM-STORAGE-ROOM",
+   "score": 3,
+   "retro": true,
+   "kind": "region",
+   "hours": 0.299
+  },
+  {
+   "ask": "20260925-051608-norm-0049#1",
+   "room": "ROBOT-POOL",
+   "score": 5,
+   "retro": true,
+   "kind": "region",
+   "hours": 0.242
+  },
+  {
+   "ask": "20260925-051809-norm-0050#1",
+   "room": "CARGO-BAY",
+   "score": 5,
+   "retro": true,
+   "kind": "region",
+   "hours": 0.438
+  },
+  {
+   "ask": "20260925-094003-norm-0057#1",
+   "room": "CARGO-BAY-ENTRANCE",
+   "score": 5,
+   "retro": true,
+   "kind": "ring",
+   "hours": 0.157
+  },
+  {
+   "ask": "20260925-094004-norm-0058#1",
+   "room": "ROBOT-POOL",
+   "score": 8,
+   "retro": true,
+   "kind": "ring",
+   "hours": 0.188
+  },
+  {
+   "ask": "20260925-094005-norm-0059#1",
+   "room": "CARGO-BAY",
+   "score": 8,
+   "retro": true,
+   "kind": "ring",
+   "hours": 0.591
+  },
+  {
+   "ask": "20260925-094007-norm-0061#1",
+   "room": "SPACETRUCK",
+   "score": 8,
+   "retro": true,
+   "kind": "ring",
+   "hours": 0.352
+  },
+  {
+   "ask": "20260925-094008-norm-0062#1",
+   "room": "SPACETRUCK",
+   "score": 8,
+   "retro": true,
+   "kind": "ring",
+   "hours": 0.449
+  },
+  {
+   "ask": "20260925-095805-norm-0070#1",
+   "room": "ROBOT-POOL",
+   "score": 5,
+   "retro": true,
+   "kind": "region",
+   "hours": 0.463
+  },
+  {
+   "ask": "20260925-100613-norm-0071#1",
+   "room": "SPACETRUCK",
+   "score": 5,
+   "retro": true,
+   "kind": "region",
+   "hours": 0.436
+  }
+ ],
+ "cost": {
+  "runs": 49,
+  "tokens": 11317089,
+  "agentHours": 13.48,
+  "byMilestone": {
+   "planning": {
+    "runs": 4,
+    "tokens": 483568,
+    "hours": 0.24
+   },
+   "M0": {
+    "runs": 4,
+    "tokens": 666789,
+    "hours": 0.63
+   },
+   "M1": {
+    "runs": 1,
+    "tokens": 322569,
+    "hours": 0.42
+   },
+   "M2": {
+    "runs": 10,
+    "tokens": 3653978,
+    "hours": 3.53
+   },
+   "M6": {
+    "runs": 3,
+    "tokens": 483673,
+    "hours": 0.5
+   },
+   "M3": {
+    "runs": 1,
+    "tokens": 300238,
+    "hours": 0.72
+   },
+   "M4": {
+    "runs": 1,
+    "tokens": 540229,
+    "hours": 0.81
+   },
+   "M7": {
+    "runs": 16,
+    "tokens": 2553376,
+    "hours": 2.94
+   },
+   "M5": {
+    "runs": 9,
+    "tokens": 2312669,
+    "hours": 3.7
+   }
+  },
+  "byKind": {
+   "research": {
+    "runs": 4,
+    "tokens": 483568,
+    "hours": 0.24
+   },
+   "tooling": {
+    "runs": 5,
+    "tokens": 779966,
+    "hours": 1.02
+   },
+   "engine": {
+    "runs": 4,
+    "tokens": 1448628,
+    "hours": 1.86
+   },
+   "history": {
+    "runs": 2,
+    "tokens": 144661,
+    "hours": 0.07
+   },
+   "porting": {
+    "runs": 10,
+    "tokens": 3653978,
+    "hours": 3.53
+   },
+   "art-prep": {
+    "runs": 5,
+    "tokens": 1680029,
+    "hours": 2.13
+   },
+   "integration": {
+    "runs": 1,
+    "tokens": 300238,
+    "hours": 0.72
+   },
+   "playtest": {
+    "runs": 5,
+    "tokens": 1483329,
+    "hours": 2.57
+   },
+   "review": {
+    "runs": 12,
+    "tokens": 956729,
+    "hours": 0.76
+   },
+   "triage": {
+    "runs": 1,
+    "tokens": 385963,
+    "hours": 0.59
+   }
+  },
+  "artTokens": 2636758,
+  "roomViewsRegistered": 12,
+  "tokensPerAcceptedView": 219730,
+  "passes": {
+   "tagged": 0,
+   "deliveries": 64,
+   "perDelivery": null
+  }
+ },
+ "touches": {
+  "decisions": 13,
+  "questions": 4,
+  "days": [
+   {
+    "date": "2026-09-24",
+    "decisions": 7,
+    "questions": 1
+   },
+   {
+    "date": "2026-09-25",
+    "decisions": 6,
+    "questions": 3
+   }
+  ],
+  "perDay": 8.5
+ },
+ "milestones": [
+  {
+   "id": "M0",
+   "started": "2026-09-24 20:18",
+   "done": "2026-09-24 20:46",
+   "timedBy": "commit",
+   "leadHours": 0.5
+  },
+  {
+   "id": "M6",
+   "started": "2026-09-24 20:35",
+   "done": "2026-09-24 23:37",
+   "timedBy": "commit",
+   "leadHours": 3
+  },
+  {
+   "id": "M1",
+   "started": "2026-09-24 20:46",
+   "done": "2026-09-24 21:13",
+   "timedBy": "commit",
+   "leadHours": 0.4
+  },
+  {
+   "id": "M2",
+   "started": "2026-09-24 21:14",
+   "done": "2026-09-24 23:09",
+   "timedBy": "commit",
+   "leadHours": 1.9
+  },
+  {
+   "id": "M3",
+   "started": null,
+   "done": "2026-09-24 23:09",
+   "timedBy": "commit",
+   "leadHours": null
+  },
+  {
+   "id": "M7",
+   "started": "2026-09-24 23:37",
+   "done": null,
+   "timedBy": "commit",
+   "leadHours": null
+  },
+  {
+   "id": "M4",
+   "started": null,
+   "done": "2026-09-25 00:17",
+   "timedBy": "commit",
+   "leadHours": null
+  },
+  {
+   "id": "M5",
+   "started": "2026-09-25 00:38",
+   "done": null,
+   "timedBy": "commit",
+   "leadHours": null
+  }
+ ],
+ "playtest": [
+  {
+   "round": "1",
+   "sessions": 5,
+   "commands": 1942,
+   "wins": 0,
+   "deaths": 7,
+   "per100": 4.43,
+   "negativePer100": 2.68,
+   "repeatRate": 0,
+   "issuesRaised": 34
+  }
+ ],
+ "git": {
+  "commits": 82,
+  "withWorkTrailer": 4,
+  "churnByArea": {
+   "wwwroot/data": 122839,
+   "stationfall-master": 44064,
+   "scripts": 26209,
+   "design": 16132,
+   "wwwroot/rules": 8929,
+   "wwwroot/engine": 4262,
+   "porting": 4081,
+   "wwwroot/scene": 3620,
+   "wwwroot/dashboard": 3377,
+   "playtests": 3132,
+   "reference": 1649,
+   "wwwroot": 1044,
+   "(top)": 838,
+   "wwwroot/ui": 393,
+   "wwwroot/wiki": 391,
+   "decisions": 90,
+   "Properties": 23
+  },
+  "byWork": [
+   {
+    "work": "M7 DR-005",
+    "commits": 1
+   },
+   {
+    "work": "M7 DR-003",
+    "commits": 1
+   },
+   {
+    "work": "M7 DR-004",
+    "commits": 1
+   },
+   {
+    "work": "D21 metrics",
+    "commits": 1
+   }
+  ]
+ },
+ "roomsAccepted": [
+  {
+   "room": "DECK-TWELVE",
+   "date": "2026-09-24"
+  }
+ ],
+ "readLog": {
+  "entries": 0,
+  "byAgent": {},
+  "since": null
+ }
+}
