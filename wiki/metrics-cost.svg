@@ -1,57 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 410" width="900" height="410" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="Cost: agent tokens by milestone and by kind of work">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 436" width="900" height="436" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="Cost: agent tokens by milestone and by kind of work">
 <defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#111a22"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8fa3b1" stroke-width="2"/></pattern></defs>
-<rect width="900" height="410" fill="#111a22" rx="6"/>
+<rect width="900" height="436" fill="#111a22" rx="6"/>
 <text x="24.0" y="24.0" fill="#d9e3ea" font-size="15" text-anchor="start" font-weight="600">Cost: agent tokens by milestone and by kind of work</text>
-<text x="24.0" y="398.0" fill="#8fa3b1" font-size="11" text-anchor="start">From decisions/work.jsonl (subagent runs only). Norm's own session and Greg's Codex session are not in it; hours are agent wall-clock, not people.</text>
-<text x="24.0" y="56.0" fill="#d9e3ea" font-size="13" text-anchor="start">11.3M tokens · 13.48 agent-hours · 49 runs</text>
-<text x="24.0" y="76.0" fill="#8fa3b1" font-size="12" text-anchor="start">Tokens per accepted view: 220k (art-prep + review 2.6M / 12 room views approved) · Greg's image passes per delivery: n/a (0 of 64 tagged)</text>
+<text x="24.0" y="424.0" fill="#8fa3b1" font-size="11" text-anchor="start">From decisions/work.jsonl (subagent runs, as their completion reports count them). Every session's tokens are on the tokens chart; hours are agent wall-clock.</text>
+<text x="24.0" y="56.0" fill="#d9e3ea" font-size="13" text-anchor="start">13.3M tokens · 15.7 agent-hours · 62 runs</text>
+<text x="24.0" y="76.0" fill="#8fa3b1" font-size="12" text-anchor="start">Art subagents per accepted view: 229k (art-prep + review 3.2M / 14 room views) · all sessions: 535k · image passes per delivery: 1.57 (7 of 72 tagged)</text>
 <text x="24.0" y="90.0" fill="#d9e3ea" font-size="12" text-anchor="start">By milestone (tokens · hours · runs)</text>
-<text x="108.0" y="115.0" fill="#d9e3ea" font-size="11" text-anchor="end">M2</text>
+<text x="108.0" y="115.0" fill="#d9e3ea" font-size="11" text-anchor="end">M7</text>
 <path d="M116.0,104.0 H323.0 Q326.0,104.0 326.0,107.0 V117.0 Q326.0,120.0 323.0,120.0 H116.0 Z" fill="#3987e5"/>
-<text x="332.0" y="116.0" fill="#8fa3b1" font-size="11" text-anchor="start">3.7M · 3.5 h · 10</text>
-<text x="108.0" y="141.0" fill="#d9e3ea" font-size="11" text-anchor="end">M7</text>
-<path d="M116.0,130.0 H259.7 Q262.7,130.0 262.7,133.0 V143.0 Q262.7,146.0 259.7,146.0 H116.0 Z" fill="#3987e5"/>
-<text x="268.7" y="142.0" fill="#8fa3b1" font-size="11" text-anchor="start">2.6M · 2.9 h · 16</text>
+<text x="332.0" y="116.0" fill="#8fa3b1" font-size="11" text-anchor="start">4.0M · 4.4 h · 26</text>
+<text x="108.0" y="141.0" fill="#d9e3ea" font-size="11" text-anchor="end">M2</text>
+<path d="M116.0,130.0 H305.5 Q308.5,130.0 308.5,133.0 V143.0 Q308.5,146.0 305.5,146.0 H116.0 Z" fill="#3987e5"/>
+<text x="314.5" y="142.0" fill="#8fa3b1" font-size="11" text-anchor="start">3.7M · 3.5 h · 10</text>
 <text x="108.0" y="167.0" fill="#d9e3ea" font-size="11" text-anchor="end">M5</text>
-<path d="M116.0,156.0 H245.9 Q248.9,156.0 248.9,159.0 V169.0 Q248.9,172.0 245.9,172.0 H116.0 Z" fill="#3987e5"/>
-<text x="254.9" y="168.0" fill="#8fa3b1" font-size="11" text-anchor="start">2.3M · 3.7 h · 9</text>
+<path d="M116.0,156.0 H234.8 Q237.8,156.0 237.8,159.0 V169.0 Q237.8,172.0 234.8,172.0 H116.0 Z" fill="#3987e5"/>
+<text x="243.8" y="168.0" fill="#8fa3b1" font-size="11" text-anchor="start">2.3M · 3.7 h · 9</text>
 <text x="108.0" y="193.0" fill="#d9e3ea" font-size="11" text-anchor="end">M0</text>
-<path d="M116.0,182.0 H151.3 Q154.3,182.0 154.3,185.0 V195.0 Q154.3,198.0 151.3,198.0 H116.0 Z" fill="#3987e5"/>
-<text x="160.3" y="194.0" fill="#8fa3b1" font-size="11" text-anchor="start">667k · 0.6 h · 4</text>
+<path d="M116.0,182.0 H148.1 Q151.1,182.0 151.1,185.0 V195.0 Q151.1,198.0 148.1,198.0 H116.0 Z" fill="#3987e5"/>
+<text x="157.1" y="194.0" fill="#8fa3b1" font-size="11" text-anchor="start">667k · 0.6 h · 4</text>
 <text x="108.0" y="219.0" fill="#d9e3ea" font-size="11" text-anchor="end">M4</text>
-<path d="M116.0,208.0 H144.0 Q147.0,208.0 147.0,211.0 V221.0 Q147.0,224.0 144.0,224.0 H116.0 Z" fill="#3987e5"/>
-<text x="153.0" y="220.0" fill="#8fa3b1" font-size="11" text-anchor="start">540k · 0.8 h · 1</text>
+<path d="M116.0,208.0 H141.5 Q144.5,208.0 144.5,211.0 V221.0 Q144.5,224.0 141.5,224.0 H116.0 Z" fill="#3987e5"/>
+<text x="150.5" y="220.0" fill="#8fa3b1" font-size="11" text-anchor="start">540k · 0.8 h · 1</text>
 <text x="108.0" y="245.0" fill="#d9e3ea" font-size="11" text-anchor="end">M6</text>
-<path d="M116.0,234.0 H140.8 Q143.8,234.0 143.8,237.0 V247.0 Q143.8,250.0 140.8,250.0 H116.0 Z" fill="#3987e5"/>
-<text x="149.8" y="246.0" fill="#8fa3b1" font-size="11" text-anchor="start">484k · 0.5 h · 3</text>
+<path d="M116.0,234.0 H138.5 Q141.5,234.0 141.5,237.0 V247.0 Q141.5,250.0 138.5,250.0 H116.0 Z" fill="#3987e5"/>
+<text x="147.5" y="246.0" fill="#8fa3b1" font-size="11" text-anchor="start">484k · 0.5 h · 3</text>
 <text x="108.0" y="271.0" fill="#d9e3ea" font-size="11" text-anchor="end">planning</text>
-<path d="M116.0,260.0 H140.8 Q143.8,260.0 143.8,263.0 V273.0 Q143.8,276.0 140.8,276.0 H116.0 Z" fill="#3987e5"/>
-<text x="149.8" y="272.0" fill="#8fa3b1" font-size="11" text-anchor="start">484k · 0.2 h · 4</text>
-<text x="108.0" y="297.0" fill="#d9e3ea" font-size="11" text-anchor="end">M1</text>
-<path d="M116.0,286.0 H131.5 Q134.5,286.0 134.5,289.0 V299.0 Q134.5,302.0 131.5,302.0 H116.0 Z" fill="#3987e5"/>
-<text x="140.5" y="298.0" fill="#8fa3b1" font-size="11" text-anchor="start">323k · 0.4 h · 1</text>
-<text x="108.0" y="323.0" fill="#d9e3ea" font-size="11" text-anchor="end">M3</text>
-<path d="M116.0,312.0 H130.3 Q133.3,312.0 133.3,315.0 V325.0 Q133.3,328.0 130.3,328.0 H116.0 Z" fill="#3987e5"/>
-<text x="139.3" y="324.0" fill="#8fa3b1" font-size="11" text-anchor="start">300k · 0.7 h · 1</text>
+<path d="M116.0,260.0 H138.5 Q141.5,260.0 141.5,263.0 V273.0 Q141.5,276.0 138.5,276.0 H116.0 Z" fill="#3987e5"/>
+<text x="147.5" y="272.0" fill="#8fa3b1" font-size="11" text-anchor="start">484k · 0.2 h · 4</text>
+<text x="108.0" y="297.0" fill="#d9e3ea" font-size="11" text-anchor="end">D21</text>
+<path d="M116.0,286.0 H134.7 Q137.7,286.0 137.7,289.0 V299.0 Q137.7,302.0 134.7,302.0 H116.0 Z" fill="#3987e5"/>
+<text x="143.7" y="298.0" fill="#8fa3b1" font-size="11" text-anchor="start">411k · 0.6 h · 2</text>
+<text x="108.0" y="323.0" fill="#d9e3ea" font-size="11" text-anchor="end">M1</text>
+<path d="M116.0,312.0 H130.0 Q133.0,312.0 133.0,315.0 V325.0 Q133.0,328.0 130.0,328.0 H116.0 Z" fill="#3987e5"/>
+<text x="139.0" y="324.0" fill="#8fa3b1" font-size="11" text-anchor="start">323k · 0.4 h · 1</text>
+<text x="108.0" y="349.0" fill="#d9e3ea" font-size="11" text-anchor="end">M3</text>
+<path d="M116.0,338.0 H128.8 Q131.8,338.0 131.8,341.0 V351.0 Q131.8,354.0 128.8,354.0 H116.0 Z" fill="#3987e5"/>
+<text x="137.8" y="350.0" fill="#8fa3b1" font-size="11" text-anchor="start">300k · 0.7 h · 1</text>
+<text x="108.0" y="375.0" fill="#d9e3ea" font-size="11" text-anchor="end">D22</text>
+<path d="M116.0,364.0 H119.6 Q122.6,364.0 122.6,367.0 V377.0 Q122.6,380.0 119.6,380.0 H116.0 Z" fill="#3987e5"/>
+<text x="128.6" y="376.0" fill="#8fa3b1" font-size="11" text-anchor="start">126k · 0.2 h · 1</text>
 <text x="470.0" y="90.0" fill="#d9e3ea" font-size="12" text-anchor="start">By kind</text>
 <text x="554.0" y="115.0" fill="#d9e3ea" font-size="11" text-anchor="end">porting</text>
 <path d="M562.0,104.0 H755.0 Q758.0,104.0 758.0,107.0 V117.0 Q758.0,120.0 755.0,120.0 H562.0 Z" fill="#3987e5"/>
 <text x="764.0" y="116.0" fill="#8fa3b1" font-size="11" text-anchor="start">3.7M · 3.5 h · 10</text>
-<text x="554.0" y="141.0" fill="#d9e3ea" font-size="11" text-anchor="end">art-prep</text>
-<path d="M562.0,130.0 H649.1 Q652.1,130.0 652.1,133.0 V143.0 Q652.1,146.0 649.1,146.0 H562.0 Z" fill="#3987e5"/>
-<text x="658.1" y="142.0" fill="#8fa3b1" font-size="11" text-anchor="start">1.7M · 2.1 h · 5</text>
-<text x="554.0" y="167.0" fill="#d9e3ea" font-size="11" text-anchor="end">playtest</text>
-<path d="M562.0,156.0 H638.6 Q641.6,156.0 641.6,159.0 V169.0 Q641.6,172.0 638.6,172.0 H562.0 Z" fill="#3987e5"/>
-<text x="647.6" y="168.0" fill="#8fa3b1" font-size="11" text-anchor="start">1.5M · 2.6 h · 5</text>
-<text x="554.0" y="193.0" fill="#d9e3ea" font-size="11" text-anchor="end">engine</text>
-<path d="M562.0,182.0 H636.7 Q639.7,182.0 639.7,185.0 V195.0 Q639.7,198.0 636.7,198.0 H562.0 Z" fill="#3987e5"/>
-<text x="645.7" y="194.0" fill="#8fa3b1" font-size="11" text-anchor="start">1.4M · 1.9 h · 4</text>
-<text x="554.0" y="219.0" fill="#d9e3ea" font-size="11" text-anchor="end">review</text>
-<path d="M562.0,208.0 H610.3 Q613.3,208.0 613.3,211.0 V221.0 Q613.3,224.0 610.3,224.0 H562.0 Z" fill="#3987e5"/>
-<text x="619.3" y="220.0" fill="#8fa3b1" font-size="11" text-anchor="start">957k · 0.8 h · 12</text>
-<text x="554.0" y="245.0" fill="#d9e3ea" font-size="11" text-anchor="end">tooling</text>
-<path d="M562.0,234.0 H600.8 Q603.8,234.0 603.8,237.0 V247.0 Q603.8,250.0 600.8,250.0 H562.0 Z" fill="#3987e5"/>
-<text x="609.8" y="246.0" fill="#8fa3b1" font-size="11" text-anchor="start">780k · 1.0 h · 5</text>
+<text x="554.0" y="141.0" fill="#d9e3ea" font-size="11" text-anchor="end">tooling</text>
+<path d="M562.0,130.0 H676.2 Q679.2,130.0 679.2,133.0 V143.0 Q679.2,146.0 676.2,146.0 H562.0 Z" fill="#3987e5"/>
+<text x="685.2" y="142.0" fill="#8fa3b1" font-size="11" text-anchor="start">2.2M · 2.8 h · 12</text>
+<text x="554.0" y="167.0" fill="#d9e3ea" font-size="11" text-anchor="end">art-prep</text>
+<path d="M562.0,156.0 H649.1 Q652.1,156.0 652.1,159.0 V169.0 Q652.1,172.0 649.1,172.0 H562.0 Z" fill="#3987e5"/>
+<text x="658.1" y="168.0" fill="#8fa3b1" font-size="11" text-anchor="start">1.7M · 2.1 h · 5</text>
+<text x="554.0" y="193.0" fill="#d9e3ea" font-size="11" text-anchor="end">review</text>
+<path d="M562.0,182.0 H640.6 Q643.6,182.0 643.6,185.0 V195.0 Q643.6,198.0 640.6,198.0 H562.0 Z" fill="#3987e5"/>
+<text x="649.6" y="194.0" fill="#8fa3b1" font-size="11" text-anchor="start">1.5M · 1.2 h · 18</text>
+<text x="554.0" y="219.0" fill="#d9e3ea" font-size="11" text-anchor="end">playtest</text>
+<path d="M562.0,208.0 H638.6 Q641.6,208.0 641.6,211.0 V221.0 Q641.6,224.0 638.6,224.0 H562.0 Z" fill="#3987e5"/>
+<text x="647.6" y="220.0" fill="#8fa3b1" font-size="11" text-anchor="start">1.5M · 2.6 h · 5</text>
+<text x="554.0" y="245.0" fill="#d9e3ea" font-size="11" text-anchor="end">engine</text>
+<path d="M562.0,234.0 H636.7 Q639.7,234.0 639.7,237.0 V247.0 Q639.7,250.0 636.7,250.0 H562.0 Z" fill="#3987e5"/>
+<text x="645.7" y="246.0" fill="#8fa3b1" font-size="11" text-anchor="start">1.4M · 1.9 h · 4</text>
 <text x="554.0" y="271.0" fill="#d9e3ea" font-size="11" text-anchor="end">research</text>
 <path d="M562.0,260.0 H584.9 Q587.9,260.0 587.9,263.0 V273.0 Q587.9,276.0 584.9,276.0 H562.0 Z" fill="#3987e5"/>
 <text x="593.9" y="272.0" fill="#8fa3b1" font-size="11" text-anchor="start">484k · 0.2 h · 4</text>

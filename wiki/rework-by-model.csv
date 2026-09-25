@@ -1,33 +1,44 @@
 model,path,rounds,verdicts
-Astra,design/papers/FORM1-QX-17-T.png,1,approved
-Astra,design/papers/FORM1-QX-17-T@VALIDATED.png,1,approved
-Astra,design/papers/FORM2-JZ-59-G.png,1,approved
-Astra,design/papers/FORM3-HB-56-V.png,1,approved
-Astra,design/style/STYLE-duffy.png,1,approved
-Astra,design/style/STYLE-command-module.png,1,approved
-Astra,design/style/STYLE-village.png,1,approved
-Astra,design/style/STYLE-floyd-evil.png,1,approved
-Astra,design/characters/FLOYD@EVIL2.png,1,approved
-Astra,design/characters/FLOYD@EVIL3.png,1,approved
-Astra,design/characters/FLOYD@EVIL4.png,1,approved
-Astra,design/characters/FLOYD@EVIL5.png,1,approved
-Astra,design/characters/FLOYD@EVIL6.png,1,approved
-Astra,design/characters/HELEN.png,1,approved
-Astra,design/characters/REX.png,1,approved
-Astra,design/characters/PLATO.png,1,approved
-Astra,design/characters/OLIVER@DORMANT.png,1,approved
-Astra,design/characters/OLIVER.png,1,approved
-Astra,design/characters/WELDER.png,1,approved
-Astra,design/characters/OSTRICH.png,1,approved
-Astra,design/characters/OSTRICH@FLOATING.png,2,changes>approved
-Astra,design/characters/BALLOON.png,1,approved
-Astra,design/characters/BALLOON@LEASH-FREE.png,1,approved
-Astra,design/packages/DECK-TWELVE/reference/DR-001_DECK-TWELVE-278_SEED.png,1,approved
-Astra,design/packages/DECK-TWELVE/reference/DR-001_DECK-TWELVE-098_SEED.png,1,approved
-Astra,design/packages/DECK-TWELVE/reference/DR-001_DECK-TWELVE-008_GREG.png,1,approved
-Astra,design/packages/DECK-TWELVE/reference/DR-001_DECK-TWELVE-188_GREG.png,1,approved
-Astra,design/packages/DECK-TWELVE/reference/DR-001_DECK-TWELVE-CAP-UP_GREG.png,1,pending
-Astra,design/packages/DECK-TWELVE/reference/DR-001_DECK-TWELVE-CAP-UP_RESTORE-QA.png,1,pending
+Sol,design/papers/FORM1-QX-17-T.png,1,approved
+Sol,design/papers/FORM1-QX-17-T@VALIDATED.png,1,approved
+Sol,design/papers/FORM2-JZ-59-G.png,1,approved
+Sol,design/papers/FORM3-HB-56-V.png,1,approved
+Sol,design/style/STYLE-duffy.png,1,approved
+Sol,design/style/STYLE-command-module.png,1,approved
+Sol,design/style/STYLE-village.png,1,approved
+Sol,design/style/STYLE-floyd-evil.png,1,approved
+Sol,design/characters/FLOYD@EVIL2.png,1,approved
+Sol,design/characters/FLOYD@EVIL3.png,1,approved
+Sol,design/characters/FLOYD@EVIL4.png,1,approved
+Sol,design/characters/FLOYD@EVIL5.png,1,approved
+Sol,design/characters/FLOYD@EVIL6.png,1,approved
+Sol,design/characters/HELEN.png,1,approved
+Sol,design/characters/REX.png,1,approved
+Sol,design/characters/PLATO.png,1,approved
+Sol,design/characters/OLIVER@DORMANT.png,1,approved
+Sol,design/characters/OLIVER.png,1,approved
+Sol,design/characters/WELDER.png,1,approved
+Sol,design/characters/OSTRICH.png,1,approved
+Sol,design/characters/OSTRICH@FLOATING.png,2,changes>approved
+Sol,design/characters/BALLOON.png,1,approved
+Sol,design/characters/BALLOON@LEASH-FREE.png,1,approved
+Sol,design/packages/DECK-TWELVE/reference/DR-001_DECK-TWELVE-278_SEED.png,1,approved
+Sol,design/packages/DECK-TWELVE/reference/DR-001_DECK-TWELVE-098_SEED.png,1,approved
+Sol,design/packages/CARGO-BAY-ENTRANCE/reference/DR-002_CARGO-BAY-ENTRANCE-090_SEED.png,2,approved>approved
+Sol,design/packages/ROBOT-POOL/reference/DR-003_ROBOT-POOL-000_SEED.png,3,changes>changes>approved
+Sol,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-000_SEED.png,3,changes>changes>approved
+Sol,design/packages/SPACETRUCK/reference/DR-005_SPACETRUCK-090_SEED.png,1,approved
+Sol,design/packages/FORM-STORAGE-ROOM/reference/DR-006_FORM-STORAGE-ROOM-180_SEED.png,1,approved
+Sol,design/packages/CARGO-BAY-ENTRANCE/reference/DR-002_CARGO-BAY-ENTRANCE-000_GREG.png,1,approved
+Sol,design/packages/ROBOT-POOL/reference/DR-003_ROBOT-POOL-090_GREG.png,2,guide>approved
+Sol,design/packages/SPACETRUCK/reference/DR-005_SPACETRUCK-000_GREG.png,2,guide>approved
+Sol,design/packages/SPACETRUCK/reference/DR-005_SPACETRUCK-180_GREG.png,3,changes>changes>approved
+Sol,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-090_GREG.png,2,guide>changes
+Sol,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-270_GREG.png,1,guide
+Sol,design/packages/FORM-STORAGE-ROOM/reference/DR-006_FORM-STORAGE-ROOM-270_GREG.png,1,approved
+Sol,design/packages/FORM-STORAGE-ROOM/reference/DR-006_FORM-STORAGE-ROOM-000_SEED.png,1,guide
+Sol,design/packages/ROBOT-POOL/reference/DR-003_ROBOT-POOL-180_SEED.png,1,changes
+Sol,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-180_SEED.png,1,pending
 none (scan-derived),design/papers/BLUEPRINT-1.png,2,changes>approved
 none (scan-derived),design/papers/BLUEPRINT-2.png,2,changes>approved
 none (scan-derived),design/papers/BLUEPRINT-3.png,2,changes>approved
@@ -41,8 +52,7 @@ none (scan-derived),design/papers/BLUEPRINT-KEY.png,2,changes>approved
 none (scan-derived),wwwroot/favicon-32.png,1,approved
 none (scan-derived),wwwroot/favicon-180.png,1,approved
 none (scan-derived),wwwroot/favicon-512.png,1,approved
-Sol,design/packages/CARGO-BAY-ENTRANCE/reference/DR-002_CARGO-BAY-ENTRANCE-090_SEED.png,2,approved>approved
-Sol,design/packages/ROBOT-POOL/reference/DR-003_ROBOT-POOL-000_SEED.png,3,changes>changes>approved
-Sol,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-000_SEED.png,3,changes>changes>approved
-Sol,design/packages/SPACETRUCK/reference/DR-005_SPACETRUCK-090_SEED.png,1,approved
-Sol,design/packages/FORM-STORAGE-ROOM/reference/DR-006_FORM-STORAGE-ROOM-180_SEED.png,1,approved
+Astra,design/packages/DECK-TWELVE/reference/DR-001_DECK-TWELVE-008_GREG.png,1,approved
+Astra,design/packages/DECK-TWELVE/reference/DR-001_DECK-TWELVE-188_GREG.png,1,approved
+Astra,design/packages/DECK-TWELVE/reference/DR-001_DECK-TWELVE-CAP-UP_GREG.png,1,pending
+Astra,design/packages/DECK-TWELVE/reference/DR-001_DECK-TWELVE-CAP-UP_RESTORE-QA.png,1,pending

@@ -1,58 +1,60 @@
 {
- "generated": "2026-09-25T10:35:07.673Z",
+ "generated": "2026-09-25T11:40:20.623Z",
  "clock": "US Eastern wall-clock",
  "span": {
   "from": "2026-09-24 20:34",
-  "to": "2026-09-25 06:35",
-  "hours": 10
+  "to": "2026-09-25 07:40",
+  "hours": 11.1
  },
  "binHours": 1,
  "headline": {
-  "asksClosed": 42,
-  "asksRaised": 51,
-  "normItemsClosed": 38,
-  "normItems": 39,
-  "itemsClosedPerActiveHour": 8,
-  "roomViewsRegistered": 12,
+  "asksClosed": 54,
+  "asksRaised": 67,
+  "normItemsClosed": 46,
+  "normItems": 48,
+  "itemsClosedPerActiveHour": 9,
+  "roomViewsRegistered": 14,
   "cycle": {
    "norm": {
-    "n": 38,
-    "p50": 0.03,
-    "p90": 0.11
+    "n": 46,
+    "p50": 0.04,
+    "p90": 0.13
    },
    "greg": {
-    "n": 42,
-    "p50": 0.19,
-    "p90": 0.65
+    "n": 54,
+    "p50": 0.26,
+    "p90": 0.82
    },
    "all": {
-    "n": 80,
-    "p50": 0.09,
-    "p90": 0.44
+    "n": 100,
+    "p50": 0.1,
+    "p90": 0.6
    }
   },
   "reviewLatency": {
-   "n": 29,
-   "p50": 0.04,
-   "p90": 0.13
+   "n": 36,
+   "p50": 0.05,
+   "p90": 0.14
   },
   "gregTurnaround": {
-   "n": 33,
-   "p50": 0.26,
-   "p90": 0.65
+   "n": 41,
+   "p50": 0.3,
+   "p90": 1.01
   },
   "openNow": {
-   "norm": 1,
-   "greg": 9
+   "norm": 2,
+   "greg": 13
   },
   "rework": {
-   "share": 0.21,
-   "paint": 0.18,
-   "guide": 0.03,
-   "judged": 62
+   "share": 0.26,
+   "paint": 0.19,
+   "guide": 0.07,
+   "judged": 69
   },
-  "tokensPerAcceptedView": 219730,
-  "sponsorTouchesPerDay": 8.5
+  "tokensPerAcceptedView": 534965,
+  "tokensPerAcceptedViewBasis": "greg + norm-main + art subagents, work tokens (fresh + cache writes + output)",
+  "tokensPerAcceptedViewWithCachedReads": 27962297,
+  "sponsorTouchesPerDay": 9
  },
  "throughput": [
   {
@@ -127,32 +129,39 @@
   },
   {
    "start": "2026-09-25 06:00",
-   "closedByNorm": 7,
+   "closedByNorm": 11,
+   "closedByGreg": 12,
+   "roomViews": 3,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-09-25 07:00",
+   "closedByNorm": 4,
    "closedByGreg": 6,
-   "roomViews": 2,
+   "roomViews": 1,
    "otherArt": 0
   }
  ],
  "rework": {
-  "judged": 62,
-  "paint": 11,
-  "guide": 2,
-  "share": 0.21,
-  "paintShare": 0.18,
-  "guideShare": 0.03,
+  "judged": 69,
+  "paint": 13,
+  "guide": 5,
+  "share": 0.26,
+  "paintShare": 0.19,
+  "guideShare": 0.07,
   "byCategory": {
    "content": 5,
-   "geometry": 5,
+   "geometry": 7,
    "material": 1,
-   "guide": 2
+   "guide": 5
   },
   "byModel": {
-   "Astra": {
-    "views": 29,
-    "judged": 27,
-    "rework": 1,
-    "rate": 0.04,
-    "roundsPerView": 1.03
+   "Sol": {
+    "views": 40,
+    "judged": 39,
+    "rework": 6,
+    "rate": 0.15,
+    "roundsPerView": 1.27
    },
    "none (scan-derived)": {
     "views": 13,
@@ -161,12 +170,12 @@
     "rate": 0.31,
     "roundsPerView": 1.31
    },
-   "Sol": {
-    "views": 10,
-    "judged": 10,
-    "rework": 4,
-    "rate": 0.4,
-    "roundsPerView": 1.7
+   "Astra": {
+    "views": 4,
+    "judged": 2,
+    "rework": 0,
+    "rate": 0,
+    "roundsPerView": 1
    }
   }
  },
@@ -233,8 +242,14 @@
   },
   {
    "start": "2026-09-25 06:00",
-   "approved": 2,
-   "paint": 2,
+   "approved": 3,
+   "paint": 3,
+   "guide": 3
+  },
+  {
+   "start": "2026-09-25 07:00",
+   "approved": 1,
+   "paint": 1,
    "guide": 1
   }
  ],
@@ -472,6 +487,14 @@
    "hours": 0.591
   },
   {
+   "ask": "20260925-094006-norm-0060#1",
+   "room": "CARGO-BAY",
+   "score": 8,
+   "retro": true,
+   "kind": "ring",
+   "hours": 1.014
+  },
+  {
    "ask": "20260925-094007-norm-0061#1",
    "room": "SPACETRUCK",
    "score": 8,
@@ -488,6 +511,38 @@
    "hours": 0.449
   },
   {
+   "ask": "20260925-094008-norm-0063#1",
+   "room": "FORM-STORAGE-ROOM",
+   "score": 5,
+   "retro": true,
+   "kind": "ring",
+   "hours": 1.014
+  },
+  {
+   "ask": "20260925-095114-norm-0064#1",
+   "room": "FORM-STORAGE-ROOM",
+   "score": 8,
+   "retro": true,
+   "kind": "seed",
+   "hours": 1.199
+  },
+  {
+   "ask": "20260925-095115-norm-0065#1",
+   "room": "ROBOT-POOL",
+   "score": 13,
+   "retro": true,
+   "kind": "seed",
+   "hours": 1.302
+  },
+  {
+   "ask": "20260925-095116-norm-0066#1",
+   "room": "CARGO-BAY",
+   "score": 13,
+   "retro": true,
+   "kind": "seed",
+   "hours": 1.807
+  },
+  {
    "ask": "20260925-095805-norm-0070#1",
    "room": "ROBOT-POOL",
    "score": 5,
@@ -502,12 +557,36 @@
    "retro": true,
    "kind": "region",
    "hours": 0.436
+  },
+  {
+   "ask": "20260925-101153-norm-0073#1",
+   "room": "SPACETRUCK",
+   "score": 5,
+   "retro": true,
+   "kind": "region",
+   "hours": 0.455
+  },
+  {
+   "ask": "20260925-102330-norm-0077#1",
+   "room": "CARGO-BAY",
+   "score": 5,
+   "retro": true,
+   "kind": "region",
+   "hours": 0.47
+  },
+  {
+   "ask": "20260925-104320-norm-0081#1",
+   "room": "SPACETRUCK",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.601
   }
  ],
  "cost": {
-  "runs": 49,
-  "tokens": 11317089,
-  "agentHours": 13.48,
+  "runs": 62,
+  "tokens": 13287135,
+  "agentHours": 15.7,
   "byMilestone": {
    "planning": {
     "runs": 4,
@@ -545,14 +624,24 @@
     "hours": 0.81
    },
    "M7": {
-    "runs": 16,
-    "tokens": 2553376,
-    "hours": 2.94
+    "runs": 26,
+    "tokens": 3985981,
+    "hours": 4.44
    },
    "M5": {
     "runs": 9,
     "tokens": 2312669,
     "hours": 3.7
+   },
+   "D21": {
+    "runs": 2,
+    "tokens": 411258,
+    "hours": 0.55
+   },
+   "D22": {
+    "runs": 1,
+    "tokens": 126183,
+    "hours": 0.18
    }
   },
   "byKind": {
@@ -562,9 +651,9 @@
     "hours": 0.24
    },
    "tooling": {
-    "runs": 5,
-    "tokens": 779966,
-    "hours": 1.02
+    "runs": 12,
+    "tokens": 2185267,
+    "hours": 2.82
    },
    "engine": {
     "runs": 4,
@@ -597,9 +686,9 @@
     "hours": 2.57
    },
    "review": {
-    "runs": 12,
-    "tokens": 956729,
-    "hours": 0.76
+    "runs": 18,
+    "tokens": 1521474,
+    "hours": 1.18
    },
    "triage": {
     "runs": 1,
@@ -607,17 +696,395 @@
     "hours": 0.59
    }
   },
-  "artTokens": 2636758,
-  "roomViewsRegistered": 12,
-  "tokensPerAcceptedView": 219730,
+  "artTokens": 3201503,
+  "roomViewsRegistered": 14,
+  "tokensPerAcceptedView": 228679,
   "passes": {
-   "tagged": 0,
-   "deliveries": 64,
-   "perDelivery": null
+   "tagged": 7,
+   "deliveries": 72,
+   "perDelivery": 1.57
   }
  },
+ "tokens": {
+  "present": true,
+  "source": "wwwroot/wiki/tokens.csv",
+  "rows": 36,
+  "span": {
+   "from": "2026-09-24 19:00",
+   "to": "2026-09-25 07:59"
+  },
+  "byAgent": {
+   "greg": {
+    "calls": 572,
+    "fresh": 1709197,
+    "cached": 68323328,
+    "cacheWrite": 0,
+    "output": 179986,
+    "reasoning": 45959,
+    "work": 1889183,
+    "all": 70212511
+   },
+   "norm-main": {
+    "calls": 620,
+    "fresh": 1432,
+    "cached": 315659326,
+    "cacheWrite": 1939132,
+    "output": 458258,
+    "reasoning": 93312,
+    "work": 2398822,
+    "all": 318058148
+   },
+   "norm-subagents": {
+    "calls": 5606,
+    "fresh": 11230,
+    "cached": 1101697774,
+    "cacheWrite": 15455554,
+    "output": 862614,
+    "reasoning": 139865,
+    "work": 16329398,
+    "all": 1118027172
+   }
+  },
+  "byModel": {
+   "greg": {
+    "gpt-5.6-sol": {
+     "calls": 449,
+     "fresh": 1434285,
+     "cached": 54590336,
+     "cacheWrite": 0,
+     "output": 165422,
+     "reasoning": 45352,
+     "work": 1599707,
+     "all": 56190043
+    },
+    "gpt-6-astra": {
+     "calls": 123,
+     "fresh": 274912,
+     "cached": 13732992,
+     "cacheWrite": 0,
+     "output": 14564,
+     "reasoning": 607,
+     "work": 289476,
+     "all": 14022468
+    }
+   },
+   "norm-main": {
+    "claude-opus-5-5": {
+     "calls": 620,
+     "fresh": 1432,
+     "cached": 315659326,
+     "cacheWrite": 1939132,
+     "output": 458258,
+     "reasoning": 93312,
+     "work": 2398822,
+     "all": 318058148
+    }
+   },
+   "norm-subagents": {
+    "claude-opus-5-5": {
+     "calls": 5606,
+     "fresh": 11230,
+     "cached": 1101697774,
+     "cacheWrite": 15455554,
+     "output": 862614,
+     "reasoning": 139865,
+     "work": 16329398,
+     "all": 1118027172
+    }
+   }
+  },
+  "cachedShareOfInput": {
+   "greg": 0.976,
+   "norm-main": 0.994,
+   "norm-subagents": 0.986
+  },
+  "total": {
+   "calls": 6798,
+   "fresh": 1721859,
+   "cached": 1485680428,
+   "cacheWrite": 17394686,
+   "output": 1500858,
+   "reasoning": 279136,
+   "work": 20617403,
+   "all": 1506297831
+  },
+  "perAcceptedView": {
+   "views": 14,
+   "work": 534965,
+   "all": 27962297,
+   "parts": {
+    "greg": {
+     "work": 1889183,
+     "all": 70212511
+    },
+    "normMain": {
+     "work": 2398822,
+     "all": 318058148
+    },
+    "subagentArtFromWorkLog": 3201503
+   }
+  },
+  "gregByModelPerView": {
+   "Sol": {
+    "models": [
+     "gpt-5.6-sol"
+    ],
+    "work": 1599707,
+    "all": 56190043,
+    "views": 12,
+    "workPerView": 133309,
+    "allPerView": 4682504
+   },
+   "Astra": {
+    "models": [
+     "gpt-6-astra"
+    ],
+    "work": 289476,
+    "all": 14022468,
+    "views": 2,
+    "workPerView": 144738,
+    "allPerView": 7011234
+   }
+  },
+  "bins": [
+   {
+    "start": "2026-09-24 19:00",
+    "greg": {
+     "input": 44083,
+     "output": 1242,
+     "cached": 100224
+    },
+    "norm-main": {
+     "input": 90637,
+     "output": 5384,
+     "cached": 1168084
+    },
+    "norm-subagents": {
+     "input": 476034,
+     "output": 5932,
+     "cached": 8293590
+    }
+   },
+   {
+    "start": "2026-09-24 20:00",
+    "greg": {
+     "input": 198338,
+     "output": 29707,
+     "cached": 6295552
+    },
+    "norm-main": {
+     "input": 306979,
+     "output": 126509,
+     "cached": 38636602
+    },
+    "norm-subagents": {
+     "input": 803521,
+     "output": 53427,
+     "cached": 53226708
+    }
+   },
+   {
+    "start": "2026-09-24 21:00",
+    "greg": {
+     "input": 197334,
+     "output": 45051,
+     "cached": 13063040
+    },
+    "norm-main": {
+     "input": 154617,
+     "output": 69678,
+     "cached": 42524746
+    },
+    "norm-subagents": {
+     "input": 3707580,
+     "output": 381321,
+     "cached": 221886716
+    }
+   },
+   {
+    "start": "2026-09-24 22:00",
+    "greg": {
+     "input": 220393,
+     "output": 7349,
+     "cached": 5532160
+    },
+    "norm-main": {
+     "input": 68208,
+     "output": 34023,
+     "cached": 40316462
+    },
+    "norm-subagents": {
+     "input": 3343110,
+     "output": 37532,
+     "cached": 196391917
+    }
+   },
+   {
+    "start": "2026-09-24 23:00",
+    "greg": {
+     "input": 77299,
+     "output": 12084,
+     "cached": 11338112
+    },
+    "norm-main": {
+     "input": 63135,
+     "output": 32078,
+     "cached": 33748486
+    },
+    "norm-subagents": {
+     "input": 899931,
+     "output": 34637,
+     "cached": 50020833
+    }
+   },
+   {
+    "start": "2026-09-25 00:00",
+    "greg": {
+     "input": 258720,
+     "output": 11706,
+     "cached": 4477568
+    },
+    "norm-main": {
+     "input": 69870,
+     "output": 33921,
+     "cached": 29133325
+    },
+    "norm-subagents": {
+     "input": 2057317,
+     "output": 75948,
+     "cached": 205978268
+    }
+   },
+   {
+    "start": "2026-09-25 01:00",
+    "greg": {
+     "input": 107017,
+     "output": 25244,
+     "cached": 10614400
+    },
+    "norm-main": {
+     "input": 77711,
+     "output": 41959,
+     "cached": 52066734
+    },
+    "norm-subagents": {
+     "input": 1596434,
+     "output": 72879,
+     "cached": 242853159
+    }
+   },
+   {
+    "start": "2026-09-25 02:00",
+    "greg": {
+     "input": 42337,
+     "output": 759,
+     "cached": 397568
+    },
+    "norm-main": {
+     "input": 9684,
+     "output": 2682,
+     "cached": 3466791
+    },
+    "norm-subagents": {
+     "input": 190937,
+     "output": 13385,
+     "cached": 25125931
+    }
+   },
+   {
+    "start": "2026-09-25 03:00",
+    "greg": {
+     "input": 5090,
+     "output": 750,
+     "cached": 468736
+    },
+    "norm-main": {
+     "input": 0,
+     "output": 0,
+     "cached": 0
+    },
+    "norm-subagents": {
+     "input": 0,
+     "output": 0,
+     "cached": 0
+    }
+   },
+   {
+    "start": "2026-09-25 04:00",
+    "greg": {
+     "input": 4954,
+     "output": 750,
+     "cached": 502784
+    },
+    "norm-main": {
+     "input": 0,
+     "output": 0,
+     "cached": 0
+    },
+    "norm-subagents": {
+     "input": 0,
+     "output": 0,
+     "cached": 0
+    }
+   },
+   {
+    "start": "2026-09-25 05:00",
+    "greg": {
+     "input": 84636,
+     "output": 9745,
+     "cached": 2434816
+    },
+    "norm-main": {
+     "input": 885140,
+     "output": 22937,
+     "cached": 24242421
+    },
+    "norm-subagents": {
+     "input": 488947,
+     "output": 40920,
+     "cached": 16973804
+    }
+   },
+   {
+    "start": "2026-09-25 06:00",
+    "greg": {
+     "input": 367024,
+     "output": 21170,
+     "cached": 9955968
+    },
+    "norm-main": {
+     "input": 131540,
+     "output": 57280,
+     "cached": 41196498
+    },
+    "norm-subagents": {
+     "input": 1166363,
+     "output": 90603,
+     "cached": 48495434
+    }
+   },
+   {
+    "start": "2026-09-25 07:00",
+    "greg": {
+     "input": 101972,
+     "output": 14429,
+     "cached": 3142400
+    },
+    "norm-main": {
+     "input": 83043,
+     "output": 31807,
+     "cached": 9159177
+    },
+    "norm-subagents": {
+     "input": 736610,
+     "output": 56030,
+     "cached": 32451414
+    }
+   }
+  ]
+ },
  "touches": {
-  "decisions": 13,
+  "decisions": 14,
   "questions": 4,
   "days": [
    {
@@ -627,11 +1094,11 @@
    },
    {
     "date": "2026-09-25",
-    "decisions": 6,
+    "decisions": 7,
     "questions": 3
    }
   ],
-  "perDay": 8.5
+  "perDay": 9
  },
  "milestones": [
   {
@@ -705,25 +1172,25 @@
   }
  ],
  "git": {
-  "commits": 82,
+  "commits": 94,
   "withWorkTrailer": 4,
   "churnByArea": {
-   "wwwroot/data": 122839,
+   "wwwroot/data": 122947,
    "stationfall-master": 44064,
-   "scripts": 26209,
-   "design": 16132,
+   "scripts": 29082,
+   "design": 17238,
    "wwwroot/rules": 8929,
+   "wwwroot/wiki": 4683,
    "wwwroot/engine": 4262,
    "porting": 4081,
-   "wwwroot/scene": 3620,
+   "wwwroot/scene": 3632,
    "wwwroot/dashboard": 3377,
    "playtests": 3132,
    "reference": 1649,
    "wwwroot": 1044,
-   "(top)": 838,
+   "(top)": 854,
    "wwwroot/ui": 393,
-   "wwwroot/wiki": 391,
-   "decisions": 90,
+   "decisions": 105,
    "Properties": 23
   },
   "byWork": [
@@ -752,8 +1219,10 @@
   }
  ],
  "readLog": {
-  "entries": 0,
-  "byAgent": {},
-  "since": null
+  "entries": 5,
+  "byAgent": {
+   "greg": 5
+  },
+  "since": "2026-09-25T10:40:02.380Z"
  }
 }

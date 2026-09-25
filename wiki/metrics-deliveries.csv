@@ -1,12 +1,12 @@
 delivery,file,room,model,passes,delivered_eastern,verdict,judged_eastern,state,category
-20260925-004039-greg-0002,design/papers/FORM1-QX-17-T.png,,Astra,,2026-09-24 20:40,20260925-004333-norm-0003,2026-09-24 20:43,approved,
-20260925-004039-greg-0002,design/papers/FORM1-QX-17-T@VALIDATED.png,,Astra,,2026-09-24 20:40,20260925-004333-norm-0003,2026-09-24 20:43,approved,
-20260925-004039-greg-0002,design/papers/FORM2-JZ-59-G.png,,Astra,,2026-09-24 20:40,20260925-004333-norm-0003,2026-09-24 20:43,approved,
-20260925-004039-greg-0002,design/papers/FORM3-HB-56-V.png,,Astra,,2026-09-24 20:40,20260925-004333-norm-0003,2026-09-24 20:43,approved,
-20260925-005152-greg-0004,design/style/STYLE-duffy.png,,Astra,,2026-09-24 20:51,20260925-005325-norm-0007,2026-09-24 20:53,approved,
-20260925-005152-greg-0004,design/style/STYLE-command-module.png,,Astra,,2026-09-24 20:51,20260925-005325-norm-0007,2026-09-24 20:53,approved,
-20260925-005152-greg-0004,design/style/STYLE-village.png,,Astra,,2026-09-24 20:51,20260925-005325-norm-0007,2026-09-24 20:53,approved,
-20260925-005152-greg-0004,design/style/STYLE-floyd-evil.png,,Astra,,2026-09-24 20:51,20260925-005325-norm-0007,2026-09-24 20:53,approved,
+20260925-004039-greg-0002,design/papers/FORM1-QX-17-T.png,,Sol,,2026-09-24 20:40,20260925-004333-norm-0003,2026-09-24 20:43,approved,
+20260925-004039-greg-0002,design/papers/FORM1-QX-17-T@VALIDATED.png,,Sol,,2026-09-24 20:40,20260925-004333-norm-0003,2026-09-24 20:43,approved,
+20260925-004039-greg-0002,design/papers/FORM2-JZ-59-G.png,,Sol,,2026-09-24 20:40,20260925-004333-norm-0003,2026-09-24 20:43,approved,
+20260925-004039-greg-0002,design/papers/FORM3-HB-56-V.png,,Sol,,2026-09-24 20:40,20260925-004333-norm-0003,2026-09-24 20:43,approved,
+20260925-005152-greg-0004,design/style/STYLE-duffy.png,,Sol,,2026-09-24 20:51,20260925-005325-norm-0007,2026-09-24 20:53,approved,
+20260925-005152-greg-0004,design/style/STYLE-command-module.png,,Sol,,2026-09-24 20:51,20260925-005325-norm-0007,2026-09-24 20:53,approved,
+20260925-005152-greg-0004,design/style/STYLE-village.png,,Sol,,2026-09-24 20:51,20260925-005325-norm-0007,2026-09-24 20:53,approved,
+20260925-005152-greg-0004,design/style/STYLE-floyd-evil.png,,Sol,,2026-09-24 20:51,20260925-005325-norm-0007,2026-09-24 20:53,approved,
 20260925-010322-greg-0008,design/papers/BLUEPRINT-1.png,,none (scan-derived),,2026-09-24 21:03,20260925-010456-norm-0011,2026-09-24 21:04,changes-paint,content
 20260925-010322-greg-0008,design/papers/BLUEPRINT-2.png,,none (scan-derived),,2026-09-24 21:03,20260925-010456-norm-0011,2026-09-24 21:04,changes-paint,content
 20260925-010322-greg-0008,design/papers/BLUEPRINT-3.png,,none (scan-derived),,2026-09-24 21:03,20260925-010456-norm-0011,2026-09-24 21:04,changes-paint,content
@@ -21,27 +21,27 @@ delivery,file,room,model,passes,delivered_eastern,verdict,judged_eastern,state,c
 20260925-010911-greg-0009,design/papers/BLUEPRINT-2.png,,none (scan-derived),,2026-09-24 21:09,20260925-010951-norm-0013,2026-09-24 21:09,approved,
 20260925-010911-greg-0009,design/papers/BLUEPRINT-3.png,,none (scan-derived),,2026-09-24 21:09,20260925-010951-norm-0013,2026-09-24 21:09,approved,
 20260925-010911-greg-0009,design/papers/BLUEPRINT-KEY.png,,none (scan-derived),,2026-09-24 21:09,20260925-010951-norm-0013,2026-09-24 21:09,approved,
-20260925-012754-greg-0010,design/characters/FLOYD@EVIL2.png,,Astra,,2026-09-24 21:27,20260925-012920-norm-0016,2026-09-24 21:29,approved,
-20260925-012754-greg-0010,design/characters/FLOYD@EVIL3.png,,Astra,,2026-09-24 21:27,20260925-012920-norm-0016,2026-09-24 21:29,approved,
-20260925-012754-greg-0010,design/characters/FLOYD@EVIL4.png,,Astra,,2026-09-24 21:27,20260925-012920-norm-0016,2026-09-24 21:29,approved,
-20260925-012754-greg-0010,design/characters/FLOYD@EVIL5.png,,Astra,,2026-09-24 21:27,20260925-012920-norm-0016,2026-09-24 21:29,approved,
-20260925-012754-greg-0010,design/characters/FLOYD@EVIL6.png,,Astra,,2026-09-24 21:27,20260925-012920-norm-0016,2026-09-24 21:29,approved,
-20260925-012754-greg-0010,design/characters/HELEN.png,,Astra,,2026-09-24 21:27,20260925-012920-norm-0016,2026-09-24 21:29,approved,
-20260925-012754-greg-0010,design/characters/REX.png,,Astra,,2026-09-24 21:27,20260925-012920-norm-0016,2026-09-24 21:29,approved,
-20260925-012754-greg-0010,design/characters/PLATO.png,,Astra,,2026-09-24 21:27,20260925-012920-norm-0016,2026-09-24 21:29,approved,
-20260925-014523-greg-0014,design/characters/OLIVER@DORMANT.png,,Astra,,2026-09-24 21:45,20260925-014627-norm-0020,2026-09-24 21:46,approved,
-20260925-014523-greg-0014,design/characters/OLIVER.png,,Astra,,2026-09-24 21:45,20260925-014627-norm-0020,2026-09-24 21:46,approved,
-20260925-014523-greg-0014,design/characters/WELDER.png,,Astra,,2026-09-24 21:45,20260925-014627-norm-0020,2026-09-24 21:46,approved,
-20260925-014523-greg-0014,design/characters/OSTRICH.png,,Astra,,2026-09-24 21:45,20260925-014627-norm-0020,2026-09-24 21:46,approved,
-20260925-014523-greg-0014,design/characters/OSTRICH@FLOATING.png,,Astra,,2026-09-24 21:45,20260925-014627-norm-0020,2026-09-24 21:46,changes-paint,content
-20260925-014523-greg-0014,design/characters/BALLOON.png,,Astra,,2026-09-24 21:45,20260925-014627-norm-0020,2026-09-24 21:46,approved,
-20260925-014523-greg-0014,design/characters/BALLOON@LEASH-FREE.png,,Astra,,2026-09-24 21:45,20260925-014627-norm-0020,2026-09-24 21:46,approved,
-20260925-015017-greg-0015,design/characters/OSTRICH@FLOATING.png,,Astra,,2026-09-24 21:50,20260925-015115-norm-0021,2026-09-24 21:51,approved,
+20260925-012754-greg-0010,design/characters/FLOYD@EVIL2.png,,Sol,,2026-09-24 21:27,20260925-012920-norm-0016,2026-09-24 21:29,approved,
+20260925-012754-greg-0010,design/characters/FLOYD@EVIL3.png,,Sol,,2026-09-24 21:27,20260925-012920-norm-0016,2026-09-24 21:29,approved,
+20260925-012754-greg-0010,design/characters/FLOYD@EVIL4.png,,Sol,,2026-09-24 21:27,20260925-012920-norm-0016,2026-09-24 21:29,approved,
+20260925-012754-greg-0010,design/characters/FLOYD@EVIL5.png,,Sol,,2026-09-24 21:27,20260925-012920-norm-0016,2026-09-24 21:29,approved,
+20260925-012754-greg-0010,design/characters/FLOYD@EVIL6.png,,Sol,,2026-09-24 21:27,20260925-012920-norm-0016,2026-09-24 21:29,approved,
+20260925-012754-greg-0010,design/characters/HELEN.png,,Sol,,2026-09-24 21:27,20260925-012920-norm-0016,2026-09-24 21:29,approved,
+20260925-012754-greg-0010,design/characters/REX.png,,Sol,,2026-09-24 21:27,20260925-012920-norm-0016,2026-09-24 21:29,approved,
+20260925-012754-greg-0010,design/characters/PLATO.png,,Sol,,2026-09-24 21:27,20260925-012920-norm-0016,2026-09-24 21:29,approved,
+20260925-014523-greg-0014,design/characters/OLIVER@DORMANT.png,,Sol,,2026-09-24 21:45,20260925-014627-norm-0020,2026-09-24 21:46,approved,
+20260925-014523-greg-0014,design/characters/OLIVER.png,,Sol,,2026-09-24 21:45,20260925-014627-norm-0020,2026-09-24 21:46,approved,
+20260925-014523-greg-0014,design/characters/WELDER.png,,Sol,,2026-09-24 21:45,20260925-014627-norm-0020,2026-09-24 21:46,approved,
+20260925-014523-greg-0014,design/characters/OSTRICH.png,,Sol,,2026-09-24 21:45,20260925-014627-norm-0020,2026-09-24 21:46,approved,
+20260925-014523-greg-0014,design/characters/OSTRICH@FLOATING.png,,Sol,,2026-09-24 21:45,20260925-014627-norm-0020,2026-09-24 21:46,changes-paint,content
+20260925-014523-greg-0014,design/characters/BALLOON.png,,Sol,,2026-09-24 21:45,20260925-014627-norm-0020,2026-09-24 21:46,approved,
+20260925-014523-greg-0014,design/characters/BALLOON@LEASH-FREE.png,,Sol,,2026-09-24 21:45,20260925-014627-norm-0020,2026-09-24 21:46,approved,
+20260925-015017-greg-0015,design/characters/OSTRICH@FLOATING.png,,Sol,,2026-09-24 21:50,20260925-015115-norm-0021,2026-09-24 21:51,approved,
 20260925-015715-greg-0016,wwwroot/favicon-32.png,,none (scan-derived),,2026-09-24 21:57,20260925-015810-norm-0024,2026-09-24 21:58,approved,
 20260925-015715-greg-0016,wwwroot/favicon-180.png,,none (scan-derived),,2026-09-24 21:57,20260925-015810-norm-0024,2026-09-24 21:58,approved,
 20260925-015715-greg-0016,wwwroot/favicon-512.png,,none (scan-derived),,2026-09-24 21:57,20260925-015810-norm-0024,2026-09-24 21:58,approved,
-20260925-020232-greg-0017,design/packages/DECK-TWELVE/reference/DR-001_DECK-TWELVE-278_SEED.png,DECK-TWELVE,Astra,,2026-09-24 22:02,20260925-020344-norm-0025,2026-09-24 22:03,approved,
-20260925-020649-greg-0018,design/packages/DECK-TWELVE/reference/DR-001_DECK-TWELVE-098_SEED.png,DECK-TWELVE,Astra,,2026-09-24 22:06,20260925-020940-norm-0027,2026-09-24 22:09,approved,
+20260925-020232-greg-0017,design/packages/DECK-TWELVE/reference/DR-001_DECK-TWELVE-278_SEED.png,DECK-TWELVE,Sol,,2026-09-24 22:02,20260925-020344-norm-0025,2026-09-24 22:03,approved,
+20260925-020649-greg-0018,design/packages/DECK-TWELVE/reference/DR-001_DECK-TWELVE-098_SEED.png,DECK-TWELVE,Sol,,2026-09-24 22:06,20260925-020940-norm-0027,2026-09-24 22:09,approved,
 20260925-025922-greg-0023,design/packages/DECK-TWELVE/reference/DR-001_DECK-TWELVE-008_GREG.png,DECK-TWELVE,Astra,,2026-09-24 22:59,20260925-032012-norm-0033,2026-09-24 23:20,approved,
 20260925-030520-greg-0024,design/packages/DECK-TWELVE/reference/DR-001_DECK-TWELVE-188_GREG.png,DECK-TWELVE,Astra,,2026-09-24 23:05,20260925-032012-norm-0033,2026-09-24 23:20,approved,
 20260925-032908-greg-0026,design/packages/DECK-TWELVE/reference/DR-001_DECK-TWELVE-CAP-UP_GREG.png,,Astra,,2026-09-24 23:29,,,pending,
@@ -60,6 +60,14 @@ delivery,file,room,model,passes,delivered_eastern,verdict,judged_eastern,state,c
 20260925-095122-greg-0043,design/packages/ROBOT-POOL/reference/DR-003_ROBOT-POOL-090_GREG.png,ROBOT-POOL,Sol,,2026-09-25 05:51,20260925-095805-norm-0070,2026-09-25 05:58,changes-guide,guide
 20260925-100116-greg-0045,design/packages/SPACETRUCK/reference/DR-005_SPACETRUCK-000_GREG.png,SPACETRUCK,Sol,,2026-09-25 06:01,20260925-100613-norm-0071,2026-09-25 06:06,changes-guide,guide
 20260925-100705-greg-0046,design/packages/SPACETRUCK/reference/DR-005_SPACETRUCK-180_GREG.png,SPACETRUCK,Sol,,2026-09-25 06:07,20260925-101153-norm-0073,2026-09-25 06:11,changes-paint,geometry
-20260925-101531-greg-0049,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-090_GREG.png,CARGO-BAY,Sol,,2026-09-25 06:15,20260925-102330-norm-0077,2026-09-25 06:23,changes-paint,geometry
+20260925-101531-greg-0049,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-090_GREG.png,CARGO-BAY,Sol,,2026-09-25 06:15,20260925-102330-norm-0077,2026-09-25 06:23,changes-guide,guide
 20260925-102553-greg-0051,design/packages/ROBOT-POOL/reference/DR-003_ROBOT-POOL-090_GREG.png,ROBOT-POOL,Sol,,2026-09-25 06:25,20260925-102707-norm-0078,2026-09-25 06:27,approved,
 20260925-103224-greg-0052,design/packages/SPACETRUCK/reference/DR-005_SPACETRUCK-000_GREG.png,SPACETRUCK,Sol,,2026-09-25 06:32,20260925-103328-norm-0079,2026-09-25 06:33,approved,
+20260925-103912-greg-0053,design/packages/SPACETRUCK/reference/DR-005_SPACETRUCK-180_GREG.png,SPACETRUCK,Sol,,2026-09-25 06:39,20260925-104320-norm-0081,2026-09-25 06:43,changes-paint,geometry
+20260925-104057-greg-0055,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-270_GREG.png,CARGO-BAY,Sol,1,2026-09-25 06:40,20260925-104934-norm-0083,2026-09-25 06:49,changes-guide,guide
+20260925-104057-greg-0056,design/packages/FORM-STORAGE-ROOM/reference/DR-006_FORM-STORAGE-ROOM-270_GREG.png,FORM-STORAGE-ROOM,Sol,2,2026-09-25 06:40,20260925-104823-norm-0082,2026-09-25 06:48,approved,
+20260925-105141-greg-0057,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-090_GREG.png,CARGO-BAY,Sol,4,2026-09-25 06:51,20260925-105625-norm-0084,2026-09-25 06:56,changes-paint,geometry
+20260925-110311-greg-0060,design/packages/FORM-STORAGE-ROOM/reference/DR-006_FORM-STORAGE-ROOM-000_SEED.png,,Sol,1,2026-09-25 07:03,20260925-110758-norm-0086,2026-09-25 07:07,changes-guide,guide
+20260925-110923-greg-0061,design/packages/ROBOT-POOL/reference/DR-003_ROBOT-POOL-180_SEED.png,,Sol,1,2026-09-25 07:09,20260925-111801-norm-0087,2026-09-25 07:18,changes-paint,geometry
+20260925-111923-greg-0062,design/packages/SPACETRUCK/reference/DR-005_SPACETRUCK-180_GREG.png,,none (scan-derived),0,2026-09-25 07:19,20260925-112229-norm-0092,2026-09-25 07:22,approved,
+20260925-113941-greg-0065,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-180_SEED.png,,Sol,2,2026-09-25 07:39,,,pending,
