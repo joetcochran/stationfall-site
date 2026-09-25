@@ -70,4 +70,10 @@ delivery,file,room,model,passes,delivered_eastern,verdict,judged_eastern,state,c
 20260925-110311-greg-0060,design/packages/FORM-STORAGE-ROOM/reference/DR-006_FORM-STORAGE-ROOM-000_SEED.png,,Sol,1,2026-09-25 07:03,20260925-110758-norm-0086,2026-09-25 07:07,changes-guide,guide
 20260925-110923-greg-0061,design/packages/ROBOT-POOL/reference/DR-003_ROBOT-POOL-180_SEED.png,,Sol,1,2026-09-25 07:09,20260925-111801-norm-0087,2026-09-25 07:18,changes-paint,geometry
 20260925-111923-greg-0062,design/packages/SPACETRUCK/reference/DR-005_SPACETRUCK-180_GREG.png,,none (scan-derived),0,2026-09-25 07:19,20260925-112229-norm-0092,2026-09-25 07:22,approved,
-20260925-113941-greg-0065,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-180_SEED.png,,Sol,2,2026-09-25 07:39,,,pending,
+20260925-113941-greg-0065,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-180_SEED.png,,Sol,2,2026-09-25 07:39,20260925-115458-norm-0097,2026-09-25 07:54,changes-paint,geometry
+20260925-114445-greg-0066,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-270_GREG.png,,Sol,1,2026-09-25 07:44,20260925-115010-norm-0096,2026-09-25 07:50,changes-guide,guide
+20260925-115523-greg-0069,design/packages/SPACETRUCK/reference/DR-005_SPACETRUCK-270_SEED.png,,Sol,1,2026-09-25 07:55,20260925-120406-norm-0098,2026-09-25 08:04,changes-paint,geometry
+20260925-120809-greg-0070,design/packages/FORM-STORAGE-ROOM/reference/DR-006_FORM-STORAGE-ROOM-000_SEED.png,,Sol,1,2026-09-25 08:08,20260925-121150-norm-0103,2026-09-25 08:11,changes-paint,geometry
+20260925-121729-greg-0072,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-090_GREG.png,,Sol,1,2026-09-25 08:17,20260925-122416-norm-0104,2026-09-25 08:24,changes-guide,guide
+20260925-122723-greg-0073,design/packages/ROBOT-POOL/reference/DR-003_ROBOT-POOL-180_SEED.png,,Sol,1,2026-09-25 08:27,20260925-123342-norm-0105,2026-09-25 08:33,changes-guide,guide
+20260925-123415-greg-0074,design/packages/CARGO-BAY/reference/DR-004_CARGO-BAY-270_GREG.png,,Sol,0,2026-09-25 08:34,20260925-123941-norm-0107,2026-09-25 08:39,changes-paint,content

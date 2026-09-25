@@ -1,30 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="Sponsor touches per day (average 9)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="Sponsor touches per day (average 10)">
 <defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#111a22"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8fa3b1" stroke-width="2"/></pattern></defs>
 <rect width="900" height="320" fill="#111a22" rx="6"/>
-<text x="56.0" y="24.0" fill="#d9e3ea" font-size="15" text-anchor="start" font-weight="600">Sponsor touches per day (average 9)</text>
+<text x="56.0" y="24.0" fill="#d9e3ea" font-size="15" text-anchor="start" font-weight="600">Sponsor touches per day (average 10)</text>
 <text x="56.0" y="308.0" fill="#8fa3b1" font-size="11" text-anchor="start">Decisions logged as the sponsor's, plus questions queued for them, by date. Chat that never became a decision or question is not counted.</text>
 <line x1="56" y1="262.0" x2="876" y2="262.0" stroke="#34495a"/>
 <text x="48.0" y="266.0" fill="#8fa3b1" font-size="11" text-anchor="end">0</text>
-<line x1="56" y1="222.0" x2="876" y2="222.0" stroke="#1f2c37"/>
-<text x="48.0" y="226.0" fill="#8fa3b1" font-size="11" text-anchor="end">2</text>
-<line x1="56" y1="182.0" x2="876" y2="182.0" stroke="#1f2c37"/>
-<text x="48.0" y="186.0" fill="#8fa3b1" font-size="11" text-anchor="end">4</text>
-<line x1="56" y1="142.0" x2="876" y2="142.0" stroke="#1f2c37"/>
-<text x="48.0" y="146.0" fill="#8fa3b1" font-size="11" text-anchor="end">6</text>
-<line x1="56" y1="102.0" x2="876" y2="102.0" stroke="#1f2c37"/>
-<text x="48.0" y="106.0" fill="#8fa3b1" font-size="11" text-anchor="end">8</text>
+<line x1="56" y1="195.3" x2="876" y2="195.3" stroke="#1f2c37"/>
+<text x="48.0" y="199.3" fill="#8fa3b1" font-size="11" text-anchor="end">5</text>
+<line x1="56" y1="128.7" x2="876" y2="128.7" stroke="#1f2c37"/>
+<text x="48.0" y="132.7" fill="#8fa3b1" font-size="11" text-anchor="end">10</text>
 <line x1="56" y1="62.0" x2="876" y2="62.0" stroke="#1f2c37"/>
-<text x="48.0" y="66.0" fill="#8fa3b1" font-size="11" text-anchor="end">10</text>
-<rect x="216.0" y="122.0" width="90.0" height="140.0" fill="#c98500"/>
-<path d="M216.0,121.0 V105.0 Q216.0,102.0 219.0,102.0 H303.0 Q306.0,102.0 306.0,105.0 V121.0 Z" fill="#9085e9"/>
-<text x="261.0" y="97.0" fill="#d9e3ea" font-size="11" text-anchor="middle">8</text>
+<text x="48.0" y="66.0" fill="#8fa3b1" font-size="11" text-anchor="end">15</text>
+<rect x="216.0" y="168.7" width="90.0" height="93.3" fill="#c98500"/>
+<path d="M216.0,167.7 V158.3 Q216.0,155.3 219.0,155.3 H303.0 Q306.0,155.3 306.0,158.3 V167.7 Z" fill="#9085e9"/>
+<text x="261.0" y="150.3" fill="#d9e3ea" font-size="11" text-anchor="middle">8</text>
 <text x="261.0" y="278.0" fill="#d9e3ea" font-size="11" text-anchor="middle">09/24</text>
-<rect x="626.0" y="122.0" width="90.0" height="140.0" fill="#c98500"/>
-<path d="M626.0,121.0 V65.0 Q626.0,62.0 629.0,62.0 H713.0 Q716.0,62.0 716.0,65.0 V121.0 Z" fill="#9085e9"/>
-<text x="671.0" y="57.0" fill="#d9e3ea" font-size="11" text-anchor="middle">10</text>
+<rect x="626.0" y="155.3" width="90.0" height="106.7" fill="#c98500"/>
+<path d="M626.0,154.3 V105.0 Q626.0,102.0 629.0,102.0 H713.0 Q716.0,102.0 716.0,105.0 V154.3 Z" fill="#9085e9"/>
+<text x="671.0" y="97.0" fill="#d9e3ea" font-size="11" text-anchor="middle">12</text>
 <text x="671.0" y="278.0" fill="#d9e3ea" font-size="11" text-anchor="middle">09/25</text>
 <rect x="56" y="34" width="12" height="12" rx="2" fill="#c98500"/>
-<text x="73.0" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">decisions (14)</text>
+<text x="73.0" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">decisions (15)</text>
 <rect x="183.39999999999998" y="34" width="12" height="12" rx="2" fill="#9085e9"/>
-<text x="200.4" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">questions raised (4)</text>
+<text x="200.4" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">questions raised (5)</text>
 </svg>

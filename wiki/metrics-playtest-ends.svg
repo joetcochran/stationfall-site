@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 246" width="900" height="246" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="Why playtest sessions ended, by round">
+<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#111a22"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8fa3b1" stroke-width="2"/></pattern></defs>
+<rect width="900" height="246" fill="#111a22" rx="6"/>
+<text x="110.0" y="24.0" fill="#d9e3ea" font-size="15" text-anchor="start" font-weight="600">Why playtest sessions ended, by round</text>
+<text x="110.0" y="234.0" fill="#8fa3b1" font-size="11" text-anchor="start">Stuck: 200+ commands with no new points at the end. Budget: at least 90% of the command budget used, points still coming. Hover a bar for its sessions.</text>
+<rect x="110" y="34" width="12" height="12" rx="2" fill="#199e70"/>
+<text x="127.0" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">won</text>
+<rect x="164.8" y="34" width="12" height="12" rx="2" fill="#3987e5"/>
+<text x="181.8" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">budget spent, still progressing</text>
+<rect x="404.4" y="34" width="12" height="12" rx="2" fill="#c98500"/>
+<text x="421.4" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">stuck (no new points in the last 200 commands)</text>
+<rect x="110" y="54" width="12" height="12" rx="2" fill="#d95926"/>
+<text x="127.0" y="64.0" fill="#d9e3ea" font-size="12" text-anchor="start">died and stopped</text>
+<rect x="250.6" y="54" width="12" height="12" rx="2" fill="url(#hatch)" stroke="#8fa3b1"/>
+<text x="267.6" y="64.0" fill="#d9e3ea" font-size="12" text-anchor="start">still playing, or stopped early</text>
+<line x1="110.0" y1="96" x2="110.0" y2="188" stroke="#34495a"/>
+<text x="110.0" y="204.0" fill="#8fa3b1" font-size="11" text-anchor="middle">0</text>
+<line x1="260.0" y1="96" x2="260.0" y2="188" stroke="#1f2c37"/>
+<text x="260.0" y="204.0" fill="#8fa3b1" font-size="11" text-anchor="middle">1</text>
+<line x1="410.0" y1="96" x2="410.0" y2="188" stroke="#1f2c37"/>
+<text x="410.0" y="204.0" fill="#8fa3b1" font-size="11" text-anchor="middle">2</text>
+<line x1="560.0" y1="96" x2="560.0" y2="188" stroke="#1f2c37"/>
+<text x="560.0" y="204.0" fill="#8fa3b1" font-size="11" text-anchor="middle">3</text>
+<line x1="710.0" y1="96" x2="710.0" y2="188" stroke="#1f2c37"/>
+<text x="710.0" y="204.0" fill="#8fa3b1" font-size="11" text-anchor="middle">4</text>
+<line x1="860.0" y1="96" x2="860.0" y2="188" stroke="#1f2c37"/>
+<text x="860.0" y="204.0" fill="#8fa3b1" font-size="11" text-anchor="middle">5</text>
+<text x="485.0" y="220.0" fill="#8fa3b1" font-size="11" text-anchor="middle">sessions</text>
+<text x="100.0" y="119.0" fill="#d9e3ea" font-size="12" text-anchor="end">round 1</text>
+<text x="100.0" y="133.0" fill="#8fa3b1" font-size="10" text-anchor="end">1942 cmds</text>
+<g><title>round 1, budget spent, still progressing: r1-click-01duffy (21/5), r1-click-03village (13/12), r1-typed-02station (12/6)</title><rect x="110.0" y="107.0" width="450.0" height="24" rx="3" fill="#3987e5"/></g>
+<text x="335.0" y="123.0" fill="#111a22" font-size="12" text-anchor="middle" font-weight="600">3</text>
+<g><title>round 1, stuck (no new points in the last 200 commands): r1-click-06plato (10/22), r1-typed-05day2 (0/25)</title><rect x="562.0" y="107.0" width="298.0" height="24" rx="3" fill="#c98500"/></g>
+<text x="711.0" y="123.0" fill="#111a22" font-size="12" text-anchor="middle" font-weight="600">2</text>
+<text x="100.0" y="165.0" fill="#d9e3ea" font-size="12" text-anchor="end">round 2</text>
+<text x="100.0" y="179.0" fill="#8fa3b1" font-size="10" text-anchor="end">1964 cmds</text>
+<g><title>round 2, budget spent, still progressing: r2-click-01duffy (28/5), r2-click-03village (20/12), r2-typed-02station (6/6), r2-typed-05day2 (12/25)</title><rect x="110.0" y="153.0" width="600.0" height="24" rx="3" fill="#3987e5"/></g>
+<text x="410.0" y="169.0" fill="#111a22" font-size="12" text-anchor="middle" font-weight="600">4</text>
+<g><title>round 2, stuck (no new points in the last 200 commands): r2-click-06plato (3/22)</title><rect x="712.0" y="153.0" width="148.0" height="24" rx="3" fill="#c98500"/></g>
+<text x="786.0" y="169.0" fill="#111a22" font-size="12" text-anchor="middle" font-weight="600">1</text>
+</svg>

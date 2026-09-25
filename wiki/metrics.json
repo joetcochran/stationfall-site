@@ -1,60 +1,60 @@
 {
- "generated": "2026-09-25T11:40:20.623Z",
+ "generated": "2026-09-25T12:43:35.984Z",
  "clock": "US Eastern wall-clock",
  "span": {
   "from": "2026-09-24 20:34",
-  "to": "2026-09-25 07:40",
-  "hours": 11.1
+  "to": "2026-09-25 08:43",
+  "hours": 12.1
  },
  "binHours": 1,
  "headline": {
-  "asksClosed": 54,
-  "asksRaised": 67,
-  "normItemsClosed": 46,
-  "normItems": 48,
-  "itemsClosedPerActiveHour": 9,
+  "asksClosed": 69,
+  "asksRaised": 87,
+  "normItemsClosed": 55,
+  "normItems": 56,
+  "itemsClosedPerActiveHour": 10.2,
   "roomViewsRegistered": 14,
   "cycle": {
    "norm": {
-    "n": 46,
-    "p50": 0.04,
-    "p90": 0.13
+    "n": 55,
+    "p50": 0.05,
+    "p90": 0.14
    },
    "greg": {
-    "n": 54,
-    "p50": 0.26,
-    "p90": 0.82
+    "n": 69,
+    "p50": 0.33,
+    "p90": 1.3
    },
    "all": {
-    "n": 100,
-    "p50": 0.1,
-    "p90": 0.6
+    "n": 124,
+    "p50": 0.12,
+    "p90": 1.01
    }
   },
   "reviewLatency": {
-   "n": 36,
-   "p50": 0.05,
+   "n": 43,
+   "p50": 0.07,
    "p90": 0.14
   },
   "gregTurnaround": {
-   "n": 41,
-   "p50": 0.3,
-   "p90": 1.01
+   "n": 54,
+   "p50": 0.45,
+   "p90": 1.35
   },
   "openNow": {
-   "norm": 2,
-   "greg": 13
+   "norm": 1,
+   "greg": 18
   },
   "rework": {
-   "share": 0.26,
-   "paint": 0.19,
-   "guide": 0.07,
-   "judged": 69
+   "share": 0.33,
+   "paint": 0.22,
+   "guide": 0.11,
+   "judged": 76
   },
-  "tokensPerAcceptedView": 534965,
+  "tokensPerAcceptedView": 590824,
   "tokensPerAcceptedViewBasis": "greg + norm-main + art subagents, work tokens (fresh + cache writes + output)",
-  "tokensPerAcceptedViewWithCachedReads": 27962297,
-  "sponsorTouchesPerDay": 9
+  "tokensPerAcceptedViewWithCachedReads": 28018157,
+  "sponsorTouchesPerDay": 10
  },
  "throughput": [
   {
@@ -136,32 +136,39 @@
   },
   {
    "start": "2026-09-25 07:00",
-   "closedByNorm": 4,
-   "closedByGreg": 6,
+   "closedByNorm": 7,
+   "closedByGreg": 9,
    "roomViews": 1,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-09-25 08:00",
+   "closedByNorm": 6,
+   "closedByGreg": 12,
+   "roomViews": 0,
    "otherArt": 0
   }
  ],
  "rework": {
-  "judged": 69,
-  "paint": 13,
-  "guide": 5,
-  "share": 0.26,
-  "paintShare": 0.19,
-  "guideShare": 0.07,
+  "judged": 76,
+  "paint": 17,
+  "guide": 8,
+  "share": 0.33,
+  "paintShare": 0.22,
+  "guideShare": 0.11,
   "byCategory": {
-   "content": 5,
-   "geometry": 7,
+   "content": 6,
+   "geometry": 10,
    "material": 1,
-   "guide": 5
+   "guide": 8
   },
   "byModel": {
    "Sol": {
-    "views": 40,
-    "judged": 39,
-    "rework": 6,
-    "rate": 0.15,
-    "roundsPerView": 1.27
+    "views": 41,
+    "judged": 41,
+    "rework": 10,
+    "rate": 0.24,
+    "roundsPerView": 1.39
    },
    "none (scan-derived)": {
     "views": 13,
@@ -249,8 +256,14 @@
   {
    "start": "2026-09-25 07:00",
    "approved": 1,
-   "paint": 1,
-   "guide": 1
+   "paint": 2,
+   "guide": 2
+  },
+  {
+   "start": "2026-09-25 08:00",
+   "approved": 0,
+   "paint": 3,
+   "guide": 2
   }
  ],
  "complexity": [
@@ -543,6 +556,14 @@
    "hours": 1.807
   },
   {
+   "ask": "20260925-095117-norm-0067#1",
+   "room": "SPACETRUCK",
+   "score": 13,
+   "retro": true,
+   "kind": "seed",
+   "hours": 2.068
+  },
+  {
    "ask": "20260925-095805-norm-0070#1",
    "room": "ROBOT-POOL",
    "score": 5,
@@ -581,12 +602,108 @@
    "retro": false,
    "kind": "ring",
    "hours": 0.601
+  },
+  {
+   "ask": "20260925-104934-norm-0083#1",
+   "room": "CARGO-BAY",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.92
+  },
+  {
+   "ask": "20260925-105625-norm-0084#1",
+   "room": "CARGO-BAY",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.351
+  },
+  {
+   "ask": "20260925-105625-norm-0084#2",
+   "room": "CARGO-BAY",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.351
+  },
+  {
+   "ask": "20260925-105625-norm-0084#3",
+   "room": "CARGO-BAY",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.351
+  },
+  {
+   "ask": "20260925-105625-norm-0084#4",
+   "room": "CARGO-BAY",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.351
+  },
+  {
+   "ask": "20260925-110758-norm-0086#1",
+   "room": "FORM-STORAGE-ROOM",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.003
+  },
+  {
+   "ask": "20260925-110758-norm-0086#2",
+   "room": "FORM-STORAGE-ROOM",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.003
+  },
+  {
+   "ask": "20260925-110758-norm-0086#3",
+   "room": "FORM-STORAGE-ROOM",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.003
+  },
+  {
+   "ask": "20260925-111801-norm-0087#1",
+   "room": "ROBOT-POOL",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.156
+  },
+  {
+   "ask": "20260925-111801-norm-0087#2",
+   "room": "ROBOT-POOL",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.156
+  },
+  {
+   "ask": "20260925-111801-norm-0087#3",
+   "room": "ROBOT-POOL",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.156
+  },
+  {
+   "ask": "20260925-115010-norm-0096#1",
+   "room": "CARGO-BAY",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.735
   }
  ],
  "cost": {
-  "runs": 62,
-  "tokens": 13287135,
-  "agentHours": 15.7,
+  "runs": 79,
+  "tokens": 16265315,
+  "agentHours": 19.68,
   "byMilestone": {
    "planning": {
     "runs": 4,
@@ -624,19 +741,19 @@
     "hours": 0.81
    },
    "M7": {
-    "runs": 26,
-    "tokens": 3985981,
-    "hours": 4.44
+    "runs": 35,
+    "tokens": 5249741,
+    "hours": 5.85
    },
    "M5": {
-    "runs": 9,
-    "tokens": 2312669,
-    "hours": 3.7
+    "runs": 16,
+    "tokens": 3921225,
+    "hours": 6.11
    },
    "D21": {
-    "runs": 2,
-    "tokens": 411258,
-    "hours": 0.55
+    "runs": 3,
+    "tokens": 517122,
+    "hours": 0.7
    },
    "D22": {
     "runs": 1,
@@ -651,9 +768,9 @@
     "hours": 0.24
    },
    "tooling": {
-    "runs": 12,
-    "tokens": 2185267,
-    "hours": 2.82
+    "runs": 16,
+    "tokens": 2943274,
+    "hours": 3.82
    },
    "engine": {
     "runs": 4,
@@ -681,28 +798,28 @@
     "hours": 0.72
    },
    "playtest": {
-    "runs": 5,
-    "tokens": 1483329,
-    "hours": 2.57
+    "runs": 10,
+    "tokens": 2720869,
+    "hours": 4.59
    },
    "review": {
-    "runs": 18,
-    "tokens": 1521474,
-    "hours": 1.18
+    "runs": 25,
+    "tokens": 2303505,
+    "hours": 1.92
    },
    "triage": {
-    "runs": 1,
-    "tokens": 385963,
-    "hours": 0.59
+    "runs": 2,
+    "tokens": 586565,
+    "hours": 0.81
    }
   },
-  "artTokens": 3201503,
+  "artTokens": 3983534,
   "roomViewsRegistered": 14,
-  "tokensPerAcceptedView": 228679,
+  "tokensPerAcceptedView": 284538,
   "passes": {
-   "tagged": 7,
-   "deliveries": 72,
-   "perDelivery": 1.57
+   "tagged": 13,
+   "deliveries": 78,
+   "perDelivery": 1.23
   }
  },
  "tokens": {
@@ -810,8 +927,8 @@
   },
   "perAcceptedView": {
    "views": 14,
-   "work": 534965,
-   "all": 27962297,
+   "work": 590824,
+   "all": 28018157,
    "parts": {
     "greg": {
      "work": 1889183,
@@ -821,7 +938,7 @@
      "work": 2398822,
      "all": 318058148
     },
-    "subagentArtFromWorkLog": 3201503
+    "subagentArtFromWorkLog": 3983534
    }
   },
   "gregByModelPerView": {
@@ -1084,8 +1201,8 @@
   ]
  },
  "touches": {
-  "decisions": 14,
-  "questions": 4,
+  "decisions": 15,
+  "questions": 5,
   "days": [
    {
     "date": "2026-09-24",
@@ -1094,11 +1211,11 @@
    },
    {
     "date": "2026-09-25",
-    "decisions": 7,
-    "questions": 3
+    "decisions": 8,
+    "questions": 4
    }
   ],
-  "perDay": 9
+  "perDay": 10
  },
  "milestones": [
   {
@@ -1168,29 +1285,702 @@
    "per100": 4.43,
    "negativePer100": 2.68,
    "repeatRate": 0,
-   "issuesRaised": 34
+   "issuesRaised": 34,
+   "severityPer100": {
+    "low": 1.18,
+    "medium": 0.88,
+    "high": 0.62
+   },
+   "weightedPer100": 4.79
+  },
+  {
+   "round": "2",
+   "sessions": 5,
+   "commands": 1964,
+   "wins": 0,
+   "deaths": 14,
+   "per100": 3.21,
+   "negativePer100": 2.19,
+   "repeatRate": 0.465,
+   "issuesRaised": 23,
+   "severityPer100": {
+    "low": 1.32,
+    "medium": 0.76,
+    "high": 0.1
+   },
+   "weightedPer100": 3.16
   }
  ],
+ "progress": {
+  "stuckN": 200,
+  "total": 80,
+  "stages": [
+   {
+    "id": "01-duffy",
+    "name": "Duffy",
+    "start": 0,
+    "end": 5,
+    "available": 5
+   },
+   {
+    "id": "02-station",
+    "name": "Station",
+    "start": 5,
+    "end": 11,
+    "available": 6
+   },
+   {
+    "id": "03-village",
+    "name": "Village",
+    "start": 11,
+    "end": 23,
+    "available": 12
+   },
+   {
+    "id": "04-day1-end",
+    "name": "Day 1 end",
+    "start": 23,
+    "end": 26,
+    "available": 3
+   },
+   {
+    "id": "05-day2",
+    "name": "Day 2",
+    "start": 26,
+    "end": 51,
+    "available": 25
+   },
+   {
+    "id": "06-plato",
+    "name": "Plato",
+    "start": 51,
+    "end": 73,
+    "available": 22
+   },
+   {
+    "id": "07-factory",
+    "name": "Factory",
+    "start": 73,
+    "end": 80,
+    "available": 7
+   }
+  ],
+  "rounds": [
+   "1",
+   "2"
+  ],
+  "segmentedRounds": [
+   "1",
+   "2"
+  ],
+  "fullRounds": [],
+  "byRound": {
+   "1": {
+    "kind": "segmented",
+    "sessions": 5,
+    "commands": 1942,
+    "gained": 56,
+    "ends": {
+     "won": 0,
+     "budget": 3,
+     "stuck": 2,
+     "died": 0,
+     "open": 0
+    }
+   },
+   "2": {
+    "kind": "segmented",
+    "sessions": 5,
+    "commands": 1964,
+    "gained": 69,
+    "ends": {
+     "won": 0,
+     "budget": 4,
+     "stuck": 1,
+     "died": 0,
+     "open": 0
+    }
+   }
+  },
+  "sessions": [
+   {
+    "session": "r1-click-01duffy",
+    "date": "2026-09-25",
+    "round": "1",
+    "mode": "click",
+    "persona": "a 14-year-old who has never played a text adventure, used to phone games",
+    "checkpoint": "01-duffy",
+    "fromOpening": false,
+    "undo": false,
+    "budget": 400,
+    "commands": 397,
+    "legs": 1,
+    "startScore": 0,
+    "bestScore": 21,
+    "gained": 21,
+    "available": 5,
+    "share": 4.2,
+    "stagesAdvanced": 2.83,
+    "stuckAt": 328,
+    "tail": 69,
+    "deaths": [],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      9,
+      5
+     ],
+     [
+      39,
+      8
+     ],
+     [
+      87,
+      11
+     ],
+     [
+      283,
+      17
+     ],
+     [
+      328,
+      21
+     ]
+    ],
+    "legStarts": [],
+    "turnCap": 1500,
+    "capped": false,
+    "roundKind": "segmented"
+   },
+   {
+    "session": "r1-click-03village",
+    "date": "2026-09-25",
+    "round": "1",
+    "mode": "click",
+    "persona": "a millennial who knows text adventures exist but has never finished one",
+    "checkpoint": "03-village",
+    "fromOpening": false,
+    "undo": false,
+    "budget": 400,
+    "commands": 367,
+    "legs": 1,
+    "startScore": 11,
+    "bestScore": 24,
+    "gained": 13,
+    "available": 12,
+    "share": 1.083,
+    "stagesAdvanced": 1.33,
+    "stuckAt": 248,
+    "tail": 119,
+    "deaths": [
+     {
+      "n": 140,
+      "gained": 10
+     },
+     {
+      "n": 366,
+      "gained": 13
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      37,
+      4
+     ],
+     [
+      92,
+      7
+     ],
+     [
+      114,
+      10
+     ],
+     [
+      248,
+      13
+     ]
+    ],
+    "legStarts": [],
+    "turnCap": 1500,
+    "capped": false,
+    "roundKind": "segmented"
+   },
+   {
+    "session": "r1-click-06plato",
+    "date": "2026-09-25",
+    "round": "1",
+    "mode": "click",
+    "persona": "a casual puzzle fan who plays escape-room games on a tablet, never a text adventure",
+    "checkpoint": "06-plato",
+    "fromOpening": false,
+    "undo": false,
+    "budget": 400,
+    "commands": 382,
+    "legs": 1,
+    "startScore": 51,
+    "bestScore": 61,
+    "gained": 10,
+    "available": 22,
+    "share": 0.455,
+    "stagesAdvanced": 0.45,
+    "stuckAt": 33,
+    "tail": 349,
+    "deaths": [
+     {
+      "n": 26,
+      "gained": 3
+     },
+     {
+      "n": 110,
+      "gained": 10
+     },
+     {
+      "n": 156,
+      "gained": 10
+     }
+    ],
+    "won": false,
+    "reason": "stuck",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      8,
+      3
+     ],
+     [
+      33,
+      10
+     ]
+    ],
+    "legStarts": [],
+    "turnCap": 1500,
+    "capped": false,
+    "roundKind": "segmented"
+   },
+   {
+    "session": "r1-typed-02station",
+    "date": "2026-09-25",
+    "round": "1",
+    "mode": "typed",
+    "persona": "an adult who played Zork in the 1980s but has never played this game",
+    "checkpoint": "02-station",
+    "fromOpening": false,
+    "undo": false,
+    "budget": 400,
+    "commands": 399,
+    "legs": 1,
+    "startScore": 5,
+    "bestScore": 17,
+    "gained": 12,
+    "available": 6,
+    "share": 2,
+    "stagesAdvanced": 1.5,
+    "stuckAt": 310,
+    "tail": 89,
+    "deaths": [],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      118,
+      3
+     ],
+     [
+      131,
+      6
+     ],
+     [
+      310,
+      12
+     ]
+    ],
+    "legStarts": [],
+    "turnCap": 1500,
+    "capped": false,
+    "roundKind": "segmented"
+   },
+   {
+    "session": "r1-typed-05day2",
+    "date": "2026-09-25",
+    "round": "1",
+    "mode": "typed",
+    "persona": "someone who played Planetfall on an Apple II in 1983 and loved Floyd, but never played the sequel",
+    "checkpoint": "05-day2",
+    "fromOpening": false,
+    "undo": false,
+    "budget": 400,
+    "commands": 397,
+    "legs": 1,
+    "startScore": 26,
+    "bestScore": 26,
+    "gained": 0,
+    "available": 25,
+    "share": 0,
+    "stagesAdvanced": 0,
+    "stuckAt": 0,
+    "tail": 397,
+    "deaths": [
+     {
+      "n": 169,
+      "gained": 0
+     },
+     {
+      "n": 199,
+      "gained": 0
+     }
+    ],
+    "won": false,
+    "reason": "stuck",
+    "steps": [
+     [
+      0,
+      0
+     ]
+    ],
+    "legStarts": [],
+    "turnCap": 1500,
+    "capped": false,
+    "roundKind": "segmented"
+   },
+   {
+    "session": "r2-click-01duffy",
+    "date": "2026-09-25",
+    "round": "2",
+    "mode": "click",
+    "persona": "a casual puzzle fan who plays escape-room games on a tablet, never a text adventure",
+    "checkpoint": "01-duffy",
+    "fromOpening": false,
+    "undo": true,
+    "budget": 400,
+    "commands": 386,
+    "legs": 1,
+    "startScore": 0,
+    "bestScore": 28,
+    "gained": 28,
+    "available": 5,
+    "share": 5.6,
+    "stagesAdvanced": 4.08,
+    "stuckAt": 347,
+    "tail": 39,
+    "deaths": [
+     {
+      "n": 361,
+      "gained": 28
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      8,
+      5
+     ],
+     [
+      63,
+      8
+     ],
+     [
+      101,
+      11
+     ],
+     [
+      245,
+      17
+     ],
+     [
+      283,
+      21
+     ],
+     [
+      305,
+      25
+     ],
+     [
+      347,
+      28
+     ]
+    ],
+    "legStarts": [],
+    "turnCap": 1500,
+    "capped": false,
+    "roundKind": "segmented"
+   },
+   {
+    "session": "r2-click-03village",
+    "date": "2026-09-25",
+    "round": "2",
+    "mode": "click",
+    "persona": "someone who played Planetfall on an Apple II in 1983 and loved Floyd, but never played the sequel",
+    "checkpoint": "03-village",
+    "fromOpening": false,
+    "undo": true,
+    "budget": 400,
+    "commands": 392,
+    "legs": 1,
+    "startScore": 11,
+    "bestScore": 31,
+    "gained": 20,
+    "available": 12,
+    "share": 1.667,
+    "stagesAdvanced": 2.2,
+    "stuckAt": 372,
+    "tail": 20,
+    "deaths": [
+     {
+      "n": 389,
+      "gained": 20
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      78,
+      3
+     ],
+     [
+      123,
+      7
+     ],
+     [
+      211,
+      10
+     ],
+     [
+      358,
+      15
+     ],
+     [
+      372,
+      20
+     ]
+    ],
+    "legStarts": [],
+    "turnCap": 1500,
+    "capped": false,
+    "roundKind": "segmented"
+   },
+   {
+    "session": "r2-click-06plato",
+    "date": "2026-09-25",
+    "round": "2",
+    "mode": "click",
+    "persona": "a 14-year-old who has never played a text adventure, used to phone games",
+    "checkpoint": "06-plato",
+    "fromOpening": false,
+    "undo": true,
+    "budget": 400,
+    "commands": 398,
+    "legs": 1,
+    "startScore": 51,
+    "bestScore": 54,
+    "gained": 3,
+    "available": 22,
+    "share": 0.136,
+    "stagesAdvanced": 0.14,
+    "stuckAt": 12,
+    "tail": 386,
+    "deaths": [
+     {
+      "n": 32,
+      "gained": 3
+     },
+     {
+      "n": 34,
+      "gained": 3
+     },
+     {
+      "n": 101,
+      "gained": 3
+     },
+     {
+      "n": 256,
+      "gained": 3
+     }
+    ],
+    "won": false,
+    "reason": "stuck",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      12,
+      3
+     ]
+    ],
+    "legStarts": [],
+    "turnCap": 1500,
+    "capped": false,
+    "roundKind": "segmented"
+   },
+   {
+    "session": "r2-typed-02station",
+    "date": "2026-09-25",
+    "round": "2",
+    "mode": "typed",
+    "persona": "a millennial who knows text adventures exist but has never finished one",
+    "checkpoint": "02-station",
+    "fromOpening": false,
+    "undo": true,
+    "budget": 400,
+    "commands": 397,
+    "legs": 1,
+    "startScore": 5,
+    "bestScore": 11,
+    "gained": 6,
+    "available": 6,
+    "share": 1,
+    "stagesAdvanced": 1,
+    "stuckAt": 336,
+    "tail": 61,
+    "deaths": [
+     {
+      "n": 74,
+      "gained": 0
+     },
+     {
+      "n": 77,
+      "gained": 0
+     },
+     {
+      "n": 80,
+      "gained": 0
+     },
+     {
+      "n": 99,
+      "gained": 0
+     },
+     {
+      "n": 105,
+      "gained": 0
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      147,
+      3
+     ],
+     [
+      336,
+      6
+     ]
+    ],
+    "legStarts": [],
+    "turnCap": 1500,
+    "capped": false,
+    "roundKind": "segmented"
+   },
+   {
+    "session": "r2-typed-05day2",
+    "date": "2026-09-25",
+    "round": "2",
+    "mode": "typed",
+    "persona": "an adult who played Zork in the 1980s but has never played this game",
+    "checkpoint": "05-day2",
+    "fromOpening": false,
+    "undo": true,
+    "budget": 400,
+    "commands": 391,
+    "legs": 1,
+    "startScore": 26,
+    "bestScore": 38,
+    "gained": 12,
+    "available": 25,
+    "share": 0.48,
+    "stagesAdvanced": 0.48,
+    "stuckAt": 383,
+    "tail": 8,
+    "deaths": [
+     {
+      "n": 97,
+      "gained": 0
+     },
+     {
+      "n": 152,
+      "gained": 0
+     },
+     {
+      "n": 365,
+      "gained": 5
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      320,
+      5
+     ],
+     [
+      383,
+      12
+     ]
+    ],
+    "legStarts": [],
+    "turnCap": 1500,
+    "capped": false,
+    "roundKind": "segmented"
+   }
+  ]
+ },
  "git": {
-  "commits": 94,
+  "commits": 106,
   "withWorkTrailer": 4,
   "churnByArea": {
    "wwwroot/data": 122947,
    "stationfall-master": 44064,
-   "scripts": 29082,
-   "design": 17238,
+   "scripts": 30707,
+   "design": 19554,
+   "wwwroot/wiki": 9651,
    "wwwroot/rules": 8929,
-   "wwwroot/wiki": 4683,
+   "playtests": 6059,
    "wwwroot/engine": 4262,
    "porting": 4081,
    "wwwroot/scene": 3632,
    "wwwroot/dashboard": 3377,
-   "playtests": 3132,
    "reference": 1649,
    "wwwroot": 1044,
-   "(top)": 854,
+   "(top)": 862,
    "wwwroot/ui": 393,
-   "decisions": 105,
+   "decisions": 125,
    "Properties": 23
   },
   "byWork": [
@@ -1219,9 +2009,9 @@
   }
  ],
  "readLog": {
-  "entries": 5,
+  "entries": 12,
   "byAgent": {
-   "greg": 5
+   "greg": 12
   },
   "since": "2026-09-25T10:40:02.380Z"
  }

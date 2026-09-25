@@ -90,14 +90,63 @@ This is PLAN §5's headline number. It averaged 8.5 touches a day across the fir
 
 Each bar runs from the commit that started a milestone to the commit that finished it, as recorded in `decisions/milestones.jsonl`. M0 to M2, the lift of the engine, extraction and the port of 586 routines, took under three hours together. M3 and M4 have no start event, so only their ends are shown. M5 (playtesting) and M7 (painting the rooms) were still open when this was first drawn. Lead time says nothing about the effort inside each bar; the cost chart covers that.
 
-### Playtest quality
-
-![Friction rows per 100 commands for each playtest round, with wins and deaths](wiki/metrics-playtest.svg)
-
-Round one's five blind testers logged 4.4 friction notes per 100 commands, 2.7 of them negative, over 1,942 commands with no wins and seven deaths. The rounds start from different checkpoints with different testers, so the trend across rounds will say more than any one bar.
-
 ### What the charts cannot see
 
 - **Norm's own work.** The mailbox is the channel between the two agents, not the work itself. The engine, the tests and the tools raise no asks. That is why `work.jsonl` exists: every agent run is logged with its milestone, kind, tokens and duration (CLAUDE.md rule 12).
 - **Idle time.** From D21 on, every check of the mailbox is appended to `design/mail/.reads.jsonl`. When that log has some history, it will tell an agent that is waiting apart from one that is working. There was not enough of it for a chart on first drawing.
 - **Git churn.** `metrics.json` lists churn by area, and since D21 each commit carries a `Work:` trailer. Two things distort it. The extracted world data and the imported ZIL source account for most of the lines. Only four commits had the trailer when this was first drawn.
+
+## Playtesting
+
+On 25 September the sponsor asked for charts that show ***whether playtesting gets better from round to round***, with the game's stages along the bottom and the progress each tester made before the budget ran out or they got stuck. `node scripts/metrics.mjs` draws them from the harness's transcripts (`playtests/<date>/<session>.transcript.jsonl`), with one row per session in [metrics-playtest-progress.csv](wiki/metrics-playtest-progress.csv). A **stage** runs from one playtest checkpoint to the next, and the last one runs to the win. Its points are what the seed-1 walkthrough (`porting/route-seed1.cmds`, 335 commands, 80 of 80) scores between the two, read from the committed checkpoint saves and the walkthrough's record: Duffy 5, Station 6, Village 12, Day 1 end 3, Day 2 25, Plato 22 and Factory 7. A session's **progress** is its best score minus its checkpoint's score. It is the best, not the last, because a restore, a restart or a new life can drop the score, and points won back after that are not new progress.
+
+Playtesting runs in two phases (D24). The first rounds are **segmented**: one blind session starts at each checkpoint, so every stage is tried every round. Later rounds are **full runs**: every session starts at the opening and plays on toward the end. `metrics.mjs` tells them apart by the sessions: a round is a full-run round when every one of its sessions started at the opening, with no checkpoint in its session row, and otherwise it is segmented. Each phase has its own charts below, and the charts under *Every round* count both.
+
+### Segmented rounds (by stage)
+
+**Read these charts with four caveats.**
+
+- **The personas differ between rounds.** Round 2 moved round 1's five personas to different stages, so a stage's two bars are two different players as well as two builds.
+- **The testers are agents, not people.** They may know the game from memory (their diaries say when), and they never tire or lose patience the way a person would.
+- **There is one session per stage per round.** A single tester's luck or blind spot is the whole bar, so one round against another is an anecdote, not a trend, until several rounds agree.
+- **UNDO was on in round 2** (D18: early rounds only), and off in round 1. A round with UNDO is easier and is not a blind round. `stats.json` records `undoSessions` for every round.
+
+#### Progress by stage
+
+![Points gained by each playtest session as a share of its stage's points, grouped by round within each of the seven stages](wiki/metrics-playtest-progress.svg)
+
+This is the headline. Each bar is one session: its points gained as a share of its own stage's points, with the absolute figure ("12/6") above it. A bar that reached the next checkpoint stops at 100%, and its label gives the full share. In round 1, the tester from Duffy scored 21 of the stage's 5 points (420%, nearly three stages), Station 12 of 6 (200%), Village 13 of 12 (108%), Plato 10 of 22 (45%), and Day 2 none of 25. A cross counts deaths and a star marks a win. Round 1 had no win. In round 2 Duffy's tester scored 28 (560%), Station's 6 (100%, just reaching the next checkpoint), Village's 20 (167%), Day 2's 12 of 25 (48%) and Plato's 3 of 22 (14%). So three stages went up (Duffy 21 to 28, Village 13 to 20, Day 2 0 to 12) and two went down (Station 12 to 6, Plato 10 to 3). Neither drop is a clean signal. Station's round-2 tester lost eight commands believing the truck had still to fly, because the checkpoint briefing never said it had docked (SF-050, a harness fix). Plato's tester was killed by Plato's ambush, could not undo out of the stun, and restarted from the very beginning, so most of that session was spent on the Duffy, far from its own stage. Round 2 had no win either. A stage with no session that round says "none" rather than drawing a zero, and neither round started anyone at Day 1 end or Factory. A hatched bar is a session still being played. **The share is not a measure of skill across stages:** Day 2's 25 points take far more commands than Duffy's 5, and a tester can score points out of the walkthrough's order.
+
+#### Progress over commands
+
+![One line per session of points gained against commands used, in small multiples per stage, with deaths and stuck points marked](wiki/metrics-playtest-score.svg)
+
+Each line is one session's best score so far against the commands it used, coloured by round, with one panel per stage and each panel on its own y scale. The dotted line is the stage's points: crossing it means the next checkpoint was reached. The ring is the **stuck point**, the command of the session's last new points, and the dashed tail after it is commands spent without progress. Crosses are deaths. In round 1, Plato's tester made their last points at command 33 and spent the other 349 commands without scoring. Day 2's scored nothing in 397. Duffy's and Station's were still scoring past command 300. In round 2, four of the five were still scoring near the end of their budget: Day 2's last points came at command 383 and Village's at 372. Plato's tester made their last new points at command 12 and scored nothing new in the other 386.
+
+### Full runs (start to finish)
+
+![Full-run rounds: the share of each stage's points earned by each round's runs, with where each run ended, and each run's score over commands with its legs marked](wiki/metrics-playtest-fullrun.svg)
+
+The sponsor set the second phase in D24: after the segmented rounds, ***every round plays the whole game from the opening***, charted in the same shape as the segmented one, with the stages along the bottom and one colour per round. A full-run session has no checkpoint and may run over several legs. When one tester agent has spent its leg budget of about 400 commands, a fresh one continues the same session with `playtest.mjs --session S --new-leg`, reading the diary's leg handoff, up to the 1,500-command cap. The session keeps one transcript, and every line in it carries its leg number. [metrics-playtest-fullrun.csv](wiki/metrics-playtest-fullrun.csv) has one row per run and stage.
+
+**How a run's points are given to stages.** The stage a run is in is set by its best score alone, against the same thresholds as the segmented charts: the walkthrough's score at each checkpoint (0, 5, 11, 23, 26, 51 and 73, and 80 to win). A run is in a stage from the command its best score first reaches that stage's starting score until it reaches the next one, and the points it earns there are that band of the score. So a stage's share is how much of its band was filled, and it cannot pass 100%. Points earned out of the walkthrough's order count where the score is, not where the walkthrough earned them. A later puzzle solved early fills the band of the stage the run is in, and a single gain that crosses a threshold is split at it. The share therefore reads as how much of the stage's worth of score the run made while it was there, not as which of the stage's puzzles it solved. The CSV also gives the command at which each stage was entered and how many commands the run spent in it, which is where a slow stage shows.
+
+**Reading the chart.** In the top panel each bar is a round's mean share at that stage over all its runs, and a stage a run never reached counts as 0. The dots are the individual runs, one at each stage they reached. At a run's furthest stage the dot is replaced by a marker for how the run ended: a star for a win, a barred triangle for the 1,500-command cap, a plain triangle for a leg budget spent while still scoring, a ring for stuck (200 commands at the end with no new points, as for the segmented rounds), a cross for died and stopped, and a hatched square for a run still being played. A hatched bar means one of the round's runs is still being played. The bottom panel draws each run's best score against its commands, from 0 to 1,500, with the stage thresholds as dashed lines and a short tick across the line where each new leg began. Until the first full-run round is played, the chart says so and draws only its stages and axes.
+
+**When the switch comes.** Norm chooses the last segmented round, as a default the sponsor can reverse. The switch comes after the first segmented round in which every stage ends still progressing rather than stuck, and no A issue that blocks a stage is still open. Neither round so far meets it: Plato ended stuck in both, and Day 2 in round 1.
+
+### Every round
+
+These two charts count every round, segmented or full. A full-run round is labelled "(full)" on the first.
+
+#### Why sessions ended
+
+![Sessions per round by how they ended: won, budget spent while progressing, stuck, died, or still playing](wiki/metrics-playtest-ends.svg)
+
+Each session is put in one class. **Won** comes first. **Died and stopped** means the last command left the player dead. **Stuck** means at least 200 commands passed at the end with no new points. **Budget spent, still progressing** means at least 90% of the command budget was used, with points still coming. Anything else is **still playing, or stopped early**. The threshold of 200 comes from round 1. The longest drought that later ended in a point was 196 commands (the Duffy tester, from command 87 to 283), so any shorter threshold would have called a session stuck that was not. Round 1 ended with three sessions spending their budget while still progressing (Duffy, Station, Village) and two stuck (Day 2, Plato). Round 2 ended with four still progressing (Day 2 joined them) and one stuck (Plato). The classes are worked out from the transcript as it stands, so a session still being played can show as stuck before its tester stops.
+
+#### Friction
+
+![Friction rows per 100 commands for each playtest round, and the negative rows split by severity](wiki/metrics-playtest.svg)
+
+Round 1's five blind testers logged 4.4 friction notes per 100 commands, 2.7 of them negative, over 1,942 commands with no wins and seven deaths. The right panel splits the negative rows by the severity the testers gave them: 1.2 low, 0.9 medium and 0.6 high per 100 commands, or 4.8 when weighted 1, 2 and 3. Round 2 logged 3.2 notes per 100 commands over 1,964 commands, 2.2 of them negative, down from 2.7. Its severity split was 1.3 low, 0.8 medium and 0.1 high, or 3.2 weighted, so the drop is almost all in high-severity notes: 12 in round 1 against 2 in round 2. Deaths doubled, from 7 to 14. Part of that is likely UNDO: all five sessions had it and used it 13 times, so a death cost one move rather than a restore, and risk was cheap. Twenty of round 2's 43 triaged rows (47%) were sightings of issues already found in round 1, and 13 of round 1's 34 issues were seen again. Most of those were left as the original on purpose, such as words the 1987 dictionary lacks. The ones that came back as work are Push on buttons, which round 1 had kept under More… and three testers found again, Sleep in bed, and the Plato ambush, now a question for the sponsor. Both panels are read from `playtests/stats.json`, which `playtest-stats.mjs` rewrites after each round's triage, so a round in progress is missing here until then. A falling rate with the same testers would mean a smoother game. With the personas rotating, read the trend across several rounds rather than any one bar.

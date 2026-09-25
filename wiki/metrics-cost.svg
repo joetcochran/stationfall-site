@@ -3,67 +3,67 @@
 <rect width="900" height="436" fill="#111a22" rx="6"/>
 <text x="24.0" y="24.0" fill="#d9e3ea" font-size="15" text-anchor="start" font-weight="600">Cost: agent tokens by milestone and by kind of work</text>
 <text x="24.0" y="424.0" fill="#8fa3b1" font-size="11" text-anchor="start">From decisions/work.jsonl (subagent runs, as their completion reports count them). Every session's tokens are on the tokens chart; hours are agent wall-clock.</text>
-<text x="24.0" y="56.0" fill="#d9e3ea" font-size="13" text-anchor="start">13.3M tokens · 15.7 agent-hours · 62 runs</text>
-<text x="24.0" y="76.0" fill="#8fa3b1" font-size="12" text-anchor="start">Art subagents per accepted view: 229k (art-prep + review 3.2M / 14 room views) · all sessions: 535k · image passes per delivery: 1.57 (7 of 72 tagged)</text>
+<text x="24.0" y="56.0" fill="#d9e3ea" font-size="13" text-anchor="start">16.3M tokens · 19.68 agent-hours · 79 runs</text>
+<text x="24.0" y="76.0" fill="#8fa3b1" font-size="12" text-anchor="start">Art subagents per accepted view: 285k (art-prep + review 4.0M / 14 room views) · all sessions: 591k · image passes per delivery: 1.23 (13 of 78 tagged)</text>
 <text x="24.0" y="90.0" fill="#d9e3ea" font-size="12" text-anchor="start">By milestone (tokens · hours · runs)</text>
 <text x="108.0" y="115.0" fill="#d9e3ea" font-size="11" text-anchor="end">M7</text>
 <path d="M116.0,104.0 H323.0 Q326.0,104.0 326.0,107.0 V117.0 Q326.0,120.0 323.0,120.0 H116.0 Z" fill="#3987e5"/>
-<text x="332.0" y="116.0" fill="#8fa3b1" font-size="11" text-anchor="start">4.0M · 4.4 h · 26</text>
-<text x="108.0" y="141.0" fill="#d9e3ea" font-size="11" text-anchor="end">M2</text>
-<path d="M116.0,130.0 H305.5 Q308.5,130.0 308.5,133.0 V143.0 Q308.5,146.0 305.5,146.0 H116.0 Z" fill="#3987e5"/>
-<text x="314.5" y="142.0" fill="#8fa3b1" font-size="11" text-anchor="start">3.7M · 3.5 h · 10</text>
-<text x="108.0" y="167.0" fill="#d9e3ea" font-size="11" text-anchor="end">M5</text>
-<path d="M116.0,156.0 H234.8 Q237.8,156.0 237.8,159.0 V169.0 Q237.8,172.0 234.8,172.0 H116.0 Z" fill="#3987e5"/>
-<text x="243.8" y="168.0" fill="#8fa3b1" font-size="11" text-anchor="start">2.3M · 3.7 h · 9</text>
+<text x="332.0" y="116.0" fill="#8fa3b1" font-size="11" text-anchor="start">5.2M · 5.9 h · 35</text>
+<text x="108.0" y="141.0" fill="#d9e3ea" font-size="11" text-anchor="end">M5</text>
+<path d="M116.0,130.0 H269.9 Q272.9,130.0 272.9,133.0 V143.0 Q272.9,146.0 269.9,146.0 H116.0 Z" fill="#3987e5"/>
+<text x="278.9" y="142.0" fill="#8fa3b1" font-size="11" text-anchor="start">3.9M · 6.1 h · 16</text>
+<text x="108.0" y="167.0" fill="#d9e3ea" font-size="11" text-anchor="end">M2</text>
+<path d="M116.0,156.0 H259.2 Q262.2,156.0 262.2,159.0 V169.0 Q262.2,172.0 259.2,172.0 H116.0 Z" fill="#3987e5"/>
+<text x="268.2" y="168.0" fill="#8fa3b1" font-size="11" text-anchor="start">3.7M · 3.5 h · 10</text>
 <text x="108.0" y="193.0" fill="#d9e3ea" font-size="11" text-anchor="end">M0</text>
-<path d="M116.0,182.0 H148.1 Q151.1,182.0 151.1,185.0 V195.0 Q151.1,198.0 148.1,198.0 H116.0 Z" fill="#3987e5"/>
-<text x="157.1" y="194.0" fill="#8fa3b1" font-size="11" text-anchor="start">667k · 0.6 h · 4</text>
+<path d="M116.0,182.0 H139.7 Q142.7,182.0 142.7,185.0 V195.0 Q142.7,198.0 139.7,198.0 H116.0 Z" fill="#3987e5"/>
+<text x="148.7" y="194.0" fill="#8fa3b1" font-size="11" text-anchor="start">667k · 0.6 h · 4</text>
 <text x="108.0" y="219.0" fill="#d9e3ea" font-size="11" text-anchor="end">M4</text>
-<path d="M116.0,208.0 H141.5 Q144.5,208.0 144.5,211.0 V221.0 Q144.5,224.0 141.5,224.0 H116.0 Z" fill="#3987e5"/>
-<text x="150.5" y="220.0" fill="#8fa3b1" font-size="11" text-anchor="start">540k · 0.8 h · 1</text>
-<text x="108.0" y="245.0" fill="#d9e3ea" font-size="11" text-anchor="end">M6</text>
-<path d="M116.0,234.0 H138.5 Q141.5,234.0 141.5,237.0 V247.0 Q141.5,250.0 138.5,250.0 H116.0 Z" fill="#3987e5"/>
-<text x="147.5" y="246.0" fill="#8fa3b1" font-size="11" text-anchor="start">484k · 0.5 h · 3</text>
-<text x="108.0" y="271.0" fill="#d9e3ea" font-size="11" text-anchor="end">planning</text>
-<path d="M116.0,260.0 H138.5 Q141.5,260.0 141.5,263.0 V273.0 Q141.5,276.0 138.5,276.0 H116.0 Z" fill="#3987e5"/>
-<text x="147.5" y="272.0" fill="#8fa3b1" font-size="11" text-anchor="start">484k · 0.2 h · 4</text>
-<text x="108.0" y="297.0" fill="#d9e3ea" font-size="11" text-anchor="end">D21</text>
-<path d="M116.0,286.0 H134.7 Q137.7,286.0 137.7,289.0 V299.0 Q137.7,302.0 134.7,302.0 H116.0 Z" fill="#3987e5"/>
-<text x="143.7" y="298.0" fill="#8fa3b1" font-size="11" text-anchor="start">411k · 0.6 h · 2</text>
+<path d="M116.0,208.0 H134.6 Q137.6,208.0 137.6,211.0 V221.0 Q137.6,224.0 134.6,224.0 H116.0 Z" fill="#3987e5"/>
+<text x="143.6" y="220.0" fill="#8fa3b1" font-size="11" text-anchor="start">540k · 0.8 h · 1</text>
+<text x="108.0" y="245.0" fill="#d9e3ea" font-size="11" text-anchor="end">D21</text>
+<path d="M116.0,234.0 H133.7 Q136.7,234.0 136.7,237.0 V247.0 Q136.7,250.0 133.7,250.0 H116.0 Z" fill="#3987e5"/>
+<text x="142.7" y="246.0" fill="#8fa3b1" font-size="11" text-anchor="start">517k · 0.7 h · 3</text>
+<text x="108.0" y="271.0" fill="#d9e3ea" font-size="11" text-anchor="end">M6</text>
+<path d="M116.0,260.0 H132.3 Q135.3,260.0 135.3,263.0 V273.0 Q135.3,276.0 132.3,276.0 H116.0 Z" fill="#3987e5"/>
+<text x="141.3" y="272.0" fill="#8fa3b1" font-size="11" text-anchor="start">484k · 0.5 h · 3</text>
+<text x="108.0" y="297.0" fill="#d9e3ea" font-size="11" text-anchor="end">planning</text>
+<path d="M116.0,286.0 H132.3 Q135.3,286.0 135.3,289.0 V299.0 Q135.3,302.0 132.3,302.0 H116.0 Z" fill="#3987e5"/>
+<text x="141.3" y="298.0" fill="#8fa3b1" font-size="11" text-anchor="start">484k · 0.2 h · 4</text>
 <text x="108.0" y="323.0" fill="#d9e3ea" font-size="11" text-anchor="end">M1</text>
-<path d="M116.0,312.0 H130.0 Q133.0,312.0 133.0,315.0 V325.0 Q133.0,328.0 130.0,328.0 H116.0 Z" fill="#3987e5"/>
-<text x="139.0" y="324.0" fill="#8fa3b1" font-size="11" text-anchor="start">323k · 0.4 h · 1</text>
+<path d="M116.0,312.0 H125.9 Q128.9,312.0 128.9,315.0 V325.0 Q128.9,328.0 125.9,328.0 H116.0 Z" fill="#3987e5"/>
+<text x="134.9" y="324.0" fill="#8fa3b1" font-size="11" text-anchor="start">323k · 0.4 h · 1</text>
 <text x="108.0" y="349.0" fill="#d9e3ea" font-size="11" text-anchor="end">M3</text>
-<path d="M116.0,338.0 H128.8 Q131.8,338.0 131.8,341.0 V351.0 Q131.8,354.0 128.8,354.0 H116.0 Z" fill="#3987e5"/>
-<text x="137.8" y="350.0" fill="#8fa3b1" font-size="11" text-anchor="start">300k · 0.7 h · 1</text>
+<path d="M116.0,338.0 H125.0 Q128.0,338.0 128.0,341.0 V351.0 Q128.0,354.0 125.0,354.0 H116.0 Z" fill="#3987e5"/>
+<text x="134.0" y="350.0" fill="#8fa3b1" font-size="11" text-anchor="start">300k · 0.7 h · 1</text>
 <text x="108.0" y="375.0" fill="#d9e3ea" font-size="11" text-anchor="end">D22</text>
-<path d="M116.0,364.0 H119.6 Q122.6,364.0 122.6,367.0 V377.0 Q122.6,380.0 119.6,380.0 H116.0 Z" fill="#3987e5"/>
-<text x="128.6" y="376.0" fill="#8fa3b1" font-size="11" text-anchor="start">126k · 0.2 h · 1</text>
+<path d="M116.0,364.0 H118.0 Q121.0,364.0 121.0,367.0 V377.0 Q121.0,380.0 118.0,380.0 H116.0 Z" fill="#3987e5"/>
+<text x="127.0" y="376.0" fill="#8fa3b1" font-size="11" text-anchor="start">126k · 0.2 h · 1</text>
 <text x="470.0" y="90.0" fill="#d9e3ea" font-size="12" text-anchor="start">By kind</text>
 <text x="554.0" y="115.0" fill="#d9e3ea" font-size="11" text-anchor="end">porting</text>
 <path d="M562.0,104.0 H755.0 Q758.0,104.0 758.0,107.0 V117.0 Q758.0,120.0 755.0,120.0 H562.0 Z" fill="#3987e5"/>
 <text x="764.0" y="116.0" fill="#8fa3b1" font-size="11" text-anchor="start">3.7M · 3.5 h · 10</text>
 <text x="554.0" y="141.0" fill="#d9e3ea" font-size="11" text-anchor="end">tooling</text>
-<path d="M562.0,130.0 H676.2 Q679.2,130.0 679.2,133.0 V143.0 Q679.2,146.0 676.2,146.0 H562.0 Z" fill="#3987e5"/>
-<text x="685.2" y="142.0" fill="#8fa3b1" font-size="11" text-anchor="start">2.2M · 2.8 h · 12</text>
-<text x="554.0" y="167.0" fill="#d9e3ea" font-size="11" text-anchor="end">art-prep</text>
-<path d="M562.0,156.0 H649.1 Q652.1,156.0 652.1,159.0 V169.0 Q652.1,172.0 649.1,172.0 H562.0 Z" fill="#3987e5"/>
-<text x="658.1" y="168.0" fill="#8fa3b1" font-size="11" text-anchor="start">1.7M · 2.1 h · 5</text>
+<path d="M562.0,130.0 H716.9 Q719.9,130.0 719.9,133.0 V143.0 Q719.9,146.0 716.9,146.0 H562.0 Z" fill="#3987e5"/>
+<text x="725.9" y="142.0" fill="#8fa3b1" font-size="11" text-anchor="start">2.9M · 3.8 h · 16</text>
+<text x="554.0" y="167.0" fill="#d9e3ea" font-size="11" text-anchor="end">playtest</text>
+<path d="M562.0,156.0 H704.9 Q707.9,156.0 707.9,159.0 V169.0 Q707.9,172.0 704.9,172.0 H562.0 Z" fill="#3987e5"/>
+<text x="713.9" y="168.0" fill="#8fa3b1" font-size="11" text-anchor="start">2.7M · 4.6 h · 10</text>
 <text x="554.0" y="193.0" fill="#d9e3ea" font-size="11" text-anchor="end">review</text>
-<path d="M562.0,182.0 H640.6 Q643.6,182.0 643.6,185.0 V195.0 Q643.6,198.0 640.6,198.0 H562.0 Z" fill="#3987e5"/>
-<text x="649.6" y="194.0" fill="#8fa3b1" font-size="11" text-anchor="start">1.5M · 1.2 h · 18</text>
-<text x="554.0" y="219.0" fill="#d9e3ea" font-size="11" text-anchor="end">playtest</text>
-<path d="M562.0,208.0 H638.6 Q641.6,208.0 641.6,211.0 V221.0 Q641.6,224.0 638.6,224.0 H562.0 Z" fill="#3987e5"/>
-<text x="647.6" y="220.0" fill="#8fa3b1" font-size="11" text-anchor="start">1.5M · 2.6 h · 5</text>
+<path d="M562.0,182.0 H682.6 Q685.6,182.0 685.6,185.0 V195.0 Q685.6,198.0 682.6,198.0 H562.0 Z" fill="#3987e5"/>
+<text x="691.6" y="194.0" fill="#8fa3b1" font-size="11" text-anchor="start">2.3M · 1.9 h · 25</text>
+<text x="554.0" y="219.0" fill="#d9e3ea" font-size="11" text-anchor="end">art-prep</text>
+<path d="M562.0,208.0 H649.1 Q652.1,208.0 652.1,211.0 V221.0 Q652.1,224.0 649.1,224.0 H562.0 Z" fill="#3987e5"/>
+<text x="658.1" y="220.0" fill="#8fa3b1" font-size="11" text-anchor="start">1.7M · 2.1 h · 5</text>
 <text x="554.0" y="245.0" fill="#d9e3ea" font-size="11" text-anchor="end">engine</text>
 <path d="M562.0,234.0 H636.7 Q639.7,234.0 639.7,237.0 V247.0 Q639.7,250.0 636.7,250.0 H562.0 Z" fill="#3987e5"/>
 <text x="645.7" y="246.0" fill="#8fa3b1" font-size="11" text-anchor="start">1.4M · 1.9 h · 4</text>
-<text x="554.0" y="271.0" fill="#d9e3ea" font-size="11" text-anchor="end">research</text>
-<path d="M562.0,260.0 H584.9 Q587.9,260.0 587.9,263.0 V273.0 Q587.9,276.0 584.9,276.0 H562.0 Z" fill="#3987e5"/>
-<text x="593.9" y="272.0" fill="#8fa3b1" font-size="11" text-anchor="start">484k · 0.2 h · 4</text>
-<text x="554.0" y="297.0" fill="#d9e3ea" font-size="11" text-anchor="end">triage</text>
-<path d="M562.0,286.0 H579.7 Q582.7,286.0 582.7,289.0 V299.0 Q582.7,302.0 579.7,302.0 H562.0 Z" fill="#3987e5"/>
-<text x="588.7" y="298.0" fill="#8fa3b1" font-size="11" text-anchor="start">386k · 0.6 h · 1</text>
+<text x="554.0" y="271.0" fill="#d9e3ea" font-size="11" text-anchor="end">triage</text>
+<path d="M562.0,260.0 H590.5 Q593.5,260.0 593.5,263.0 V273.0 Q593.5,276.0 590.5,276.0 H562.0 Z" fill="#3987e5"/>
+<text x="599.5" y="272.0" fill="#8fa3b1" font-size="11" text-anchor="start">587k · 0.8 h · 2</text>
+<text x="554.0" y="297.0" fill="#d9e3ea" font-size="11" text-anchor="end">research</text>
+<path d="M562.0,286.0 H584.9 Q587.9,286.0 587.9,289.0 V299.0 Q587.9,302.0 584.9,302.0 H562.0 Z" fill="#3987e5"/>
+<text x="593.9" y="298.0" fill="#8fa3b1" font-size="11" text-anchor="start">484k · 0.2 h · 4</text>
 <text x="554.0" y="323.0" fill="#d9e3ea" font-size="11" text-anchor="end">integration</text>
 <path d="M562.0,312.0 H575.1 Q578.1,312.0 578.1,315.0 V325.0 Q578.1,328.0 575.1,328.0 H562.0 Z" fill="#3987e5"/>
 <text x="584.1" y="324.0" fill="#8fa3b1" font-size="11" text-anchor="start">300k · 0.7 h · 1</text>

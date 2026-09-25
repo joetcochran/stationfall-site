@@ -1,0 +1,11 @@
+round,session,date,mode,checkpoint,undo,start_score,best_score,gained,available,share,stages_advanced,commands,budget,stuck_at,flat_tail,deaths,won,ended
+1,r1-click-01duffy,2026-09-25,click,01-duffy,0,0,21,21,5,4.2,2.83,397,400,328,69,0,0,budget
+1,r1-click-03village,2026-09-25,click,03-village,0,11,24,13,12,1.083,1.33,367,400,248,119,2,0,budget
+1,r1-click-06plato,2026-09-25,click,06-plato,0,51,61,10,22,0.455,0.45,382,400,33,349,3,0,stuck
+1,r1-typed-02station,2026-09-25,typed,02-station,0,5,17,12,6,2,1.5,399,400,310,89,0,0,budget
+1,r1-typed-05day2,2026-09-25,typed,05-day2,0,26,26,0,25,0,0,397,400,0,397,2,0,stuck
+2,r2-click-01duffy,2026-09-25,click,01-duffy,1,0,28,28,5,5.6,4.08,386,400,347,39,1,0,budget
+2,r2-click-03village,2026-09-25,click,03-village,1,11,31,20,12,1.667,2.2,392,400,372,20,1,0,budget
+2,r2-click-06plato,2026-09-25,click,06-plato,1,51,54,3,22,0.136,0.14,398,400,12,386,4,0,stuck
+2,r2-typed-02station,2026-09-25,typed,02-station,1,5,11,6,6,1,1,397,400,336,61,5,0,budget
+2,r2-typed-05day2,2026-09-25,typed,05-day2,1,26,38,12,25,0.48,0.48,391,400,383,8,3,0,budget
