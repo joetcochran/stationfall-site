@@ -30,6 +30,10 @@ The project's own tools, one line each, in the order they arrived.
 - `mail.mjs --recharge`: moves a past verdict to or from the `guide` category by a note (D23) (5dfa6dd).
 - `mail.mjs` stale asks: flags an open ask when a later approval lands in its room (596ad2f); approvals only (bc2e0a4).
 - `scripts/agent-tokens.mjs`: every agent's tokens from the local session logs, read-only, written as hourly sums (221de66); Greg's model switch times too (841c00f).
-- `scripts/check-accept.mjs` and `scripts/lib/accept-checks.mjs`: every measurable accept as a check Greg runs (D25) (262bfc1); PASS* for by-eye lines, a send-time dry run (3713d3b).
+- `scripts/check-accept.mjs` and `scripts/lib/accept-checks.mjs`: every measurable accept as a check Greg runs (D25) (262bfc1); PASS* for by-eye lines, tone and interior-step checks, banded seams and a send-time dry run (3713d3b).
 - `check-accept.mjs` held-edge check: measures a seam, a level gap or a moved crease along the boundary between held and new paint, with `release` boxes that hand held pixels back to Greg (a8b93ce).
 - Process, not a tool: D27 stops repaint rounds at diminishing returns, recording a faint fault as a known defect to fix by compute (28cd04f); contract v1.8 makes the checks a floor, not the target (97f289e); worktree branches that change Greg's tools land by fast-forward only (D26).
+- `scripts/lib/memories.mjs` and `data/checkpoints/<id>.memories.json`: what the character would remember at each playtest checkpoint, added to the tester's briefing as facts, never advice (9d39ba0).
+- `playtest.mjs` checkpoint restart: "Start this checkpoint again" for checkpoint sessions (193caca), keeping the saved positions (9d39ba0).
+- `scripts/tests/sponsor.mjs`: every decision log is one JSON object per line (6dc54cb).
+- Process, not a tool: contract v1.9, Greg's pseudo-lettering gate (negative prompt block, inspection zones, a 200% pass, `pseudo-lettering=clear` on each delivery) (5b9f766).

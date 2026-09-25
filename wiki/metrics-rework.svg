@@ -15,61 +15,68 @@
 <text x="48.0" y="133.6" fill="#8fa3b1" font-size="11" text-anchor="end">80%</text>
 <line x1="56" y1="84.0" x2="876" y2="84.0" stroke="#1f2c37"/>
 <text x="48.0" y="88.0" fill="#8fa3b1" font-size="11" text-anchor="end">100%</text>
-<line x1="107.3" y1="312" x2="107.3" y2="316" stroke="#34495a"/>
-<text x="107.3" y="328.0" fill="#8fa3b1" font-size="11" text-anchor="middle">21:00</text>
-<line x1="261.0" y1="84" x2="261.0" y2="312" stroke="#34495a" stroke-dasharray="3 3"/>
-<text x="261.0" y="328.0" fill="#d9e3ea" font-size="11" text-anchor="middle">09/25</text>
-<line x1="414.8" y1="312" x2="414.8" y2="316" stroke="#34495a"/>
-<text x="414.8" y="328.0" fill="#8fa3b1" font-size="11" text-anchor="middle">03:00</text>
-<line x1="568.5" y1="312" x2="568.5" y2="316" stroke="#34495a"/>
-<text x="568.5" y="328.0" fill="#8fa3b1" font-size="11" text-anchor="middle">06:00</text>
-<line x1="722.3" y1="312" x2="722.3" y2="316" stroke="#34495a"/>
-<text x="722.3" y="328.0" fill="#8fa3b1" font-size="11" text-anchor="middle">09:00</text>
+<line x1="99.2" y1="312" x2="99.2" y2="316" stroke="#34495a"/>
+<text x="99.2" y="328.0" fill="#8fa3b1" font-size="11" text-anchor="middle">21:00</text>
+<line x1="228.6" y1="84" x2="228.6" y2="312" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="228.6" y="328.0" fill="#d9e3ea" font-size="11" text-anchor="middle">09/25</text>
+<line x1="358.1" y1="312" x2="358.1" y2="316" stroke="#34495a"/>
+<text x="358.1" y="328.0" fill="#8fa3b1" font-size="11" text-anchor="middle">03:00</text>
+<line x1="487.6" y1="312" x2="487.6" y2="316" stroke="#34495a"/>
+<text x="487.6" y="328.0" fill="#8fa3b1" font-size="11" text-anchor="middle">06:00</text>
+<line x1="617.1" y1="312" x2="617.1" y2="316" stroke="#34495a"/>
+<text x="617.1" y="328.0" fill="#8fa3b1" font-size="11" text-anchor="middle">09:00</text>
+<line x1="746.5" y1="312" x2="746.5" y2="316" stroke="#34495a"/>
+<text x="746.5" y="328.0" fill="#8fa3b1" font-size="11" text-anchor="middle">12:00</text>
 <line x1="876.0" y1="312" x2="876.0" y2="316" stroke="#34495a"/>
-<text x="876.0" y="328.0" fill="#8fa3b1" font-size="11" text-anchor="middle">12:00</text>
-<path d="M57.0,312.0 V87.0 Q57.0,84.0 60.0,84.0 H103.3 Q106.3,84.0 106.3,87.0 V312.0 Z" fill="#199e70"/>
-<text x="81.6" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=8</text>
-<rect x="108.3" y="118.5" width="49.3" height="193.5" fill="#199e70"/>
-<path d="M108.3,117.5 V87.0 Q108.3,84.0 111.3,84.0 H154.5 Q157.5,84.0 157.5,87.0 V117.5 Z" fill="#d95926"/>
-<text x="132.9" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=33</text>
-<path d="M159.5,312.0 V87.0 Q159.5,84.0 162.5,84.0 H205.8 Q208.8,84.0 208.8,87.0 V312.0 Z" fill="#199e70"/>
-<text x="184.1" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=2</text>
-<path d="M210.8,312.0 V87.0 Q210.8,84.0 213.8,84.0 H257.0 Q260.0,84.0 260.0,87.0 V312.0 Z" fill="#199e70"/>
-<text x="235.4" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=2</text>
-<rect x="262.0" y="236.0" width="49.3" height="76.0" fill="#199e70"/>
-<path d="M262.0,235.0 V87.0 Q262.0,84.0 265.0,84.0 H308.3 Q311.3,84.0 311.3,87.0 V235.0 Z" fill="#d95926"/>
-<text x="286.6" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=3</text>
-<rect x="313.3" y="149.1" width="49.3" height="162.9" fill="#199e70"/>
-<path d="M313.3,148.1 V87.0 Q313.3,84.0 316.3,84.0 H359.5 Q362.5,84.0 362.5,87.0 V148.1 Z" fill="#d95926"/>
-<text x="337.9" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=7</text>
-<rect x="518.3" y="198.0" width="49.3" height="114.0" fill="#199e70"/>
-<path d="M518.3,197.0 V87.0 Q518.3,84.0 521.3,84.0 H564.5 Q567.5,84.0 567.5,87.0 V197.0 Z" fill="#3987e5"/>
-<text x="542.9" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=2</text>
-<rect x="569.5" y="236.0" width="49.3" height="76.0" fill="#199e70"/>
-<rect x="569.5" y="160.0" width="49.3" height="75.0" fill="#d95926"/>
-<path d="M569.5,159.0 V87.0 Q569.5,84.0 572.5,84.0 H615.8 Q618.8,84.0 618.8,87.0 V159.0 Z" fill="#3987e5"/>
-<text x="594.1" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=9</text>
-<rect x="620.8" y="266.4" width="49.3" height="45.6" fill="#199e70"/>
-<rect x="620.8" y="175.2" width="49.3" height="90.2" fill="#d95926"/>
-<path d="M620.8,174.2 V87.0 Q620.8,84.0 623.8,84.0 H667.0 Q670.0,84.0 670.0,87.0 V174.2 Z" fill="#3987e5"/>
-<text x="645.4" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=5</text>
-<rect x="672.0" y="175.2" width="49.3" height="136.8" fill="#d95926"/>
-<path d="M672.0,174.2 V87.0 Q672.0,84.0 675.0,84.0 H718.3 Q721.3,84.0 721.3,87.0 V174.2 Z" fill="#3987e5"/>
-<text x="696.6" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=5</text>
-<rect x="723.3" y="236.0" width="49.3" height="76.0" fill="#199e70"/>
-<rect x="723.3" y="198.0" width="49.3" height="37.0" fill="#d95926"/>
-<path d="M723.3,197.0 V87.0 Q723.3,84.0 726.3,84.0 H769.5 Q772.5,84.0 772.5,87.0 V197.0 Z" fill="#3987e5"/>
-<text x="747.9" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=6</text>
-<rect x="774.5" y="198.0" width="49.3" height="114.0" fill="#199e70"/>
-<rect x="774.5" y="122.0" width="49.3" height="75.0" fill="#d95926"/>
-<path d="M774.5,121.0 V87.0 Q774.5,84.0 777.5,84.0 H820.8 Q823.8,84.0 823.8,87.0 V121.0 Z" fill="#3987e5"/>
-<text x="799.1" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=6</text>
-<path d="M825.8,312.0 V87.0 Q825.8,84.0 828.8,84.0 H872.0 Q875.0,84.0 875.0,87.0 V312.0 Z" fill="#199e70"/>
-<text x="850.4" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=1</text>
+<text x="876.0" y="328.0" fill="#8fa3b1" font-size="11" text-anchor="middle">15:00</text>
+<path d="M57.0,312.0 V87.0 Q57.0,84.0 60.0,84.0 H95.2 Q98.2,84.0 98.2,87.0 V312.0 Z" fill="#199e70"/>
+<text x="77.6" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=8</text>
+<rect x="100.2" y="118.5" width="41.2" height="193.5" fill="#199e70"/>
+<path d="M100.2,117.5 V87.0 Q100.2,84.0 103.2,84.0 H138.3 Q141.3,84.0 141.3,87.0 V117.5 Z" fill="#d95926"/>
+<text x="120.7" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=33</text>
+<path d="M143.3,312.0 V87.0 Q143.3,84.0 146.3,84.0 H181.5 Q184.5,84.0 184.5,87.0 V312.0 Z" fill="#199e70"/>
+<text x="163.9" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=2</text>
+<path d="M186.5,312.0 V87.0 Q186.5,84.0 189.5,84.0 H224.6 Q227.6,84.0 227.6,87.0 V312.0 Z" fill="#199e70"/>
+<text x="207.1" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=2</text>
+<rect x="229.6" y="236.0" width="41.2" height="76.0" fill="#199e70"/>
+<path d="M229.6,235.0 V87.0 Q229.6,84.0 232.6,84.0 H267.8 Q270.8,84.0 270.8,87.0 V235.0 Z" fill="#d95926"/>
+<text x="250.2" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=3</text>
+<rect x="272.8" y="149.1" width="41.2" height="162.9" fill="#199e70"/>
+<path d="M272.8,148.1 V87.0 Q272.8,84.0 275.8,84.0 H310.9 Q313.9,84.0 313.9,87.0 V148.1 Z" fill="#d95926"/>
+<text x="293.4" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=7</text>
+<rect x="445.4" y="198.0" width="41.2" height="114.0" fill="#199e70"/>
+<path d="M445.4,197.0 V87.0 Q445.4,84.0 448.4,84.0 H483.6 Q486.6,84.0 486.6,87.0 V197.0 Z" fill="#3987e5"/>
+<text x="466.0" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=2</text>
+<rect x="488.6" y="236.0" width="41.2" height="76.0" fill="#199e70"/>
+<rect x="488.6" y="160.0" width="41.2" height="75.0" fill="#d95926"/>
+<path d="M488.6,159.0 V87.0 Q488.6,84.0 491.6,84.0 H526.7 Q529.7,84.0 529.7,87.0 V159.0 Z" fill="#3987e5"/>
+<text x="509.2" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=9</text>
+<rect x="531.7" y="266.4" width="41.2" height="45.6" fill="#199e70"/>
+<rect x="531.7" y="175.2" width="41.2" height="90.2" fill="#d95926"/>
+<path d="M531.7,174.2 V87.0 Q531.7,84.0 534.7,84.0 H569.9 Q572.9,84.0 572.9,87.0 V174.2 Z" fill="#3987e5"/>
+<text x="552.3" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=5</text>
+<rect x="574.9" y="175.2" width="41.2" height="136.8" fill="#d95926"/>
+<path d="M574.9,174.2 V87.0 Q574.9,84.0 577.9,84.0 H613.1 Q616.1,84.0 616.1,87.0 V174.2 Z" fill="#3987e5"/>
+<text x="595.5" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=5</text>
+<rect x="618.1" y="236.0" width="41.2" height="76.0" fill="#199e70"/>
+<rect x="618.1" y="198.0" width="41.2" height="37.0" fill="#d95926"/>
+<path d="M618.1,197.0 V87.0 Q618.1,84.0 621.1,84.0 H656.2 Q659.2,84.0 659.2,87.0 V197.0 Z" fill="#3987e5"/>
+<text x="638.6" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=6</text>
+<rect x="661.2" y="198.0" width="41.2" height="114.0" fill="#199e70"/>
+<rect x="661.2" y="122.0" width="41.2" height="75.0" fill="#d95926"/>
+<path d="M661.2,121.0 V87.0 Q661.2,84.0 664.2,84.0 H699.4 Q702.4,84.0 702.4,87.0 V121.0 Z" fill="#3987e5"/>
+<text x="681.8" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=6</text>
+<path d="M704.4,312.0 V87.0 Q704.4,84.0 707.4,84.0 H742.5 Q745.5,84.0 745.5,87.0 V312.0 Z" fill="#199e70"/>
+<text x="724.9" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=1</text>
+<path d="M747.5,312.0 V87.0 Q747.5,84.0 750.5,84.0 H785.7 Q788.7,84.0 788.7,87.0 V312.0 Z" fill="#d95926"/>
+<text x="768.1" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=1</text>
+<rect x="790.7" y="160.0" width="41.2" height="152.0" fill="#199e70"/>
+<path d="M790.7,159.0 V87.0 Q790.7,84.0 793.7,84.0 H828.8 Q831.8,84.0 831.8,87.0 V159.0 Z" fill="#3987e5"/>
+<text x="811.3" y="79.0" fill="#8fa3b1" font-size="10" text-anchor="middle">n=3</text>
 <rect x="56" y="34" width="12" height="12" rx="2" fill="#199e70"/>
-<text x="73.0" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">approved (57)</text>
+<text x="73.0" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">approved (59)</text>
 <rect x="176.8" y="34" width="12" height="12" rx="2" fill="#d95926"/>
-<text x="193.8" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">changes: Greg's paint (20, 22%)</text>
+<text x="193.8" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">changes: Greg's paint (21, 23%)</text>
 <rect x="416.4" y="34" width="12" height="12" rx="2" fill="#3987e5"/>
-<text x="433.4" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">changes: Norm's guide or ask (12, 13%)</text>
+<text x="433.4" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">changes: Norm's guide or ask (13, 14%)</text>
 </svg>

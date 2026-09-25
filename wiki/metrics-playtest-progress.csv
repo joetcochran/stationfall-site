@@ -23,3 +23,17 @@ round,session,date,mode,checkpoint,undo,start_score,best_score,gained,available,
 4,r4-typed-04day1end,2026-09-25,typed,04-day1-end,1,23,29,6,3,2,1.12,382,400,368,14,1,0,budget
 4,r4-typed-05day2,2026-09-25,typed,05-day2,1,26,41,15,25,0.6,0.6,371,400,356,15,1,0,budget
 4,r4-typed-07factory,2026-09-25,typed,07-factory,1,73,80,7,7,1,1,35,400,33,2,0,1,won
+5,r5-click-01duffy,2026-09-25,click,01-duffy,1,0,26,26,5,5.2,4,400,400,375,25,0,0,budget
+5,r5-click-03village,2026-09-25,click,03-village,1,11,38,27,12,2.25,2.48,400,400,399,1,2,0,budget
+5,r5-click-06plato,2026-09-25,click,06-plato,1,51,61,10,22,0.455,0.45,400,400,31,369,1,0,stuck
+5,r5-typed-02station,2026-09-25,typed,02-station,1,5,17,12,6,2,1.5,400,400,395,5,0,0,budget
+5,r5-typed-04day1end,2026-09-25,typed,04-day1-end,1,23,26,3,3,1,1,400,400,16,384,6,0,stuck
+5,r5-typed-05day2,2026-09-25,typed,05-day2,1,26,44,18,25,0.72,0.72,400,400,332,68,2,0,budget
+5,r5-typed-07factory,2026-09-25,typed,07-factory,1,73,80,7,7,1,1,30,400,18,12,1,1,won
+6,r6-click-01duffy,2026-09-25,click,01-duffy,1,0,5,5,5,1,1,10,400,7,3,0,0,open
+6,r6-click-03village,2026-09-25,click,03-village,1,11,11,0,12,0,0,18,400,0,18,0,0,open
+6,r6-click-06plato,2026-09-25,click,06-plato,1,51,58,7,22,0.318,0.32,9,400,6,3,0,0,open
+6,r6-typed-02station,2026-09-25,typed,02-station,1,5,5,0,6,0,0,22,400,0,22,0,0,open
+6,r6-typed-04day1end,2026-09-25,typed,04-day1-end,1,23,26,3,3,1,1,23,400,9,14,0,0,open
+6,r6-typed-05day2,2026-09-25,typed,05-day2,1,26,26,0,25,0,0,20,400,0,20,0,0,open
+6,r6-typed-07factory,2026-09-25,typed,07-factory,1,73,80,7,7,1,1,17,400,17,0,0,1,won

@@ -16,30 +16,36 @@
 <text x="48.0" y="129.2" fill="#8fa3b1" font-size="11" text-anchor="end">4</text>
 <line x1="56" y1="84.0" x2="496" y2="84.0" stroke="#1f2c37"/>
 <text x="48.0" y="88.0" fill="#8fa3b1" font-size="11" text-anchor="end">5</text>
-<path d="M76.0,290.0 V110.5 Q76.0,107.5 79.0,107.5 H106.0 Q109.0,107.5 109.0,110.5 V290.0 Z" fill="#d55181"/>
-<path d="M113.0,290.0 V182.6 Q113.0,179.6 116.0,179.6 H143.0 Q146.0,179.6 146.0,182.6 V290.0 Z" fill="#d95926"/>
-<text x="92.5" y="102.5" fill="#d9e3ea" font-size="11" text-anchor="middle">4.43</text>
-<text x="129.5" y="174.6" fill="#d9e3ea" font-size="11" text-anchor="middle">2.68</text>
-<text x="111.0" y="306.0" fill="#d9e3ea" font-size="11" text-anchor="middle">round 1</text>
-<text x="111.0" y="321.0" fill="#8fa3b1" font-size="10" text-anchor="middle">1942 cmds · 0 wins · 7 deaths</text>
-<path d="M186.0,290.0 V160.7 Q186.0,157.7 189.0,157.7 H216.0 Q219.0,157.7 219.0,160.7 V290.0 Z" fill="#d55181"/>
-<path d="M223.0,290.0 V202.8 Q223.0,199.8 226.0,199.8 H253.0 Q256.0,199.8 256.0,202.8 V290.0 Z" fill="#d95926"/>
-<text x="202.5" y="152.7" fill="#d9e3ea" font-size="11" text-anchor="middle">3.21</text>
-<text x="239.5" y="194.8" fill="#d9e3ea" font-size="11" text-anchor="middle">2.19</text>
-<text x="221.0" y="306.0" fill="#d9e3ea" font-size="11" text-anchor="middle">round 2</text>
-<text x="221.0" y="321.0" fill="#8fa3b1" font-size="10" text-anchor="middle">1964 cmds · 0 wins · 14 deaths</text>
-<path d="M296.0,290.0 V149.2 Q296.0,146.2 299.0,146.2 H326.0 Q329.0,146.2 329.0,149.2 V290.0 Z" fill="#d55181"/>
-<path d="M333.0,290.0 V201.1 Q333.0,198.1 336.0,198.1 H363.0 Q366.0,198.1 366.0,201.1 V290.0 Z" fill="#d95926"/>
-<text x="312.5" y="141.2" fill="#d9e3ea" font-size="11" text-anchor="middle">3.49</text>
-<text x="349.5" y="193.1" fill="#d9e3ea" font-size="11" text-anchor="middle">2.23</text>
-<text x="331.0" y="306.0" fill="#d9e3ea" font-size="11" text-anchor="middle">round 3</text>
-<text x="331.0" y="321.0" fill="#8fa3b1" font-size="10" text-anchor="middle">2376 cmds · 1 wins · 12 deaths</text>
-<path d="M406.0,290.0 V123.3 Q406.0,120.3 409.0,120.3 H436.0 Q439.0,120.3 439.0,123.3 V290.0 Z" fill="#d55181"/>
-<path d="M443.0,290.0 V179.7 Q443.0,176.7 446.0,176.7 H473.0 Q476.0,176.7 476.0,179.7 V290.0 Z" fill="#d95926"/>
-<text x="422.5" y="115.3" fill="#d9e3ea" font-size="11" text-anchor="middle">4.12</text>
-<text x="459.5" y="171.7" fill="#d9e3ea" font-size="11" text-anchor="middle">2.75</text>
-<text x="441.0" y="306.0" fill="#d9e3ea" font-size="11" text-anchor="middle">round 4</text>
-<text x="441.0" y="321.0" fill="#8fa3b1" font-size="10" text-anchor="middle">2331 cmds · 1 wins · 5 deaths</text>
+<path d="M71.6,290.0 V110.5 Q71.6,107.5 74.6,107.5 H95.0 Q98.0,107.5 98.0,110.5 V290.0 Z" fill="#d55181"/>
+<path d="M102.0,290.0 V182.6 Q102.0,179.6 105.0,179.6 H125.4 Q128.4,179.6 128.4,182.6 V290.0 Z" fill="#d95926"/>
+<text x="84.8" y="102.5" fill="#d9e3ea" font-size="11" text-anchor="middle">4.43</text>
+<text x="115.2" y="174.6" fill="#d9e3ea" font-size="11" text-anchor="middle">2.68</text>
+<text x="100.0" y="306.0" fill="#d9e3ea" font-size="11" text-anchor="middle">round 1</text>
+<text x="100.0" y="321.0" fill="#8fa3b1" font-size="10" text-anchor="middle">1942 cmds · 0 wins · 7 deaths</text>
+<path d="M159.6,290.0 V160.7 Q159.6,157.7 162.6,157.7 H183.0 Q186.0,157.7 186.0,160.7 V290.0 Z" fill="#d55181"/>
+<path d="M190.0,290.0 V202.8 Q190.0,199.8 193.0,199.8 H213.4 Q216.4,199.8 216.4,202.8 V290.0 Z" fill="#d95926"/>
+<text x="172.8" y="152.7" fill="#d9e3ea" font-size="11" text-anchor="middle">3.21</text>
+<text x="203.2" y="194.8" fill="#d9e3ea" font-size="11" text-anchor="middle">2.19</text>
+<text x="188.0" y="306.0" fill="#d9e3ea" font-size="11" text-anchor="middle">round 2</text>
+<text x="188.0" y="321.0" fill="#8fa3b1" font-size="10" text-anchor="middle">1964 cmds · 0 wins · 14 deaths</text>
+<path d="M247.6,290.0 V149.2 Q247.6,146.2 250.6,146.2 H271.0 Q274.0,146.2 274.0,149.2 V290.0 Z" fill="#d55181"/>
+<path d="M278.0,290.0 V201.1 Q278.0,198.1 281.0,198.1 H301.4 Q304.4,198.1 304.4,201.1 V290.0 Z" fill="#d95926"/>
+<text x="260.8" y="141.2" fill="#d9e3ea" font-size="11" text-anchor="middle">3.49</text>
+<text x="291.2" y="193.1" fill="#d9e3ea" font-size="11" text-anchor="middle">2.23</text>
+<text x="276.0" y="306.0" fill="#d9e3ea" font-size="11" text-anchor="middle">round 3</text>
+<text x="276.0" y="321.0" fill="#8fa3b1" font-size="10" text-anchor="middle">2376 cmds · 1 wins · 12 deaths</text>
+<path d="M335.6,290.0 V123.3 Q335.6,120.3 338.6,120.3 H359.0 Q362.0,120.3 362.0,123.3 V290.0 Z" fill="#d55181"/>
+<path d="M366.0,290.0 V179.7 Q366.0,176.7 369.0,176.7 H389.4 Q392.4,176.7 392.4,179.7 V290.0 Z" fill="#d95926"/>
+<text x="348.8" y="115.3" fill="#d9e3ea" font-size="11" text-anchor="middle">4.12</text>
+<text x="379.2" y="171.7" fill="#d9e3ea" font-size="11" text-anchor="middle">2.75</text>
+<text x="364.0" y="306.0" fill="#d9e3ea" font-size="11" text-anchor="middle">round 4</text>
+<text x="364.0" y="321.0" fill="#8fa3b1" font-size="10" text-anchor="middle">2331 cmds · 1 wins · 5 deaths</text>
+<path d="M423.6,290.0 V143.9 Q423.6,140.9 426.6,140.9 H447.0 Q450.0,140.9 450.0,143.9 V290.0 Z" fill="#d55181"/>
+<path d="M454.0,290.0 V206.5 Q454.0,203.5 457.0,203.5 H477.4 Q480.4,203.5 480.4,206.5 V290.0 Z" fill="#d95926"/>
+<text x="436.8" y="135.9" fill="#d9e3ea" font-size="11" text-anchor="middle">3.62</text>
+<text x="467.2" y="198.5" fill="#d9e3ea" font-size="11" text-anchor="middle">2.1</text>
+<text x="452.0" y="306.0" fill="#d9e3ea" font-size="11" text-anchor="middle">round 5</text>
+<text x="452.0" y="321.0" fill="#8fa3b1" font-size="10" text-anchor="middle">2430 cmds · 1 wins · 12 deaths</text>
 <text x="576.0" y="74.0" fill="#d9e3ea" font-size="12" text-anchor="start">Negative rows per 100 commands, by severity</text>
 <line x1="576" y1="290.0" x2="876" y2="290.0" stroke="#34495a"/>
 <text x="568.0" y="294.0" fill="#8fa3b1" font-size="11" text-anchor="end">0</text>
@@ -49,26 +55,31 @@
 <text x="568.0" y="156.7" fill="#8fa3b1" font-size="11" text-anchor="end">2</text>
 <line x1="576" y1="84.0" x2="876" y2="84.0" stroke="#1f2c37"/>
 <text x="568.0" y="88.0" fill="#8fa3b1" font-size="11" text-anchor="end">3</text>
-<g><title>round 1: low 1.18 per 100 commands</title><rect x="594.8" y="209.0" width="37.5" height="81.0" fill="#8fa3b1"/></g>
-<g><title>round 1: medium 0.88 per 100 commands</title><rect x="594.8" y="148.5" width="37.5" height="58.4" fill="#c98500"/></g>
-<g><title>round 1: high 0.62 per 100 commands</title><path d="M594.8,146.5 V109.0 Q594.8,106.0 597.8,106.0 H629.3 Q632.3,106.0 632.3,109.0 V146.5 Z" fill="#d95926"/></g>
-<text x="613.5" y="101.0" fill="#d9e3ea" font-size="10" text-anchor="middle">2.7 (weighted 4.79)</text>
-<text x="613.5" y="306.0" fill="#d9e3ea" font-size="11" text-anchor="middle">round 1</text>
-<g><title>round 2: low 1.32 per 100 commands</title><rect x="669.8" y="199.4" width="37.5" height="90.6" fill="#8fa3b1"/></g>
-<g><title>round 2: medium 0.76 per 100 commands</title><rect x="669.8" y="147.2" width="37.5" height="50.2" fill="#c98500"/></g>
-<g><title>round 2: high 0.1 per 100 commands</title><path d="M669.8,145.2 V143.3 Q669.8,140.3 672.8,140.3 H704.3 Q707.3,140.3 707.3,143.3 V145.2 Z" fill="#d95926"/></g>
-<text x="688.5" y="135.3" fill="#d9e3ea" font-size="10" text-anchor="middle">2.2 (weighted 3.16)</text>
-<text x="688.5" y="306.0" fill="#d9e3ea" font-size="11" text-anchor="middle">round 2</text>
-<g><title>round 3: low 0.8 per 100 commands</title><rect x="744.8" y="235.1" width="37.5" height="54.9" fill="#8fa3b1"/></g>
-<g><title>round 3: medium 1.14 per 100 commands</title><rect x="744.8" y="156.8" width="37.5" height="76.3" fill="#c98500"/></g>
-<g><title>round 3: high 0.29 per 100 commands</title><path d="M744.8,154.8 V139.9 Q744.8,136.9 747.8,136.9 H779.3 Q782.3,136.9 782.3,139.9 V154.8 Z" fill="#d95926"/></g>
-<text x="763.5" y="131.9" fill="#d9e3ea" font-size="10" text-anchor="middle">2.2 (weighted 3.96)</text>
-<text x="763.5" y="306.0" fill="#d9e3ea" font-size="11" text-anchor="middle">round 3</text>
-<g><title>round 4: low 1.54 per 100 commands</title><rect x="819.8" y="184.3" width="37.5" height="105.7" fill="#8fa3b1"/></g>
-<g><title>round 4: medium 0.99 per 100 commands</title><rect x="819.8" y="116.3" width="37.5" height="66.0" fill="#c98500"/></g>
-<g><title>round 4: high 0.21 per 100 commands</title><path d="M819.8,114.3 V104.9 Q819.8,101.9 822.8,101.9 H854.3 Q857.3,101.9 857.3,104.9 V114.3 Z" fill="#d95926"/></g>
-<text x="838.5" y="96.9" fill="#d9e3ea" font-size="10" text-anchor="middle">2.7 (weighted 4.16)</text>
-<text x="838.5" y="306.0" fill="#d9e3ea" font-size="11" text-anchor="middle">round 4</text>
+<g><title>round 1: low 1.18 per 100 commands</title><rect x="591.0" y="209.0" width="30.0" height="81.0" fill="#8fa3b1"/></g>
+<g><title>round 1: medium 0.88 per 100 commands</title><rect x="591.0" y="148.5" width="30.0" height="58.4" fill="#c98500"/></g>
+<g><title>round 1: high 0.62 per 100 commands</title><path d="M591.0,146.5 V109.0 Q591.0,106.0 594.0,106.0 H618.0 Q621.0,106.0 621.0,109.0 V146.5 Z" fill="#d95926"/></g>
+<text x="606.0" y="101.0" fill="#d9e3ea" font-size="10" text-anchor="middle">2.7 (weighted 4.79)</text>
+<text x="606.0" y="306.0" fill="#d9e3ea" font-size="11" text-anchor="middle">round 1</text>
+<g><title>round 2: low 1.32 per 100 commands</title><rect x="651.0" y="199.4" width="30.0" height="90.6" fill="#8fa3b1"/></g>
+<g><title>round 2: medium 0.76 per 100 commands</title><rect x="651.0" y="147.2" width="30.0" height="50.2" fill="#c98500"/></g>
+<g><title>round 2: high 0.1 per 100 commands</title><path d="M651.0,145.2 V143.3 Q651.0,140.3 654.0,140.3 H678.0 Q681.0,140.3 681.0,143.3 V145.2 Z" fill="#d95926"/></g>
+<text x="666.0" y="135.3" fill="#d9e3ea" font-size="10" text-anchor="middle">2.2 (weighted 3.16)</text>
+<text x="666.0" y="306.0" fill="#d9e3ea" font-size="11" text-anchor="middle">round 2</text>
+<g><title>round 3: low 0.8 per 100 commands</title><rect x="711.0" y="235.1" width="30.0" height="54.9" fill="#8fa3b1"/></g>
+<g><title>round 3: medium 1.14 per 100 commands</title><rect x="711.0" y="156.8" width="30.0" height="76.3" fill="#c98500"/></g>
+<g><title>round 3: high 0.29 per 100 commands</title><path d="M711.0,154.8 V139.9 Q711.0,136.9 714.0,136.9 H738.0 Q741.0,136.9 741.0,139.9 V154.8 Z" fill="#d95926"/></g>
+<text x="726.0" y="131.9" fill="#d9e3ea" font-size="10" text-anchor="middle">2.2 (weighted 3.96)</text>
+<text x="726.0" y="306.0" fill="#d9e3ea" font-size="11" text-anchor="middle">round 3</text>
+<g><title>round 4: low 1.54 per 100 commands</title><rect x="771.0" y="184.3" width="30.0" height="105.7" fill="#8fa3b1"/></g>
+<g><title>round 4: medium 0.99 per 100 commands</title><rect x="771.0" y="116.3" width="30.0" height="66.0" fill="#c98500"/></g>
+<g><title>round 4: high 0.21 per 100 commands</title><path d="M771.0,114.3 V104.9 Q771.0,101.9 774.0,101.9 H798.0 Q801.0,101.9 801.0,104.9 V114.3 Z" fill="#d95926"/></g>
+<text x="786.0" y="96.9" fill="#d9e3ea" font-size="10" text-anchor="middle">2.7 (weighted 4.16)</text>
+<text x="786.0" y="306.0" fill="#d9e3ea" font-size="11" text-anchor="middle">round 4</text>
+<g><title>round 5: low 0.91 per 100 commands</title><rect x="831.0" y="227.5" width="30.0" height="62.5" fill="#8fa3b1"/></g>
+<g><title>round 5: medium 1.03 per 100 commands</title><rect x="831.0" y="156.8" width="30.0" height="68.7" fill="#c98500"/></g>
+<g><title>round 5: high 0.16 per 100 commands</title><path d="M831.0,154.8 V148.8 Q831.0,145.8 834.0,145.8 H858.0 Q861.0,145.8 861.0,148.8 V154.8 Z" fill="#d95926"/></g>
+<text x="846.0" y="140.8" fill="#d9e3ea" font-size="10" text-anchor="middle">2.1 (weighted 3.46)</text>
+<text x="846.0" y="306.0" fill="#d9e3ea" font-size="11" text-anchor="middle">round 5</text>
 <rect x="56" y="34" width="12" height="12" rx="2" fill="#d55181"/>
 <text x="73.0" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">all rows per 100</text>
 <rect x="196.6" y="34" width="12" height="12" rx="2" fill="#d95926"/>

@@ -245,3 +245,60 @@ Round 4 tested all seven stages (2,331 commands), and the Factory was won again,
 Caveats: rotating personas, agent testers, one session per stage, UNDO on.
 
 <!-- through: git ca0c5b2 · mail 20260925-154432-norm-0130 · decisions 27 -->
+
+## 2026-09-25 -- Round 4 explained, and the sponsor's answer on repeats (M5, D28)
+
+Before round 5, Norm checked round 4's lower scores, and the sponsor decided the issues testers kept meeting.
+
+**The score drop was noise.** Every round-3 and round-4 session, replayed on the current build, matched on every command. Of the 27 points lost over six stages, 21 came from one clock-driven event: Plato's ambush, worth 7 points, which from the middle checkpoints lands inside a 400-command leg about half the time. Without it the six stages moved by −6 in all (SCORE-DROP-INVESTIGATION.md, 31cd947).
+
+**Decisions**
+- D28 (Q8, from the repeat analysis in a055be1). Following ***the magnet pattern from Planetfall***, the boots warn once before they wipe the ID card, and the worn drill warns once that it has one hole left. Norm had proposed a notice after these dead ends; the sponsor chose warnings before them. The airlock gets a stencilled notice to secure open containers. The leash nudges toward gravity after the third identical failure, and WEAR takes the thing first. Fast informed deaths stay as the original. Adding words the game prints is now a standing rule of every triage. All of it is behind the conveniences switch and marked as deviations (193caca).
+- Q10 (sessions per stage) runs on its default: one per stage, each stage's mode fixed, and a change counted only beyond about 12 points with the ambush taken out (296b08f).
+- Testers now play their whole budget, and restart the checkpoint, not the opening (296b08f).
+
+**What went wrong and what changed**
+- Q9 had been written onto Q8's line in `queue.jsonl`, two records on one line. Norm split them, and a test now checks that every decision log holds one object per line (6dc54cb).
+
+**Milestone status.** M5 goes to round 5 on the D28 build.
+
+<!-- through: git 193caca · mail 20260925-164343-greg-0092 · decisions 28 -->
+
+## 2026-09-25 -- Round 5: our own warnings misfire, and testers get memories (M5)
+
+Round 5 played all seven stages on the D28 build, 2,430 commands, and won the Factory again (8d60655).
+
+![Points gained per stage, by round](wiki/metrics-playtest-progress.svg)
+
+**Progress by stage** (points, rounds 1 to 5): Duffy 21, 28, 17, 17, 26 of 5; Station 12, 6, 12, 16, 12 of 6; Village 13, 20, 24, 13, 27 of 12; Day 1 end 13, 6, 3 of 3 (from round 3); Day 2 0, 12, 21, 15, 18 of 25; Plato 10, 3, 10, 3, 10 of 22. Without the ambush, which came in three sessions, Village reads 20, Day 2 11 and Plato 3.
+
+**Endings:** one won, four still progressing, two stuck (Plato, and Day 1 end for the first time); 12 deaths, up from 5. Repeats fell from 0.50 to 0.41.
+
+**What went wrong and what changed** (e1b142a, fixed in 9d39ba0)
+- **Our own deviations misfired.** Our note on when the player could eat also printed on the coffee's refusal, and two testers came back to drink the poisoned coffee (SF-110). The D28 drill warning's "drill again" led a tester to spend the hole on the wrong thing (SF-111), and the boots warning never said how to go ahead (SF-112).
+- **Plato's start is canon.** Its ID card is already wiped by the route (SF-116); the tester took this for a bug and restarted (SF-114).
+- **Testers lack the character's memory.** Plato's did not know the safe had been drilled. Checkpoint briefings now list what the character saw on the route, as facts, never advice (`scripts/lib/memories.mjs`). Day 1 end's lost half its leg to a log-reader death and a restart.
+
+**Decisions.** Q11's two B items run on their defaults.
+
+**D24 not met.** Round 6, now being played, tests these fixes.
+
+Caveats: rotating personas, agent testers, one session per stage, UNDO on.
+
+<!-- through: git 9d39ba0 · mail 20260925-180019-norm-0140 · decisions 28 -->
+
+## 2026-09-25 -- The Duffy with the sponsor, and the station's look set (M7)
+
+**The Duffy.** Norm built its last three views by compute (Robot Pool 270, Cargo Bay Entrance 180, Forms Storage Room 090) and registered all ten caps (01aaef8). The Forms Storage Room went to the sponsor, the first room at M7's acceptance gate (norm-0132). A hatch-state change that the permission check refused also waits on them (Norm's report; not in git).
+
+**Level Five.** The Level Five 177 seed was approved in its third round as the station's reference look, with two faint points recorded under D27 (d643531, 220f009, 31ff181). South Junction 239, judged beside it, passed first time (f47c635): the first view to do so since Forms Storage Room 270 that morning (norm-0082). Norm credited the new gate (norm-0140). Four asks followed: the LF 087 ring view and the Commander's Office, Comm Center and PX seeds (fa19afa, b736b90).
+
+**What went wrong and what changed**
+- **Pseudo-lettering** showed up in three views in a day, and no check could see it (norm-0134). Norm asked Greg, who owns his generation process, to stop it at the source. Greg proposed a negative block in every prompt, named inspection zones and a 200% pass before delivery (greg-0093). It became contract v1.9 as written (5b9f766).
+- The LF 177 call plate cost a round for Norm's guide, whose ask invited a flat graphic (220f009).
+
+**Rework (D20).** Sol: 43 views, 32 first-pass, 26% (24%), 1.72 rounds per view (1.71). Astra: 0 of 2. Greg was on Sol throughout. Guide faults: 13, up from 12.
+
+**Efficiency (D21), at 14:46.** 114 of 118 asks closed; 22 views approved (20). Cycle p50/p90: Norm 4 and 8 minutes, Greg 26 minutes and 1.2 hours. Rework 37% of 93. 637,000 work tokens per accepted view (567,000). 13.5 sponsor touches a day.
+
+<!-- through: git b736b90 · mail 20260925-184407-norm-0144 · decisions 28 -->
