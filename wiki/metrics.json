@@ -1,60 +1,60 @@
 {
- "generated": "2026-09-25T18:46:51.936Z",
+ "generated": "2026-09-25T21:00:35.307Z",
  "clock": "US Eastern wall-clock",
  "span": {
   "from": "2026-09-24 20:34",
-  "to": "2026-09-25 14:46",
-  "hours": 18.2
+  "to": "2026-09-25 17:00",
+  "hours": 20.4
  },
  "binHours": 1,
  "headline": {
-  "asksClosed": 114,
-  "asksRaised": 118,
-  "normItemsClosed": 73,
-  "normItems": 74,
-  "itemsClosedPerActiveHour": 10.3,
-  "roomViewsRegistered": 22,
+  "asksClosed": 128,
+  "asksRaised": 129,
+  "normItemsClosed": 79,
+  "normItems": 80,
+  "itemsClosedPerActiveHour": 10.1,
+  "roomViewsRegistered": 25,
   "cycle": {
    "norm": {
-    "n": 73,
+    "n": 79,
     "p50": 0.07,
     "p90": 0.14
    },
    "greg": {
-    "n": 114,
-    "p50": 0.44,
-    "p90": 1.21
+    "n": 128,
+    "p50": 0.46,
+    "p90": 1.35
    },
    "all": {
-    "n": 187,
-    "p50": 0.17,
-    "p90": 1.19
+    "n": 207,
+    "p50": 0.19,
+    "p90": 1.2
    }
   },
   "reviewLatency": {
-   "n": 60,
+   "n": 64,
    "p50": 0.08,
    "p90": 0.16
   },
   "gregTurnaround": {
-   "n": 95,
-   "p50": 0.6,
-   "p90": 1.21
+   "n": 108,
+   "p50": 0.65,
+   "p90": 1.35
   },
   "openNow": {
    "norm": 1,
-   "greg": 4
+   "greg": 1
   },
   "rework": {
-   "share": 0.37,
+   "share": 0.36,
    "paint": 0.23,
-   "guide": 0.14,
-   "judged": 93
+   "guide": 0.13,
+   "judged": 97
   },
-  "tokensPerAcceptedView": 636635,
+  "tokensPerAcceptedView": 607282,
   "tokensPerAcceptedViewBasis": "greg + norm-main + art subagents, work tokens (fresh + cache writes + output)",
-  "tokensPerAcceptedViewWithCachedReads": 30062719,
-  "sponsorTouchesPerDay": 13.5
+  "tokensPerAcceptedViewWithCachedReads": 26502236,
+  "sponsorTouchesPerDay": 14
  },
  "throughput": [
   {
@@ -186,31 +186,52 @@
   {
    "start": "2026-09-25 14:00",
    "closedByNorm": 0,
+   "closedByGreg": 1,
+   "roomViews": 0,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-09-25 15:00",
+   "closedByNorm": 4,
+   "closedByGreg": 4,
+   "roomViews": 2,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-09-25 16:00",
+   "closedByNorm": 2,
+   "closedByGreg": 9,
+   "roomViews": 1,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-09-25 17:00",
+   "closedByNorm": 0,
    "closedByGreg": 0,
    "roomViews": 0,
    "otherArt": 0
   }
  ],
  "rework": {
-  "judged": 93,
-  "paint": 21,
+  "judged": 97,
+  "paint": 22,
   "guide": 13,
-  "share": 0.37,
+  "share": 0.36,
   "paintShare": 0.23,
-  "guideShare": 0.14,
+  "guideShare": 0.13,
   "byCategory": {
    "content": 7,
    "geometry": 11,
-   "material": 3,
+   "material": 4,
    "guide": 13
   },
   "byModel": {
    "Sol": {
-    "views": 43,
-    "judged": 43,
-    "rework": 11,
+    "views": 47,
+    "judged": 47,
+    "rework": 12,
     "rate": 0.26,
-    "roundsPerView": 1.72
+    "roundsPerView": 1.68
    },
    "none (scan-derived)": {
     "views": 13,
@@ -339,6 +360,24 @@
   },
   {
    "start": "2026-09-25 14:00",
+   "approved": 0,
+   "paint": 0,
+   "guide": 0
+  },
+  {
+   "start": "2026-09-25 15:00",
+   "approved": 2,
+   "paint": 1,
+   "guide": 0
+  },
+  {
+   "start": "2026-09-25 16:00",
+   "approved": 1,
+   "paint": 0,
+   "guide": 0
+  },
+  {
+   "start": "2026-09-25 17:00",
    "approved": 0,
    "paint": 0,
    "guide": 0
@@ -1104,12 +1143,116 @@
    "retro": false,
    "kind": "seed",
    "hours": 0.36
+  },
+  {
+   "ask": "20260925-184404-norm-0141#1",
+   "room": "LEVEL-FIVE",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.228
+  },
+  {
+   "ask": "20260925-184405-norm-0142#1",
+   "room": "COMMANDERS-OFFICE",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 1.011
+  },
+  {
+   "ask": "20260925-184406-norm-0143#1",
+   "room": "COMM-CENTER",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 1.145
+  },
+  {
+   "ask": "20260925-184407-norm-0144#1",
+   "room": "PX",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 1.391
+  },
+  {
+   "ask": "20260925-190535-norm-0145#1",
+   "room": "LEVEL-FIVE",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.532
+  },
+  {
+   "ask": "20260925-190535-norm-0145#2",
+   "room": "LEVEL-FIVE",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.532
+  },
+  {
+   "ask": "20260925-190535-norm-0145#3",
+   "room": "LEVEL-FIVE",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.532
+  },
+  {
+   "ask": "20260925-190535-norm-0145#4",
+   "room": "LEVEL-FIVE",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.532
+  },
+  {
+   "ask": "20260925-190535-norm-0145#5",
+   "room": "LEVEL-FIVE",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.532
+  },
+  {
+   "ask": "20260925-190535-norm-0145#6",
+   "room": "LEVEL-FIVE",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.532
+  },
+  {
+   "ask": "20260925-193428-norm-0148#1",
+   "room": "COMMANDERS-OFFICE",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.171
+  },
+  {
+   "ask": "20260925-193429-norm-0149#1",
+   "room": "COMM-CENTER",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.305
+  },
+  {
+   "ask": "20260925-193429-norm-0150#1",
+   "room": "PX",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.552
   }
  ],
  "cost": {
-  "runs": 133,
-  "tokens": 28812607,
-  "agentHours": 37.77,
+  "runs": 153,
+  "tokens": 32630001,
+  "agentHours": 43.85,
   "byMilestone": {
    "planning": {
     "runs": 4,
@@ -1147,14 +1290,14 @@
     "hours": 0.81
    },
    "M7": {
-    "runs": 63,
-    "tokens": 9857690,
-    "hours": 12.86
+    "runs": 73,
+    "tokens": 11178495,
+    "hours": 14.14
    },
    "M5": {
-    "runs": 42,
-    "tokens": 11860568,
-    "hours": 17.19
+    "runs": 52,
+    "tokens": 14357157,
+    "hours": 21.99
    },
    "D21": {
     "runs": 3,
@@ -1179,14 +1322,14 @@
     "hours": 5.28
    },
    "engine": {
-    "runs": 9,
-    "tokens": 2889461,
-    "hours": 4.3
+    "runs": 10,
+    "tokens": 3147983,
+    "hours": 4.83
    },
    "history": {
-    "runs": 4,
-    "tokens": 418912,
-    "hours": 0.28
+    "runs": 5,
+    "tokens": 563633,
+    "hours": 0.37
    },
    "porting": {
     "runs": 10,
@@ -1194,9 +1337,9 @@
     "hours": 3.53
    },
    "art-prep": {
-    "runs": 8,
-    "tokens": 3101545,
-    "hours": 5.81
+    "runs": 9,
+    "tokens": 3391752,
+    "hours": 6.28
    },
    "integration": {
     "runs": 1,
@@ -1204,27 +1347,27 @@
     "hours": 0.72
    },
    "playtest": {
-    "runs": 25,
-    "tokens": 7886598,
-    "hours": 11.57
+    "runs": 33,
+    "tokens": 9793107,
+    "hours": 15.55
    },
    "review": {
-    "runs": 45,
-    "tokens": 4426617,
-    "hours": 3.72
+    "runs": 53,
+    "tokens": 5312494,
+    "hours": 4.44
    },
    "triage": {
-    "runs": 5,
-    "tokens": 1336259,
-    "hours": 1.56
+    "runs": 6,
+    "tokens": 1667817,
+    "hours": 1.86
    }
   },
-  "artTokens": 7528162,
-  "roomViewsRegistered": 22,
-  "tokensPerAcceptedView": 342189,
+  "artTokens": 8704246,
+  "roomViewsRegistered": 25,
+  "tokensPerAcceptedView": 348170,
   "passes": {
    "tagged": 26,
-   "deliveries": 95,
+   "deliveries": 100,
    "perDelivery": 1.12
   }
  },
@@ -1332,9 +1475,9 @@
    "all": 3460307875
   },
   "perAcceptedView": {
-   "views": 22,
-   "work": 636635,
-   "all": 30062719,
+   "views": 25,
+   "work": 607282,
+   "all": 26502236,
    "parts": {
     "greg": {
      "work": 3245805,
@@ -1344,7 +1487,7 @@
      "work": 3231995,
      "all": 514456726
     },
-    "subagentArtFromWorkLog": 7528162
+    "subagentArtFromWorkLog": 8704246
    }
   },
   "gregByModelPerView": {
@@ -1354,9 +1497,9 @@
     ],
     "work": 2956329,
     "all": 125372457,
-    "views": 20,
-    "workPerView": 147816,
-    "allPerView": 6268623
+    "views": 23,
+    "workPerView": 128536,
+    "allPerView": 5450976
    },
    "Astra": {
     "models": [
@@ -1733,7 +1876,7 @@
   ]
  },
  "touches": {
-  "decisions": 16,
+  "decisions": 17,
   "questions": 11,
   "days": [
    {
@@ -1743,11 +1886,11 @@
    },
    {
     "date": "2026-09-25",
-    "decisions": 9,
+    "decisions": 10,
     "questions": 10
    }
   ],
-  "perDay": 13.5
+  "perDay": 14
  },
  "milestones": [
   {
@@ -1892,6 +2035,23 @@
     "high": 0.16
    },
    "weightedPer100": 3.46
+  },
+  {
+   "round": "6",
+   "sessions": 7,
+   "commands": 2350,
+   "wins": 2,
+   "deaths": 12,
+   "per100": 3.23,
+   "negativePer100": 1.96,
+   "repeatRate": 0.63,
+   "issuesRaised": 17,
+   "severityPer100": {
+    "low": 0.98,
+    "medium": 0.89,
+    "high": 0.09
+   },
+   "weightedPer100": 3.02
   }
  ],
  "progress": {
@@ -1954,7 +2114,8 @@
    "3",
    "4",
    "5",
-   "6"
+   "6",
+   "7"
   ],
   "segmentedRounds": [
    "1",
@@ -1964,7 +2125,9 @@
    "5",
    "6"
   ],
-  "fullRounds": [],
+  "fullRounds": [
+   "7"
+  ],
   "byRound": {
    "1": {
     "kind": "segmented",
@@ -2034,14 +2197,27 @@
    "6": {
     "kind": "segmented",
     "sessions": 7,
-    "commands": 119,
-    "gained": 22,
+    "commands": 2350,
+    "gained": 115,
     "ends": {
-     "won": 1,
+     "won": 2,
+     "budget": 5,
+     "stuck": 0,
+     "died": 0,
+     "open": 0
+    }
+   },
+   "7": {
+    "kind": "full",
+    "sessions": 3,
+    "commands": 944,
+    "gained": 50,
+    "ends": {
+     "won": 0,
      "budget": 0,
      "stuck": 0,
      "died": 0,
-     "open": 6
+     "open": 3
     }
    }
   },
@@ -3730,19 +3906,19 @@
     "fromOpening": false,
     "undo": true,
     "budget": 400,
-    "commands": 10,
+    "commands": 400,
     "legs": 1,
     "startScore": 0,
-    "bestScore": 5,
-    "gained": 5,
+    "bestScore": 22,
+    "gained": 22,
     "available": 5,
-    "share": 1,
-    "stagesAdvanced": 1,
-    "stuckAt": 7,
-    "tail": 3,
+    "share": 4.4,
+    "stagesAdvanced": 2.92,
+    "stuckAt": 399,
+    "tail": 1,
     "deaths": [],
     "won": false,
-    "reason": "open",
+    "reason": "budget",
     "steps": [
      [
       0,
@@ -3751,6 +3927,22 @@
      [
       7,
       5
+     ],
+     [
+      38,
+      8
+     ],
+     [
+      99,
+      11
+     ],
+     [
+      247,
+      17
+     ],
+     [
+      399,
+      22
      ]
     ],
     "legStarts": [],
@@ -3768,23 +3960,52 @@
     "fromOpening": false,
     "undo": true,
     "budget": 400,
-    "commands": 18,
+    "commands": 400,
     "legs": 1,
     "startScore": 11,
-    "bestScore": 11,
-    "gained": 0,
+    "bestScore": 28,
+    "gained": 17,
     "available": 12,
-    "share": 0,
-    "stagesAdvanced": 0,
-    "stuckAt": 0,
-    "tail": 18,
-    "deaths": [],
+    "share": 1.417,
+    "stagesAdvanced": 2.08,
+    "stuckAt": 372,
+    "tail": 28,
+    "deaths": [
+     {
+      "n": 143,
+      "gained": 7
+     },
+     {
+      "n": 187,
+      "gained": 7
+     }
+    ],
     "won": false,
-    "reason": "open",
+    "reason": "budget",
     "steps": [
      [
       0,
       0
+     ],
+     [
+      46,
+      3
+     ],
+     [
+      129,
+      7
+     ],
+     [
+      205,
+      10
+     ],
+     [
+      243,
+      14
+     ],
+     [
+      372,
+      17
      ]
     ],
     "legStarts": [],
@@ -3802,19 +4023,52 @@
     "fromOpening": false,
     "undo": true,
     "budget": 400,
-    "commands": 9,
+    "commands": 333,
     "legs": 1,
     "startScore": 51,
-    "bestScore": 58,
-    "gained": 7,
+    "bestScore": 80,
+    "gained": 29,
     "available": 22,
-    "share": 0.318,
-    "stagesAdvanced": 0.32,
-    "stuckAt": 6,
-    "tail": 3,
-    "deaths": [],
-    "won": false,
-    "reason": "open",
+    "share": 1.318,
+    "stagesAdvanced": 2,
+    "stuckAt": 332,
+    "tail": 1,
+    "deaths": [
+     {
+      "n": 49,
+      "gained": 13
+     },
+     {
+      "n": 160,
+      "gained": 22
+     },
+     {
+      "n": 162,
+      "gained": 22
+     },
+     {
+      "n": 174,
+      "gained": 22
+     },
+     {
+      "n": 176,
+      "gained": 22
+     },
+     {
+      "n": 207,
+      "gained": 22
+     },
+     {
+      "n": 320,
+      "gained": 24
+     },
+     {
+      "n": 327,
+      "gained": 24
+     }
+    ],
+    "won": true,
+    "reason": "won",
     "steps": [
      [
       0,
@@ -3823,6 +4077,30 @@
      [
       6,
       7
+     ],
+     [
+      12,
+      10
+     ],
+     [
+      36,
+      13
+     ],
+     [
+      121,
+      20
+     ],
+     [
+      148,
+      22
+     ],
+     [
+      311,
+      24
+     ],
+     [
+      332,
+      29
      ]
     ],
     "legStarts": [],
@@ -3840,23 +4118,35 @@
     "fromOpening": false,
     "undo": true,
     "budget": 400,
-    "commands": 22,
+    "commands": 400,
     "legs": 1,
     "startScore": 5,
-    "bestScore": 5,
-    "gained": 0,
+    "bestScore": 17,
+    "gained": 12,
     "available": 6,
-    "share": 0,
-    "stagesAdvanced": 0,
-    "stuckAt": 0,
-    "tail": 22,
+    "share": 2,
+    "stagesAdvanced": 1.5,
+    "stuckAt": 396,
+    "tail": 4,
     "deaths": [],
     "won": false,
-    "reason": "open",
+    "reason": "budget",
     "steps": [
      [
       0,
       0
+     ],
+     [
+      61,
+      3
+     ],
+     [
+      125,
+      6
+     ],
+     [
+      396,
+      12
      ]
     ],
     "legStarts": [],
@@ -3874,19 +4164,28 @@
     "fromOpening": false,
     "undo": true,
     "budget": 400,
-    "commands": 23,
+    "commands": 400,
     "legs": 1,
     "startScore": 23,
-    "bestScore": 26,
-    "gained": 3,
+    "bestScore": 36,
+    "gained": 13,
     "available": 3,
-    "share": 1,
-    "stagesAdvanced": 1,
-    "stuckAt": 9,
-    "tail": 14,
-    "deaths": [],
+    "share": 4.333,
+    "stagesAdvanced": 1.4,
+    "stuckAt": 300,
+    "tail": 100,
+    "deaths": [
+     {
+      "n": 231,
+      "gained": 6
+     },
+     {
+      "n": 357,
+      "gained": 13
+     }
+    ],
     "won": false,
-    "reason": "open",
+    "reason": "budget",
     "steps": [
      [
       0,
@@ -3895,6 +4194,14 @@
      [
       9,
       3
+     ],
+     [
+      194,
+      6
+     ],
+     [
+      300,
+      13
      ]
     ],
     "legStarts": [],
@@ -3912,23 +4219,35 @@
     "fromOpening": false,
     "undo": true,
     "budget": 400,
-    "commands": 20,
+    "commands": 400,
     "legs": 1,
     "startScore": 26,
-    "bestScore": 26,
-    "gained": 0,
+    "bestScore": 41,
+    "gained": 15,
     "available": 25,
-    "share": 0,
-    "stagesAdvanced": 0,
-    "stuckAt": 0,
-    "tail": 20,
+    "share": 0.6,
+    "stagesAdvanced": 0.6,
+    "stuckAt": 353,
+    "tail": 47,
     "deaths": [],
     "won": false,
-    "reason": "open",
+    "reason": "budget",
     "steps": [
      [
       0,
       0
+     ],
+     [
+      140,
+      3
+     ],
+     [
+      274,
+      10
+     ],
+     [
+      353,
+      15
      ]
     ],
     "legStarts": [],
@@ -3977,29 +4296,439 @@
     "turnCap": 1500,
     "capped": false,
     "roundKind": "segmented"
+   },
+   {
+    "session": "r7-click-fullA",
+    "date": "2026-09-25",
+    "round": "7",
+    "mode": "click",
+    "persona": "a casual puzzle fan who plays escape-room games on a tablet, never a text adventure",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": true,
+    "budget": 400,
+    "commands": 239,
+    "legs": 1,
+    "startScore": 0,
+    "bestScore": 11,
+    "gained": 11,
+    "available": 80,
+    "share": 0.138,
+    "stagesAdvanced": 2,
+    "stuckAt": 105,
+    "tail": 134,
+    "deaths": [
+     {
+      "n": 20,
+      "gained": 0
+     }
+    ],
+    "won": false,
+    "reason": "open",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      31,
+      5
+     ],
+     [
+      61,
+      8
+     ],
+     [
+      105,
+      11
+     ]
+    ],
+    "legStarts": [],
+    "turnCap": 1500,
+    "capped": false,
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 31
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 31,
+       "commands": 74
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 12,
+       "reached": true,
+       "points": 0,
+       "share": 0,
+       "enteredAt": 105,
+       "commands": 134
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 2,
+     "furthestStage": "03-village",
+     "end": "open"
+    }
+   },
+   {
+    "session": "r7-click-fullB",
+    "date": "2026-09-25",
+    "round": "7",
+    "mode": "click",
+    "persona": "someone who played Planetfall on an Apple II in 1983 and loved Floyd, but never played the sequel",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": true,
+    "budget": 400,
+    "commands": 278,
+    "legs": 1,
+    "startScore": 0,
+    "bestScore": 17,
+    "gained": 17,
+    "available": 80,
+    "share": 0.212,
+    "stagesAdvanced": 2.5,
+    "stuckAt": 278,
+    "tail": 0,
+    "deaths": [
+     {
+      "n": 24,
+      "gained": 0
+     },
+     {
+      "n": 30,
+      "gained": 0
+     }
+    ],
+    "won": false,
+    "reason": "open",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      37,
+      5
+     ],
+     [
+      90,
+      8
+     ],
+     [
+      166,
+      11
+     ],
+     [
+      278,
+      17
+     ]
+    ],
+    "legStarts": [],
+    "turnCap": 1500,
+    "capped": false,
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 37
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 37,
+       "commands": 129
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 12,
+       "reached": true,
+       "points": 6,
+       "share": 0.5,
+       "enteredAt": 166,
+       "commands": 112
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 2,
+     "furthestStage": "03-village",
+     "end": "open"
+    }
+   },
+   {
+    "session": "r7-typed-full",
+    "date": "2026-09-25",
+    "round": "7",
+    "mode": "typed",
+    "persona": "an adult who played Zork in the 1980s but has never played this game",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": true,
+    "budget": 800,
+    "commands": 427,
+    "legs": 2,
+    "startScore": 0,
+    "bestScore": 22,
+    "gained": 22,
+    "available": 80,
+    "share": 0.275,
+    "stagesAdvanced": 2.92,
+    "stuckAt": 327,
+    "tail": 100,
+    "deaths": [
+     {
+      "n": 72,
+      "gained": 5
+     },
+     {
+      "n": 74,
+      "gained": 5
+     },
+     {
+      "n": 275,
+      "gained": 17
+     }
+    ],
+    "won": false,
+    "reason": "open",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      30,
+      5
+     ],
+     [
+      93,
+      8
+     ],
+     [
+      168,
+      11
+     ],
+     [
+      249,
+      17
+     ],
+     [
+      327,
+      22
+     ]
+    ],
+    "legStarts": [
+     400
+    ],
+    "turnCap": 1500,
+    "capped": false,
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 30
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 30,
+       "commands": 138
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 12,
+       "reached": true,
+       "points": 11,
+       "share": 0.917,
+       "enteredAt": 168,
+       "commands": 259
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 2,
+     "furthestStage": "03-village",
+     "end": "open"
+    }
    }
   ]
  },
  "git": {
-  "commits": 157,
+  "commits": 171,
   "withWorkTrailer": 5,
   "churnByArea": {
-   "wwwroot/data": 150115,
+   "wwwroot/data": 151282,
    "stationfall-master": 44064,
-   "scripts": 33366,
-   "design": 31352,
-   "wwwroot/wiki": 21007,
-   "playtests": 17344,
-   "wwwroot/rules": 9217,
-   "wwwroot/engine": 4593,
+   "design": 33957,
+   "scripts": 33765,
+   "wwwroot/wiki": 25913,
+   "playtests": 20787,
+   "wwwroot/rules": 9261,
+   "wwwroot/engine": 4653,
    "porting": 4081,
    "wwwroot/scene": 3635,
    "wwwroot/dashboard": 3394,
    "reference": 1649,
    "wwwroot": 1049,
-   "(top)": 877,
+   "(top)": 881,
    "wwwroot/ui": 421,
-   "decisions": 194,
+   "decisions": 215,
    "Properties": 23
   },
   "byWork": [
@@ -4028,9 +4757,9 @@
   }
  ],
  "readLog": {
-  "entries": 32,
+  "entries": 40,
   "byAgent": {
-   "greg": 32
+   "greg": 40
   },
   "since": "2026-09-25T10:40:02.380Z"
  }

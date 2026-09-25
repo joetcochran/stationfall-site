@@ -52,8 +52,8 @@
 <g><title>r4-click-01duffy: last new points at command 253, then 122 commands without</title><circle cx="149.4" cy="196.8" r="4.5" fill="#111a22" stroke="#c98500" stroke-width="2"/></g>
 <g><title>r5-click-01duffy (round 5, click, UNDO on): 26 of 5 points (520%), 4 stages; 400 of 400 commands; last new points at command 375; 0 death(s); ended: budget spent, still progressing</title><path d="M59.0,296.0 H62.6 V266.8 H74.7 V249.3 H92.6 V231.8 H158.7 V196.8 H170.9 V173.5 H193.1 V144.3" fill="none" stroke="#9085e9" stroke-width="2"/><line x1="193.1" y1="144.3" x2="202.0" y2="144.3" stroke="#9085e9" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
 <g><title>r5-click-01duffy: last new points at command 375, then 25 commands without</title><circle cx="193.1" cy="144.3" r="4.5" fill="#111a22" stroke="#9085e9" stroke-width="2"/></g>
-<g><title>r6-click-01duffy (round 6, click, UNDO on): 5 of 5 points (100%), 1 stages; 10 of 400 commands; last new points at command 7; 0 death(s); ended: still playing, or stopped early</title><path d="M59.0,296.0 H61.5 V266.8" fill="none" stroke="#d55181" stroke-width="2"/><line x1="61.5" y1="266.8" x2="62.6" y2="266.8" stroke="#d55181" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
-<g><title>r6-click-01duffy: last new points at command 7, then 3 commands without</title><circle cx="61.5" cy="266.8" r="4.5" fill="#111a22" stroke="#d55181" stroke-width="2"/></g>
+<g><title>r6-click-01duffy (round 6, click, UNDO on): 22 of 5 points (440%), 2.92 stages; 400 of 400 commands; last new points at command 399; 0 death(s); ended: budget spent, still progressing</title><path d="M59.0,296.0 H61.5 V266.8 H72.6 V249.3 H94.4 V231.8 H147.3 V196.8 H201.6 V167.7" fill="none" stroke="#d55181" stroke-width="2"/><line x1="201.6" y1="167.7" x2="202.0" y2="167.7" stroke="#d55181" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
+<g><title>r6-click-01duffy: last new points at command 399, then 1 commands without</title><circle cx="201.6" cy="167.7" r="4.5" fill="#111a22" stroke="#d55181" stroke-width="2"/></g>
 <rect x="277" y="116" width="153" height="185" fill="none" stroke="#34495a"/>
 <text x="247.0" y="106.0" fill="#d9e3ea" font-size="12" text-anchor="start">2. Station (6 pts)</text>
 <line x1="282" y1="296.0" x2="425" y2="296.0" stroke="#34495a"/>
@@ -86,8 +86,8 @@
 <g><title>r4-typed-02station: last new points at command 340, then 56 commands without</title><circle cx="403.6" cy="156.0" r="4.5" fill="#111a22" stroke="#c98500" stroke-width="2"/></g>
 <g><title>r5-typed-02station (round 5, typed, UNDO on): 12 of 6 points (200%), 1.5 stages; 400 of 400 commands; last new points at command 395; 0 death(s); ended: budget spent, still progressing</title><path d="M282.0,296.0 H302.0 V269.8 H332.1 V243.5 H423.2 V191.0" fill="none" stroke="#9085e9" stroke-width="2"/><line x1="423.2" y1="191.0" x2="425.0" y2="191.0" stroke="#9085e9" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
 <g><title>r5-typed-02station: last new points at command 395, then 5 commands without</title><circle cx="423.2" cy="191.0" r="4.5" fill="#111a22" stroke="#9085e9" stroke-width="2"/></g>
-<g><title>r6-typed-02station (round 6, typed, UNDO on): 0 of 6 points (0%), 0 stages; 22 of 400 commands; last new points at command 0; 0 death(s); ended: still playing, or stopped early</title><path d="M282.0,296.0" fill="none" stroke="#d55181" stroke-width="2"/><line x1="282.0" y1="296.0" x2="289.9" y2="296.0" stroke="#d55181" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
-<g><title>r6-typed-02station: last new points at command 0, then 22 commands without</title><circle cx="282.0" cy="296.0" r="4.5" fill="#111a22" stroke="#d55181" stroke-width="2"/></g>
+<g><title>r6-typed-02station (round 6, typed, UNDO on): 12 of 6 points (200%), 1.5 stages; 400 of 400 commands; last new points at command 396; 0 death(s); ended: budget spent, still progressing</title><path d="M282.0,296.0 H303.8 V269.8 H326.7 V243.5 H423.6 V191.0" fill="none" stroke="#d55181" stroke-width="2"/><line x1="423.6" y1="191.0" x2="425.0" y2="191.0" stroke="#d55181" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
+<g><title>r6-typed-02station: last new points at command 396, then 4 commands without</title><circle cx="423.6" cy="191.0" r="4.5" fill="#111a22" stroke="#d55181" stroke-width="2"/></g>
 <rect x="500" y="116" width="153" height="185" fill="none" stroke="#34495a"/>
 <text x="470.0" y="106.0" fill="#d9e3ea" font-size="12" text-anchor="start">3. Village (12 pts)</text>
 <line x1="505" y1="296.0" x2="648" y2="296.0" stroke="#34495a"/>
@@ -119,8 +119,10 @@
 <path d="M543.7,275.0 L550.7,282.0 M550.7,275.0 L543.7,282.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
 <path d="M619.1,193.3 L626.1,200.3 M626.1,193.3 L619.1,200.3" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
 <g><title>r5-click-03village: last new points at command 399, then 1 commands without</title><circle cx="647.6" cy="138.5" r="4.5" fill="#111a22" stroke="#9085e9" stroke-width="2"/></g>
-<g><title>r6-click-03village (round 6, click, UNDO on): 0 of 12 points (0%), 0 stages; 18 of 400 commands; last new points at command 0; 0 death(s); ended: still playing, or stopped early</title><path d="M505.0,296.0" fill="none" stroke="#d55181" stroke-width="2"/><line x1="505.0" y1="296.0" x2="511.4" y2="296.0" stroke="#d55181" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
-<g><title>r6-click-03village: last new points at command 0, then 18 commands without</title><circle cx="505.0" cy="296.0" r="4.5" fill="#111a22" stroke="#d55181" stroke-width="2"/></g>
+<g><title>r6-click-03village (round 6, click, UNDO on): 17 of 12 points (142%), 2.08 stages; 400 of 400 commands; last new points at command 372; 2 death(s); ended: budget spent, still progressing</title><path d="M505.0,296.0 H521.4 V278.5 H551.1 V255.2 H578.3 V237.7 H591.9 V214.3 H638.0 V196.8" fill="none" stroke="#d55181" stroke-width="2"/><line x1="638.0" y1="196.8" x2="648.0" y2="196.8" stroke="#d55181" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
+<path d="M552.6,251.7 L559.6,258.7 M559.6,251.7 L552.6,258.7" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<path d="M568.4,251.7 L575.4,258.7 M575.4,251.7 L568.4,258.7" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<g><title>r6-click-03village: last new points at command 372, then 28 commands without</title><circle cx="638.0" cy="196.8" r="4.5" fill="#111a22" stroke="#d55181" stroke-width="2"/></g>
 <rect x="723" y="116" width="153" height="185" fill="none" stroke="#34495a"/>
 <text x="693.0" y="106.0" fill="#d9e3ea" font-size="12" text-anchor="start">4. Day 1 end (3 pts)</text>
 <line x1="728" y1="296.0" x2="871" y2="296.0" stroke="#34495a"/>
@@ -150,8 +152,10 @@
 <path d="M843.5,257.5 L850.5,264.5 M850.5,257.5 L843.5,264.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
 <path d="M851.1,257.5 L858.1,264.5 M858.1,257.5 L851.1,264.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
 <g><title>r5-typed-04day1end: last new points at command 16, then 384 commands without</title><circle cx="733.7" cy="261.0" r="4.5" fill="#111a22" stroke="#9085e9" stroke-width="2"/></g>
-<g><title>r6-typed-04day1end (round 6, typed, UNDO on): 3 of 3 points (100%), 1 stages; 23 of 400 commands; last new points at command 9; 0 death(s); ended: still playing, or stopped early</title><path d="M728.0,296.0 H731.2 V261.0" fill="none" stroke="#d55181" stroke-width="2"/><line x1="731.2" y1="261.0" x2="736.2" y2="261.0" stroke="#d55181" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
-<g><title>r6-typed-04day1end: last new points at command 9, then 14 commands without</title><circle cx="731.2" cy="261.0" r="4.5" fill="#111a22" stroke="#d55181" stroke-width="2"/></g>
+<g><title>r6-typed-04day1end (round 6, typed, UNDO on): 13 of 3 points (433%), 1.4 stages; 400 of 400 commands; last new points at command 300; 2 death(s); ended: budget spent, still progressing</title><path d="M728.0,296.0 H731.2 V261.0 H797.4 V226.0 H835.3 V144.3" fill="none" stroke="#d55181" stroke-width="2"/><line x1="835.3" y1="144.3" x2="871.0" y2="144.3" stroke="#d55181" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
+<path d="M807.1,222.5 L814.1,229.5 M814.1,222.5 L807.1,229.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<path d="M852.1,140.8 L859.1,147.8 M859.1,140.8 L852.1,147.8" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<g><title>r6-typed-04day1end: last new points at command 300, then 100 commands without</title><circle cx="835.3" cy="144.3" r="4.5" fill="#111a22" stroke="#d55181" stroke-width="2"/></g>
 <rect x="54" y="385" width="153" height="185" fill="none" stroke="#34495a"/>
 <text x="24.0" y="375.0" fill="#d9e3ea" font-size="12" text-anchor="start">5. Day 2 (25 pts)</text>
 <line x1="59" y1="565.0" x2="202" y2="565.0" stroke="#34495a"/>
@@ -188,49 +192,53 @@
 <path d="M116.6,561.5 L123.6,568.5 M123.6,561.5 L116.6,568.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
 <path d="M181.0,435.5 L188.0,442.5 M188.0,435.5 L181.0,442.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
 <g><title>r5-typed-05day2: last new points at command 332, then 68 commands without</title><circle cx="177.7" cy="439.0" r="4.5" fill="#111a22" stroke="#9085e9" stroke-width="2"/></g>
-<g><title>r6-typed-05day2 (round 6, typed, UNDO on): 0 of 25 points (0%), 0 stages; 20 of 400 commands; last new points at command 0; 0 death(s); ended: still playing, or stopped early</title><path d="M59.0,565.0" fill="none" stroke="#d55181" stroke-width="2"/><line x1="59.0" y1="565.0" x2="66.2" y2="565.0" stroke="#d55181" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
-<g><title>r6-typed-05day2: last new points at command 0, then 20 commands without</title><circle cx="59.0" cy="565.0" r="4.5" fill="#111a22" stroke="#d55181" stroke-width="2"/></g>
+<g><title>r6-typed-05day2 (round 6, typed, UNDO on): 15 of 25 points (60%), 0.6 stages; 400 of 400 commands; last new points at command 353; 0 death(s); ended: budget spent, still progressing</title><path d="M59.0,565.0 H109.1 V544.0 H157.0 V495.0 H185.2 V460.0" fill="none" stroke="#d55181" stroke-width="2"/><line x1="185.2" y1="460.0" x2="202.0" y2="460.0" stroke="#d55181" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
+<g><title>r6-typed-05day2: last new points at command 353, then 47 commands without</title><circle cx="185.2" cy="460.0" r="4.5" fill="#111a22" stroke="#d55181" stroke-width="2"/></g>
 <rect x="277" y="385" width="153" height="185" fill="none" stroke="#34495a"/>
 <text x="247.0" y="375.0" fill="#d9e3ea" font-size="12" text-anchor="start">6. Plato (22 pts)</text>
 <line x1="282" y1="565.0" x2="425" y2="565.0" stroke="#34495a"/>
 <text x="274.0" y="569.0" fill="#8fa3b1" font-size="11" text-anchor="end">0</text>
-<line x1="282" y1="530.0" x2="425" y2="530.0" stroke="#1f2c37"/>
-<text x="274.0" y="534.0" fill="#8fa3b1" font-size="11" text-anchor="end">5</text>
-<line x1="282" y1="495.0" x2="425" y2="495.0" stroke="#1f2c37"/>
-<text x="274.0" y="499.0" fill="#8fa3b1" font-size="11" text-anchor="end">10</text>
-<line x1="282" y1="460.0" x2="425" y2="460.0" stroke="#1f2c37"/>
-<text x="274.0" y="464.0" fill="#8fa3b1" font-size="11" text-anchor="end">15</text>
-<line x1="282" y1="425.0" x2="425" y2="425.0" stroke="#1f2c37"/>
-<text x="274.0" y="429.0" fill="#8fa3b1" font-size="11" text-anchor="end">20</text>
+<line x1="282" y1="506.7" x2="425" y2="506.7" stroke="#1f2c37"/>
+<text x="274.0" y="510.7" fill="#8fa3b1" font-size="11" text-anchor="end">10</text>
+<line x1="282" y1="448.3" x2="425" y2="448.3" stroke="#1f2c37"/>
+<text x="274.0" y="452.3" fill="#8fa3b1" font-size="11" text-anchor="end">20</text>
 <line x1="282" y1="390.0" x2="425" y2="390.0" stroke="#1f2c37"/>
-<text x="274.0" y="394.0" fill="#8fa3b1" font-size="11" text-anchor="end">25</text>
+<text x="274.0" y="394.0" fill="#8fa3b1" font-size="11" text-anchor="end">30</text>
 <text x="282.0" y="584.0" fill="#8fa3b1" font-size="10" text-anchor="start">0</text>
 <text x="353.5" y="584.0" fill="#8fa3b1" font-size="10" text-anchor="middle">200</text>
 <text x="425.0" y="584.0" fill="#8fa3b1" font-size="10" text-anchor="end">400</text>
-<line x1="282" y1="411.0" x2="425" y2="411.0" stroke="#8fa3b1" stroke-dasharray="3 3"/>
-<g><title>r1-click-06plato (round 1, click): 10 of 22 points (46%), 0.45 stages; 382 of 400 commands; last new points at command 33; 3 death(s); ended: stuck (no new points in the last 200 commands)</title><path d="M282.0,565.0 H284.9 V544.0 H293.8 V495.0" fill="none" stroke="#3987e5" stroke-width="2"/><line x1="293.8" y1="495.0" x2="418.6" y2="495.0" stroke="#3987e5" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
-<path d="M287.8,540.5 L294.8,547.5 M294.8,540.5 L287.8,547.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<path d="M317.8,491.5 L324.8,498.5 M324.8,491.5 L317.8,498.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<path d="M334.3,491.5 L341.3,498.5 M341.3,491.5 L334.3,498.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<g><title>r1-click-06plato: last new points at command 33, then 349 commands without</title><circle cx="293.8" cy="495.0" r="4.5" fill="#111a22" stroke="#3987e5" stroke-width="2"/></g>
-<g><title>r2-click-06plato (round 2, click, UNDO on): 3 of 22 points (14%), 0.14 stages; 398 of 400 commands; last new points at command 12; 4 death(s); ended: stuck (no new points in the last 200 commands)</title><path d="M282.0,565.0 H286.3 V544.0" fill="none" stroke="#d95926" stroke-width="2"/><line x1="286.3" y1="544.0" x2="424.3" y2="544.0" stroke="#d95926" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
-<path d="M289.9,540.5 L296.9,547.5 M296.9,540.5 L289.9,547.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<path d="M290.7,540.5 L297.7,547.5 M297.7,540.5 L290.7,547.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<path d="M314.6,540.5 L321.6,547.5 M321.6,540.5 L314.6,547.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<path d="M370.0,540.5 L377.0,547.5 M377.0,540.5 L370.0,547.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<g><title>r2-click-06plato: last new points at command 12, then 386 commands without</title><circle cx="286.3" cy="544.0" r="4.5" fill="#111a22" stroke="#d95926" stroke-width="2"/></g>
-<g><title>r3-typed-06plato (round 3, typed, UNDO on): 10 of 22 points (46%), 0.45 stages; 399 of 400 commands; last new points at command 33; 2 death(s); ended: stuck (no new points in the last 200 commands)</title><path d="M282.0,565.0 H285.2 V544.0 H293.8 V495.0" fill="none" stroke="#199e70" stroke-width="2"/><line x1="293.8" y1="495.0" x2="424.6" y2="495.0" stroke="#199e70" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
-<path d="M320.3,491.5 L327.3,498.5 M327.3,491.5 L320.3,498.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<path d="M322.8,491.5 L329.8,498.5 M329.8,491.5 L322.8,498.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<g><title>r3-typed-06plato: last new points at command 33, then 366 commands without</title><circle cx="293.8" cy="495.0" r="4.5" fill="#111a22" stroke="#199e70" stroke-width="2"/></g>
-<g><title>r4-click-06plato (round 4, click, UNDO on): 3 of 22 points (14%), 0.14 stages; 396 of 400 commands; last new points at command 15; 1 death(s); ended: stuck (no new points in the last 200 commands)</title><path d="M282.0,565.0 H287.4 V544.0" fill="none" stroke="#c98500" stroke-width="2"/><line x1="287.4" y1="544.0" x2="423.6" y2="544.0" stroke="#c98500" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
-<path d="M303.2,540.5 L310.2,547.5 M310.2,540.5 L303.2,547.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<g><title>r4-click-06plato: last new points at command 15, then 381 commands without</title><circle cx="287.4" cy="544.0" r="4.5" fill="#111a22" stroke="#c98500" stroke-width="2"/></g>
-<g><title>r5-click-06plato (round 5, click, UNDO on): 10 of 22 points (46%), 0.45 stages; 400 of 400 commands; last new points at command 31; 1 death(s); ended: stuck (no new points in the last 200 commands)</title><path d="M282.0,565.0 H284.5 V544.0 H293.1 V495.0" fill="none" stroke="#9085e9" stroke-width="2"/><line x1="293.1" y1="495.0" x2="425.0" y2="495.0" stroke="#9085e9" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
-<path d="M303.5,491.5 L310.5,498.5 M310.5,491.5 L303.5,498.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<g><title>r5-click-06plato: last new points at command 31, then 369 commands without</title><circle cx="293.1" cy="495.0" r="4.5" fill="#111a22" stroke="#9085e9" stroke-width="2"/></g>
-<g><title>r6-click-06plato (round 6, click, UNDO on): 7 of 22 points (32%), 0.32 stages; 9 of 400 commands; last new points at command 6; 0 death(s); ended: still playing, or stopped early</title><path d="M282.0,565.0 H284.1 V516.0" fill="none" stroke="#d55181" stroke-width="2"/><line x1="284.1" y1="516.0" x2="285.2" y2="516.0" stroke="#d55181" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
-<g><title>r6-click-06plato: last new points at command 6, then 3 commands without</title><circle cx="284.1" cy="516.0" r="4.5" fill="#111a22" stroke="#d55181" stroke-width="2"/></g>
+<line x1="282" y1="436.7" x2="425" y2="436.7" stroke="#8fa3b1" stroke-dasharray="3 3"/>
+<g><title>r1-click-06plato (round 1, click): 10 of 22 points (46%), 0.45 stages; 382 of 400 commands; last new points at command 33; 3 death(s); ended: stuck (no new points in the last 200 commands)</title><path d="M282.0,565.0 H284.9 V547.5 H293.8 V506.7" fill="none" stroke="#3987e5" stroke-width="2"/><line x1="293.8" y1="506.7" x2="418.6" y2="506.7" stroke="#3987e5" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
+<path d="M287.8,544.0 L294.8,551.0 M294.8,544.0 L287.8,551.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<path d="M317.8,503.2 L324.8,510.2 M324.8,503.2 L317.8,510.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<path d="M334.3,503.2 L341.3,510.2 M341.3,503.2 L334.3,510.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<g><title>r1-click-06plato: last new points at command 33, then 349 commands without</title><circle cx="293.8" cy="506.7" r="4.5" fill="#111a22" stroke="#3987e5" stroke-width="2"/></g>
+<g><title>r2-click-06plato (round 2, click, UNDO on): 3 of 22 points (14%), 0.14 stages; 398 of 400 commands; last new points at command 12; 4 death(s); ended: stuck (no new points in the last 200 commands)</title><path d="M282.0,565.0 H286.3 V547.5" fill="none" stroke="#d95926" stroke-width="2"/><line x1="286.3" y1="547.5" x2="424.3" y2="547.5" stroke="#d95926" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
+<path d="M289.9,544.0 L296.9,551.0 M296.9,544.0 L289.9,551.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<path d="M290.7,544.0 L297.7,551.0 M297.7,544.0 L290.7,551.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<path d="M314.6,544.0 L321.6,551.0 M321.6,544.0 L314.6,551.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<path d="M370.0,544.0 L377.0,551.0 M377.0,544.0 L370.0,551.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<g><title>r2-click-06plato: last new points at command 12, then 386 commands without</title><circle cx="286.3" cy="547.5" r="4.5" fill="#111a22" stroke="#d95926" stroke-width="2"/></g>
+<g><title>r3-typed-06plato (round 3, typed, UNDO on): 10 of 22 points (46%), 0.45 stages; 399 of 400 commands; last new points at command 33; 2 death(s); ended: stuck (no new points in the last 200 commands)</title><path d="M282.0,565.0 H285.2 V547.5 H293.8 V506.7" fill="none" stroke="#199e70" stroke-width="2"/><line x1="293.8" y1="506.7" x2="424.6" y2="506.7" stroke="#199e70" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
+<path d="M320.3,503.2 L327.3,510.2 M327.3,503.2 L320.3,510.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<path d="M322.8,503.2 L329.8,510.2 M329.8,503.2 L322.8,510.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<g><title>r3-typed-06plato: last new points at command 33, then 366 commands without</title><circle cx="293.8" cy="506.7" r="4.5" fill="#111a22" stroke="#199e70" stroke-width="2"/></g>
+<g><title>r4-click-06plato (round 4, click, UNDO on): 3 of 22 points (14%), 0.14 stages; 396 of 400 commands; last new points at command 15; 1 death(s); ended: stuck (no new points in the last 200 commands)</title><path d="M282.0,565.0 H287.4 V547.5" fill="none" stroke="#c98500" stroke-width="2"/><line x1="287.4" y1="547.5" x2="423.6" y2="547.5" stroke="#c98500" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
+<path d="M303.2,544.0 L310.2,551.0 M310.2,544.0 L303.2,551.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<g><title>r4-click-06plato: last new points at command 15, then 381 commands without</title><circle cx="287.4" cy="547.5" r="4.5" fill="#111a22" stroke="#c98500" stroke-width="2"/></g>
+<g><title>r5-click-06plato (round 5, click, UNDO on): 10 of 22 points (46%), 0.45 stages; 400 of 400 commands; last new points at command 31; 1 death(s); ended: stuck (no new points in the last 200 commands)</title><path d="M282.0,565.0 H284.5 V547.5 H293.1 V506.7" fill="none" stroke="#9085e9" stroke-width="2"/><line x1="293.1" y1="506.7" x2="425.0" y2="506.7" stroke="#9085e9" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
+<path d="M303.5,503.2 L310.5,510.2 M310.5,503.2 L303.5,510.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<g><title>r5-click-06plato: last new points at command 31, then 369 commands without</title><circle cx="293.1" cy="506.7" r="4.5" fill="#111a22" stroke="#9085e9" stroke-width="2"/></g>
+<g><title>r6-click-06plato (round 6, click, UNDO on): 29 of 22 points (132%), 2 stages; 333 of 400 commands; last new points at command 332; 8 death(s); ended: won</title><path d="M282.0,565.0 H284.1 V524.2 H286.3 V506.7 H294.9 V489.2 H325.3 V448.3 H334.9 V436.7 H393.2 V425.0 H400.7 V395.8" fill="none" stroke="#d55181" stroke-width="2"/><line x1="400.7" y1="395.8" x2="401.0" y2="395.8" stroke="#d55181" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.7"/></g>
+<path d="M296.0,485.7 L303.0,492.7 M303.0,485.7 L296.0,492.7" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<path d="M335.7,433.2 L342.7,440.2 M342.7,433.2 L335.7,440.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<path d="M336.4,433.2 L343.4,440.2 M343.4,433.2 L336.4,440.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<path d="M340.7,433.2 L347.7,440.2 M347.7,433.2 L340.7,440.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<path d="M341.4,433.2 L348.4,440.2 M348.4,433.2 L341.4,440.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<path d="M352.5,433.2 L359.5,440.2 M359.5,433.2 L352.5,440.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<path d="M392.9,421.5 L399.9,428.5 M399.9,421.5 L392.9,428.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<path d="M395.4,421.5 L402.4,428.5 M402.4,421.5 L395.4,428.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<path d="M401.0,389.8 L402.6,393.6 L406.8,394.0 L403.6,396.7 L404.6,400.7 L401.0,398.5 L397.5,400.7 L398.5,396.7 L395.3,394.0 L399.5,393.6 Z" fill="#d9e3ea"/>
 <rect x="500" y="385" width="153" height="185" fill="none" stroke="#34495a"/>
 <text x="470.0" y="375.0" fill="#d9e3ea" font-size="12" text-anchor="start">7. Factory (7 pts)</text>
 <line x1="505" y1="565.0" x2="648" y2="565.0" stroke="#34495a"/>

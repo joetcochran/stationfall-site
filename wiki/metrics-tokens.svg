@@ -242,6 +242,6 @@
 <path d="M837.0,506.0 V506.0 Q837.0,505.4 837.6,505.4 H847.7 Q848.3,505.4 848.3,506.0 V506.0 Z" fill="#d95926" fill-opacity="0.8"/>
 <path d="M849.3,506.0 V505.3 Q849.3,502.3 852.3,502.3 H857.7 Q860.7,502.3 860.7,505.3 V506.0 Z" fill="#3987e5" fill-opacity="0.8"/>
 <path d="M861.7,506.0 V480.8 Q861.7,477.8 864.7,477.8 H870.0 Q873.0,477.8 873.0,480.8 V506.0 Z" fill="#9085e9" fill-opacity="0.8"/>
-<text x="56.0" y="550.0" fill="#d9e3ea" font-size="12" text-anchor="start">Per accepted room view (22): 637k work tokens (30.1M with cached reads), Greg + Norm's own session + art subagents.</text>
-<text x="56.0" y="568.0" fill="#8fa3b1" font-size="12" text-anchor="start">Greg by model per accepted view: Sol 148k (3.0M / 20) · Astra 145k (289k / 2)</text>
+<text x="56.0" y="550.0" fill="#d9e3ea" font-size="12" text-anchor="start">Per accepted room view (25): 607k work tokens (26.5M with cached reads), Greg + Norm's own session + art subagents.</text>
+<text x="56.0" y="568.0" fill="#8fa3b1" font-size="12" text-anchor="start">Greg by model per accepted view: Sol 129k (3.0M / 23) · Astra 145k (289k / 2)</text>
 </svg>
