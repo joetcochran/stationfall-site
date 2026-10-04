@@ -1,79 +1,260 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 486" width="900" height="486" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="Why playtest sessions ended, by round">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 797" width="900" height="797" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="Why playtest sessions ended, by round" data-csv="metrics-playtest-progress.csv">
 <defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#111a22"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8fa3b1" stroke-width="2"/></pattern></defs>
-<rect width="900" height="486" fill="#111a22" rx="6"/>
-<text x="110.0" y="24.0" fill="#d9e3ea" font-size="15" text-anchor="start" font-weight="600">Why playtest sessions ended, by round</text>
-<text x="110.0" y="474.0" fill="#8fa3b1" font-size="11" text-anchor="start">Stuck: 200+ commands with no new points at the end. Budget: at least 90% of the command budget used, points still coming. Hover a bar for its sessions.</text>
-<rect x="110" y="34" width="12" height="12" rx="2" fill="#199e70"/>
-<text x="127.0" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">won</text>
-<rect x="164.8" y="34" width="12" height="12" rx="2" fill="#3987e5"/>
-<text x="181.8" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">budget spent, still progressing</text>
-<rect x="404.4" y="34" width="12" height="12" rx="2" fill="#c98500"/>
-<text x="421.4" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">stuck (no new points in the last 200 commands)</text>
-<rect x="110" y="54" width="12" height="12" rx="2" fill="#d95926"/>
-<text x="127.0" y="64.0" fill="#d9e3ea" font-size="12" text-anchor="start">died and stopped</text>
-<rect x="250.6" y="54" width="12" height="12" rx="2" fill="url(#hatch)" stroke="#8fa3b1"/>
-<text x="267.6" y="64.0" fill="#d9e3ea" font-size="12" text-anchor="start">still playing, or stopped early</text>
-<line x1="110.0" y1="96" x2="110.0" y2="428" stroke="#34495a"/>
-<text x="110.0" y="444.0" fill="#8fa3b1" font-size="11" text-anchor="middle">0</text>
-<line x1="217.1" y1="96" x2="217.1" y2="428" stroke="#1f2c37"/>
-<text x="217.1" y="444.0" fill="#8fa3b1" font-size="11" text-anchor="middle">1</text>
-<line x1="324.3" y1="96" x2="324.3" y2="428" stroke="#1f2c37"/>
-<text x="324.3" y="444.0" fill="#8fa3b1" font-size="11" text-anchor="middle">2</text>
-<line x1="431.4" y1="96" x2="431.4" y2="428" stroke="#1f2c37"/>
-<text x="431.4" y="444.0" fill="#8fa3b1" font-size="11" text-anchor="middle">3</text>
-<line x1="538.6" y1="96" x2="538.6" y2="428" stroke="#1f2c37"/>
-<text x="538.6" y="444.0" fill="#8fa3b1" font-size="11" text-anchor="middle">4</text>
-<line x1="645.7" y1="96" x2="645.7" y2="428" stroke="#1f2c37"/>
-<text x="645.7" y="444.0" fill="#8fa3b1" font-size="11" text-anchor="middle">5</text>
-<line x1="752.9" y1="96" x2="752.9" y2="428" stroke="#1f2c37"/>
-<text x="752.9" y="444.0" fill="#8fa3b1" font-size="11" text-anchor="middle">6</text>
-<line x1="860.0" y1="96" x2="860.0" y2="428" stroke="#1f2c37"/>
-<text x="860.0" y="444.0" fill="#8fa3b1" font-size="11" text-anchor="middle">7</text>
-<text x="485.0" y="460.0" fill="#8fa3b1" font-size="11" text-anchor="middle">sessions</text>
-<text x="100.0" y="119.7" fill="#d9e3ea" font-size="12" text-anchor="end">round 1</text>
-<text x="100.0" y="133.7" fill="#8fa3b1" font-size="10" text-anchor="end">1942 cmds</text>
-<g><title>round 1, budget spent, still progressing: r1-click-01duffy (21/5), r1-click-03village (13/12), r1-typed-02station (12/6)</title><rect x="110.0" y="107.7" width="321.4" height="24" rx="3" fill="#3987e5"/></g>
-<text x="270.7" y="123.7" fill="#111a22" font-size="12" text-anchor="middle" font-weight="600">3</text>
-<g><title>round 1, stuck (no new points in the last 200 commands): r1-click-06plato (10/22), r1-typed-05day2 (0/25)</title><rect x="433.4" y="107.7" width="212.3" height="24" rx="3" fill="#c98500"/></g>
-<text x="539.6" y="123.7" fill="#111a22" font-size="12" text-anchor="middle" font-weight="600">2</text>
-<text x="100.0" y="167.1" fill="#d9e3ea" font-size="12" text-anchor="end">round 2</text>
-<text x="100.0" y="181.1" fill="#8fa3b1" font-size="10" text-anchor="end">1964 cmds</text>
-<g><title>round 2, budget spent, still progressing: r2-click-01duffy (28/5), r2-click-03village (20/12), r2-typed-02station (6/6), r2-typed-05day2 (12/25)</title><rect x="110.0" y="155.1" width="428.6" height="24" rx="3" fill="#3987e5"/></g>
-<text x="324.3" y="171.1" fill="#111a22" font-size="12" text-anchor="middle" font-weight="600">4</text>
-<g><title>round 2, stuck (no new points in the last 200 commands): r2-click-06plato (3/22)</title><rect x="540.6" y="155.1" width="105.1" height="24" rx="3" fill="#c98500"/></g>
-<text x="593.1" y="171.1" fill="#111a22" font-size="12" text-anchor="middle" font-weight="600">1</text>
-<text x="100.0" y="214.6" fill="#d9e3ea" font-size="12" text-anchor="end">round 3</text>
-<text x="100.0" y="228.6" fill="#8fa3b1" font-size="10" text-anchor="end">2376 cmds</text>
-<g><title>round 3, won: r3-click-07factory (7/7)</title><rect x="110.0" y="202.6" width="107.1" height="24" rx="3" fill="#199e70"/></g>
-<text x="163.6" y="218.6" fill="#111a22" font-size="12" text-anchor="middle" font-weight="600">1</text>
-<g><title>round 3, budget spent, still progressing: r3-click-02station (12/6), r3-click-04day1end (13/3), r3-click-05day2 (21/25), r3-typed-01duffy (17/5), r3-typed-03village (24/12)</title><rect x="219.1" y="202.6" width="533.7" height="24" rx="3" fill="#3987e5"/></g>
-<text x="486.0" y="218.6" fill="#111a22" font-size="12" text-anchor="middle" font-weight="600">5</text>
-<g><title>round 3, stuck (no new points in the last 200 commands): r3-typed-06plato (10/22)</title><rect x="754.9" y="202.6" width="105.1" height="24" rx="3" fill="#c98500"/></g>
-<text x="807.4" y="218.6" fill="#111a22" font-size="12" text-anchor="middle" font-weight="600">1</text>
-<text x="100.0" y="262.0" fill="#d9e3ea" font-size="12" text-anchor="end">round 4</text>
-<text x="100.0" y="276.0" fill="#8fa3b1" font-size="10" text-anchor="end">2331 cmds</text>
-<g><title>round 4, won: r4-typed-07factory (7/7)</title><rect x="110.0" y="250.0" width="107.1" height="24" rx="3" fill="#199e70"/></g>
-<text x="163.6" y="266.0" fill="#111a22" font-size="12" text-anchor="middle" font-weight="600">1</text>
-<g><title>round 4, budget spent, still progressing: r4-click-01duffy (17/5), r4-click-03village (13/12), r4-typed-02station (16/6), r4-typed-04day1end (6/3), r4-typed-05day2 (15/25)</title><rect x="219.1" y="250.0" width="533.7" height="24" rx="3" fill="#3987e5"/></g>
-<text x="486.0" y="266.0" fill="#111a22" font-size="12" text-anchor="middle" font-weight="600">5</text>
-<g><title>round 4, stuck (no new points in the last 200 commands): r4-click-06plato (3/22)</title><rect x="754.9" y="250.0" width="105.1" height="24" rx="3" fill="#c98500"/></g>
-<text x="807.4" y="266.0" fill="#111a22" font-size="12" text-anchor="middle" font-weight="600">1</text>
-<text x="100.0" y="309.4" fill="#d9e3ea" font-size="12" text-anchor="end">round 5</text>
-<text x="100.0" y="323.4" fill="#8fa3b1" font-size="10" text-anchor="end">2430 cmds</text>
-<g><title>round 5, won: r5-typed-07factory (7/7)</title><rect x="110.0" y="297.4" width="107.1" height="24" rx="3" fill="#199e70"/></g>
-<text x="163.6" y="313.4" fill="#111a22" font-size="12" text-anchor="middle" font-weight="600">1</text>
-<g><title>round 5, budget spent, still progressing: r5-click-01duffy (26/5), r5-click-03village (27/12), r5-typed-02station (12/6), r5-typed-05day2 (18/25)</title><rect x="219.1" y="297.4" width="426.6" height="24" rx="3" fill="#3987e5"/></g>
-<text x="432.4" y="313.4" fill="#111a22" font-size="12" text-anchor="middle" font-weight="600">4</text>
-<g><title>round 5, stuck (no new points in the last 200 commands): r5-click-06plato (10/22), r5-typed-04day1end (3/3)</title><rect x="647.7" y="297.4" width="212.3" height="24" rx="3" fill="#c98500"/></g>
-<text x="753.9" y="313.4" fill="#111a22" font-size="12" text-anchor="middle" font-weight="600">2</text>
-<text x="100.0" y="356.9" fill="#d9e3ea" font-size="12" text-anchor="end">round 6</text>
-<text x="100.0" y="370.9" fill="#8fa3b1" font-size="10" text-anchor="end">2350 cmds</text>
-<g><title>round 6, won: r6-click-06plato (29/22), r6-typed-07factory (7/7)</title><rect x="110.0" y="344.9" width="214.3" height="24" rx="3" fill="#199e70"/></g>
-<text x="217.1" y="360.9" fill="#111a22" font-size="12" text-anchor="middle" font-weight="600">2</text>
-<g><title>round 6, budget spent, still progressing: r6-click-01duffy (22/5), r6-click-03village (17/12), r6-typed-02station (12/6), r6-typed-04day1end (13/3), r6-typed-05day2 (15/25)</title><rect x="326.3" y="344.9" width="533.7" height="24" rx="3" fill="#3987e5"/></g>
-<text x="593.1" y="360.9" fill="#111a22" font-size="12" text-anchor="middle" font-weight="600">5</text>
-<text x="100.0" y="404.3" fill="#d9e3ea" font-size="12" text-anchor="end">round 7 (full)</text>
-<text x="100.0" y="418.3" fill="#8fa3b1" font-size="10" text-anchor="end">944 cmds</text>
-<g><title>round 7, still playing, or stopped early: r7-click-fullA (11/80), r7-click-fullB (17/80), r7-typed-full (22/80)</title><rect x="110.0" y="392.3" width="321.4" height="24" rx="3" fill="url(#hatch)" stroke="#8fa3b1" stroke-width="1.5"/></g>
-<text x="270.7" y="408.3" fill="#d9e3ea" font-size="12" text-anchor="middle" font-weight="600">3</text>
+<rect width="900" height="797" fill="#111a22" rx="6"/>
+<text x="66.0" y="28.0" fill="#d9e3ea" font-size="18" text-anchor="start" font-weight="600">Why playtest sessions ended, by round</text>
+<text x="66.0" y="768.0" fill="#8fa3b1" font-size="13" text-anchor="start">Stuck: 200+ commands with no new points at the end. Budget: at least 90% of the command budget used, points still coming.</text>
+<text x="66.0" y="785.0" fill="#8fa3b1" font-size="13" text-anchor="start">Hover a bar for its sessions.</text>
+<g class="lg" data-s="won">
+<rect x="66" y="42" width="14" height="14" rx="2" fill="#199e70"/>
+<text x="85.0" y="54.0" fill="#d9e3ea" font-size="14" text-anchor="start">won</text>
+</g>
+<g class="lg" data-s="budget">
+<rect x="124" y="42" width="14" height="14" rx="2" fill="#3987e5"/>
+<text x="143.0" y="54.0" fill="#d9e3ea" font-size="14" text-anchor="start">budget spent, still progressing</text>
+</g>
+<g class="lg" data-s="stuck">
+<rect x="378" y="42" width="14" height="14" rx="2" fill="#c98500"/>
+<text x="397.0" y="54.0" fill="#d9e3ea" font-size="14" text-anchor="start">stuck (no new points in the last 200 commands)</text>
+</g>
+<g class="lg" data-s="died">
+<rect x="737" y="42" width="14" height="14" rx="2" fill="#d95926"/>
+<text x="756.0" y="54.0" fill="#d9e3ea" font-size="14" text-anchor="start">died and stopped</text>
+</g>
+<g class="lg" data-s="open">
+<rect x="66" y="64" width="14" height="14" rx="2" fill="url(#hatch)" stroke="#8fa3b1"/>
+<text x="85.0" y="76.0" fill="#d9e3ea" font-size="14" text-anchor="start">still playing, or stopped early</text>
+</g>
+<line x1="140.0" y1="120" x2="140.0" y2="696" stroke="#34495a"/>
+<text x="140.0" y="715.0" fill="#8fa3b1" font-size="14" text-anchor="middle">0</text>
+<line x1="242.9" y1="120" x2="242.9" y2="696" stroke="#1f2c37"/>
+<text x="242.9" y="715.0" fill="#8fa3b1" font-size="14" text-anchor="middle">1</text>
+<line x1="345.7" y1="120" x2="345.7" y2="696" stroke="#1f2c37"/>
+<text x="345.7" y="715.0" fill="#8fa3b1" font-size="14" text-anchor="middle">2</text>
+<line x1="448.6" y1="120" x2="448.6" y2="696" stroke="#1f2c37"/>
+<text x="448.6" y="715.0" fill="#8fa3b1" font-size="14" text-anchor="middle">3</text>
+<line x1="551.4" y1="120" x2="551.4" y2="696" stroke="#1f2c37"/>
+<text x="551.4" y="715.0" fill="#8fa3b1" font-size="14" text-anchor="middle">4</text>
+<line x1="654.3" y1="120" x2="654.3" y2="696" stroke="#1f2c37"/>
+<text x="654.3" y="715.0" fill="#8fa3b1" font-size="14" text-anchor="middle">5</text>
+<line x1="757.1" y1="120" x2="757.1" y2="696" stroke="#1f2c37"/>
+<text x="757.1" y="715.0" fill="#8fa3b1" font-size="14" text-anchor="middle">6</text>
+<line x1="860.0" y1="120" x2="860.0" y2="696" stroke="#1f2c37"/>
+<text x="860.0" y="715.0" fill="#8fa3b1" font-size="14" text-anchor="middle">7</text>
+<text x="500.0" y="736.0" fill="#8fa3b1" font-size="14" text-anchor="middle">sessions</text>
+<text x="128.0" y="144.0" fill="#d9e3ea" font-size="14" text-anchor="end">round 1</text>
+<text x="128.0" y="160.0" fill="#8fa3b1" font-size="13" text-anchor="end">1942 cmds</text>
+<g class="st" data-dir="x" data-gap="2">
+<g class="m" data-s="budget" data-v="3" data-rk="- budget"><title>3 of 5 sessions
+round 1: budget spent, still progressing
+r1-click-01duffy (21/5), r1-click-03village (13/12), r1-typed-02station (12/6)</title>
+<rect x="140.0" y="132.0" width="308.6" height="24" rx="3" fill="#3987e5"/>
+<text x="294.3" y="149.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">3</text>
+</g>
+<g class="m" data-s="stuck" data-v="2" data-rk="- stuck"><title>2 of 5 sessions
+round 1: stuck (no new points in the last 200 commands)
+r1-click-06plato (10/22), r1-typed-05day2 (0/25)</title>
+<rect x="450.6" y="132.0" width="203.7" height="24" rx="3" fill="#c98500"/>
+<text x="552.4" y="149.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">2</text>
+</g>
+</g>
+<text x="128.0" y="192.0" fill="#d9e3ea" font-size="14" text-anchor="end">round 2</text>
+<text x="128.0" y="208.0" fill="#8fa3b1" font-size="13" text-anchor="end">1964 cmds</text>
+<g class="st" data-dir="x" data-gap="2">
+<g class="m" data-s="budget" data-v="4" data-rk="- budget"><title>4 of 5 sessions
+round 2: budget spent, still progressing
+r2-click-01duffy (28/5), r2-click-03village (20/12), r2-typed-02station (6/6), r2-typed-05day2 (12/25)</title>
+<rect x="140.0" y="180.0" width="411.4" height="24" rx="3" fill="#3987e5"/>
+<text x="345.7" y="197.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">4</text>
+</g>
+<g class="m" data-s="stuck" data-v="1" data-rk="- stuck"><title>1 of 5 sessions
+round 2: stuck (no new points in the last 200 commands)
+r2-click-06plato (3/22)</title>
+<rect x="553.4" y="180.0" width="100.9" height="24" rx="3" fill="#c98500"/>
+<text x="603.9" y="197.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">1</text>
+</g>
+</g>
+<text x="128.0" y="240.0" fill="#d9e3ea" font-size="14" text-anchor="end">round 3</text>
+<text x="128.0" y="256.0" fill="#8fa3b1" font-size="13" text-anchor="end">2376 cmds</text>
+<g class="st" data-dir="x" data-gap="2">
+<g class="m" data-s="won" data-v="1" data-rk="- won"><title>1 of 7 sessions
+round 3: won
+r3-click-07factory (7/7)</title>
+<rect x="140.0" y="228.0" width="102.9" height="24" rx="3" fill="#199e70"/>
+<text x="191.4" y="245.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">1</text>
+</g>
+<g class="m" data-s="budget" data-v="5" data-rk="- budget"><title>5 of 7 sessions
+round 3: budget spent, still progressing
+r3-click-02station (12/6), r3-click-04day1end (13/3), r3-click-05day2 (21/25), r3-typed-01duffy (17/5), r3-typed-03village (24/12)</title>
+<rect x="244.9" y="228.0" width="512.3" height="24" rx="3" fill="#3987e5"/>
+<text x="501.0" y="245.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">5</text>
+</g>
+<g class="m" data-s="stuck" data-v="1" data-rk="- stuck"><title>1 of 7 sessions
+round 3: stuck (no new points in the last 200 commands)
+r3-typed-06plato (10/22)</title>
+<rect x="759.1" y="228.0" width="100.9" height="24" rx="3" fill="#c98500"/>
+<text x="809.6" y="245.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">1</text>
+</g>
+</g>
+<text x="128.0" y="288.0" fill="#d9e3ea" font-size="14" text-anchor="end">round 4</text>
+<text x="128.0" y="304.0" fill="#8fa3b1" font-size="13" text-anchor="end">2331 cmds</text>
+<g class="st" data-dir="x" data-gap="2">
+<g class="m" data-s="won" data-v="1" data-rk="- won"><title>1 of 7 sessions
+round 4: won
+r4-typed-07factory (7/7)</title>
+<rect x="140.0" y="276.0" width="102.9" height="24" rx="3" fill="#199e70"/>
+<text x="191.4" y="293.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">1</text>
+</g>
+<g class="m" data-s="budget" data-v="5" data-rk="- budget"><title>5 of 7 sessions
+round 4: budget spent, still progressing
+r4-click-01duffy (17/5), r4-click-03village (13/12), r4-typed-02station (16/6), r4-typed-04day1end (6/3), r4-typed-05day2 (15/25)</title>
+<rect x="244.9" y="276.0" width="512.3" height="24" rx="3" fill="#3987e5"/>
+<text x="501.0" y="293.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">5</text>
+</g>
+<g class="m" data-s="stuck" data-v="1" data-rk="- stuck"><title>1 of 7 sessions
+round 4: stuck (no new points in the last 200 commands)
+r4-click-06plato (3/22)</title>
+<rect x="759.1" y="276.0" width="100.9" height="24" rx="3" fill="#c98500"/>
+<text x="809.6" y="293.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">1</text>
+</g>
+</g>
+<text x="128.0" y="336.0" fill="#d9e3ea" font-size="14" text-anchor="end">round 5</text>
+<text x="128.0" y="352.0" fill="#8fa3b1" font-size="13" text-anchor="end">2430 cmds</text>
+<g class="st" data-dir="x" data-gap="2">
+<g class="m" data-s="won" data-v="1" data-rk="- won"><title>1 of 7 sessions
+round 5: won
+r5-typed-07factory (7/7)</title>
+<rect x="140.0" y="324.0" width="102.9" height="24" rx="3" fill="#199e70"/>
+<text x="191.4" y="341.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">1</text>
+</g>
+<g class="m" data-s="budget" data-v="4" data-rk="- budget"><title>4 of 7 sessions
+round 5: budget spent, still progressing
+r5-click-01duffy (26/5), r5-click-03village (27/12), r5-typed-02station (12/6), r5-typed-05day2 (18/25)</title>
+<rect x="244.9" y="324.0" width="409.4" height="24" rx="3" fill="#3987e5"/>
+<text x="449.6" y="341.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">4</text>
+</g>
+<g class="m" data-s="stuck" data-v="2" data-rk="- stuck"><title>2 of 7 sessions
+round 5: stuck (no new points in the last 200 commands)
+r5-click-06plato (10/22), r5-typed-04day1end (3/3)</title>
+<rect x="656.3" y="324.0" width="203.7" height="24" rx="3" fill="#c98500"/>
+<text x="758.1" y="341.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">2</text>
+</g>
+</g>
+<text x="128.0" y="384.0" fill="#d9e3ea" font-size="14" text-anchor="end">round 6</text>
+<text x="128.0" y="400.0" fill="#8fa3b1" font-size="13" text-anchor="end">2350 cmds</text>
+<g class="st" data-dir="x" data-gap="2">
+<g class="m" data-s="won" data-v="2" data-rk="- won"><title>2 of 7 sessions
+round 6: won
+r6-click-06plato (29/22), r6-typed-07factory (7/7)</title>
+<rect x="140.0" y="372.0" width="205.7" height="24" rx="3" fill="#199e70"/>
+<text x="242.9" y="389.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">2</text>
+</g>
+<g class="m" data-s="budget" data-v="5" data-rk="- budget"><title>5 of 7 sessions
+round 6: budget spent, still progressing
+r6-click-01duffy (22/5), r6-click-03village (17/12), r6-typed-02station (12/6), r6-typed-04day1end (13/3), r6-typed-05day2 (15/25)</title>
+<rect x="347.7" y="372.0" width="512.3" height="24" rx="3" fill="#3987e5"/>
+<text x="603.9" y="389.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">5</text>
+</g>
+</g>
+<text x="128.0" y="432.0" fill="#d9e3ea" font-size="14" text-anchor="end">round 7 (full)</text>
+<text x="128.0" y="448.0" fill="#8fa3b1" font-size="13" text-anchor="end">4504 cmds</text>
+<g class="st" data-dir="x" data-gap="2">
+<g class="m" data-s="budget" data-v="1" data-rk="- budget"><title>1 of 3 sessions
+round 7: budget spent, still progressing
+r7-click-fullB (55/80)</title>
+<rect x="140.0" y="420.0" width="102.9" height="24" rx="3" fill="#3987e5"/>
+<text x="191.4" y="437.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">1</text>
+</g>
+<g class="m" data-s="stuck" data-v="2" data-rk="- stuck"><title>2 of 3 sessions
+round 7: stuck (no new points in the last 200 commands)
+r7-click-fullA (53/80), r7-typed-full (45/80)</title>
+<rect x="244.9" y="420.0" width="203.7" height="24" rx="3" fill="#c98500"/>
+<text x="346.7" y="437.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">2</text>
+</g>
+</g>
+<text x="128.0" y="480.0" fill="#d9e3ea" font-size="14" text-anchor="end">round 8 (full)</text>
+<text x="128.0" y="496.0" fill="#8fa3b1" font-size="13" text-anchor="end">4500 cmds</text>
+<g class="st" data-dir="x" data-gap="2">
+<g class="m" data-s="budget" data-v="2" data-rk="- budget"><title>2 of 3 sessions
+round 8: budget spent, still progressing
+r8-click-fullA (50/80), r8-typed-full (57/80)</title>
+<rect x="140.0" y="468.0" width="205.7" height="24" rx="3" fill="#3987e5"/>
+<text x="242.9" y="485.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">2</text>
+</g>
+<g class="m" data-s="stuck" data-v="1" data-rk="- stuck"><title>1 of 3 sessions
+round 8: stuck (no new points in the last 200 commands)
+r8-click-fullB (73/80)</title>
+<rect x="347.7" y="468.0" width="100.9" height="24" rx="3" fill="#c98500"/>
+<text x="398.1" y="485.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">1</text>
+</g>
+</g>
+<text x="128.0" y="528.0" fill="#d9e3ea" font-size="14" text-anchor="end">round 9 (full)</text>
+<text x="128.0" y="544.0" fill="#8fa3b1" font-size="13" text-anchor="end">4500 cmds</text>
+<g class="st" data-dir="x" data-gap="2">
+<g class="m" data-s="budget" data-v="1" data-rk="- budget"><title>1 of 3 sessions
+round 9: budget spent, still progressing
+r9-click-fullB (57/80)</title>
+<rect x="140.0" y="516.0" width="102.9" height="24" rx="3" fill="#3987e5"/>
+<text x="191.4" y="533.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">1</text>
+</g>
+<g class="m" data-s="stuck" data-v="2" data-rk="- stuck"><title>2 of 3 sessions
+round 9: stuck (no new points in the last 200 commands)
+r9-click-fullA (54/80), r9-typed-full (54/80)</title>
+<rect x="244.9" y="516.0" width="203.7" height="24" rx="3" fill="#c98500"/>
+<text x="346.7" y="533.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">2</text>
+</g>
+</g>
+<text x="128.0" y="576.0" fill="#d9e3ea" font-size="14" text-anchor="end">round 10 (full)</text>
+<text x="128.0" y="592.0" fill="#8fa3b1" font-size="13" text-anchor="end">4500 cmds</text>
+<g class="st" data-dir="x" data-gap="2">
+<g class="m" data-s="budget" data-v="2" data-rk="- budget"><title>2 of 3 sessions
+round 10: budget spent, still progressing
+r10-click-fullB (54/80), r10-typed-full (38/80)</title>
+<rect x="140.0" y="564.0" width="205.7" height="24" rx="3" fill="#3987e5"/>
+<text x="242.9" y="581.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">2</text>
+</g>
+<g class="m" data-s="stuck" data-v="1" data-rk="- stuck"><title>1 of 3 sessions
+round 10: stuck (no new points in the last 200 commands)
+r10-click-fullA (71/80)</title>
+<rect x="347.7" y="564.0" width="100.9" height="24" rx="3" fill="#c98500"/>
+<text x="398.1" y="581.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">1</text>
+</g>
+</g>
+<text x="128.0" y="624.0" fill="#d9e3ea" font-size="14" text-anchor="end">round 11 (full)</text>
+<text x="128.0" y="640.0" fill="#8fa3b1" font-size="13" text-anchor="end">4499 cmds</text>
+<g class="st" data-dir="x" data-gap="2">
+<g class="m" data-s="budget" data-v="1" data-rk="- budget"><title>1 of 3 sessions
+round 11: budget spent, still progressing
+r11-typed-full (54/80)</title>
+<rect x="140.0" y="612.0" width="102.9" height="24" rx="3" fill="#3987e5"/>
+<text x="191.4" y="629.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">1</text>
+</g>
+<g class="m" data-s="stuck" data-v="1" data-rk="- stuck"><title>1 of 3 sessions
+round 11: stuck (no new points in the last 200 commands)
+r11-click-fullA (47/80)</title>
+<rect x="244.9" y="612.0" width="100.9" height="24" rx="3" fill="#c98500"/>
+<text x="295.3" y="629.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">1</text>
+</g>
+<g class="m" data-s="died" data-v="1" data-rk="- died"><title>1 of 3 sessions
+round 11: died and stopped
+r11-click-fullB (73/80)</title>
+<rect x="347.7" y="612.0" width="100.9" height="24" rx="3" fill="#d95926"/>
+<text x="398.1" y="629.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">1</text>
+</g>
+</g>
+<text x="128.0" y="672.0" fill="#d9e3ea" font-size="14" text-anchor="end">round 12 (full)</text>
+<text x="128.0" y="688.0" fill="#8fa3b1" font-size="13" text-anchor="end">4461 cmds</text>
+<g class="st" data-dir="x" data-gap="2">
+<g class="m" data-s="budget" data-v="2" data-rk="- budget"><title>2 of 3 sessions
+round 12: budget spent, still progressing
+r12-click-fullA (53/80), r12-typed-full (67/80)</title>
+<rect x="140.0" y="660.0" width="205.7" height="24" rx="3" fill="#3987e5"/>
+<text x="242.9" y="677.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">2</text>
+</g>
+<g class="m" data-s="stuck" data-v="1" data-rk="- stuck"><title>1 of 3 sessions
+round 12: stuck (no new points in the last 200 commands)
+r12-click-fullB (53/80)</title>
+<rect x="347.7" y="660.0" width="100.9" height="24" rx="3" fill="#c98500"/>
+<text x="398.1" y="677.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">1</text>
+</g>
+</g>
 </svg>

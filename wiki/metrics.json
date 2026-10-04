@@ -1,237 +1,155 @@
 {
- "generated": "2026-09-25T21:00:35.307Z",
+ "generated": "2026-10-03T11:53:02.790Z",
  "clock": "US Eastern wall-clock",
  "span": {
   "from": "2026-09-24 20:34",
-  "to": "2026-09-25 17:00",
-  "hours": 20.4
+  "to": "2026-10-03 07:53",
+  "hours": 203.3
  },
- "binHours": 1,
+ "binHours": 24,
  "headline": {
-  "asksClosed": 128,
-  "asksRaised": 129,
-  "normItemsClosed": 79,
-  "normItems": 80,
-  "itemsClosedPerActiveHour": 10.1,
-  "roomViewsRegistered": 25,
+  "asksClosed": 448,
+  "asksRaised": 448,
+  "asksWithdrawn": 28,
+  "normItemsClosed": 337,
+  "normItems": 338,
+  "itemsClosedPerActiveHour": 3.9,
+  "roomViewsRegistered": 165,
   "cycle": {
    "norm": {
-    "n": 79,
-    "p50": 0.07,
-    "p90": 0.14
+    "n": 363,
+    "p50": 0.11,
+    "p90": 0.83
    },
    "greg": {
-    "n": 128,
+    "n": 422,
     "p50": 0.46,
-    "p90": 1.35
+    "p90": 1.7
    },
    "all": {
-    "n": 207,
-    "p50": 0.19,
-    "p90": 1.2
+    "n": 785,
+    "p50": 0.25,
+    "p90": 1.39
    }
   },
   "reviewLatency": {
-   "n": 64,
-   "p50": 0.08,
-   "p90": 0.16
+   "n": 273,
+   "p50": 0.13,
+   "p90": 0.93
   },
   "gregTurnaround": {
-   "n": 108,
-   "p50": 0.65,
-   "p90": 1.35
+   "n": 392,
+   "p50": 0.5,
+   "p90": 1.79
   },
   "openNow": {
-   "norm": 1,
-   "greg": 1
+   "norm": 0,
+   "greg": 0
   },
   "rework": {
-   "share": 0.36,
-   "paint": 0.23,
-   "guide": 0.13,
-   "judged": 97
+   "share": 0.25,
+   "paint": 0.19,
+   "guide": 0.06,
+   "judged": 320
   },
-  "tokensPerAcceptedView": 607282,
+  "tokensPerAcceptedView": 697700,
   "tokensPerAcceptedViewBasis": "greg + norm-main + art subagents, work tokens (fresh + cache writes + output)",
-  "tokensPerAcceptedViewWithCachedReads": 26502236,
-  "sponsorTouchesPerDay": 14
+  "tokensPerAcceptedViewWithCachedReads": 20158224,
+  "sponsorTouchesPerDay": 6.3
  },
  "throughput": [
   {
-   "start": "2026-09-24 20:00",
-   "closedByNorm": 2,
-   "closedByGreg": 5,
-   "roomViews": 0,
-   "otherArt": 8
-  },
-  {
-   "start": "2026-09-24 21:00",
-   "closedByNorm": 7,
-   "closedByGreg": 8,
-   "roomViews": 0,
-   "otherArt": 28
-  },
-  {
-   "start": "2026-09-24 22:00",
-   "closedByNorm": 4,
-   "closedByGreg": 5,
-   "roomViews": 2,
-   "otherArt": 0
-  },
-  {
-   "start": "2026-09-24 23:00",
-   "closedByNorm": 3,
-   "closedByGreg": 2,
-   "roomViews": 2,
-   "otherArt": 0
+   "start": "2026-09-24 00:00",
+   "closedByNorm": 16,
+   "closedByGreg": 20,
+   "roomViews": 4,
+   "otherArt": 36
   },
   {
    "start": "2026-09-25 00:00",
-   "closedByNorm": 3,
-   "closedByGreg": 4,
-   "roomViews": 1,
+   "closedByNorm": 67,
+   "closedByGreg": 111,
+   "roomViews": 23,
    "otherArt": 0
   },
   {
-   "start": "2026-09-25 01:00",
-   "closedByNorm": 9,
-   "closedByGreg": 10,
+   "start": "2026-09-26 00:00",
+   "closedByNorm": 53,
+   "closedByGreg": 60,
+   "roomViews": 20,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-09-27 00:00",
+   "closedByNorm": 65,
+   "closedByGreg": 98,
+   "roomViews": 32,
+   "otherArt": 3
+  },
+  {
+   "start": "2026-09-28 00:00",
+   "closedByNorm": 36,
+   "closedByGreg": 46,
+   "roomViews": 26,
+   "otherArt": 17
+  },
+  {
+   "start": "2026-09-29 00:00",
+   "closedByNorm": 34,
+   "closedByGreg": 26,
+   "roomViews": 15,
+   "otherArt": 10
+  },
+  {
+   "start": "2026-09-30 00:00",
+   "closedByNorm": 10,
+   "closedByGreg": 8,
+   "roomViews": 6,
+   "otherArt": 1
+  },
+  {
+   "start": "2026-10-01 00:00",
+   "closedByNorm": 20,
+   "closedByGreg": 21,
+   "roomViews": 18,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-10-02 00:00",
+   "closedByNorm": 55,
+   "closedByGreg": 28,
+   "roomViews": 17,
+   "otherArt": 1
+  },
+  {
+   "start": "2026-10-03 00:00",
+   "closedByNorm": 7,
+   "closedByGreg": 4,
    "roomViews": 4,
-   "otherArt": 0
-  },
-  {
-   "start": "2026-09-25 02:00",
-   "closedByNorm": 0,
-   "closedByGreg": 0,
-   "roomViews": 0,
-   "otherArt": 0
-  },
-  {
-   "start": "2026-09-25 03:00",
-   "closedByNorm": 0,
-   "closedByGreg": 0,
-   "roomViews": 0,
-   "otherArt": 0
-  },
-  {
-   "start": "2026-09-25 04:00",
-   "closedByNorm": 0,
-   "closedByGreg": 0,
-   "roomViews": 0,
-   "otherArt": 0
-  },
-  {
-   "start": "2026-09-25 05:00",
-   "closedByNorm": 3,
-   "closedByGreg": 2,
-   "roomViews": 1,
-   "otherArt": 0
-  },
-  {
-   "start": "2026-09-25 06:00",
-   "closedByNorm": 11,
-   "closedByGreg": 12,
-   "roomViews": 3,
-   "otherArt": 0
-  },
-  {
-   "start": "2026-09-25 07:00",
-   "closedByNorm": 7,
-   "closedByGreg": 9,
-   "roomViews": 1,
-   "otherArt": 0
-  },
-  {
-   "start": "2026-09-25 08:00",
-   "closedByNorm": 6,
-   "closedByGreg": 16,
-   "roomViews": 0,
-   "otherArt": 0
-  },
-  {
-   "start": "2026-09-25 09:00",
-   "closedByNorm": 7,
-   "closedByGreg": 16,
-   "roomViews": 2,
-   "otherArt": 0
-  },
-  {
-   "start": "2026-09-25 10:00",
-   "closedByNorm": 6,
-   "closedByGreg": 14,
-   "roomViews": 3,
-   "otherArt": 0
-  },
-  {
-   "start": "2026-09-25 11:00",
-   "closedByNorm": 1,
-   "closedByGreg": 1,
-   "roomViews": 1,
-   "otherArt": 0
-  },
-  {
-   "start": "2026-09-25 12:00",
-   "closedByNorm": 1,
-   "closedByGreg": 1,
-   "roomViews": 0,
-   "otherArt": 0
-  },
-  {
-   "start": "2026-09-25 13:00",
-   "closedByNorm": 3,
-   "closedByGreg": 9,
-   "roomViews": 2,
-   "otherArt": 0
-  },
-  {
-   "start": "2026-09-25 14:00",
-   "closedByNorm": 0,
-   "closedByGreg": 1,
-   "roomViews": 0,
-   "otherArt": 0
-  },
-  {
-   "start": "2026-09-25 15:00",
-   "closedByNorm": 4,
-   "closedByGreg": 4,
-   "roomViews": 2,
-   "otherArt": 0
-  },
-  {
-   "start": "2026-09-25 16:00",
-   "closedByNorm": 2,
-   "closedByGreg": 9,
-   "roomViews": 1,
-   "otherArt": 0
-  },
-  {
-   "start": "2026-09-25 17:00",
-   "closedByNorm": 0,
-   "closedByGreg": 0,
-   "roomViews": 0,
-   "otherArt": 0
+   "otherArt": 1
   }
  ],
  "rework": {
-  "judged": 97,
-  "paint": 22,
-  "guide": 13,
-  "share": 0.36,
-  "paintShare": 0.23,
-  "guideShare": 0.13,
+  "judged": 320,
+  "paint": 61,
+  "guide": 20,
+  "share": 0.25,
+  "paintShare": 0.19,
+  "guideShare": 0.06,
   "byCategory": {
-   "content": 7,
-   "geometry": 11,
-   "material": 4,
-   "guide": 13
+   "content": 11,
+   "geometry": 25,
+   "material": 24,
+   "guide": 20,
+   "light": 1
   },
   "byModel": {
    "Sol": {
-    "views": 47,
-    "judged": 47,
-    "rework": 12,
-    "rate": 0.26,
-    "roundsPerView": 1.68
+    "views": 231,
+    "judged": 215,
+    "rework": 47,
+    "rate": 0.22,
+    "roundsPerView": 1.39
    },
    "none (scan-derived)": {
     "views": 13,
@@ -241,8 +159,8 @@
     "roundsPerView": 1.31
    },
    "Astra": {
-    "views": 4,
-    "judged": 2,
+    "views": 3,
+    "judged": 3,
     "rework": 0,
     "rate": 0,
     "roundsPerView": 1
@@ -251,134 +169,62 @@
  },
  "reworkBins": [
   {
-   "start": "2026-09-24 20:00",
-   "approved": 8,
-   "paint": 0,
-   "guide": 0
-  },
-  {
-   "start": "2026-09-24 21:00",
-   "approved": 28,
+   "start": "2026-09-24 00:00",
+   "approved": 40,
    "paint": 5,
    "guide": 0
   },
   {
-   "start": "2026-09-24 22:00",
-   "approved": 2,
-   "paint": 0,
-   "guide": 0
-  },
-  {
-   "start": "2026-09-24 23:00",
-   "approved": 2,
-   "paint": 0,
-   "guide": 0
-  },
-  {
    "start": "2026-09-25 00:00",
-   "approved": 1,
-   "paint": 2,
+   "approved": 24,
+   "paint": 17,
+   "guide": 13
+  },
+  {
+   "start": "2026-09-26 00:00",
+   "approved": 19,
+   "paint": 8,
+   "guide": 6
+  },
+  {
+   "start": "2026-09-27 00:00",
+   "approved": 35,
+   "paint": 23,
+   "guide": 1
+  },
+  {
+   "start": "2026-09-28 00:00",
+   "approved": 43,
+   "paint": 5,
    "guide": 0
   },
   {
-   "start": "2026-09-25 01:00",
+   "start": "2026-09-29 00:00",
+   "approved": 25,
+   "paint": 1,
+   "guide": 0
+  },
+  {
+   "start": "2026-09-30 00:00",
+   "approved": 7,
+   "paint": 0,
+   "guide": 0
+  },
+  {
+   "start": "2026-10-01 00:00",
+   "approved": 15,
+   "paint": 1,
+   "guide": 0
+  },
+  {
+   "start": "2026-10-02 00:00",
+   "approved": 26,
+   "paint": 1,
+   "guide": 0
+  },
+  {
+   "start": "2026-10-03 00:00",
    "approved": 5,
-   "paint": 2,
-   "guide": 0
-  },
-  {
-   "start": "2026-09-25 02:00",
-   "approved": 0,
-   "paint": 0,
-   "guide": 0
-  },
-  {
-   "start": "2026-09-25 03:00",
-   "approved": 0,
-   "paint": 0,
-   "guide": 0
-  },
-  {
-   "start": "2026-09-25 04:00",
-   "approved": 0,
-   "paint": 0,
-   "guide": 0
-  },
-  {
-   "start": "2026-09-25 05:00",
-   "approved": 1,
-   "paint": 0,
-   "guide": 1
-  },
-  {
-   "start": "2026-09-25 06:00",
-   "approved": 3,
-   "paint": 3,
-   "guide": 3
-  },
-  {
-   "start": "2026-09-25 07:00",
-   "approved": 1,
-   "paint": 2,
-   "guide": 2
-  },
-  {
-   "start": "2026-09-25 08:00",
-   "approved": 0,
-   "paint": 3,
-   "guide": 2
-  },
-  {
-   "start": "2026-09-25 09:00",
-   "approved": 2,
-   "paint": 1,
-   "guide": 3
-  },
-  {
-   "start": "2026-09-25 10:00",
-   "approved": 3,
-   "paint": 2,
-   "guide": 1
-  },
-  {
-   "start": "2026-09-25 11:00",
-   "approved": 1,
-   "paint": 0,
-   "guide": 0
-  },
-  {
-   "start": "2026-09-25 12:00",
-   "approved": 0,
-   "paint": 1,
-   "guide": 0
-  },
-  {
-   "start": "2026-09-25 13:00",
-   "approved": 2,
-   "paint": 0,
-   "guide": 1
-  },
-  {
-   "start": "2026-09-25 14:00",
-   "approved": 0,
-   "paint": 0,
-   "guide": 0
-  },
-  {
-   "start": "2026-09-25 15:00",
-   "approved": 2,
-   "paint": 1,
-   "guide": 0
-  },
-  {
-   "start": "2026-09-25 16:00",
-   "approved": 1,
-   "paint": 0,
-   "guide": 0
-  },
-  {
-   "start": "2026-09-25 17:00",
-   "approved": 0,
    "paint": 0,
    "guide": 0
   }
@@ -1247,12 +1093,2292 @@
    "retro": false,
    "kind": "seed",
    "hours": 0.552
+  },
+  {
+   "ask": "20260925-205356-norm-0156#1",
+   "room": "LEVEL-FIVE",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.47
+  },
+  {
+   "ask": "20260925-210447-norm-0158#1",
+   "room": "LEVEL-FIVE",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.289
+  },
+  {
+   "ask": "20260925-213343-norm-0161#1",
+   "room": "SICK-BAY",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 4.198
+  },
+  {
+   "ask": "20260925-213344-norm-0162#1",
+   "room": "STATION-CONTROL",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 13.277
+  },
+  {
+   "ask": "20260926-112911-norm-0167#1",
+   "room": "COMMANDERS-OFFICE",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.176
+  },
+  {
+   "ask": "20260926-135832-norm-0169#1",
+   "room": "COMM-CENTER",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.212
+  },
+  {
+   "ask": "20260926-141024-norm-0171#1",
+   "room": "PX",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.33
+  },
+  {
+   "ask": "20260926-142306-norm-0172#1",
+   "room": "COMM-CENTER",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.882
+  },
+  {
+   "ask": "20260926-142306-norm-0172#2",
+   "room": "COMM-CENTER",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.882
+  },
+  {
+   "ask": "20260926-144301-norm-0174#1",
+   "room": "PX",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.938
+  },
+  {
+   "ask": "20260926-144301-norm-0174#2",
+   "room": "PX",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.938
+  },
+  {
+   "ask": "20260926-152325-norm-0177#1",
+   "room": "COMM-CENTER",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.362
+  },
+  {
+   "ask": "20260926-160305-norm-0180#1",
+   "room": "COMMANDERS-OFFICE",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.33
+  },
+  {
+   "ask": "20260926-160306-norm-0181#1",
+   "room": "COMM-CENTER",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.595
+  },
+  {
+   "ask": "20260926-162322-norm-0182#1",
+   "room": "PX",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.429
+  },
+  {
+   "ask": "20260926-163643-norm-0183#1",
+   "room": "COMMANDERS-OFFICE",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.29
+  },
+  {
+   "ask": "20260926-164533-norm-0184#1",
+   "room": "COMM-CENTER",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.342
+  },
+  {
+   "ask": "20260926-165930-norm-0185#1",
+   "room": "PX",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.519
+  },
+  {
+   "ask": "20260926-165930-norm-0185#2",
+   "room": "PX",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.564
+  },
+  {
+   "ask": "20260926-165930-norm-0185#3",
+   "room": "PX",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.519
+  },
+  {
+   "ask": "20260926-165930-norm-0185#4",
+   "room": "PX",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.519
+  },
+  {
+   "ask": "20260926-171744-norm-0188#1",
+   "room": "COMM-CENTER",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.312
+  },
+  {
+   "ask": "20260926-173329-norm-0190#1",
+   "room": "PX",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.125
+  },
+  {
+   "ask": "20260926-173329-norm-0190#2",
+   "room": "PX",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.125
+  },
+  {
+   "ask": "20260926-174252-norm-0192#1",
+   "room": "PX",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.202
+  },
+  {
+   "ask": "20260926-175336-norm-0193#1",
+   "room": "COMM-CENTER",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.106
+  },
+  {
+   "ask": "20260926-175344-norm-0194#1",
+   "room": "COMM-CENTER",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.162
+  },
+  {
+   "ask": "20260926-175344-norm-0194#2",
+   "room": "COMM-CENTER",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.162
+  },
+  {
+   "ask": "20260926-175344-norm-0194#3",
+   "room": "COMM-CENTER",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.162
+  },
+  {
+   "ask": "20260926-175344-norm-0194#4",
+   "room": "COMM-CENTER",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.162
+  },
+  {
+   "ask": "20260926-180255-norm-0196#1",
+   "room": "COMM-CENTER",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.042
+  },
+  {
+   "ask": "20260926-182141-norm-0199#1",
+   "room": "COMMANDERS-OFFICE",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.9
+  },
+  {
+   "ask": "20260926-182142-norm-0200#1",
+   "room": "SICK-BAY",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.589
+  },
+  {
+   "ask": "20260926-182244-norm-0201#1",
+   "room": "COMM-CENTER",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 2.611
+  },
+  {
+   "ask": "20260926-200848-norm-0205#1",
+   "room": "SICK-BAY",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.139
+  },
+  {
+   "ask": "20260926-211248-norm-0208#1",
+   "room": "PX",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.245
+  },
+  {
+   "ask": "20260926-214210-norm-0214#1",
+   "room": "STATION-CONTROL",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.608
+  },
+  {
+   "ask": "20260926-223841-norm-0218#1",
+   "room": "STATION-CONTROL",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.536
+  },
+  {
+   "ask": "20260926-225632-norm-0219#1",
+   "room": "STATION-CONTROL",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.239
+  },
+  {
+   "ask": "20260926-225632-norm-0219#2",
+   "room": "STATION-CONTROL",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.239
+  },
+  {
+   "ask": "20260926-225632-norm-0219#3",
+   "room": "STATION-CONTROL",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.239
+  },
+  {
+   "ask": "20260926-225632-norm-0219#4",
+   "room": "STATION-CONTROL",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.239
+  },
+  {
+   "ask": "20260926-225632-norm-0219#5",
+   "room": "STATION-CONTROL",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.239
+  },
+  {
+   "ask": "20260926-225754-norm-0220#1",
+   "room": "LEVEL-FIVE",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.824
+  },
+  {
+   "ask": "20260926-231356-norm-0221#1",
+   "room": "STATION-CONTROL",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.078
+  },
+  {
+   "ask": "20260926-233124-norm-0222#1",
+   "room": "STATION-CONTROL",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.547
+  },
+  {
+   "ask": "20260926-233124-norm-0222#2",
+   "room": "STATION-CONTROL",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.547
+  },
+  {
+   "ask": "20260926-233124-norm-0222#3",
+   "room": "STATION-CONTROL",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.547
+  },
+  {
+   "ask": "20260926-233124-norm-0222#4",
+   "room": "STATION-CONTROL",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.547
+  },
+  {
+   "ask": "20260926-233306-norm-0223#1",
+   "room": "LEVEL-FIVE",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.237
+  },
+  {
+   "ask": "20260926-233306-norm-0223#2",
+   "room": "LEVEL-FIVE",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.237
+  },
+  {
+   "ask": "20260926-233306-norm-0223#3",
+   "room": "LEVEL-FIVE",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.237
+  },
+  {
+   "ask": "20260926-235232-norm-0224#1",
+   "room": "LEVEL-FIVE",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.502
+  },
+  {
+   "ask": "20260926-235232-norm-0224#2",
+   "room": "LEVEL-FIVE",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.502
+  },
+  {
+   "ask": "20260927-001124-norm-0227#1",
+   "room": "BRIEFING-ROOM",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.406
+  },
+  {
+   "ask": "20260927-001233-norm-0228#1",
+   "room": "WORKSHOP",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.728
+  },
+  {
+   "ask": "20260927-001512-norm-0230#1",
+   "room": "ROBOT-SHOP",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.879
+  },
+  {
+   "ask": "20260927-002240-norm-0231#1",
+   "room": "COMMANDERS-QUARTERS",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 1.07
+  },
+  {
+   "ask": "20260927-002956-norm-0232#1",
+   "room": "STATION-CONTROL",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 14.047
+  },
+  {
+   "ask": "20260927-002956-norm-0232#2",
+   "room": "STATION-CONTROL",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 14.047
+  },
+  {
+   "ask": "20260927-004641-norm-0235#1",
+   "room": "BRIEFING-ROOM",
+   "score": 2,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.11
+  },
+  {
+   "ask": "20260927-004641-norm-0235#2",
+   "room": "BRIEFING-ROOM",
+   "score": 2,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.11
+  },
+  {
+   "ask": "20260927-004641-norm-0235#3",
+   "room": "BRIEFING-ROOM",
+   "score": 2,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.11
+  },
+  {
+   "ask": "20260927-004641-norm-0235#4",
+   "room": "BRIEFING-ROOM",
+   "score": 2,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.11
+  },
+  {
+   "ask": "20260927-010634-norm-0237#1",
+   "room": "WORKSHOP",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 9.327
+  },
+  {
+   "ask": "20260927-010634-norm-0237#2",
+   "room": "WORKSHOP",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 9.327
+  },
+  {
+   "ask": "20260927-010634-norm-0237#3",
+   "room": "WORKSHOP",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 9.327
+  },
+  {
+   "ask": "20260927-011328-norm-0239#1",
+   "room": "WORKSHOP",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 9.212
+  },
+  {
+   "ask": "20260927-011428-norm-0240#1",
+   "room": "ROBOT-SHOP",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 9.241
+  },
+  {
+   "ask": "20260927-011428-norm-0240#2",
+   "room": "ROBOT-SHOP",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 9.241
+  },
+  {
+   "ask": "20260927-011428-norm-0240#3",
+   "room": "ROBOT-SHOP",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 9.241
+  },
+  {
+   "ask": "20260927-011428-norm-0240#4",
+   "room": "ROBOT-SHOP",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 9.241
+  },
+  {
+   "ask": "20260927-014137-norm-0242#1",
+   "room": "COMMANDERS-QUARTERS",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 11.291
+  },
+  {
+   "ask": "20260927-014137-norm-0242#2",
+   "room": "COMMANDERS-QUARTERS",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 11.291
+  },
+  {
+   "ask": "20260927-014137-norm-0242#3",
+   "room": "COMMANDERS-QUARTERS",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 11.291
+  },
+  {
+   "ask": "20260927-014137-norm-0242#4",
+   "room": "COMMANDERS-QUARTERS",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 11.291
+  },
+  {
+   "ask": "20260927-033739-norm-0247#1",
+   "room": "EAST-CONNECTION",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 11.303
+  },
+  {
+   "ask": "20260927-033740-norm-0248#1",
+   "room": "SOUTH-CONNECTION",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 11.567
+  },
+  {
+   "ask": "20260927-033741-norm-0249#1",
+   "room": "EAST-JUNCTION",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 7.474
+  },
+  {
+   "ask": "20260927-090945-norm-0253#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 1.532
+  },
+  {
+   "ask": "20260927-090945-norm-0253#2",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 1.532
+  },
+  {
+   "ask": "20260927-111647-norm-0263#1",
+   "room": "ROBOT-SHOP",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.688
+  },
+  {
+   "ask": "20260927-111650-norm-0264#1",
+   "room": "WORKSHOP",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.876
+  },
+  {
+   "ask": "20260927-111653-norm-0265#1",
+   "room": "COMMANDERS-QUARTERS",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 1.704
+  },
+  {
+   "ask": "20260927-112918-norm-0269#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 2.522
+  },
+  {
+   "ask": "20260927-112918-norm-0269#2",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 2.522
+  },
+  {
+   "ask": "20260927-113717-norm-0270#1",
+   "room": "LEVEL-FIVE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.792
+  },
+  {
+   "ask": "20260927-113718-norm-0271#1",
+   "room": "LEVEL-FIVE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.958
+  },
+  {
+   "ask": "20260927-113719-norm-0272#1",
+   "room": "LEVEL-FIVE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 2.135
+  },
+  {
+   "ask": "20260927-114805-norm-0273#1",
+   "room": "EAST-JUNCTION",
+   "score": 2,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.259
+  },
+  {
+   "ask": "20260927-120919-norm-0278#1",
+   "room": "ROBOT-SHOP",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.244
+  },
+  {
+   "ask": "20260927-122221-norm-0280#1",
+   "room": "WORKSHOP",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.219
+  },
+  {
+   "ask": "20260927-131305-norm-0288#1",
+   "room": "ROBOT-SHOP",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 2.149
+  },
+  {
+   "ask": "20260927-131311-norm-0289#1",
+   "room": "ROBOT-SHOP",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 2.921
+  },
+  {
+   "ask": "20260927-131515-norm-0290#1",
+   "room": "EAST-JUNCTION",
+   "score": 2,
+   "retro": false,
+   "kind": "region",
+   "hours": 3.177
+  },
+  {
+   "ask": "20260927-132242-norm-0291#1",
+   "room": "WORKSHOP",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 3.274
+  },
+  {
+   "ask": "20260927-140025-norm-0294#1",
+   "room": "LEVEL-FIVE",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 2.793
+  },
+  {
+   "ask": "20260927-152115-norm-0302#1",
+   "room": "NORTH-CONNECTION",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 1.567
+  },
+  {
+   "ask": "20260927-154520-norm-0303#1",
+   "room": "COMMANDERS-QUARTERS",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.367
+  },
+  {
+   "ask": "20260927-154526-norm-0304#1",
+   "room": "COMMANDERS-QUARTERS",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.553
+  },
+  {
+   "ask": "20260927-155258-norm-0305#1",
+   "room": "SOUTH-CONNECTION",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.629
+  },
+  {
+   "ask": "20260927-155258-norm-0305#2",
+   "room": "SOUTH-CONNECTION",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.629
+  },
+  {
+   "ask": "20260927-155258-norm-0305#3",
+   "room": "SOUTH-CONNECTION",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.629
+  },
+  {
+   "ask": "20260927-162000-norm-0306#1",
+   "room": "EAST-CONNECTION",
+   "score": 2,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.325
+  },
+  {
+   "ask": "20260927-164309-norm-0307#1",
+   "room": "BRIG",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 1.271
+  },
+  {
+   "ask": "20260927-165237-norm-0309#1",
+   "room": "ROBOT-SHOP",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.23
+  },
+  {
+   "ask": "20260927-175054-norm-0316#1",
+   "room": "NORTH-CONNECTION",
+   "score": 2,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.498
+  },
+  {
+   "ask": "20260927-181218-norm-0318#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.386
+  },
+  {
+   "ask": "20260927-181219-norm-0319#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.568
+  },
+  {
+   "ask": "20260927-181227-norm-0320#1",
+   "room": "ROBOT-SHOP",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.852
+  },
+  {
+   "ask": "20260927-181848-norm-0321#1",
+   "room": "COMMANDERS-QUARTERS",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.294
+  },
+  {
+   "ask": "20260927-193844-norm-0325#1",
+   "room": "COMMANDERS-QUARTERS",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.364
+  },
+  {
+   "ask": "20260927-194331-norm-0326#1",
+   "room": "BRIG",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.47
+  },
+  {
+   "ask": "20260927-195034-norm-0328#1",
+   "room": "SPACETRUCK",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.588
+  },
+  {
+   "ask": "20260927-195035-norm-0329#1",
+   "room": "SPACETRUCK",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.677
+  },
+  {
+   "ask": "20260927-201146-norm-0330#1",
+   "room": "FILE-ROOM",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.7
+  },
+  {
+   "ask": "20260927-203824-norm-0332#1",
+   "room": "SOUTH-CONNECTION",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.608
+  },
+  {
+   "ask": "20260927-205607-norm-0334#1",
+   "room": "EAST-JUNCTION",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.898
+  },
+  {
+   "ask": "20260927-205924-norm-0335#1",
+   "room": "COMMANDERS-QUARTERS",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.946
+  },
+  {
+   "ask": "20260927-211741-norm-0337#1",
+   "room": "BRIG",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.759
+  },
+  {
+   "ask": "20260927-211758-norm-0338#1",
+   "room": "BRIG",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.032
+  },
+  {
+   "ask": "20260927-212304-norm-0341#1",
+   "room": "ROBOT-SHOP",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.018
+  },
+  {
+   "ask": "20260927-212734-norm-0342#1",
+   "room": "SPACETRUCK",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.211
+  },
+  {
+   "ask": "20260927-212734-norm-0342#2",
+   "room": "SPACETRUCK",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.211
+  },
+  {
+   "ask": "20260927-212734-norm-0342#3",
+   "room": "SPACETRUCK",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.211
+  },
+  {
+   "ask": "20260927-215259-norm-0343#1",
+   "room": "LEVEL-FOUR",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.93
+  },
+  {
+   "ask": "20260927-215305-norm-0344#1",
+   "room": "LEVEL-THREE",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 1.063
+  },
+  {
+   "ask": "20260927-215808-norm-0345#1",
+   "room": "FILE-ROOM",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.276
+  },
+  {
+   "ask": "20260927-221613-norm-0346#1",
+   "room": "SOUTH-CONNECTION",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.205
+  },
+  {
+   "ask": "20260927-221724-norm-0347#1",
+   "room": "EAST-JUNCTION",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.388
+  },
+  {
+   "ask": "20260927-221724-norm-0347#2",
+   "room": "EAST-JUNCTION",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.388
+  },
+  {
+   "ask": "20260927-221724-norm-0347#3",
+   "room": "EAST-JUNCTION",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.388
+  },
+  {
+   "ask": "20260927-222241-norm-0348#1",
+   "room": "BRIG",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 1.438
+  },
+  {
+   "ask": "20260927-233632-norm-0350#1",
+   "room": "BRIG",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.323
+  },
+  {
+   "ask": "20260927-234435-norm-0352#1",
+   "room": "ROBOT-SHOP",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.386
+  },
+  {
+   "ask": "20260927-234435-norm-0352#2",
+   "room": "ROBOT-SHOP",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.386
+  },
+  {
+   "ask": "20260927-234435-norm-0352#3",
+   "room": "ROBOT-SHOP",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.386
+  },
+  {
+   "ask": "20260928-001242-norm-0358#1",
+   "room": "LEVEL-THREE",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.203
+  },
+  {
+   "ask": "20260928-002145-norm-0361#1",
+   "room": "FILE-ROOM",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.362
+  },
+  {
+   "ask": "20260928-002145-norm-0361#2",
+   "room": "FILE-ROOM",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.362
+  },
+  {
+   "ask": "20260928-002208-norm-0362#1",
+   "room": "LEVEL-FOUR",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.693
+  },
+  {
+   "ask": "20260928-002208-norm-0362#2",
+   "room": "LEVEL-FOUR",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.693
+  },
+  {
+   "ask": "20260928-002208-norm-0362#3",
+   "room": "LEVEL-FOUR",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.693
+  },
+  {
+   "ask": "20260928-002208-norm-0362#4",
+   "room": "LEVEL-FOUR",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.693
+  },
+  {
+   "ask": "20260928-013808-norm-0364#1",
+   "room": "LEVEL-FOUR",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.368
+  },
+  {
+   "ask": "20260928-013808-norm-0364#2",
+   "room": "LEVEL-FOUR",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.368
+  },
+  {
+   "ask": "20260928-014612-norm-0365#1",
+   "room": "FILE-ROOM",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.611
+  },
+  {
+   "ask": "20260928-014612-norm-0365#2",
+   "room": "FILE-ROOM",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.611
+  },
+  {
+   "ask": "20260928-014612-norm-0365#3",
+   "room": "FILE-ROOM",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.611
+  },
+  {
+   "ask": "20260928-021847-norm-0367#1",
+   "room": "LEVEL-THREE",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.264
+  },
+  {
+   "ask": "20260928-030247-norm-0370#1",
+   "room": "CHAPEL",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.281
+  },
+  {
+   "ask": "20260928-030253-norm-0371#1",
+   "room": "GYM",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.481
+  },
+  {
+   "ask": "20260928-032937-norm-0372#1",
+   "room": "LEVEL-THREE",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.148
+  },
+  {
+   "ask": "20260928-033423-norm-0377#1",
+   "room": "LEVEL-FOUR",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.376
+  },
+  {
+   "ask": "20260928-035747-norm-0381#1",
+   "room": "GYM",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.492
+  },
+  {
+   "ask": "20260928-041734-norm-0384#1",
+   "room": "CHAPEL",
+   "score": 13,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.351
+  },
+  {
+   "ask": "20260928-044727-norm-0385#1",
+   "room": "LEVEL-FOUR",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.398
+  },
+  {
+   "ask": "20260928-050008-norm-0386#1",
+   "room": "GYM",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.313
+  },
+  {
+   "ask": "20260928-051147-norm-0387#1",
+   "room": "CHAPEL",
+   "score": 8,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.336
+  },
+  {
+   "ask": "20260928-051147-norm-0387#2",
+   "room": "CHAPEL",
+   "score": 8,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.336
+  },
+  {
+   "ask": "20260928-054347-norm-0389#1",
+   "room": "LEVEL-FOUR",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.469
+  },
+  {
+   "ask": "20260928-064401-norm-0395#1",
+   "room": "LAUNDRY",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.136
+  },
+  {
+   "ask": "20260928-064404-norm-0396#1",
+   "room": "THEATRE",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.228
+  },
+  {
+   "ask": "20260928-070359-norm-0399#1",
+   "room": "SOUTH-CONNECTION",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.206
+  },
+  {
+   "ask": "20260928-072622-norm-0402#1",
+   "room": "LEVEL-FOUR",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.173
+  },
+  {
+   "ask": "20260928-075636-norm-0404#1",
+   "room": "THEATRE",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.174
+  },
+  {
+   "ask": "20260928-075729-norm-0405#1",
+   "room": "LAUNDRY",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.266
+  },
+  {
+   "ask": "20260928-083838-norm-0407#1",
+   "room": "LAUNDRY",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.229
+  },
+  {
+   "ask": "20260928-084116-norm-0408#1",
+   "room": "FEMALE-BARRACKS",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.321
+  },
+  {
+   "ask": "20260928-084119-norm-0409#1",
+   "room": "BARRACKS-SANFAC",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.607
+  },
+  {
+   "ask": "20260928-103156-norm-0413#1",
+   "room": null,
+   "score": 3,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.435
+  },
+  {
+   "ask": "20260928-103156-norm-0413#2",
+   "room": null,
+   "score": 3,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.435
+  },
+  {
+   "ask": "20260928-103156-norm-0413#3",
+   "room": null,
+   "score": 3,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.435
+  },
+  {
+   "ask": "20260928-103217-norm-0414#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.541
+  },
+  {
+   "ask": "20260928-104934-norm-0415#1",
+   "room": "FEMALE-BARRACKS",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.419
+  },
+  {
+   "ask": "20260928-110900-norm-0418#1",
+   "room": "DOCKING-BAY-3",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.177
+  },
+  {
+   "ask": "20260928-113353-norm-0422#1",
+   "room": "COMMANDERS-QUARTERS",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.212
+  },
+  {
+   "ask": "20260928-114300-norm-0423#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.166
+  },
+  {
+   "ask": "20260928-121814-norm-0426#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.27
+  },
+  {
+   "ask": "20260928-121814-norm-0426#2",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.27
+  },
+  {
+   "ask": "20260928-121814-norm-0426#3",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.27
+  },
+  {
+   "ask": "20260928-204533-norm-0432#1",
+   "room": "STORAGE-5",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.085
+  },
+  {
+   "ask": "20260928-205534-norm-0435#1",
+   "room": "GYM",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.14
+  },
+  {
+   "ask": "20260928-205534-norm-0435#2",
+   "room": "GYM",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.14
+  },
+  {
+   "ask": "20260928-205540-norm-0436#1",
+   "room": "GYM",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.138
+  },
+  {
+   "ask": "20260928-205540-norm-0436#2",
+   "room": "GYM",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.138
+  },
+  {
+   "ask": "20260928-205540-norm-0436#3",
+   "room": "GYM",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.138
+  },
+  {
+   "ask": "20260928-205540-norm-0436#4",
+   "room": "GYM",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.138
+  },
+  {
+   "ask": "20260928-205540-norm-0436#5",
+   "room": "GYM",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.138
+  },
+  {
+   "ask": "20260928-213006-norm-0440#1",
+   "room": "STORAGE-5",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.273
+  },
+  {
+   "ask": "20260928-224221-norm-0443#1",
+   "room": "LEVEL-SIX",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.181
+  },
+  {
+   "ask": "20260928-231410-norm-0445#1",
+   "room": "CHAPEL",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.143
+  },
+  {
+   "ask": "20260928-231410-norm-0445#2",
+   "room": "CHAPEL",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.143
+  },
+  {
+   "ask": "20260928-233010-norm-0447#1",
+   "room": "LEVEL-SIX",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.184
+  },
+  {
+   "ask": "20260928-233014-norm-0448#1",
+   "room": "END-OF-CORRIDOR",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.295
+  },
+  {
+   "ask": "20260929-005005-norm-0452#1",
+   "room": "LEVEL-SIX",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.097
+  },
+  {
+   "ask": "20260929-013339-norm-0454#1",
+   "room": "END-OF-CORRIDOR",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.186
+  },
+  {
+   "ask": "20260929-015154-norm-0456#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.346
+  },
+  {
+   "ask": "20260929-031125-norm-0459#1",
+   "room": "SHIPPING-ROOM",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.269
+  },
+  {
+   "ask": "20260929-031129-norm-0460#1",
+   "room": "ARMORY",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.404
+  },
+  {
+   "ask": "20260929-041720-norm-0464#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.494
+  },
+  {
+   "ask": "20260929-041721-norm-0465#1",
+   "room": null,
+   "score": 3,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.968
+  },
+  {
+   "ask": "20260929-043515-norm-0466#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.83
+  },
+  {
+   "ask": "20260929-045248-norm-0468#1",
+   "room": "ARMORY",
+   "score": 13,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.597
+  },
+  {
+   "ask": "20260929-050219-norm-0469#1",
+   "room": "THEATRE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.591
+  },
+  {
+   "ask": "20260929-050219-norm-0469#2",
+   "room": "THEATRE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.591
+  },
+  {
+   "ask": "20260929-050219-norm-0469#3",
+   "room": "THEATRE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.591
+  },
+  {
+   "ask": "20260929-050231-norm-0470#1",
+   "room": "THEATRE",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.698
+  },
+  {
+   "ask": "20260929-050231-norm-0470#2",
+   "room": "THEATRE",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.698
+  },
+  {
+   "ask": "20260929-050231-norm-0470#3",
+   "room": "THEATRE",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.698
+  },
+  {
+   "ask": "20260929-050231-norm-0470#4",
+   "room": "THEATRE",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.698
+  },
+  {
+   "ask": "20260929-052111-norm-0474#1",
+   "room": "AUXILIARY-BARRACKS",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.496
+  },
+  {
+   "ask": "20260929-052119-norm-0475#1",
+   "room": "SHIPPING-ROOM",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.533
+  },
+  {
+   "ask": "20260929-061939-norm-0485#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.179
+  },
+  {
+   "ask": "20260929-061940-norm-0486#1",
+   "room": "BRIG",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.284
+  },
+  {
+   "ask": "20260929-061944-norm-0487#1",
+   "room": "DOCKING-BAY-4",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.366
+  },
+  {
+   "ask": "20260929-063644-norm-0490#1",
+   "room": "ARMORY",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.192
+  },
+  {
+   "ask": "20260929-084319-norm-0498#1",
+   "room": "OFFICERS-QUARTERS-B",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.226
+  },
+  {
+   "ask": "20260929-121824-norm-0505#1",
+   "room": "DOCKING-BAY-1",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.157
+  },
+  {
+   "ask": "20260929-131850-norm-0510#1",
+   "room": "AUXILIARY-BARRACKS",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.386
+  },
+  {
+   "ask": "20260929-135324-norm-0514#1",
+   "room": "AUXILIARY-BARRACKS",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.361
+  },
+  {
+   "ask": "20260929-143856-norm-0517#1",
+   "room": "AUXILIARY-BARRACKS",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.271
+  },
+  {
+   "ask": "20260929-183010-norm-0541#1",
+   "room": "SPACETRUCK",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.307
+  },
+  {
+   "ask": "20260929-183944-norm-0543#1",
+   "room": "FEMALE-BARRACKS",
+   "score": 3,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.217
+  },
+  {
+   "ask": "20260929-185103-norm-0550#1",
+   "room": "OFFICERS-QUARTERS-B",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.171
+  },
+  {
+   "ask": "20260929-195400-norm-0559#1",
+   "room": "OFFICERS-QUARTERS-B",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.225
+  },
+  {
+   "ask": "20260930-104739-norm-0578#1",
+   "room": "ARMORY",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.492
+  },
+  {
+   "ask": "20260930-104748-norm-0579#1",
+   "room": "ARMORY",
+   "score": 5,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.489
+  },
+  {
+   "ask": "20260930-104749-norm-0580#1",
+   "room": "ARMORY",
+   "score": 5,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.489
+  },
+  {
+   "ask": "20260930-133833-norm-0595#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.369
+  },
+  {
+   "ask": "20260930-205852-norm-0601#1",
+   "room": "OFFICERS-QUARTERS-C",
+   "score": 3,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.27
+  },
+  {
+   "ask": "20260930-222748-norm-0604#1",
+   "room": "OFFICERS-QUARTERS-C",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.224
+  },
+  {
+   "ask": "20260930-222800-norm-0605#1",
+   "room": "OFFICERS-QUARTERS-C",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.242
+  },
+  {
+   "ask": "20261001-162530-norm-0616#1",
+   "room": "OFFICERS-SANFAC",
+   "score": 3,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.074
+  },
+  {
+   "ask": "20261001-164427-norm-0618#1",
+   "room": "OFFICERS-SANFAC",
+   "score": 2,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.116
+  },
+  {
+   "ask": "20261001-170904-norm-0621#1",
+   "room": "OFFICERS-SANFAC",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.076
+  },
+  {
+   "ask": "20261001-172225-norm-0623#1",
+   "room": "OFFICERS-SANFAC",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.287
+  },
+  {
+   "ask": "20261001-175251-norm-0626#1",
+   "room": "OFFICERS-SANFAC",
+   "score": 3,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.251
+  },
+  {
+   "ask": "20261001-185038-norm-0630#1",
+   "room": "DOCKING-BAY-1",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.176
+  },
+  {
+   "ask": "20261001-192603-norm-0634#1",
+   "room": "DOCKING-BAY-1",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.342
+  },
+  {
+   "ask": "20261001-200216-norm-0636#1",
+   "room": "DOCKING-BAY-1",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.342
+  },
+  {
+   "ask": "20261001-200216-norm-0636#2",
+   "room": "DOCKING-BAY-1",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.342
+  },
+  {
+   "ask": "20261001-200216-norm-0636#3",
+   "room": "DOCKING-BAY-1",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.342
+  },
+  {
+   "ask": "20261001-204317-norm-0639#1",
+   "room": "DOCKING-BAY-1",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.187
+  },
+  {
+   "ask": "20261001-213758-norm-0643#1",
+   "room": "DOCKING-BAY-1",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.254
+  },
+  {
+   "ask": "20261001-224207-norm-0648#1",
+   "room": "MESS-HALL",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.129
+  },
+  {
+   "ask": "20261001-224225-norm-0649#1",
+   "room": "MAIN-STORAGE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.128
+  },
+  {
+   "ask": "20261001-225527-norm-0653#1",
+   "room": "MESS-HALL",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.301
+  },
+  {
+   "ask": "20261001-225534-norm-0654#1",
+   "room": "MAIN-STORAGE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.306
+  },
+  {
+   "ask": "20261001-232542-norm-0659#1",
+   "room": "MESS-HALL",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.253
+  },
+  {
+   "ask": "20261001-232547-norm-0660#1",
+   "room": "MAIN-STORAGE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.251
+  },
+  {
+   "ask": "20261001-235450-norm-0663#1",
+   "room": "MESS-HALL",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.13
+  },
+  {
+   "ask": "20261001-235457-norm-0664#1",
+   "room": "MAIN-STORAGE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.128
+  },
+  {
+   "ask": "20261002-105913-norm-0672#1",
+   "room": "MESS-HALL",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.223
+  },
+  {
+   "ask": "20261002-120004-norm-0682#1",
+   "room": "MESS-HALL",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.216
+  },
+  {
+   "ask": "20261002-122725-norm-0684#1",
+   "room": "MESS-HALL",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.199
+  },
+  {
+   "ask": "20261002-124306-norm-0685#1",
+   "room": "LIBRARY",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.352
+  },
+  {
+   "ask": "20261002-130107-norm-0687#1",
+   "room": "MEETING-ROOM-1",
+   "score": 3,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.524
+  },
+  {
+   "ask": "20261002-131933-norm-0691#1",
+   "room": "LIBRARY",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.944
+  },
+  {
+   "ask": "20261002-131942-norm-0692#1",
+   "room": "LIBRARY",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.543
+  },
+  {
+   "ask": "20261002-131943-norm-0693#1",
+   "room": "LIBRARY",
+   "score": 13,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.793
+  },
+  {
+   "ask": "20261002-134718-norm-0697#1",
+   "room": "MESS-HALL",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.779
+  },
+  {
+   "ask": "20261002-140140-norm-0699#1",
+   "room": "MEETING-ROOM-1",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 3.51
+  },
+  {
+   "ask": "20261002-140142-norm-0700#1",
+   "room": "MEETING-ROOM-1",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 3.841
+  },
+  {
+   "ask": "20261002-140143-norm-0701#1",
+   "room": "MEETING-ROOM-1",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 4.215
+  },
+  {
+   "ask": "20261002-151937-norm-0714#1",
+   "room": "LIBRARY",
+   "score": 5,
+   "retro": false,
+   "kind": "cap",
+   "hours": 2.917
+  },
+  {
+   "ask": "20261002-152028-norm-0715#1",
+   "room": "LIBRARY",
+   "score": 5,
+   "retro": false,
+   "kind": "cap",
+   "hours": 6.496
+  },
+  {
+   "ask": "20261002-154221-norm-0717#1",
+   "room": "MESS-HALL",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.373
+  },
+  {
+   "ask": "20261002-163532-norm-0722#1",
+   "room": "MESS-HALL",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 2.627
+  },
+  {
+   "ask": "20261002-183312-norm-0742#1",
+   "room": "MEETING-ROOM-1",
+   "score": 2,
+   "retro": false,
+   "kind": "cap",
+   "hours": 1.334
+  },
+  {
+   "ask": "20261002-183317-norm-0743#1",
+   "room": "MEETING-ROOM-1",
+   "score": 2,
+   "retro": false,
+   "kind": "cap",
+   "hours": 1.564
+  },
+  {
+   "ask": "20261002-190353-norm-0749#1",
+   "room": "MAIN-STORAGE",
+   "score": 3,
+   "retro": false,
+   "kind": "cap",
+   "hours": 2.855
+  },
+  {
+   "ask": "20261002-223651-norm-0765#1",
+   "room": "LIBRARY",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.653
+  },
+  {
+   "ask": "20261002-223652-norm-0766#1",
+   "room": "LIBRARY",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.653
+  },
+  {
+   "ask": "20261002-223703-norm-0767#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.711
+  },
+  {
+   "ask": "20261002-232709-norm-0776#1",
+   "room": "MEETING-ROOM-2",
+   "score": 3,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.276
+  },
+  {
+   "ask": "20261002-234425-norm-0781#1",
+   "room": "MAIN-STORAGE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.093
+  },
+  {
+   "ask": "20261002-234431-norm-0782#1",
+   "room": "MAIN-STORAGE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.176
+  },
+  {
+   "ask": "20261002-234437-norm-0783#1",
+   "room": "MAIN-STORAGE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.4
+  },
+  {
+   "ask": "20261002-235627-norm-0788#1",
+   "room": "MEETING-ROOM-2",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.166
+  },
+  {
+   "ask": "20261002-235629-norm-0789#1",
+   "room": "MEETING-ROOM-2",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.572
+  },
+  {
+   "ask": "20261002-235630-norm-0790#1",
+   "room": "MEETING-ROOM-2",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 10.615
+  },
+  {
+   "ask": "20261003-103637-norm-0832#1",
+   "room": "ELEVATOR",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.164
+  },
+  {
+   "ask": "20261003-103949-norm-0833#1",
+   "room": "AIR-SHAFT",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.262
+  },
+  {
+   "ask": "20261003-110101-norm-0845#1",
+   "room": "ELEVATOR",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.282
   }
  ],
  "cost": {
-  "runs": 153,
-  "tokens": 32630001,
-  "agentHours": 43.85,
+  "runs": 563,
+  "tokens": 141726405,
+  "agentHours": 305.32,
   "byMilestone": {
    "planning": {
     "runs": 4,
@@ -1275,14 +3401,14 @@
     "hours": 3.53
    },
    "M6": {
-    "runs": 3,
-    "tokens": 483673,
-    "hours": 0.5
+    "runs": 5,
+    "tokens": 743344,
+    "hours": 0.93
    },
    "M3": {
-    "runs": 1,
-    "tokens": 300238,
-    "hours": 0.72
+    "runs": 3,
+    "tokens": 942769,
+    "hours": 0.93
    },
    "M4": {
     "runs": 1,
@@ -1290,14 +3416,14 @@
     "hours": 0.81
    },
    "M7": {
-    "runs": 73,
-    "tokens": 11178495,
-    "hours": 14.14
+    "runs": 395,
+    "tokens": 91603477,
+    "hours": 226.41
    },
    "M5": {
-    "runs": 52,
-    "tokens": 14357157,
-    "hours": 21.99
+    "runs": 134,
+    "tokens": 41544931,
+    "hours": 69.47
    },
    "D21": {
     "runs": 3,
@@ -1308,28 +3434,33 @@
     "runs": 1,
     "tokens": 126183,
     "hours": 0.18
+   },
+   "M8": {
+    "runs": 2,
+    "tokens": 581446,
+    "hours": 1.08
    }
   },
   "byKind": {
    "research": {
-    "runs": 6,
-    "tokens": 925570,
-    "hours": 1.01
+    "runs": 10,
+    "tokens": 1622772,
+    "hours": 2.23
    },
    "tooling": {
-    "runs": 20,
-    "tokens": 3873429,
-    "hours": 5.28
+    "runs": 54,
+    "tokens": 12364409,
+    "hours": 27.75
    },
    "engine": {
-    "runs": 10,
-    "tokens": 3147983,
-    "hours": 4.83
+    "runs": 35,
+    "tokens": 9563903,
+    "hours": 26.44
    },
    "history": {
-    "runs": 5,
-    "tokens": 563633,
-    "hours": 0.37
+    "runs": 12,
+    "tokens": 1640399,
+    "hours": 1.94
    },
    "porting": {
     "runs": 10,
@@ -1337,91 +3468,91 @@
     "hours": 3.53
    },
    "art-prep": {
-    "runs": 9,
-    "tokens": 3391752,
-    "hours": 6.28
+    "runs": 171,
+    "tokens": 54990266,
+    "hours": 147.69
    },
    "integration": {
-    "runs": 1,
-    "tokens": 300238,
-    "hours": 0.72
+    "runs": 4,
+    "tokens": 773621,
+    "hours": 1.78
    },
    "playtest": {
-    "runs": 33,
-    "tokens": 9793107,
-    "hours": 15.55
+    "runs": 98,
+    "tokens": 33040334,
+    "hours": 56.89
    },
    "review": {
-    "runs": 53,
-    "tokens": 5312494,
-    "hours": 4.44
+    "runs": 157,
+    "tokens": 20814415,
+    "hours": 33.32
    },
    "triage": {
-    "runs": 6,
-    "tokens": 1667817,
-    "hours": 1.86
+    "runs": 12,
+    "tokens": 3262308,
+    "hours": 3.77
    }
   },
-  "artTokens": 8704246,
-  "roomViewsRegistered": 25,
-  "tokensPerAcceptedView": 348170,
+  "artTokens": 75804681,
+  "roomViewsRegistered": 165,
+  "tokensPerAcceptedView": 459422,
   "passes": {
-   "tagged": 26,
-   "deliveries": 100,
-   "perDelivery": 1.12
+   "tagged": 54,
+   "deliveries": 349,
+   "perDelivery": 2.26
   }
  },
  "tokens": {
   "present": true,
   "source": "wwwroot/wiki/tokens.csv",
-  "rows": 57,
+  "rows": 315,
   "span": {
    "from": "2026-09-24 19:00",
-   "to": "2026-09-25 14:59"
+   "to": "2026-09-30 18:59"
   },
   "byAgent": {
    "greg": {
-    "calls": 1054,
-    "fresh": 2885185,
-    "cached": 136149120,
+    "calls": 6020,
+    "fresh": 23471085,
+    "cached": 886365568,
     "cacheWrite": 0,
-    "output": 360620,
-    "reasoning": 105309,
-    "work": 3245805,
-    "all": 139394925
+    "output": 1989593,
+    "reasoning": 579906,
+    "work": 25460678,
+    "all": 911826246
    },
    "norm-main": {
-    "calls": 1026,
-    "fresh": 2502,
-    "cached": 511224731,
-    "cacheWrite": 2523851,
-    "output": 705642,
-    "reasoning": 124798,
-    "work": 3231995,
-    "all": 514456726
+    "calls": 4729,
+    "fresh": 11040,
+    "cached": 2324620813,
+    "cacheWrite": 10783025,
+    "output": 3061138,
+    "reasoning": 643757,
+    "work": 13855203,
+    "all": 2338476016
    },
    "norm-subagents": {
-    "calls": 15926,
-    "fresh": 31872,
-    "cached": 2773981735,
-    "cacheWrite": 31024473,
-    "output": 1418144,
-    "reasoning": 244730,
-    "work": 32474489,
-    "all": 2806456224
+    "calls": 53619,
+    "fresh": 107452,
+    "cached": 10377339542,
+    "cacheWrite": 236178918,
+    "output": 9436528,
+    "reasoning": 2763347,
+    "work": 245722898,
+    "all": 10623062440
    }
   },
   "byModel": {
    "greg": {
     "gpt-5.6-sol": {
-     "calls": 931,
-     "fresh": 2610273,
-     "cached": 122416128,
+     "calls": 5897,
+     "fresh": 23196173,
+     "cached": 872632576,
      "cacheWrite": 0,
-     "output": 346056,
-     "reasoning": 104702,
-     "work": 2956329,
-     "all": 125372457
+     "output": 1975029,
+     "reasoning": 579299,
+     "work": 25171202,
+     "all": 897803778
     },
     "gpt-6-astra": {
      "calls": 123,
@@ -1436,58 +3567,58 @@
    },
    "norm-main": {
     "claude-opus-5-5": {
-     "calls": 1026,
-     "fresh": 2502,
-     "cached": 511224731,
-     "cacheWrite": 2523851,
-     "output": 705642,
-     "reasoning": 124798,
-     "work": 3231995,
-     "all": 514456726
+     "calls": 4729,
+     "fresh": 11040,
+     "cached": 2324620813,
+     "cacheWrite": 10783025,
+     "output": 3061138,
+     "reasoning": 643757,
+     "work": 13855203,
+     "all": 2338476016
     }
    },
    "norm-subagents": {
     "claude-opus-5-5": {
-     "calls": 15926,
-     "fresh": 31872,
-     "cached": 2773981735,
-     "cacheWrite": 31024473,
-     "output": 1418144,
-     "reasoning": 244730,
-     "work": 32474489,
-     "all": 2806456224
+     "calls": 53619,
+     "fresh": 107452,
+     "cached": 10377339542,
+     "cacheWrite": 236178918,
+     "output": 9436528,
+     "reasoning": 2763347,
+     "work": 245722898,
+     "all": 10623062440
     }
    }
   },
   "cachedShareOfInput": {
-   "greg": 0.979,
+   "greg": 0.974,
    "norm-main": 0.995,
-   "norm-subagents": 0.989
+   "norm-subagents": 0.978
   },
   "total": {
-   "calls": 18006,
-   "fresh": 2919559,
-   "cached": 3421355586,
-   "cacheWrite": 33548324,
-   "output": 2484406,
-   "reasoning": 474837,
-   "work": 38952289,
-   "all": 3460307875
+   "calls": 64368,
+   "fresh": 23589577,
+   "cached": 13588325923,
+   "cacheWrite": 246961943,
+   "output": 14487259,
+   "reasoning": 3987010,
+   "work": 285038779,
+   "all": 13873364702
   },
   "perAcceptedView": {
-   "views": 25,
-   "work": 607282,
-   "all": 26502236,
+   "views": 165,
+   "work": 697700,
+   "all": 20158224,
    "parts": {
     "greg": {
-     "work": 3245805,
-     "all": 139394925
+     "work": 25460678,
+     "all": 911826246
     },
     "normMain": {
-     "work": 3231995,
-     "all": 514456726
+     "work": 13855203,
+     "all": 2338476016
     },
-    "subagentArtFromWorkLog": 8704246
+    "subagentArtFromWorkLog": 75804681
    }
   },
   "gregByModelPerView": {
@@ -1495,11 +3626,11 @@
     "models": [
      "gpt-5.6-sol"
     ],
-    "work": 2956329,
-    "all": 125372457,
-    "views": 23,
-    "workPerView": 128536,
-    "allPerView": 5450976
+    "work": 25171202,
+    "all": 897803778,
+    "views": 157,
+    "workPerView": 160326,
+    "allPerView": 5718495
    },
    "Astra": {
     "models": [
@@ -1507,162 +3638,126 @@
     ],
     "work": 289476,
     "all": 14022468,
-    "views": 2,
-    "workPerView": 144738,
-    "allPerView": 7011234
+    "views": 3,
+    "workPerView": 96492,
+    "allPerView": 4674156
    }
   },
   "bins": [
    {
-    "start": "2026-09-24 19:00",
+    "start": "2026-09-24 00:00",
     "greg": {
-     "input": 44083,
-     "output": 1242,
-     "cached": 100224
+     "input": 737447,
+     "output": 95433,
+     "cached": 36329088
     },
     "norm-main": {
-     "input": 90637,
-     "output": 5384,
-     "cached": 1168084
+     "input": 683576,
+     "output": 267672,
+     "cached": 156394380
     },
     "norm-subagents": {
-     "input": 476034,
-     "output": 5932,
-     "cached": 8293590
-    }
-   },
-   {
-    "start": "2026-09-24 20:00",
-    "greg": {
-     "input": 198338,
-     "output": 29707,
-     "cached": 6295552
-    },
-    "norm-main": {
-     "input": 306979,
-     "output": 126509,
-     "cached": 38636602
-    },
-    "norm-subagents": {
-     "input": 803521,
-     "output": 53427,
-     "cached": 53226708
-    }
-   },
-   {
-    "start": "2026-09-24 21:00",
-    "greg": {
-     "input": 197334,
-     "output": 45051,
-     "cached": 13063040
-    },
-    "norm-main": {
-     "input": 154617,
-     "output": 69678,
-     "cached": 42524746
-    },
-    "norm-subagents": {
-     "input": 3707580,
-     "output": 381321,
-     "cached": 221886716
-    }
-   },
-   {
-    "start": "2026-09-24 22:00",
-    "greg": {
-     "input": 220393,
-     "output": 7349,
-     "cached": 5532160
-    },
-    "norm-main": {
-     "input": 68208,
-     "output": 34023,
-     "cached": 40316462
-    },
-    "norm-subagents": {
-     "input": 3343110,
-     "output": 37532,
-     "cached": 196391917
-    }
-   },
-   {
-    "start": "2026-09-24 23:00",
-    "greg": {
-     "input": 77299,
-     "output": 12084,
-     "cached": 11338112
-    },
-    "norm-main": {
-     "input": 63135,
-     "output": 32078,
-     "cached": 33748486
-    },
-    "norm-subagents": {
-     "input": 899931,
-     "output": 34637,
-     "cached": 50020833
+     "input": 9230176,
+     "output": 512849,
+     "cached": 529819764
     }
    },
    {
     "start": "2026-09-25 00:00",
     "greg": {
-     "input": 258720,
-     "output": 11706,
-     "cached": 4477568
+     "input": 3616056,
+     "output": 460459,
+     "cached": 157975040
     },
     "norm-main": {
-     "input": 69870,
-     "output": 33921,
-     "cached": 29133325
+     "input": 2062289,
+     "output": 515783,
+     "cached": 476942228
     },
     "norm-subagents": {
-     "input": 2057317,
-     "output": 75948,
-     "cached": 205978268
+     "input": 28401551,
+     "output": 1122316,
+     "cached": 3182811138
     }
    },
    {
-    "start": "2026-09-25 01:00",
+    "start": "2026-09-26 00:00",
     "greg": {
-     "input": 107017,
-     "output": 25244,
-     "cached": 10614400
+     "input": 3738406,
+     "output": 390789,
+     "cached": 165385472
     },
     "norm-main": {
-     "input": 77711,
-     "output": 41959,
-     "cached": 52066734
+     "input": 1833807,
+     "output": 733324,
+     "cached": 485030801
     },
     "norm-subagents": {
-     "input": 1596434,
-     "output": 72879,
-     "cached": 242853159
+     "input": 17977608,
+     "output": 1077132,
+     "cached": 765807579
     }
    },
    {
-    "start": "2026-09-25 02:00",
+    "start": "2026-09-27 00:00",
     "greg": {
-     "input": 42337,
-     "output": 759,
-     "cached": 397568
+     "input": 4360636,
+     "output": 414466,
+     "cached": 205903872
     },
     "norm-main": {
-     "input": 9684,
-     "output": 2682,
-     "cached": 3466791
+     "input": 3005450,
+     "output": 825099,
+     "cached": 667909679
     },
     "norm-subagents": {
-     "input": 190937,
-     "output": 13385,
-     "cached": 25125931
+     "input": 73073175,
+     "output": 3860992,
+     "cached": 2793454977
     }
    },
    {
-    "start": "2026-09-25 03:00",
+    "start": "2026-09-28 00:00",
     "greg": {
-     "input": 5090,
-     "output": 750,
-     "cached": 468736
+     "input": 3483488,
+     "output": 251735,
+     "cached": 131340800
+    },
+    "norm-main": {
+     "input": 1539619,
+     "output": 608107,
+     "cached": 424360206
+    },
+    "norm-subagents": {
+     "input": 69057304,
+     "output": 2285229,
+     "cached": 2156661805
+    }
+   },
+   {
+    "start": "2026-09-29 00:00",
+    "greg": {
+     "input": 4847195,
+     "output": 253364,
+     "cached": 122365440
+    },
+    "norm-main": {
+     "input": 1669324,
+     "output": 111153,
+     "cached": 113983519
+    },
+    "norm-subagents": {
+     "input": 38546556,
+     "output": 578010,
+     "cached": 948784279
+    }
+   },
+   {
+    "start": "2026-09-30 00:00",
+    "greg": {
+     "input": 2687857,
+     "output": 123347,
+     "cached": 67065856
     },
     "norm-main": {
      "input": 0,
@@ -1673,211 +3768,13 @@
      "input": 0,
      "output": 0,
      "cached": 0
-    }
-   },
-   {
-    "start": "2026-09-25 04:00",
-    "greg": {
-     "input": 4954,
-     "output": 750,
-     "cached": 502784
-    },
-    "norm-main": {
-     "input": 0,
-     "output": 0,
-     "cached": 0
-    },
-    "norm-subagents": {
-     "input": 0,
-     "output": 0,
-     "cached": 0
-    }
-   },
-   {
-    "start": "2026-09-25 05:00",
-    "greg": {
-     "input": 84636,
-     "output": 9745,
-     "cached": 2434816
-    },
-    "norm-main": {
-     "input": 885140,
-     "output": 22937,
-     "cached": 24242421
-    },
-    "norm-subagents": {
-     "input": 488947,
-     "output": 40920,
-     "cached": 16973804
-    }
-   },
-   {
-    "start": "2026-09-25 06:00",
-    "greg": {
-     "input": 367024,
-     "output": 21170,
-     "cached": 9955968
-    },
-    "norm-main": {
-     "input": 131540,
-     "output": 57280,
-     "cached": 41196498
-    },
-    "norm-subagents": {
-     "input": 1166363,
-     "output": 90603,
-     "cached": 48495434
-    }
-   },
-   {
-    "start": "2026-09-25 07:00",
-    "greg": {
-     "input": 157519,
-     "output": 26093,
-     "cached": 6972672
-    },
-    "norm-main": {
-     "input": 149762,
-     "output": 60040,
-     "cached": 19122453
-    },
-    "norm-subagents": {
-     "input": 1911179,
-     "output": 98378,
-     "cached": 114215415
-    }
-   },
-   {
-    "start": "2026-09-25 08:00",
-    "greg": {
-     "input": 201055,
-     "output": 34544,
-     "cached": 10466816
-    },
-    "norm-main": {
-     "input": 109189,
-     "output": 47739,
-     "cached": 21967309
-    },
-    "norm-subagents": {
-     "input": 2177290,
-     "output": 85310,
-     "cached": 204460885
-    }
-   },
-   {
-    "start": "2026-09-25 09:00",
-    "greg": {
-     "input": 228784,
-     "output": 45909,
-     "cached": 14737792
-    },
-    "norm-main": {
-     "input": 90159,
-     "output": 36076,
-     "cached": 32719304
-    },
-    "norm-subagents": {
-     "input": 2545809,
-     "output": 96130,
-     "cached": 314218889
-    }
-   },
-   {
-    "start": "2026-09-25 10:00",
-    "greg": {
-     "input": 189462,
-     "output": 24573,
-     "cached": 11307648
-    },
-    "norm-main": {
-     "input": 107697,
-     "output": 44779,
-     "cached": 42257941
-    },
-    "norm-subagents": {
-     "input": 2923547,
-     "output": 92789,
-     "cached": 381400636
-    }
-   },
-   {
-    "start": "2026-09-25 11:00",
-    "greg": {
-     "input": 35989,
-     "output": 10657,
-     "cached": 4307840
-    },
-    "norm-main": {
-     "input": 44489,
-     "output": 18551,
-     "cached": 15502973
-    },
-    "norm-subagents": {
-     "input": 1422611,
-     "output": 90954,
-     "cached": 139951574
-    }
-   },
-   {
-    "start": "2026-09-25 12:00",
-    "greg": {
-     "input": 139546,
-     "output": 22340,
-     "cached": 9818880
-    },
-    "norm-main": {
-     "input": 81124,
-     "output": 35084,
-     "cached": 31635573
-    },
-    "norm-subagents": {
-     "input": 2811200,
-     "output": 55583,
-     "cached": 129554817
-    }
-   },
-   {
-    "start": "2026-09-25 13:00",
-    "greg": {
-     "input": 134525,
-     "output": 30127,
-     "cached": 11534464
-    },
-    "norm-main": {
-     "input": 50555,
-     "output": 20173,
-     "cached": 30858657
-    },
-    "norm-subagents": {
-     "input": 1630441,
-     "output": 55434,
-     "cached": 340369649
-    }
-   },
-   {
-    "start": "2026-09-25 14:00",
-    "greg": {
-     "input": 191080,
-     "output": 820,
-     "cached": 1822080
-    },
-    "norm-main": {
-     "input": 35857,
-     "output": 16749,
-     "cached": 10660372
-    },
-    "norm-subagents": {
-     "input": 904094,
-     "output": 36982,
-     "cached": 80563510
     }
    }
   ]
  },
  "touches": {
-  "decisions": 17,
-  "questions": 11,
+  "decisions": 32,
+  "questions": 31,
   "days": [
    {
     "date": "2026-09-24",
@@ -1888,9 +3785,49 @@
     "date": "2026-09-25",
     "decisions": 10,
     "questions": 10
+   },
+   {
+    "date": "2026-09-26",
+    "decisions": 1,
+    "questions": 1
+   },
+   {
+    "date": "2026-09-27",
+    "decisions": 4,
+    "questions": 7
+   },
+   {
+    "date": "2026-09-28",
+    "decisions": 4,
+    "questions": 9
+   },
+   {
+    "date": "2026-09-29",
+    "decisions": 0,
+    "questions": 2
+   },
+   {
+    "date": "2026-09-30",
+    "decisions": 2,
+    "questions": 0
+   },
+   {
+    "date": "2026-10-01",
+    "decisions": 2,
+    "questions": 0
+   },
+   {
+    "date": "2026-10-02",
+    "decisions": 2,
+    "questions": 1
+   },
+   {
+    "date": "2026-10-03",
+    "decisions": 0,
+    "questions": 0
    }
   ],
-  "perDay": 14
+  "perDay": 6.3
  },
  "milestones": [
   {
@@ -2052,6 +3989,108 @@
     "high": 0.09
    },
    "weightedPer100": 3.02
+  },
+  {
+   "round": "7",
+   "sessions": 3,
+   "commands": 4504,
+   "wins": 0,
+   "deaths": 29,
+   "per100": 2.51,
+   "negativePer100": 1.64,
+   "repeatRate": 0.473,
+   "issuesRaised": 27,
+   "severityPer100": {
+    "low": 0.67,
+    "medium": 0.62,
+    "high": 0.36
+   },
+   "weightedPer100": 2.98
+  },
+  {
+   "round": "8",
+   "sessions": 3,
+   "commands": 4500,
+   "wins": 0,
+   "deaths": 29,
+   "per100": 3.13,
+   "negativePer100": 1.89,
+   "repeatRate": 0.624,
+   "issuesRaised": 23,
+   "severityPer100": {
+    "low": 1.04,
+    "medium": 0.58,
+    "high": 0.27
+   },
+   "weightedPer100": 3
+  },
+  {
+   "round": "9",
+   "sessions": 3,
+   "commands": 4500,
+   "wins": 0,
+   "deaths": 25,
+   "per100": 3,
+   "negativePer100": 1.6,
+   "repeatRate": 0.792,
+   "issuesRaised": 11,
+   "severityPer100": {
+    "low": 0.69,
+    "medium": 0.58,
+    "high": 0.33
+   },
+   "weightedPer100": 2.84
+  },
+  {
+   "round": "10",
+   "sessions": 3,
+   "commands": 4500,
+   "wins": 0,
+   "deaths": 36,
+   "per100": 2.56,
+   "negativePer100": 1.36,
+   "repeatRate": 0.721,
+   "issuesRaised": 13,
+   "severityPer100": {
+    "low": 0.62,
+    "medium": 0.58,
+    "high": 0.16
+   },
+   "weightedPer100": 2.24
+  },
+  {
+   "round": "11",
+   "sessions": 3,
+   "commands": 4499,
+   "wins": 0,
+   "deaths": 28,
+   "per100": 2.62,
+   "negativePer100": 1.58,
+   "repeatRate": 0.831,
+   "issuesRaised": 8,
+   "severityPer100": {
+    "low": 0.56,
+    "medium": 0.76,
+    "high": 0.27
+   },
+   "weightedPer100": 2.87
+  },
+  {
+   "round": "12",
+   "sessions": 3,
+   "commands": 4461,
+   "wins": 0,
+   "deaths": 24,
+   "per100": 2.73,
+   "negativePer100": 1.52,
+   "repeatRate": 0.735,
+   "issuesRaised": 15,
+   "severityPer100": {
+    "low": 0.69,
+    "medium": 0.58,
+    "high": 0.25
+   },
+   "weightedPer100": 2.6
   }
  ],
  "progress": {
@@ -2115,7 +4154,12 @@
    "4",
    "5",
    "6",
-   "7"
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12"
   ],
   "segmentedRounds": [
    "1",
@@ -2126,7 +4170,12 @@
    "6"
   ],
   "fullRounds": [
-   "7"
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12"
   ],
   "byRound": {
    "1": {
@@ -2210,14 +4259,79 @@
    "7": {
     "kind": "full",
     "sessions": 3,
-    "commands": 944,
-    "gained": 50,
+    "commands": 4504,
+    "gained": 153,
     "ends": {
      "won": 0,
-     "budget": 0,
-     "stuck": 0,
+     "budget": 1,
+     "stuck": 2,
      "died": 0,
-     "open": 3
+     "open": 0
+    }
+   },
+   "8": {
+    "kind": "full",
+    "sessions": 3,
+    "commands": 4500,
+    "gained": 180,
+    "ends": {
+     "won": 0,
+     "budget": 2,
+     "stuck": 1,
+     "died": 0,
+     "open": 0
+    }
+   },
+   "9": {
+    "kind": "full",
+    "sessions": 3,
+    "commands": 4500,
+    "gained": 165,
+    "ends": {
+     "won": 0,
+     "budget": 1,
+     "stuck": 2,
+     "died": 0,
+     "open": 0
+    }
+   },
+   "10": {
+    "kind": "full",
+    "sessions": 3,
+    "commands": 4500,
+    "gained": 163,
+    "ends": {
+     "won": 0,
+     "budget": 2,
+     "stuck": 1,
+     "died": 0,
+     "open": 0
+    }
+   },
+   "11": {
+    "kind": "full",
+    "sessions": 3,
+    "commands": 4499,
+    "gained": 174,
+    "ends": {
+     "won": 0,
+     "budget": 1,
+     "stuck": 1,
+     "died": 1,
+     "open": 0
+    }
+   },
+   "12": {
+    "kind": "full",
+    "sessions": 3,
+    "commands": 4461,
+    "gained": 173,
+    "ends": {
+     "won": 0,
+     "budget": 2,
+     "stuck": 1,
+     "died": 0,
+     "open": 0
     }
    }
   },
@@ -2274,7 +4388,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r1-click-03village",
@@ -2333,7 +4457,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r1-click-06plato",
@@ -2388,7 +4522,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r1-typed-02station",
@@ -2434,7 +4578,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r1-typed-05day2",
@@ -2477,7 +4631,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r2-click-01duffy",
@@ -2544,7 +4708,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r2-click-03village",
@@ -2603,7 +4777,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r2-click-06plato",
@@ -2658,7 +4842,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r2-typed-02station",
@@ -2721,7 +4915,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r2-typed-05day2",
@@ -2776,7 +4980,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r3-click-02station",
@@ -2827,7 +5041,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r3-click-04day1end",
@@ -2882,7 +5106,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r3-click-05day2",
@@ -2932,7 +5166,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r3-click-07factory",
@@ -2987,7 +5231,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": true,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "won"
    },
    {
     "session": "r3-typed-01duffy",
@@ -3050,7 +5304,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r3-typed-03village",
@@ -3113,7 +5377,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r3-typed-06plato",
@@ -3164,7 +5438,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r4-click-01duffy",
@@ -3219,7 +5503,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r4-click-03village",
@@ -3274,7 +5568,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r4-click-06plato",
@@ -3317,7 +5621,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 47,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r4-typed-02station",
@@ -3367,7 +5681,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r4-typed-04day1end",
@@ -3414,7 +5738,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r4-typed-05day2",
@@ -3465,7 +5799,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 352,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r4-typed-07factory",
@@ -3507,7 +5851,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": true,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "won"
    },
    {
     "session": "r5-click-01duffy",
@@ -3565,7 +5919,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r5-click-03village",
@@ -3632,7 +5996,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r5-click-06plato",
@@ -3679,7 +6053,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 35,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r5-typed-02station",
@@ -3725,7 +6109,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 202,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r5-typed-04day1end",
@@ -3788,7 +6182,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r5-typed-05day2",
@@ -3847,7 +6251,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r5-typed-07factory",
@@ -3894,7 +6308,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": true,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "won"
    },
    {
     "session": "r6-click-01duffy",
@@ -3948,7 +6372,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r6-click-03village",
@@ -4011,7 +6445,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 286,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r6-click-06plato",
@@ -4106,7 +6550,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": true,
+    "noLongerAt": 40,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "won"
    },
    {
     "session": "r6-typed-02station",
@@ -4152,7 +6606,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r6-typed-04day1end",
@@ -4207,7 +6671,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r6-typed-05day2",
@@ -4253,7 +6727,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "budget"
    },
    {
     "session": "r6-typed-07factory",
@@ -4295,7 +6779,17 @@
     "legStarts": [],
     "turnCap": 1500,
     "capped": false,
-    "roundKind": "segmented"
+    "lastDied": true,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "segmented",
+    "outcome": "won"
    },
    {
     "session": "r7-click-fullA",
@@ -4306,25 +6800,45 @@
     "checkpoint": "01-duffy",
     "fromOpening": true,
     "undo": true,
-    "budget": 400,
-    "commands": 239,
-    "legs": 1,
+    "budget": 1500,
+    "commands": 1503,
+    "legs": 4,
     "startScore": 0,
-    "bestScore": 11,
-    "gained": 11,
+    "bestScore": 53,
+    "gained": 53,
     "available": 80,
-    "share": 0.138,
-    "stagesAdvanced": 2,
-    "stuckAt": 105,
-    "tail": 134,
+    "share": 0.662,
+    "stagesAdvanced": 5.09,
+    "stuckAt": 1072,
+    "tail": 431,
     "deaths": [
      {
       "n": 20,
       "gained": 0
+     },
+     {
+      "n": 522,
+      "gained": 38
+     },
+     {
+      "n": 755,
+      "gained": 50
+     },
+     {
+      "n": 773,
+      "gained": 50
+     },
+     {
+      "n": 1036,
+      "gained": 50
+     },
+     {
+      "n": 1184,
+      "gained": 53
      }
     ],
     "won": false,
-    "reason": "open",
+    "reason": "stuck",
     "steps": [
      [
       0,
@@ -4341,11 +6855,61 @@
      [
       105,
       11
+     ],
+     [
+      276,
+      17
+     ],
+     [
+      322,
+      21
+     ],
+     [
+      376,
+      26
+     ],
+     [
+      454,
+      33
+     ],
+     [
+      464,
+      38
+     ],
+     [
+      543,
+      41
+     ],
+     [
+      659,
+      44
+     ],
+     [
+      674,
+      50
+     ],
+     [
+      1072,
+      53
      ]
     ],
-    "legStarts": [],
+    "legStarts": [
+     399,
+     800,
+     1202
+    ],
     "turnCap": 1500,
-    "capped": false,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 1095,
+    "sub": {
+     "key": "click-a",
+     "label": "click A",
+     "tokens": [
+      "click",
+      "click-a"
+     ]
+    },
     "roundKind": "full",
     "run": {
      "byStage": [
@@ -4374,40 +6938,40 @@
        "name": "Village",
        "available": 12,
        "reached": true,
-       "points": 0,
-       "share": 0,
+       "points": 12,
+       "share": 1,
        "enteredAt": 105,
-       "commands": 134
+       "commands": 271
       },
       {
        "id": "04-day1-end",
        "name": "Day 1 end",
        "available": 3,
-       "reached": false,
-       "points": 0,
-       "share": 0,
-       "enteredAt": null,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 376,
        "commands": 0
       },
       {
        "id": "05-day2",
        "name": "Day 2",
        "available": 25,
-       "reached": false,
-       "points": 0,
-       "share": 0,
-       "enteredAt": null,
-       "commands": 0
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 376,
+       "commands": 696
       },
       {
        "id": "06-plato",
        "name": "Plato",
        "available": 22,
-       "reached": false,
-       "points": 0,
-       "share": 0,
-       "enteredAt": null,
-       "commands": 0
+       "reached": true,
+       "points": 2,
+       "share": 0.091,
+       "enteredAt": 1072,
+       "commands": 431
       },
       {
        "id": "07-factory",
@@ -4420,10 +6984,11 @@
        "commands": 0
       }
      ],
-     "furthest": 2,
-     "furthestStage": "03-village",
-     "end": "open"
-    }
+     "furthest": 5,
+     "furthestStage": "06-plato",
+     "end": "stuck"
+    },
+    "outcome": "cap"
    },
    {
     "session": "r7-click-fullB",
@@ -4434,17 +6999,17 @@
     "checkpoint": "01-duffy",
     "fromOpening": true,
     "undo": true,
-    "budget": 400,
-    "commands": 278,
-    "legs": 1,
+    "budget": 1500,
+    "commands": 1501,
+    "legs": 4,
     "startScore": 0,
-    "bestScore": 17,
-    "gained": 17,
+    "bestScore": 55,
+    "gained": 55,
     "available": 80,
-    "share": 0.212,
-    "stagesAdvanced": 2.5,
-    "stuckAt": 278,
-    "tail": 0,
+    "share": 0.688,
+    "stagesAdvanced": 5.18,
+    "stuckAt": 1477,
+    "tail": 24,
     "deaths": [
      {
       "n": 24,
@@ -4453,10 +7018,26 @@
      {
       "n": 30,
       "gained": 0
+     },
+     {
+      "n": 491,
+      "gained": 37
+     },
+     {
+      "n": 631,
+      "gained": 42
+     },
+     {
+      "n": 844,
+      "gained": 45
+     },
+     {
+      "n": 1049,
+      "gained": 45
      }
     ],
     "won": false,
-    "reason": "open",
+    "reason": "budget",
     "steps": [
      [
       0,
@@ -4477,11 +7058,61 @@
      [
       278,
       17
+     ],
+     [
+      319,
+      21
+     ],
+     [
+      330,
+      25
+     ],
+     [
+      420,
+      30
+     ],
+     [
+      428,
+      37
+     ],
+     [
+      505,
+      40
+     ],
+     [
+      548,
+      42
+     ],
+     [
+      769,
+      45
+     ],
+     [
+      1145,
+      48
+     ],
+     [
+      1477,
+      55
      ]
     ],
-    "legStarts": [],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
     "turnCap": 1500,
-    "capped": false,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 538,
+    "sub": {
+     "key": "click-b",
+     "label": "click B",
+     "tokens": [
+      "click",
+      "click-b"
+     ]
+    },
     "roundKind": "full",
     "run": {
      "byStage": [
@@ -4510,40 +7141,40 @@
        "name": "Village",
        "available": 12,
        "reached": true,
-       "points": 6,
-       "share": 0.5,
+       "points": 12,
+       "share": 1,
        "enteredAt": 166,
-       "commands": 112
+       "commands": 164
       },
       {
        "id": "04-day1-end",
        "name": "Day 1 end",
        "available": 3,
-       "reached": false,
-       "points": 0,
-       "share": 0,
-       "enteredAt": null,
-       "commands": 0
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 330,
+       "commands": 90
       },
       {
        "id": "05-day2",
        "name": "Day 2",
        "available": 25,
-       "reached": false,
-       "points": 0,
-       "share": 0,
-       "enteredAt": null,
-       "commands": 0
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 420,
+       "commands": 1057
       },
       {
        "id": "06-plato",
        "name": "Plato",
        "available": 22,
-       "reached": false,
-       "points": 0,
-       "share": 0,
-       "enteredAt": null,
-       "commands": 0
+       "reached": true,
+       "points": 4,
+       "share": 0.182,
+       "enteredAt": 1477,
+       "commands": 24
       },
       {
        "id": "07-factory",
@@ -4556,10 +7187,11 @@
        "commands": 0
       }
      ],
-     "furthest": 2,
-     "furthestStage": "03-village",
-     "end": "open"
-    }
+     "furthest": 5,
+     "furthestStage": "06-plato",
+     "end": "cap"
+    },
+    "outcome": "cap"
    },
    {
     "session": "r7-typed-full",
@@ -4570,17 +7202,17 @@
     "checkpoint": "01-duffy",
     "fromOpening": true,
     "undo": true,
-    "budget": 800,
-    "commands": 427,
-    "legs": 2,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
     "startScore": 0,
-    "bestScore": 22,
-    "gained": 22,
+    "bestScore": 45,
+    "gained": 45,
     "available": 80,
-    "share": 0.275,
-    "stagesAdvanced": 2.92,
-    "stuckAt": 327,
-    "tail": 100,
+    "share": 0.563,
+    "stagesAdvanced": 4.76,
+    "stuckAt": 827,
+    "tail": 673,
     "deaths": [
      {
       "n": 72,
@@ -4593,10 +7225,66 @@
      {
       "n": 275,
       "gained": 17
+     },
+     {
+      "n": 502,
+      "gained": 37
+     },
+     {
+      "n": 602,
+      "gained": 40
+     },
+     {
+      "n": 605,
+      "gained": 40
+     },
+     {
+      "n": 610,
+      "gained": 40
+     },
+     {
+      "n": 640,
+      "gained": 40
+     },
+     {
+      "n": 764,
+      "gained": 40
+     },
+     {
+      "n": 784,
+      "gained": 40
+     },
+     {
+      "n": 994,
+      "gained": 45
+     },
+     {
+      "n": 1003,
+      "gained": 45
+     },
+     {
+      "n": 1054,
+      "gained": 45
+     },
+     {
+      "n": 1141,
+      "gained": 45
+     },
+     {
+      "n": 1212,
+      "gained": 45
+     },
+     {
+      "n": 1229,
+      "gained": 45
+     },
+     {
+      "n": 1233,
+      "gained": 45
      }
     ],
     "won": false,
-    "reason": "open",
+    "reason": "stuck",
     "steps": [
      [
       0,
@@ -4621,13 +7309,44 @@
      [
       327,
       22
+     ],
+     [
+      464,
+      26
+     ],
+     [
+      474,
+      30
+     ],
+     [
+      488,
+      37
+     ],
+     [
+      517,
+      40
+     ],
+     [
+      827,
+      45
      ]
     ],
     "legStarts": [
-     400
+     400,
+     800,
+     1200
     ],
     "turnCap": 1500,
-    "capped": false,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 562,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
     "roundKind": "full",
     "run": {
      "byStage": [
@@ -4656,30 +7375,30 @@
        "name": "Village",
        "available": 12,
        "reached": true,
-       "points": 11,
-       "share": 0.917,
+       "points": 12,
+       "share": 1,
        "enteredAt": 168,
-       "commands": 259
+       "commands": 296
       },
       {
        "id": "04-day1-end",
        "name": "Day 1 end",
        "available": 3,
-       "reached": false,
-       "points": 0,
-       "share": 0,
-       "enteredAt": null,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 464,
        "commands": 0
       },
       {
        "id": "05-day2",
        "name": "Day 2",
        "available": 25,
-       "reached": false,
-       "points": 0,
-       "share": 0,
-       "enteredAt": null,
-       "commands": 0
+       "reached": true,
+       "points": 19,
+       "share": 0.76,
+       "enteredAt": 464,
+       "commands": 1036
       },
       {
        "id": "06-plato",
@@ -4702,36 +7421,3871 @@
        "commands": 0
       }
      ],
-     "furthest": 2,
-     "furthestStage": "03-village",
-     "end": "open"
-    }
+     "furthest": 4,
+     "furthestStage": "05-day2",
+     "end": "stuck"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r8-click-fullA",
+    "date": "2026-09-26",
+    "round": "8",
+    "mode": "click",
+    "persona": "a teenager who plays mobile puzzle games and skims text",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 50,
+    "gained": 50,
+    "available": 80,
+    "share": 0.625,
+    "stagesAdvanced": 4.96,
+    "stuckAt": 1387,
+    "tail": 113,
+    "deaths": [
+     {
+      "n": 24,
+      "gained": 0
+     },
+     {
+      "n": 480,
+      "gained": 22
+     },
+     {
+      "n": 560,
+      "gained": 32
+     },
+     {
+      "n": 565,
+      "gained": 32
+     },
+     {
+      "n": 659,
+      "gained": 36
+     },
+     {
+      "n": 723,
+      "gained": 39
+     },
+     {
+      "n": 905,
+      "gained": 40
+     },
+     {
+      "n": 983,
+      "gained": 47
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      44,
+      5
+     ],
+     [
+      73,
+      8
+     ],
+     [
+      152,
+      11
+     ],
+     [
+      294,
+      17
+     ],
+     [
+      427,
+      22
+     ],
+     [
+      500,
+      25
+     ],
+     [
+      545,
+      32
+     ],
+     [
+      639,
+      36
+     ],
+     [
+      672,
+      39
+     ],
+     [
+      874,
+      40
+     ],
+     [
+      930,
+      47
+     ],
+     [
+      1387,
+      50
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 750,
+    "sub": {
+     "key": "click-a",
+     "label": "click A",
+     "tokens": [
+      "click",
+      "click-a"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 44
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 44,
+       "commands": 108
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 12,
+       "reached": true,
+       "points": 12,
+       "share": 1,
+       "enteredAt": 152,
+       "commands": 348
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 500,
+       "commands": 45
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 24,
+       "share": 0.96,
+       "enteredAt": 545,
+       "commands": 955
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 4,
+     "furthestStage": "05-day2",
+     "end": "cap"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r8-click-fullB",
+    "date": "2026-09-26",
+    "round": "8",
+    "mode": "click",
+    "persona": "a software tester who played Zork decades ago and notices every inconsistency",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 73,
+    "gained": 73,
+    "available": 80,
+    "share": 0.912,
+    "stagesAdvanced": 6,
+    "stuckAt": 1026,
+    "tail": 474,
+    "deaths": [
+     {
+      "n": 23,
+      "gained": 0
+     },
+     {
+      "n": 91,
+      "gained": 5
+     },
+     {
+      "n": 100,
+      "gained": 5
+     },
+     {
+      "n": 444,
+      "gained": 26
+     },
+     {
+      "n": 592,
+      "gained": 45
+     },
+     {
+      "n": 654,
+      "gained": 45
+     },
+     {
+      "n": 700,
+      "gained": 45
+     },
+     {
+      "n": 737,
+      "gained": 45
+     },
+     {
+      "n": 767,
+      "gained": 49
+     },
+     {
+      "n": 1053,
+      "gained": 73
+     },
+     {
+      "n": 1081,
+      "gained": 73
+     },
+     {
+      "n": 1113,
+      "gained": 73
+     },
+     {
+      "n": 1331,
+      "gained": 73
+     }
+    ],
+    "won": false,
+    "reason": "stuck",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      44,
+      5
+     ],
+     [
+      113,
+      8
+     ],
+     [
+      178,
+      11
+     ],
+     [
+      289,
+      17
+     ],
+     [
+      327,
+      21
+     ],
+     [
+      396,
+      26
+     ],
+     [
+      474,
+      31
+     ],
+     [
+      495,
+      38
+     ],
+     [
+      549,
+      45
+     ],
+     [
+      747,
+      49
+     ],
+     [
+      782,
+      52
+     ],
+     [
+      845,
+      55
+     ],
+     [
+      867,
+      61
+     ],
+     [
+      884,
+      64
+     ],
+     [
+      1006,
+      71
+     ],
+     [
+      1026,
+      73
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 988,
+    "sub": {
+     "key": "click-b",
+     "label": "click B",
+     "tokens": [
+      "click",
+      "click-b"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 44
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 44,
+       "commands": 134
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 12,
+       "reached": true,
+       "points": 12,
+       "share": 1,
+       "enteredAt": 178,
+       "commands": 218
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 396,
+       "commands": 0
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 396,
+       "commands": 386
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 22,
+       "share": 1,
+       "enteredAt": 782,
+       "commands": 244
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": true,
+       "points": 0,
+       "share": 0,
+       "enteredAt": 1026,
+       "commands": 474
+      }
+     ],
+     "furthest": 6,
+     "furthestStage": "07-factory",
+     "end": "stuck"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r8-typed-full",
+    "date": "2026-09-26",
+    "round": "8",
+    "mode": "typed",
+    "persona": "a retired schoolteacher who reads mysteries and has never played a computer game",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 57,
+    "gained": 57,
+    "available": 80,
+    "share": 0.713,
+    "stagesAdvanced": 5.27,
+    "stuckAt": 1356,
+    "tail": 144,
+    "deaths": [
+     {
+      "n": 31,
+      "gained": 0
+     },
+     {
+      "n": 199,
+      "gained": 8
+     },
+     {
+      "n": 547,
+      "gained": 22
+     },
+     {
+      "n": 631,
+      "gained": 26
+     },
+     {
+      "n": 651,
+      "gained": 26
+     },
+     {
+      "n": 828,
+      "gained": 36
+     },
+     {
+      "n": 1014,
+      "gained": 36
+     },
+     {
+      "n": 1325,
+      "gained": 50
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      54,
+      5
+     ],
+     [
+      126,
+      8
+     ],
+     [
+      278,
+      11
+     ],
+     [
+      376,
+      17
+     ],
+     [
+      474,
+      22
+     ],
+     [
+      608,
+      26
+     ],
+     [
+      660,
+      29
+     ],
+     [
+      698,
+      36
+     ],
+     [
+      1046,
+      41
+     ],
+     [
+      1148,
+      44
+     ],
+     [
+      1169,
+      50
+     ],
+     [
+      1356,
+      57
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 734,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 54
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 54,
+       "commands": 224
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 12,
+       "reached": true,
+       "points": 12,
+       "share": 1,
+       "enteredAt": 278,
+       "commands": 330
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 608,
+       "commands": 0
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 608,
+       "commands": 748
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 6,
+       "share": 0.273,
+       "enteredAt": 1356,
+       "commands": 144
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 5,
+     "furthestStage": "06-plato",
+     "end": "cap"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r10-click-fullA",
+    "date": "2026-09-27",
+    "round": "10",
+    "mode": "click",
+    "persona": "a game-design student who narrates theories aloud and experiments with every object",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 71,
+    "gained": 71,
+    "available": 80,
+    "share": 0.887,
+    "stagesAdvanced": 5.91,
+    "stuckAt": 928,
+    "tail": 572,
+    "deaths": [
+     {
+      "n": 24,
+      "gained": 0
+     },
+     {
+      "n": 451,
+      "gained": 26
+     },
+     {
+      "n": 659,
+      "gained": 40
+     },
+     {
+      "n": 897,
+      "gained": 67
+     },
+     {
+      "n": 935,
+      "gained": 71
+     },
+     {
+      "n": 946,
+      "gained": 71
+     },
+     {
+      "n": 972,
+      "gained": 71
+     },
+     {
+      "n": 1138,
+      "gained": 71
+     },
+     {
+      "n": 1234,
+      "gained": 71
+     },
+     {
+      "n": 1252,
+      "gained": 71
+     },
+     {
+      "n": 1297,
+      "gained": 71
+     },
+     {
+      "n": 1310,
+      "gained": 71
+     },
+     {
+      "n": 1372,
+      "gained": 71
+     }
+    ],
+    "won": false,
+    "reason": "stuck",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      44,
+      5
+     ],
+     [
+      106,
+      8
+     ],
+     [
+      149,
+      11
+     ],
+     [
+      287,
+      17
+     ],
+     [
+      360,
+      22
+     ],
+     [
+      424,
+      26
+     ],
+     [
+      494,
+      29
+     ],
+     [
+      533,
+      36
+     ],
+     [
+      604,
+      40
+     ],
+     [
+      732,
+      43
+     ],
+     [
+      758,
+      48
+     ],
+     [
+      773,
+      54
+     ],
+     [
+      849,
+      57
+     ],
+     [
+      883,
+      60
+     ],
+     [
+      889,
+      67
+     ],
+     [
+      912,
+      69
+     ],
+     [
+      928,
+      71
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 1464,
+    "sub": {
+     "key": "click-a",
+     "label": "click A",
+     "tokens": [
+      "click",
+      "click-a"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 44
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 44,
+       "commands": 105
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 12,
+       "reached": true,
+       "points": 12,
+       "share": 1,
+       "enteredAt": 149,
+       "commands": 275
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 424,
+       "commands": 0
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 424,
+       "commands": 349
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 20,
+       "share": 0.909,
+       "enteredAt": 773,
+       "commands": 727
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 5,
+     "furthestStage": "06-plato",
+     "end": "stuck"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r10-click-fullB",
+    "date": "2026-09-27",
+    "round": "10",
+    "mode": "click",
+    "persona": "a busy parent who plays in short bursts, saves often and wants clear feedback",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 54,
+    "gained": 54,
+    "available": 80,
+    "share": 0.675,
+    "stagesAdvanced": 5.14,
+    "stuckAt": 1489,
+    "tail": 11,
+    "deaths": [
+     {
+      "n": 26,
+      "gained": 0
+     },
+     {
+      "n": 280,
+      "gained": 11
+     },
+     {
+      "n": 642,
+      "gained": 36
+     },
+     {
+      "n": 712,
+      "gained": 41
+     },
+     {
+      "n": 735,
+      "gained": 41
+     },
+     {
+      "n": 845,
+      "gained": 50
+     },
+     {
+      "n": 856,
+      "gained": 50
+     },
+     {
+      "n": 1056,
+      "gained": 50
+     },
+     {
+      "n": 1139,
+      "gained": 50
+     },
+     {
+      "n": 1218,
+      "gained": 50
+     },
+     {
+      "n": 1419,
+      "gained": 50
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      48,
+      5
+     ],
+     [
+      79,
+      8
+     ],
+     [
+      183,
+      11
+     ],
+     [
+      286,
+      17
+     ],
+     [
+      563,
+      24
+     ],
+     [
+      581,
+      31
+     ],
+     [
+      589,
+      36
+     ],
+     [
+      650,
+      41
+     ],
+     [
+      819,
+      44
+     ],
+     [
+      834,
+      50
+     ],
+     [
+      1489,
+      54
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 529,
+    "sub": {
+     "key": "click-b",
+     "label": "click B",
+     "tokens": [
+      "click",
+      "click-b"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 48
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 48,
+       "commands": 135
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 12,
+       "reached": true,
+       "points": 12,
+       "share": 1,
+       "enteredAt": 183,
+       "commands": 380
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 563,
+       "commands": 18
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 581,
+       "commands": 908
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 3,
+       "share": 0.136,
+       "enteredAt": 1489,
+       "commands": 11
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 5,
+     "furthestStage": "06-plato",
+     "end": "cap"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r10-typed-full",
+    "date": "2026-09-27",
+    "round": "10",
+    "mode": "typed",
+    "persona": "a retired librarian who reads the manual first and maps every room on graph paper",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 38,
+    "gained": 38,
+    "available": 80,
+    "share": 0.475,
+    "stagesAdvanced": 4.48,
+    "stuckAt": 1450,
+    "tail": 50,
+    "deaths": [
+     {
+      "n": 92,
+      "gained": 8
+     },
+     {
+      "n": 108,
+      "gained": 8
+     },
+     {
+      "n": 381,
+      "gained": 17
+     },
+     {
+      "n": 549,
+      "gained": 27
+     },
+     {
+      "n": 700,
+      "gained": 34
+     },
+     {
+      "n": 777,
+      "gained": 34
+     },
+     {
+      "n": 806,
+      "gained": 34
+     },
+     {
+      "n": 810,
+      "gained": 34
+     },
+     {
+      "n": 878,
+      "gained": 34
+     },
+     {
+      "n": 970,
+      "gained": 34
+     },
+     {
+      "n": 1137,
+      "gained": 34
+     },
+     {
+      "n": 1226,
+      "gained": 34
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      30,
+      5
+     ],
+     [
+      66,
+      8
+     ],
+     [
+      233,
+      11
+     ],
+     [
+      356,
+      17
+     ],
+     [
+      456,
+      22
+     ],
+     [
+      541,
+      27
+     ],
+     [
+      581,
+      34
+     ],
+     [
+      1450,
+      38
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 30
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 30,
+       "commands": 203
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 12,
+       "reached": true,
+       "points": 12,
+       "share": 1,
+       "enteredAt": 233,
+       "commands": 308
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 541,
+       "commands": 0
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 12,
+       "share": 0.48,
+       "enteredAt": 541,
+       "commands": 959
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 4,
+     "furthestStage": "05-day2",
+     "end": "cap"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r11-click-fullA",
+    "date": "2026-09-27",
+    "round": "11",
+    "mode": "click",
+    "persona": "a cautious first-time adventure player who reads every message and hates dying",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 47,
+    "gained": 47,
+    "available": 80,
+    "share": 0.588,
+    "stagesAdvanced": 4.84,
+    "stuckAt": 625,
+    "tail": 875,
+    "deaths": [
+     {
+      "n": 507,
+      "gained": 33
+     },
+     {
+      "n": 554,
+      "gained": 33
+     },
+     {
+      "n": 657,
+      "gained": 47
+     },
+     {
+      "n": 666,
+      "gained": 47
+     },
+     {
+      "n": 913,
+      "gained": 47
+     },
+     {
+      "n": 1300,
+      "gained": 47
+     }
+    ],
+    "won": false,
+    "reason": "stuck",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      29,
+      5
+     ],
+     [
+      116,
+      8
+     ],
+     [
+      199,
+      11
+     ],
+     [
+      256,
+      17
+     ],
+     [
+      283,
+      21
+     ],
+     [
+      388,
+      26
+     ],
+     [
+      436,
+      33
+     ],
+     [
+      576,
+      36
+     ],
+     [
+      608,
+      41
+     ],
+     [
+      625,
+      47
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "click-a",
+     "label": "click A",
+     "tokens": [
+      "click",
+      "click-a"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 29
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 29,
+       "commands": 170
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 12,
+       "reached": true,
+       "points": 12,
+       "share": 1,
+       "enteredAt": 199,
+       "commands": 189
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 388,
+       "commands": 0
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 21,
+       "share": 0.84,
+       "enteredAt": 388,
+       "commands": 1112
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 4,
+     "furthestStage": "05-day2",
+     "end": "stuck"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r11-click-fullB",
+    "date": "2026-09-27",
+    "round": "11",
+    "mode": "click",
+    "persona": "a puzzle-hunt enthusiast who keeps meticulous notes and tries unusual combinations",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1499,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 73,
+    "gained": 73,
+    "available": 80,
+    "share": 0.912,
+    "stagesAdvanced": 6,
+    "stuckAt": 1183,
+    "tail": 316,
+    "deaths": [
+     {
+      "n": 22,
+      "gained": 0
+     },
+     {
+      "n": 419,
+      "gained": 25
+     },
+     {
+      "n": 492,
+      "gained": 35
+     },
+     {
+      "n": 787,
+      "gained": 45
+     },
+     {
+      "n": 1197,
+      "gained": 73
+     },
+     {
+      "n": 1244,
+      "gained": 73
+     },
+     {
+      "n": 1256,
+      "gained": 73
+     },
+     {
+      "n": 1277,
+      "gained": 73
+     },
+     {
+      "n": 1372,
+      "gained": 73
+     },
+     {
+      "n": 1376,
+      "gained": 73
+     },
+     {
+      "n": 1380,
+      "gained": 73
+     },
+     {
+      "n": 1404,
+      "gained": 73
+     },
+     {
+      "n": 1433,
+      "gained": 73
+     },
+     {
+      "n": 1474,
+      "gained": 73
+     },
+     {
+      "n": 1478,
+      "gained": 73
+     },
+     {
+      "n": 1499,
+      "gained": 73
+     }
+    ],
+    "won": false,
+    "reason": "died",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      44,
+      5
+     ],
+     [
+      75,
+      8
+     ],
+     [
+      161,
+      11
+     ],
+     [
+      314,
+      17
+     ],
+     [
+      359,
+      21
+     ],
+     [
+      391,
+      25
+     ],
+     [
+      442,
+      28
+     ],
+     [
+      462,
+      35
+     ],
+     [
+      713,
+      40
+     ],
+     [
+      744,
+      45
+     ],
+     [
+      875,
+      48
+     ],
+     [
+      890,
+      54
+     ],
+     [
+      946,
+      57
+     ],
+     [
+      1066,
+      61
+     ],
+     [
+      1164,
+      64
+     ],
+     [
+      1169,
+      71
+     ],
+     [
+      1183,
+      73
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": false,
+    "lastDied": true,
+    "noLongerAt": 990,
+    "sub": {
+     "key": "click-b",
+     "label": "click B",
+     "tokens": [
+      "click",
+      "click-b"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 44
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 44,
+       "commands": 117
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 12,
+       "reached": true,
+       "points": 12,
+       "share": 1,
+       "enteredAt": 161,
+       "commands": 230
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 391,
+       "commands": 51
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 442,
+       "commands": 448
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 22,
+       "share": 1,
+       "enteredAt": 890,
+       "commands": 293
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": true,
+       "points": 0,
+       "share": 0,
+       "enteredAt": 1183,
+       "commands": 316
+      }
+     ],
+     "furthest": 6,
+     "furthestStage": "07-factory",
+     "end": "died"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r11-typed-full",
+    "date": "2026-09-27",
+    "round": "11",
+    "mode": "typed",
+    "persona": "a veteran Infocom player who played Planetfall in 1983 and expects the parser to be sharp",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 54,
+    "gained": 54,
+    "available": 80,
+    "share": 0.675,
+    "stagesAdvanced": 5.14,
+    "stuckAt": 1420,
+    "tail": 80,
+    "deaths": [
+     {
+      "n": 27,
+      "gained": 0
+     },
+     {
+      "n": 101,
+      "gained": 5
+     },
+     {
+      "n": 727,
+      "gained": 39
+     },
+     {
+      "n": 787,
+      "gained": 39
+     },
+     {
+      "n": 954,
+      "gained": 39
+     },
+     {
+      "n": 1005,
+      "gained": 43
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      50,
+      5
+     ],
+     [
+      120,
+      8
+     ],
+     [
+      221,
+      11
+     ],
+     [
+      295,
+      17
+     ],
+     [
+      391,
+      22
+     ],
+     [
+      602,
+      25
+     ],
+     [
+      613,
+      32
+     ],
+     [
+      704,
+      39
+     ],
+     [
+      974,
+      43
+     ],
+     [
+      1022,
+      46
+     ],
+     [
+      1067,
+      51
+     ],
+     [
+      1420,
+      54
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 1253,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 50
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 50,
+       "commands": 171
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 12,
+       "reached": true,
+       "points": 12,
+       "share": 1,
+       "enteredAt": 221,
+       "commands": 381
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 602,
+       "commands": 11
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 613,
+       "commands": 454
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 3,
+       "share": 0.136,
+       "enteredAt": 1067,
+       "commands": 433
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 5,
+     "furthestStage": "06-plato",
+     "end": "cap"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r12-click-fullA",
+    "date": "2026-09-27",
+    "round": "12",
+    "mode": "click",
+    "persona": "a retired schoolteacher new to computer games who clicks carefully and wants every step explained",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 53,
+    "gained": 53,
+    "available": 80,
+    "share": 0.662,
+    "stagesAdvanced": 5.09,
+    "stuckAt": 1386,
+    "tail": 114,
+    "deaths": [
+     {
+      "n": 27,
+      "gained": 0
+     },
+     {
+      "n": 81,
+      "gained": 5
+     },
+     {
+      "n": 604,
+      "gained": 36
+     },
+     {
+      "n": 635,
+      "gained": 36
+     },
+     {
+      "n": 723,
+      "gained": 36
+     },
+     {
+      "n": 960,
+      "gained": 43
+     },
+     {
+      "n": 1041,
+      "gained": 43
+     },
+     {
+      "n": 1058,
+      "gained": 43
+     },
+     {
+      "n": 1107,
+      "gained": 44
+     },
+     {
+      "n": 1326,
+      "gained": 50
+     },
+     {
+      "n": 1449,
+      "gained": 53
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      41,
+      5
+     ],
+     [
+      112,
+      8
+     ],
+     [
+      172,
+      11
+     ],
+     [
+      301,
+      17
+     ],
+     [
+      329,
+      21
+     ],
+     [
+      456,
+      26
+     ],
+     [
+      511,
+      33
+     ],
+     [
+      540,
+      36
+     ],
+     [
+      890,
+      43
+     ],
+     [
+      1086,
+      44
+     ],
+     [
+      1123,
+      47
+     ],
+     [
+      1165,
+      50
+     ],
+     [
+      1386,
+      53
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 1207,
+    "sub": {
+     "key": "click-a",
+     "label": "click A",
+     "tokens": [
+      "click",
+      "click-a"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 41
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 41,
+       "commands": 131
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 12,
+       "reached": true,
+       "points": 12,
+       "share": 1,
+       "enteredAt": 172,
+       "commands": 284
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 456,
+       "commands": 0
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 456,
+       "commands": 930
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 2,
+       "share": 0.091,
+       "enteredAt": 1386,
+       "commands": 114
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 5,
+     "furthestStage": "06-plato",
+     "end": "cap"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r12-click-fullB",
+    "date": "2026-09-27",
+    "round": "12",
+    "mode": "click",
+    "persona": "a sci-fi fan who loves the story, talks to every character and explores every room before solving anything",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1461,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 53,
+    "gained": 53,
+    "available": 80,
+    "share": 0.662,
+    "stagesAdvanced": 5.09,
+    "stuckAt": 1221,
+    "tail": 240,
+    "deaths": [
+     {
+      "n": 452,
+      "gained": 21
+     },
+     {
+      "n": 467,
+      "gained": 21
+     },
+     {
+      "n": 612,
+      "gained": 21
+     }
+    ],
+    "won": false,
+    "reason": "stuck",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      37,
+      5
+     ],
+     [
+      97,
+      8
+     ],
+     [
+      111,
+      11
+     ],
+     [
+      286,
+      17
+     ],
+     [
+      410,
+      21
+     ],
+     [
+      627,
+      24
+     ],
+     [
+      707,
+      27
+     ],
+     [
+      724,
+      29
+     ],
+     [
+      738,
+      34
+     ],
+     [
+      1088,
+      38
+     ],
+     [
+      1140,
+      41
+     ],
+     [
+      1156,
+      47
+     ],
+     [
+      1189,
+      50
+     ],
+     [
+      1221,
+      53
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": false,
+    "lastDied": false,
+    "noLongerAt": 1431,
+    "sub": {
+     "key": "click-b",
+     "label": "click B",
+     "tokens": [
+      "click",
+      "click-b"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 37
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 37,
+       "commands": 74
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 12,
+       "reached": true,
+       "points": 12,
+       "share": 1,
+       "enteredAt": 111,
+       "commands": 516
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 627,
+       "commands": 80
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 707,
+       "commands": 514
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 2,
+       "share": 0.091,
+       "enteredAt": 1221,
+       "commands": 240
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 5,
+     "furthestStage": "06-plato",
+     "end": "stuck"
+    },
+    "outcome": "stuck"
+   },
+   {
+    "session": "r12-typed-full",
+    "date": "2026-09-27",
+    "round": "12",
+    "mode": "typed",
+    "persona": "a speedrunner who plays fast, types terse abbreviations and skims long descriptions",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 67,
+    "gained": 67,
+    "available": 80,
+    "share": 0.838,
+    "stagesAdvanced": 5.73,
+    "stuckAt": 1453,
+    "tail": 47,
+    "deaths": [
+     {
+      "n": 25,
+      "gained": 0
+     },
+     {
+      "n": 355,
+      "gained": 22
+     },
+     {
+      "n": 365,
+      "gained": 22
+     },
+     {
+      "n": 736,
+      "gained": 39
+     },
+     {
+      "n": 766,
+      "gained": 43
+     },
+     {
+      "n": 960,
+      "gained": 54
+     },
+     {
+      "n": 1128,
+      "gained": 54
+     },
+     {
+      "n": 1287,
+      "gained": 54
+     },
+     {
+      "n": 1383,
+      "gained": 60
+     },
+     {
+      "n": 1486,
+      "gained": 67
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      45,
+      5
+     ],
+     [
+      78,
+      8
+     ],
+     [
+      144,
+      11
+     ],
+     [
+      279,
+      17
+     ],
+     [
+      346,
+      22
+     ],
+     [
+      586,
+      25
+     ],
+     [
+      597,
+      32
+     ],
+     [
+      660,
+      39
+     ],
+     [
+      746,
+      43
+     ],
+     [
+      791,
+      46
+     ],
+     [
+      864,
+      51
+     ],
+     [
+      892,
+      54
+     ],
+     [
+      1318,
+      57
+     ],
+     [
+      1379,
+      60
+     ],
+     [
+      1453,
+      67
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 1442,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 45
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 45,
+       "commands": 99
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 12,
+       "reached": true,
+       "points": 12,
+       "share": 1,
+       "enteredAt": 144,
+       "commands": 442
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 586,
+       "commands": 11
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 597,
+       "commands": 267
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 16,
+       "share": 0.727,
+       "enteredAt": 864,
+       "commands": 636
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 5,
+     "furthestStage": "06-plato",
+     "end": "cap"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r9-click-fullA",
+    "date": "2026-09-27",
+    "round": "9",
+    "mode": "click",
+    "persona": "a retired engineer who reads every sign and wants to understand how each machine works",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 54,
+    "gained": 54,
+    "available": 80,
+    "share": 0.675,
+    "stagesAdvanced": 5.14,
+    "stuckAt": 1096,
+    "tail": 404,
+    "deaths": [
+     {
+      "n": 28,
+      "gained": 0
+     },
+     {
+      "n": 455,
+      "gained": 11
+     },
+     {
+      "n": 626,
+      "gained": 11
+     },
+     {
+      "n": 906,
+      "gained": 26
+     },
+     {
+      "n": 1173,
+      "gained": 54
+     },
+     {
+      "n": 1181,
+      "gained": 54
+     },
+     {
+      "n": 1261,
+      "gained": 54
+     },
+     {
+      "n": 1307,
+      "gained": 54
+     },
+     {
+      "n": 1335,
+      "gained": 54
+     },
+     {
+      "n": 1431,
+      "gained": 54
+     },
+     {
+      "n": 1478,
+      "gained": 54
+     }
+    ],
+    "won": false,
+    "reason": "stuck",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      49,
+      5
+     ],
+     [
+      84,
+      8
+     ],
+     [
+      153,
+      11
+     ],
+     [
+      711,
+      15
+     ],
+     [
+      731,
+      18
+     ],
+     [
+      794,
+      23
+     ],
+     [
+      869,
+      26
+     ],
+     [
+      920,
+      31
+     ],
+     [
+      984,
+      38
+     ],
+     [
+      1006,
+      45
+     ],
+     [
+      1082,
+      48
+     ],
+     [
+      1096,
+      54
+     ]
+    ],
+    "legStarts": [
+     400,
+     799,
+     1199
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "click-a",
+     "label": "click A",
+     "tokens": [
+      "click",
+      "click-a"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 49
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 49,
+       "commands": 104
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 12,
+       "reached": true,
+       "points": 12,
+       "share": 1,
+       "enteredAt": 153,
+       "commands": 641
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 794,
+       "commands": 75
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 869,
+       "commands": 227
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 3,
+       "share": 0.136,
+       "enteredAt": 1096,
+       "commands": 404
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 5,
+     "furthestStage": "06-plato",
+     "end": "stuck"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r9-click-fullB",
+    "date": "2026-09-27",
+    "round": "9",
+    "mode": "click",
+    "persona": "a college student who speedruns platformers and tries every button",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 57,
+    "gained": 57,
+    "available": 80,
+    "share": 0.713,
+    "stagesAdvanced": 5.27,
+    "stuckAt": 1467,
+    "tail": 33,
+    "deaths": [
+     {
+      "n": 22,
+      "gained": 0
+     },
+     {
+      "n": 96,
+      "gained": 5
+     },
+     {
+      "n": 366,
+      "gained": 21
+     },
+     {
+      "n": 489,
+      "gained": 24
+     },
+     {
+      "n": 575,
+      "gained": 24
+     },
+     {
+      "n": 690,
+      "gained": 31
+     },
+     {
+      "n": 781,
+      "gained": 31
+     },
+     {
+      "n": 994,
+      "gained": 50
+     },
+     {
+      "n": 1280,
+      "gained": 50
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      44,
+      5
+     ],
+     [
+      105,
+      8
+     ],
+     [
+      158,
+      11
+     ],
+     [
+      293,
+      17
+     ],
+     [
+      350,
+      21
+     ],
+     [
+      383,
+      24
+     ],
+     [
+      613,
+      31
+     ],
+     [
+      787,
+      36
+     ],
+     [
+      823,
+      41
+     ],
+     [
+      942,
+      44
+     ],
+     [
+      957,
+      50
+     ],
+     [
+      1302,
+      53
+     ],
+     [
+      1467,
+      57
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1198
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 1321,
+    "sub": {
+     "key": "click-b",
+     "label": "click B",
+     "tokens": [
+      "click",
+      "click-b"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 44
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 44,
+       "commands": 114
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 12,
+       "reached": true,
+       "points": 12,
+       "share": 1,
+       "enteredAt": 158,
+       "commands": 225
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 383,
+       "commands": 230
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 613,
+       "commands": 689
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 6,
+       "share": 0.273,
+       "enteredAt": 1302,
+       "commands": 198
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 5,
+     "furthestStage": "06-plato",
+     "end": "cap"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r9-typed-full",
+    "date": "2026-09-27",
+    "round": "9",
+    "mode": "typed",
+    "persona": "a night-shift nurse who likes crosswords and has played a few text adventures on her phone",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 54,
+    "gained": 54,
+    "available": 80,
+    "share": 0.675,
+    "stagesAdvanced": 5.14,
+    "stuckAt": 1175,
+    "tail": 325,
+    "deaths": [
+     {
+      "n": 478,
+      "gained": 17
+     },
+     {
+      "n": 495,
+      "gained": 17
+     },
+     {
+      "n": 1265,
+      "gained": 54
+     },
+     {
+      "n": 1364,
+      "gained": 54
+     },
+     {
+      "n": 1484,
+      "gained": 54
+     }
+    ],
+    "won": false,
+    "reason": "stuck",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      31,
+      5
+     ],
+     [
+      95,
+      8
+     ],
+     [
+      170,
+      11
+     ],
+     [
+      313,
+      17
+     ],
+     [
+      771,
+      21
+     ],
+     [
+      816,
+      26
+     ],
+     [
+      949,
+      33
+     ],
+     [
+      1012,
+      38
+     ],
+     [
+      1021,
+      45
+     ],
+     [
+      1160,
+      48
+     ],
+     [
+      1175,
+      54
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 911,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 31
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 31,
+       "commands": 139
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 12,
+       "reached": true,
+       "points": 12,
+       "share": 1,
+       "enteredAt": 170,
+       "commands": 646
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 816,
+       "commands": 0
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 816,
+       "commands": 359
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 3,
+       "share": 0.136,
+       "enteredAt": 1175,
+       "commands": 325
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 5,
+     "furthestStage": "06-plato",
+     "end": "stuck"
+    },
+    "outcome": "cap"
    }
   ]
  },
  "git": {
-  "commits": 171,
-  "withWorkTrailer": 5,
+  "commits": 704,
+  "withWorkTrailer": 501,
   "churnByArea": {
-   "wwwroot/data": 151282,
+   "design": 730805,
+   "wwwroot/data": 296351,
+   "wwwroot/wiki": 110406,
+   "playtests": 60462,
+   "scripts": 54143,
    "stationfall-master": 44064,
-   "design": 33957,
-   "scripts": 33765,
-   "wwwroot/wiki": 25913,
-   "playtests": 20787,
-   "wwwroot/rules": 9261,
-   "wwwroot/engine": 4653,
+   "wwwroot/rules": 9616,
+   "wwwroot/engine": 5013,
+   "wwwroot/scene": 4771,
+   "wwwroot/dashboard": 4277,
    "porting": 4081,
-   "wwwroot/scene": 3635,
-   "wwwroot/dashboard": 3394,
+   "(top)": 1656,
    "reference": 1649,
-   "wwwroot": 1049,
-   "(top)": 881,
-   "wwwroot/ui": 421,
-   "decisions": 215,
-   "Properties": 23
+   "wwwroot": 1250,
+   "decisions": 730,
+   "wwwroot/ui": 451,
+   "docs": 156,
+   "Properties": 23,
+   "wwwroot/assets": 0
   },
   "byWork": [
+   {
+    "work": "M7 [DR-047],M7 [DR-048]",
+    "commits": 3
+   },
+   {
+    "work": "M7 [DR-048]",
+    "commits": 5
+   },
+   {
+    "work": "M7 [DR-047]",
+    "commits": 5
+   },
+   {
+    "work": "M7 [DR-041]",
+    "commits": 5
+   },
+   {
+    "work": "M7 DR-044",
+    "commits": 1
+   },
+   {
+    "work": "M7 DR-033",
+    "commits": 2
+   },
+   {
+    "work": "M7 [mail]",
+    "commits": 4
+   },
+   {
+    "work": "M7 [DR-038]",
+    "commits": 11
+   },
+   {
+    "work": "M7 [contract]",
+    "commits": 7
+   },
+   {
+    "work": "M7 [DR-044]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-044],M7 [DR-046]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-039, DR-042]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-042]",
+    "commits": 3
+   },
+   {
+    "work": "M7 [DR-039]",
+    "commits": 6
+   },
+   {
+    "work": "M7 [integration]",
+    "commits": 30
+   },
+   {
+    "work": "M7 [DR-032, DR-033]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-025]",
+    "commits": 6
+   },
+   {
+    "work": "M7 [tooling]",
+    "commits": 29
+   },
+   {
+    "work": "M7 [DR-038, DR-037]",
+    "commits": 2
+   },
+   {
+    "work": "M7 [DR-043],M7 [DR-044],M7 [DR-045],M7 [DR-046]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-019]",
+    "commits": 16
+   },
+   {
+    "work": "M7 [DR-019, DR-025, DR-042]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-041, DR-042]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-019, DR-025]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-030]",
+    "commits": 10
+   },
+   {
+    "work": "M7 [DR-018]",
+    "commits": 9
+   },
+   {
+    "work": "M7 [DR-040]",
+    "commits": 4
+   },
+   {
+    "work": "M7 [DR-031]",
+    "commits": 7
+   },
+   {
+    "work": "M7 [DR-038, DR-035, DR-023]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-034]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-039, DR-040]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-023]",
+    "commits": 3
+   },
+   {
+    "work": "M7 [DR-038, DR-040]",
+    "commits": 2
+   },
+   {
+    "work": "M7 [DR-036]",
+    "commits": 10
+   },
+   {
+    "work": "M7 [DR-036, DR-037]",
+    "commits": 3
+   },
+   {
+    "work": "M7 [DR-035]",
+    "commits": 2
+   },
+   {
+    "work": "M7 [DR-015]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-038, DR-039]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-038],M7 [DR-039]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-012]",
+    "commits": 15
+   },
+   {
+    "work": "M7 [engine]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-037]",
+    "commits": 8
+   },
+   {
+    "work": "M7 [DR-028, D46]",
+    "commits": 10
+   },
+   {
+    "work": "M7 [DR-036],M7 [DR-037]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [fabric]",
+    "commits": 3
+   },
+   {
+    "work": "M7 [DR-029, D44]",
+    "commits": 7
+   },
+   {
+    "work": "M7 [rule-14]",
+    "commits": 2
+   },
+   {
+    "work": "M7 [review-tooling]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [characters]",
+    "commits": 7
+   },
+   {
+    "work": "M7 [DR-016]",
+    "commits": 13
+   },
+   {
+    "work": "M7 [DR-016, DR-029, D44, D45]",
+    "commits": 1
+   },
+   {
+    "work": "M8 [wiki, history] M5 [round 12]",
+    "commits": 1
+   },
+   {
+    "work": "M8 [wiki]",
+    "commits": 3
+   },
+   {
+    "work": "M7 [DR-029, DR-016]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-016, DR-029, DR-032, DR-035]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-016, metrics]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-029]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-016, DR-026, DR-029, DR-032, DR-035, state-art]",
+    "commits": 1
+   },
+   {
+    "work": "M5 [round 12] M7 [DR-026, DR-028, DR-032, DR-033, DR-034]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-028, DR-030, DR-032, DR-034]",
+    "commits": 1
+   },
+   {
+    "work": "M5 [SF-026, SF-234, SF-239]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-028]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-024, DR-026, DR-028, DR-029, DR-030, DR-031]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-024, DR-026, DR-030, DR-031]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-032],M7 [DR-033],M7 [DR-034]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-016, DR-024, DR-030, DR-031]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-030, DR-031]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-030],M7 [DR-031]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-015, DR-017, DR-018, DR-026, DR-027, DR-028, DR-029, caps]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-026, DR-028, DR-029]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [review]",
+    "commits": 2
+   },
+   {
+    "work": "M7 [DR-017, DR-004, DR-002, DR-020, DR-021, DR-022, DR-026, DR-029]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-015, DR-026, DR-027, DR-028, DR-029]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-028],M7 [DR-029]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-018, DR-022, tooling]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-005, DR-016, DR-024, DR-025, DR-026, DR-027, contract]",
+    "commits": 1
+   },
+   {
+    "work": "M5 [metrics]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [history]",
+    "commits": 5
+   },
+   {
+    "work": "M7 [DR-018, DR-025, DR-027]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [D43]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-015, DR-016, DR-018, DR-022, DR-024, DR-025, tooling]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-005, DR-015, DR-016, DR-018, DR-022, DR-024, DR-025, DR-026, DR-027]",
+    "commits": 1
+   },
+   {
+    "work": "M5 [round 11]",
+    "commits": 2
+   },
+   {
+    "work": "M7 [DR-020]",
+    "commits": 6
+   },
+   {
+    "work": "M7 [D34]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [handoff]",
+    "commits": 4
+   },
+   {
+    "work": "M7 [DR-005, DR-015, DR-016, DR-018, DR-020, DR-022, DR-024, DR-025],M5 [round 11]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-022]",
+    "commits": 6
+   },
+   {
+    "work": "M3 [DR-026],M3 [DR-027]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-018, DR-016, DR-005, DR-015, DR-024]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-016, DR-025]",
+    "commits": 1
+   },
+   {
+    "work": "M5 [playtest]",
+    "commits": 9
+   },
+   {
+    "work": "M3 [DR-023]",
+    "commits": 2
+   },
+   {
+    "work": "M3 [DR-024]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-017]",
+    "commits": 5
+   },
+   {
+    "work": "M7 [DR-003|characters]",
+    "commits": 2
+   },
+   {
+    "work": "M7 [wiki]",
+    "commits": 2
+   },
+   {
+    "work": "M7 [DR-018|DR-019|DR-004|DR-005]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-018|DR-019]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-014]",
+    "commits": 14
+   },
+   {
+    "work": "M7 [decisions]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-021]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-004|DR-005]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-007]",
+    "commits": 13
+   },
+   {
+    "work": "M7 [DR-005]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [status]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-003|DR-004|DR-005]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-007|tooling]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-007|DR-014]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-024]",
+    "commits": 2
+   },
+   {
+    "work": "M7 [dashboard]",
+    "commits": 3
+   },
+   {
+    "work": "M7 [DR-008]",
+    "commits": 7
+   },
+   {
+    "work": "M5 [handoff]",
+    "commits": 3
+   },
+   {
+    "work": "M7 [DR-009]",
+    "commits": 15
+   },
+   {
+    "work": "M7 [DR-016|DR-018|DR-019]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-016|DR-017|DR-018|DR-019]",
+    "commits": 1
+   },
+   {
+    "work": "M5 [history]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-007|DR-008]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-008, tooling]",
+    "commits": 1
+   },
+   {
+    "work": "M5 [round 9]",
+    "commits": 3
+   },
+   {
+    "work": "M7 [DR-011, DR-013]",
+    "commits": 2
+   },
+   {
+    "work": "M7 [DR-007, DR-008]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-010]",
+    "commits": 15
+   },
+   {
+    "work": "M7 [DR-013]",
+    "commits": 9
+   },
+   {
+    "work": "M7 [DR-011]",
+    "commits": 12
+   },
+   {
+    "work": "M5 [Q13]",
+    "commits": 1
+   },
+   {
+    "work": "M5 [round 8]",
+    "commits": 3
+   },
+   {
+    "work": "M5 [process]",
+    "commits": 2
+   },
+   {
+    "work": "M7 [DR-020, DR-022, DR-024]",
+    "commits": 2
+   },
+   {
+    "work": "M7 [D35]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-009, DR-010, interface]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-009, DR-010]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-021, DR-022]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-020, DR-024]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [art-prep]",
+    "commits": 3
+   },
+   {
+    "work": "M6 [D34]",
+    "commits": 3
+   },
+   {
+    "work": "M7 [DR-019, DR-018]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-007, DR-019]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-021, DR-022, DR-023, DR-024]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-014, DR-017]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-017, DR-018]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [wiki, DR-007]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-015, DR-016]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-019, DR-020]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-014, DR-007]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [process]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [metrics]",
+    "commits": 1
+   },
+   {
+    "work": "M5 [triage]",
+    "commits": 2
+   },
    {
     "work": "M7 DR-004",
     "commits": 2
@@ -4752,14 +11306,629 @@
  },
  "roomsAccepted": [
   {
+   "room": "ARMORY",
+   "date": "2026-09-30"
+  },
+  {
+   "room": "AUXILIARY-BARRACKS",
+   "date": "2026-09-30"
+  },
+  {
+   "room": "BARRACKS-SANFAC",
+   "date": "2026-09-29"
+  },
+  {
+   "room": "BRIEFING-ROOM",
+   "date": "2026-09-28"
+  },
+  {
+   "room": "BRIG",
+   "date": "2026-09-29"
+  },
+  {
+   "room": "CARGO-BAY",
+   "date": "2026-09-28"
+  },
+  {
+   "room": "CARGO-BAY-ENTRANCE",
+   "date": "2026-09-28"
+  },
+  {
+   "room": "CHAPEL",
+   "date": "2026-09-28"
+  },
+  {
+   "room": "COMM-CENTER",
+   "date": "2026-09-27"
+  },
+  {
+   "room": "COMMANDERS-OFFICE",
+   "date": "2026-09-27"
+  },
+  {
+   "room": "COMMANDERS-QUARTERS",
+   "date": "2026-09-28"
+  },
+  {
    "room": "DECK-TWELVE",
    "date": "2026-09-24"
+  },
+  {
+   "room": "DOCKING-BAY-1",
+   "date": "2026-10-01"
+  },
+  {
+   "room": "DOCKING-BAY-3",
+   "date": "2026-09-29"
+  },
+  {
+   "room": "DOCKING-BAY-4",
+   "date": "2026-09-29"
+  },
+  {
+   "room": "EAST-CONNECTION",
+   "date": "2026-09-28"
+  },
+  {
+   "room": "EAST-JUNCTION",
+   "date": "2026-09-28"
+  },
+  {
+   "room": "END-OF-CORRIDOR",
+   "date": "2026-09-29"
+  },
+  {
+   "room": "FEMALE-BARRACKS",
+   "date": "2026-09-29"
+  },
+  {
+   "room": "FILE-ROOM",
+   "date": "2026-09-29"
+  },
+  {
+   "room": "FORM-STORAGE-ROOM",
+   "date": "2026-09-26"
+  },
+  {
+   "room": "GYM",
+   "date": "2026-09-28"
+  },
+  {
+   "room": "LAUNDRY",
+   "date": "2026-09-29"
+  },
+  {
+   "room": "LEVEL-FIVE",
+   "date": "2026-09-27"
+  },
+  {
+   "room": "LEVEL-FOUR",
+   "date": "2026-09-28"
+  },
+  {
+   "room": "LEVEL-SIX",
+   "date": "2026-09-29"
+  },
+  {
+   "room": "LEVEL-THREE",
+   "date": "2026-09-28"
+  },
+  {
+   "room": "LIBRARY",
+   "date": "2026-10-02"
+  },
+  {
+   "room": "MAIN-STORAGE",
+   "date": "2026-10-02"
+  },
+  {
+   "room": "MALE-BARRACKS",
+   "date": "2026-09-30"
+  },
+  {
+   "room": "MEETING-ROOM-1",
+   "date": "2026-10-02"
+  },
+  {
+   "room": "MESS-HALL",
+   "date": "2026-10-02"
+  },
+  {
+   "room": "NORTH-CONNECTION",
+   "date": "2026-09-29"
+  },
+  {
+   "room": "NORTH-JUNCTION",
+   "date": "2026-09-28"
+  },
+  {
+   "room": "OFFICERS-QUARTERS-A",
+   "date": "2026-10-01"
+  },
+  {
+   "room": "OFFICERS-QUARTERS-B",
+   "date": "2026-09-30"
+  },
+  {
+   "room": "OFFICERS-QUARTERS-C",
+   "date": "2026-10-01"
+  },
+  {
+   "room": "OFFICERS-SANFAC",
+   "date": "2026-10-01"
+  },
+  {
+   "room": "PX",
+   "date": "2026-09-27"
+  },
+  {
+   "room": "ROBOT-POOL",
+   "date": "2026-09-28"
+  },
+  {
+   "room": "ROBOT-SHOP",
+   "date": "2026-09-29"
+  },
+  {
+   "room": "SHIPPING-ROOM",
+   "date": "2026-09-29"
+  },
+  {
+   "room": "SICK-BAY",
+   "date": "2026-09-27"
+  },
+  {
+   "room": "SOUTH-CONNECTION",
+   "date": "2026-09-28"
+  },
+  {
+   "room": "SOUTH-JUNCTION",
+   "date": "2026-09-27"
+  },
+  {
+   "room": "SPACETRUCK",
+   "date": "2026-09-30"
+  },
+  {
+   "room": "STATION-CONTROL",
+   "date": "2026-09-27"
+  },
+  {
+   "room": "STORAGE-5",
+   "date": "2026-09-29"
+  },
+  {
+   "room": "THEATRE",
+   "date": "2026-09-29"
+  },
+  {
+   "room": "WORKSHOP",
+   "date": "2026-09-29"
+  }
+ ],
+ "roomsAcceptedSeries": [
+  {
+   "t": "2026-09-24 23:41",
+   "room": "DECK-TWELVE",
+   "change": 1,
+   "date": "2026-09-24",
+   "via": "1bcdc5e",
+   "total": 1
+  },
+  {
+   "t": "2026-09-26 15:30",
+   "room": "FORM-STORAGE-ROOM",
+   "change": 1,
+   "date": "2026-09-26",
+   "via": "431a2fa",
+   "total": 2
+  },
+  {
+   "t": "2026-09-27 06:34",
+   "room": "COMM-CENTER",
+   "change": 1,
+   "date": "2026-09-27",
+   "via": "cf98bd1",
+   "total": 3
+  },
+  {
+   "t": "2026-09-27 06:34",
+   "room": "PX",
+   "change": 1,
+   "date": "2026-09-27",
+   "via": "cf98bd1",
+   "total": 4
+  },
+  {
+   "t": "2026-09-27 06:34",
+   "room": "SICK-BAY",
+   "change": 1,
+   "date": "2026-09-27",
+   "via": "cf98bd1",
+   "total": 5
+  },
+  {
+   "t": "2026-09-27 09:49",
+   "room": "COMMANDERS-OFFICE",
+   "change": 1,
+   "date": "2026-09-27",
+   "via": "efb3db1",
+   "total": 6
+  },
+  {
+   "t": "2026-09-27 12:13",
+   "room": "SOUTH-JUNCTION",
+   "change": 1,
+   "date": "2026-09-27",
+   "via": "3d88a7d",
+   "total": 7
+  },
+  {
+   "t": "2026-09-27 13:17",
+   "room": "LEVEL-FIVE",
+   "change": 1,
+   "date": "2026-09-27",
+   "via": "050a012",
+   "total": 8
+  },
+  {
+   "t": "2026-09-27 17:52",
+   "room": "STATION-CONTROL",
+   "change": 1,
+   "date": "2026-09-27",
+   "via": "5af8956",
+   "total": 9
+  },
+  {
+   "t": "2026-09-28 07:10",
+   "room": "BRIEFING-ROOM",
+   "change": 1,
+   "date": "2026-09-28",
+   "via": "bf23f4c",
+   "total": 10
+  },
+  {
+   "t": "2026-09-28 07:10",
+   "room": "CARGO-BAY",
+   "change": 1,
+   "date": "2026-09-28",
+   "via": "bf23f4c",
+   "total": 11
+  },
+  {
+   "t": "2026-09-28 07:10",
+   "room": "CARGO-BAY-ENTRANCE",
+   "change": 1,
+   "date": "2026-09-28",
+   "via": "bf23f4c",
+   "total": 12
+  },
+  {
+   "t": "2026-09-28 07:10",
+   "room": "EAST-CONNECTION",
+   "change": 1,
+   "date": "2026-09-28",
+   "via": "bf23f4c",
+   "total": 13
+  },
+  {
+   "t": "2026-09-28 07:10",
+   "room": "EAST-JUNCTION",
+   "change": 1,
+   "date": "2026-09-28",
+   "via": "bf23f4c",
+   "total": 14
+  },
+  {
+   "t": "2026-09-28 07:10",
+   "room": "LEVEL-THREE",
+   "change": 1,
+   "date": "2026-09-28",
+   "via": "bf23f4c",
+   "total": 15
+  },
+  {
+   "t": "2026-09-28 07:10",
+   "room": "NORTH-JUNCTION",
+   "change": 1,
+   "date": "2026-09-28",
+   "via": "bf23f4c",
+   "total": 16
+  },
+  {
+   "t": "2026-09-28 07:10",
+   "room": "SOUTH-CONNECTION",
+   "change": 1,
+   "date": "2026-09-28",
+   "via": "bf23f4c",
+   "total": 17
+  },
+  {
+   "t": "2026-09-28 08:27",
+   "room": "LEVEL-FOUR",
+   "change": 1,
+   "date": "2026-09-28",
+   "via": "202064c",
+   "total": 18
+  },
+  {
+   "t": "2026-09-28 16:45",
+   "room": "COMMANDERS-QUARTERS",
+   "change": 1,
+   "date": "2026-09-28",
+   "via": "f34579a",
+   "total": 19
+  },
+  {
+   "t": "2026-09-28 17:47",
+   "room": "ROBOT-POOL",
+   "change": 1,
+   "date": "2026-09-28",
+   "via": "ea07111",
+   "total": 20
+  },
+  {
+   "t": "2026-09-28 18:41",
+   "room": "ROBOT-POOL",
+   "change": -1,
+   "date": null,
+   "via": "ab670e6",
+   "total": 19
+  },
+  {
+   "t": "2026-09-28 18:42",
+   "room": "ROBOT-POOL",
+   "change": 1,
+   "date": "2026-09-28",
+   "via": "07440b7",
+   "total": 20
+  },
+  {
+   "t": "2026-09-28 19:14",
+   "room": "GYM",
+   "change": 1,
+   "date": "2026-09-28",
+   "via": "f55949f",
+   "total": 21
+  },
+  {
+   "t": "2026-09-28 21:51",
+   "room": "CHAPEL",
+   "change": 1,
+   "date": "2026-09-28",
+   "via": "7192844",
+   "total": 22
+  },
+  {
+   "t": "2026-09-29 06:51",
+   "room": "BRIG",
+   "change": 1,
+   "date": "2026-09-29",
+   "via": "c0e2366",
+   "total": 23
+  },
+  {
+   "t": "2026-09-29 06:51",
+   "room": "DOCKING-BAY-3",
+   "change": 1,
+   "date": "2026-09-29",
+   "via": "c0e2366",
+   "total": 24
+  },
+  {
+   "t": "2026-09-29 06:51",
+   "room": "DOCKING-BAY-4",
+   "change": 1,
+   "date": "2026-09-29",
+   "via": "c0e2366",
+   "total": 25
+  },
+  {
+   "t": "2026-09-29 06:51",
+   "room": "END-OF-CORRIDOR",
+   "change": 1,
+   "date": "2026-09-29",
+   "via": "c0e2366",
+   "total": 26
+  },
+  {
+   "t": "2026-09-29 06:51",
+   "room": "FILE-ROOM",
+   "change": 1,
+   "date": "2026-09-29",
+   "via": "c0e2366",
+   "total": 27
+  },
+  {
+   "t": "2026-09-29 06:51",
+   "room": "LAUNDRY",
+   "change": 1,
+   "date": "2026-09-29",
+   "via": "c0e2366",
+   "total": 28
+  },
+  {
+   "t": "2026-09-29 06:51",
+   "room": "LEVEL-SIX",
+   "change": 1,
+   "date": "2026-09-29",
+   "via": "c0e2366",
+   "total": 29
+  },
+  {
+   "t": "2026-09-29 06:51",
+   "room": "NORTH-CONNECTION",
+   "change": 1,
+   "date": "2026-09-29",
+   "via": "c0e2366",
+   "total": 30
+  },
+  {
+   "t": "2026-09-29 06:51",
+   "room": "ROBOT-SHOP",
+   "change": 1,
+   "date": "2026-09-29",
+   "via": "c0e2366",
+   "total": 31
+  },
+  {
+   "t": "2026-09-29 06:51",
+   "room": "SHIPPING-ROOM",
+   "change": 1,
+   "date": "2026-09-29",
+   "via": "c0e2366",
+   "total": 32
+  },
+  {
+   "t": "2026-09-29 06:51",
+   "room": "WORKSHOP",
+   "change": 1,
+   "date": "2026-09-29",
+   "via": "c0e2366",
+   "total": 33
+  },
+  {
+   "t": "2026-09-29 23:59",
+   "room": "BARRACKS-SANFAC",
+   "change": 1,
+   "date": "2026-09-29",
+   "via": "151b44a",
+   "total": 34
+  },
+  {
+   "t": "2026-09-29 23:59",
+   "room": "FEMALE-BARRACKS",
+   "change": 1,
+   "date": "2026-09-29",
+   "via": "151b44a",
+   "total": 35
+  },
+  {
+   "t": "2026-09-29 23:59",
+   "room": "STORAGE-5",
+   "change": 1,
+   "date": "2026-09-29",
+   "via": "151b44a",
+   "total": 36
+  },
+  {
+   "t": "2026-09-29 23:59",
+   "room": "THEATRE",
+   "change": 1,
+   "date": "2026-09-29",
+   "via": "151b44a",
+   "total": 37
+  },
+  {
+   "t": "2026-09-30 08:34",
+   "room": "ARMORY",
+   "change": 1,
+   "date": "2026-09-30",
+   "via": "96a9f9f",
+   "total": 38
+  },
+  {
+   "t": "2026-09-30 14:04",
+   "room": "SPACETRUCK",
+   "change": 1,
+   "date": "2026-09-30",
+   "via": "151b44a",
+   "total": 39
+  },
+  {
+   "t": "2026-09-30 14:54",
+   "room": "AUXILIARY-BARRACKS",
+   "change": 1,
+   "date": "2026-09-30",
+   "via": "9cd9d85",
+   "total": 40
+  },
+  {
+   "t": "2026-09-30 14:54",
+   "room": "MALE-BARRACKS",
+   "change": 1,
+   "date": "2026-09-30",
+   "via": "9cd9d85",
+   "total": 41
+  },
+  {
+   "t": "2026-09-30 16:49",
+   "room": "OFFICERS-QUARTERS-B",
+   "change": 1,
+   "date": "2026-09-30",
+   "via": "ac10989",
+   "total": 42
+  },
+  {
+   "t": "2026-10-01 12:57",
+   "room": "OFFICERS-QUARTERS-C",
+   "change": 1,
+   "date": "2026-10-01",
+   "via": "3860220",
+   "total": 43
+  },
+  {
+   "t": "2026-10-01 13:24",
+   "room": "OFFICERS-QUARTERS-A",
+   "change": 1,
+   "date": "2026-10-01",
+   "via": "e0ab469",
+   "total": 44
+  },
+  {
+   "t": "2026-10-01 14:51",
+   "room": "OFFICERS-SANFAC",
+   "change": 1,
+   "date": "2026-10-01",
+   "via": "751fd1a",
+   "total": 45
+  },
+  {
+   "t": "2026-10-01 18:56",
+   "room": "DOCKING-BAY-1",
+   "change": 1,
+   "date": "2026-10-01",
+   "via": "33fe553",
+   "total": 46
+  },
+  {
+   "t": "2026-10-02 23:59",
+   "room": "LIBRARY",
+   "change": 1,
+   "date": "2026-10-02",
+   "via": "working copy",
+   "total": 47
+  },
+  {
+   "t": "2026-10-02 23:59",
+   "room": "MAIN-STORAGE",
+   "change": 1,
+   "date": "2026-10-02",
+   "via": "working copy",
+   "total": 48
+  },
+  {
+   "t": "2026-10-02 23:59",
+   "room": "MEETING-ROOM-1",
+   "change": 1,
+   "date": "2026-10-02",
+   "via": "working copy",
+   "total": 49
+  },
+  {
+   "t": "2026-10-02 23:59",
+   "room": "MESS-HALL",
+   "change": 1,
+   "date": "2026-10-02",
+   "via": "working copy",
+   "total": 50
   }
  ],
  "readLog": {
-  "entries": 40,
+  "entries": 442,
   "byAgent": {
-   "greg": 40
+   "greg": 371,
+   "norm": 71
   },
   "since": "2026-09-25T10:40:02.380Z"
  }

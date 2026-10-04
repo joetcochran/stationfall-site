@@ -1,203 +1,2043 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="The loop: Norm's review latency and Greg's turnaround (log scale)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 337" width="900" height="337" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="The loop: Norm's review latency and Greg's turnaround (log scale)" data-csv="metrics-latency.csv">
 <defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#111a22"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8fa3b1" stroke-width="2"/></pattern></defs>
-<rect width="900" height="300" fill="#111a22" rx="6"/>
-<text x="190.0" y="24.0" fill="#d9e3ea" font-size="15" text-anchor="start" font-weight="600">The loop: Norm's review latency and Greg's turnaround (log scale)</text>
-<text x="190.0" y="288.0" fill="#8fa3b1" font-size="11" text-anchor="start">Review: a delivery to Norm's first verdict on it. Turnaround: a paint ask to the delivery that closed it (includes Greg's queue and cycle wait).</text>
-<line x1="190.0" y1="62" x2="190.0" y2="242" stroke="#1f2c37"/>
-<text x="190.0" y="258.0" fill="#8fa3b1" font-size="11" text-anchor="middle">1 min</text>
-<line x1="410.7" y1="62" x2="410.7" y2="242" stroke="#1f2c37"/>
-<text x="410.7" y="258.0" fill="#8fa3b1" font-size="11" text-anchor="middle">5 min</text>
-<line x1="561.3" y1="62" x2="561.3" y2="242" stroke="#1f2c37"/>
-<text x="561.3" y="258.0" fill="#8fa3b1" font-size="11" text-anchor="middle">15 min</text>
-<line x1="656.3" y1="62" x2="656.3" y2="242" stroke="#1f2c37"/>
-<text x="656.3" y="258.0" fill="#8fa3b1" font-size="11" text-anchor="middle">30 min</text>
-<line x1="751.4" y1="62" x2="751.4" y2="242" stroke="#1f2c37"/>
-<text x="751.4" y="258.0" fill="#8fa3b1" font-size="11" text-anchor="middle">1 h</text>
-<line x1="846.4" y1="62" x2="846.4" y2="242" stroke="#1f2c37"/>
-<text x="846.4" y="258.0" fill="#8fa3b1" font-size="11" text-anchor="middle">2 h</text>
-<text x="180.0" y="105.0" fill="#d9e3ea" font-size="12" text-anchor="end">Norm: delivery to verdict</text>
-<text x="180.0" y="120.0" fill="#8fa3b1" font-size="11" text-anchor="end">p50 5 min · p90 10 min · n=64</text>
-<circle cx="336.0" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="250.1" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="251.6" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="190.0" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="239.4" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="198.8" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="190.0" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="190.0" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="215.0" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="333.6" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="606.3" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="560.1" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="213.1" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="422.1" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="361.8" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="448.0" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="363.7" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="292.8" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="398.2" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="227.7" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="250.1" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="237.8" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="408.4" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="451.1" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="409.3" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="405.1" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="474.8" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="218.8" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="198.8" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="384.6" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="485.3" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="465.0" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="403.1" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="404.6" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="485.6" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="345.1" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="563.9" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="421.6" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="486.9" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="368.8" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="452.5" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="442.7" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="422.1" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="499.1" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="510.0" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="408.4" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="461.3" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="413.4" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="745.4" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="363.1" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="466.6" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="485.6" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="320.1" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="460.3" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="388.9" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="363.1" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="532.2" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="446.6" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="323.6" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="431.4" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="472.5" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="384.6" cy="104.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="437.6" cy="111.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="370.0" cy="97.0" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<line x1="405.1" y1="74.6" x2="405.1" y2="139.4" stroke="#d9e3ea" stroke-width="2"/>
-<line x1="500.1" y1="74.6" x2="500.1" y2="139.4" stroke="#d9e3ea" stroke-width="2" stroke-dasharray="4 3"/>
-<text x="180.0" y="195.0" fill="#d9e3ea" font-size="12" text-anchor="end">Greg: ask to delivery</text>
-<text x="180.0" y="210.0" fill="#8fa3b1" font-size="11" text-anchor="end">p50 39 min · p90 1.4 h · n=108</text>
-<circle cx="435.7" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="577.6" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="407.4" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="485.3" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="388.4" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="578.6" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="548.2" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="374.2" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="422.9" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="427.8" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="344.4" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="707.3" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="724.9" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="443.4" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="363.7" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="431.0" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="483.1" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="691.4" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="708.5" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="564.9" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="598.4" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="620.5" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="588.6" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="586.0" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="557.0" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="638.0" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="497.2" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="522.5" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="679.1" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="753.3" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="608.4" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="641.6" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="753.2" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="776.3" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="787.6" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="832.5" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="851.0" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="645.9" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="637.7" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="643.5" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="647.8" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="681.5" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="739.9" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="792.6" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="792.6" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="792.6" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="792.6" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="751.8" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="751.8" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="751.8" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="771.3" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="771.3" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="771.3" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="709.1" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="746.4" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="746.4" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="746.4" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="746.4" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="744.3" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="744.3" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="744.3" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="753.0" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="753.0" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="753.0" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="776.0" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="776.0" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="776.0" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="770.4" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="770.4" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="776.6" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="798.4" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="778.8" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="777.7" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="777.7" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="777.7" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="775.6" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="775.6" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="775.6" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="681.5" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="681.5" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="608.3" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="608.3" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="617.6" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="595.6" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="595.6" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="595.6" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="601.9" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="690.4" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="567.5" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="567.5" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="567.5" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="567.5" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="567.5" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="514.1" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="611.2" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="548.5" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="752.8" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="769.9" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="796.6" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="809.8" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="809.8" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="809.8" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="809.8" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="809.8" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="809.8" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="509.3" cy="187.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="588.7" cy="194.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<circle cx="669.9" cy="201.0" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/>
-<line x1="692.3" y1="164.6" x2="692.3" y2="229.4" stroke="#d9e3ea" stroke-width="2"/>
-<line x1="792.5" y1="164.6" x2="792.5" y2="229.4" stroke="#d9e3ea" stroke-width="2" stroke-dasharray="4 3"/>
-<rect x="190" y="62" width="686" height="180" fill="none" stroke="#34495a"/>
-<line x1="190" y1="40" x2="206" y2="40" stroke="#d9e3ea" stroke-width="2.5"/>
-<text x="212.0" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">p50</text>
-<line x1="249.8" y1="40" x2="265.8" y2="40" stroke="#d9e3ea" stroke-width="2" stroke-dasharray="4 3"/>
-<text x="271.8" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">p90</text>
+<rect width="900" height="337" fill="#111a22" rx="6"/>
+<text x="66.0" y="28.0" fill="#d9e3ea" font-size="18" text-anchor="start" font-weight="600">The loop: Norm's review latency and Greg's turnaround (log scale)</text>
+<text x="66.0" y="308.0" fill="#8fa3b1" font-size="13" text-anchor="start">Review: a delivery to Norm's first verdict on it. Turnaround: a paint ask to the delivery that closed it (includes Greg's</text>
+<text x="66.0" y="325.0" fill="#8fa3b1" font-size="13" text-anchor="start">queue and cycle wait).</text>
+<line x1="250.0" y1="76" x2="250.0" y2="254" stroke="#1f2c37"/>
+<text x="250.0" y="273.0" fill="#8fa3b1" font-size="14" text-anchor="middle">1 min</text>
+<line x1="360.2" y1="76" x2="360.2" y2="254" stroke="#1f2c37"/>
+<text x="360.2" y="273.0" fill="#8fa3b1" font-size="14" text-anchor="middle">5 min</text>
+<line x1="435.5" y1="76" x2="435.5" y2="254" stroke="#1f2c37"/>
+<text x="435.5" y="273.0" fill="#8fa3b1" font-size="14" text-anchor="middle">15 min</text>
+<line x1="483.0" y1="76" x2="483.0" y2="254" stroke="#1f2c37"/>
+<text x="483.0" y="273.0" fill="#8fa3b1" font-size="14" text-anchor="middle">30 min</text>
+<line x1="530.5" y1="76" x2="530.5" y2="254" stroke="#1f2c37"/>
+<text x="530.5" y="273.0" fill="#8fa3b1" font-size="14" text-anchor="middle">1 h</text>
+<line x1="577.9" y1="76" x2="577.9" y2="254" stroke="#1f2c37"/>
+<text x="577.9" y="273.0" fill="#8fa3b1" font-size="14" text-anchor="middle">2 h</text>
+<line x1="625.4" y1="76" x2="625.4" y2="254" stroke="#1f2c37"/>
+<text x="625.4" y="273.0" fill="#8fa3b1" font-size="14" text-anchor="middle">4 h</text>
+<line x1="672.9" y1="76" x2="672.9" y2="254" stroke="#1f2c37"/>
+<text x="672.9" y="273.0" fill="#8fa3b1" font-size="14" text-anchor="middle">8 h</text>
+<line x1="748.2" y1="76" x2="748.2" y2="254" stroke="#1f2c37"/>
+<text x="748.2" y="273.0" fill="#8fa3b1" font-size="14" text-anchor="middle">24 h</text>
+<line x1="823.4" y1="76" x2="823.4" y2="254" stroke="#1f2c37"/>
+<text x="823.4" y="273.0" fill="#8fa3b1" font-size="14" text-anchor="middle">72 h</text>
+<text x="238.0" y="117.5" fill="#d9e3ea" font-size="14" text-anchor="end">Norm: delivery to verdict</text>
+<text x="238.0" y="135.5" fill="#8fa3b1" font-size="13" text-anchor="end">p50 8 min · p90 56 min · n=273</text>
+<g class="m"><title>3 min
+Norm: delivery to verdict: 20260925-004039-greg-0002
+first verdict: 09/24 20:43</title><circle cx="322.9" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2 min
+Norm: delivery to verdict: 20260925-005152-greg-0004
+first verdict: 09/24 20:53</title><circle cx="280.0" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2 min
+Norm: delivery to verdict: 20260925-010322-greg-0008
+first verdict: 09/24 21:04</title><circle cx="280.8" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260925-010911-greg-0009
+first verdict: 09/24 21:09</title><circle cx="250.0" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260925-012754-greg-0010
+first verdict: 09/24 21:29</title><circle cx="274.7" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260925-014523-greg-0014
+first verdict: 09/24 21:46</title><circle cx="254.4" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260925-015017-greg-0015
+first verdict: 09/24 21:51</title><circle cx="250.0" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260925-015715-greg-0016
+first verdict: 09/24 21:58</title><circle cx="250.0" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260925-020232-greg-0017
+first verdict: 09/24 22:03</title><circle cx="262.5" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>3 min
+Norm: delivery to verdict: 20260925-020649-greg-0018
+first verdict: 09/24 22:09</title><circle cx="321.7" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>21 min
+Norm: delivery to verdict: 20260925-025922-greg-0023
+first verdict: 09/24 23:20</title><circle cx="458.0" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>15 min
+Norm: delivery to verdict: 20260925-030520-greg-0024
+first verdict: 09/24 23:20</title><circle cx="434.9" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5.4 d
+Norm: delivery to verdict: 20260925-032908-greg-0026
+first verdict: 09/30 08:44</title><circle cx="863.5" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260925-044628-greg-0029
+first verdict: 09/25 00:47</title><circle cx="261.5" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Norm: delivery to verdict: 20260925-044844-greg-0030
+first verdict: 09/25 00:54</title><circle cx="365.9" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>4 min
+Norm: delivery to verdict: 20260925-045126-greg-0031
+first verdict: 09/25 00:54</title><circle cx="335.8" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Norm: delivery to verdict: 20260925-050934-greg-0034
+first verdict: 09/25 01:16</title><circle cx="378.9" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>4 min
+Norm: delivery to verdict: 20260925-051436-greg-0035
+first verdict: 09/25 01:18</title><circle cx="336.8" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2 min
+Norm: delivery to verdict: 20260925-051803-greg-0036
+first verdict: 09/25 01:20</title><circle cx="301.4" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Norm: delivery to verdict: 20260925-052143-greg-0037
+first verdict: 09/25 01:26</title><circle cx="354.0" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260925-052651-greg-0038
+first verdict: 09/25 01:28</title><circle cx="268.8" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2 min
+Norm: delivery to verdict: 20260925-053040-greg-0039
+first verdict: 09/25 01:32</title><circle cx="280.0" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260925-054424-greg-0040
+first verdict: 09/25 01:45</title><circle cx="273.9" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Norm: delivery to verdict: 20260925-094927-greg-0042
+first verdict: 09/25 05:54</title><circle cx="359.1" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Norm: delivery to verdict: 20260925-095122-greg-0043
+first verdict: 09/25 05:58</title><circle cx="380.5" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Norm: delivery to verdict: 20260925-100116-greg-0045
+first verdict: 09/25 06:06</title><circle cx="359.6" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Norm: delivery to verdict: 20260925-100705-greg-0046
+first verdict: 09/25 06:11</title><circle cx="357.5" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Norm: delivery to verdict: 20260925-101531-greg-0049
+first verdict: 09/25 06:23</title><circle cx="392.3" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260925-102553-greg-0051
+first verdict: 09/25 06:27</title><circle cx="264.4" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260925-103224-greg-0052
+first verdict: 09/25 06:33</title><circle cx="254.4" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>4 min
+Norm: delivery to verdict: 20260925-103912-greg-0053
+first verdict: 09/25 06:43</title><circle cx="347.2" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9 min
+Norm: delivery to verdict: 20260925-104057-greg-0055
+first verdict: 09/25 06:49</title><circle cx="397.5" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Norm: delivery to verdict: 20260925-104057-greg-0056
+first verdict: 09/25 06:48</title><circle cx="387.4" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Norm: delivery to verdict: 20260925-105141-greg-0057
+first verdict: 09/25 06:56</title><circle cx="356.5" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Norm: delivery to verdict: 20260925-110311-greg-0060
+first verdict: 09/25 07:07</title><circle cx="357.2" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9 min
+Norm: delivery to verdict: 20260925-110923-greg-0061
+first verdict: 09/25 07:18</title><circle cx="397.7" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>3 min
+Norm: delivery to verdict: 20260925-111923-greg-0062
+first verdict: 09/25 07:22</title><circle cx="327.5" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>15 min
+Norm: delivery to verdict: 20260925-113941-greg-0065
+first verdict: 09/25 07:54</title><circle cx="436.8" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Norm: delivery to verdict: 20260925-114445-greg-0066
+first verdict: 09/25 07:50</title><circle cx="365.7" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9 min
+Norm: delivery to verdict: 20260925-115523-greg-0069
+first verdict: 09/25 08:04</title><circle cx="398.3" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>4 min
+Norm: delivery to verdict: 20260925-120809-greg-0070
+first verdict: 09/25 08:11</title><circle cx="339.3" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Norm: delivery to verdict: 20260925-121729-greg-0072
+first verdict: 09/25 08:24</title><circle cx="381.1" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>6 min
+Norm: delivery to verdict: 20260925-122723-greg-0073
+first verdict: 09/25 08:33</title><circle cx="376.3" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Norm: delivery to verdict: 20260925-123415-greg-0074
+first verdict: 09/25 08:39</title><circle cx="365.9" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>10 min
+Norm: delivery to verdict: 20260925-125250-greg-0076
+first verdict: 09/25 09:02</title><circle cx="404.5" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>10 min
+Norm: delivery to verdict: 20260925-130106-greg-0077
+first verdict: 09/25 09:11</title><circle cx="409.9" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Norm: delivery to verdict: 20260925-131233-greg-0078
+first verdict: 09/25 09:17</title><circle cx="359.1" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Norm: delivery to verdict: 20260925-133604-greg-0081
+first verdict: 09/25 09:43</title><circle cx="385.5" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Norm: delivery to verdict: 20260925-134239-greg-0082
+first verdict: 09/25 09:47</title><circle cx="361.6" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>57 min
+Norm: delivery to verdict: 20260925-135149-greg-0083
+first verdict: 09/25 10:49</title><circle cx="527.5" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>4 min
+Norm: delivery to verdict: 20260925-135331-greg-0084
+first verdict: 09/25 09:57</title><circle cx="336.5" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Norm: delivery to verdict: 20260925-140426-greg-0085
+first verdict: 09/25 10:11</title><circle cx="388.2" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9 min
+Norm: delivery to verdict: 20260925-141506-greg-0086
+first verdict: 09/25 10:23</title><circle cx="397.7" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>3 min
+Norm: delivery to verdict: 20260925-142301-greg-0087
+first verdict: 09/25 10:25</title><circle cx="315.0" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Norm: delivery to verdict: 20260925-143434-greg-0089
+first verdict: 09/25 10:41</title><circle cx="385.1" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>4 min
+Norm: delivery to verdict: 20260925-144300-greg-0090
+first verdict: 09/25 10:47</title><circle cx="349.4" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>4 min
+Norm: delivery to verdict: 20260925-150925-greg-0091
+first verdict: 09/25 11:12</title><circle cx="336.5" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>12 min
+Norm: delivery to verdict: 20260925-164343-greg-0092
+first verdict: 09/25 12:55</title><circle cx="421.0" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Norm: delivery to verdict: 20260925-171133-greg-0094
+first verdict: 09/25 13:18</title><circle cx="378.2" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>3 min
+Norm: delivery to verdict: 20260925-172841-greg-0096
+first verdict: 09/25 13:31</title><circle cx="316.8" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>6 min
+Norm: delivery to verdict: 20260925-175336-greg-0097
+first verdict: 09/25 13:59</title><circle cx="370.6" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Norm: delivery to verdict: 20260925-185744-greg-0098
+first verdict: 09/25 15:05</title><circle cx="391.1" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>4 min
+Norm: delivery to verdict: 20260925-194444-greg-0101
+first verdict: 09/25 15:48</title><circle cx="347.2" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>6 min
+Norm: delivery to verdict: 20260925-195248-greg-0102
+first verdict: 09/25 15:58</title><circle cx="373.7" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>4 min
+Norm: delivery to verdict: 20260925-200736-greg-0103
+first verdict: 09/25 16:11</title><circle cx="339.9" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>6 min
+Norm: delivery to verdict: 20260925-212208-greg-0108
+first verdict: 09/25 17:27</title><circle cx="367.0" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>13 min
+Norm: delivery to verdict: 20260926-014535-greg-0110
+first verdict: 09/25 21:58</title><circle cx="426.4" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>20 min
+Norm: delivery to verdict: 20260926-105020-greg-0111
+first verdict: 09/26 07:09</title><circle cx="453.7" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>17 min
+Norm: delivery to verdict: 20260926-113943-greg-0112
+first verdict: 09/26 07:56</title><circle cx="444.8" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>12 min
+Norm: delivery to verdict: 20260926-141117-greg-0114
+first verdict: 09/26 10:23</title><circle cx="419.2" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>13 min
+Norm: delivery to verdict: 20260926-143012-greg-0117
+first verdict: 09/26 10:43</title><circle cx="424.7" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Norm: delivery to verdict: 20260926-151601-greg-0120
+first verdict: 09/26 11:23</title><circle cx="387.1" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Norm: delivery to verdict: 20260926-153916-greg-0123
+first verdict: 09/26 11:46</title><circle cx="387.6" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>6 min
+Norm: delivery to verdict: 20260926-154507-greg-0124
+first verdict: 09/26 11:51</title><circle cx="376.6" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>14 min
+Norm: delivery to verdict: 20260926-162252-greg-0125
+first verdict: 09/26 12:36</title><circle cx="430.0" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Norm: delivery to verdict: 20260926-163849-greg-0126
+first verdict: 09/26 12:45</title><circle cx="380.6" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>10 min
+Norm: delivery to verdict: 20260926-164907-greg-0127
+first verdict: 09/26 12:59</title><circle cx="410.3" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>15 min
+Norm: delivery to verdict: 20260926-165408-greg-0128
+first verdict: 09/26 13:08</title><circle cx="434.6" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>3 min
+Norm: delivery to verdict: 20260926-170605-greg-0129
+first verdict: 09/26 13:08</title><circle cx="322.1" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260926-173627-greg-0134
+first verdict: 09/26 13:37</title><circle cx="254.4" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260926-175500-greg-0136
+first verdict: 09/26 13:56</title><circle cx="277.0" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>3 min
+Norm: delivery to verdict: 20260926-175959-greg-0137
+first verdict: 09/26 14:02</title><circle cx="323.7" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Norm: delivery to verdict: 20260926-180327-greg-0138
+first verdict: 09/26 14:08</title><circle cx="353.8" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>3 min
+Norm: delivery to verdict: 20260926-180527-greg-0139
+first verdict: 09/26 14:07</title><circle cx="313.7" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>15 min
+Norm: delivery to verdict: 20260926-191540-greg-0140
+first verdict: 09/26 15:30</title><circle cx="436.0" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>6 min
+Norm: delivery to verdict: 20260926-195703-greg-0142
+first verdict: 09/26 16:02</title><circle cx="371.4" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>6 min
+Norm: delivery to verdict: 20260926-205923-greg-0144
+first verdict: 09/26 17:05</title><circle cx="372.2" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Norm: delivery to verdict: 20260926-211707-greg-0147
+first verdict: 09/26 17:23</title><circle cx="379.4" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260926-212730-greg-0149
+first verdict: 09/26 17:28</title><circle cx="251.1" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260926-221839-greg-0152
+first verdict: 09/26 18:19</title><circle cx="250.0" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>21 min
+Norm: delivery to verdict: 20260926-231052-greg-0154
+first verdict: 09/26 19:31</title><circle cx="457.0" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Norm: delivery to verdict: 20260926-234721-greg-0156
+first verdict: 09/26 19:52</title><circle cx="362.7" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>6 min
+Norm: delivery to verdict: 20260927-000412-greg-0157
+first verdict: 09/26 20:09</title><circle cx="369.2" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11 min
+Norm: delivery to verdict: 20260927-001836-greg-0160
+first verdict: 09/26 20:29</title><circle cx="416.3" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>14 min
+Norm: delivery to verdict: 20260927-002239-greg-0161
+first verdict: 09/26 20:36</title><circle cx="431.8" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11 min
+Norm: delivery to verdict: 20260927-003547-greg-0163
+first verdict: 09/26 20:46</title><circle cx="413.6" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>10 min
+Norm: delivery to verdict: 20260927-005614-greg-0165
+first verdict: 09/26 21:06</title><circle cx="410.0" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Norm: delivery to verdict: 20260927-010757-greg-0166
+first verdict: 09/26 21:14</title><circle cx="378.4" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>15 min
+Norm: delivery to verdict: 20260927-012652-greg-0168
+first verdict: 09/26 21:41</title><circle cx="434.4" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>13 min
+Norm: delivery to verdict: 20260927-015317-greg-0170
+first verdict: 09/26 22:06</title><circle cx="427.1" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>31 min
+Norm: delivery to verdict: 20260927-104141-greg-0176
+first verdict: 09/27 07:13</title><circle cx="486.2" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>42 min
+Norm: delivery to verdict: 20260927-110606-greg-0178
+first verdict: 09/27 07:48</title><circle cx="506.0" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11 min
+Norm: delivery to verdict: 20260927-115805-greg-0181
+first verdict: 09/27 08:09</title><circle cx="415.7" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>13 min
+Norm: delivery to verdict: 20260927-120922-greg-0182
+first verdict: 09/27 08:22</title><circle cx="425.6" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>10 min
+Norm: delivery to verdict: 20260927-125906-greg-0188
+first verdict: 09/27 09:08</title><circle cx="406.0" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>12 min
+Norm: delivery to verdict: 20260927-130337-greg-0189
+first verdict: 09/27 09:15</title><circle cx="418.1" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260927-132449-greg-0190
+first verdict: 09/27 09:25</title><circle cx="255.5" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260927-133448-greg-0191
+first verdict: 09/27 09:35</title><circle cx="256.5" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>15 min
+Norm: delivery to verdict: 20260927-134526-greg-0192
+first verdict: 09/27 10:00</title><circle cx="435.4" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260927-140039-greg-0193
+first verdict: 09/27 10:01</title><circle cx="268.0" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260927-143244-greg-0195
+first verdict: 09/27 10:33</title><circle cx="264.4" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.4 h
+Norm: delivery to verdict: 20260927-145548-greg-0198
+first verdict: 09/27 12:20</title><circle cx="553.7" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>41 min
+Norm: delivery to verdict: 20260927-151141-greg-0199
+first verdict: 09/27 11:52</title><circle cx="504.9" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2.1 h
+Norm: delivery to verdict: 20260927-152202-greg-0200
+first verdict: 09/27 13:28</title><circle cx="581.6" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>44 min
+Norm: delivery to verdict: 20260927-160828-greg-0201
+first verdict: 09/27 12:52</title><circle cx="509.5" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>31 min
+Norm: delivery to verdict: 20260927-162551-greg-0202
+first verdict: 09/27 12:57</title><circle cx="486.0" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>50 min
+Norm: delivery to verdict: 20260927-163908-greg-0203
+first verdict: 09/27 13:28</title><circle cx="517.4" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2 min
+Norm: delivery to verdict: 20260927-164759-greg-0204
+first verdict: 09/27 12:49</title><circle cx="292.1" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>56 min
+Norm: delivery to verdict: 20260927-165517-greg-0205
+first verdict: 09/27 13:50</title><circle cx="525.3" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2.5 h
+Norm: delivery to verdict: 20260927-170722-greg-0206
+first verdict: 09/27 15:38</title><circle cx="593.9" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.0 h
+Norm: delivery to verdict: 20260927-171837-greg-0207
+first verdict: 09/27 14:18</title><circle cx="530.7" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2.2 h
+Norm: delivery to verdict: 20260927-173041-greg-0208
+first verdict: 09/27 15:43</title><circle cx="585.1" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>3 min
+Norm: delivery to verdict: 20260927-173929-greg-0209
+first verdict: 09/27 13:42</title><circle cx="326.0" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.7 h
+Norm: delivery to verdict: 20260927-175926-greg-0210
+first verdict: 09/27 15:43</title><circle cx="568.2" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.2 h
+Norm: delivery to verdict: 20260927-182046-greg-0212
+first verdict: 09/27 15:30</title><circle cx="540.6" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>51 min
+Norm: delivery to verdict: 20260927-183528-greg-0213
+first verdict: 09/27 15:25</title><circle cx="518.7" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>40 min
+Norm: delivery to verdict: 20260927-184624-greg-0214
+first verdict: 09/27 15:26</title><circle cx="502.1" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2.3 h
+Norm: delivery to verdict: 20260927-190334-greg-0215
+first verdict: 09/27 17:20</title><circle cx="586.7" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.4 h
+Norm: delivery to verdict: 20260927-193625-greg-0216
+first verdict: 09/27 16:59</title><circle cx="552.7" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>29 min
+Norm: delivery to verdict: 20260927-200033-greg-0217
+first verdict: 09/27 16:29</title><circle cx="480.4" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>32 min
+Norm: delivery to verdict: 20260927-201143-greg-0218
+first verdict: 09/27 16:44</title><circle cx="488.0" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>35 min
+Norm: delivery to verdict: 20260927-202549-greg-0219
+first verdict: 09/27 17:00</title><circle cx="493.7" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>56 min
+Norm: delivery to verdict: 20260927-203111-greg-0220
+first verdict: 09/27 17:27</title><circle cx="526.2" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>25 min
+Norm: delivery to verdict: 20260927-205346-greg-0221
+first verdict: 09/27 17:18</title><circle cx="470.5" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.0 h
+Norm: delivery to verdict: 20260927-211454-greg-0222
+first verdict: 09/27 18:16</title><circle cx="532.0" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>27 min
+Norm: delivery to verdict: 20260927-214959-greg-0223
+first verdict: 09/27 18:17</title><circle cx="476.8" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.7 h
+Norm: delivery to verdict: 20260927-215609-greg-0224
+first verdict: 09/27 19:36</title><circle cx="565.4" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>19 min
+Norm: delivery to verdict: 20260927-220313-greg-0225
+first verdict: 09/27 18:22</title><circle cx="453.4" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.3 h
+Norm: delivery to verdict: 20260927-221952-greg-0226
+first verdict: 09/27 19:36</title><circle cx="547.3" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.3 h
+Norm: delivery to verdict: 20260927-222407-greg-0227
+first verdict: 09/27 19:44</title><circle cx="550.6" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.1 h
+Norm: delivery to verdict: 20260927-224014-greg-0228
+first verdict: 09/27 19:47</title><circle cx="538.5" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.6 h
+Norm: delivery to verdict: 20260927-224846-greg-0229
+first verdict: 09/27 20:22</title><circle cx="560.8" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.3 h
+Norm: delivery to verdict: 20260927-225650-greg-0230
+first verdict: 09/27 20:12</title><circle cx="546.5" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.1 h
+Norm: delivery to verdict: 20260927-231442-greg-0231
+first verdict: 09/27 20:21</title><circle cx="538.1" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>19 min
+Norm: delivery to verdict: 20260927-232832-greg-0232
+first verdict: 09/27 19:47</title><circle cx="453.2" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>31 min
+Norm: delivery to verdict: 20260927-234040-greg-0233
+first verdict: 09/27 20:12</title><circle cx="486.3" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>12 min
+Norm: delivery to verdict: 20260927-234857-greg-0234
+first verdict: 09/27 20:00</title><circle cx="417.4" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9 min
+Norm: delivery to verdict: 20260927-235554-greg-0235
+first verdict: 09/27 20:05</title><circle cx="403.5" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>6 min
+Norm: delivery to verdict: 20260928-000746-greg-0236
+first verdict: 09/27 20:14</title><circle cx="375.5" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>12 min
+Norm: delivery to verdict: 20260928-002454-greg-0238
+first verdict: 09/27 20:37</title><circle cx="421.9" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.0 h
+Norm: delivery to verdict: 20260928-004329-greg-0239
+first verdict: 09/27 21:46</title><circle cx="533.5" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>34 min
+Norm: delivery to verdict: 20260928-010343-greg-0240
+first verdict: 09/27 21:38</title><circle cx="492.4" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Norm: delivery to verdict: 20260928-020014-greg-0241
+first verdict: 09/27 22:05</title><circle cx="360.0" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>13 min
+Norm: delivery to verdict: 20260928-022250-greg-0242
+first verdict: 09/27 22:36</title><circle cx="427.0" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>23 min
+Norm: delivery to verdict: 20260928-023436-greg-0243
+first verdict: 09/27 22:57</title><circle cx="465.8" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>25 min
+Norm: delivery to verdict: 20260928-031939-greg-0244
+first verdict: 09/27 23:44</title><circle cx="469.6" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Norm: delivery to verdict: 20260928-033143-greg-0245
+first verdict: 09/27 23:38</title><circle cx="384.1" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>13 min
+Norm: delivery to verdict: 20260928-033830-greg-0246
+first verdict: 09/27 23:51</title><circle cx="425.4" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>51 min
+Norm: delivery to verdict: 20260928-035655-greg-0247
+first verdict: 09/28 00:47</title><circle cx="518.7" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>33 min
+Norm: delivery to verdict: 20260928-042719-greg-0248
+first verdict: 09/28 01:00</title><circle cx="489.1" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>33 min
+Norm: delivery to verdict: 20260928-043839-greg-0249
+first verdict: 09/28 01:11</title><circle cx="489.8" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>32 min
+Norm: delivery to verdict: 20260928-051121-greg-0250
+first verdict: 09/28 01:43</title><circle cx="488.3" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>12 min
+Norm: delivery to verdict: 20260928-051855-greg-0251
+first verdict: 09/28 01:30</title><circle cx="419.8" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>27 min
+Norm: delivery to verdict: 20260928-053158-greg-0252
+first verdict: 09/28 01:59</title><circle cx="476.7" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>13 min
+Norm: delivery to verdict: 20260928-061156-greg-0253
+first verdict: 09/28 02:24</title><circle cx="425.4" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Norm: delivery to verdict: 20260928-065212-greg-0254
+first verdict: 09/28 02:59</title><circle cx="387.3" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Norm: delivery to verdict: 20260928-065743-greg-0255
+first verdict: 09/28 03:02</title><circle cx="354.3" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>3 min
+Norm: delivery to verdict: 20260928-071622-greg-0256
+first verdict: 09/28 03:19</title><circle cx="331.1" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11 min
+Norm: delivery to verdict: 20260928-073645-greg-0257
+first verdict: 09/28 03:47</title><circle cx="411.8" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Norm: delivery to verdict: 20260928-080702-greg-0258
+first verdict: 09/28 04:13</title><circle cx="382.3" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>25 min
+Norm: delivery to verdict: 20260928-081328-greg-0259
+first verdict: 09/28 04:38</title><circle cx="471.0" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>3 min
+Norm: delivery to verdict: 20260928-085224-greg-0260
+first verdict: 09/28 04:55</title><circle cx="318.0" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>18 min
+Norm: delivery to verdict: 20260928-090031-greg-0261
+first verdict: 09/28 05:19</title><circle cx="449.8" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>12 min
+Norm: delivery to verdict: 20260928-091744-greg-0262
+first verdict: 09/28 05:30</title><circle cx="422.9" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2 min
+Norm: delivery to verdict: 20260928-105802-greg-0263
+first verdict: 09/28 06:59</title><circle cx="291.5" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260928-110446-greg-0264
+first verdict: 09/28 07:05</title><circle cx="260.6" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>4 min
+Norm: delivery to verdict: 20260928-111441-greg-0265
+first verdict: 09/28 07:18</title><circle cx="338.1" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2 min
+Norm: delivery to verdict: 20260928-111936-greg-0266
+first verdict: 09/28 07:21</title><circle cx="292.1" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2 min
+Norm: delivery to verdict: 20260928-114638-greg-0267
+first verdict: 09/28 07:48</title><circle cx="280.0" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260928-115258-greg-0268
+first verdict: 09/28 07:53</title><circle cx="250.0" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260928-123425-greg-0269
+first verdict: 09/28 08:35</title><circle cx="250.0" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2 min
+Norm: delivery to verdict: 20260928-205039-greg-0270
+first verdict: 09/28 16:52</title><circle cx="293.4" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2 min
+Norm: delivery to verdict: 20260928-210357-greg-0271
+first verdict: 09/28 17:05</title><circle cx="280.8" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2 min
+Norm: delivery to verdict: 20260928-210357-greg-0272
+first verdict: 09/28 17:05</title><circle cx="280.8" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260928-214629-greg-0273
+first verdict: 09/28 17:47</title><circle cx="257.6" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2 min
+Norm: delivery to verdict: 20260928-225311-greg-0274
+first verdict: 09/28 18:54</title><circle cx="281.5" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Norm: delivery to verdict: 20260928-232246-greg-0275
+first verdict: 09/28 19:27</title><circle cx="359.6" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260928-234114-greg-0276
+first verdict: 09/28 19:42</title><circle cx="250.0" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260928-234755-greg-0277
+first verdict: 09/28 19:48</title><circle cx="252.2" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260929-005555-greg-0278
+first verdict: 09/28 20:56</title><circle cx="253.3" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260929-014449-greg-0279
+first verdict: 09/28 21:45</title><circle cx="250.0" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260929-021240-greg-0280
+first verdict: 09/28 22:13</title><circle cx="268.0" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2 min
+Norm: delivery to verdict: 20260929-032732-greg-0281
+first verdict: 09/28 23:29</title><circle cx="279.3" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>3 min
+Norm: delivery to verdict: 20260929-033544-greg-0282
+first verdict: 09/28 23:38</title><circle cx="316.3" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>3 min
+Norm: delivery to verdict: 20260929-044700-greg-0283
+first verdict: 09/29 00:50</title><circle cx="335.2" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Norm: delivery to verdict: 20260929-051526-greg-0284
+first verdict: 09/29 01:20</title><circle cx="354.0" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260929-052503-greg-0285
+first verdict: 09/29 01:26</title><circle cx="269.7" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2 min
+Norm: delivery to verdict: 20260929-052837-greg-0286
+first verdict: 09/29 01:30</title><circle cx="289.0" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>3 min
+Norm: delivery to verdict: 20260929-053747-greg-0287
+first verdict: 09/29 01:40</title><circle cx="319.3" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>4 min
+Norm: delivery to verdict: 20260929-054425-greg-0288
+first verdict: 09/29 01:48</title><circle cx="352.8" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260929-055057-greg-0289
+first verdict: 09/29 01:52</title><circle cx="269.7" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20260929-055319-greg-0290
+first verdict: 09/29 01:54</title><circle cx="268.8" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2 min
+Norm: delivery to verdict: 20260929-063024-greg-0291
+first verdict: 09/29 02:32</title><circle cx="307.6" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>4 min
+Norm: delivery to verdict: 20260929-063641-greg-0292
+first verdict: 09/29 02:40</title><circle cx="336.1" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2 min
+Norm: delivery to verdict: 20260929-064143-greg-0293
+first verdict: 09/29 02:43</title><circle cx="298.6" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>4 min
+Norm: delivery to verdict: 20260929-064815-greg-0294
+first verdict: 09/29 02:51</title><circle cx="338.7" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2.4 h
+Norm: delivery to verdict: 20260929-085651-greg-0295
+first verdict: 09/29 07:20</title><circle cx="590.2" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>17 min
+Norm: delivery to verdict: 20260929-122749-greg-0297
+first verdict: 09/29 08:44</title><circle cx="444.2" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Norm: delivery to verdict: 20260929-134200-greg-0300
+first verdict: 09/29 09:49</title><circle cx="386.0" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>19 min
+Norm: delivery to verdict: 20260929-141505-greg-0302
+first verdict: 09/29 10:33</title><circle cx="451.2" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>13 min
+Norm: delivery to verdict: 20260929-145512-greg-0304
+first verdict: 09/29 11:08</title><circle cx="426.2" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>19 min
+Norm: delivery to verdict: 20260929-184835-greg-0308
+first verdict: 09/29 15:07</title><circle cx="452.7" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>15 min
+Norm: delivery to verdict: 20260929-185246-greg-0309
+first verdict: 09/29 15:07</title><circle cx="436.5" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11 min
+Norm: delivery to verdict: 20260929-190120-greg-0310
+first verdict: 09/29 15:11</title><circle cx="411.2" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>26 min
+Norm: delivery to verdict: 20260929-202256-greg-0317
+first verdict: 09/29 16:48</title><circle cx="471.9" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>57 min
+Norm: delivery to verdict: 20260930-111709-greg-0321
+first verdict: 09/30 08:14</title><circle cx="526.9" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>57 min
+Norm: delivery to verdict: 20260930-111710-greg-0322
+first verdict: 09/30 08:14</title><circle cx="526.9" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>57 min
+Norm: delivery to verdict: 20260930-111711-greg-0323
+first verdict: 09/30 08:14</title><circle cx="527.0" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>13 min
+Norm: delivery to verdict: 20260930-140042-greg-0328
+first verdict: 09/30 10:14</title><circle cx="428.1" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>25 min
+Norm: delivery to verdict: 20260930-211503-greg-0329
+first verdict: 09/30 17:40</title><circle cx="470.9" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.7 h
+Norm: delivery to verdict: 20260930-224116-greg-0330
+first verdict: 09/30 20:25</title><circle cx="568.5" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2.4 h
+Norm: delivery to verdict: 20260930-224232-greg-0331
+first verdict: 09/30 21:08</title><circle cx="591.2" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>15 min
+Norm: delivery to verdict: 20261001-162957-greg-0333
+first verdict: 10/01 12:44</title><circle cx="433.2" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>14 min
+Norm: delivery to verdict: 20261001-165123-greg-0334
+first verdict: 10/01 13:04</title><circle cx="428.7" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>6 min
+Norm: delivery to verdict: 20261001-171337-greg-0336
+first verdict: 10/01 13:19</title><circle cx="373.3" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Norm: delivery to verdict: 20261001-173939-greg-0337
+first verdict: 10/01 13:44</title><circle cx="362.9" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Norm: delivery to verdict: 20261001-180754-greg-0338
+first verdict: 10/01 14:15</title><circle cx="389.2" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11 min
+Norm: delivery to verdict: 20261001-190111-greg-0339
+first verdict: 10/01 15:12</title><circle cx="413.6" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11 min
+Norm: delivery to verdict: 20261001-194634-greg-0340
+first verdict: 10/01 15:57</title><circle cx="416.6" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11 min
+Norm: delivery to verdict: 20261001-202248-greg-0341
+first verdict: 10/01 16:33</title><circle cx="413.7" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Norm: delivery to verdict: 20261001-205431-greg-0342
+first verdict: 10/01 17:02</title><circle cx="388.3" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Norm: delivery to verdict: 20261001-215314-greg-0343
+first verdict: 10/01 18:00</title><circle cx="388.5" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2 min
+Norm: delivery to verdict: 20261001-224952-greg-0346
+first verdict: 10/01 18:51</title><circle cx="280.0" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2 min
+Norm: delivery to verdict: 20261001-225007-greg-0347
+first verdict: 10/01 18:52</title><circle cx="298.1" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Norm: delivery to verdict: 20261001-231329-greg-0348
+first verdict: 10/01 19:20</title><circle cx="385.9" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Norm: delivery to verdict: 20261001-231356-greg-0349
+first verdict: 10/01 19:20</title><circle cx="381.5" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>10 min
+Norm: delivery to verdict: 20261001-234051-greg-0351
+first verdict: 10/01 19:50</title><circle cx="408.2" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>10 min
+Norm: delivery to verdict: 20261001-234052-greg-0352
+first verdict: 10/01 19:50</title><circle cx="408.1" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9 min
+Norm: delivery to verdict: 20261002-000239-greg-0353
+first verdict: 10/01 20:11</title><circle cx="397.8" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9 min
+Norm: delivery to verdict: 20261002-000239-greg-0354
+first verdict: 10/01 20:11</title><circle cx="399.6" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>12 min
+Norm: delivery to verdict: 20261002-111237-greg-0356
+first verdict: 10/02 07:24</title><circle cx="422.0" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>13 min
+Norm: delivery to verdict: 20261002-121300-greg-0360
+first verdict: 10/02 08:25</title><circle cx="423.4" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9 min
+Norm: delivery to verdict: 20261002-123921-greg-0361
+first verdict: 10/02 08:48</title><circle cx="398.2" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9 min
+Norm: delivery to verdict: 20261002-130415-greg-0362
+first verdict: 10/02 09:12</title><circle cx="397.4" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11 min
+Norm: delivery to verdict: 20261002-133233-greg-0364
+first verdict: 10/02 09:44</title><circle cx="417.1" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Norm: delivery to verdict: 20261002-141613-greg-0365
+first verdict: 10/02 10:22</title><circle cx="378.9" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>10 min
+Norm: delivery to verdict: 20261002-145218-greg-0367
+first verdict: 10/02 11:01</title><circle cx="404.6" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Norm: delivery to verdict: 20261002-150717-greg-0368
+first verdict: 10/02 11:12</title><circle cx="361.6" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Norm: delivery to verdict: 20261002-153403-greg-0370
+first verdict: 10/02 11:42</title><circle cx="395.0" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Norm: delivery to verdict: 20261002-160444-greg-0372
+first verdict: 10/02 12:12</title><circle cx="391.7" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>12 min
+Norm: delivery to verdict: 20261002-173217-greg-0374
+first verdict: 10/02 13:43</title><circle cx="417.4" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>10 min
+Norm: delivery to verdict: 20261002-175211-greg-0376
+first verdict: 10/02 14:02</title><circle cx="409.9" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9 min
+Norm: delivery to verdict: 20261002-181438-greg-0379
+first verdict: 10/02 14:23</title><circle cx="400.0" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9 min
+Norm: delivery to verdict: 20261002-181438-greg-0380
+first verdict: 10/02 14:23</title><circle cx="400.3" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>10 min
+Norm: delivery to verdict: 20261002-191310-greg-0384
+first verdict: 10/02 15:22</title><circle cx="405.4" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>10 min
+Norm: delivery to verdict: 20261002-195316-greg-0387
+first verdict: 10/02 16:03</title><circle cx="408.9" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Norm: delivery to verdict: 20261002-200709-greg-0388
+first verdict: 10/02 16:12</title><circle cx="364.7" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>14 min
+Norm: delivery to verdict: 20261002-215012-greg-0389
+first verdict: 10/02 18:03</title><circle cx="429.3" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9 min
+Norm: delivery to verdict: 20261002-215510-greg-0390
+first verdict: 10/02 18:03</title><circle cx="398.6" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Norm: delivery to verdict: 20261002-231602-greg-0391
+first verdict: 10/02 19:24</title><circle cx="395.9" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Norm: delivery to verdict: 20261002-231602-greg-0392
+first verdict: 10/02 19:24</title><circle cx="395.9" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Norm: delivery to verdict: 20261002-231942-greg-0393
+first verdict: 10/02 19:24</title><circle cx="356.7" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>6 min
+Norm: delivery to verdict: 20261002-234343-greg-0394
+first verdict: 10/02 19:49</title><circle cx="375.7" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>3 min
+Norm: delivery to verdict: 20261002-234959-greg-0395
+first verdict: 10/02 19:52</title><circle cx="313.2" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>6 min
+Norm: delivery to verdict: 20261002-235505-greg-0396
+first verdict: 10/02 20:00</title><circle cx="368.0" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Norm: delivery to verdict: 20261003-000837-greg-0397
+first verdict: 10/02 20:15</title><circle cx="385.7" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>12 min
+Norm: delivery to verdict: 20261003-003048-greg-0399
+first verdict: 10/02 20:42</title><circle cx="419.4" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>6 min
+Norm: delivery to verdict: 20261003-010623-greg-0402
+first verdict: 10/02 21:12</title><circle cx="370.4" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20261003-103325-greg-0406
+first verdict: 10/03 06:34</title><circle cx="272.2" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9 min
+Norm: delivery to verdict: 20261003-103516-greg-0407
+first verdict: 10/03 06:44</title><circle cx="400.0" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20261003-104629-greg-0408
+first verdict: 10/03 06:47</title><circle cx="260.6" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1 min
+Norm: delivery to verdict: 20261003-105533-greg-0409
+first verdict: 10/03 06:56</title><circle cx="250.0" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>3 min
+Norm: delivery to verdict: 20261003-111755-greg-0410
+first verdict: 10/03 07:21</title><circle cx="333.5" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="p50"><title>8 min
+Norm: delivery to verdict: p50 of 273</title><line x1="390.7" y1="88.5" x2="390.7" y2="152.5" stroke="#d9e3ea" stroke-width="2"/></g>
+<g class="m" data-s="p90"><title>56 min
+Norm: delivery to verdict: p90 of 273</title><line x1="525.5" y1="88.5" x2="525.5" y2="152.5" stroke="#d9e3ea" stroke-width="2" stroke-dasharray="4 3"/></g>
+<text x="238.0" y="206.5" fill="#d9e3ea" font-size="14" text-anchor="end">Greg: ask to delivery</text>
+<text x="238.0" y="224.5" fill="#8fa3b1" font-size="13" text-anchor="end">p50 30 min · p90 1.8 h · n=392</text>
+<g class="m"><title>6 min
+Greg: ask to delivery: 20260925-003439-norm-0001#1
+delivered: 09/24 20:40</title><circle cx="372.7" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>17 min
+Greg: ask to delivery: 20260925-003458-norm-0002#1
+delivered: 09/24 20:51</title><circle cx="443.7" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Greg: ask to delivery: 20260925-005444-norm-0008#1
+delivered: 09/24 20:59</title><circle cx="358.6" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9 min
+Greg: ask to delivery: 20260925-005445-norm-0009#1
+delivered: 09/24 21:03</title><circle cx="397.5" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>4 min
+Greg: ask to delivery: 20260925-010456-norm-0011#1
+delivered: 09/24 21:09</title><circle cx="349.1" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>17 min
+Greg: ask to delivery: 20260925-011053-norm-0014#1
+delivered: 09/24 21:27</title><circle cx="444.1" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>14 min
+Greg: ask to delivery: 20260925-013145-norm-0018#1
+delivered: 09/24 21:45</title><circle cx="429.0" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>4 min
+Greg: ask to delivery: 20260925-014627-norm-0020#1
+delivered: 09/24 21:50</title><circle cx="342.0" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Greg: ask to delivery: 20260925-015147-norm-0022#1
+delivered: 09/24 21:57</title><circle cx="366.4" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>6 min
+Greg: ask to delivery: 20260925-015652-norm-0023#1
+delivered: 09/24 22:02</title><circle cx="368.8" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>3 min
+Greg: ask to delivery: 20260925-020344-norm-0026#1
+delivered: 09/24 22:06</title><circle cx="327.1" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>44 min
+Greg: ask to delivery: 20260925-021551-norm-0028#1
+delivered: 09/24 22:59</title><circle cx="508.5" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>49 min
+Greg: ask to delivery: 20260925-021552-norm-0029#1
+delivered: 09/24 23:05</title><circle cx="517.2" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>6 min
+Greg: ask to delivery: 20260925-032247-norm-0034#1
+delivered: 09/24 23:29</title><circle cx="376.6" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>4 min
+Greg: ask to delivery: 20260925-044255-norm-0038#1
+delivered: 09/25 00:46</title><circle cx="336.8" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>6 min
+Greg: ask to delivery: 20260925-044256-norm-0039#1
+delivered: 09/25 00:48</title><circle cx="370.4" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Greg: ask to delivery: 20260925-044257-norm-0040#1
+delivered: 09/25 00:51</title><circle cx="396.5" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>39 min
+Greg: ask to delivery: 20260925-044258-norm-0041#1
+delivered: 09/25 01:21</title><circle cx="500.5" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>44 min
+Greg: ask to delivery: 20260925-044258-norm-0042#1
+delivered: 09/25 01:26</title><circle cx="509.0" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>15 min
+Greg: ask to delivery: 20260925-045410-norm-0044#1
+delivered: 09/25 01:09</title><circle cx="437.3" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>20 min
+Greg: ask to delivery: 20260925-045456-norm-0045#1
+delivered: 09/25 01:14</title><circle cx="454.1" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>23 min
+Greg: ask to delivery: 20260925-045457-norm-0046#1
+delivered: 09/25 01:18</title><circle cx="465.1" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>18 min
+Greg: ask to delivery: 20260925-050325-norm-0047#1
+delivered: 09/25 01:21</title><circle cx="449.1" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>18 min
+Greg: ask to delivery: 20260925-050853-norm-0048#1
+delivered: 09/25 01:26</title><circle cx="447.9" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>15 min
+Greg: ask to delivery: 20260925-051608-norm-0049#1
+delivered: 09/25 01:30</title><circle cx="433.3" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>26 min
+Greg: ask to delivery: 20260925-051809-norm-0050#1
+delivered: 09/25 01:44</title><circle cx="473.8" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9 min
+Greg: ask to delivery: 20260925-094003-norm-0057#1
+delivered: 09/25 05:49</title><circle cx="403.5" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11 min
+Greg: ask to delivery: 20260925-094004-norm-0058#1
+delivered: 09/25 05:51</title><circle cx="416.1" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>35 min
+Greg: ask to delivery: 20260925-094005-norm-0059#1
+delivered: 09/25 06:15</title><circle cx="494.4" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.0 h
+Greg: ask to delivery: 20260925-094006-norm-0060#1
+delivered: 09/25 06:40</title><circle cx="531.4" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>21 min
+Greg: ask to delivery: 20260925-094007-norm-0061#1
+delivered: 09/25 06:01</title><circle cx="459.0" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>27 min
+Greg: ask to delivery: 20260925-094008-norm-0062#1
+delivered: 09/25 06:07</title><circle cx="475.6" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.0 h
+Greg: ask to delivery: 20260925-094008-norm-0063#1
+delivered: 09/25 06:40</title><circle cx="531.4" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.2 h
+Greg: ask to delivery: 20260925-095114-norm-0064#1
+delivered: 09/25 07:03</title><circle cx="542.9" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.3 h
+Greg: ask to delivery: 20260925-095115-norm-0065#1
+delivered: 09/25 07:09</title><circle cx="548.6" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.8 h
+Greg: ask to delivery: 20260925-095116-norm-0066#1
+delivered: 09/25 07:39</title><circle cx="571.0" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2.1 h
+Greg: ask to delivery: 20260925-095117-norm-0067#1
+delivered: 09/25 07:55</title><circle cx="580.3" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>28 min
+Greg: ask to delivery: 20260925-095805-norm-0070#1
+delivered: 09/25 06:25</title><circle cx="477.8" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>26 min
+Greg: ask to delivery: 20260925-100613-norm-0071#1
+delivered: 09/25 06:32</title><circle cx="473.7" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>27 min
+Greg: ask to delivery: 20260925-101153-norm-0073#1
+delivered: 09/25 06:39</title><circle cx="476.6" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>28 min
+Greg: ask to delivery: 20260925-102330-norm-0077#1
+delivered: 09/25 06:51</title><circle cx="478.7" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>36 min
+Greg: ask to delivery: 20260925-104320-norm-0081#1
+delivered: 09/25 07:19</title><circle cx="495.6" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>55 min
+Greg: ask to delivery: 20260925-104934-norm-0083#1
+delivered: 09/25 07:44</title><circle cx="524.7" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.4 h
+Greg: ask to delivery: 20260925-105625-norm-0084#1
+delivered: 09/25 08:17</title><circle cx="551.1" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.4 h
+Greg: ask to delivery: 20260925-105625-norm-0084#2
+delivered: 09/25 08:17</title><circle cx="551.1" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.4 h
+Greg: ask to delivery: 20260925-105625-norm-0084#3
+delivered: 09/25 08:17</title><circle cx="551.1" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.4 h
+Greg: ask to delivery: 20260925-105625-norm-0084#4
+delivered: 09/25 08:17</title><circle cx="551.1" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.0 h
+Greg: ask to delivery: 20260925-110758-norm-0086#1
+delivered: 09/25 08:08</title><circle cx="530.7" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.0 h
+Greg: ask to delivery: 20260925-110758-norm-0086#2
+delivered: 09/25 08:08</title><circle cx="530.7" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.0 h
+Greg: ask to delivery: 20260925-110758-norm-0086#3
+delivered: 09/25 08:08</title><circle cx="530.7" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.2 h
+Greg: ask to delivery: 20260925-111801-norm-0087#1
+delivered: 09/25 08:27</title><circle cx="540.4" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.2 h
+Greg: ask to delivery: 20260925-111801-norm-0087#2
+delivered: 09/25 08:27</title><circle cx="540.4" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.2 h
+Greg: ask to delivery: 20260925-111801-norm-0087#3
+delivered: 09/25 08:27</title><circle cx="540.4" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>44 min
+Greg: ask to delivery: 20260925-115010-norm-0096#1
+delivered: 09/25 08:34</title><circle cx="509.4" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>58 min
+Greg: ask to delivery: 20260925-115458-norm-0097#1
+delivered: 09/25 08:52</title><circle cx="528.0" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>58 min
+Greg: ask to delivery: 20260925-115458-norm-0097#2
+delivered: 09/25 08:52</title><circle cx="528.0" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>58 min
+Greg: ask to delivery: 20260925-115458-norm-0097#3
+delivered: 09/25 08:52</title><circle cx="528.0" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>58 min
+Greg: ask to delivery: 20260925-115458-norm-0097#4
+delivered: 09/25 08:52</title><circle cx="528.0" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>57 min
+Greg: ask to delivery: 20260925-120406-norm-0098#1
+delivered: 09/25 09:01</title><circle cx="527.0" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>57 min
+Greg: ask to delivery: 20260925-120406-norm-0098#2
+delivered: 09/25 09:01</title><circle cx="527.0" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>57 min
+Greg: ask to delivery: 20260925-120406-norm-0098#3
+delivered: 09/25 09:01</title><circle cx="527.0" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.0 h
+Greg: ask to delivery: 20260925-121150-norm-0103#1
+delivered: 09/25 09:12</title><circle cx="531.3" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.0 h
+Greg: ask to delivery: 20260925-121150-norm-0103#2
+delivered: 09/25 09:12</title><circle cx="531.3" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.0 h
+Greg: ask to delivery: 20260925-121150-norm-0103#3
+delivered: 09/25 09:12</title><circle cx="531.3" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.2 h
+Greg: ask to delivery: 20260925-122416-norm-0104#1
+delivered: 09/25 09:36</title><circle cx="542.8" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.2 h
+Greg: ask to delivery: 20260925-122416-norm-0104#2
+delivered: 09/25 09:36</title><circle cx="542.8" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.2 h
+Greg: ask to delivery: 20260925-122416-norm-0104#3
+delivered: 09/25 09:36</title><circle cx="542.8" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.1 h
+Greg: ask to delivery: 20260925-123342-norm-0105#1
+delivered: 09/25 09:42</title><circle cx="540.0" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.1 h
+Greg: ask to delivery: 20260925-123342-norm-0105#2
+delivered: 09/25 09:42</title><circle cx="540.0" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.2 h
+Greg: ask to delivery: 20260925-123941-norm-0107#1
+delivered: 09/25 09:51</title><circle cx="543.1" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.4 h
+Greg: ask to delivery: 20260925-123953-norm-0108#1
+delivered: 09/25 10:04</title><circle cx="554.0" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.2 h
+Greg: ask to delivery: 20260925-124014-norm-0109#1
+delivered: 09/25 09:53</title><circle cx="544.2" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.2 h
+Greg: ask to delivery: 20260925-130222-norm-0110#1
+delivered: 09/25 10:15</title><circle cx="543.7" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.2 h
+Greg: ask to delivery: 20260925-130222-norm-0110#2
+delivered: 09/25 10:15</title><circle cx="543.7" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.2 h
+Greg: ask to delivery: 20260925-130222-norm-0110#3
+delivered: 09/25 10:15</title><circle cx="543.7" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.2 h
+Greg: ask to delivery: 20260925-131125-norm-0111#1
+delivered: 09/25 10:23</title><circle cx="542.6" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.2 h
+Greg: ask to delivery: 20260925-131125-norm-0111#2
+delivered: 09/25 10:23</title><circle cx="542.6" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.2 h
+Greg: ask to delivery: 20260925-131125-norm-0111#3
+delivered: 09/25 10:23</title><circle cx="542.6" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>36 min
+Greg: ask to delivery: 20260925-131728-norm-0112#1
+delivered: 09/25 09:53</title><circle cx="495.6" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>36 min
+Greg: ask to delivery: 20260925-131728-norm-0112#2
+delivered: 09/25 09:53</title><circle cx="495.6" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>21 min
+Greg: ask to delivery: 20260925-134318-norm-0116#1
+delivered: 09/25 10:04</title><circle cx="459.0" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>21 min
+Greg: ask to delivery: 20260925-134318-norm-0116#2
+delivered: 09/25 10:04</title><circle cx="459.0" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>23 min
+Greg: ask to delivery: 20260925-141157-norm-0121#1
+delivered: 09/25 10:34</title><circle cx="463.6" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>19 min
+Greg: ask to delivery: 20260925-142344-norm-0122#1
+delivered: 09/25 10:43</title><circle cx="452.7" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>19 min
+Greg: ask to delivery: 20260925-142344-norm-0122#2
+delivered: 09/25 10:43</title><circle cx="452.7" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>19 min
+Greg: ask to delivery: 20260925-142344-norm-0122#3
+delivered: 09/25 10:43</title><circle cx="452.7" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>20 min
+Greg: ask to delivery: 20260925-144915-norm-0127#1
+delivered: 09/25 11:09</title><circle cx="455.8" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>38 min
+Greg: ask to delivery: 20260925-160516-norm-0131#1
+delivered: 09/25 12:43</title><circle cx="500.0" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>16 min
+Greg: ask to delivery: 20260925-165551-norm-0133#1
+delivered: 09/25 13:11</title><circle cx="438.6" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>16 min
+Greg: ask to delivery: 20260925-165551-norm-0133#2
+delivered: 09/25 13:11</title><circle cx="438.6" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>16 min
+Greg: ask to delivery: 20260925-165551-norm-0133#3
+delivered: 09/25 13:11</title><circle cx="438.6" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>16 min
+Greg: ask to delivery: 20260925-165551-norm-0133#4
+delivered: 09/25 13:11</title><circle cx="438.6" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>16 min
+Greg: ask to delivery: 20260925-165551-norm-0133#5
+delivered: 09/25 13:11</title><circle cx="438.6" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11 min
+Greg: ask to delivery: 20260925-171803-norm-0136#1
+delivered: 09/25 13:28</title><circle cx="411.9" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>22 min
+Greg: ask to delivery: 20260925-173201-norm-0138#1
+delivered: 09/25 13:53</title><circle cx="460.4" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>14 min
+Greg: ask to delivery: 20260925-184404-norm-0141#1
+delivered: 09/25 14:57</title><circle cx="429.1" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.0 h
+Greg: ask to delivery: 20260925-184405-norm-0142#1
+delivered: 09/25 15:44</title><circle cx="531.2" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.1 h
+Greg: ask to delivery: 20260925-184406-norm-0143#1
+delivered: 09/25 15:52</title><circle cx="539.7" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.4 h
+Greg: ask to delivery: 20260925-184407-norm-0144#1
+delivered: 09/25 16:07</title><circle cx="553.1" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.5 h
+Greg: ask to delivery: 20260925-190535-norm-0145#1
+delivered: 09/25 16:37</title><circle cx="559.7" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.5 h
+Greg: ask to delivery: 20260925-190535-norm-0145#2
+delivered: 09/25 16:37</title><circle cx="559.7" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.5 h
+Greg: ask to delivery: 20260925-190535-norm-0145#3
+delivered: 09/25 16:37</title><circle cx="559.7" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.5 h
+Greg: ask to delivery: 20260925-190535-norm-0145#4
+delivered: 09/25 16:37</title><circle cx="559.7" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.5 h
+Greg: ask to delivery: 20260925-190535-norm-0145#5
+delivered: 09/25 16:37</title><circle cx="559.7" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.5 h
+Greg: ask to delivery: 20260925-190535-norm-0145#6
+delivered: 09/25 16:37</title><circle cx="559.7" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>10 min
+Greg: ask to delivery: 20260925-193428-norm-0148#1
+delivered: 09/25 15:44</title><circle cx="409.5" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>18 min
+Greg: ask to delivery: 20260925-193429-norm-0149#1
+delivered: 09/25 15:52</title><circle cx="449.2" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>33 min
+Greg: ask to delivery: 20260925-193429-norm-0150#1
+delivered: 09/25 16:07</title><circle cx="489.8" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>28 min
+Greg: ask to delivery: 20260925-205356-norm-0156#1
+delivered: 09/25 17:22</title><circle cx="478.7" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>17 min
+Greg: ask to delivery: 20260925-210447-norm-0158#1
+delivered: 09/25 17:22</title><circle cx="445.5" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>4.2 h
+Greg: ask to delivery: 20260925-213343-norm-0161#1
+delivered: 09/25 21:45</title><circle cx="628.7" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>13.3 h
+Greg: ask to delivery: 20260925-213344-norm-0162#1
+delivered: 09/26 06:50</title><circle cx="707.6" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11 min
+Greg: ask to delivery: 20260926-112911-norm-0167#1
+delivered: 09/26 07:39</title><circle cx="411.3" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>13 min
+Greg: ask to delivery: 20260926-135832-norm-0169#1
+delivered: 09/26 10:11</title><circle cx="424.4" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>20 min
+Greg: ask to delivery: 20260926-141024-norm-0171#1
+delivered: 09/26 10:30</title><circle cx="454.5" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>53 min
+Greg: ask to delivery: 20260926-142306-norm-0172#1
+delivered: 09/26 11:16</title><circle cx="521.9" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>53 min
+Greg: ask to delivery: 20260926-142306-norm-0172#2
+delivered: 09/26 11:16</title><circle cx="521.9" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>56 min
+Greg: ask to delivery: 20260926-144301-norm-0174#1
+delivered: 09/26 11:39</title><circle cx="526.0" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>56 min
+Greg: ask to delivery: 20260926-144301-norm-0174#2
+delivered: 09/26 11:39</title><circle cx="526.0" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>22 min
+Greg: ask to delivery: 20260926-152325-norm-0177#1
+delivered: 09/26 11:45</title><circle cx="460.8" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>20 min
+Greg: ask to delivery: 20260926-160305-norm-0180#1
+delivered: 09/26 12:22</title><circle cx="454.5" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>36 min
+Greg: ask to delivery: 20260926-160306-norm-0181#1
+delivered: 09/26 12:38</title><circle cx="494.9" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>26 min
+Greg: ask to delivery: 20260926-162322-norm-0182#1
+delivered: 09/26 12:49</title><circle cx="472.5" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>17 min
+Greg: ask to delivery: 20260926-163643-norm-0183#1
+delivered: 09/26 12:54</title><circle cx="445.7" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>21 min
+Greg: ask to delivery: 20260926-164533-norm-0184#1
+delivered: 09/26 13:06</title><circle cx="457.0" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>31 min
+Greg: ask to delivery: 20260926-165930-norm-0185#1
+delivered: 09/26 13:30</title><circle cx="485.5" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>34 min
+Greg: ask to delivery: 20260926-165930-norm-0185#2
+delivered: 09/26 13:33</title><circle cx="491.3" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>31 min
+Greg: ask to delivery: 20260926-165930-norm-0185#3
+delivered: 09/26 13:30</title><circle cx="485.5" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>31 min
+Greg: ask to delivery: 20260926-165930-norm-0185#4
+delivered: 09/26 13:30</title><circle cx="485.5" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>19 min
+Greg: ask to delivery: 20260926-171744-norm-0188#1
+delivered: 09/26 13:36</title><circle cx="450.7" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Greg: ask to delivery: 20260926-173329-norm-0190#1
+delivered: 09/26 13:40</title><circle cx="387.9" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Greg: ask to delivery: 20260926-173329-norm-0190#2
+delivered: 09/26 13:40</title><circle cx="387.9" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>12 min
+Greg: ask to delivery: 20260926-174252-norm-0192#1
+delivered: 09/26 13:55</title><circle cx="421.0" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>6 min
+Greg: ask to delivery: 20260926-175336-norm-0193#1
+delivered: 09/26 13:59</title><circle cx="377.0" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>10 min
+Greg: ask to delivery: 20260926-175344-norm-0194#1
+delivered: 09/26 14:03</title><circle cx="405.8" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>10 min
+Greg: ask to delivery: 20260926-175344-norm-0194#2
+delivered: 09/26 14:03</title><circle cx="405.8" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>10 min
+Greg: ask to delivery: 20260926-175344-norm-0194#3
+delivered: 09/26 14:03</title><circle cx="405.8" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>10 min
+Greg: ask to delivery: 20260926-175344-norm-0194#4
+delivered: 09/26 14:03</title><circle cx="405.8" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>3 min
+Greg: ask to delivery: 20260926-180255-norm-0196#1
+delivered: 09/26 14:05</title><circle cx="313.7" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>54 min
+Greg: ask to delivery: 20260926-182141-norm-0199#1
+delivered: 09/26 15:15</title><circle cx="523.2" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.6 h
+Greg: ask to delivery: 20260926-182142-norm-0200#1
+delivered: 09/26 15:57</title><circle cx="562.2" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2.6 h
+Greg: ask to delivery: 20260926-182244-norm-0201#1
+delivered: 09/26 16:59</title><circle cx="596.2" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.1 h
+Greg: ask to delivery: 20260926-200848-norm-0205#1
+delivered: 09/26 17:17</title><circle cx="539.4" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>15 min
+Greg: ask to delivery: 20260926-211248-norm-0208#1
+delivered: 09/26 17:27</title><circle cx="434.1" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>36 min
+Greg: ask to delivery: 20260926-214210-norm-0214#1
+delivered: 09/26 18:18</title><circle cx="496.4" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>32 min
+Greg: ask to delivery: 20260926-223841-norm-0218#1
+delivered: 09/26 19:10</title><circle cx="487.8" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>14 min
+Greg: ask to delivery: 20260926-225632-norm-0219#1
+delivered: 09/26 19:10</title><circle cx="432.4" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>14 min
+Greg: ask to delivery: 20260926-225632-norm-0219#2
+delivered: 09/26 19:10</title><circle cx="432.4" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>14 min
+Greg: ask to delivery: 20260926-225632-norm-0219#3
+delivered: 09/26 19:10</title><circle cx="432.4" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>14 min
+Greg: ask to delivery: 20260926-225632-norm-0219#4
+delivered: 09/26 19:10</title><circle cx="432.4" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>14 min
+Greg: ask to delivery: 20260926-225632-norm-0219#5
+delivered: 09/26 19:10</title><circle cx="432.4" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>49 min
+Greg: ask to delivery: 20260926-225754-norm-0220#1
+delivered: 09/26 19:47</title><circle cx="517.2" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.1 h
+Greg: ask to delivery: 20260926-231356-norm-0221#1
+delivered: 09/26 20:18</title><circle cx="535.6" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>33 min
+Greg: ask to delivery: 20260926-233124-norm-0222#1
+delivered: 09/26 20:04</title><circle cx="489.1" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>33 min
+Greg: ask to delivery: 20260926-233124-norm-0222#2
+delivered: 09/26 20:04</title><circle cx="489.1" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>33 min
+Greg: ask to delivery: 20260926-233124-norm-0222#3
+delivered: 09/26 20:04</title><circle cx="489.1" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>33 min
+Greg: ask to delivery: 20260926-233124-norm-0222#4
+delivered: 09/26 20:04</title><circle cx="489.1" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>14 min
+Greg: ask to delivery: 20260926-233306-norm-0223#1
+delivered: 09/26 19:47</title><circle cx="432.0" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>14 min
+Greg: ask to delivery: 20260926-233306-norm-0223#2
+delivered: 09/26 19:47</title><circle cx="432.0" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>14 min
+Greg: ask to delivery: 20260926-233306-norm-0223#3
+delivered: 09/26 19:47</title><circle cx="432.0" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>30 min
+Greg: ask to delivery: 20260926-235232-norm-0224#1
+delivered: 09/26 20:22</title><circle cx="483.3" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>30 min
+Greg: ask to delivery: 20260926-235232-norm-0224#2
+delivered: 09/26 20:22</title><circle cx="483.3" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>24 min
+Greg: ask to delivery: 20260927-001124-norm-0227#1
+delivered: 09/26 20:35</title><circle cx="468.8" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>44 min
+Greg: ask to delivery: 20260927-001233-norm-0228#1
+delivered: 09/26 20:56</title><circle cx="508.7" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>53 min
+Greg: ask to delivery: 20260927-001512-norm-0230#1
+delivered: 09/26 21:07</title><circle cx="521.6" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.1 h
+Greg: ask to delivery: 20260927-002240-norm-0231#1
+delivered: 09/26 21:26</title><circle cx="535.1" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>14.0 h
+Greg: ask to delivery: 20260927-002956-norm-0232#1
+delivered: 09/27 10:32</title><circle cx="711.5" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>14.0 h
+Greg: ask to delivery: 20260927-002956-norm-0232#2
+delivered: 09/27 10:32</title><circle cx="711.5" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.1 h
+Greg: ask to delivery: 20260927-004641-norm-0235#1
+delivered: 09/26 21:53</title><circle cx="537.6" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.1 h
+Greg: ask to delivery: 20260927-004641-norm-0235#2
+delivered: 09/26 21:53</title><circle cx="537.6" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.1 h
+Greg: ask to delivery: 20260927-004641-norm-0235#3
+delivered: 09/26 21:53</title><circle cx="537.6" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.1 h
+Greg: ask to delivery: 20260927-004641-norm-0235#4
+delivered: 09/26 21:53</title><circle cx="537.6" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9.3 h
+Greg: ask to delivery: 20260927-010634-norm-0237#1
+delivered: 09/27 06:26</title><circle cx="683.4" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9.3 h
+Greg: ask to delivery: 20260927-010634-norm-0237#2
+delivered: 09/27 06:26</title><circle cx="683.4" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9.3 h
+Greg: ask to delivery: 20260927-010634-norm-0237#3
+delivered: 09/27 06:26</title><circle cx="683.4" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9.2 h
+Greg: ask to delivery: 20260927-011328-norm-0239#1
+delivered: 09/27 06:26</title><circle cx="682.6" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9.2 h
+Greg: ask to delivery: 20260927-011428-norm-0240#1
+delivered: 09/27 06:28</title><circle cx="682.8" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9.2 h
+Greg: ask to delivery: 20260927-011428-norm-0240#2
+delivered: 09/27 06:28</title><circle cx="682.8" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9.2 h
+Greg: ask to delivery: 20260927-011428-norm-0240#3
+delivered: 09/27 06:28</title><circle cx="682.8" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9.2 h
+Greg: ask to delivery: 20260927-011428-norm-0240#4
+delivered: 09/27 06:28</title><circle cx="682.8" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11.3 h
+Greg: ask to delivery: 20260927-014137-norm-0242#1
+delivered: 09/27 08:59</title><circle cx="696.5" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11.3 h
+Greg: ask to delivery: 20260927-014137-norm-0242#2
+delivered: 09/27 08:59</title><circle cx="696.5" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11.3 h
+Greg: ask to delivery: 20260927-014137-norm-0242#3
+delivered: 09/27 08:59</title><circle cx="696.5" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11.3 h
+Greg: ask to delivery: 20260927-014137-norm-0242#4
+delivered: 09/27 08:59</title><circle cx="696.5" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11.3 h
+Greg: ask to delivery: 20260927-033739-norm-0247#1
+delivered: 09/27 10:55</title><circle cx="696.6" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11.6 h
+Greg: ask to delivery: 20260927-033740-norm-0248#1
+delivered: 09/27 11:11</title><circle cx="698.2" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7.5 h
+Greg: ask to delivery: 20260927-033741-norm-0249#1
+delivered: 09/27 07:06</title><circle cx="668.3" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.5 h
+Greg: ask to delivery: 20260927-090945-norm-0253#1
+delivered: 09/27 06:41</title><circle cx="559.7" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.5 h
+Greg: ask to delivery: 20260927-090945-norm-0253#2
+delivered: 09/27 06:41</title><circle cx="559.7" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>41 min
+Greg: ask to delivery: 20260927-111647-norm-0263#1
+delivered: 09/27 07:58</title><circle cx="504.9" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>53 min
+Greg: ask to delivery: 20260927-111650-norm-0264#1
+delivered: 09/27 08:09</title><circle cx="521.4" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.7 h
+Greg: ask to delivery: 20260927-111653-norm-0265#1
+delivered: 09/27 08:59</title><circle cx="567.0" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2.5 h
+Greg: ask to delivery: 20260927-112918-norm-0269#1
+delivered: 09/27 10:00</title><circle cx="593.8" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2.5 h
+Greg: ask to delivery: 20260927-112918-norm-0269#2
+delivered: 09/27 10:00</title><circle cx="593.8" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.8 h
+Greg: ask to delivery: 20260927-113717-norm-0270#1
+delivered: 09/27 09:24</title><circle cx="570.4" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2.0 h
+Greg: ask to delivery: 20260927-113718-norm-0271#1
+delivered: 09/27 09:34</title><circle cx="576.5" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2.1 h
+Greg: ask to delivery: 20260927-113719-norm-0272#1
+delivered: 09/27 09:45</title><circle cx="582.4" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.3 h
+Greg: ask to delivery: 20260927-114805-norm-0273#1
+delivered: 09/27 09:03</title><circle cx="546.2" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>15 min
+Greg: ask to delivery: 20260927-120919-norm-0278#1
+delivered: 09/27 08:23</title><circle cx="434.0" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>13 min
+Greg: ask to delivery: 20260927-122221-norm-0280#1
+delivered: 09/27 08:35</title><circle cx="426.3" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2.1 h
+Greg: ask to delivery: 20260927-131305-norm-0288#1
+delivered: 09/27 11:22</title><circle cx="582.9" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2.9 h
+Greg: ask to delivery: 20260927-131311-norm-0289#1
+delivered: 09/27 12:08</title><circle cx="603.9" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>3.2 h
+Greg: ask to delivery: 20260927-131515-norm-0290#1
+delivered: 09/27 12:25</title><circle cx="609.6" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>3.3 h
+Greg: ask to delivery: 20260927-132242-norm-0291#1
+delivered: 09/27 12:39</title><circle cx="611.7" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2.8 h
+Greg: ask to delivery: 20260927-140025-norm-0294#1
+delivered: 09/27 12:47</title><circle cx="600.8" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.6 h
+Greg: ask to delivery: 20260927-152115-norm-0302#1
+delivered: 09/27 12:55</title><circle cx="561.2" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.4 h
+Greg: ask to delivery: 20260927-154520-norm-0303#1
+delivered: 09/27 13:07</title><circle cx="551.9" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.6 h
+Greg: ask to delivery: 20260927-154526-norm-0304#1
+delivered: 09/27 13:18</title><circle cx="560.6" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.6 h
+Greg: ask to delivery: 20260927-155258-norm-0305#1
+delivered: 09/27 13:30</title><circle cx="563.9" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.6 h
+Greg: ask to delivery: 20260927-155258-norm-0305#2
+delivered: 09/27 13:30</title><circle cx="563.9" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.6 h
+Greg: ask to delivery: 20260927-155258-norm-0305#3
+delivered: 09/27 13:30</title><circle cx="563.9" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.3 h
+Greg: ask to delivery: 20260927-162000-norm-0306#1
+delivered: 09/27 13:39</title><circle cx="549.7" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.3 h
+Greg: ask to delivery: 20260927-164309-norm-0307#1
+delivered: 09/27 13:59</title><circle cx="546.9" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>30 min
+Greg: ask to delivery: 20260927-175054-norm-0316#1
+delivered: 09/27 14:20</title><circle cx="482.7" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>23 min
+Greg: ask to delivery: 20260927-181218-norm-0318#1
+delivered: 09/27 14:35</title><circle cx="465.3" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>34 min
+Greg: ask to delivery: 20260927-181219-norm-0319#1
+delivered: 09/27 14:46</title><circle cx="491.7" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>51 min
+Greg: ask to delivery: 20260927-181227-norm-0320#1
+delivered: 09/27 15:03</title><circle cx="519.5" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.3 h
+Greg: ask to delivery: 20260927-181848-norm-0321#1
+delivered: 09/27 15:36</title><circle cx="548.1" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>22 min
+Greg: ask to delivery: 20260927-193844-norm-0325#1
+delivered: 09/27 16:00</title><circle cx="461.2" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>28 min
+Greg: ask to delivery: 20260927-194331-norm-0326#1
+delivered: 09/27 16:11</title><circle cx="478.7" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>35 min
+Greg: ask to delivery: 20260927-195034-norm-0328#1
+delivered: 09/27 16:25</title><circle cx="494.0" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>41 min
+Greg: ask to delivery: 20260927-195035-norm-0329#1
+delivered: 09/27 16:31</title><circle cx="503.7" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>42 min
+Greg: ask to delivery: 20260927-201146-norm-0330#1
+delivered: 09/27 16:53</title><circle cx="506.0" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>37 min
+Greg: ask to delivery: 20260927-203824-norm-0332#1
+delivered: 09/27 17:14</title><circle cx="496.4" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>54 min
+Greg: ask to delivery: 20260927-205607-norm-0334#1
+delivered: 09/27 17:49</title><circle cx="523.1" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>57 min
+Greg: ask to delivery: 20260927-205924-norm-0335#1
+delivered: 09/27 17:56</title><circle cx="526.7" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>46 min
+Greg: ask to delivery: 20260927-211741-norm-0337#1
+delivered: 09/27 18:03</title><circle cx="511.6" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.0 h
+Greg: ask to delivery: 20260927-211758-norm-0338#1
+delivered: 09/27 18:19</title><circle cx="532.6" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.0 h
+Greg: ask to delivery: 20260927-212304-norm-0341#1
+delivered: 09/27 18:24</title><circle cx="531.7" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.2 h
+Greg: ask to delivery: 20260927-212734-norm-0342#1
+delivered: 09/27 18:40</title><circle cx="543.6" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.2 h
+Greg: ask to delivery: 20260927-212734-norm-0342#2
+delivered: 09/27 18:40</title><circle cx="543.6" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.2 h
+Greg: ask to delivery: 20260927-212734-norm-0342#3
+delivered: 09/27 18:40</title><circle cx="543.6" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>56 min
+Greg: ask to delivery: 20260927-215259-norm-0343#1
+delivered: 09/27 18:48</title><circle cx="525.5" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.1 h
+Greg: ask to delivery: 20260927-215305-norm-0344#1
+delivered: 09/27 18:56</title><circle cx="534.6" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.3 h
+Greg: ask to delivery: 20260927-215808-norm-0345#1
+delivered: 09/27 19:14</title><circle cx="547.2" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.2 h
+Greg: ask to delivery: 20260927-221613-norm-0346#1
+delivered: 09/27 19:28</title><circle cx="543.3" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.4 h
+Greg: ask to delivery: 20260927-221724-norm-0347#1
+delivered: 09/27 19:40</title><circle cx="552.9" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.4 h
+Greg: ask to delivery: 20260927-221724-norm-0347#2
+delivered: 09/27 19:40</title><circle cx="552.9" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.4 h
+Greg: ask to delivery: 20260927-221724-norm-0347#3
+delivered: 09/27 19:40</title><circle cx="552.9" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.4 h
+Greg: ask to delivery: 20260927-222241-norm-0348#1
+delivered: 09/27 19:48</title><circle cx="555.3" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>19 min
+Greg: ask to delivery: 20260927-233632-norm-0350#1
+delivered: 09/27 19:55</title><circle cx="453.0" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>23 min
+Greg: ask to delivery: 20260927-234435-norm-0352#1
+delivered: 09/27 20:07</title><circle cx="465.3" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>23 min
+Greg: ask to delivery: 20260927-234435-norm-0352#2
+delivered: 09/27 20:07</title><circle cx="465.3" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>23 min
+Greg: ask to delivery: 20260927-234435-norm-0352#3
+delivered: 09/27 20:07</title><circle cx="465.3" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>12 min
+Greg: ask to delivery: 20260928-001242-norm-0358#1
+delivered: 09/27 20:24</title><circle cx="421.4" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>22 min
+Greg: ask to delivery: 20260928-002145-norm-0361#1
+delivered: 09/27 20:43</title><circle cx="460.9" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>22 min
+Greg: ask to delivery: 20260928-002145-norm-0361#2
+delivered: 09/27 20:43</title><circle cx="460.9" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>42 min
+Greg: ask to delivery: 20260928-002208-norm-0362#1
+delivered: 09/27 21:03</title><circle cx="505.4" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>42 min
+Greg: ask to delivery: 20260928-002208-norm-0362#2
+delivered: 09/27 21:03</title><circle cx="505.4" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>42 min
+Greg: ask to delivery: 20260928-002208-norm-0362#3
+delivered: 09/27 21:03</title><circle cx="505.4" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>42 min
+Greg: ask to delivery: 20260928-002208-norm-0362#4
+delivered: 09/27 21:03</title><circle cx="505.4" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>22 min
+Greg: ask to delivery: 20260928-013808-norm-0364#1
+delivered: 09/27 22:00</title><circle cx="462.1" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>22 min
+Greg: ask to delivery: 20260928-013808-norm-0364#2
+delivered: 09/27 22:00</title><circle cx="462.1" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>37 min
+Greg: ask to delivery: 20260928-014612-norm-0365#1
+delivered: 09/27 22:22</title><circle cx="496.7" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>37 min
+Greg: ask to delivery: 20260928-014612-norm-0365#2
+delivered: 09/27 22:22</title><circle cx="496.7" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>37 min
+Greg: ask to delivery: 20260928-014612-norm-0365#3
+delivered: 09/27 22:22</title><circle cx="496.7" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>16 min
+Greg: ask to delivery: 20260928-021847-norm-0367#1
+delivered: 09/27 22:34</title><circle cx="439.1" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>17 min
+Greg: ask to delivery: 20260928-030247-norm-0370#1
+delivered: 09/27 23:19</title><circle cx="443.5" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>29 min
+Greg: ask to delivery: 20260928-030253-norm-0371#1
+delivered: 09/27 23:31</title><circle cx="480.3" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9 min
+Greg: ask to delivery: 20260928-032937-norm-0372#1
+delivered: 09/27 23:38</title><circle cx="399.6" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>23 min
+Greg: ask to delivery: 20260928-033423-norm-0377#1
+delivered: 09/27 23:56</title><circle cx="463.4" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>30 min
+Greg: ask to delivery: 20260928-035747-norm-0381#1
+delivered: 09/28 00:27</title><circle cx="481.9" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>21 min
+Greg: ask to delivery: 20260928-041734-norm-0384#1
+delivered: 09/28 00:38</title><circle cx="458.8" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>24 min
+Greg: ask to delivery: 20260928-044727-norm-0385#1
+delivered: 09/28 01:11</title><circle cx="467.4" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>19 min
+Greg: ask to delivery: 20260928-050008-norm-0386#1
+delivered: 09/28 01:18</title><circle cx="450.9" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>20 min
+Greg: ask to delivery: 20260928-051147-norm-0387#1
+delivered: 09/28 01:31</title><circle cx="455.8" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>20 min
+Greg: ask to delivery: 20260928-051147-norm-0387#2
+delivered: 09/28 01:31</title><circle cx="455.8" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>28 min
+Greg: ask to delivery: 20260928-054347-norm-0389#1
+delivered: 09/28 02:11</title><circle cx="478.6" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Greg: ask to delivery: 20260928-064401-norm-0395#1
+delivered: 09/28 02:52</title><circle cx="394.0" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>14 min
+Greg: ask to delivery: 20260928-064404-norm-0396#1
+delivered: 09/28 02:57</title><circle cx="429.0" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>12 min
+Greg: ask to delivery: 20260928-070359-norm-0399#1
+delivered: 09/28 03:16</title><circle cx="422.4" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>10 min
+Greg: ask to delivery: 20260928-072622-norm-0402#1
+delivered: 09/28 03:36</title><circle cx="410.3" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>10 min
+Greg: ask to delivery: 20260928-075636-norm-0404#1
+delivered: 09/28 04:07</title><circle cx="410.6" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>16 min
+Greg: ask to delivery: 20260928-075729-norm-0405#1
+delivered: 09/28 04:13</title><circle cx="439.9" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>14 min
+Greg: ask to delivery: 20260928-083838-norm-0407#1
+delivered: 09/28 04:52</title><circle cx="429.6" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>19 min
+Greg: ask to delivery: 20260928-084116-norm-0408#1
+delivered: 09/28 05:00</title><circle cx="452.6" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>36 min
+Greg: ask to delivery: 20260928-084119-norm-0409#1
+delivered: 09/28 05:17</title><circle cx="496.3" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>26 min
+Greg: ask to delivery: 20260928-103156-norm-0413#1
+delivered: 09/28 06:58</title><circle cx="473.4" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>26 min
+Greg: ask to delivery: 20260928-103156-norm-0413#2
+delivered: 09/28 06:58</title><circle cx="473.4" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>26 min
+Greg: ask to delivery: 20260928-103156-norm-0413#3
+delivered: 09/28 06:58</title><circle cx="473.4" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>32 min
+Greg: ask to delivery: 20260928-103217-norm-0414#1
+delivered: 09/28 07:04</title><circle cx="488.4" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>25 min
+Greg: ask to delivery: 20260928-104934-norm-0415#1
+delivered: 09/28 07:14</title><circle cx="470.8" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11 min
+Greg: ask to delivery: 20260928-110900-norm-0418#1
+delivered: 09/28 07:19</title><circle cx="411.7" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>13 min
+Greg: ask to delivery: 20260928-113353-norm-0422#1
+delivered: 09/28 07:46</title><circle cx="424.4" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>10 min
+Greg: ask to delivery: 20260928-114300-norm-0423#1
+delivered: 09/28 07:52</title><circle cx="407.5" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>16 min
+Greg: ask to delivery: 20260928-121814-norm-0426#1
+delivered: 09/28 08:34</title><circle cx="440.7" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>16 min
+Greg: ask to delivery: 20260928-121814-norm-0426#2
+delivered: 09/28 08:34</title><circle cx="440.7" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>16 min
+Greg: ask to delivery: 20260928-121814-norm-0426#3
+delivered: 09/28 08:34</title><circle cx="440.7" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Greg: ask to delivery: 20260928-204533-norm-0432#1
+delivered: 09/28 16:50</title><circle cx="361.6" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Greg: ask to delivery: 20260928-205534-norm-0435#1
+delivered: 09/28 17:03</title><circle cx="395.7" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Greg: ask to delivery: 20260928-205534-norm-0435#2
+delivered: 09/28 17:03</title><circle cx="395.7" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Greg: ask to delivery: 20260928-205540-norm-0436#1
+delivered: 09/28 17:03</title><circle cx="394.8" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Greg: ask to delivery: 20260928-205540-norm-0436#2
+delivered: 09/28 17:03</title><circle cx="394.8" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Greg: ask to delivery: 20260928-205540-norm-0436#3
+delivered: 09/28 17:03</title><circle cx="394.8" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Greg: ask to delivery: 20260928-205540-norm-0436#4
+delivered: 09/28 17:03</title><circle cx="394.8" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Greg: ask to delivery: 20260928-205540-norm-0436#5
+delivered: 09/28 17:03</title><circle cx="394.8" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>16 min
+Greg: ask to delivery: 20260928-213006-norm-0440#1
+delivered: 09/28 17:46</title><circle cx="441.5" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11 min
+Greg: ask to delivery: 20260928-224221-norm-0443#1
+delivered: 09/28 18:53</title><circle cx="413.2" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9 min
+Greg: ask to delivery: 20260928-231410-norm-0445#1
+delivered: 09/28 19:22</title><circle cx="397.4" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9 min
+Greg: ask to delivery: 20260928-231410-norm-0445#2
+delivered: 09/28 19:22</title><circle cx="397.4" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11 min
+Greg: ask to delivery: 20260928-233010-norm-0447#1
+delivered: 09/28 19:41</title><circle cx="414.7" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>18 min
+Greg: ask to delivery: 20260928-233014-norm-0448#1
+delivered: 09/28 19:47</title><circle cx="446.8" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>6 min
+Greg: ask to delivery: 20260929-005005-norm-0452#1
+delivered: 09/28 20:55</title><circle cx="370.8" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11 min
+Greg: ask to delivery: 20260929-013339-norm-0454#1
+delivered: 09/28 21:44</title><circle cx="415.3" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>21 min
+Greg: ask to delivery: 20260929-015154-norm-0456#1
+delivered: 09/28 22:12</title><circle cx="457.8" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>16 min
+Greg: ask to delivery: 20260929-031125-norm-0459#1
+delivered: 09/28 23:27</title><circle cx="440.4" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>24 min
+Greg: ask to delivery: 20260929-031129-norm-0460#1
+delivered: 09/28 23:35</title><circle cx="468.4" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>30 min
+Greg: ask to delivery: 20260929-041720-norm-0464#1
+delivered: 09/29 00:47</title><circle cx="482.2" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>58 min
+Greg: ask to delivery: 20260929-041721-norm-0465#1
+delivered: 09/29 01:15</title><circle cx="528.2" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>50 min
+Greg: ask to delivery: 20260929-043515-norm-0466#1
+delivered: 09/29 01:25</title><circle cx="517.7" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>36 min
+Greg: ask to delivery: 20260929-045248-norm-0468#1
+delivered: 09/29 01:28</title><circle cx="495.1" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>35 min
+Greg: ask to delivery: 20260929-050219-norm-0469#1
+delivered: 09/29 01:37</title><circle cx="494.5" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>35 min
+Greg: ask to delivery: 20260929-050219-norm-0469#2
+delivered: 09/29 01:37</title><circle cx="494.5" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>35 min
+Greg: ask to delivery: 20260929-050219-norm-0469#3
+delivered: 09/29 01:37</title><circle cx="494.5" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>42 min
+Greg: ask to delivery: 20260929-050231-norm-0470#1
+delivered: 09/29 01:44</title><circle cx="505.9" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>42 min
+Greg: ask to delivery: 20260929-050231-norm-0470#2
+delivered: 09/29 01:44</title><circle cx="505.9" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>42 min
+Greg: ask to delivery: 20260929-050231-norm-0470#3
+delivered: 09/29 01:44</title><circle cx="505.9" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>42 min
+Greg: ask to delivery: 20260929-050231-norm-0470#4
+delivered: 09/29 01:44</title><circle cx="505.9" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>30 min
+Greg: ask to delivery: 20260929-052111-norm-0474#1
+delivered: 09/29 01:50</title><circle cx="482.5" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>32 min
+Greg: ask to delivery: 20260929-052119-norm-0475#1
+delivered: 09/29 01:53</title><circle cx="487.4" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11 min
+Greg: ask to delivery: 20260929-061939-norm-0485#1
+delivered: 09/29 02:30</title><circle cx="412.7" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>17 min
+Greg: ask to delivery: 20260929-061940-norm-0486#1
+delivered: 09/29 02:36</title><circle cx="444.1" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>22 min
+Greg: ask to delivery: 20260929-061944-norm-0487#1
+delivered: 09/29 02:41</title><circle cx="461.7" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>12 min
+Greg: ask to delivery: 20260929-063644-norm-0490#1
+delivered: 09/29 02:48</title><circle cx="417.4" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>14 min
+Greg: ask to delivery: 20260929-084319-norm-0498#1
+delivered: 09/29 04:56</title><circle cx="428.5" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>9 min
+Greg: ask to delivery: 20260929-121824-norm-0505#1
+delivered: 09/29 08:27</title><circle cx="403.6" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>23 min
+Greg: ask to delivery: 20260929-131850-norm-0510#1
+delivered: 09/29 09:42</title><circle cx="465.3" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>22 min
+Greg: ask to delivery: 20260929-135324-norm-0514#1
+delivered: 09/29 10:15</title><circle cx="460.7" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>16 min
+Greg: ask to delivery: 20260929-143856-norm-0517#1
+delivered: 09/29 10:55</title><circle cx="441.1" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>18 min
+Greg: ask to delivery: 20260929-183010-norm-0541#1
+delivered: 09/29 14:48</title><circle cx="449.6" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>13 min
+Greg: ask to delivery: 20260929-183944-norm-0543#1
+delivered: 09/29 14:52</title><circle cx="425.9" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>10 min
+Greg: ask to delivery: 20260929-185103-norm-0550#1
+delivered: 09/29 15:01</title><circle cx="409.6" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>14 min
+Greg: ask to delivery: 20260929-195400-norm-0559#1
+delivered: 09/29 16:07</title><circle cx="428.4" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>30 min
+Greg: ask to delivery: 20260930-104739-norm-0578#1
+delivered: 09/30 07:17</title><circle cx="481.8" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>29 min
+Greg: ask to delivery: 20260930-104748-norm-0579#1
+delivered: 09/30 07:17</title><circle cx="481.5" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>29 min
+Greg: ask to delivery: 20260930-104749-norm-0580#1
+delivered: 09/30 07:17</title><circle cx="481.5" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>22 min
+Greg: ask to delivery: 20260930-133833-norm-0595#1
+delivered: 09/30 10:00</title><circle cx="462.2" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>16 min
+Greg: ask to delivery: 20260930-205852-norm-0601#1
+delivered: 09/30 17:15</title><circle cx="440.7" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>13 min
+Greg: ask to delivery: 20260930-222748-norm-0604#1
+delivered: 09/30 18:41</title><circle cx="428.1" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>15 min
+Greg: ask to delivery: 20260930-222800-norm-0605#1
+delivered: 09/30 18:42</title><circle cx="433.3" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>4 min
+Greg: ask to delivery: 20261001-162530-norm-0616#1
+delivered: 10/01 12:29</title><circle cx="352.3" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>7 min
+Greg: ask to delivery: 20261001-164427-norm-0618#1
+delivered: 10/01 12:51</title><circle cx="382.6" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>5 min
+Greg: ask to delivery: 20261001-170904-norm-0621#1
+delivered: 10/01 13:13</title><circle cx="353.8" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>17 min
+Greg: ask to delivery: 20261001-172225-norm-0623#1
+delivered: 10/01 13:39</title><circle cx="445.0" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>15 min
+Greg: ask to delivery: 20261001-175251-norm-0626#1
+delivered: 10/01 14:07</title><circle cx="435.7" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11 min
+Greg: ask to delivery: 20261001-185038-norm-0630#1
+delivered: 10/01 15:01</title><circle cx="411.4" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>21 min
+Greg: ask to delivery: 20261001-192603-norm-0634#1
+delivered: 10/01 15:46</title><circle cx="457.0" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>21 min
+Greg: ask to delivery: 20261001-200216-norm-0636#1
+delivered: 10/01 16:22</title><circle cx="457.0" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>21 min
+Greg: ask to delivery: 20261001-200216-norm-0636#2
+delivered: 10/01 16:22</title><circle cx="457.0" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>21 min
+Greg: ask to delivery: 20261001-200216-norm-0636#3
+delivered: 10/01 16:22</title><circle cx="457.0" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11 min
+Greg: ask to delivery: 20261001-204317-norm-0639#1
+delivered: 10/01 16:54</title><circle cx="415.7" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>15 min
+Greg: ask to delivery: 20261001-213758-norm-0643#1
+delivered: 10/01 17:53</title><circle cx="436.7" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Greg: ask to delivery: 20261001-224207-norm-0648#1
+delivered: 10/01 18:49</title><circle cx="390.3" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Greg: ask to delivery: 20261001-224225-norm-0649#1
+delivered: 10/01 18:50</title><circle cx="389.8" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>18 min
+Greg: ask to delivery: 20261001-225527-norm-0653#1
+delivered: 10/01 19:13</title><circle cx="448.1" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>18 min
+Greg: ask to delivery: 20261001-225534-norm-0654#1
+delivered: 10/01 19:13</title><circle cx="449.4" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>15 min
+Greg: ask to delivery: 20261001-232542-norm-0659#1
+delivered: 10/01 19:40</title><circle cx="436.2" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>15 min
+Greg: ask to delivery: 20261001-232547-norm-0660#1
+delivered: 10/01 19:40</title><circle cx="435.9" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Greg: ask to delivery: 20261001-235450-norm-0663#1
+delivered: 10/01 20:02</title><circle cx="390.9" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>8 min
+Greg: ask to delivery: 20261001-235457-norm-0664#1
+delivered: 10/01 20:02</title><circle cx="389.8" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>13 min
+Greg: ask to delivery: 20261002-105913-norm-0672#1
+delivered: 10/02 07:12</title><circle cx="427.8" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>13 min
+Greg: ask to delivery: 20261002-120004-norm-0682#1
+delivered: 10/02 08:13</title><circle cx="425.4" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>12 min
+Greg: ask to delivery: 20261002-122725-norm-0684#1
+delivered: 10/02 08:39</title><circle cx="419.8" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>21 min
+Greg: ask to delivery: 20261002-124306-norm-0685#1
+delivered: 10/02 09:04</title><circle cx="459.0" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>31 min
+Greg: ask to delivery: 20261002-130107-norm-0687#1
+delivered: 10/02 09:32</title><circle cx="486.2" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>57 min
+Greg: ask to delivery: 20261002-131933-norm-0691#1
+delivered: 10/02 10:16</title><circle cx="526.6" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.5 h
+Greg: ask to delivery: 20261002-131942-norm-0692#1
+delivered: 10/02 10:52</title><circle cx="560.2" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.8 h
+Greg: ask to delivery: 20261002-131943-norm-0693#1
+delivered: 10/02 11:07</title><circle cx="570.5" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.8 h
+Greg: ask to delivery: 20261002-134718-norm-0697#1
+delivered: 10/02 11:34</title><circle cx="569.9" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>3.5 h
+Greg: ask to delivery: 20261002-140140-norm-0699#1
+delivered: 10/02 13:32</title><circle cx="616.5" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>3.8 h
+Greg: ask to delivery: 20261002-140142-norm-0700#1
+delivered: 10/02 13:52</title><circle cx="622.7" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>4.2 h
+Greg: ask to delivery: 20261002-140143-norm-0701#1
+delivered: 10/02 14:14</title><circle cx="629.0" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2.9 h
+Greg: ask to delivery: 20261002-151937-norm-0714#1
+delivered: 10/02 14:14</title><circle cx="603.8" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>6.5 h
+Greg: ask to delivery: 20261002-152028-norm-0715#1
+delivered: 10/02 17:50</title><circle cx="658.6" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>22 min
+Greg: ask to delivery: 20261002-154221-norm-0717#1
+delivered: 10/02 12:04</title><circle cx="462.9" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2.6 h
+Greg: ask to delivery: 20261002-163532-norm-0722#1
+delivered: 10/02 15:13</title><circle cx="596.6" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.3 h
+Greg: ask to delivery: 20261002-183312-norm-0742#1
+delivered: 10/02 15:53</title><circle cx="550.2" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.6 h
+Greg: ask to delivery: 20261002-183317-norm-0743#1
+delivered: 10/02 16:07</title><circle cx="561.1" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>2.9 h
+Greg: ask to delivery: 20261002-190353-norm-0749#1
+delivered: 10/02 17:55</title><circle cx="602.3" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>39 min
+Greg: ask to delivery: 20261002-223651-norm-0765#1
+delivered: 10/02 19:16</title><circle cx="501.3" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>39 min
+Greg: ask to delivery: 20261002-223652-norm-0766#1
+delivered: 10/02 19:16</title><circle cx="501.3" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>43 min
+Greg: ask to delivery: 20261002-223703-norm-0767#1
+delivered: 10/02 19:19</title><circle cx="507.1" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>17 min
+Greg: ask to delivery: 20261002-232709-norm-0776#1
+delivered: 10/02 19:43</title><circle cx="442.3" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>6 min
+Greg: ask to delivery: 20261002-234425-norm-0781#1
+delivered: 10/02 19:49</title><circle cx="367.6" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>11 min
+Greg: ask to delivery: 20261002-234431-norm-0782#1
+delivered: 10/02 19:55</title><circle cx="411.5" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>24 min
+Greg: ask to delivery: 20261002-234437-norm-0783#1
+delivered: 10/02 20:08</title><circle cx="467.7" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>1.2 h
+Greg: ask to delivery: 20261002-235627-norm-0788#1
+delivered: 10/02 21:06</title><circle cx="541.0" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>34 min
+Greg: ask to delivery: 20261002-235629-norm-0789#1
+delivered: 10/02 20:30</title><circle cx="492.2" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>10.6 h
+Greg: ask to delivery: 20261002-235630-norm-0790#1
+delivered: 10/03 06:33</title><circle cx="692.3" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>10 min
+Greg: ask to delivery: 20261003-103637-norm-0832#1
+delivered: 10/03 06:46</title><circle cx="406.8" cy="213.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>16 min
+Greg: ask to delivery: 20261003-103949-norm-0833#1
+delivered: 10/03 06:55</title><circle cx="438.8" cy="199.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>17 min
+Greg: ask to delivery: 20261003-110101-norm-0845#1
+delivered: 10/03 07:17</title><circle cx="443.7" cy="206.5" r="3.5" fill="#d95926" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="p50"><title>30 min
+Greg: ask to delivery: p50 of 392</title><line x1="483.0" y1="177.5" x2="483.0" y2="241.5" stroke="#d9e3ea" stroke-width="2"/></g>
+<g class="m" data-s="p90"><title>1.8 h
+Greg: ask to delivery: p90 of 392</title><line x1="570.4" y1="177.5" x2="570.4" y2="241.5" stroke="#d9e3ea" stroke-width="2" stroke-dasharray="4 3"/></g>
+<rect x="250" y="76" width="626" height="178" fill="none" stroke="#34495a"/>
+<g class="lg" data-s="p50">
+<line x1="250" y1="49" x2="268" y2="49" stroke="#d9e3ea" stroke-width="2.5"/>
+<text x="274.0" y="54.0" fill="#d9e3ea" font-size="14" text-anchor="start">p50</text>
+</g>
+<g class="lg" data-s="p90">
+<line x1="313" y1="49" x2="331" y2="49" stroke="#d9e3ea" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="337.0" y="54.0" fill="#d9e3ea" font-size="14" text-anchor="start">p90</text>
+</g>
 </svg>

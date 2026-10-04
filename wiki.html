@@ -29,6 +29,143 @@
   main pre code { background: none; padding: 0; }
   main blockquote { margin: 1rem 0; padding: .2rem 1rem; border-left: 3px solid var(--link); color: var(--dim); }
   main img { max-width: 100%; border-radius: .4rem; }
+  /* Every picture opens larger in one overlay (wiki.js zoomable). */
+  main img.zoom { cursor: zoom-in; }
+  main img.zoom:hover { box-shadow: 0 0 0 1px var(--line); }
+  main img.zoom:focus-visible { outline: 2px solid var(--link); outline-offset: 3px; }
+  .lightbox { position: fixed; inset: 0; z-index: 50; display: flex; overflow: auto; padding: 3.2rem 1rem 1rem; background: rgba(5, 9, 13, .94); cursor: zoom-out; overscroll-behavior: contain; }
+  .lightbox[hidden] { display: none; }
+  .lightbox img { display: block; margin: auto; max-width: none; height: auto; border-radius: .4rem; box-shadow: 0 .5rem 2rem rgba(0, 0, 0, .6); }
+  .lightbox .close { position: fixed; top: .5rem; right: .75rem; width: 2.5rem; height: 2.5rem; border: 1px solid var(--line); border-radius: 50%; background: var(--panel); color: var(--ink); font: 1.6rem/1 system-ui, sans-serif; cursor: pointer; }
+  .lightbox .close:hover, .lightbox .close:focus-visible { border-color: var(--link); outline: none; color: #fff; }
+  /* The live metrics charts (wiki.js charts()): the generated SVG inline, a tooltip, a legend that toggles, a zoom. */
+  figure.chart { margin: 1rem 0; }
+  .chart .plotwrap { position: relative; }
+  .chart svg.plot { display: block; width: 100%; height: auto; border-radius: .4rem; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; }
+  .chart svg.plot:focus { outline: none; }
+  .chart svg.plot:focus-visible { outline: 2px solid var(--link); outline-offset: 3px; }
+  .chart svg.zoomable { touch-action: pan-y; }
+  .chart [data-off], .chart [data-zoff] { display: none; }
+  .chart .m { cursor: pointer; }
+  .chart .m.on { filter: brightness(1.35) drop-shadow(0 0 2px rgba(255, 255, 255, .6)); }
+  .chart .m.xh.on line { stroke: var(--dim); stroke-dasharray: 3 3; }
+  .chart .hit { pointer-events: stroke; }
+  .chart .lg { cursor: pointer; }
+  .chart .lg.off { opacity: .35; }
+  .chart .lg:hover .lghit { fill: rgba(121, 189, 206, .12); }
+  .chart .lg:focus { outline: none; }
+  .chart .lg:focus-visible .lghit { stroke: var(--link); stroke-width: 2; }
+  .chart .brush { fill: rgba(121, 189, 206, .16); stroke: var(--link); stroke-width: 1; pointer-events: none; }
+  .chart .tip { position: absolute; z-index: 5; max-width: min(22rem, 90%); padding: .45rem .65rem; border: 1px solid var(--line); border-radius: .4rem; background: #0e161d; color: var(--ink); font-size: .85rem; line-height: 1.4; box-shadow: 0 .3rem 1rem rgba(0, 0, 0, .5); pointer-events: none; overflow-wrap: anywhere; }
+  .chart .tip .head { font-weight: 700; font-size: .95rem; }
+  .chart .tip .row { color: var(--dim); }
+  .chart .tip .row b { color: var(--ink); font-weight: 600; }
+  .chart .tip .key { display: inline-block; width: .9rem; height: 3px; margin: 0 .4rem .2rem 0; border-radius: 2px; vertical-align: middle; }
+  .chart .tools { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem .6rem; margin-top: .45rem; padding-right: .2rem; font-size: .85rem; color: var(--dim); }
+  .chart .tools .spacer { flex: 1; }
+  .chart .tools button { font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: .3rem; padding: .25rem .6rem; cursor: pointer; }
+  .chart .tools button:hover, .chart .tools button:focus-visible { border-color: var(--link); outline: none; }
+  .chart .tools button[aria-pressed="true"] { border-color: var(--link); color: #fff; background: #17303a; }
+  .chart .tools .zoombar { display: inline-flex; gap: .3rem; }
+  /* The round selector on the playtest charts: one round at full strength, the others faded (not removed). */
+  .chart .roundbar { display: flex; flex-wrap: wrap; align-items: center; gap: .3rem; margin-bottom: .45rem; font-size: .85rem; color: var(--dim); }
+  .chart .roundbar .lbl { margin-right: .2rem; }
+  .chart .roundbar button { font: inherit; min-width: 2.6rem; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: .3rem; padding: .25rem .6rem; cursor: pointer; }
+  .chart .roundbar button:hover, .chart .roundbar button:focus-visible { border-color: var(--link); outline: none; }
+  .chart .roundbar button[aria-pressed="true"] { border-color: var(--link); color: #fff; background: #17303a; }
+  /* The full-run charts' filters: round, type and outcome rows, combined (wiki.js chartView). */
+  .chart .filters { margin-bottom: .45rem; }
+  .chart .filters .roundbar { margin-bottom: .3rem; }
+  .chart .filters .lbl { min-width: 4.4rem; }
+  .chart .filters .shown { font-size: .8rem; color: var(--dim); }
+  .chart .rfade { opacity: .14; }
+  .chart .lg.rfade { opacity: .35; }
+  .chart .m.rfade { pointer-events: none; }
+  .chart .tools a.data { color: var(--link); }
+  .lightbox .big { margin: auto; }
+  .lightbox figure.chart.big { background: var(--bg); padding: .5rem; border-radius: .5rem; cursor: auto; }
+  /* The generated pages (wiki.js playtestsApp, contractApp): a folding list beside the view, stacked on a narrow
+     screen. Colours are the page's own variables; the diff's tints are translucent, so they sit on either theme. */
+  :root { --add-bg: rgba(46, 160, 67, .16); --del-bg: rgba(248, 81, 73, .15); --add-hi: rgba(46, 160, 67, .42); --del-hi: rgba(248, 81, 73, .4); --add-ink: #3fb950; --del-ink: #f85149; --warn-ink: #d29922; }
+  .app2 { display: grid; grid-template-columns: 14rem minmax(0, 1fr); gap: 1.5rem; margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+  .app2 .side { position: sticky; top: .5rem; align-self: start; max-height: calc(100vh - 1rem); overflow: auto; font-size: .92rem; }
+  .app2 summary { cursor: pointer; list-style: none; display: flex; gap: .45rem; align-items: baseline; padding: .3rem .45rem; border-radius: .3rem; color: var(--ink); }
+  .app2 summary::-webkit-details-marker { display: none; }
+  .app2 summary::before { content: '\25B8'; color: var(--dim); font-size: .75rem; display: inline-block; transition: transform .15s; }
+  .app2 details[open] > summary::before { transform: rotate(90deg); }
+  .app2 summary:hover { background: var(--panel); }
+  .app2 summary:focus-visible, .app2 a.item:focus-visible { outline: 2px solid var(--link); outline-offset: 1px; }
+  .app2 .sidehead { font-weight: 600; letter-spacing: .02em; }
+  .app2 .meta { margin-left: auto; color: var(--dim); font-size: .78rem; white-space: nowrap; }
+  .app2 .side details details { margin-left: .95rem; }
+  .app2 .side .rd > .ty { margin-left: .95rem; }
+  .app2 a.item { display: flex; gap: .45rem; align-items: baseline; margin-left: 1.5rem; padding: .25rem .5rem; border-radius: .3rem; color: var(--dim); text-decoration: none; }
+  .app2 a.item:hover { color: var(--ink); background: var(--panel); }
+  .app2 a.item.here { color: var(--ink); background: var(--panel); box-shadow: inset 3px 0 0 var(--link); }
+  .app2 a.item .meta { font-size: .75rem; }
+  .app2 .oc { margin-left: auto; font-size: .72rem; line-height: 1.5; padding: 0 .45rem; border-radius: 1rem; border: 1px solid var(--line); color: var(--dim); white-space: nowrap; }
+  .app2 .oc-won { border-color: var(--add-ink); color: var(--ink); }
+  .app2 .oc-stuck { border-color: var(--warn-ink); color: var(--ink); }
+  .app2 .oc-died { border-color: var(--del-ink); }
+  .app2 .facts .oc, .app2 td .oc { margin-left: 0; }
+  .app2 .view { min-width: 0; }
+  .app2 .vhead h2 { margin: 0; padding: 0; border: 0; overflow-wrap: anywhere; }
+  .app2 .vhead .sub { margin: .2rem 0 .6rem; color: var(--dim); }
+  .app2 .facts { display: flex; flex-wrap: wrap; gap: .3rem 1.1rem; font-size: .9rem; color: var(--dim); }
+  .app2 .facts b { color: var(--ink); font-weight: 600; }
+  .app2 .persona, .app2 .made { font-size: .92rem; margin: .5rem 0 0; }
+  .app2 .persona .k, .app2 .made .k { color: var(--dim); }
+  .app2 .note { color: var(--dim); font-size: .88rem; }
+  .app2 .tabs { display: flex; flex-wrap: wrap; gap: .25rem; margin: 1.1rem 0 1rem; border-bottom: 1px solid var(--line); }
+  .app2 .tabs button { font: inherit; font-size: .9rem; color: var(--dim); background: none; border: 1px solid transparent; border-bottom: 0; border-radius: .4rem .4rem 0 0; padding: .35rem .75rem; margin-bottom: -1px; cursor: pointer; }
+  .app2 .tabs button:hover { color: var(--ink); }
+  .app2 .tabs button[aria-selected="true"] { color: var(--ink); background: var(--panel); border-color: var(--line); }
+  .app2 .tabs button:focus-visible { outline: 2px solid var(--link); outline-offset: -2px; }
+  .app2 .tabpanel:focus { outline: none; }
+  .app2 .md { overflow-wrap: anywhere; }
+  .app2 .md h3 { font-size: 1.2rem; margin: 1.4rem 0 .5rem; }
+  .app2 .md h4, .app2 .md h5, .app2 .md h6 { font-size: 1.02rem; margin: 1.1rem 0 .4rem; }
+  .app2 .md table { font-size: .82rem; }
+  /* A triage table is wide: it scrolls sideways in its box, and its words stay whole; its title and evidence get room. */
+  .app2 .md th, .app2 .md td { overflow-wrap: normal; word-break: normal; }
+  .app2 .md th, .app2 .md td:first-child { white-space: nowrap; }
+  .app2 .md td:nth-child(2) { min-width: 14rem; }
+  .app2 .md td:last-child { min-width: 26rem; }
+  .app2 .chips { display: flex; flex-wrap: wrap; gap: .3rem; margin: .5rem 0 .8rem; }
+  .app2 .chips button { font: inherit; font-size: .85rem; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: .3rem; padding: .25rem .6rem; cursor: pointer; }
+  .app2 .chips button:hover, .app2 .chips button:focus-visible { border-color: var(--link); outline: none; }
+  .app2 .chips button[aria-pressed="true"] { border-color: var(--link); background: var(--code); }
+  .app2 .fr { list-style: none; padding: 0; margin: 0; display: grid; gap: .55rem; }
+  .app2 .fr li { border: 1px solid var(--line); border-radius: .45rem; padding: .5rem .75rem; background: var(--panel); overflow-wrap: anywhere; }
+  .app2 .fr .top { display: flex; flex-wrap: wrap; gap: .3rem .5rem; align-items: center; font-size: .8rem; color: var(--dim); }
+  .app2 .badge { font-size: .75rem; line-height: 1.5; padding: 0 .45rem; border-radius: .25rem; border: 1px solid var(--line); color: var(--ink); }
+  .app2 .badge.k-nice { border-color: var(--add-ink); }
+  .app2 .badge.k-bug, .app2 .badge.k-blocked { border-color: var(--del-ink); }
+  .app2 .badge.k-confusing, .app2 .badge.k-parse, .app2 .badge.k-tedious { border-color: var(--warn-ink); }
+  .app2 .badge.sev { color: var(--dim); }
+  .app2 .badge.sev-high { color: var(--ink); font-weight: 600; }
+  .app2 .fr .cmd { margin-top: .35rem; }
+  .app2 .fr .why { margin-top: .2rem; color: var(--dim); font-size: .92rem; }
+  .app2 .stats h3 { font-size: 1.1rem; margin: 1.2rem 0 .3rem; }
+  .app2 .stats tr.here td { background: var(--code); }
+  .app2 .stats tr.sev td { color: var(--dim); }
+  .app2 .dsum .plus { color: var(--add-ink); font-weight: 600; }
+  .app2 .dsum .minus { color: var(--del-ink); font-weight: 600; }
+  .app2 .diff { font: .8rem/1.5 ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; border: 1px solid var(--line); border-radius: .45rem; overflow: hidden; }
+  .app2 .diff .hh { padding: .3rem .6rem; background: var(--panel); color: var(--dim); border-top: 1px solid var(--line); font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .app2 .diff .hh:first-child { border-top: 0; }
+  .app2 .diff .dl { display: grid; grid-template-columns: 3.2em 1.3em minmax(0, 1fr); }
+  .app2 .diff .ln { color: var(--dim); text-align: right; padding-right: .5em; user-select: none; -webkit-user-select: none; }
+  .app2 .diff .sg { text-align: center; font-weight: 700; user-select: none; -webkit-user-select: none; }
+  .app2 .diff .tx { white-space: pre-wrap; overflow-wrap: anywhere; padding-right: .6em; }
+  .app2 .diff .add { background: var(--add-bg); }
+  .app2 .diff .del { background: var(--del-bg); }
+  .app2 .diff .add .sg { color: var(--add-ink); }
+  .app2 .diff .del .sg { color: var(--del-ink); }
+  .app2 .diff ins { background: var(--add-hi); text-decoration: none; border-radius: 2px; }
+  .app2 .diff del { background: var(--del-hi); text-decoration: line-through; text-decoration-color: var(--del-ink); border-radius: 2px; }
+  .app2 .toggle { }
+  @media (max-width: 1000px) { .app2 { grid-template-columns: 1fr; gap: .8rem; } .app2 .side { position: static; max-height: none; border: 1px solid var(--line); border-radius: .45rem; padding: .3rem; } }
   .table { overflow-x: auto; }
   main table { border-collapse: collapse; margin: 1rem 0; font-size: .95rem; }
   main th, main td { border: 1px solid var(--line); padding: .4rem .6rem; vertical-align: top; text-align: left; }

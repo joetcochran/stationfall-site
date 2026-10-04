@@ -1,25 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 242" width="900" height="242" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="Rework by Greg's model: share of judged views that needed another round">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 252" width="900" height="252" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="Rework by Greg's model: share of judged views that needed another round" data-csv="metrics-rework-model.csv">
 <defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#111a22"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8fa3b1" stroke-width="2"/></pattern></defs>
-<rect width="900" height="242" fill="#111a22" rx="6"/>
-<text x="190.0" y="24.0" fill="#d9e3ea" font-size="15" text-anchor="start" font-weight="600">Rework by Greg's model: share of judged views that needed another round</text>
-<text x="190.0" y="230.0" fill="#8fa3b1" font-size="11" text-anchor="start">From rework-by-model.mjs. A guide fault is Norm's and not counted. Few views per model so far: read the n, not only the bar.</text>
-<line x1="190.0" y1="62" x2="190.0" y2="184" stroke="#34495a"/>
-<text x="190.0" y="200.0" fill="#8fa3b1" font-size="11" text-anchor="middle">0%</text>
-<line x1="312.5" y1="62" x2="312.5" y2="184" stroke="#1f2c37"/>
-<text x="312.5" y="200.0" fill="#8fa3b1" font-size="11" text-anchor="middle">25%</text>
-<line x1="435.0" y1="62" x2="435.0" y2="184" stroke="#1f2c37"/>
-<text x="435.0" y="200.0" fill="#8fa3b1" font-size="11" text-anchor="middle">50%</text>
-<line x1="557.5" y1="62" x2="557.5" y2="184" stroke="#1f2c37"/>
-<text x="557.5" y="200.0" fill="#8fa3b1" font-size="11" text-anchor="middle">75%</text>
-<line x1="680.0" y1="62" x2="680.0" y2="184" stroke="#1f2c37"/>
-<text x="680.0" y="200.0" fill="#8fa3b1" font-size="11" text-anchor="middle">100%</text>
-<text x="180.0" y="86.3" fill="#d9e3ea" font-size="12" text-anchor="end">Sol</text>
-<path d="M190.0,73.3 H314.4 Q317.4,73.3 317.4,76.3 V88.3 Q317.4,91.3 314.4,91.3 H190.0 Z" fill="#3987e5"/>
-<text x="325.4" y="86.3" fill="#d9e3ea" font-size="11" text-anchor="start">26%  12 of 47 views · 1.68 rounds/view</text>
-<text x="180.0" y="127.0" fill="#d9e3ea" font-size="12" text-anchor="end">none (scan-derived)</text>
-<path d="M190.0,114.0 H338.9 Q341.9,114.0 341.9,117.0 V129.0 Q341.9,132.0 338.9,132.0 H190.0 Z" fill="#d95926"/>
-<text x="349.9" y="127.0" fill="#d9e3ea" font-size="11" text-anchor="start">31%  4 of 13 views · 1.31 rounds/view</text>
-<text x="180.0" y="167.7" fill="#d9e3ea" font-size="12" text-anchor="end">Astra</text>
+<rect width="900" height="252" fill="#111a22" rx="6"/>
+<text x="66.0" y="28.0" fill="#d9e3ea" font-size="18" text-anchor="start" font-weight="600">Rework by Greg's model: share of judged views that needed another round</text>
+<text x="66.0" y="240.0" fill="#8fa3b1" font-size="13" text-anchor="start">From rework-by-model.mjs. A guide fault is Norm's and not counted. Few views per model so far: read the n, not only the bar.</text>
+<line x1="165.0" y1="60" x2="165.0" y2="186" stroke="#34495a"/>
+<text x="165.0" y="205.0" fill="#8fa3b1" font-size="14" text-anchor="middle">0%</text>
+<line x1="271.3" y1="60" x2="271.3" y2="186" stroke="#1f2c37"/>
+<text x="271.3" y="205.0" fill="#8fa3b1" font-size="14" text-anchor="middle">25%</text>
+<line x1="377.5" y1="60" x2="377.5" y2="186" stroke="#1f2c37"/>
+<text x="377.5" y="205.0" fill="#8fa3b1" font-size="14" text-anchor="middle">50%</text>
+<line x1="483.8" y1="60" x2="483.8" y2="186" stroke="#1f2c37"/>
+<text x="483.8" y="205.0" fill="#8fa3b1" font-size="14" text-anchor="middle">75%</text>
+<line x1="590.0" y1="60" x2="590.0" y2="186" stroke="#1f2c37"/>
+<text x="590.0" y="205.0" fill="#8fa3b1" font-size="14" text-anchor="middle">100%</text>
+<text x="153.0" y="86.0" fill="#d9e3ea" font-size="14" text-anchor="end">Sol</text>
+<g class="m"><title>22% sent back
+Sol: 47 of 215 judged views
+rounds per view: 1.39
+views: 231</title>
+<path d="M165.0,71.0 H255.5 Q258.5,71.0 258.5,74.0 V88.0 Q258.5,91.0 255.5,91.0 H165.0 Z" fill="#3987e5"/>
+<text x="266.5" y="86.0" fill="#d9e3ea" font-size="14" text-anchor="start">22%  47 of 215 views · 1.39 rounds/view</text>
+</g>
+<text x="153.0" y="128.0" fill="#d9e3ea" font-size="14" text-anchor="end">none (scan-derived)</text>
+<g class="m"><title>31% sent back
+none (scan-derived): 4 of 13 judged views
+rounds per view: 1.31
+views: 13</title>
+<path d="M165.0,113.0 H293.8 Q296.8,113.0 296.8,116.0 V130.0 Q296.8,133.0 293.8,133.0 H165.0 Z" fill="#d95926"/>
+<text x="304.8" y="128.0" fill="#d9e3ea" font-size="14" text-anchor="start">31%  4 of 13 views · 1.31 rounds/view</text>
+</g>
+<text x="153.0" y="170.0" fill="#d9e3ea" font-size="14" text-anchor="end">Astra</text>
+<g class="m"><title>0% sent back
+Astra: 0 of 3 judged views
+rounds per view: 1
+views: 3</title>
 
-<text x="198.0" y="167.7" fill="#d9e3ea" font-size="11" text-anchor="start">0%  0 of 2 views · 1 rounds/view</text>
+<text x="173.0" y="170.0" fill="#d9e3ea" font-size="14" text-anchor="start">0%  0 of 3 views · 1 rounds/view</text>
+</g>
 </svg>

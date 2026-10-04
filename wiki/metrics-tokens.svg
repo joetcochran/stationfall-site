@@ -1,247 +1,242 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 612" width="900" height="612" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="Tokens: every session, per hour, by agent">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 655" width="900" height="655" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="Tokens: every session, per day, by agent" data-csv="metrics-tokens.csv">
 <defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#111a22"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8fa3b1" stroke-width="2"/></pattern></defs>
-<rect width="900" height="612" fill="#111a22" rx="6"/>
-<text x="56.0" y="24.0" fill="#d9e3ea" font-size="15" text-anchor="start" font-weight="600">Tokens: every session, per hour, by agent</text>
-<text x="56.0" y="600.0" fill="#8fa3b1" font-size="11" text-anchor="start">From tokens.csv (agent-tokens.mjs, the local session logs). Codex and Claude count and price tokens differently: compare shapes, not sums.</text>
-<rect x="56" y="34" width="12" height="12" rx="2" fill="#d95926"/>
-<text x="73.0" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">Greg (Codex)</text>
-<rect x="170.2" y="34" width="12" height="12" rx="2" fill="#3987e5"/>
-<text x="187.2" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">Norm, own session</text>
-<rect x="317.4" y="34" width="12" height="12" rx="2" fill="#9085e9"/>
-<text x="334.4" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">Norm's subagents</text>
-<rect x="458" y="34" width="12" height="12" rx="2" fill="#8fa3b1"/>
-<text x="475.0" y="44.0" fill="#d9e3ea" font-size="12" text-anchor="start">paler top: output</text>
-<text x="56.0" y="64.0" fill="#d9e3ea" font-size="11" text-anchor="start">Greg (Codex) 3.2M (in 2.9M, out 361k) + 136.1M cached, 98% of input</text>
-<text x="56.0" y="79.0" fill="#d9e3ea" font-size="11" text-anchor="start">Norm, own session 3.2M (in 2.5M, out 706k) + 511.2M cached, 100% of input</text>
-<text x="56.0" y="94.0" fill="#d9e3ea" font-size="11" text-anchor="start">Norm's subagents 32.5M (in 31.1M, out 1.4M) + 2774.0M cached, 99% of input</text>
-<text x="56.0" y="116.0" fill="#d9e3ea" font-size="12" text-anchor="start">Work tokens: fresh input and cache writes, with output stacked on top</text>
-<line x1="56" y1="296.0" x2="876" y2="296.0" stroke="#34495a"/>
-<text x="48.0" y="300.0" fill="#8fa3b1" font-size="11" text-anchor="end">0</text>
-<line x1="56" y1="262.0" x2="876" y2="262.0" stroke="#1f2c37"/>
-<text x="48.0" y="266.0" fill="#8fa3b1" font-size="11" text-anchor="end">1.0M</text>
-<line x1="56" y1="228.0" x2="876" y2="228.0" stroke="#1f2c37"/>
-<text x="48.0" y="232.0" fill="#8fa3b1" font-size="11" text-anchor="end">2.0M</text>
-<line x1="56" y1="194.0" x2="876" y2="194.0" stroke="#1f2c37"/>
-<text x="48.0" y="198.0" fill="#8fa3b1" font-size="11" text-anchor="end">3.0M</text>
-<line x1="56" y1="160.0" x2="876" y2="160.0" stroke="#1f2c37"/>
-<text x="48.0" y="164.0" fill="#8fa3b1" font-size="11" text-anchor="end">4.0M</text>
-<line x1="56" y1="126.0" x2="876" y2="126.0" stroke="#1f2c37"/>
-<text x="48.0" y="130.0" fill="#8fa3b1" font-size="11" text-anchor="end">5.0M</text>
-<line x1="138.0" y1="296" x2="138.0" y2="300" stroke="#34495a"/>
-<text x="138.0" y="312.0" fill="#8fa3b1" font-size="11" text-anchor="middle">21:00</text>
-<line x1="261.0" y1="126" x2="261.0" y2="296" stroke="#34495a" stroke-dasharray="3 3"/>
-<text x="261.0" y="312.0" fill="#d9e3ea" font-size="11" text-anchor="middle">09/25</text>
-<line x1="384.0" y1="296" x2="384.0" y2="300" stroke="#34495a"/>
-<text x="384.0" y="312.0" fill="#8fa3b1" font-size="11" text-anchor="middle">03:00</text>
-<line x1="507.0" y1="296" x2="507.0" y2="300" stroke="#34495a"/>
-<text x="507.0" y="312.0" fill="#8fa3b1" font-size="11" text-anchor="middle">06:00</text>
-<line x1="630.0" y1="296" x2="630.0" y2="300" stroke="#34495a"/>
-<text x="630.0" y="312.0" fill="#8fa3b1" font-size="11" text-anchor="middle">09:00</text>
-<line x1="753.0" y1="296" x2="753.0" y2="300" stroke="#34495a"/>
-<text x="753.0" y="312.0" fill="#8fa3b1" font-size="11" text-anchor="middle">12:00</text>
-<line x1="876.0" y1="296" x2="876.0" y2="300" stroke="#34495a"/>
-<text x="876.0" y="312.0" fill="#8fa3b1" font-size="11" text-anchor="middle">15:00</text>
-<rect x="58.0" y="294.5" width="11.3" height="1.5" fill="#d95926"/>
-<path d="M58.0,294.5 V294.5 Q58.0,294.5 58.0,294.5 H69.3 Q69.3,294.5 69.3,294.5 V294.5 Z" fill="#d95926" fill-opacity="0.45"/>
-<rect x="70.3" y="292.9" width="11.3" height="3.1" fill="#3987e5"/>
-<path d="M70.3,292.9 V292.9 Q70.3,292.7 70.5,292.7 H81.5 Q81.7,292.7 81.7,292.9 V292.9 Z" fill="#3987e5" fill-opacity="0.45"/>
-<rect x="82.7" y="279.8" width="11.3" height="16.2" fill="#9085e9"/>
-<path d="M82.7,279.8 V279.8 Q82.7,279.6 82.9,279.6 H93.8 Q94.0,279.6 94.0,279.8 V279.8 Z" fill="#9085e9" fill-opacity="0.45"/>
-<rect x="99.0" y="289.3" width="11.3" height="6.7" fill="#d95926"/>
-<path d="M99.0,289.3 V289.3 Q99.0,288.2 100.0,288.2 H109.3 Q110.3,288.2 110.3,289.3 V289.3 Z" fill="#d95926" fill-opacity="0.45"/>
-<rect x="111.3" y="285.6" width="11.3" height="10.4" fill="#3987e5"/>
-<path d="M111.3,285.6 V284.3 Q111.3,281.3 114.3,281.3 H119.7 Q122.7,281.3 122.7,284.3 V285.6 Z" fill="#3987e5" fill-opacity="0.45"/>
-<rect x="123.7" y="268.7" width="11.3" height="27.3" fill="#9085e9"/>
-<path d="M123.7,268.7 V268.7 Q123.7,266.9 125.5,266.9 H133.2 Q135.0,266.9 135.0,268.7 V268.7 Z" fill="#9085e9" fill-opacity="0.45"/>
-<rect x="140.0" y="289.3" width="11.3" height="6.7" fill="#d95926"/>
-<path d="M140.0,289.3 V289.3 Q140.0,287.8 141.5,287.8 H149.8 Q151.3,287.8 151.3,289.3 V289.3 Z" fill="#d95926" fill-opacity="0.45"/>
-<rect x="152.3" y="290.7" width="11.3" height="5.3" fill="#3987e5"/>
-<path d="M152.3,290.7 V290.7 Q152.3,288.4 154.7,288.4 H161.3 Q163.7,288.4 163.7,290.7 V290.7 Z" fill="#3987e5" fill-opacity="0.45"/>
-<rect x="164.7" y="169.9" width="11.3" height="126.1" fill="#9085e9"/>
-<path d="M164.7,169.9 V160.0 Q164.7,157.0 167.7,157.0 H173.0 Q176.0,157.0 176.0,160.0 V169.9 Z" fill="#9085e9" fill-opacity="0.45"/>
-<rect x="181.0" y="288.5" width="11.3" height="7.5" fill="#d95926"/>
-<path d="M181.0,288.5 V288.5 Q181.0,288.3 181.2,288.3 H192.1 Q192.3,288.3 192.3,288.5 V288.5 Z" fill="#d95926" fill-opacity="0.45"/>
-<rect x="193.3" y="293.7" width="11.3" height="2.3" fill="#3987e5"/>
-<path d="M193.3,293.7 V293.7 Q193.3,292.5 194.5,292.5 H203.5 Q204.7,292.5 204.7,293.7 V293.7 Z" fill="#3987e5" fill-opacity="0.45"/>
-<rect x="205.7" y="182.3" width="11.3" height="113.7" fill="#9085e9"/>
-<path d="M205.7,182.3 V182.3 Q205.7,181.1 206.9,181.1 H215.7 Q217.0,181.1 217.0,182.3 V182.3 Z" fill="#9085e9" fill-opacity="0.45"/>
-<rect x="222.0" y="293.4" width="11.3" height="2.6" fill="#d95926"/>
-<path d="M222.0,293.4 V293.4 Q222.0,293.0 222.4,293.0 H232.9 Q233.3,293.0 233.3,293.4 V293.4 Z" fill="#d95926" fill-opacity="0.45"/>
-<rect x="234.3" y="293.9" width="11.3" height="2.1" fill="#3987e5"/>
-<path d="M234.3,293.9 V293.9 Q234.3,292.8 235.4,292.8 H244.6 Q245.7,292.8 245.7,293.9 V293.9 Z" fill="#3987e5" fill-opacity="0.45"/>
-<rect x="246.7" y="265.4" width="11.3" height="30.6" fill="#9085e9"/>
-<path d="M246.7,265.4 V265.4 Q246.7,264.2 247.8,264.2 H256.8 Q258.0,264.2 258.0,265.4 V265.4 Z" fill="#9085e9" fill-opacity="0.45"/>
-<rect x="263.0" y="287.2" width="11.3" height="8.8" fill="#d95926"/>
-<path d="M263.0,287.2 V287.2 Q263.0,286.8 263.4,286.8 H273.9 Q274.3,286.8 274.3,287.2 V287.2 Z" fill="#d95926" fill-opacity="0.45"/>
-<rect x="275.3" y="293.6" width="11.3" height="2.4" fill="#3987e5"/>
-<path d="M275.3,293.6 V293.6 Q275.3,292.5 276.5,292.5 H285.5 Q286.7,292.5 286.7,293.6 V293.6 Z" fill="#3987e5" fill-opacity="0.45"/>
-<rect x="287.7" y="226.1" width="11.3" height="69.9" fill="#9085e9"/>
-<path d="M287.7,226.1 V226.1 Q287.7,223.5 290.2,223.5 H296.4 Q299.0,223.5 299.0,226.1 V226.1 Z" fill="#9085e9" fill-opacity="0.45"/>
-<rect x="304.0" y="292.4" width="11.3" height="3.6" fill="#d95926"/>
-<path d="M304.0,292.4 V292.4 Q304.0,291.5 304.9,291.5 H314.5 Q315.3,291.5 315.3,292.4 V292.4 Z" fill="#d95926" fill-opacity="0.45"/>
-<rect x="316.3" y="293.4" width="11.3" height="2.6" fill="#3987e5"/>
-<path d="M316.3,293.4 V293.4 Q316.3,291.9 317.8,291.9 H326.2 Q327.7,291.9 327.7,293.4 V293.4 Z" fill="#3987e5" fill-opacity="0.45"/>
-<rect x="328.7" y="241.7" width="11.3" height="54.3" fill="#9085e9"/>
-<path d="M328.7,241.7 V241.7 Q328.7,239.2 331.1,239.2 H337.5 Q340.0,239.2 340.0,241.7 V241.7 Z" fill="#9085e9" fill-opacity="0.45"/>
-<rect x="345.0" y="294.6" width="11.3" height="1.4" fill="#d95926"/>
-<path d="M345.0,294.6 V294.6 Q345.0,294.5 345.0,294.5 H356.3 Q356.3,294.5 356.3,294.6 V294.6 Z" fill="#d95926" fill-opacity="0.45"/>
-<rect x="357.3" y="295.7" width="11.3" height="0.3" fill="#3987e5"/>
-<path d="M357.3,295.7 V295.7 Q357.3,295.6 357.4,295.6 H368.6 Q368.7,295.6 368.7,295.7 V295.7 Z" fill="#3987e5" fill-opacity="0.45"/>
-<rect x="369.7" y="289.5" width="11.3" height="6.5" fill="#9085e9"/>
-<path d="M369.7,289.5 V289.5 Q369.7,289.1 370.1,289.1 H380.5 Q381.0,289.1 381.0,289.5 V289.5 Z" fill="#9085e9" fill-opacity="0.45"/>
-<rect x="386.0" y="295.8" width="11.3" height="0.2" fill="#d95926"/>
-<path d="M386.0,295.8 V295.8 Q386.0,295.8 386.0,295.8 H397.3 Q397.3,295.8 397.3,295.8 V295.8 Z" fill="#d95926" fill-opacity="0.45"/>
-
-
-<rect x="427.0" y="295.8" width="11.3" height="0.2" fill="#d95926"/>
-<path d="M427.0,295.8 V295.8 Q427.0,295.8 427.0,295.8 H438.3 Q438.3,295.8 438.3,295.8 V295.8 Z" fill="#d95926" fill-opacity="0.45"/>
-
-
-<rect x="468.0" y="293.1" width="11.3" height="2.9" fill="#d95926"/>
-<path d="M468.0,293.1 V293.1 Q468.0,292.8 468.3,292.8 H479.0 Q479.3,292.8 479.3,293.1 V293.1 Z" fill="#d95926" fill-opacity="0.45"/>
-<rect x="480.3" y="265.9" width="11.3" height="30.1" fill="#3987e5"/>
-<path d="M480.3,265.9 V265.9 Q480.3,265.1 481.1,265.1 H490.9 Q491.7,265.1 491.7,265.9 V265.9 Z" fill="#3987e5" fill-opacity="0.45"/>
-<rect x="492.7" y="279.4" width="11.3" height="16.6" fill="#9085e9"/>
-<path d="M492.7,279.4 V279.4 Q492.7,278.0 494.1,278.0 H502.6 Q504.0,278.0 504.0,279.4 V279.4 Z" fill="#9085e9" fill-opacity="0.45"/>
-<rect x="509.0" y="283.5" width="11.3" height="12.5" fill="#d95926"/>
-<path d="M509.0,283.5 V283.5 Q509.0,282.8 509.7,282.8 H519.6 Q520.3,282.8 520.3,283.5 V283.5 Z" fill="#d95926" fill-opacity="0.45"/>
-<rect x="521.3" y="291.5" width="11.3" height="4.5" fill="#3987e5"/>
-<path d="M521.3,291.5 V291.5 Q521.3,289.6 523.3,289.6 H530.7 Q532.7,289.6 532.7,291.5 V291.5 Z" fill="#3987e5" fill-opacity="0.45"/>
-<rect x="533.7" y="256.3" width="11.3" height="39.7" fill="#9085e9"/>
-<path d="M533.7,256.3 V256.3 Q533.7,253.3 536.7,253.3 H542.0 Q545.0,253.3 545.0,256.3 V256.3 Z" fill="#9085e9" fill-opacity="0.45"/>
-<rect x="550.0" y="290.6" width="11.3" height="5.4" fill="#d95926"/>
-<path d="M550.0,290.6 V290.6 Q550.0,289.8 550.9,289.8 H560.4 Q561.3,289.8 561.3,290.6 V290.6 Z" fill="#d95926" fill-opacity="0.45"/>
-<rect x="562.3" y="290.9" width="11.3" height="5.1" fill="#3987e5"/>
-<path d="M562.3,290.9 V290.9 Q562.3,288.9 564.4,288.9 H571.6 Q573.7,288.9 573.7,290.9 V290.9 Z" fill="#3987e5" fill-opacity="0.45"/>
-<rect x="574.7" y="231.0" width="11.3" height="65.0" fill="#9085e9"/>
-<path d="M574.7,231.0 V230.7 Q574.7,227.7 577.7,227.7 H583.0 Q586.0,227.7 586.0,230.7 V231.0 Z" fill="#9085e9" fill-opacity="0.45"/>
-<rect x="591.0" y="289.2" width="11.3" height="6.8" fill="#d95926"/>
-<path d="M591.0,289.2 V289.2 Q591.0,288.0 592.2,288.0 H601.2 Q602.3,288.0 602.3,289.2 V289.2 Z" fill="#d95926" fill-opacity="0.45"/>
-<rect x="603.3" y="292.3" width="11.3" height="3.7" fill="#3987e5"/>
-<path d="M603.3,292.3 V292.3 Q603.3,290.7 605.0,290.7 H613.0 Q614.7,290.7 614.7,292.3 V292.3 Z" fill="#3987e5" fill-opacity="0.45"/>
-<rect x="615.7" y="222.0" width="11.3" height="74.0" fill="#9085e9"/>
-<path d="M615.7,222.0 V222.0 Q615.7,219.1 618.6,219.1 H624.1 Q627.0,219.1 627.0,222.0 V222.0 Z" fill="#9085e9" fill-opacity="0.45"/>
-<rect x="632.0" y="288.2" width="11.3" height="7.8" fill="#d95926"/>
-<path d="M632.0,288.2 V288.2 Q632.0,286.7 633.6,286.7 H641.8 Q643.3,286.7 643.3,288.2 V288.2 Z" fill="#d95926" fill-opacity="0.45"/>
-<rect x="644.3" y="292.9" width="11.3" height="3.1" fill="#3987e5"/>
-<path d="M644.3,292.9 V292.9 Q644.3,291.7 645.6,291.7 H654.4 Q655.7,291.7 655.7,292.9 V292.9 Z" fill="#3987e5" fill-opacity="0.45"/>
-<rect x="656.7" y="209.4" width="11.3" height="86.6" fill="#9085e9"/>
-<path d="M656.7,209.4 V209.2 Q656.7,206.2 659.7,206.2 H665.0 Q668.0,206.2 668.0,209.2 V209.4 Z" fill="#9085e9" fill-opacity="0.45"/>
-<rect x="673.0" y="289.6" width="11.3" height="6.4" fill="#d95926"/>
-<path d="M673.0,289.6 V289.6 Q673.0,288.7 673.8,288.7 H683.5 Q684.3,288.7 684.3,289.6 V289.6 Z" fill="#d95926" fill-opacity="0.45"/>
-<rect x="685.3" y="292.3" width="11.3" height="3.7" fill="#3987e5"/>
-<path d="M685.3,292.3 V292.3 Q685.3,290.8 686.9,290.8 H695.1 Q696.7,290.8 696.7,292.3 V292.3 Z" fill="#3987e5" fill-opacity="0.45"/>
-<rect x="697.7" y="196.6" width="11.3" height="99.4" fill="#9085e9"/>
-<path d="M697.7,196.6 V196.4 Q697.7,193.4 700.7,193.4 H706.0 Q709.0,193.4 709.0,196.4 V196.6 Z" fill="#9085e9" fill-opacity="0.45"/>
-<rect x="714.0" y="294.8" width="11.3" height="1.2" fill="#d95926"/>
-<path d="M714.0,294.8 V294.8 Q714.0,294.4 714.4,294.4 H725.0 Q725.3,294.4 725.3,294.8 V294.8 Z" fill="#d95926" fill-opacity="0.45"/>
-<rect x="726.3" y="294.5" width="11.3" height="1.5" fill="#3987e5"/>
-<path d="M726.3,294.5 V294.5 Q726.3,293.9 727.0,293.9 H737.0 Q737.7,293.9 737.7,294.5 V294.5 Z" fill="#3987e5" fill-opacity="0.45"/>
-<rect x="738.7" y="247.6" width="11.3" height="48.4" fill="#9085e9"/>
-<path d="M738.7,247.6 V247.5 Q738.7,244.5 741.7,244.5 H747.0 Q750.0,244.5 750.0,247.5 V247.6 Z" fill="#9085e9" fill-opacity="0.45"/>
-<rect x="755.0" y="291.3" width="11.3" height="4.7" fill="#d95926"/>
-<path d="M755.0,291.3 V291.3 Q755.0,290.5 755.8,290.5 H765.6 Q766.3,290.5 766.3,291.3 V291.3 Z" fill="#d95926" fill-opacity="0.45"/>
-<rect x="767.3" y="293.2" width="11.3" height="2.8" fill="#3987e5"/>
-<path d="M767.3,293.2 V293.2 Q767.3,292.0 768.5,292.0 H777.5 Q778.7,292.0 778.7,293.2 V293.2 Z" fill="#3987e5" fill-opacity="0.45"/>
-<rect x="779.7" y="200.4" width="11.3" height="95.6" fill="#9085e9"/>
-<path d="M779.7,200.4 V200.4 Q779.7,198.5 781.6,198.5 H789.1 Q791.0,198.5 791.0,200.4 V200.4 Z" fill="#9085e9" fill-opacity="0.45"/>
-<rect x="796.0" y="291.4" width="11.3" height="4.6" fill="#d95926"/>
-<path d="M796.0,291.4 V291.4 Q796.0,290.4 797.0,290.4 H806.3 Q807.3,290.4 807.3,291.4 V291.4 Z" fill="#d95926" fill-opacity="0.45"/>
-<rect x="808.3" y="294.3" width="11.3" height="1.7" fill="#3987e5"/>
-<path d="M808.3,294.3 V294.3 Q808.3,293.6 809.0,293.6 H819.0 Q819.7,293.6 819.7,294.3 V294.3 Z" fill="#3987e5" fill-opacity="0.45"/>
-<rect x="820.7" y="240.6" width="11.3" height="55.4" fill="#9085e9"/>
-<path d="M820.7,240.6 V240.6 Q820.7,238.7 822.6,238.7 H830.1 Q832.0,238.7 832.0,240.6 V240.6 Z" fill="#9085e9" fill-opacity="0.45"/>
-<rect x="837.0" y="289.5" width="11.3" height="6.5" fill="#d95926"/>
-<path d="M837.0,289.5 V289.5 Q837.0,289.5 837.0,289.5 H848.3 Q848.3,289.5 848.3,289.5 V289.5 Z" fill="#d95926" fill-opacity="0.45"/>
-<rect x="849.3" y="294.8" width="11.3" height="1.2" fill="#3987e5"/>
-<path d="M849.3,294.8 V294.8 Q849.3,294.2 849.9,294.2 H860.1 Q860.7,294.2 860.7,294.8 V294.8 Z" fill="#3987e5" fill-opacity="0.45"/>
-<rect x="861.7" y="265.3" width="11.3" height="30.7" fill="#9085e9"/>
-<path d="M861.7,265.3 V265.3 Q861.7,264.0 862.9,264.0 H871.7 Q873.0,264.0 873.0,265.3 V265.3 Z" fill="#9085e9" fill-opacity="0.45"/>
-<text x="56.0" y="356.0" fill="#d9e3ea" font-size="12" text-anchor="start">Cached input read back (its own scale; billed at a fraction of fresh input)</text>
-<line x1="56" y1="506.0" x2="876" y2="506.0" stroke="#34495a"/>
-<text x="48.0" y="510.0" fill="#8fa3b1" font-size="11" text-anchor="end">0</text>
-<line x1="56" y1="471.0" x2="876" y2="471.0" stroke="#1f2c37"/>
-<text x="48.0" y="475.0" fill="#8fa3b1" font-size="11" text-anchor="end">100.0M</text>
-<line x1="56" y1="436.0" x2="876" y2="436.0" stroke="#1f2c37"/>
-<text x="48.0" y="440.0" fill="#8fa3b1" font-size="11" text-anchor="end">200.0M</text>
-<line x1="56" y1="401.0" x2="876" y2="401.0" stroke="#1f2c37"/>
-<text x="48.0" y="405.0" fill="#8fa3b1" font-size="11" text-anchor="end">300.0M</text>
-<line x1="56" y1="366.0" x2="876" y2="366.0" stroke="#1f2c37"/>
-<text x="48.0" y="370.0" fill="#8fa3b1" font-size="11" text-anchor="end">400.0M</text>
-<line x1="138.0" y1="506" x2="138.0" y2="510" stroke="#34495a"/>
-<text x="138.0" y="522.0" fill="#8fa3b1" font-size="11" text-anchor="middle">21:00</text>
-<line x1="261.0" y1="366" x2="261.0" y2="506" stroke="#34495a" stroke-dasharray="3 3"/>
-<text x="261.0" y="522.0" fill="#d9e3ea" font-size="11" text-anchor="middle">09/25</text>
-<line x1="384.0" y1="506" x2="384.0" y2="510" stroke="#34495a"/>
-<text x="384.0" y="522.0" fill="#8fa3b1" font-size="11" text-anchor="middle">03:00</text>
-<line x1="507.0" y1="506" x2="507.0" y2="510" stroke="#34495a"/>
-<text x="507.0" y="522.0" fill="#8fa3b1" font-size="11" text-anchor="middle">06:00</text>
-<line x1="630.0" y1="506" x2="630.0" y2="510" stroke="#34495a"/>
-<text x="630.0" y="522.0" fill="#8fa3b1" font-size="11" text-anchor="middle">09:00</text>
-<line x1="753.0" y1="506" x2="753.0" y2="510" stroke="#34495a"/>
-<text x="753.0" y="522.0" fill="#8fa3b1" font-size="11" text-anchor="middle">12:00</text>
-<line x1="876.0" y1="506" x2="876.0" y2="510" stroke="#34495a"/>
-<text x="876.0" y="522.0" fill="#8fa3b1" font-size="11" text-anchor="middle">15:00</text>
-<path d="M58.0,506.0 V506.0 Q58.0,506.0 58.0,506.0 H69.3 Q69.3,506.0 69.3,506.0 V506.0 Z" fill="#d95926" fill-opacity="0.8"/>
-<path d="M70.3,506.0 V506.0 Q70.3,505.6 70.7,505.6 H81.3 Q81.7,505.6 81.7,506.0 V506.0 Z" fill="#3987e5" fill-opacity="0.8"/>
-<path d="M82.7,506.0 V506.0 Q82.7,503.1 85.6,503.1 H91.1 Q94.0,503.1 94.0,506.0 V506.0 Z" fill="#9085e9" fill-opacity="0.8"/>
-<path d="M99.0,506.0 V506.0 Q99.0,503.8 101.2,503.8 H108.1 Q110.3,503.8 110.3,506.0 V506.0 Z" fill="#d95926" fill-opacity="0.8"/>
-<path d="M111.3,506.0 V495.5 Q111.3,492.5 114.3,492.5 H119.7 Q122.7,492.5 122.7,495.5 V506.0 Z" fill="#3987e5" fill-opacity="0.8"/>
-<path d="M123.7,506.0 V490.4 Q123.7,487.4 126.7,487.4 H132.0 Q135.0,487.4 135.0,490.4 V506.0 Z" fill="#9085e9" fill-opacity="0.8"/>
-<path d="M140.0,506.0 V504.4 Q140.0,501.4 143.0,501.4 H148.3 Q151.3,501.4 151.3,504.4 V506.0 Z" fill="#d95926" fill-opacity="0.8"/>
-<path d="M152.3,506.0 V494.1 Q152.3,491.1 155.3,491.1 H160.7 Q163.7,491.1 163.7,494.1 V506.0 Z" fill="#3987e5" fill-opacity="0.8"/>
-<path d="M164.7,506.0 V431.3 Q164.7,428.3 167.7,428.3 H173.0 Q176.0,428.3 176.0,431.3 V506.0 Z" fill="#9085e9" fill-opacity="0.8"/>
-<path d="M181.0,506.0 V506.0 Q181.0,504.1 182.9,504.1 H190.4 Q192.3,504.1 192.3,506.0 V506.0 Z" fill="#d95926" fill-opacity="0.8"/>
-<path d="M193.3,506.0 V494.9 Q193.3,491.9 196.3,491.9 H201.7 Q204.7,491.9 204.7,494.9 V506.0 Z" fill="#3987e5" fill-opacity="0.8"/>
-<path d="M205.7,506.0 V440.3 Q205.7,437.3 208.7,437.3 H214.0 Q217.0,437.3 217.0,440.3 V506.0 Z" fill="#9085e9" fill-opacity="0.8"/>
-<path d="M222.0,506.0 V505.0 Q222.0,502.0 225.0,502.0 H230.3 Q233.3,502.0 233.3,505.0 V506.0 Z" fill="#d95926" fill-opacity="0.8"/>
-<path d="M234.3,506.0 V497.2 Q234.3,494.2 237.3,494.2 H242.7 Q245.7,494.2 245.7,497.2 V506.0 Z" fill="#3987e5" fill-opacity="0.8"/>
-<path d="M246.7,506.0 V491.5 Q246.7,488.5 249.7,488.5 H255.0 Q258.0,488.5 258.0,491.5 V506.0 Z" fill="#9085e9" fill-opacity="0.8"/>
-<path d="M263.0,506.0 V506.0 Q263.0,504.4 264.6,504.4 H272.8 Q274.3,504.4 274.3,506.0 V506.0 Z" fill="#d95926" fill-opacity="0.8"/>
-<path d="M275.3,506.0 V498.8 Q275.3,495.8 278.3,495.8 H283.7 Q286.7,495.8 286.7,498.8 V506.0 Z" fill="#3987e5" fill-opacity="0.8"/>
-<path d="M287.7,506.0 V436.9 Q287.7,433.9 290.7,433.9 H296.0 Q299.0,433.9 299.0,436.9 V506.0 Z" fill="#9085e9" fill-opacity="0.8"/>
-<path d="M304.0,506.0 V505.3 Q304.0,502.3 307.0,502.3 H312.3 Q315.3,502.3 315.3,505.3 V506.0 Z" fill="#d95926" fill-opacity="0.8"/>
-<path d="M316.3,506.0 V490.8 Q316.3,487.8 319.3,487.8 H324.7 Q327.7,487.8 327.7,490.8 V506.0 Z" fill="#3987e5" fill-opacity="0.8"/>
-<path d="M328.7,506.0 V424.0 Q328.7,421.0 331.7,421.0 H337.0 Q340.0,421.0 340.0,424.0 V506.0 Z" fill="#9085e9" fill-opacity="0.8"/>
-<path d="M345.0,506.0 V506.0 Q345.0,505.9 345.1,505.9 H356.2 Q356.3,505.9 356.3,506.0 V506.0 Z" fill="#d95926" fill-opacity="0.8"/>
-<path d="M357.3,506.0 V506.0 Q357.3,504.8 358.5,504.8 H367.5 Q368.7,504.8 368.7,506.0 V506.0 Z" fill="#3987e5" fill-opacity="0.8"/>
-<path d="M369.7,506.0 V500.2 Q369.7,497.2 372.7,497.2 H378.0 Q381.0,497.2 381.0,500.2 V506.0 Z" fill="#9085e9" fill-opacity="0.8"/>
-<path d="M386.0,506.0 V506.0 Q386.0,505.8 386.2,505.8 H397.2 Q397.3,505.8 397.3,506.0 V506.0 Z" fill="#d95926" fill-opacity="0.8"/>
-
-
-<path d="M427.0,506.0 V506.0 Q427.0,505.8 427.2,505.8 H438.2 Q438.3,505.8 438.3,506.0 V506.0 Z" fill="#d95926" fill-opacity="0.8"/>
-
-
-<path d="M468.0,506.0 V506.0 Q468.0,505.1 468.9,505.1 H478.5 Q479.3,505.1 479.3,506.0 V506.0 Z" fill="#d95926" fill-opacity="0.8"/>
-<path d="M480.3,506.0 V500.5 Q480.3,497.5 483.3,497.5 H488.7 Q491.7,497.5 491.7,500.5 V506.0 Z" fill="#3987e5" fill-opacity="0.8"/>
-<path d="M492.7,506.0 V503.1 Q492.7,500.1 495.7,500.1 H501.0 Q504.0,500.1 504.0,503.1 V506.0 Z" fill="#9085e9" fill-opacity="0.8"/>
-<path d="M509.0,506.0 V505.5 Q509.0,502.5 512.0,502.5 H517.3 Q520.3,502.5 520.3,505.5 V506.0 Z" fill="#d95926" fill-opacity="0.8"/>
-<path d="M521.3,506.0 V494.6 Q521.3,491.6 524.3,491.6 H529.7 Q532.7,491.6 532.7,494.6 V506.0 Z" fill="#3987e5" fill-opacity="0.8"/>
-<path d="M533.7,506.0 V492.0 Q533.7,489.0 536.7,489.0 H542.0 Q545.0,489.0 545.0,492.0 V506.0 Z" fill="#9085e9" fill-opacity="0.8"/>
-<path d="M550.0,506.0 V506.0 Q550.0,503.6 552.4,503.6 H558.9 Q561.3,503.6 561.3,506.0 V506.0 Z" fill="#d95926" fill-opacity="0.8"/>
-<path d="M562.3,506.0 V502.3 Q562.3,499.3 565.3,499.3 H570.7 Q573.7,499.3 573.7,502.3 V506.0 Z" fill="#3987e5" fill-opacity="0.8"/>
-<path d="M574.7,506.0 V469.0 Q574.7,466.0 577.7,466.0 H583.0 Q586.0,466.0 586.0,469.0 V506.0 Z" fill="#9085e9" fill-opacity="0.8"/>
-<path d="M591.0,506.0 V505.3 Q591.0,502.3 594.0,502.3 H599.3 Q602.3,502.3 602.3,505.3 V506.0 Z" fill="#d95926" fill-opacity="0.8"/>
-<path d="M603.3,506.0 V501.3 Q603.3,498.3 606.3,498.3 H611.7 Q614.7,498.3 614.7,501.3 V506.0 Z" fill="#3987e5" fill-opacity="0.8"/>
-<path d="M615.7,506.0 V437.4 Q615.7,434.4 618.7,434.4 H624.0 Q627.0,434.4 627.0,437.4 V506.0 Z" fill="#9085e9" fill-opacity="0.8"/>
-<path d="M632.0,506.0 V503.8 Q632.0,500.8 635.0,500.8 H640.3 Q643.3,500.8 643.3,503.8 V506.0 Z" fill="#d95926" fill-opacity="0.8"/>
-<path d="M644.3,506.0 V497.5 Q644.3,494.5 647.3,494.5 H652.7 Q655.7,494.5 655.7,497.5 V506.0 Z" fill="#3987e5" fill-opacity="0.8"/>
-<path d="M656.7,506.0 V399.0 Q656.7,396.0 659.7,396.0 H665.0 Q668.0,396.0 668.0,399.0 V506.0 Z" fill="#9085e9" fill-opacity="0.8"/>
-<path d="M673.0,506.0 V505.0 Q673.0,502.0 676.0,502.0 H681.3 Q684.3,502.0 684.3,505.0 V506.0 Z" fill="#d95926" fill-opacity="0.8"/>
-<path d="M685.3,506.0 V494.2 Q685.3,491.2 688.3,491.2 H693.7 Q696.7,491.2 696.7,494.2 V506.0 Z" fill="#3987e5" fill-opacity="0.8"/>
-<path d="M697.7,506.0 V375.5 Q697.7,372.5 700.7,372.5 H706.0 Q709.0,372.5 709.0,375.5 V506.0 Z" fill="#9085e9" fill-opacity="0.8"/>
-<path d="M714.0,506.0 V506.0 Q714.0,504.5 715.5,504.5 H723.8 Q725.3,504.5 725.3,506.0 V506.0 Z" fill="#d95926" fill-opacity="0.8"/>
-<path d="M726.3,506.0 V503.6 Q726.3,500.6 729.3,500.6 H734.7 Q737.7,500.6 737.7,503.6 V506.0 Z" fill="#3987e5" fill-opacity="0.8"/>
-<path d="M738.7,506.0 V460.0 Q738.7,457.0 741.7,457.0 H747.0 Q750.0,457.0 750.0,460.0 V506.0 Z" fill="#9085e9" fill-opacity="0.8"/>
-<path d="M755.0,506.0 V505.6 Q755.0,502.6 758.0,502.6 H763.3 Q766.3,502.6 766.3,505.6 V506.0 Z" fill="#d95926" fill-opacity="0.8"/>
-<path d="M767.3,506.0 V497.9 Q767.3,494.9 770.3,494.9 H775.7 Q778.7,494.9 778.7,497.9 V506.0 Z" fill="#3987e5" fill-opacity="0.8"/>
-<path d="M779.7,506.0 V463.7 Q779.7,460.7 782.7,460.7 H788.0 Q791.0,460.7 791.0,463.7 V506.0 Z" fill="#9085e9" fill-opacity="0.8"/>
-<path d="M796.0,506.0 V505.0 Q796.0,502.0 799.0,502.0 H804.3 Q807.3,502.0 807.3,505.0 V506.0 Z" fill="#d95926" fill-opacity="0.8"/>
-<path d="M808.3,506.0 V498.2 Q808.3,495.2 811.3,495.2 H816.7 Q819.7,495.2 819.7,498.2 V506.0 Z" fill="#3987e5" fill-opacity="0.8"/>
-<path d="M820.7,506.0 V389.9 Q820.7,386.9 823.7,386.9 H829.0 Q832.0,386.9 832.0,389.9 V506.0 Z" fill="#9085e9" fill-opacity="0.8"/>
-<path d="M837.0,506.0 V506.0 Q837.0,505.4 837.6,505.4 H847.7 Q848.3,505.4 848.3,506.0 V506.0 Z" fill="#d95926" fill-opacity="0.8"/>
-<path d="M849.3,506.0 V505.3 Q849.3,502.3 852.3,502.3 H857.7 Q860.7,502.3 860.7,505.3 V506.0 Z" fill="#3987e5" fill-opacity="0.8"/>
-<path d="M861.7,506.0 V480.8 Q861.7,477.8 864.7,477.8 H870.0 Q873.0,477.8 873.0,480.8 V506.0 Z" fill="#9085e9" fill-opacity="0.8"/>
-<text x="56.0" y="550.0" fill="#d9e3ea" font-size="12" text-anchor="start">Per accepted room view (25): 607k work tokens (26.5M with cached reads), Greg + Norm's own session + art subagents.</text>
-<text x="56.0" y="568.0" fill="#8fa3b1" font-size="12" text-anchor="start">Greg by model per accepted view: Sol 129k (3.0M / 23) · Astra 145k (289k / 2)</text>
+<rect width="900" height="655" fill="#111a22" rx="6"/>
+<text x="66.0" y="28.0" fill="#d9e3ea" font-size="18" text-anchor="start" font-weight="600">Tokens: every session, per day, by agent</text>
+<text x="66.0" y="626.0" fill="#8fa3b1" font-size="13" text-anchor="start">From tokens.csv (agent-tokens.mjs, the local session logs). Codex and Claude count and price tokens differently: compare</text>
+<text x="66.0" y="643.0" fill="#8fa3b1" font-size="13" text-anchor="start">shapes, not sums.</text>
+<g class="lg" data-s="greg">
+<rect x="66" y="42" width="14" height="14" rx="2" fill="#d95926"/>
+<text x="85.0" y="54.0" fill="#d9e3ea" font-size="14" text-anchor="start">Greg (Codex)</text>
+</g>
+<g class="lg" data-s="norm-main">
+<rect x="187" y="42" width="14" height="14" rx="2" fill="#3987e5"/>
+<text x="206.0" y="54.0" fill="#d9e3ea" font-size="14" text-anchor="start">Norm, own session</text>
+</g>
+<g class="lg" data-s="norm-subagents">
+<rect x="343" y="42" width="14" height="14" rx="2" fill="#9085e9"/>
+<text x="362.0" y="54.0" fill="#d9e3ea" font-size="14" text-anchor="start">Norm's subagents</text>
+</g>
+<g class="lg" data-s="output">
+<rect x="492" y="42" width="14" height="14" rx="2" fill="#8fa3b1"/>
+<text x="511.0" y="54.0" fill="#d9e3ea" font-size="14" text-anchor="start">paler top: output</text>
+</g>
+<text x="66.0" y="78.0" fill="#d9e3ea" font-size="13" text-anchor="start">Greg (Codex) 25.5M (in 23.5M, out 2.0M) + 886.4M cached, 97% of input</text>
+<text x="66.0" y="96.0" fill="#d9e3ea" font-size="13" text-anchor="start">Norm, own session 13.9M (in 10.8M, out 3.1M) + 2324.6M cached, 100% of input</text>
+<text x="66.0" y="114.0" fill="#d9e3ea" font-size="13" text-anchor="start">Norm's subagents 245.7M (in 236.3M, out 9.4M) + 10377.3M cached, 98% of input</text>
+<text x="66.0" y="140.0" fill="#d9e3ea" font-size="15" text-anchor="start">Work tokens: fresh input and cache writes, with output stacked on top</text>
+<line x1="66" y1="322.0" x2="876" y2="322.0" stroke="#34495a"/>
+<text x="58.0" y="327.0" fill="#8fa3b1" font-size="14" text-anchor="end">0</text>
+<line x1="66" y1="279.5" x2="876" y2="279.5" stroke="#1f2c37"/>
+<text x="58.0" y="284.5" fill="#8fa3b1" font-size="14" text-anchor="end">20.0M</text>
+<line x1="66" y1="237.0" x2="876" y2="237.0" stroke="#1f2c37"/>
+<text x="58.0" y="242.0" fill="#8fa3b1" font-size="14" text-anchor="end">40.0M</text>
+<line x1="66" y1="194.5" x2="876" y2="194.5" stroke="#1f2c37"/>
+<text x="58.0" y="199.5" fill="#8fa3b1" font-size="14" text-anchor="end">60.0M</text>
+<line x1="66" y1="152.0" x2="876" y2="152.0" stroke="#1f2c37"/>
+<text x="58.0" y="157.0" fill="#8fa3b1" font-size="14" text-anchor="end">80.0M</text>
+<g class="tx" data-kind="time" data-dom="1790208000000 1790812800000" data-px="66 152 810 170" data-th="#34495a #d9e3ea #8fa3b1 14">
+<line x1="66.0" y1="152" x2="66.0" y2="322" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="66.0" y="341.0" fill="#d9e3ea" font-size="14" text-anchor="middle">09/24</text>
+<line x1="181.7" y1="152" x2="181.7" y2="322" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="181.7" y="341.0" fill="#d9e3ea" font-size="14" text-anchor="middle">09/25</text>
+<line x1="297.4" y1="152" x2="297.4" y2="322" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="297.4" y="341.0" fill="#d9e3ea" font-size="14" text-anchor="middle">09/26</text>
+<line x1="413.1" y1="152" x2="413.1" y2="322" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="413.1" y="341.0" fill="#d9e3ea" font-size="14" text-anchor="middle">09/27</text>
+<line x1="528.9" y1="152" x2="528.9" y2="322" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="528.9" y="341.0" fill="#d9e3ea" font-size="14" text-anchor="middle">09/28</text>
+<line x1="644.6" y1="152" x2="644.6" y2="322" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="644.6" y="341.0" fill="#d9e3ea" font-size="14" text-anchor="middle">09/29</text>
+<line x1="760.3" y1="152" x2="760.3" y2="322" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="760.3" y="341.0" fill="#d9e3ea" font-size="14" text-anchor="middle">09/30</text>
+<line x1="876.0" y1="152" x2="876.0" y2="322" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="876.0" y="341.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/01</text>
+</g>
+<g class="tz" data-kind="time" data-dom="1790208000000 1790812800000" data-px="66 152 810 170">
+<g class="m" data-s="greg" data-rk="- - greg - output"><title>832,880 work tokens
+09/24
+Greg (Codex)
+fresh input and cache writes: 737,447
+output: 95,433</title><rect x="68.0" y="320.4" width="36.2" height="1.6" fill="#d95926"/><g class="sr" data-s="output"><path d="M68.0,320.4 V320.4 Q68.0,320.2 68.2,320.2 H104.0 Q104.2,320.2 104.2,320.4 V320.4 Z" fill="#d95926" data-b="68.0 320.2 36.2 0.2" fill-opacity="0.45"/></g></g>
+<g class="m" data-s="norm-main" data-rk="- - norm-main - output"><title>951,248 work tokens
+09/24
+Norm, own session
+fresh input and cache writes: 683,576
+output: 267,672</title><rect x="105.2" y="320.5" width="36.2" height="1.5" fill="#3987e5"/><g class="sr" data-s="output"><path d="M105.2,320.5 V320.5 Q105.2,320.0 105.8,320.0 H140.9 Q141.5,320.0 141.5,320.5 V320.5 Z" fill="#3987e5" data-b="105.2 320.0 36.2 0.6" fill-opacity="0.45"/></g></g>
+<g class="m" data-s="norm-subagents" data-rk="- - norm-subagents - output"><title>9,743,025 work tokens
+09/24
+Norm's subagents
+fresh input and cache writes: 9,230,176
+output: 512,849</title><rect x="142.5" y="302.4" width="36.2" height="19.6" fill="#9085e9"/><g class="sr" data-s="output"><path d="M142.5,302.4 V302.4 Q142.5,301.3 143.6,301.3 H177.6 Q178.7,301.3 178.7,302.4 V302.4 Z" fill="#9085e9" data-b="142.5 301.3 36.2 1.1" fill-opacity="0.45"/></g></g>
+<g class="m" data-s="greg" data-rk="- - greg - output"><title>4,076,515 work tokens
+09/25
+Greg (Codex)
+fresh input and cache writes: 3,616,056
+output: 460,459</title><rect x="183.7" y="314.3" width="36.2" height="7.7" fill="#d95926"/><g class="sr" data-s="output"><path d="M183.7,314.3 V314.3 Q183.7,313.3 184.7,313.3 H219.0 Q220.0,313.3 220.0,314.3 V314.3 Z" fill="#d95926" data-b="183.7 313.3 36.2 1.0" fill-opacity="0.45"/></g></g>
+<g class="m" data-s="norm-main" data-rk="- - norm-main - output"><title>2,578,072 work tokens
+09/25
+Norm, own session
+fresh input and cache writes: 2,062,289
+output: 515,783</title><rect x="221.0" y="317.6" width="36.2" height="4.4" fill="#3987e5"/><g class="sr" data-s="output"><path d="M221.0,317.6 V317.6 Q221.0,316.5 222.0,316.5 H256.1 Q257.2,316.5 257.2,317.6 V317.6 Z" fill="#3987e5" data-b="221.0 316.5 36.2 1.1" fill-opacity="0.45"/></g></g>
+<g class="m" data-s="norm-subagents" data-rk="- - norm-subagents - output"><title>29,523,867 work tokens
+09/25
+Norm's subagents
+fresh input and cache writes: 28,401,551
+output: 1,122,316</title><rect x="258.2" y="261.6" width="36.2" height="60.4" fill="#9085e9"/><g class="sr" data-s="output"><path d="M258.2,261.6 V261.6 Q258.2,259.3 260.6,259.3 H292.0 Q294.4,259.3 294.4,261.6 V261.6 Z" fill="#9085e9" data-b="258.2 259.3 36.2 2.4" fill-opacity="0.45"/></g></g>
+<g class="m" data-s="greg" data-rk="- - greg - output"><title>4,129,195 work tokens
+09/26
+Greg (Codex)
+fresh input and cache writes: 3,738,406
+output: 390,789</title><rect x="299.4" y="314.1" width="36.2" height="7.9" fill="#d95926"/><g class="sr" data-s="output"><path d="M299.4,314.1 V314.1 Q299.4,313.2 300.3,313.2 H334.8 Q335.7,313.2 335.7,314.1 V314.1 Z" fill="#d95926" data-b="299.4 313.2 36.2 0.8" fill-opacity="0.45"/></g></g>
+<g class="m" data-s="norm-main" data-rk="- - norm-main - output"><title>2,567,131 work tokens
+09/26
+Norm, own session
+fresh input and cache writes: 1,833,807
+output: 733,324</title><rect x="336.7" y="318.1" width="36.2" height="3.9" fill="#3987e5"/><g class="sr" data-s="output"><path d="M336.7,318.1 V318.1 Q336.7,316.5 338.2,316.5 H371.3 Q372.9,316.5 372.9,318.1 V318.1 Z" fill="#3987e5" data-b="336.7 316.5 36.2 1.6" fill-opacity="0.45"/></g></g>
+<g class="m" data-s="norm-subagents" data-rk="- - norm-subagents - output"><title>19,054,740 work tokens
+09/26
+Norm's subagents
+fresh input and cache writes: 17,977,608
+output: 1,077,132</title><rect x="373.9" y="283.8" width="36.2" height="38.2" fill="#9085e9"/><g class="sr" data-s="output"><path d="M373.9,283.8 V283.8 Q373.9,281.5 376.2,281.5 H407.9 Q410.1,281.5 410.1,283.8 V283.8 Z" fill="#9085e9" data-b="373.9 281.5 36.2 2.3" fill-opacity="0.45"/></g></g>
+<g class="m" data-s="greg" data-rk="- - greg - output"><title>4,775,102 work tokens
+09/27
+Greg (Codex)
+fresh input and cache writes: 4,360,636
+output: 414,466</title><rect x="415.1" y="312.7" width="36.2" height="9.3" fill="#d95926"/><g class="sr" data-s="output"><path d="M415.1,312.7 V312.7 Q415.1,311.9 416.0,311.9 H450.5 Q451.4,311.9 451.4,312.7 V312.7 Z" fill="#d95926" data-b="415.1 311.9 36.2 0.9" fill-opacity="0.45"/></g></g>
+<g class="m" data-s="norm-main" data-rk="- - norm-main - output"><title>3,830,549 work tokens
+09/27
+Norm, own session
+fresh input and cache writes: 3,005,450
+output: 825,099</title><rect x="452.4" y="315.6" width="36.2" height="6.4" fill="#3987e5"/><g class="sr" data-s="output"><path d="M452.4,315.6 V315.6 Q452.4,313.9 454.1,313.9 H486.9 Q488.6,313.9 488.6,315.6 V315.6 Z" fill="#3987e5" data-b="452.4 313.9 36.2 1.8" fill-opacity="0.45"/></g></g>
+<g class="m" data-s="norm-subagents" data-rk="- - norm-subagents - output"><title>76,934,167 work tokens
+09/27
+Norm's subagents
+fresh input and cache writes: 73,073,175
+output: 3,860,992</title><rect x="489.6" y="166.7" width="36.2" height="155.3" fill="#9085e9"/><g class="sr" data-s="output"><path d="M489.6,166.7 V161.5 Q489.6,158.5 492.6,158.5 H522.9 Q525.9,158.5 525.9,161.5 V166.7 Z" fill="#9085e9" data-b="489.6 158.5 36.2 8.2" fill-opacity="0.45"/></g></g>
+<g class="m" data-s="greg" data-rk="- - greg - output"><title>3,735,223 work tokens
+09/28
+Greg (Codex)
+fresh input and cache writes: 3,483,488
+output: 251,735</title><rect x="530.9" y="314.6" width="36.2" height="7.4" fill="#d95926"/><g class="sr" data-s="output"><path d="M530.9,314.6 V314.6 Q530.9,314.1 531.4,314.1 H566.6 Q567.1,314.1 567.1,314.6 V314.6 Z" fill="#d95926" data-b="530.9 314.1 36.2 0.5" fill-opacity="0.45"/></g></g>
+<g class="m" data-s="norm-main" data-rk="- - norm-main - output"><title>2,147,726 work tokens
+09/28
+Norm, own session
+fresh input and cache writes: 1,539,619
+output: 608,107</title><rect x="568.1" y="318.7" width="36.2" height="3.3" fill="#3987e5"/><g class="sr" data-s="output"><path d="M568.1,318.7 V318.7 Q568.1,317.4 569.4,317.4 H603.0 Q604.3,317.4 604.3,318.7 V318.7 Z" fill="#3987e5" data-b="568.1 317.4 36.2 1.3" fill-opacity="0.45"/></g></g>
+<g class="m" data-s="norm-subagents" data-rk="- - norm-subagents - output"><title>71,342,533 work tokens
+09/28
+Norm's subagents
+fresh input and cache writes: 69,057,304
+output: 2,285,229</title><rect x="605.3" y="175.3" width="36.2" height="146.7" fill="#9085e9"/><g class="sr" data-s="output"><path d="M605.3,175.3 V173.4 Q605.3,170.4 608.3,170.4 H638.6 Q641.6,170.4 641.6,173.4 V175.3 Z" fill="#9085e9" data-b="605.3 170.4 36.2 4.9" fill-opacity="0.45"/></g></g>
+<g class="m" data-s="greg" data-rk="- - greg - output"><title>5,100,559 work tokens
+09/29
+Greg (Codex)
+fresh input and cache writes: 4,847,195
+output: 253,364</title><rect x="646.6" y="311.7" width="36.2" height="10.3" fill="#d95926"/><g class="sr" data-s="output"><path d="M646.6,311.7 V311.7 Q646.6,311.2 647.1,311.2 H682.3 Q682.8,311.2 682.8,311.7 V311.7 Z" fill="#d95926" data-b="646.6 311.2 36.2 0.5" fill-opacity="0.45"/></g></g>
+<g class="m" data-s="norm-main" data-rk="- - norm-main - output"><title>1,780,477 work tokens
+09/29
+Norm, own session
+fresh input and cache writes: 1,669,324
+output: 111,153</title><rect x="683.8" y="318.5" width="36.2" height="3.5" fill="#3987e5"/><g class="sr" data-s="output"><path d="M683.8,318.5 V318.5 Q683.8,318.2 684.0,318.2 H719.8 Q720.0,318.2 720.0,318.5 V318.5 Z" fill="#3987e5" data-b="683.8 318.2 36.2 0.2" fill-opacity="0.45"/></g></g>
+<g class="m" data-s="norm-subagents" data-rk="- - norm-subagents - output"><title>39,124,566 work tokens
+09/29
+Norm's subagents
+fresh input and cache writes: 38,546,556
+output: 578,010</title><rect x="721.0" y="240.1" width="36.2" height="81.9" fill="#9085e9"/><g class="sr" data-s="output"><path d="M721.0,240.1 V240.1 Q721.0,238.9 722.3,238.9 H756.1 Q757.3,238.9 757.3,240.1 V240.1 Z" fill="#9085e9" data-b="721.0 238.9 36.2 1.2" fill-opacity="0.45"/></g></g>
+<g class="m" data-s="greg" data-rk="- - greg - output"><title>2,811,204 work tokens
+09/30
+Greg (Codex)
+fresh input and cache writes: 2,687,857
+output: 123,347</title><rect x="762.3" y="316.3" width="36.2" height="5.7" fill="#d95926"/><g class="sr" data-s="output"><path d="M762.3,316.3 V316.3 Q762.3,316.0 762.5,316.0 H798.3 Q798.5,316.0 798.5,316.3 V316.3 Z" fill="#d95926" data-b="762.3 316.0 36.2 0.3" fill-opacity="0.45"/></g></g>
+</g>
+<text x="66.0" y="380.0" fill="#d9e3ea" font-size="15" text-anchor="start">Cached input read back (its own scale; billed at a fraction of fresh input)</text>
+<line x1="66" y1="532.0" x2="876" y2="532.0" stroke="#34495a"/>
+<text x="58.0" y="537.0" fill="#8fa3b1" font-size="14" text-anchor="end">0</text>
+<line x1="66" y1="497.0" x2="876" y2="497.0" stroke="#1f2c37"/>
+<text x="58.0" y="502.0" fill="#8fa3b1" font-size="14" text-anchor="end">1000.0M</text>
+<line x1="66" y1="462.0" x2="876" y2="462.0" stroke="#1f2c37"/>
+<text x="58.0" y="467.0" fill="#8fa3b1" font-size="14" text-anchor="end">2000.0M</text>
+<line x1="66" y1="427.0" x2="876" y2="427.0" stroke="#1f2c37"/>
+<text x="58.0" y="432.0" fill="#8fa3b1" font-size="14" text-anchor="end">3000.0M</text>
+<line x1="66" y1="392.0" x2="876" y2="392.0" stroke="#1f2c37"/>
+<text x="58.0" y="397.0" fill="#8fa3b1" font-size="14" text-anchor="end">4000.0M</text>
+<g class="tx" data-kind="time" data-dom="1790208000000 1790812800000" data-px="66 392 810 140" data-th="#34495a #d9e3ea #8fa3b1 14">
+<line x1="66.0" y1="392" x2="66.0" y2="532" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="66.0" y="551.0" fill="#d9e3ea" font-size="14" text-anchor="middle">09/24</text>
+<line x1="181.7" y1="392" x2="181.7" y2="532" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="181.7" y="551.0" fill="#d9e3ea" font-size="14" text-anchor="middle">09/25</text>
+<line x1="297.4" y1="392" x2="297.4" y2="532" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="297.4" y="551.0" fill="#d9e3ea" font-size="14" text-anchor="middle">09/26</text>
+<line x1="413.1" y1="392" x2="413.1" y2="532" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="413.1" y="551.0" fill="#d9e3ea" font-size="14" text-anchor="middle">09/27</text>
+<line x1="528.9" y1="392" x2="528.9" y2="532" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="528.9" y="551.0" fill="#d9e3ea" font-size="14" text-anchor="middle">09/28</text>
+<line x1="644.6" y1="392" x2="644.6" y2="532" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="644.6" y="551.0" fill="#d9e3ea" font-size="14" text-anchor="middle">09/29</text>
+<line x1="760.3" y1="392" x2="760.3" y2="532" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="760.3" y="551.0" fill="#d9e3ea" font-size="14" text-anchor="middle">09/30</text>
+<line x1="876.0" y1="392" x2="876.0" y2="532" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="876.0" y="551.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/01</text>
+</g>
+<g class="tz" data-kind="time" data-dom="1790208000000 1790812800000" data-px="66 392 810 140">
+<g class="m" data-s="greg" data-rk="- - greg"><title>36,329,088 cached input read
+09/24
+Greg (Codex)</title><path d="M68.0,532.0 V532.0 Q68.0,530.7 69.3,530.7 H103.0 Q104.2,530.7 104.2,532.0 V532.0 Z" fill="#d95926" data-b="68.0 530.7 36.2 1.3" fill-opacity="0.8"/></g>
+<g class="m" data-s="norm-main" data-rk="- - norm-main"><title>156,394,380 cached input read
+09/24
+Norm, own session</title><path d="M105.2,532.0 V529.5 Q105.2,526.5 108.2,526.5 H138.5 Q141.5,526.5 141.5,529.5 V532.0 Z" fill="#3987e5" data-b="105.2 526.5 36.2 5.5" fill-opacity="0.8"/></g>
+<g class="m" data-s="norm-subagents" data-rk="- - norm-subagents"><title>529,819,764 cached input read
+09/24
+Norm's subagents</title><path d="M142.5,532.0 V516.5 Q142.5,513.5 145.5,513.5 H175.7 Q178.7,513.5 178.7,516.5 V532.0 Z" fill="#9085e9" data-b="142.5 513.5 36.2 18.5" fill-opacity="0.8"/></g>
+<g class="m" data-s="greg" data-rk="- - greg"><title>157,975,040 cached input read
+09/25
+Greg (Codex)</title><path d="M183.7,532.0 V529.5 Q183.7,526.5 186.7,526.5 H217.0 Q220.0,526.5 220.0,529.5 V532.0 Z" fill="#d95926" data-b="183.7 526.5 36.2 5.5" fill-opacity="0.8"/></g>
+<g class="m" data-s="norm-main" data-rk="- - norm-main"><title>476,942,228 cached input read
+09/25
+Norm, own session</title><path d="M221.0,532.0 V518.3 Q221.0,515.3 224.0,515.3 H254.2 Q257.2,515.3 257.2,518.3 V532.0 Z" fill="#3987e5" data-b="221.0 515.3 36.2 16.7" fill-opacity="0.8"/></g>
+<g class="m" data-s="norm-subagents" data-rk="- - norm-subagents"><title>3,182,811,138 cached input read
+09/25
+Norm's subagents</title><path d="M258.2,532.0 V423.6 Q258.2,420.6 261.2,420.6 H291.4 Q294.4,420.6 294.4,423.6 V532.0 Z" fill="#9085e9" data-b="258.2 420.6 36.2 111.4" fill-opacity="0.8"/></g>
+<g class="m" data-s="greg" data-rk="- - greg"><title>165,385,472 cached input read
+09/26
+Greg (Codex)</title><path d="M299.4,532.0 V529.2 Q299.4,526.2 302.4,526.2 H332.7 Q335.7,526.2 335.7,529.2 V532.0 Z" fill="#d95926" data-b="299.4 526.2 36.2 5.8" fill-opacity="0.8"/></g>
+<g class="m" data-s="norm-main" data-rk="- - norm-main"><title>485,030,801 cached input read
+09/26
+Norm, own session</title><path d="M336.7,532.0 V518.0 Q336.7,515.0 339.7,515.0 H369.9 Q372.9,515.0 372.9,518.0 V532.0 Z" fill="#3987e5" data-b="336.7 515.0 36.2 17.0" fill-opacity="0.8"/></g>
+<g class="m" data-s="norm-subagents" data-rk="- - norm-subagents"><title>765,807,579 cached input read
+09/26
+Norm's subagents</title><path d="M373.9,532.0 V508.2 Q373.9,505.2 376.9,505.2 H407.1 Q410.1,505.2 410.1,508.2 V532.0 Z" fill="#9085e9" data-b="373.9 505.2 36.2 26.8" fill-opacity="0.8"/></g>
+<g class="m" data-s="greg" data-rk="- - greg"><title>205,903,872 cached input read
+09/27
+Greg (Codex)</title><path d="M415.1,532.0 V527.8 Q415.1,524.8 418.1,524.8 H448.4 Q451.4,524.8 451.4,527.8 V532.0 Z" fill="#d95926" data-b="415.1 524.8 36.2 7.2" fill-opacity="0.8"/></g>
+<g class="m" data-s="norm-main" data-rk="- - norm-main"><title>667,909,679 cached input read
+09/27
+Norm, own session</title><path d="M452.4,532.0 V511.6 Q452.4,508.6 455.4,508.6 H485.6 Q488.6,508.6 488.6,511.6 V532.0 Z" fill="#3987e5" data-b="452.4 508.6 36.2 23.4" fill-opacity="0.8"/></g>
+<g class="m" data-s="norm-subagents" data-rk="- - norm-subagents"><title>2,793,454,977 cached input read
+09/27
+Norm's subagents</title><path d="M489.6,532.0 V437.2 Q489.6,434.2 492.6,434.2 H522.9 Q525.9,434.2 525.9,437.2 V532.0 Z" fill="#9085e9" data-b="489.6 434.2 36.2 97.8" fill-opacity="0.8"/></g>
+<g class="m" data-s="greg" data-rk="- - greg"><title>131,340,800 cached input read
+09/28
+Greg (Codex)</title><path d="M530.9,532.0 V530.4 Q530.9,527.4 533.9,527.4 H564.1 Q567.1,527.4 567.1,530.4 V532.0 Z" fill="#d95926" data-b="530.9 527.4 36.2 4.6" fill-opacity="0.8"/></g>
+<g class="m" data-s="norm-main" data-rk="- - norm-main"><title>424,360,206 cached input read
+09/28
+Norm, own session</title><path d="M568.1,532.0 V520.1 Q568.1,517.1 571.1,517.1 H601.3 Q604.3,517.1 604.3,520.1 V532.0 Z" fill="#3987e5" data-b="568.1 517.1 36.2 14.9" fill-opacity="0.8"/></g>
+<g class="m" data-s="norm-subagents" data-rk="- - norm-subagents"><title>2,156,661,805 cached input read
+09/28
+Norm's subagents</title><path d="M605.3,532.0 V459.5 Q605.3,456.5 608.3,456.5 H638.6 Q641.6,456.5 641.6,459.5 V532.0 Z" fill="#9085e9" data-b="605.3 456.5 36.2 75.5" fill-opacity="0.8"/></g>
+<g class="m" data-s="greg" data-rk="- - greg"><title>122,365,440 cached input read
+09/29
+Greg (Codex)</title><path d="M646.6,532.0 V530.7 Q646.6,527.7 649.6,527.7 H679.8 Q682.8,527.7 682.8,530.7 V532.0 Z" fill="#d95926" data-b="646.6 527.7 36.2 4.3" fill-opacity="0.8"/></g>
+<g class="m" data-s="norm-main" data-rk="- - norm-main"><title>113,983,519 cached input read
+09/29
+Norm, own session</title><path d="M683.8,532.0 V531.0 Q683.8,528.0 686.8,528.0 H717.0 Q720.0,528.0 720.0,531.0 V532.0 Z" fill="#3987e5" data-b="683.8 528.0 36.2 4.0" fill-opacity="0.8"/></g>
+<g class="m" data-s="norm-subagents" data-rk="- - norm-subagents"><title>948,784,279 cached input read
+09/29
+Norm's subagents</title><path d="M721.0,532.0 V501.8 Q721.0,498.8 724.0,498.8 H754.3 Q757.3,498.8 757.3,501.8 V532.0 Z" fill="#9085e9" data-b="721.0 498.8 36.2 33.2" fill-opacity="0.8"/></g>
+<g class="m" data-s="greg" data-rk="- - greg"><title>67,065,856 cached input read
+09/30
+Greg (Codex)</title><path d="M762.3,532.0 V532.0 Q762.3,529.7 764.6,529.7 H796.2 Q798.5,529.7 798.5,532.0 V532.0 Z" fill="#d95926" data-b="762.3 529.7 36.2 2.3" fill-opacity="0.8"/></g>
+</g>
+<text x="66.0" y="582.0" fill="#d9e3ea" font-size="14" text-anchor="start">Per accepted room view (165): 698k work tokens (20.2M with cached reads), Greg + Norm's own session + art subagents.</text>
+<text x="66.0" y="602.0" fill="#8fa3b1" font-size="14" text-anchor="start">Greg by model per accepted view: Sol 160k (25.2M / 157) · Astra 96k (289k / 3)</text>
 </svg>

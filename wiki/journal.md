@@ -302,3 +302,293 @@ Caveats: rotating personas, agent testers, one session per stage, UNDO on.
 **Efficiency (D21), at 14:46.** 114 of 118 asks closed; 22 views approved (20). Cycle p50/p90: Norm 4 and 8 minutes, Greg 26 minutes and 1.2 hours. Rework 37% of 93. 637,000 work tokens per accepted view (567,000). 13.5 sponsor touches a day.
 
 <!-- through: git b736b90 · mail 20260925-184407-norm-0144 · decisions 28 -->
+
+## 2026-09-26 -- The Cursor trial: useful work, managerial friction (M7)
+
+From the evening of 25 September to late morning on the 26th, the sponsor paused Claude Code Norm and tried Cursor as a stand-in Norm ("cursor-norm") with Greg. Greg's friction note, written at the sponsor's request, is the main source (greg-0113, `docs/CURSOR-FRICTION-2026-09-25-26.md`). The sponsor followed it through read-only reports from Claude Code Norm (not in git). The afternoon of 25 September (round 6, D29 to D31) is not yet written up.
+
+**Delivered:** a fix for restoring fresh ring views (632cbd2) and four registered views, Level Five 087, Sick Bay 047, Station Control 357 and Commander's Office 099 (9f0a145, 2831f7c, bb3d45d, ce5ea35).
+
+**Decisions**
+- D32. cursor-norm kept bringing the sponsor questions Norm would have settled himself. So the sponsor wrote an autonomy rule: ***inside the plan, decide what is in scope and reversible and report afterwards; escalate only real conflicts, irreversible steps, scope, spending or taste***. It applies to any Norm.
+- The sponsor closed the trial and handed back to Claude Code Norm (1627aa9, d475377).
+
+**What went wrong and what changed**
+- **Order.** Commander's Office 099 was registered before its approval verdict, then unregistered and registered again after norm-0168. Greg proposed that registering refuse a view with no matching approval, and Norm built it the same day: `deliveries.mjs register` now refuses without an approving verdict, and `npm run check` looks for orphans (e0cf56d).
+- **Role transfer.** Norm's habits were not in files a new agent reads. The trial left a shared `AGENTS.md`, `docs/AGENT_HANDOFF.md` and Greg's `design/AGENTS.md` (1627aa9).
+- **Lost context.** Asks were rebuilt from packages and mail after a scratchpad was lost.
+- **Telemetry.** Cursor's runs log no tokens or durations, so the D21 charts miss the trial.
+- **Testers.** Cursor's playtesters stopped mid-leg on a usage limit.
+
+**Milestones:** M7 continued. Greg's reading: the coding was sound; the cost was supervision and sequencing.
+
+<!-- through: git d475377 · mail 20260926-135231-greg-0113 · decisions 32 -->
+
+## 2026-09-26 -- Round 7, the first full runs, and Norm back on the art lane (M5, M7)
+
+**Milestones:** M5 and M7 continue. Norm finished round 7, the first played from the opening (D29), and restarted the art lane.
+
+**Playtesting.** Headless Claude testers, kept out of the chat panel at the sponsor's request, finished the click runs from the carried-over state (d179a6c).
+
+![Full-run rounds: score over commands](wiki/metrics-playtest-fullrun.svg)
+
+All three runs used 1,500 commands over four legs; none won. Mean share: first four stages 100%, Day 2 92%, Plato 9%, Factory 0%. Click B reached Plato with 55, still scoring at the cap. Click A reached Plato with 53 and typed Day 2 with 45; both ended stuck. Endings: one cap, two stuck; 29 deaths; 1.64 negative friction rows per 100 commands. First full-run round; agent testers, rotating personas, three runs, UNDO on.
+
+**What went wrong and what changed**
+- Comm Center 283 came back 13 minutes after its ask with its dado below the held strip (norm-0169, greg-0114). The guide drew no dado line, so the two-box verdict is Norm's guide fault (norm-0172).
+- Greg found the PX 222 ask's port vanishing point unmeasurable (greg-0115). Norm made it manual and took Greg's proposal of family-specific checks that report "not measurable" below two lines (greg-0116, norm-0173).
+- check_status used Planetfall role names and failed every "with greg" line (883d427).
+
+**Rework (D20).** Sol: 51 views, 39 first-pass, 24% (26%), 1.65 rounds per view (1.72). Astra: 0 of 2. Greg was on Sol throughout. Guide faults: 14 (13).
+
+**Efficiency (D21).** 134 of 137 asks closed; 29 views approved (22). Cycle p50/p90: Norm 4/10 minutes, Greg 28 minutes/1.4 hours. 648,000 tokens per accepted view (637,000), Cursor uncounted. 9.7 sponsor touches a day (13.5).
+
+<!-- through: git 3f36e70 · mail 20260926-142750-norm-0173 · decisions 32 -->
+
+## 2026-09-26 -- Level Five rooms whole, the checks rebuilt from Greg's pushbacks (M7)
+
+The Commander's Office and Comm Center are whole, rings and caps (44c244b, 5ae853d); PX's ring is closed (48885f1). The sponsor accepted the Forms Storage Room, the second accepted room (431a2fa; `metrics-rooms-accepted.svg`, 698fdb1).
+
+**Decisions**
+- Norm, under D32, took Greg's proposals: preflight on writable boxes (greg-0119), lines the guide cannot pass go out by eye (553e7ed), and "silhouettes hard, courses soft" (greg-0146, b5c373d).
+- Round 7's 11 A fixes built; Q12 on its default (c8ebf15).
+- At the sponsor's request, the room review tags every switch "no view for this" or "look at N deg" (fce21d7).
+
+**What went wrong and what changed**
+- Blockout courses sat 20-45 px off; asks now carry the held strip's courses (80616c3). Drawn rules passed; "painted, not drawn" became a check (greg-0130, norm-0188).
+- Norm's misses: PX 042 boxes drawn short (norm-0190, norm-0192); CC 283's dado approved unmeasured, repaired as R2/R3 (norm-0193). Repairs escape the verdict count.
+- Sick Bay 227 goes to compute (norm-0215).
+
+**Was today slower?** Not per active hour. Registered views: 1.44 an hour on 25 September, 1.50 on the 26th (15 in 10 hours). Changes verdicts fell from 30 to 7 (not 34), guide faults 13 to 3; 72% of verdicts approved (45%). Asks were harder (median score 8, against 5) but closed faster (Greg's median 21 minutes, from 36). Worse: Norm's review p50/p90, 5/10 to 7/19 minutes.
+
+**Milestones:** M7 continues; no new playtest round.
+
+**Rework (D20).** Sol: 66 views, 47 first-pass, 25% (24%), 1.65 rounds (1.65). Astra: 0 of 2. Greg was on Sol throughout (`greg-models.csv`, dated 25 September). Guide faults: 16 (14).
+
+**Efficiency (D21).** 42 views registered (29). Cycle p50/p90: Norm 4/12 minutes, Greg 26 minutes/1.4 hours. 552,000 tokens per view once `tokens.csv` was refreshed (up from about 473,000 that morning: the check-rebuilding agents).
+
+<!-- through: git 5ae853d · mail 20260926-215843-norm-0215 · decisions 32 -->
+
+## 2026-09-27 -- Rounds 8 and 9 without UNDO; round 10 out (M5, M7)
+
+Two full-run rounds with UNDO off, each fixed before the next; round 10 runs (d330802).
+
+**Decisions**
+- D34 (sponsor): a 3D Floyd trial, due now Floyd's cutout is hung (e3018bd).
+- Norm: D35 fixes new seeds' dado at 1.07 m; D33 records contract v1.12. Q13 and Q14 run on defaults (6918342, 68d336c).
+
+**What went wrong and what changed**
+- Finished playtest legs sat unseen up to two hours; the watcher now keeps a seen list and is single-instance (0ca5561, 72e6224).
+- Dados came back at eye height because Norm's blockouts drew none; now they do (bff05c6).
+- Greg read a two-minute answer (norm-0246) yet held eight rooms about eight hours. His rule became v1.13: a question pauses only its own ask (D36).
+- Our boots note read as permission, costing 357 commands (SF-156, reworded).
+
+**Playtesting.** ![Full-run rounds](wiki/metrics-playtest-fullrun.svg)
+
+Round 8 (best 73, 57, 50): Day 2 99%, Plato 42%, Factory 0%; two capped, one stuck; 29 deaths, 5 restarts. Round 9 (57, 54, 54): Plato 18%; one capped, two stuck; 25 deaths, 7 restarts (3 hatch, 2 starvation). Negative friction per 100 commands: 1.89, 1.60 (1.64). Repeat rows (unfiled triage drafts): 62%, 79% (47%). Triage: 9 A, 1 B, 46 C; 7 A, 2 B, 33 C. Round 10 is playing. Agent testers; personas rotate.
+
+**Rework (D20).** Sol: 78 views, 32% (25%), 1.62 rounds. Astra: 0 of 2. Greg was on Sol. Guide faults 16, unchanged: the dado verdicts stayed "geometry", so Sol's rise overstates Greg's share.
+
+**Efficiency (D21).** 47 views (42); 793,000 tokens per view (552,000; tokens logged to 22:59, 26 September). Work log: 102 runs, 25.6M tokens (playtests 8.7M).
+
+**Milestones:** M5 and M7 continue; three Level Five rooms at the sponsor's gate (norm-0250 to 0252).
+
+<!-- through: git 7a8fadc · mail 20260927-102730-norm-0256 · decisions 36 -->
+
+## 2026-09-27 -- Exact lines go to compute; four rooms accepted (M5, M7)
+
+Six contract versions moved exact lines from Greg's image model to Norm's compute (v1.13 to v1.18). Four rooms were accepted, and Plato was hung (6e8d337).
+
+**Decisions**
+- The sponsor accepted the Comm Center, PX, Sick Bay and Commander's Office. They ***kept the South Junction's post and sent the strip beside it back through the dashboard, so that the rework is counted*** (f391f62; fixed in 1ff4aeb).
+- Norm (D37 to D40): courses and plain edges are placed by compute, because image generation cannot hold them (greg-0179). Scripts only blend.
+
+**What went wrong and what changed**
+- Three dado misses followed stale blockouts. The blockouts were rebuilt (e54815f) and the verdicts recharged to guide.
+- Two scripted fills passed every check unpainted (greg-0183, 0184). The checks now flag fills (efb3db1), and v1.16 followed. Greg withdrew greg-0184 himself. Five of the next seven deliveries were approved.
+- A dead ask sat open for 17 hours: v1.17 lets Norm withdraw one.
+- The metrics gave four set-aside deliveries other deliveries' verdicts (`how-we-work.md`).
+
+**Playtesting.** ![Full-run rounds](wiki/metrics-playtest-fullrun.svg)
+
+Round 10 (UNDO off, 1,500 commands a run): 71 (Plato 20/22, stuck), 54 (Plato 3/22, cap), 38 (Day 2 12/25, cap). Mean shares: Day 2 83% (100%), Plato 35% (18%). 36 deaths; negative friction 1.36 per 100 commands (1.60). Round 11 is playing (11, 11, 22). The testers are agents with rotating personas, three runs a round.
+
+**Milestones:** M7: 6 of 24 rooms accepted. M5: no blind win.
+
+**Rework (D20).** Sol: 88 views, 30% (32%), 1.66 rounds (1.62). Astra: 0 of 2. Greg was on Sol. Guide faults: 19 (16), Norm's to fix.
+
+**Efficiency (D21).** 53 views (47). Greg's p90 cycle time was 2.1 hours (1.4), because of the night's stall. 847,000 tokens per view (793,000).
+
+<!-- through: git 0155d71 · mail 20260927-150027-norm-0301 · decisions 40 -->
+
+## 2026-09-27 -- A host crash, 3D characters and slower verdicts (M5, M7)
+
+Work survived a host crash; players gained optional 3D characters (590c764).
+
+**Decisions**
+- The sponsor liked the 3D Floyd and ***asked for models of each character the port reaches***, supplying Plato, Rex and Helen (D43, ed3f5bb).
+- The sponsor accepted Level Five and Station Control (050a012, 5af8956).
+- Q19 runs on its default; round 11's fixes merged (cae1e55).
+
+**What went wrong and what changed**
+- Visual Studio closed, killing nine agents; each was relaunched from its brief and a transcript digest (5af8956). Headless runs survived. Norm reports (unlogged) that the sponsor, seeing headless testers in the app's sidebar, ***feared playtesting had moved to Greg***; they are Claude's runs, and stay headless.
+- Evidence files overwrote two ring entries; `deliveries.mjs` refuses them now.
+- An expired watcher hid four deliveries up to an hour; it now exits first.
+- Three geometry repairs came back unmoved; compute finished them; contract v1.20 (norm-0360).
+- Marked door leaves passed Greg's self-check: leaf checks in every ask (274985e).
+- CQ 198 hit the two-ask breaker (norm-0349).
+- Cost: Norm's review p90 went from 20 minutes to 1.0 hour.
+
+**Playtesting.** ![Full-run rounds](wiki/metrics-playtest-fullrun.svg)
+
+Round 11: 73, the first run into the Factory band, died there; 54 (Plato 3/22) capped; 47 (Day 2 21/25) stuck. Day 2 95% (83%), Plato 38% (35%); 28 deaths (36). Round 12 is playing (46, 21, 17). Testers are agents; personas rotate.
+
+**Milestones:** M7: nine rooms accepted; M5: no win.
+
+**Rework (D20).** Sol: 99 judged, 59 first-pass, 40% (30%). Rounds per view (1.50) is unreliable: 54 evidence files count as views. Astra: 0 of 2. Greg was on Sol. Guide faults: 19 (19).
+
+**Efficiency (D21).** 72 views (53); 908,000 tokens per view (847,000); sponsor touches 10.3 a day (8.5).
+
+<!-- through: git d12199c · mail 20260928-002454-greg-0238 · decisions 44 -->
+
+## 2026-09-28 -- Eight rooms accepted, geometry to compute, round 12 (M5, M7)
+
+Rooms finished partly by compute reached the sponsor, who accepted eight between 06:22 and 06:28 (bf23f4c): the Briefing Room, Cargo Bay, Cargo Bay Entrance, East Connection, East and North Junctions, Level Three and South Connection. The Laundry, Theatre and barracks were packaged (6daa333, 07cb0fc).
+
+**Decisions** (Norm's, D32)
+- Geometry-only faults go to compute, not to Greg: five geometry repairs had come back unmoved (N-2026-09-28-geometry-to-compute).
+- Level Four 265 passed at the two-ask breaker (norm-0393).
+- Theatre 163 approved though 65-68 px off, past D38's 60 px guideline, because compute had moved a 169 px miss cleanly (norm-0406).
+
+**What went wrong and what changed**
+- Floor and ceiling views sized too narrow let the page's black show at seams. The sizing tool now models how the page samples them (44eb78d). Three accepted rooms' fixes wait on the sponsor (Q20).
+- Norm reports (not logged) that about nine agents at once hit the session limit near 05:50. The sponsor, ***seeing over half the week's allowance gone in under a day***, asked him to slow down: one or two agents at a time.
+- File Room 010 went back once for Norm's own guide fault (norm-0365).
+
+**Playtesting.** ![Full-run rounds](wiki/metrics-playtest-fullrun-late.svg)
+
+Round 12, new personas: the speedrunner 67 (Plato 16/22, cap), the schoolteacher 53 (2/22, cap), the sci-fi fan 53 (2/22, stuck). Day 2 100% (95%), Plato 30% (38%); 24 deaths (28); no win. Triage: 44 issues; SF-026 and SF-234 fixed; Q22 to Q24 (75e74f3). Norm's reading (reported, not filed): the runs fail at silent dead ends, not on the budget; he proposed a careful-veteran run from a checkpoint. Agent testers, three runs.
+
+**Milestones:** M7: 17 of 35 packaged rooms accepted. M5: no win.
+
+**Rework and efficiency:** in the next entry.
+
+<!-- through: git 57c352c · mail 20260928-103217-norm-0414 · decisions 47 -->
+
+## 2026-09-28 -- Black boxes and the state-art gate (M7)
+
+The sponsor sent the Commander's Quarters back at 06:26: ***the safe did not look blown open, and the safe-open state and the log tape were black boxes***. A rule, an audit and the missing art followed. The sponsor accepted Level Four (202064c); the Gym went to them (norm-0427).
+
+**Decisions**
+- Norm: no room goes to the sponsor while its review lists a state with no art or canon reason; he had handed this one over noting the warning (N-2026-09-28-state-art-gate).
+- Q25: may Greg paint the accepted East Connection's open iris? It stays shut until then.
+- ***The sponsor asked for a playtest browser, each contract version with its diff, type and outcome filters on the full-run charts, and the milestone chart in order*** (57410d6, 51b5c7e, d3bdc26).
+
+**What went wrong and what changed**
+- The audit found 15 items: 3 painted variants, 4 overlays, and 6 review-tool false alarms, all on accepted rooms (`_state-art-audit/REPORT.md`).
+- In canon the safe opens only when the explosive in the drilled hole goes off (interrupts.zil:414-418). Greg painted it blown open, then the tape, key and hole decals, first pass (greg-0267, 0269). The Chapel's and Gym's cutouts hang (b0f0397, 202064c).
+- `metrics.mjs` now stalls after drawing: its wiki-data step imports it back.
+
+**Milestones:** M7: 18 of 35 accepted.
+
+**Rework (D20).** Sol: 133 views, 132 judged, 88 first-pass, 33% (40%), 1.62 rounds per view (1.75). Astra: 3 views, none reworked. Greg was on Sol. Guide faults: 20 (19). Greg's last ten deliveries passed first time.
+
+**Efficiency (D21).** 93 views (72); Greg's p90 cycle 1.8 hours (2.1); 951,000 tokens per view (908,000); sponsor touches 9.4 a day (10.3).
+
+<!-- through: git 61c8762 · mail 20260928-123509-norm-0428 · decisions 48 -->
+
+## 2026-09-30 -- Level Six, a new Norm, and 42 accepted rooms (M7)
+
+M7 crossed Level Six and entered its officers' quarters. Between the last entry and 18:33 on 30 September, accepted rooms rose from 18 of 35 packaged to 42 of 46; no new playtest round ran.
+
+**Decisions**
+- The sponsor added non-interactive sports dressing to the Gym (D44), six usable-as-scenery pews to the Chapel (D46), and an overnight window of up to eight agents before returning to one or two (D47).
+- Contract v1.21 makes Greg the authority on ordinary visual criteria; measurements support but do not replace looking, and historical deliveries close only by an explicit linked verdict (D48, 05bf7b4).
+- The sponsor accepted the Armory after confirming Greg's bounded repairs and byte-identical registration (D49).
+
+**What went wrong and what changed**
+- Labels obscured the Commander's Quarters' tiny tape and key and the Gym's sign. Plates now stay on their own object and the whole-room review treats overlap as a problem (D45, 47567cb).
+- The sponsor reports that Claude's allowance ran out on the morning of 29 September. ***They moved the Norm role to GitHub Copilot so work could continue***; Greg remained in OpenAI ChatGPT (c0e2366).
+- Mail history had closures inferred from later files. v1.21 reconciled them and made `--re` linkage authoritative (96f72d2).
+
+**Milestones:** M7: 42 of 46 packaged rooms accepted; Officers' Quarters C is in paint. M5: no full-run win; round 12 remains latest.
+
+**Rework (D20).** Sol: 180 views, 177 judged, 132 first-pass, 25% rework (33%), 1.43 rounds per view (1.62). Astra: 3 of 3 first-pass. Greg stayed on Sol. Guide faults: 20 (unchanged).
+
+**Efficiency (D21).** 125 views (93); Greg p90 cycle 1.6 hours (1.8); 921,000 tokens per view (951,000); sponsor touches 8.3 a day (9.4).
+
+<!-- through: git cd9773d · mail 20260930-222800-norm-0605 · decisions 55 -->
+
+## 2026-10-03 -- Level Two accepted, the R5 breaker, Elevator and Air Shaft (M7)
+
+The sponsor asked Norm to finish Meeting Room 2, clear Level Two, then package Elevator and Air Shaft. Accepted rooms rose from 42 of 46 packaged to 50 of 55. Meeting Room 2 is whole but not handed.
+
+**Decisions.** Docking Bay 1 unblocked on the built alien-ship look (D50); TURN-334's held groove kept (D51). Contract v1.24: no R6 after five raster attempts until the loop is diagnosed; guide and tool causes stay with Norm (D52). They approved Greg's Library and Main Storage cap simplifications (D53).
+
+**What went wrong and what changed.** TURN-238's withdrawn column-fill was mechanically PASS* and visually false (stripes, wedges, door strokes; greg-0404). Dest restored to Greg's clean R5 (1c955a8d…). Norm owed a band-limited warp (norm-0826). A kick/floor trial notched the plate; only the dado warp shipped (norm-0829). Greg accepted dest (greg-0406). Norm APPROVED (norm-0831); dest after restore 3f576dd9…. Kick/floor residual stays Norm-owned (norm-0836). No R6. Ask 0790 closed. Elevator DR-052 and Air Shaft DR-053 seeds TURN-270 were asked (norm-0832#1, 0833#1; closed greg-0350#2 and #3), delivered (greg-0408, 0409), APPROVED and registered (norm-0839–0842). Intoxicated ostrich (greg-0407) wired into characters.json (norm-0835).
+
+**Milestones:** M7: 50 of 55 packaged accepted. M5: no full-run win; round 12 latest.
+
+**Rework (D20).** Sol: 230 views, 214 judged, 167 first-pass, 22% rework (25%), 1.39 rounds per view (1.43). Greg stayed on Sol; Elevator and Air Shaft tagged gpt-6.1-sol. Guide faults: 20 (unchanged).
+
+**Efficiency (D21).** 164 views (125); Greg p90 1.7 h (1.6); 702,000 tokens/view (921,000); sponsor touches 6.3/day (8.3). Tokens/view fell; Copilot/Cursor Norm work is unmetered.
+
+**Playtest.** No new round. Round 12 remains latest (`metrics-playtest-fullrun.svg`): first five stages 100%, Plato 30%, Factory 0%; two at the cap still scoring, one stuck; none won. Personas rotate; testers are agents; UNDO on in early rounds.
+
+<!-- through: git f9752449 · mail 20261003-105641-norm-0844 · decisions 62 -->
+
+## 2026-10-03 -- Elevator keypad in, Air Shaft family held (M7)
+
+Greg's east Elevator keypad landed first-pass; Norm registered the Air Shaft family by compute. Accepted rooms stayed 50 of 55. Five rooms remain with Norm. Greg's queue was empty.
+
+**Decisions.** None new (still 62). After review on 5199, Norm held the family (norm-0851–0853): TOP and BOTTOM listed 0 problems; AIR-SHAFT reported PROBLEM "not a whole turn (a gap in the ring, or a cap missing)" on a four-level plan (caps live on TOP/BOTTOM). Elevator 000/180 and caps stay compute-owed (norm-0850).
+
+**What went wrong and what changed.** The review tool treats a level-only ring as incomplete when caps are absent, even when the plan has none. Cost: three whole rooms sit with Norm instead of the sponsor. No Greg paint for TOP/BOTTOM. Elevator TURN-090 (norm-0845#1) delivered as greg-0410 R4, APPROVED 0850; dest sha256 a4f3ebbd59d7324ffa2e5b5ee6f43dbf24d23c4f7c31f994a827de622d8e243c; blank keypad. Air Shaft 000/180/090 compute registered (norm-0846; dests dec2a3d1…, dbc7f9a1…, 2f794365…); AIR-SHAFT 4/4 whole. TOP/BOTTOM dests registered 0847/0848. A check-seed FLAG on Bottom CAP-UP (invented 2.03) was recorded, not a Greg ask.
+
+**Milestones:** M7 still 50 of 55 accepted; Meeting Room 2, Elevator and the Air Shaft family with Norm. M5: no full-run win.
+
+**Rework (D20).** Sol: 231 views, 215 judged, 168 first-pass, 22% rework (22%), 1.39 rounds (1.39). Greg stayed on Sol; Elevator 090 tagged gpt-6.1-sol. Guide faults: 20 (unchanged).
+
+**Efficiency (D21).** 165 views (164); Greg p90 1.7 h; 698,000 tokens/view (702,000); sponsor touches 6.3/day.
+
+**Playtest.** No new round. Round 12 remains latest (`metrics-playtest-fullrun.svg`).
+
+<!-- through: git f9752449 · mail 20261003-112351-norm-0853 · decisions 62 -->
+
+## 2026-10-03 -- Air Shaft handed, Elevator leftover (M7)
+
+The Air Shaft family went to the sponsor after a review-tool false alarm. Elevator 000 and 180 registered by compute. Accepted rooms stayed 50 of 55. Greg's queue stayed empty.
+
+**Decisions.** None new (still 62). Norm: a closed ring on a plan with no CAP guides is a complete turn (`planRequiresCaps` / `reviewTurnComplete` in `scripts/lib/room-status.mjs`). Elevator caps stay unregistered: compute FLAGged them against the near-black west-mouth void and dark plates, not a missing painted wall, so no Greg ask.
+
+**What went wrong and what changed.** Review-room treated AIR-SHAFT's four-level G4 plan as "not a whole turn (a gap in the ring, or a cap missing)". Caps live on TOP and BOTTOM; the mid-shaft plan has none. Cost: three whole rooms sat with Norm. The tool now honours the plan. Re-review on 5199: 4 views, plannedComplete, problems []. Handed 0855–0857.
+
+Elevator 000 dest sha256 62fb7875…; 180 1526b5f6… (norm-0854). Caps not registered. Review 5199 plannedComplete; PROBLEMS are the ELEVATOR-LEVEL 1–7 west-mouth room-through leftover (opening still level 2 Mess Hall). Not handed. Meeting Room 2 stays with Norm on the parked kick/floor residual.
+
+**Milestones:** M7 still 50 of 55 accepted; three at the sponsor's gate; Elevator and Meeting Room 2 with Norm. M5: no full-run win.
+
+**Rework (D20).** Sol: 231 views, 215 judged, 168 first-pass, 22% rework (22%), 1.39 rounds (1.39). Greg stayed on Sol; no new Greg delivery. Guide faults: 20 (unchanged).
+
+**Efficiency (D21).** 165 views (165); Greg p90 1.7 h; 698,000 tokens/view; sponsor touches 6.3/day. Unchanged: compute and a tool fix, not paint.
+
+**Playtest.** No new round. Round 12 remains latest (`metrics-playtest-fullrun.svg`).
+
+<!-- through: git f9752449 · mail 20261003-113755-norm-0857 · decisions 62 -->
+
+## 2026-10-03 -- Elevator handed; Air Shaft ends sent back (M7)
+
+Elevator went to the sponsor after Norm registered LEVEL 3–6 west-mouth room-throughs from accepted lobbies (`20261003-115011-norm-0858`). Accepted rooms stayed 50 of 55. Greg's queue stayed empty.
+
+**Decisions.** None new (still 62). Norm: LEVEL 1 (DOME) and LEVEL 7 (PRINTING-PLANT) stay noVisibleChange, unpackaged (station.zil:2929-2943); LEVEL 2 Mess Hall already shows in the seed. Caps stay ring-only and unregistered: two fills FLAG against the west-mouth void, so no Greg cap ask. Review 5199: plannedComplete, problems [].
+
+**What went wrong and what changed.** After that handoff, generated room-status has two sponsor send-backs with Norm, both compute-only rooms handed with problems [] (0856, 0857). BOTTOM-OF-AIR-SHAFT: ***a square artifact at bearing 296*** (dashboard 07:48). TOP-OF-AIR-SHAFT: ***the grating reads as a wall, not a grating, at bearing 088*** (07:50). No mailbox reply; the dashboard returned them. AIR-SHAFT itself stays with the sponsor. Meeting Room 2 stays with Norm on the parked kick/floor residual. Cost: two rooms that had cleared review need a visual fix before they can go back.
+
+**Milestones:** M7 still 50 of 55 accepted; Elevator and Air Shaft at the sponsor's gate; Top, Bottom and Meeting Room 2 with Norm. M5: no full-run win.
+
+**Rework (D20).** Sol: 231 views, 215 judged, 168 first-pass, 22% rework (22%), 1.39 rounds (1.39). Greg stayed on Sol; no new Greg delivery. Guide faults: 20 (unchanged).
+
+**Efficiency (D21).** 165 views (165); Greg p90 1.7 h; 698,000 tokens/view; sponsor touches 6.3/day. Unchanged: throughs and a handoff, not paint.
+
+**Playtest.** No new round. Round 12 remains latest (`metrics-playtest-fullrun.svg`). Personas rotate; testers are agents; UNDO on in early rounds.
+
+<!-- through: git f9752449 · mail 20261003-115011-norm-0858 · decisions 62 -->

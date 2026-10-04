@@ -1,0 +1,1020 @@
+{
+ "round": "4",
+ "sessions": {
+  "r4-typed-02station": {
+   "diary": "# Playtest diary: r4-typed-02station\r\n\r\n- **Mode:** typed\r\n- **Start:** checkpoint 02-station\r\n- **Persona:** a 14-year-old who has never played a text adventure, used to phone games\r\n- **Seed:** 63915\r\n- **Conveniences:** on\r\n- **Undo:** on (--undo on, D18: early rounds only)\r\n- **Build commit:** 5f44a40\r\n- **Budget:** about 400 commands per leg, 1500 commands in all\r\n- **Round:** 4\r\n- **Friction log:** filed through the harness (--friction), in playtests/2026-09-25/r4-typed-02station.friction.jsonl\r\n\r\n## Narrative\r\n\r\n**Cmds 1-20.** Woke up in the truck at the station, hungry. Opened the kit, ate the orange goo (tasted like apricot yogurt, lol). \"drink thermos\" didn't work; had to open it, then it said I wasn't thirsty anyway, with a nice hint saying I can eat again in ~100 moves. Couldn't open the hatch from the seat, had to \"get up\" first (kinda annoying but ok). Out into Docking Bay 2, east to Level Five lobby. Workshop north has a bedistor (took it); north of that is Storage, pitch black, with a grue joke I don't get. Northeast is North Junction, east of that Sick Bay with a security door. Put my ID card in the reader: \"Nothing happens.\" So my card isn't good enough. Floyd the robot follows me and says random funny stuff.\r\n\r\n**Cmds 21-55.** East Connection has an iris hatch with a slot (military thing). Comm Center: red emergency button shocks me. Station Control has monitors (Communication and Food red, Printing yellow). Commander's Office: a hull welder came at me all creepy, I ran north and it left. Found a log tape on the Commander's desk, played it in the log reader in the office; pushing the red button gives entry after entry. Super useful: fuel cells locked in the Dome storage bin, key in the safe; village entry forms need validating and the stamp is under his bed; an alien pyramid was moved to Sci Sub-Module. Got the stamp from under the bed. Floyd found a robot friend Plato. Heard an explosion somewhere.\r\n\r\n**Cmds 56-86.** The log reader blew up after I left (black scar). Explored the ring: Briefing Room, South Connection (another iris hatch w/ slot), Robot Shop with sleeping robot Oliver and a heating chamber with a drill bit. My hand didn't fit, so I told Floyd to get it: he did! +3, score 8. File Room (SW of South Junction) is dark, so is Storage. I need a flashlight or something. The PX has a vending machine; needs 1 galakmid (coin) and it has an All-Purpose Timer and a Large Drill Bit. Hull welders 1, 2, 3 keep chasing me but leaving if I walk away. Went through the Tube north into the Sci Sub-Module: Engineering Lab, Engineering Office with Schmidt's diary about the billion-year-old pyramid and dots on alien walls; \"the mayor\" knows languages.\r\n\r\n**Cmds 87-125.** Sci Sub-Module: Astro Lab (took a fromitz board), Scientists' Quarters (nothing), Bio Office note about the pyramid being a \"mechanized bacteriophage\" with bloodstains (creepy!), Holding Tank blasted open and empty, so the pyramid got out. Level Four: two barracks, a SanFac, Docking Bay 3 with a lilac nanofilm spool. Level Three: Gym with an exercise machine and a sign about frequency 710 (don't bring things broadcasting on it). Got tired, \"sleep\" didn't work, \"sleep in bed\" did. +3 for sleeping. Dream about the Duffy crashing. Woke on day 2 with all my stuff on the floor; took all.\r\n\r\n**Cmds 126-170.** Day 2 now. Auto-doors are acting weird (sluggish, then zooming shut); something's taking over the station I think. Level Three: Theatre with locked projection booth, Laundry (dryer + presser, empty, washer missing), Chapel with an eternal flame and a blinking seven-pointed star, puce spool. Level Two: Mess Hall with a cup of coffee, Main Storage with a detonator (open it: blackened hyperdiode), Meeting Rooms 1 and 2, Library with a spool reader (terminal missing). Hit the 7-things-in-hands limit; the hint was clear, packed stuff in the kit. Spools: lilac = spacetruck refueling (quarnum wrench), puce = chapel maintenance, \"...iode in the chapel's star\". Both end in \"You will die, human!\" My theory: swap the chapel star's diode into the detonator. Ate my last goo; only soup left. Food system is red.\r\n\r\n**Cmds 171-205.** Food dispenser shoots acid instead of breakfast (!!). \"look at units\" wasn't understood even though the room says Units. Dome on top: locked, warm storage bin (fuel cells!) with a newly welded lock, and a fixed air-shaft grating. Level Six: Auxiliary Barracks + SanFac (no exits listed), Officers' Quarters A/B/C and SanFac (empty), End of Corridor with another security door (north), and a dark Shipping Room east. PA says a deep-space message arrived at the Comm Center. I need a light for Storage, File Room and Shipping Room. The safe has 8000 settings and 12-20 numbers, no way I'm guessing; I bet the detonator is for blowing it open.\r\n\r\n**Cmds 206-240.** Docking Bay 1 has the alien ship: empty pedestal, a skeleton, and wall dots in groups (.. .. / .. .... . ... . ... ... . ... / .. ... . / .... . ... . / .. ... .). Touching does nothing. Docking Bay 4 empty. Level Seven Printing Plant: trash can had a crumpled Illegal Space Village Entry Form; I stamped it with the validation stamp (no points yet). Mauve spool (Floyd grabbed it then gave it back). Paper Recycling: a drill with a small bit. Ladder down to Level Eight is sealed from below, elevator whines and won't go to 8. Creepy throbbing heartbeat noise from below. Theory: put the validated village form in the truck's autopilot slot to fly to the village.\r\n\r\n**Cmds 241-270.** The truck slot said the crumpled form was too crumpled, so I ironed it in the Laundry presser (put in, close, turn on, wait, turn off, open). Truck then said \"Improper form for this location.\" Guessed the iris hatch slot at South Connection instead, and it half-opened! +6, score 17. Floated into a Grimy Passage south (no gravity). Floyd and Plato stayed behind at the hatch.\r\n\r\n**Cmds 271-310.** THE VILLAGE (weightless, deserted): Main Street, Travel Agency, Bank (platinum detector, turned it on, never beeped, dropped it later in Field Office; left the stamp in the Bank), Greasy Straw (Ramosian Fire Nectar behind the counter), Trading Post (sign: FREZONE explosive available; instruction sheet: insert explosive in hole, attach detonator to explosive and timer, set timer, vamoose; keep it below 150 K!). Grocery: bag of vacuum taffy (food!). Broadway: Recruitment Office, Field Office with a headlamp (LIGHT!). Inventory weight is a constant fight; dropped fromitz board + bedistor in Grocery. Harness says 300 commands used already.\r\n\r\n**Cmds 311-345.** East Connection's iris hatch is also open to the village now (shortcut via Makeshift Connector). Ate the taffy. With the headlamp: Storage had a JAMMER (20 tiny sockets, freq 0-1400, set to 337). File Room: nothing I could find. Went back to the Grocery for the 20-prong fromitz board and put it in the jammer (no points). Village: Barbershop (mirror), Saloon, Casino with a pair of dice. Spun the roulette wheel: secret exits up and north, +4, score 21! North is an Opium Den with a defaced anti-drug poster. Plan: set jammer to 710 near the gym machine.\r\n\r\n**Cmds 346-396.** Casino roulette opened an Opium Den (north) and Flophouse (up, locker with a space suit, left it). Went back to the Gym: set jammer to 710, turned it on; the exercise machine \"seems to be frozen\" when I get in, no points, no idea if that helped. Headlamp started dimming, so I turn it off when not needed. Plato keeps calling me a \"simpleton human\" and walking off. Mauve spool = collater repair (\"check the lower fromitz... replace with\"). Chapel pulpit: climbing makes it sway and I fall, but it opens and has a switch that turns the eternal flame off/on. Floyd is too short to get the star. Drilled the safe: small bit = toothpick hole, medium bit = pencil hole. Footnotes are funny once you type \"footnote 5\". Leg ended at 396 commands, score 21, day 2, in Commander's Quarters.\r\n\r\n\r\n## Leg handoff\r\n\r\n### Map so far\r\n- **Level 1:** Dome: locked warm storage bin (fuel cells, per log), fixed air-shaft grating. Ladder and elevator.\r\n- **Level 2:** Mess Hall (coffee cup; FDU spits acid); N/S both go to Main Storage (the room wraps; empty now, the detonator came from here); NE: Meeting Room 1, S: Meeting Room 2, S: Library (spool reader); Library W/SE goes back to the Mess Hall.\r\n- **Level 3:** Gym (N; exercise machine, sign about freq 710), Theatre (S; locked projection booth), Laundry (NW; presser, dryer), Chapel (SW; flame, blinking star, pulpit with switch).\r\n- **Level 4:** Female Barracks N (beds; sleep here), SanFac, Male Barracks S, Docking Bay 3 W.\r\n- **Level 5 (ring):** Lobby; W Docking Bay 2 (my spacetruck); N Workshop, then N Storage (dark, jammer taken), which connects E to North Connection; NE North Junction: E Sick Bay (security door E), NE the PX (vending machine, 1 galakmid: timer, large drill bit), N North Connection then Tube to the Sci Sub-Module (Eng Lab/Office, Astro Lab/Office, Scientists' Qtrs, Bio Lab/Office, empty Holding Tank). East Junction to East Connection (hatch open to village), S Comm Center (shocking beacon button), SW Station Control. Commander's Office S of Station Control: E Commander's Quarters (safe, drilled pencil hole), S Briefing Room. South Junction: SW File Room (dark, empty?), S South Connection (hatch open to village), W Robot Shop (Oliver, heating chamber).\r\n- **Level 6:** Aux Barracks/SanFac N, Officers' Qtrs A/B/C + SanFac, End of Corridor (security door N, dark Shipping Room E), Docking Bay 1 NW (alien ship, dots), Docking Bay 4 SW.\r\n- **Level 7:** Printing Plant, trash can; NW Paper Recycling. The ladder down to 8 is sealed, and the elevator won't go to 8.\r\n- **Village (zero-g):** South Connection, then Grimy Passage, then Main Street (W Travel Agency, then SE Bank with the stamp dropped; NE Greasy Straw, then NE Trading Post with a 12-prong fromitz board; up/S/SE unexplored). Trading Post N: Grocery (bedistor dropped), N Broadway (N Recruitment, E Field Office with the platinum detector dropped, W Makeshift Connector to East Connection), E Barbershop (mirror), SE Saloon, E Casino (dice; spin wheel: N Opium Den, up Flophouse with a space suit in the locker).\r\n\r\n### Puzzles solved\r\n- Get the drill bit from the heating chamber: \"floyd, get the drill bit\" (+3).\r\n- Sleep in a barracks bed (+3).\r\n- Crumpled village form: stamp it (validation stamp under the Commander's bed), iron it in the Laundry presser, put it in the South Connection iris-hatch slot (+6).\r\n- Casino: spin the roulette wheel (+4).\r\n- Found a light: the headlamp in the Field Office (it dims, so ration it).\r\n\r\n### Open puzzles and theories\r\n- Safe (the key to the Dome bin is inside): drill a hole, FREZONE explosive (Trading Post sign; keep it below 150 K), detonator plus timer. Need: a large drill bit and the timer from the PX vending machine (1 galakmid; find a coin, maybe with the platinum detector); a working hyperdiode (the detonator's is blackened; the puce spool hints the Chapel star has a diode); the explosive itself.\r\n- Chapel star is out of reach; the pulpit sways; the flame switch is in the pulpit.\r\n- Jammer (freq 710) near the gym machine: froze it. Purpose unclear.\r\n- Security doors (Sick Bay E, Level 6 N) need a coded ID card. The log mentions Shady Dan selling modified ID cards in the village.\r\n- Alien dots: \"nonvisual properties\", \"the mayor\" knows languages. Pyramid escaped the tank. Plato is getting nasty (suspicious).\r\n- Level 8 is sealed; mauve spool = collater fromitz repair (12-prong board in the Trading Post?).\r\n- Spacetruck: needs fuel cells (lilac spool, quarnum wrench).\r\n\r\n### What I would try next\r\n1. Get the platinum detector back and sweep the village for a galakmid; buy the timer and large drill bit.\r\n2. Ask at the Trading Post for FREZONE; find somewhere cold to keep it.\r\n3. Work out how to reach the Chapel star (the space suit? the nectar? something to stand on).\r\n4. Explore the unexplored village exits (Main Street up/S/SE, Broadway down, Trading Post floor opening) and the dark Shipping Room.\r\nFood: only the Thermos of blue soup is left. Coffee is on a Mess Hall table.\r\n",
+   "diaryWithheld": 0,
+   "hasDiary": true,
+   "friction": [
+    {
+     "n": 1,
+     "turn": 5,
+     "room": "Spacetruck",
+     "kind": "parse",
+     "severity": "low",
+     "command": "drink thermos",
+     "result": "It's doubtful that the Thermos bottle would agree with you.",
+     "why": "On a phone you'd just tap the bottle to drink it. Took me two more commands (open thermos, drink soup) to find out I wasn't even thirsty any more."
+    },
+    {
+     "n": 2,
+     "turn": 52,
+     "room": "Commander's Office",
+     "kind": "nice",
+     "severity": "low",
+     "command": "push red button",
+     "result": "Commander's log plays entry by entry: fuel cells in dome bin, key in safe, stamp under bed, alien pyramid",
+     "why": "Felt like a real story drop, like audio logs in games. Gave me like four goals at once."
+    },
+    {
+     "n": 3,
+     "turn": 63,
+     "room": "Robot Shop",
+     "kind": "nice",
+     "severity": "low",
+     "command": "floyd, get the drill bit",
+     "result": "Floyd reaches into the heating chamber, burns himself, drops the bit where it cools",
+     "why": "I guessed the robot friend could reach where I couldn't and it just worked. Felt smart."
+    },
+    {
+     "n": 4,
+     "turn": 122,
+     "room": "Female Barracks",
+     "kind": "parse",
+     "severity": "low",
+     "command": "sleep",
+     "result": "Members of civilized societies usually sleep in beds.",
+     "why": "I was standing in the barracks, obviously full of beds. It could have just put me in one. Had to retype 'sleep in bed'."
+    },
+    {
+     "n": 5,
+     "turn": 125,
+     "room": "Female Barracks",
+     "kind": "confusing",
+     "severity": "low",
+     "command": "wait (fell asleep)",
+     "result": "Woke up with all my stuff lying on the floor next to the bed",
+     "why": "Nothing said I put my stuff down. For a second I thought I got robbed. 'take all' fixed it fast (and the Floyd lifting joke was funny)."
+    },
+    {
+     "n": 6,
+     "turn": 144,
+     "room": "Main Storage",
+     "kind": "nice",
+     "severity": "low",
+     "command": "take coffee",
+     "result": "spool slipped and both fell; hint: more than seven things in hands may fumble, containers don't count",
+     "why": "Annoying but the hint told me exactly the rule, so now I know to stuff things in my kit."
+    },
+    {
+     "n": 7,
+     "turn": 165,
+     "room": "Library",
+     "kind": "confusing",
+     "severity": "medium",
+     "command": "read spool (then lilac)",
+     "result": "[taking the lilac nanofilm spool first] \"Spacetruck Refueling Instructions\" - it pulled the spool back out of the reader",
+     "why": "I'd just put it in the reader and 'read' pulled it out and only read the label. Had to guess 'turn on reader'. Then it said 'You will die, human!' which was sick though."
+    },
+    {
+     "n": 8,
+     "turn": 171,
+     "room": "Mess Hall",
+     "kind": "not-understood",
+     "severity": "medium",
+     "command": "look at units",
+     "result": "[I don't know the word \"units.\"]",
+     "why": "The room description literally says 'Food Processing and Dispensing Units'. I'm starving soon and can't even look at the food machine."
+    },
+    {
+     "n": 9,
+     "turn": 171,
+     "room": "Mess Hall",
+     "kind": "parse",
+     "severity": "low",
+     "command": "put spools in kit",
+     "result": "[Which spools do you mean, the puce nanofilm spool or the lilac nanofilm spool?]",
+     "why": "I said spools, plural, meaning both. It asked me which one."
+    },
+    {
+     "n": 10,
+     "turn": 188,
+     "room": "Auxiliary Barracks",
+     "kind": "confusing",
+     "severity": "low",
+     "command": "east (from Auxiliary Barracks), then look",
+     "result": "Auxiliary SanFac: 'the barracks to the north' but no exits listed; south failed, north worked even though I came in going east",
+     "why": "Room didn't tell me the ways out. I wasted two moves guessing."
+    },
+    {
+     "n": 11,
+     "turn": 253,
+     "room": "Laundry",
+     "kind": "nice",
+     "severity": "low",
+     "command": "put crumpled form in presser / turn on presser",
+     "result": "neatly ironed Illegal Space Village Entry Form",
+     "why": "The truck said the form was too crumpled, and I remembered the laundry presser. Figuring that out myself felt awesome. (No points though, so I'm not sure it counted.)"
+    },
+    {
+     "n": 12,
+     "turn": 283,
+     "room": "Trading Post",
+     "kind": "nice",
+     "severity": "low",
+     "command": "read instruction sheet",
+     "result": "FREZONE explosive: insert in hole, attach detonator to explosive and timer, set timer, vamoose",
+     "why": "This tied everything together: drill + detonator + timer from the vending machine = blow up the safe. Big 'aha' moment."
+    },
+    {
+     "n": 13,
+     "turn": 287,
+     "room": "Grocery",
+     "kind": "tedious",
+     "severity": "medium",
+     "command": "take bag",
+     "result": "You're juggling just about as much stuff as you can manage. (Dropping the board or bedistor would leave room...)",
+     "why": "The hint is helpful, but I keep having to drop and re-pack stuff every few moves. On a phone game you'd just have a backpack. I don't know what's safe to leave."
+    },
+    {
+     "n": 14,
+     "turn": 324,
+     "room": "File Room",
+     "kind": "parse",
+     "severity": "low",
+     "command": "search forms",
+     "result": "You can't search an Assignment Completion Form QX-17-T!",
+     "why": "I meant the forms stored in the File Room (the room is all about forms). It grabbed the one in my pocket instead. The room seems to be empty anyway, which is a letdown after hunting for a light."
+    },
+    {
+     "n": 15,
+     "turn": 368,
+     "room": "Mess Hall",
+     "kind": "confusing",
+     "severity": "medium",
+     "command": "set jammer to 710 / turn on jammer / exercise",
+     "result": "Nothing visible happens; in the machine: 'The machine seems to be frozen.' No points.",
+     "why": "The sign basically told me to do this, and I carried the board all the way back from the village for it, but I can't tell if I did anything useful. Also my headlamp started dimming at the same time, which stressed me out."
+    },
+    {
+     "n": 16,
+     "turn": 383,
+     "room": "Chapel",
+     "kind": "blocked",
+     "severity": "medium",
+     "command": "climb pulpit / floyd, get the star / floyd, hold the pulpit",
+     "result": "pulpit sways and I fall off; Floyd: 'Floyd shorter even than you!'; Floyd ignores 'hold'",
+     "why": "I'm pretty sure the star's diode fixes my detonator, but I can't reach it and the game gives no hint how. Flipping the pulpit switch only turns the flame off and on."
+    },
+    {
+     "n": 17,
+     "turn": 394,
+     "room": "Commander's Quarters",
+     "kind": "confusing",
+     "severity": "low",
+     "command": "drill safe",
+     "result": "(Footnote 5) You drill a hole in the safe approximately the diameter of a toothpick.",
+     "why": "Drilling worked, which felt great, and the medium bit made it pencil-sized. But '(Footnote 5)' means nothing to me, I don't know how to read a footnote."
+    }
+   ]
+  },
+  "r4-typed-04day1end": {
+   "diary": "# Playtest diary: r4-typed-04day1end\n\n- **Mode:** typed\n- **Start:** checkpoint 04-day1-end\n- **Persona:** a casual puzzle fan who plays escape-room games on a tablet, never a text adventure\n- **Seed:** 74715\n- **Conveniences:** on\n- **Undo:** on (--undo on, D18: early rounds only)\n- **Build commit:** 5f44a40\n- **Budget:** about 400 commands per leg, 1500 commands in all\n- **Round:** 4\n- **Friction log:** filed through the harness (--friction), in playtests/2026-09-25/r4-typed-04day1end.friction.jsonl\n\n## Narrative\n\n(About 100 words per 10 commands: what you tried, and what you believed.)\n\n**Cmds 1-9.** Picked up mid-game in Officers' Quarters B, late on day 1, carrying a pile of gear. The time felt late, so I tried SLEEP; the game said civilized people sleep in beds (funny, and a clear hint). GET IN BED, then SLEEP, then WAIT: a dream about a promotion ceremony, and it's Novem 5, day 2. +3 points (26). Waking up, all my stuff had been dropped on the floor, and GET ALL from the bed gave nine \"can't reach\" lines. GET UP, GET ALL fixed it. The robots Floyd and Plato are with me and cute.\n\n**Cmds 10-45.** Mapped around. Level Six corridor: security door (ID card in reader opens it) to an empty Armory; a dark Shipping Room (turned on headlamp) with a forklift sign but no forklift; two officers' quarters, SanFacs, and Auxiliary Barracks. Got hungry, ate the orange goo (fixed both hunger and thirst; the note telling me when I could eat again was helpful). Climbed the ladder: Level 5, 4, 3, then Mess Hall (took coffee), Main Storage, Meeting Rooms 1-2 and a Library with a spool reader but no spools. The top is a garden Dome with a locked, warm storage bin with a newly welded lock. My drill only made a toothpick-sized hole (footnote joke was fun). A P.A. said a message arrived at the Comm Center. Doors keep closing \"too soon\", which feels ominous. Level Two's directions feel loopy (north and south both reach Main Storage).\n\n**Cmds 46-136.** Level Three: a Gym with an exercise machine and a sign warning that nothing broadcasting on frequency 710 should come near it (I got in and exercised; nothing happened). Laundry: presser billowing steam, no washer. Theatre: projection booth locked. Chapel: an eternal flame and a blinking seven-pointed star out of reach; the pulpit opens to a switch that toggles the flame. I found a puce spool there and a lilac one in Docking Bay #3 (Level Four; the barracks had nothing). In the Library, the puce spool is a chaplain manual mentioning \"the diode in the Chapel's star\". Opening my detonator shows a blackened hyperdiode, so I think the star's diode fixes it. I can't reach the star: climbing the pulpit tips me off, and Floyd and Plato are too short. My guess is the missing forklift from the Shipping Room. The lilac spool covers spacetruck fuel cells and a \"quarnum wrench\". Both spools end with a voice saying \"You will die, human!\" A welder, \"Welder Number 4\", came toward me on Level Three, then moved off. My headlamp is dimming, so I switched it off. I fumbled the coffee and the spool by carrying more than seven things (the note explained why).\n\n**Cmds 137-200.** Level Five north: the Workshop had a twenty-ohm bedistor (now in my kit); the dark Storage room had a jammer (black box, 20 sockets, frequency 0-1400, set to 337). My hands were full, so I dropped the nectar there. North Connection leads by the Tube to the Scientific Sub-Module. The Engineering Office has Prof. Schmidt's diary: an alien pyramid from a ship a billion years old; dot markings he decoded \"nonvisually\"; \"my pal, the mayor\" has linguistic training. The Astro Lab had a twenty-prong fromitz board. I dropped the drill there and plugged the board into the jammer. The Bio Office note compares the pyramid to a \"mechanized bacteriophage\", with bloodstains. The Holding Tank is blasted open and empty. The PX vending machine sells an All-Purpose Timer and a Large Drill Bit for 1 galakmid, and I have no coin. The Brig (ID card) is empty. The Comm Center message says my mission is cancelled (funny). Station Control monitors show many systems RED. Welders #1, #3 and #4 keep stalking me; #1 came into the Commander's Office and got \"menacing\", so I fled. I ate the gray goo, my last food.\n\n**Cmds 201-282.** Went east through the grimy connector into the zero-gravity village. The Fortune Teller's crystal ball says to \"wave your hands around\" it, but WAVE isn't a known word. The Rec Shop simulation booth runs a Zork-like sim (cute). The Trading Post sells FREZONE explosive; its instruction sheet says: explosive in a hole of the right diameter, detonator attached to explosive and timer, set timer, vamoose; keep it below 150 K. So I think: large drill bit + timer (PX, 1 galakmid each) + fixed detonator + frozen explosive (Thermos?). The Warehouse airlock leads to \"Vacuum Storage\"; opening the lower door killed me (fair, given the sign), UNDO, then SAVE. The Loan Shark's strong box has a huge lock (coins inside?). The Pawn Shop had a spray can of spores (took it). At Doc Schuster's, a letter says the ostrich nip was left in a ceiling panel, and an ostrich follows the smell of my nip. Feeding it the nip knocks it out (undid that). I led the ostrich all the way to the Chapel, hoping it could reach the star, but climbing it, throwing nip and talking to it all failed. Plato made a snide \"simpleton human\" remark and wandered off, which is suspicious.\n\n**Cmds 283-382.** Fed the ostrich the nip by mistake, and only one level of undo meant I lost the nip. Went down to the Printing Plant (took a mauve spool, not played yet): a \"gigantic mechanical heart\" throbs below, and the ladder to Level Eight is sealed from below. The elevator (zero-g inside) won't go to 8. So I think the explosive kit opens the seal. In the village Pet Store: an Arcturian balloon creature on a leash. Every time I grab the leash it farts in my face and I let go (and drop everything). I sprayed the spore can (SPORES isn't a known word; SPRAY CAN works), and it darts about eating. Still can't hold it. With the zapgun I vaporised Welder #3. The Casino had dice; I ate the vacuum taffy (hungry again). Up from the Casino, the Flophouse locker has a SPACE SUIT. After juggling weight, I wore it and went out the Warehouse airlock (+3, score 29), then used the headlamp to find the FREZONE explosive cylinder. It's in the Thermos, closed. The suit's gloves are too clumsy to hold the leash. SAVEd at the Warehouse after the vac yard.\n\n## Leg handoff (leg 1 ended at command 382 of 400, score 29/80, Day 2, time ~6975, in the Pet Store)\n\n### Map so far\n- **Command module ladder (top to bottom):** Dome (1: locked warm bin with a welded lock, toothpick hole) / Level 2: Mess Hall; N & S go to Main Storage; NE Meeting Room 1, S Meeting Room 2, S Library (spool reader; puce spool and coffee on the floor) / Level Three: N Gym (exercise machine; the 710 sign), NW Laundry, S Theatre (booth locked), SW Chapel (star and flame; pulpit switch; a drunk ostrich lies here) / Level Four: N Female Barracks, SE SanFac, S Male Barracks, W Docking Bay #3 / Level Five: N Workshop, N Storage (the nectar was dropped here), E North Connection, N Tube, then the Sub-Module (Bio/Eng/Astro labs and offices, Scientists' Qtrs, Holding Tank; the drill was dropped in the Astro Lab). NE North Junction: E Sick Bay, E Brig (ID); SE East Junction, E East Connection: S Comm Center, SW Station Control, S Commander's Office / Level Six: security Armory, Shipping Room, Officers' Qtrs, Aux Barracks / Level Seven: Printing Plant (the ladder down is sealed; the elevator won't go to 8). The PX is east of North Connection.\n- **Village (zero-g, E of East Connection):** Broadway: N Recruitment, NE Rec Shop, E Field Office, D Fortune Teller, SE Barbershop, SW Pet Store, S Grocery. Grocery: S Trading Post, SE Saloon, E Casino, U Flophouse (jammer, mauve spool, bag, dice and sheet dropped there). Trading Post: D Warehouse, D Airlock, D vac yard; Warehouse: SW Alley (S Loan Shark strong box, E Junk Yard, SW Pawn Shop, SE Doc Schuster's).\n\n### Puzzles solved\nSleeping in bed; security doors (ID card in reader); the spools' clues; leading the ostrich with nip; the zapgun vaporises welders; the space suit plus magnetic boots get you into the vac yard for the FREZONE explosive (+3).\n\n### Open puzzles and theories\n- **Chapel star:** it holds a hyperdiode to replace the blackened one in my detonator. Out of reach. Theory: the balloon creature, filled with hydrogen, floats up in gravity with the leash, or something lifts me.\n- **Balloon creature:** it farts whenever grabbed in zero-g. Theory: it needs to be where gravity lets it float, or something else must block the smell.\n- **Coin (galakmid):** needed for the PX timer and large drill bit. The strong box in the Loan Shark? Nothing found yet.\n- **Level Eight seal:** drill a hole, add explosive, detonator and timer, then vamoose. The pyramid is probably below.\n- **Jammer + fromitz board:** set it to 710 to disable the exercise machine when it turns hostile? The bedistor use is unknown.\n- **Plato** is getting snide, and the Schmidt diary says the mayor can read the dot language.\n\n### What I would try next\nTake the suit off (leave it where it's handy), then try the balloon creature in a gravity area, or push it. Find a coin (Saloon, Shady Dan's, Greasy Straw, Loan Shark). Play the mauve spool. Get the diode from the star, fix the detonator, buy the timer and large bit, and blow the Level Eight seal.\n\n## Leg handoff\n\n### Map so far\n\n### Puzzles solved\n\n### Open puzzles and theories\n\n### What I would try next\n",
+   "diaryWithheld": 0,
+   "hasDiary": true,
+   "friction": [
+    {
+     "n": 1,
+     "turn": 9,
+     "room": "Officers' Quarters B",
+     "kind": "tedious",
+     "severity": "low",
+     "command": "get all",
+     "result": "You can't reach X from the bed (x9 lines)",
+     "why": "Woke up to find all my stuff dropped on the floor; get all from bed gives nine refusals instead of one hint to get up first"
+    },
+    {
+     "n": 2,
+     "turn": 9,
+     "room": "Officers' Quarters B",
+     "kind": "nice",
+     "severity": "low",
+     "command": "sleep",
+     "result": "Members of civilized societies usually sleep in beds.",
+     "why": "Funny and told me exactly what to do; bed then sleep worked smoothly"
+    },
+    {
+     "n": 3,
+     "turn": 136,
+     "room": "Library",
+     "kind": "confusing",
+     "severity": "low",
+     "command": "take spool",
+     "result": "the cup of coffee slips from your hands and both tumble to the floor (+ note: more than seven things in hands may fumble)",
+     "why": "The note explained the rule right away, good; but I did not notice I had dropped the spool until later, and the bag and kit are too small to help"
+    },
+    {
+     "n": 4,
+     "turn": 136,
+     "room": "Library",
+     "kind": "nice",
+     "severity": "low",
+     "command": "turn on reader",
+     "result": "chaplain manual mentions the diode in the Chapel's star, then 'You will die, human!'",
+     "why": "Great creepy moment and a real clue: the star holds a diode, and my detonator has a burnt one"
+    },
+    {
+     "n": 5,
+     "turn": 208,
+     "room": "Fortune Teller",
+     "kind": "parse",
+     "severity": "low",
+     "command": "wave hands over ball",
+     "result": "[I don't know the word \"wave.\"]",
+     "why": "The crystal ball itself tells me to wave my hands around it, then the game does not know the word wave"
+    },
+    {
+     "n": 6,
+     "turn": 234,
+     "room": "Airlock",
+     "kind": "nice",
+     "severity": "low",
+     "command": "open lower door",
+     "result": "air whooshes out, lungs rupture, You have died; tip says SAVE costs no time",
+     "why": "Fair warning from the 'Trespassers will be spaced' sign, and undo put me right back. The save tip after death was helpful"
+    },
+    {
+     "n": 7,
+     "turn": 234,
+     "room": "Airlock",
+     "kind": "parse",
+     "severity": "low",
+     "command": "search shelves",
+     "result": "[I don't know the word \"shelves.\"]",
+     "why": "The Grocery description says the shelves are pretty bare; the game should at least know the word it just used"
+    },
+    {
+     "n": 8,
+     "turn": 282,
+     "room": "Chapel",
+     "kind": "blocked",
+     "severity": "medium",
+     "command": "climb pulpit / floyd, get star / climb on ostrich",
+     "result": "pulpit sways and you fall; Floyd and Plato too short; ostrich squawks",
+     "why": "I know the star holds the diode I need, but every way of reaching it fails with no nudge about what would work, and HINT is only a joke"
+    },
+    {
+     "n": 9,
+     "turn": 282,
+     "room": "Chapel",
+     "kind": "nice",
+     "severity": "low",
+     "command": "northwest (leading the ostrich)",
+     "result": "The ostrich, sniffing excitedly, follows you... bellyflops when it crosses into gravity",
+     "why": "Delightful: the nip in my bag makes the ostrich follow me, and the gravity bellyflop was a laugh"
+    },
+    {
+     "n": 10,
+     "turn": 327,
+     "room": "Pet Store",
+     "kind": "parse",
+     "severity": "medium",
+     "command": "spray spores at creature",
+     "result": "[I don't know the word \"spores.\"]",
+     "why": "The can's own label says 'A mixture of high-quality spores' and the pet sign says balloon creatures eat airborne spores, yet the game rejects the word; SPRAY CAN worked"
+    },
+    {
+     "n": 11,
+     "turn": 333,
+     "room": "Pet Store",
+     "kind": "blocked",
+     "severity": "medium",
+     "command": "take leash",
+     "result": "it farts right in your face ... you release the leash (every time, with or without things in hand, before and after spraying spores)",
+     "why": "Funny once, but I tried five times plus tie, Floyd and put-in-cage and got no hint what to change; I suspect I need gravity or something to block the smell but nothing points there"
+    },
+    {
+     "n": 12,
+     "turn": 347,
+     "room": "Casino",
+     "kind": "parse",
+     "severity": "low",
+     "command": "search tables",
+     "result": "[I don't know the word \"tables.\"]",
+     "why": "Second time a word printed in the room description (gambling tables, after grocery shelves) is unknown; as a newcomer I read that as 'my typing is wrong' rather than 'this is scenery'"
+    },
+    {
+     "n": 13,
+     "turn": 360,
+     "room": "Flophouse",
+     "kind": "tedious",
+     "severity": "medium",
+     "command": "take suit",
+     "result": "You're juggling just about as much stuff as you can manage (x3, dropping jammer, spool, bag one at a time)",
+     "why": "The suggestions helped, but it took three drops and six turns to pick up one suit; on a tablet I'd want to see a weight meter"
+    },
+    {
+     "n": 14,
+     "turn": 378,
+     "room": "Warehouse",
+     "kind": "nice",
+     "severity": "low",
+     "command": "down (in space suit, magnetic boots)",
+     "result": "+3 points; vac yard; found the FREZONE explosive cylinder, stored it in the Thermos",
+     "why": "Very satisfying: the death earlier, the 'trespassers will be spaced' sign, finding the suit in the Flophouse and the boots all clicked together"
+    }
+   ]
+  },
+  "r4-typed-05day2": {
+   "diary": "# Playtest diary: r4-typed-05day2\r\n\r\n- **Mode:** typed\r\n- **Start:** checkpoint 05-day2\r\n- **Persona:** a fast-moving gamer who tries everything on screen quickly and hates reading instructions\r\n- **Seed:** 81378\r\n- **Conveniences:** on\r\n- **Undo:** on (--undo on, D18: early rounds only)\r\n- **Build commit:** 5f44a40\r\n- **Budget:** about 400 commands per leg, 1500 commands in all\r\n- **Round:** 4\r\n- **Friction log:** filed through the harness (--friction), in playtests/2026-09-25/r4-typed-05day2.friction.jsonl\r\n\r\n## Narrative\r\n\r\n**Cmds 1-20.** Woke on the bed with Floyd and Plato. \"get all\" from the bed failed (can't reach), stood and grabbed the pile: zapgun, nip, bag, nectar, detonator, drill, survival kit. Floyd's \"too heavy\" gag on get all was fun. Eating is gated (\"in about 16 moves\") - a handy hint. ID card opened the Armory (already looted). Shipping Room was dark: turned headlamp on. Sign says return the forklift - it's missing, so a forklift is somewhere. Found Officers SanFac, Quarters A, Level Six, Docking Bay #1 with an alien ship: empty pedestal, dot pattern on the wall (copied below), skeleton crumbled. Memory (not screen) says the dots are probably a number code.\r\n\r\nDots: `.. ..` / `.. .... . ... . ... ... . ...` / `.. ... .` / `.... . ... .` / `.. ... .`\r\n\r\n**Cmds 21-50.** Level Six: Docking Bay #4 empty, Auxiliary Barracks/SanFac empty. Ate orange goo when the growl came. Ladder down to Printing Plant (L7): mauve nanofilm spool, taken. Ladder to L8 sealed from below. Elevator: typing 8 just whines. Level 1 = Dome: locked, warm storage bin with newly welded lock (\"Shrubbery Maintenance Supplies\"). Small drill bit only makes a toothpick hole; zapgun just heats it. L2 = Mess Hall, Main Storage, Meeting Rooms 1/2, Library. Spool in the voice reader: collator repair text (\"check the lower fromitz ... replace with ...\") then \"You will die, human!\" - creepy. PA says a message waits at the Comm Center, no operator. Going to find the Comm Center.\r\n**Cmds 51-130.** (Harness count jumps faster than my own tally.) Level 3: Gym with exercise machine + sign (diagnostics on frequency 710, don't bring a 710 broadcaster near), Laundry (presser steaming/shuddering - avoided, washer missing), Theatre (projection booth locked), Chapel (blinking star out of reach; pulpit hides a switch that turns the eternal flame off/on; puce spool). Level 4: barracks (nothing), Docking Bay #3 (lilac spool, fumbled it in the Workshop). Level 5: Workshop (20-ohm bedistor), dark Storage (jammer, 0-1400, set 337, twenty sockets), North Connection -> Tube -> Scientific Sub-Module: Engineering Office (Schmidt's diary: pyramid from a billion-year-old alien ship; dots have 'nonvisual properties'; 'my pal the mayor' has linguistic training), Astro Lab (twenty-prong fromitz board - taken), Scientists' Quarters, Bio Office (note: station is a cell, pyramid a mechanized bacteriophage), Holding Tank blasted open. Welder Number 1 approached me 'excitedly' then wandered off. Headlamp dims - I switch it off when not needed. Bag is tiny (holds 1 spool + taffy).\r\n**Cmds 131-200.** PX vending machine (1 galakmid each): All-Purpose Timer and Large Drill Bit in stock - need coins. Jammer taken; fromitz board fits it (on/off works, no visible effect). Carry limit is by weight/bulk; dropped drill (Storage) and nectar (Commander's Quarters). Sick Bay, Brig (ID card door) empty. Comm Center: message says abort mission and go back to Duffy (ha). Red beacon button shocks you and you drop everything. Station Control monitors: Comm/Food/Printing red. Commander's Quarters: HyperSecurity safe, dial 8000 settings, 12-20 numbers. Log tape in Commander's Office log reader (push red button for More): fuel cells hidden in Dome bin, KEY IN SAFE; village-entry STAMP UNDER COMMANDER'S BED; collater #22; Shady Dan sells modified ID cards; gym + laundry sabotage; welders malfunctioning. Plato has started calling me a 'simpleton human' - uh oh.\r\n**Cmds 201-260.** Walked back into the Commander's Office and the overheating log reader exploded - dead. Undid, saved, waited it out in the Quarters (log tape gone with it). Stamp not under the bed (maybe I already took it on day 1). Village: Recruitment Office, Rec Shop sim booth (groof hunting, flavour), Barbershop (mirror), Casino (roulette does nothing, dice), Opium Den sign, Flophouse locker SPACE SUIT (now worn, and wearing it frees carry weight), Pet Store (balloon creature in cage, ceiling panel open & empty), Field Office (no mayor), Trading Post: twelve-prong fromitz board + FREZONE explosive instructions (insert in hole of right diameter, attach detonator to explosive and timer, set timer; keep below 150K). Theory: my toothpick hole in the Dome bin + Frezone + detonator + PX timer opens the bin. Warehouse under Trading Post has an airlock to 'vacuum storage' - Floyd won't fit. Welders keep stalking me.\r\n**Cmds 261-330.** Airlock under the Warehouse: closed upper door, opened lower, went out in the suit (+3, score 29). Dark vac yard: headlamp found a tiny cylinder of FREZONE explosive; put it in the Thermos and closed it. Alley SW of the Warehouse -> Loan Shark: zapped the strong box, got a coin (+5, score 34). Suit too bulky for the iris hatch - left it in the Makeshift Connector. PX: coin in, typed 6 (timer): klunk, stuck. Kick/shake/push 'fails to dislodge the timer'; reach in: fingertips only; Floyd finds nothing; boots and taffy just drop back out; zapping the dispenser destroys it (restored). Stuck here. Taking off the boots then wearing them cost 4 commands of juggling.\r\n\r\n**Cmds 331-372.** Found out the hard way the explosive does NOT fit the toothpick hole in the Dome bin - it needs the Large Drill Bit, which I didn't buy (spent my only coin on the stuck timer). Ate taffy when hungry; Mess Hall food unit sprays acid now. Walked into East Connection: Plato ambushed me with a stun ray, monologue about the Zeenak pyramid. \"floyd, help\" -> Floyd knocks the gun away, Plato blown apart (+7, 41). BUT a notice said the explosive was gone for good and the game unwinnable; opening the Thermos released FREZONE gas. Restored to the Dome save (34): in that timeline the explosive was still in the Thermos at 6756. So it vanished at the stun (drop everything) - looks like a bug. Touch/listen/smell on the alien dots: nothing. Ended leg in the Alien Ship, score 34 (best seen 41), save at Dome time 6557.\r\n\r\n## Leg handoff\r\n\r\n### Map so far\r\n- L1 Dome (locked warm bin, grating). L2 Mess Hall, Main Storage (N & S doors), Meeting Rooms 1/2, Library (voice spool reader). L3 Gym (N), Laundry (NW), Theatre (S, booth locked), Chapel (SW). L4 Female/Male Barracks, SanFac, Docking Bay #3 (W). L5 Level Five: N Workshop -> N Storage (dark) -> E North Connection; W Docking Bay #2 (spacetruck); NE North Junction (E Sick Bay -> E Brig [ID]; NE The PX; N North Connection; SE East Junction -> E East Connection). East Connection: S Comm Center, SW Station Control -> S Commander's Office -> E Commander's Quarters (safe). North Connection N Tube -> Sci Sub-Module (Eng Lab/Office, Astro Lab/Office, Scientists' Quarters, Bio Lab/Office, Holding Tank). L6 Officers' Quarters A/B, SanFac, End of Corridor (Armory N [ID], Shipping Room E dark), Docking Bay #1 NW (alien ship), #4 SW, Aux Barracks N. L7 Printing Plant; ladder to L8 sealed; elevator won't go to 8.\r\n- Village (E of East Connection, zero-G, suit won't pass the iris): Makeshift Connector -> Broadway: N Recruitment, NE Rec Shop, E Field Office, SE Barbershop, SW Pet Store, S Grocery -> S Trading Post -> D Warehouse (D airlock -> vac yard; SW Alley -> S Loan Shark). Grocery SE Saloon -> E Casino (N Opium Den, U Flophouse).\r\n\r\n### Puzzles solved\r\nVac-yard explosive (+3), Loan Shark strong box with zapgun -> coin (+5), Plato ambush: \"floyd, help\" (+7, in a timeline I restored away from).\r\n\r\n### Open puzzles and theories\r\n- Dome bin: key is in the Commander's safe (8000-setting dial, 12-20 numbers). Combination probably from the alien-ship dots via 'the mayor' (linguist) - dots: `.. ..` / `.. .... . ... . ... ... . ...` / `.. ... .` / `.... . ... .` / `.. ... .`.\r\n- Alternative: Large Drill Bit (PX, 1 galakmid) to drill a hole the explosive fits; attach detonator + timer. Timer from the PX is stuck in the dispenser (kick/shake/reach/Floyd/Plato/boots/zapgun all fail). Need another coin.\r\n- Explosive must stay cold (Thermos). It seems to be lost when you're stunned and drop everything - leave the kit somewhere safe before East Connection? (Plato ambush triggers around time 6775 near East Connection.)\r\n- Jammer (0-1400) + twenty-prong board; gym machine uses frequency 710. Welders stalk me; maybe jammer stops them.\r\n- Balloon creature + ostrich nip, Chapel star/flame switch, collater #22 (lower fromitz board), projection booth, sealed Level 8.\r\n\r\n### What I would try next\r\nRestore the Dome save; stash the survival kit (Thermos) away from East Connection; hunt the Alley's other exits and village for a second coin; buy the Large Drill Bit; try the dots on the safe; set the jammer to 710 in the Gym.\r\n",
+   "diaryWithheld": 0,
+   "hasDiary": true,
+   "friction": [
+    {
+     "n": 1,
+     "turn": 23,
+     "room": "Alien Ship",
+     "kind": "nice",
+     "severity": "low",
+     "command": "eat orange goo",
+     "result": "You are neither hungry nor thirsty. (You will be able to eat once you are hungry, in about 16 moves.)",
+     "why": "Tells me exactly when food matters so I can stop worrying and keep moving"
+    },
+    {
+     "n": 2,
+     "turn": 23,
+     "room": "Alien Ship",
+     "kind": "confusing",
+     "severity": "low",
+     "command": "nw (from Level Six)",
+     "result": "Docking Bay #1: A huge door to the east leads into the station.",
+     "why": "I walked northwest into it but it says the way back is east; had to think about which way out"
+    },
+    {
+     "n": 3,
+     "turn": 66,
+     "room": "Library",
+     "kind": "nice",
+     "severity": "low",
+     "command": "turn on reader",
+     "result": "collator repair text, static, then You will die, human!",
+     "why": "Great creepy moment, makes me want to find out what is corrupting the machines"
+    },
+    {
+     "n": 4,
+     "turn": 111,
+     "room": "North Connection",
+     "kind": "nice",
+     "severity": "low",
+     "command": "get jammer",
+     "result": "You are juggling about as much as you can manage. (Dropping the detonator or the drill would leave room.)",
+     "why": "Tells me exactly what to drop instead of making me guess weights"
+    },
+    {
+     "n": 5,
+     "turn": 111,
+     "room": "North Connection",
+     "kind": "parse",
+     "severity": "low",
+     "command": "put spools in bag",
+     "result": "Which spools do you mean, the puce or the mauve?",
+     "why": "Plural should just mean both; I had to retype each"
+    },
+    {
+     "n": 6,
+     "turn": 190,
+     "room": "Commander's Office",
+     "kind": "tedious",
+     "severity": "low",
+     "command": "push red button (log reader)",
+     "result": "Each entry ends with More and the button lights; nine pushes to hear the log",
+     "why": "The log is great story but one push per entry is a lot of turns for a fast player; a hint that says how many entries remain would help"
+    },
+    {
+     "n": 7,
+     "turn": 196,
+     "room": "Commander's Quarters",
+     "kind": "confusing",
+     "severity": "medium",
+     "command": "w (into Commanders Office)",
+     "result": "The log reader explodes! You have died.",
+     "why": "Log mentions readers overheating, but no warning in the room right before; walking in killed me. Undo saved it. Nice save nag in the death text though."
+    },
+    {
+     "n": 8,
+     "turn": 260,
+     "room": "Flophouse",
+     "kind": "tedious",
+     "severity": "low",
+     "command": "get space suit",
+     "result": "juggling too much... Dropping the plastic bag or the detonator would leave room",
+     "why": "After dropping the jammer it still said no; the hint first named the kit and jammer, then other items. Took three tries to wear a suit that then freed weight anyway"
+    },
+    {
+     "n": 9,
+     "turn": 284,
+     "room": "Loan Shark",
+     "kind": "nice",
+     "severity": "low",
+     "command": "shoot box with zapgun",
+     "result": "The strong box is vaporized, leaving a solitary coin! (+5)",
+     "why": "Trying the obvious gadget on the obvious lock paid off instantly - very satisfying"
+    },
+    {
+     "n": 10,
+     "turn": 313,
+     "room": "The PX",
+     "kind": "tedious",
+     "severity": "medium",
+     "command": "wear boots / get boots",
+     "result": "You are not holding the boots; then juggling too much to pick them up",
+     "why": "Wear does not auto-take, and taking off worn boots makes them count against the load, so I had to drop the jammer, get, wear, re-get: 4 commands for one idea"
+    },
+    {
+     "n": 11,
+     "turn": 345,
+     "room": "Mess Hall",
+     "kind": "parse",
+     "severity": "low",
+     "command": "examine units",
+     "result": "I do not know the word units - but the room text says Food Processing and Dispensing Units and examine dispensing unit then describes the units",
+     "why": "The plural of a word printed in the room description is not understood"
+    },
+    {
+     "n": 12,
+     "turn": 358,
+     "room": "East Connection",
+     "kind": "blocked",
+     "severity": "high",
+     "command": "e (into East Connection, Plato ambush)",
+     "result": "(The explosive is gone for good, and there was only the one: the game can no longer be won. RESTORE...) - later opening the Thermos released a puff of FREZONE gas",
+     "why": "The explosive silently evaporated inside a closed Thermos with no warning when it happened; I only learned the game was lost via a notice that popped in the middle of the Plato scene. No clue how long the Thermos keeps it cold"
+    },
+    {
+     "n": 13,
+     "turn": 358,
+     "room": "East Connection",
+     "kind": "nice",
+     "severity": "low",
+     "command": "floyd, help",
+     "result": "Floyd knocks the stun gun away, Plato is blown apart (+7)",
+     "why": "Powerful scripted scene; being paralysed but able to speak made it feel interactive"
+    },
+    {
+     "n": 14,
+     "turn": 371,
+     "room": "Alien Ship",
+     "kind": "bug",
+     "severity": "high",
+     "command": "open thermos (alt timeline after restore)",
+     "result": "Opening the Thermos bottle reveals an explosive (time 6756)",
+     "why": "Same history minus the Plato ambush: explosive still there at 6756, but gone at 6775 when Plato stunned me and I dropped everything. Looks like dropping the closed Thermos (inside the kit) on the stun destroyed the explosive, with no message saying so"
+    }
+   ]
+  },
+  "r4-typed-07factory": {
+   "diary": "# Playtest diary: r4-typed-07factory\n\n- **Mode:** typed\n- **Start:** checkpoint 07-factory\n- **Persona:** someone who played Planetfall on an Apple II in 1983 and loved Floyd, but never played the sequel\n- **Seed:** 66780\n- **Conveniences:** on\n- **Undo:** on (--undo on, D18: early rounds only)\n- **Build commit:** 5f44a40\n- **Budget:** about 400 commands per leg, 1500 commands in all\n- **Round:** 4\n- **Friction log:** filed through the harness (--friction), in playtests/2026-09-25/r4-typed-07factory.friction.jsonl\n\n## Narrative\n\n(About 100 words per 10 commands: what you tried, and what you believed.)\n\n**Commands 1-24.** I pick up in Computer Control, score 73, with a zapgun, a jammer (fromitz board inside), reflective foil and mag boots. The P.A. says launch in 200 millichrons. No Floyd! I climbed the ladder to Level Eight and it is the Factory: rows of little pyramids on spacepods, the original on a pedestal, and... Floyd, face twisted with hate, an eye patch, a stun ray. That hurt, honestly; my Floyd from '83. He zaps my leg numb every other turn. Tried: talking (vocabulary is thin: \"it's\", \"remember\", \"front\" unknown), hugging and taking the pyramid (he levels the ray, I back off), zapping the pyramid (glows, cools; Footnote 9 is a gem), turning the jammer on (set to 710, nothing visible), throwing / holding the foil (misses, \"waste of time\"). The reactor lights keep going red but \"reactor\" isn't a known word. Theory: the jammer needs the right frequency to cut the pyramid's hold on Floyd.\n\n**Commands 25-34.** The chronometer read 5124 (one examine seemed to cost 32 units instead of 7, which scared me), so launch was a few turns off. I had run out of kind things to say. With undo on, I did what I swore I never would: shot Floyd with the zapgun. He slumped against the pedestal. The pyramid was too heavy to lift. Then I remembered the examine text, \"evil emanations pouring forth\", and covered the pyramid with the foil. It turned the emanations back on itself and blew up; the launch was aborted. Floyd forgave me, asked for one last game of Hider-and-Seeker, and died, and little Oliver picked up his paddleball set. I sat here for a minute. 80 of 80, Intergalactic Mega-Hero. Memory, not the screen: nothing. I had never played Stationfall; the foil came from the examine text alone. Pressing RETURN at the win screen printed nothing, so I had to type \"continue\".\n\n## Leg handoff\n\n### Map so far\nComputer Control (ladder up) -> Factory (Level Eight). Elevator call button in Computer Control did nothing. The checkpoint already listed about 60 visited rooms.\n\n### Puzzles solved\n- Evil Floyd guarding the pyramid: shoot Floyd with the zapgun.\n- The pyramid: cover pyramid with foil (+5, game won, launch aborted).\n\n### Open puzzles and theories\nNone. The game is won at 80 of 80 on day 2, time 5152. The jammer (set to 710) did nothing visible here; I never found a use for it in this leg.\n\n### What I would try next\nNothing left in this leg: the game is over. A fresh tester could restart from 07-factory to see whether any kinder way past Floyd exists (the jammer frequency, for example); I found none, and the parser did not know most of the words I tried on him.\n",
+   "diaryWithheld": 0,
+   "hasDiary": true,
+   "friction": [
+    {
+     "n": 1,
+     "turn": 11,
+     "room": "Factory",
+     "kind": "nice",
+     "severity": "low",
+     "command": "footnote 9",
+     "result": "Kids: zapguns are very dangerous... (Footnote 8).",
+     "why": "Classic Infocom joke, free of turn cost; made me grin while a clock was ticking"
+    },
+    {
+     "n": 2,
+     "turn": 16,
+     "room": "Factory",
+     "kind": "not-understood",
+     "severity": "medium",
+     "command": "examine reactor",
+     "result": "[I don't know the word \"reactor.\"]",
+     "why": "The game keeps telling me lights on the reactor are turning red, yet the word isn't even known; with a countdown on, that stings"
+    },
+    {
+     "n": 3,
+     "turn": 34,
+     "room": "Factory",
+     "kind": "nice",
+     "severity": "high",
+     "command": "cover pyramid with foil",
+     "result": "Pyramid explodes, launch aborted; Floyd's last game of Hider-and-Seeker, Oliver asks to play. Won, 80 of 80.",
+     "why": "The foil clicked because 'examine pyramid' talks of emanations pouring forth; the ending wrecked me the way Floyd's death in Planetfall did in 1983"
+    },
+    {
+     "n": 4,
+     "turn": 34,
+     "room": "Factory",
+     "kind": "confusing",
+     "severity": "medium",
+     "command": "shoot floyd with zapgun",
+     "result": "The bolt hits Floyd squarely in the chest... slumps to the deck.",
+     "why": "Nothing in the room hinted that shooting Floyd was the way on; I only did it because the launch clock was nearly out and undo was on. A Planetfall fan tries every kind word first and the parser knew almost none of them"
+    },
+    {
+     "n": 5,
+     "turn": 34,
+     "room": "Factory",
+     "kind": "parse",
+     "severity": "medium",
+     "command": "floyd, remember me? we played hider-and-seeker",
+     "result": "[I don't know the word \"remember.\"]",
+     "why": "Talking to evil Floyd is the first thing a Floyd fan tries; 'remember', 'it's' and 'front' were all unknown, so every emotional attempt bounced off the parser"
+    },
+    {
+     "n": 6,
+     "turn": 34,
+     "room": "Factory",
+     "kind": "bug",
+     "severity": "low",
+     "command": "(press RETURN at the win screen)",
+     "result": "The harness printed nothing at all",
+     "why": "After 'Hit RETURN/ENTER' an empty command gave no output, not even the prompt; I had to type 'continue' to see the final rank"
+    },
+    {
+     "n": 7,
+     "turn": 34,
+     "room": "Factory",
+     "kind": "confusing",
+     "severity": "low",
+     "command": "examine pedestal",
+     "result": "time jumped 5092 -> 5124 for one examine",
+     "why": "Every other turn costs 7 units; this one cost 32 with a launch countdown running, so I could not trust my estimate of time left"
+    },
+    {
+     "n": 8,
+     "turn": 34,
+     "room": "Factory",
+     "kind": "bug",
+     "severity": "low",
+     "command": "--status (after winning)",
+     "result": "Inventory panel still lists reflective foil",
+     "why": "I put the foil over the pyramid and it blew up, yet the panel still says I am carrying it; small, but it made me doubt the ending had registered"
+    }
+   ]
+  },
+  "r4-click-01duffy": {
+   "diary": "# Playtest diary: r4-click-01duffy\n\n- **Mode:** click\n- **Start:** checkpoint 01-duffy\n- **Persona:** an adult who played Zork in the 1980s but has never played this game\n- **Seed:** 24318\n- **Conveniences:** on\n- **Undo:** on (--undo on, D18: early rounds only)\n- **Build commit:** 5f44a40\n- **Budget:** about 400 commands per leg, 1500 commands in all\n- **Round:** 4\n- **Friction log:** filed through the harness (--friction), in playtests/2026-09-25/r4-click-01duffy.friction.jsonl\n\n## Narrative\n\n(About 100 words per 10 commands: what you tried, and what you believed.)\n\n**Cmds 1-9.** Woke in the spacetruck pilot seat with Floyd beside me, the voice asking for a course heading. Opened the Papers menu, looked at the green Assignment Completion Form: time 5355 falls in 5350-5399, course 259. Keypad's \"Autopilot keypad <number>\" entry took \"259\" and the course set first try. Waited through the trip (each wait jumps ~240 time units, nice). Hunger warning was coming, so I opened the survival kit (got +5 points - I think that was actually for docking, the arrival text came the same turn) and ate the orange goo (apricot yogurt). Docked in bay two; nobody here to meet us. Odd, as the game says.\n\n**Cmds 10-30.** Opened the hatch, out to Docking Bay #2, east into Level Five lobby. Workshop (N) had a twenty-ohm bedistor (taken). North of that is dark (grue joke!). Floyd caught up. NE: North Junction, E: Sick Bay with an ID-reader security door - my own card does nothing. SE: East Connection, iris hatch to a Military Sub-Module with a slot. S: Comm Center (emergency beacon button - left alone for now). Met Plato, a polite librarian robot; the Ask menu only lists visible things, so I couldn't ask him about the crew. SW: Station Control (board: Communication and Food Production red, Printing yellow). S: Commander's Office with a log reader.\n\n**Cmds 31-50.** Commander's Quarters (E): safe with 8000-setting dial (12-20 numbers - not guessing that), log tape on desk. Played the tape in the reader, pressing the red button for each entry. Big clues: fuel cells locked in the Dome storage bin, key in the safe; Shady Dan in the village sells modified ID cards; alien pyramid moved to the holding tank in the Sci Sub-Module; the stamp for village entry forms is hidden under the Commander's bed; machines are mysteriously malfunctioning (sabotage). Very atmospheric. Next: stamp under bed.\n\n**Cmds 51-75.** Bed menu had \"Look under\" - validation stamp found. Then walking back west I DIED: the log reader exploded (the tape had said it was overheating; I'd batched two commands and walked in). Undo worked; I SAVED, waited, heard the explosion from the quarters, then went on. South of the office: Briefing Room, South Connection (iris hatch to where a Diplomatic Sub-Module would be, with slot - I think this goes to the village), Robot Shop with sleeping robot Oliver and a heating chamber holding a medium drill bit - too hot/small for my hand, so I told Floyd to get it (+3, score 8). South Junction; SW is a dark File Room. East Junction, ring corridor. The PX has a Vendo-Matic: 1 galakmid for All-Purpose Timer (6) or Large Drill Bit (9) - I need a coin. North Connection -> Tube -> Science Sub-Module Engineering Lab (up/down) -> Engineering Office: Schmidt's diary (pyramid a billion years old; wall dots decoded by non-visual properties, \"my pal the mayor\" has linguistic training). Getting tired: ~22 moves.\n\n**Cmds 76-115.** Sci Sub-Module stack: Scientists' Quarters (top, beds) / Astro Lab + Office (fromitz board, taken) / Engineering Lab + Office / Bio Lab + Office (note: \"think of this station as a cell and the pyramid as a mechanized bacterioph...\" with bloodstains - creepy!) / Holding Tank Level: tank wall blasted open, pyramid gone. Hands got full so I dropped diary and note in Bio Office. Diagnose's move countdown for tiredness is very handy. Saved, got in bed, slept after waiting till tired: dream of my promotion; +3 (score 11), Day 2 (Novem 5), time 1618. My stuff was dropped around the bed; \"Take all\" from the bed failed, then worked after standing (and I tried to lift Floyd - funny). Opened the Thermos: blue soup. Hungry in ~11. Plan: find a light for Storage/File Room, a coin for the PX, and a village entry form to stamp.\n\n**Cmds 116-160.** Ladder up from Level Five. Level Four: Female/Male Barracks (cubicles, nothing), Barracks SanFac, Docking Bay #3 with a lilac nanofilm spool (taken). Auto-doors are now opening \"sluggishly\" and zooming shut early - sabotage creeping in, nicely unsettling. Ate the gray goo when hungry (can't eat early; the game tells you how many moves). Level Three: Gym (exercise machine; sign warns its diagnostics use frequency 710 - don't bring anything broadcasting on 710 near it), Theatre (projection booth with a lock), Laundry (washer missing! presser and dryer, both empty), Chapel (eternal flame, blinking seven-pointed star out of reach, puce nanofilm spool; pulpit opens to reveal a switch - turning it off put out the flame. No idea why yet). Hands got full; moved bedistor and fromitz board into the survival kit via \"Put it in...\".\n\n**Cmds 161-215.** Level Two: Mess Hall (cold coffee, food units), Main Storage with a detonator - opened it: a BLACKENED hyperdiode inside (need a good one; I think the detonator is for the safe). Meeting Rooms 1-2; P.A. says a deep-space message arrived at the Comm Center. Library: nanofilm reader. Lilac spool = spacetruck fuel-cell replacement (quarnum wrench) then \"You will die, human!\". Puce spool = chapel maintenance: flame fuel reservoir, and the Chapel STAR has a hyperdiode! So the star is my diode source; it's out of reach. Dome (top): locked storage bin \"Shrubbery Maintenance Supplies\" (fuel cells per the Commander), air shaft grating, paths loop. Elevator keypad takes the level number - nice. Level Six: Auxiliary Barracks + SanFac, Officers' Quarters A/B/C + SanFac (nothing in desks), End of Corridor with another ID-reader security door, dark Shipping Room, Docking Bay #4 (empty), Docking Bay #1 with the ALIEN SHIP: empty pedestal, skeleton, dot pattern: \".. .. / .. .... . ... . ... ... . ... / .. ... . / .... . ... . / .. ... .\" Diary said the mayor has linguistic training - so the village mayor can translate?\n\n**Cmds 216-245.** Level Seven: Printing Plant - mauve spool, trash can with a crumpled Illegal Space Village Entry Form. Stamped it with the validation stamp (the \"Validate...\" entry on the stamp was right there). Ladder to Level Eight sealed from below; elevator won't go to 8. Ominous throbbing/clanging from below. Paper Recycling Plant: a drill with a small bit. Hull Welder #1 came at me in the Printing Plant - I saved and escaped into the elevator. Mauve spool = collater repair (\"check the lower fromitz... replace with\") then \"You will die, human!\". Pressed the crumpled form in the Laundry presser (put in, close, on, off, open) -> neatly ironed, validated village entry form. Tried drilling the Theatre booth lock with the small and medium bits: \"point of the drill doesn't seem to be as hard as the lock\" - so I need the Large Drill Bit from the PX (1 galakmid). Footnotes are clickable - fun. Next: village via South Connection slot.\n\n**Cmds 246-285.** Welder #1 again at South Connection - saved, fed the ironed form into the slot: hatch jams half-open, +6 (score 17). Through a Grimy Passage (weightless) into the space village: Main Street (deserted), Travel Agency, Bank (platinum detector - turned it on, no beeps yet), Greasy Straw diner, Trading Post (twelve-prong fromitz board; sign: FREZONE explosive; instruction sheet: explosive in a hole of the right diameter, detonator to explosive and timer, set timer, vamoose; keep below 150 K). So the safe plan: drill hole (large bit), Frezone, detonator (needs working hyperdiode - chapel star), timer (PX). Thermos keeps things cold? Grocery: bag of vacuum taffy (left it). Broadway: Recruitment Office, Rec Shop (sim booths), Field Office with a HEADLAMP - finally a light! Wearing it. Ate blue soup when hungry.\n\n**Cmds 286-298.** Broadway W -> Makeshift Connector -> comes out at East Connection (the military hatch is frozen open; it's a village shortcut). Comm Center screen: the Duffy says abort the assignment and come home - the forms were found in a mislabelled pallet. Ha. Turned the headlamp on. File Room: boring files. Storage (north of Workshop): a JAMMER with twenty sockets, settable 0-1400. Put the twenty-prong fromitz board in it and set it to 710 - the gym sign's frequency. Plan: take it to the Gym and see what the exercise machine does.\n\n**Cmds 299-342.** Gym with jammer on at 710, got in the exercise machine, waited: nothing at all happened. Unsure if I solved or wasted it; turned it off. Right after, \"the detector is getting warm\" - I panicked (log reader memories) and dropped it, then took it back. Chapel: climbing the pulpit - it sways and I fall; Floyd is too short and Plato \"several meters\" too short to reach the star. Back to the village via the Makeshift Connector. Barbershop: detector \"quietly beeping\" (mirror is fixed to the wall). Saloon (partially disguised exit east) -> Casino (dice, roulette wheel) where it got \"very warm\". Dropped it again, it didn't explode, so I took it back and switched it off. I can't tell if warm means danger or hot/cold. Hungry ~53, tired ~96.\n\n**Cmds 343-371.** Trading Post W: \"Junk Yard\"... no, the Studio (art joke) with a J-series HYPERDIODE in the scrap sculpture - took it, swapped it into the detonator for the blackened one. Headlamp dimming, so it's off when not needed. Pet Store (NW of Trading Post): Arcturian balloon creature in a cage (+ leash); Welder #4 came for me, I opened the cage and fled NE, came back; grabbing the leash made it fart in my face and I dropped everything (Take all fixed it). Need a way to hold it (a nose plug?). I think the balloon floats me/it up to the chapel star (but it can't float in zero-gee - the chapel HAS gravity, so maybe that's the point). Shady Dan's (SE of Trading Post): the \"innocuous machine\" - ID card in, typed 10 -> Grand Fleet HyperAdmiral! That should open the security doors (Sick Bay E, Level Six End of Corridor N). Below Dan's: the Junk Yard (mirror joke of the Studio) with magnetic boots - wearing them. Dropped the platinum detector in the Junk Yard.\n\n**Cmds 372-375.** Junk Yard W -> Alley (winding hub; exits N, S, NE, SE, SW, W, and up/NW back to Main Street). N: Missionary (end-of-the-world kook's home, nothing visible). Back in the Alley. The leg ended here, at about 375 of 400 commands: the session's tool permissions blocked further harness calls. I did not stop by choice.\n\n## Leg handoff\n\n### Map so far\n- **Command Module (levels by elevator keypad number; ladder links every level):**\n  - L1 Dome: garden, locked storage bin (\"Shrubbery Maintenance Supplies\"; the fuel cells are inside, key in the Commander's safe), air shaft grating.\n  - L2 Mess Hall (cold coffee, food units). N/S: Main Storage (detonator was here). NE: Meeting Room 1, then S Meeting Room 2, then S Library (nanofilm reader; puce spool left on the floor there, mauve spool in the reader). The Library's W exit returns to the Mess Hall.\n  - L3 Level Three: N Gym (exercise machine; sign: diagnostics on freq 710), S Theatre (locked projection booth; the small drill bit is dropped there), NW Laundry (presser, dryer; the washer is missing), SW Chapel (flame now OFF via the pulpit switch; blinking star out of reach holds a hyperdiode).\n  - L4: N Female Barracks, SE Barracks SanFac, S Male Barracks, W Docking Bay #3.\n  - L5 Level Five: W Docking Bay #2 (my spacetruck), N Workshop, then N Storage (dark; jammer was there), whose E exit leads to North Connection. NE North Junction: E Sick Bay (security door E with ID reader), NE The PX (Vendo-Matic: 1 galakmid for #6 All-Purpose Timer or #9 Large Drill Bit), N North Connection, then N Tube, then the Sci Sub-Module (Eng Lab/Office, Astro Lab/Office above, Scientists' Quarters with beds at the top, Bio Lab/Office below, Holding Tank at the bottom: blasted open, pyramid gone). SE East Junction, E East Connection (S Comm Center; E is the frozen iris hatch to the village Makeshift Connector). South Junction: SW File Room (dark), S South Connection (the jammed-open hatch S goes to the village Grimy Passage), E Station Control, SE Commander's Office (log reader exploded). Office E: Commander's Quarters (safe). Office S: Briefing Room, then W South Connection, then W Robot Shop (sleeping robot Oliver, heating chamber).\n  - L6: N Auxiliary Barracks + SanFac, S Officers' Quarters A, then SE Officers SanFac, then NE Quarters C, then N End of Corridor (security door N with ID reader; E Shipping Room, dark; SW Quarters B). NW Docking Bay #1 (alien ship: pedestal, skeleton, dot pattern). SW Docking Bay #4.\n  - L7 Printing Plant (lilac spool on the floor, trash can): NW Paper Recycling Plant. The ladder down to L8 is sealed from below, and the elevator won't go to 8.\n- **Village (zero-gee):** Grimy Passage leads S to Main Street (W Travel Agency, then SE Bank; NE Greasy Straw, then NE Trading Post; S/SE/Up/Down not all explored). Trading Post: N Grocery (taffy bag), E Saloon (then E Casino), W Studio (sculpture), NW Pet Store (balloon creature, leash, cage), SE Shady Dan's (ID machine; Down leads to the Junk Yard, then W the Alley). Grocery N: Broadway (N Recruitment Office, NE Rec Shop, E Field Office, SE Barbershop, W Makeshift Connector to the station, SW Pet Store; NW and Down unexplored). Alley: N Missionary; S/NE/SE/SW/W unexplored.\n\n### Puzzles solved (score 17 of 80)\n- Course 259 at time 5355 from the form's nav table; docked (+5).\n- Floyd fetched the medium drill bit from the heating chamber (+3).\n- Slept in the Scientists' Quarters (+3).\n- Stamped the crumpled village entry form, ironed it in the presser, fed it to the South Connection slot (+6).\n- Found the validation stamp under the Commander's bed; the log tape gave me the story (fuel cells, safe key, Shady Dan, pyramid).\n- Swapped a J-series hyperdiode from the Studio sculpture into the detonator.\n- Set my ID card to rank 10 (Grand Fleet HyperAdmiral) at Shady Dan's.\n- Put the twenty-prong fromitz board in the jammer and set it to 710 (the effect is unknown).\n- Found the headlamp (battery dimming) and magnetic boots (worn).\n\n### Open puzzles and theories\n- **Safe:** drill a hole (needs the Large Drill Bit from the PX, 1 galakmid; I have no coin yet), then FREZONE explosive from the Trading Post (ask for it? keep it below 150 K; the Thermos?), then detonator plus the All-Purpose Timer (PX). The key inside opens the Dome bin, which holds the fuel cells.\n- **Security doors** (Sick Bay E, L6 End of Corridor N): try the HyperAdmiral card in the ID readers.\n- **Chapel star:** out of reach. Maybe the balloon creature floats up (the chapel has gravity; the leash needs a way to cope with the smell). The flame is off (it might matter for hydrogen!).\n- **Gym/jammer at 710:** nothing visible happened. Maybe it is for a moment when the machine turns hostile.\n- **Theatre booth lock:** needs a harder bit (the Large Drill Bit).\n- **Alien dots:** \".. .. / .. .... . ... . ... ... . ... / .. ... . / .... . ... . / .. ... .\" The diary says the mayor has linguistic training (I haven't found a mayor yet).\n- **Platinum detector:** \"warm\" in the Gym and Casino, \"beeping\" in the Barbershop. Perhaps coins/platinum are hidden in the Barbershop. It is now dropped in the Junk Yard.\n- **Level 8** is sealed and makes ominous noises (the pyramid is probably there). Hull welders #1 and #4 roam and approach menacingly; I always fled.\n\n### What I would try next\n1. Explore the rest of the Alley, Broadway NW/Down, and Main Street S/SE/Up/Down, looking for a coin and the mayor.\n2. Take the detector back to the Barbershop and search there for platinum/coins.\n3. Try the rank-10 ID card in the Sick Bay and L6 ID readers.\n4. Eat the taffy when hungry (~33 moves); sleep by ~77 moves (beds in the Scientists' Quarters or the barracks).\n\n## Leg handoff\n\n### Map so far\n\n### Puzzles solved\n\n### Open puzzles and theories\n\n### What I would try next\n",
+   "diaryWithheld": 0,
+   "hasDiary": true,
+   "friction": [
+    {
+     "n": 1,
+     "turn": 2,
+     "room": "Spacetruck",
+     "kind": "nice",
+     "severity": "low",
+     "command": "517 259",
+     "result": "Course set. Launch in approximately 30 millichrons.",
+     "why": "Form's nav table image was legible; keypad entry taking a number was clear and worked first try"
+    },
+    {
+     "n": 2,
+     "turn": 16,
+     "room": "Storage",
+     "kind": "confusing",
+     "severity": "low",
+     "command": "north (Workshop to dark room)",
+     "result": "It is pitch black. You hope there are no grues aboard the station.",
+     "why": "Grue joke landed for a Zork player; but status line names the room 'Storage' while it is pitch black, which tells me more than the text does"
+    },
+    {
+     "n": 3,
+     "turn": 26,
+     "room": "East Connection",
+     "kind": "blocked",
+     "severity": "medium",
+     "command": "557 Ask about…",
+     "result": "Topics offered: Floyd, bedistor, Plato, his poetry book only",
+     "why": "As a Zork-era player I want to ask the only person on the station about the missing crew or the station, but the click menu only offers visible objects, so I can't ask the obvious question"
+    },
+    {
+     "n": 4,
+     "turn": 49,
+     "room": "Commander's Office",
+     "kind": "nice",
+     "severity": "low",
+     "command": "40 Push (log reader button, repeatedly)",
+     "result": "Nine log entries: fuel cells, safe key, Shady Dan, pyramid, stamp under bed, sabotage",
+     "why": "The log tape is a great story delivery device and each press is one clear click; the 'More' prompt told me exactly what to do"
+    },
+    {
+     "n": 5,
+     "turn": 53,
+     "room": "Commander's Office",
+     "kind": "confusing",
+     "severity": "medium",
+     "command": "west (Quarters to Office)",
+     "result": "The log reader explodes! You have died",
+     "why": "Log text said the reader was overheating, which is a fair hint in hindsight, but walking into the only exit room at the wrong moment killed me with no warning sign in the room (no smoke, no heat); feels like a cheap death though Undo saves it"
+    },
+    {
+     "n": 6,
+     "turn": 63,
+     "room": "Robot Shop",
+     "kind": "nice",
+     "severity": "low",
+     "command": "630 (Tell Floyd to take the medium drill bit)",
+     "result": "Floyd grabs it, drops it hot on the deck; I take it, +3",
+     "why": "The Tell menu offered exactly the idea I had after my hand was too big - discoverable without being a giveaway"
+    },
+    {
+     "n": 7,
+     "turn": 108,
+     "room": "Scientists' Quarters",
+     "kind": "tedious",
+     "severity": "low",
+     "command": "8 (Take all, while still in bed after waking)",
+     "result": "A line per item: You can't reach X from the bed - including Floyd and Plato",
+     "why": "The Take all button is offered in bed where it can't work, and 'all' tried to take the two robots; wasted a turn"
+    },
+    {
+     "n": 8,
+     "turn": 136,
+     "room": "Gym",
+     "kind": "confusing",
+     "severity": "low",
+     "command": "647 Examine (exercise machine)",
+     "result": "There's no one in the exercise machine.",
+     "why": "I wanted a description of the machine (the room calls it imposing and the sign warns about frequency 710); this answers a question I didn't ask"
+    },
+    {
+     "n": 9,
+     "turn": 168,
+     "room": "Library",
+     "kind": "nice",
+     "severity": "low",
+     "command": "678 Turn on (lilac spool in reader)",
+     "result": "Fuel cell instructions break into static, then 'You will die, human!'",
+     "why": "Genuinely chilling moment; the reader flow (put spool in, turn on) was two obvious clicks"
+    },
+    {
+     "n": 10,
+     "turn": 221,
+     "room": "Elevator",
+     "kind": "nice",
+     "severity": "low",
+     "command": "536 Push (elevator button, Printing Plant)",
+     "result": "Hull Welder Number 1 approaches, welding extensions quivering with excitement",
+     "why": "Great tension; the elevator arriving the same turn gave me an obvious escape, and the log's welder accident made me take it seriously"
+    },
+    {
+     "n": 11,
+     "turn": 237,
+     "room": "Laundry",
+     "kind": "nice",
+     "severity": "low",
+     "command": "put crumpled form in presser / close / turn on / off / open",
+     "result": "a neatly ironed Illegal Space Village Entry Form",
+     "why": "Satisfying Infocom-style puzzle: crumpled form in trash + presser in the laundry; each step was on the menus without spelling out the answer"
+    },
+    {
+     "n": 12,
+     "turn": 309,
+     "room": "Gym",
+     "kind": "confusing",
+     "severity": "medium",
+     "command": "819 Turn on (jammer at 710) in Gym, then get in exercise machine and wait",
+     "result": "Okay, the jammer is now on. / You are now in the exercise machine. / Time passes...",
+     "why": "The gym sign plainly sets up the jammer at 710, but doing it gives no reaction at all, so I can't tell whether I solved something, broke something, or am early"
+    },
+    {
+     "n": 13,
+     "turn": 339,
+     "room": "Casino",
+     "kind": "confusing",
+     "severity": "medium",
+     "command": "carrying platinum detector (on) through Gym, Barbershop, Casino",
+     "result": "'the detector is getting warm' (Gym), 'quietly beeping' (Barbershop), 'getting very warm' (Casino)",
+     "why": "After the log reader overheated and exploded, 'getting warm' reads as a bomb warning, not a hot/cold hint; I dropped it twice. Examine never says whether it is beeping or warm, so I can't check what it means"
+    },
+    {
+     "n": 14,
+     "turn": 349,
+     "room": "Studio",
+     "kind": "confusing",
+     "severity": "low",
+     "command": "west (Trading Post to Studio)",
+     "result": "Printed a 'Junk Yard' heading and paragraph, then '## Studio' with its own description",
+     "why": "The two room titles in one arrival looked like a glitch at first; the joke (junk pile is really art) works, but the double header is visually confusing"
+    },
+    {
+     "n": 15,
+     "turn": 357,
+     "room": "Pet Store",
+     "kind": "nice",
+     "severity": "low",
+     "command": "873 (take leash)",
+     "result": "The balloon creature farts in your face; you drop everything you were holding",
+     "why": "Laugh-out-loud Infocom moment, and it clearly tells me I need some way to cope with the smell; Take all to recover is one click"
+    },
+    {
+     "n": 16,
+     "turn": 366,
+     "room": "Shady Dan's",
+     "kind": "nice",
+     "severity": "low",
+     "command": "put card in slot / 875 10 (Shady Dan's machine keypad)",
+     "result": "Current rank is 6... New rank is 10: Grand Fleet HyperAdmiral.",
+     "why": "Payoff for the Commander's log about Shady Dan's modified IDs; the keypad-with-number entry made it one clean step"
+    }
+   ]
+  },
+  "r4-click-03village": {
+   "diary": "# Playtest diary: r4-click-03village\r\n\r\n- **Mode:** click\r\n- **Start:** checkpoint 03-village\r\n- **Persona:** a retired engineer who enjoys logic puzzles but loses patience with long text\r\n- **Seed:** 58336\r\n- **Conveniences:** on\r\n- **Undo:** on (--undo on, D18: early rounds only)\r\n- **Build commit:** 5f44a40\r\n- **Budget:** about 400 commands per leg, 1500 commands in all\r\n- **Round:** 4\r\n- **Friction log:** filed through the harness (--friction), in playtests/2026-09-25/r4-click-03village.friction.jsonl\r\n\r\n## Narrative\r\n\r\n(About 100 words per 10 commands: what you tried, and what you believed.)\r\n\r\n**Cmds 1-14.** Arrived at Grimy Passage, score 11, tired in ~35 moves (worrying). South to Main Street, W Travel Agency (posters), SE Bank: picked up a platinum detector, switched it on. A hull welder came at me in the Bank; I left north and it wandered off. NE to Greasy Straw (empty restaurant), NE to Trading Post: took a twelve-prong fromitz board and an instruction sheet for FREZONE explosive, which must be kept below 150 K. I think the Thermos in my kit is for carrying it cold. Sign says explosive available. Menus are quick; I like that examining is free.\r\n\r\n\r\n**Cmds 15-32.** Grocery: plastic bag with vacuum taffy. Broadway is a hub with nine exits. Recruitment Office (dead end), Field Office (headlamp; wearing it, since my hands got full). Rec Shop has simulation booths. Barbershop: the platinum detector beeps here. The mirror is fixed to the wall; I suspect platinum behind it. Worry: tired in ~13 moves and no bed seen yet. Examine costs a turn here, which I did not expect.\r\n\r\n**Cmds 33-62.** Pet Store: Arcturian balloon creature (hydrogen-filled) in a cage with a leash; grabbing the leash made it fart and I dropped everything. Funny. Saloon, Casino (dice, roulette wheel). Studio (was 'Junk Yard' until the gag; took J-series hyperdiode). Shady Dan's: a jerry-built machine with keypad and slot, window on a spaceship lot. Down: Junk Yard with magnetic boots, but hands full. A second welder chased me; fled up. Detector got 'warm' so I switched it off and dropped it at Shady Dan's. Sleep button finally appeared, but 'members of civilized societies sleep in beds'. Need a bed, fast.\r\n\r\n**Cmds 63-80.** Wore the magnetic boots. Alley hub: Missionary (dead end), Warehouse (airlock door down, red sign; welder #2 again), Loan Shark (strong box fastened to floor: drill/explosive target?), Doc Schuster's (an ostrich floating! letter: 'ostrich nip in my ceiling panel'), Pawn Shop (spray can with lettering). Main Street Up = Mayor's Office: textbook 'Deciphering Alien Speech' with a paper glossary of an alien *taste* language (bttr/salty/sweet/sour/blnd = words; 'legal destruction (sabotage?)', 'bad/evil/deadly radiations', '78 / 7/8'). Nice puzzle feel. Still no bed; about to collapse.\r\n\r\n**Cmds 81-104.** Collapsed from tiredness in the Mayor's Office; woke fine on day 2 with +3 (score 14). Dropped the textbook and letter. Took the spray can from the Pawn Shop: 'E-Z Spray Sporz, lowest gas-inducement'. Theory: feed the balloon creature so it stops farting and I can hold its leash. Sprayed in the Pet Store; it darted about eating, but it still farted when I grabbed the leash. Theory not confirmed; maybe it needs gravity, or more time.\r\n\r\n**Cmds 105-132.** Fortune Teller under Broadway (crystal ball, joke). Broadway NW is a joke non-exit. Barbershop: drill won't dent the mirror, but *break mirror* reveals reflective foil (platinum?), +4, score 18. Ate orange goo (hunger reset ~100). Warehouse red sign: 'Trading Post vacuum storage'. Airlock below: outer door opens only with inner closed; I tested and died of vacuum, then undid. So I need a spacesuit for the storage (probably where the FREZONE is).\r\n\r\n**Cmds 133-150.** Shady Dan's 'innocuous machine' is a card alterer (keypad 0-9999, small slot). My ID card is scrambled: the footnote says GOTCHA AGAIN, the magnet. I think the magnetic boots did it. My saves are all after the boots, so no clean way back. Annoying. Left the card there. Pet Store: examining the ceiling revealed the panel from the letter; took the ostrich nip, +3, score 21. Next: feed the nip to the ostrich at Doc's.\r\n\r\n**Cmds 151-172.** At Doc's the ostrich sniffs toward the nip. By mis-click I tried to 'get in' the ostrich; it squawked and stuck its head in the disposal hole. Gave it the nip: it got drunk and keeled over, no points. I suspect that was the wrong use, so I restored the Pet Store save (nip in hand). Theory: the nip lures the ostrich, and scaring it makes it put its head in a hole. Need a hole where that matters. Rec Shop simulation booth: a Zork joke. PA: 'Deep-space communication received at Comm Center'.\r\n\r\n**Cmds 173-186.** Alley W is another joke non-exit. Loan Shark: drilled a toothpick-size hole in the strong box (HUGE lock). Opened the detonator: a blackened (burnt) hyperdiode. Swapped in the J-series hyperdiode from the sculpture and closed it. A good engineer's puzzle, though no points yet. Still need: FREZONE (vacuum storage, needs a spacesuit) and a timer (maybe my chronometer?). Also need a use for the nip/ostrich. Plan: head back to the station to look for a spacesuit.\r\n\r\n**Cmds 187-198.** Blueprint key in Papers: a nice drawing, legible. North into the station: gravity returns at South Connection. A QX-17-T form and a validation stamp lie there. Briefing Room is empty; auto-doors are 'sluggish, zoom shut early' (ominous). Robot Shop: dormant robot Oliver, and a medium drill bit in a heating chamber too small for my hand. Tell Floyd to... take it: +3, score 24 (the menu offered it outright). Swapped the medium bit into the drill and dropped the small bit. Plan: medium hole in the strong box for FREZONE.\r\n\r\n**Cmds 199-214.** Station tour. Station Control monitor: Communication, Food, Printing RED; Life Support, Gravity, Power YELLOW. East Connection, then Comm Center: the screen tells me to abort and return to the Duffy (a nice joke). Emergency beacon button not pressed. Sick Bay has a bed and a security door with an ID reader (my card is scrambled...). North Connection has a Scientific Sub-Module tube going north. Storage (dark, headlamp on): a jammer, freq 0-1400, set to 337, twenty tiny sockets. Workshop: took a twenty-ohm bedistor, dropped the taffy bag there. Still no spacesuit.\r\n\r\n**Cmds 215-232.** Scientific Sub-Module (north of North Connection). Engineering Office: Prof. Schmidt's diary about the billion-year-old alien pyramid. The alien 'dots' have nonvisual properties (taste!), and the mayor has linguistic training (hence the textbook). Astro Lab: swapped my twelve-prong fromitz board for a twenty-prong one (the jammer has 20 sockets). Scientists' Quarters: beds (good for tonight). Desks and wardrobe are empty.\r\n\r\n**Cmds 233-248.** Bio Office note: 'think of this station as a cell and the pyramid as a mechanized bacterioph...' with bloodstains. Chilling, and short. Holding tank blasted open and empty (the pyramid escaped). PX: a Vendo-Matic, all items 1 galakmid; only 6 All-Purpose Timer and 9 Large Drill Bit are in stock. That's my timer! I have no coin. Kicking the machine does nothing. Circular worry: the coin may be in the strong box that needs the timer.\r\n\r\n**Cmds 249-273.** East Junction joins the loop; File Room is a 'boring' joke. Commander's Quarters: a HyperSecurity safe (8000-setting dial, 12-20 numbers, so drill-and-blast) and a log tape. Drilling the safe: 'the drill sparks and stops running'. The drill is now dead. The log (in the Commander's Office reader, one red button per entry) explains: fuel cells locked in the Dome storage bin, key in the safe; Shady Dan sells modified ID cards; stamp hidden under the Commander's bed; pyramid moved to the holding tank; unexplained breakdowns of simple equipment (sabotage). So my drill was sabotaged too. The logs are good storytelling and each is short. A welder chased me out; the headlamp is dimming (turned off).\r\n\r\n**Cmds 274-318.** Ate the gray goo (no food left now!). Put the twenty-prong board in the jammer and switched it on (freq 337, no feedback). Restored the PX save to get a working drill back, re-did the jammer and carried it (on) to the Commander's Quarters. Drill safe again: same 'sparks and stops' at the same time, so it's not sabotage timing. Undid. Drilling the desk works ('not as hard as the desk'). So the safe kills the drill; I probably need a different bit (large bit from the PX, needs a galakmid coin) or a different approach. Headlamp battery dimming.\r\n\r\n**Cmds 319-343.** Replayed the full log. New entries: web-feeder shutdown, the spare log reader overheating, and the last entry where a hull welder injured an ensign ('What the krip!...'). Welders are the malfunctioning killers. A few turns later the log reader EXPLODED in the Commander's Office (a black scar). Process note: I once piped harness output through sed while replaying log entries. I read the log text, but the trailing room panels were cut; I stopped doing it. Ate again (gray goo was back after the restore). Spacetruck: no suit. Level Four barracks: nothing but beds. Docking Bay #3: lilac nanofilm spool 'Spacetruck Refueling Instructions' (left there).\r\n\r\n**Cmds 344-376.** Level Three: Gym sign says the exercise machine's diagnostics use frequency 710; don't broadcast there. I set the jammer to 710 in the Gym: nothing visible. Theatre: projection booth with a lock the drill can't beat. Chapel: a blinking seven-pointed star 'beyond your reach', an eternal flame, and a puce nanofilm spool (Chapel Maintenance Procedures). The pulpit opens to a switch; I turned the flame OFF. Theory: float up to the star on the hydrogen balloon creature, and the flame must be out first. I dropped everything in the Chapel and trekked to the Pet Store with the spray can. Sprayed spores, took the leash: it still farts and I let go. Waiting and pushing don't help. Leg budget nearly spent; stopping here.\r\n\r\n## Leg handoff\r\n\r\n### Map so far\r\n- **Village (zero-g):** Grimy Passage (N to station) - Main Street (W Travel Agency; S Bank; NE Greasy Straw; Up Mayor's Office; SE/Down Alley). Greasy Straw NE - Trading Post (N Grocery, E Saloon, W Studio, NW Pet Store, SE Shady Dan's, Down Warehouse). Saloon E - Casino (roulette). Grocery N - Broadway (N Recruitment, E Field Office, NE Rec Shop, SE Barbershop, SW Pet Store, W Makeshift Connector, Down Fortune Teller; NW is a joke). Shady Dan's Down - Junk Yard W - Alley (N Missionary, S Loan Shark, SE Doc Schuster's, SW Pawn Shop, NE Warehouse, NW/Up Main St; W is a joke). Warehouse Down - Airlock (outer door = vacuum, deadly).\r\n- **Station (gravity):** South Connection (W Robot Shop, E Briefing Room, N South Junction). South Junction (E Station Control, SE Commander's Office, E again Commander's Quarters, SW File Room, NW Level Five, NE East Junction). East Connection (S Comm Center, NW Sick Bay with security door + ID reader). North Junction - North Connection (W Storage [dark], E PX, N Tube - Sci Sub-Module: Engineering Lab/Office, Astro Lab/Office, Scientists' Quarters (beds), Bio Lab/Office, Holding Tank [blasted, empty]). Level Five (N Workshop, W Docking Bay #2 / Spacetruck). Level Four (barracks, SanFac, W Docking Bay #3). Level Three (N Gym, S Theatre, SW Chapel, NW Laundry, Up Mess Hall).\r\n\r\n### Puzzles solved\r\n- Platinum foil behind the barbershop mirror (break mirror) +4.\r\n- Ostrich nip in the Pet Store ceiling panel +3 (letter at Doc's).\r\n- Medium drill bit from the Robot Shop heating chamber via Floyd +3.\r\n- Detonator repaired: swapped the blackened hyperdiode for the J-series one (Studio sculpture). No points.\r\n- Twenty-prong fromitz board fitted into the jammer.\r\n- Chapel eternal flame switched off (pulpit switch).\r\n- Slept through day 1 by collapsing; +3 on waking.\r\n\r\n### Open puzzles and theories\r\n- **Safe** (Commander's Quarters): holds the key to the Dome storage bin (fuel cells). Drilling it with the medium bit kills the drill ('sparks and stops'); the desk and others are fine. Maybe it needs the Large Drill Bit, or it's meant to be blown.\r\n- **PX Vendo-Matic**: All-Purpose Timer (#6), Large Drill Bit (#9), 1 galakmid each. No coin found yet.\r\n- **FREZONE explosive**: in the Trading Post vacuum storage below the Airlock. Needs a spacesuit (not found). Keep it cold (<150 K): the Thermos.\r\n- **Strong box** (Loan Shark): HUGE lock, toothpick-size hole drilled with the small bit. Probably holds money.\r\n- **ID card**: scrambled by the magnetic boots, so Shady Dan's card alterer refuses it. Needed for the Sick Bay security door. No clean save before the boots.\r\n- **Balloon creature**: needed for the chapel star (flame now off). Can't hold the leash; spores didn't help. Maybe it needs gravity (bring the cage?), or a different spore trick.\r\n- **Ostrich**: nip makes it drunk; scaring it makes it stick its head in a hole. Use unknown (the PX dispenser hole?).\r\n- Alien taste-language glossary (paper, in my uniform); the jammer (freq 0-1400); twenty-ohm bedistor; nanofilm spools (need a reader).\r\n\r\n### What I would try next\r\n1. Find a galakmid coin (casino/roulette with the dice? bank? strong box?) and buy the timer and large bit.\r\n2. Retry the safe with the large bit, with the jammer on.\r\n3. Look for a spacesuit (Level Six? Docking Bay #1?).\r\n4. Balloon: try it when in gravity (lead it north through Grimy Passage), or put it back in the cage and carry the cage.\r\n5. Items are stashed in the Chapel (Level Three SW); the spray can is in the Pet Store.\r\n",
+   "diaryWithheld": 0,
+   "hasDiary": true,
+   "friction": [
+    {
+     "n": 1,
+     "turn": 37,
+     "room": "Pet Store",
+     "kind": "blocked",
+     "severity": "medium",
+     "command": "515 floor / More",
+     "result": "no Sleep entry anywhere; Diagnose says tired in ~7 moves",
+     "why": "The game warns me I'm getting tired but in click mode I see no way to sleep or lie down, and no bed in the village so far. I'm just waiting to collapse."
+    },
+    {
+     "n": 2,
+     "turn": 44,
+     "room": "Casino",
+     "kind": "confusing",
+     "severity": "low",
+     "command": "3 (wait)",
+     "result": "You begin to feel weary... a Sleep button appeared",
+     "why": "Resolves my earlier worry: the Sleep button shows up once you're actually tired. But the Diagnose countdown 'tired in ~N' read to me like a deadline to collapse, which made me panic for 30 moves."
+    },
+    {
+     "n": 3,
+     "turn": 49,
+     "room": "Studio",
+     "kind": "confusing",
+     "severity": "low",
+     "command": "24 (west from Trading Post)",
+     "result": "'Junk Yard' description, then a second full '## Studio' header and description",
+     "why": "The gag (junk pile is actually art) is fun, but printing two room headers and two descriptions back to back reads like a glitch; long text twice."
+    },
+    {
+     "n": 4,
+     "turn": 112,
+     "room": "Barbershop",
+     "kind": "nice",
+     "severity": "low",
+     "command": "break mirror",
+     "result": "glass dust sucked away, reflective foil behind; +4 points",
+     "why": "Detector beeped here, mirror was the only thing, breaking it paid off. Satisfying deduction with short text."
+    },
+    {
+     "n": 5,
+     "turn": 137,
+     "room": "Shady Dan's",
+     "kind": "blocked",
+     "severity": "high",
+     "command": "put card in slot",
+     "result": "Magnetic card data is scrambled (footnote: GOTCHA AGAIN, the magnet)",
+     "why": "Wearing the magnetic boots silently wiped my ID card ~70 moves ago; nothing said so when I put them on. I only find out now, and my only fix is restoring to a save from before the boots. Fair in hindsight for an engineer, but the silence is harsh."
+    },
+    {
+     "n": 6,
+     "turn": 147,
+     "room": "Pet Store",
+     "kind": "nice",
+     "severity": "low",
+     "command": "examine ceiling (Pet Store)",
+     "result": "hidden ceiling panel; stick of ostrich nip, +3",
+     "why": "Letter said 'ceiling panel' with no name; I deduced the pet store would sell ostrich nip. Clean, fair deduction."
+    },
+    {
+     "n": 7,
+     "turn": 170,
+     "room": "Alley",
+     "kind": "tedious",
+     "severity": "low",
+     "command": "24 W (special) in Alley; 26 NW (special) on Broadway",
+     "result": "Well, there are openings in ALMOST every direction.",
+     "why": "The compass offers a 'special' exit that is only a joke refusal, and it keeps offering it after I've tried it. Cost me two turns and a hope of a new area."
+    },
+    {
+     "n": 8,
+     "turn": 192,
+     "room": "Robot Shop",
+     "kind": "other",
+     "severity": "low",
+     "command": "510 Floyd > Tell Floyd to…",
+     "result": "menu offered 'Take the medium drill bit' directly",
+     "why": "Convenient, but the menu handed me the solution (small robot hands into the heating chamber) before I'd reasoned it out. The puzzle is solved by reading a list."
+    },
+    {
+     "n": 9,
+     "turn": 261,
+     "room": "Commander's Quarters",
+     "kind": "confusing",
+     "severity": "medium",
+     "command": "drill safe",
+     "result": "As you begin drilling, the drill sparks and stops running. Then: the drill doesn't seem to be working anymore.",
+     "why": "My one key tool died with no warning or reason given. I can't tell if it's the safe, the station's machine failures, or something I did, so I don't know if restoring would help."
+    },
+    {
+     "n": 10,
+     "turn": 307,
+     "room": "Commander's Office",
+     "kind": "tedious",
+     "severity": "low",
+     "command": "832 turn on (log reader, after a restore)",
+     "result": "log restarts from entry 1; must push the red button once per entry",
+     "why": "After a restore I have to replay six entries I've already heard, one turn each, to reach new ones. No fast-forward. Tedious for someone who hates re-reading."
+    },
+    {
+     "n": 11,
+     "turn": 327,
+     "room": "Docking Bay #2",
+     "kind": "bug",
+     "severity": "low",
+     "command": "32 Out (special) from inside Spacetruck",
+     "result": "worked normally, went to Docking Bay #2",
+     "why": "The compass labels this ordinary exit 'special', the same label used for joke non-exits in the village (Alley W, Broadway NW). The label doesn't tell me which ones are real."
+    },
+    {
+     "n": 12,
+     "turn": 355,
+     "room": "Chapel",
+     "kind": "nice",
+     "severity": "low",
+     "command": "examine star / open pulpit / turn off switch (Chapel)",
+     "result": "star blinking, beyond reach; switch in pulpit puts out the eternal flame",
+     "why": "Clicked for me as an engineer: hydrogen balloon creature + open flame = bad, so kill the flame, then float up to the star. Short text, fair clues. Best moment of the leg."
+    },
+    {
+     "n": 13,
+     "turn": 375,
+     "room": "Pet Store",
+     "kind": "blocked",
+     "severity": "medium",
+     "command": "555 take (leash), after spraying spores, empty-handed, and after waiting",
+     "result": "it farts in your face, you release the leash (same text every time)",
+     "why": "I've found where the balloon is needed (the chapel star, flame now off) but can't move it. The spores' 'low gas-inducement' reads like the fix, and it changes nothing I can see. The identical response gives no hint about what's missing."
+    }
+   ]
+  },
+  "r4-click-06plato": {
+   "diary": "# Playtest diary: r4-click-06plato\n\n- **Mode:** click\n- **Start:** checkpoint 06-plato\n- **Persona:** a millennial who knows text adventures exist but has never finished one\n- **Seed:** 79825\n- **Conveniences:** on\n- **Undo:** on (--undo on, D18: early rounds only)\n- **Build commit:** 5f44a40\n- **Budget:** about 400 commands per leg, 1500 commands in all\n- **Round:** 4\n- **Friction log:** filed through the harness (--friction), in playtests/2026-09-25/r4-click-06plato.friction.jsonl\n\n## Narrative\n\n(About 100 words per 10 commands: what you tried, and what you believed.)\n\n**Cmds 1-26.** Woke in a Warehouse with Floyd and a bookish robot, Plato. Sign says the door down is the Trading Post vacuum storage. Went into the airlock, closed the inner door, opened the outer one... and my survival-kit food instantly crystallized and floated off. Hungry in ~21 moves. Undid it (thank god undo is on), carried the kit back up and dropped it, suited back up, went out. Dark \"vac yard\"; turned on headlamp (+3 points, 54). Found a pencil-sized FREZONE liquid gorzium explosive; label says get the instruction sheet from the vendor. Came back in, took the suit off to eat, the game told me I had to drop the suit to carry the kit (nice hint), and then that I'm not hungry for 11 more moves. Floyd stomped on my foot and burped at me - he seems off. Plan: Trading Post upstairs for the instruction sheet.\n\n**Cmds 27-48.** Trading Post had the instruction sheet floating there: insert explosive in a hole, attach detonator to explosive and timer, set timer, vamoose; do NOT keep it above 150 K for more than 100 millichrons. Oops, I'd carried it inside. It started \"getting softer\". I panicked and put it in the Thermos and closed it (thermos = keeps cold, right?). Went west: \"Junk Yard\" that turns out to be an artist's Studio; took a J-series hyperdiode from the sculpture. Ate the orange goo when hungry (apricot yogurt). Walking back east, an out-of-game notice: the explosive is gone for good, game unwinnable. Opening the Thermos: \"sublimes into a puff of FREZONE gas\". Undo is only one step. I never saved (the checkpoint didn't give me one), and pressing Save just saved the dead state. Only option: restart from the very beginning. Ugh. In hindsight the Thermos should have gone out into space and had the explosive put in it there, while still cold. (That's my reasoning, not memory - I don't actually remember this puzzle.)\n\n**Cmds 49-84 (restart from the beginning).** New game on the Duffy, Deck Twelve. The forms are shown as real scanned papers - lovely. Robot Pool: form in slot, keypad 3 -> Floyd jumps up and hugs me (the room list had already called him \"Floyd\" before the reveal, a mild spoiler). SAVED this time. Spacetruck: took the survival kit, form in slot got spat out until both seats were filled; Floyd said \"you first\", so I sat and he followed. Keyed course 193 from the astrogator table on the assignment form (time 5656). Then I died: I'd left the hatch open and the air went out in space. Fair! Undo, stood up, closed hatch, sat back; launched just in time. Four waits, docked at bay two (+5). Ate the gray goo (tree-mold custard). Tired in ~54 moves, so I need a bed soon.\n\n**Cmds 85-112.** Station is deserted (\"Stationfall\", nobody to meet us). Level Five lobby: Workshop north had a twenty-ohm bedistor (took it); Storage beyond is pitch dark, no lamp yet. Sick Bay has beds and a security door with an ID reader that ignores my card. Comm Center: the emergency beacon button gives an electric shock - something doesn't want us calling for help. Station Control: a hull welder \"quivering with excitement\" came at me; I fled and it wandered off. Commander's Office has a log reader bolted down, no tape. Briefing Room, South Connection (iris hatch + slot), Robot Shop with sleeping baby robot Oliver and a heating chamber with a drill bit; told Floyd to fetch it, he dropped it, it cooled, I took it (+3, score 8). Floyd's speech about Oliver was genuinely touching.\n\n**Cmds 113-168.** Commander's Quarters: safe with an 8000-setting dial (12-20 numbers!), and a log tape. Played it in the Commander's Office reader, pressing the red \"More\" button 8 times: fuel cells locked in the Dome storage bin, key in the safe; alien craft with a featureless pyramid, moved to the Sci Sub-Module holding tank; Shady Dan selling fake IDs; village off-limits; stamp hidden under the bed; machines \"malfunctioning\", welders attacking people. Great creepy storytelling. Met Plato (poetry-reading robot), who joins Floyd. Found the validation stamp under the Commander's bed; validated my Assignment Completion form (\"Done.\", no points) and heard an explosion - the log reader blew up, leaving a black scar. Monitor board: COMMUNICATION red, FOOD PRODUCTION red, PRINTING yellow. Level Four: barracks, Docking Bay #3 (lilac nanofilm spool). Level Three: Gym with an ominous exercise machine. Slept in the Female Barracks (+3, score 11); woke Day 2 with all my stuff dropped on the floor.\n\n**Cmds 169-203.** Auto-doors now open sluggishly and slam early - the station is getting worse. Level Three: Theatre (locked projection booth), Laundry (washer missing, presser, empty dryer), Chapel (blinking star out of reach, puce nanofilm spool, a switch in the pulpit that turns the eternal flame off and on). Level Two Mess Hall: the food dispenser sprays ACID instead of breakfast. Ate my last food (orange goo) - ~100 moves to find more. Main Storage: a DETONATOR (now I have drill bit + detonator; I know where an explosive is, from the first run). Library: nanofilm reader; spools are chapel maintenance (mentions a \"...iode in the Chapel's star\") and spacetruck fuel cell replacement with a \"quarnum wrench\", both dissolving into static and \"You will die, human!\" Welder #2 came at me again; fled. Dome on top: locked storage bin (the Commander's fuel cells; key in the safe). 203 commands used.\n\n**Cmds 204-257.** Level Six: Auxiliary Barracks, Docking Bay #1 with the ALIEN SHIP (skeleton, empty pedestal, dot pattern on the wall: `.. .. / .. .... . ... . ... ... . ... / .. ... . / .... . ... . / .. ... .` - maybe a code?), Docking Bay #4 (empty), Officers' Quarters A/B/C, End of Corridor (another ID-reader security door), Shipping Room (dark). PA: \"Deep-space communication received at Comm Center\" - haven't gone to read it. Down to the Printing Plant: trash can with a crumpled Illegal Space Village Entry Form; validated it with the stamp (the floor throbbed, dread). Paper Recycling: took a drill (small bit). Ladder to Level Eight sealed from below. The South Connection slot rejected the crumpled form, so I ironed it in the Laundry presser: neatly ironed form. Very satisfying.\n\n**Cmds 258-316.** Ironed form in the South Connection slot: the hatch half-opens, sparking (+6, score 17). No gravity in the village. Main Street, Bank (platinum detector, left it), Travel Agency (Welder #3!), Alley, Warehouse, Trading Post (sign: \"FREZONE explosive available\"), Grocery (bag of vacuum taffy = food, I hope), Broadway, Recruitment Office, Rec Shop, Field Office (HEADLAMP, now worn), Barbershop, Fortune Teller (crystal ball), Pet Store (Arcturian balloon creature + leash in a cage; Welder #2 again), Shady Dan's: an \"innocuous machine\" re-ranks your ID card; I made myself rank 10, Grand Fleet HyperAdmiral (for those ID-reader security doors, I assume). Junk Yard below: MAGNETIC BOOTS (now worn), Welder #4 chased me off. Loan Shark: strong box with a HUGE lock. Drilled it (small bit = toothpick hole), swapped in the medium bit: now a pencil-sized hole. That is exactly the explosive's size - the instruction sheet said \"insert in hole of appropriate diameter\". Still need: space suit (for the vac yard), the explosive (vac yard below the Warehouse), a timer.\n\n**Cmds 317-396.** Pawn Shop (spray can of \"SPORZ\" spores), Doc Schuster's (ostrich + letter about \"ostrich nip\" in a ceiling panel), Missionary, Alley \"west\" is a joke non-exit. Ate the taffy. Mayor's Office (up from Main Street): \"Deciphering Alien Speech\" with a paper of taste-words (\"bttr/salty/bttr = softness/weakness\", etc.). Greasy Straw, Saloon, Casino (dice, roulette). No space suit anywhere yet. Broadway west = Makeshift Connector = back door into the station's East Connection. Comm Center message: my mission is CANCELLED, go home, ha. Then the Sick Bay reader said my HyperAdmiral card was \"magnetically damaged\"; Shady Dan's machine said \"scrambled\", and footnote 15 said \"GOTCHA AGAIN!\" - the magnetic boots I wore with the card in my pocket wiped it. I restored to my Shady Dan's save (lost the strong-box drilling and the boots), re-ranked to 10, and went in WITHOUT boots: the Sick Bay security door opens (just an empty Brig). North Connection -> Tube -> Scientific Sub-Module: Engineering Lab, Engineering Office (Prof. Schmidt's diary: the alien dots have \"nonvisual properties\" - TASTE? - and \"the mayor\" can read them; pyramid over a billion years old), Astro Lab (twenty-prong fromitz board), Astro Office. Saved there. Stopped at 396/400.\n\n## Leg handoff\n\n**State:** score 17 (best this leg 54, but that was the unwinnable checkpoint game I had to abandon), Day 2 (Novem 5), time ~4426, in the **Astro Office** (Sci Sub-Module), saved there. Carrying: twenty-prong fromitz board, drill (small bit), medium drill bit, detonator, validation stamp, twenty-ohm bedistor, survival kit (Thermos, empty), headlamp (worn), uniform with ID card (**rank 10, working - keep it away from the magnetic boots**). Hungry in ~97, tired in ~141. Save slots: Astro Office (latest), Sick Bay, Loan Shark, Shady Dan's.\n\n**Warning, lost in this restore:** the pencil hole I drilled in the Loan Shark's strong box and the magnetic boots are undone. The boots are back in the Junk Yard under Shady Dan's (Welder #4 hangs around there).\n\n### Map so far\n- Duffy: Deck Twelve, Forms Storage, Cargo Bay Entrance, Robot Pool, Cargo Bay/Spacetruck. Course from the astrogator table on form QX-17-T by time of day; **close the hatch before launch**.\n- Station L5: Level Five hub; W Docking Bay #2 (truck); N Workshop -> Storage (dark); NE North Junction -> N North Connection (W Storage, E ?) -> N Tube -> Sci Sub-Module (Eng Lab/Office, Astro Lab/Office, up/down gangways unexplored); E Sick Bay -> E Brig (ID door); SE East Connection (E = grimy connector to Broadway), S Comm Center, SW Station Control; South Junction -> SE Commander's Office -> E Commander's Quarters (safe, 8000-dial), S Briefing Room, S South Connection (S to village Grimy Passage), W Robot Shop (Oliver, heating chamber). South Junction SW unexplored.\n- L4: barracks, SanFac, Docking Bay #3. L3: Gym, Theatre (locked booth), Laundry (presser), Chapel (star, pulpit switch). L2: Mess Hall (acid FDU), Main Storage, Meeting Rooms 1-2, Library (nanofilm reader). Top: Dome (locked warm storage bin, air shaft grating).\n- L6: Aux Barracks/SanFac, Docking Bay #1 (alien ship: pedestal, dots, skeleton), Docking Bay #4, Officers' Quarters A/B/C + SanFac, End of Corridor (ID-door north; E Shipping Room dark). L7: Printing Plant, Paper Recycling. L8 sealed from below.\n- Village (no gravity): Grimy Passage, Main Street (Up Mayor's Office), Bank, Travel Agency, Alley (Loan Shark, Pawn Shop, Doc's, Missionary, Junk Yard, Warehouse), Warehouse (airlock down to the vac yard; explosive out there), Trading Post, Grocery, Broadway (Recruitment, Rec Shop, Field Office, Barbershop, Fortune Teller, Pet Store, Makeshift Connector W), Shady Dan's, Studio (W of Trading Post), Saloon, Casino, Greasy Straw.\n\n### Puzzles solved\nRobot Pool (form + 3), spacetruck (both seats, course by time, close hatch), drill bit (Floyd fetches from heating chamber), log tape (stamp under the Commander's bed), village entry (crumpled form from Printing Plant trash -> validate -> iron in Laundry presser -> South Connection slot, +6), ID rank 10 at Shady Dan's, Sick Bay/Brig security door.\n\n### Open puzzles and theories\n- **Commander's safe** (key to the Dome bin with fuel cells): drill a pencil hole with the medium bit, insert the FREZONE explosive, attach the detonator to the explosive and a timer, set the timer, leave. The Loan Shark strong box takes the same treatment.\n- **The explosive** is in the vac yard below the Warehouse. It sublimes if it stays above 150 K for ~100 millichrons. My theory: take the open Thermos OUT into space, put the explosive in there, close it, and hurry. Don't carry it bare indoors. Needs a space suit (not found yet: try the Theatre booth, Shipping Room with the lamp, Storage, Sci Sub-Module up/down, South Junction SW) plus magnetic boots (Junk Yard). **Don't carry the ID card while wearing the boots.**\n- Timer: not found yet.\n- Alien dots: Schmidt says they have nonvisual properties and the Mayor's taste-dictionary translates them. Maybe lick/taste the dots?\n- Chapel star has a hyperdiode (per the nanofilm); a J-series hyperdiode is in the Studio sculpture.\n- The Comm Center beacon button gives an electric shock.\n- Welders (#2, #3, #4) hunt you; leaving the room always shakes them so far.\n\n### What I would try next\nExplore the Sci Sub-Module up/down gangways (the pyramid holding tank should be here), then North Connection east, South Junction SW, the Theatre booth and the dark rooms (the headlamp works), all looking for a space suit and a timer. Then boots + suit, vac yard with the Thermos, explosive into the Commander's safe.\n\n## Leg handoff\n\n### Map so far\n\n### Puzzles solved\n\n### Open puzzles and theories\n\n### What I would try next\n",
+   "diaryWithheld": 0,
+   "hasDiary": true,
+   "friction": [
+    {
+     "n": 1,
+     "turn": 7,
+     "room": "Airlock",
+     "kind": "confusing",
+     "severity": "medium",
+     "command": "41 open (outer airlock door)",
+     "result": "The food in the survival kit instantly crystallizes and drifts away.",
+     "why": "Lost all my food with zero warning while 21 moves from hungry; only undo saved me. A first-timer without undo would be stuck."
+    },
+    {
+     "n": 2,
+     "turn": 24,
+     "room": "Warehouse",
+     "kind": "tedious",
+     "severity": "low",
+     "command": "509 eat (orange goo, in kit on floor)",
+     "result": "You're not holding the survival kit.",
+     "why": "The menu offered Eat but it cost a turn and failed; Read on the explosive auto-took it, so this felt inconsistent while I was about to starve."
+    },
+    {
+     "n": 3,
+     "turn": 35,
+     "room": "Studio",
+     "kind": "confusing",
+     "severity": "low",
+     "command": "24 (west from Trading Post)",
+     "result": "'Junk Yard' description, then immediately '## Studio' with a second full description",
+     "why": "Two room names and two descriptions for one step; I wasn't sure if I had moved twice. Funny joke, but the double block reads like a glitch."
+    },
+    {
+     "n": 4,
+     "turn": 44,
+     "room": "Studio",
+     "kind": "parse",
+     "severity": "low",
+     "command": "9 953",
+     "result": "\"953\" is not an entry of Papers (while listing 953 Blueprint key)",
+     "why": "The instructions say '<number> <entry>' works, but it rejected an entry it had just listed; plain '953' worked."
+    },
+    {
+     "n": 5,
+     "turn": 45,
+     "room": "Trading Post",
+     "kind": "blocked",
+     "severity": "high",
+     "command": "23 (east, back to Trading Post)",
+     "result": "(The explosive is gone for good... the game can no longer be won. RESTORE or start again.)",
+     "why": "The explosive vanished from the closed Thermos with no in-story message; I only learned via the out-of-game notice. Glad the notice exists (saves hours), but I never saw it melt away - I had put it in the Thermos precisely to save it."
+    },
+    {
+     "n": 6,
+     "turn": 48,
+     "room": "Studio",
+     "kind": "blocked",
+     "severity": "high",
+     "command": "5 (Save), looking for a way to Restore",
+     "result": "Restore button only appears after a save; I had none, so my only save is of the unwinnable state",
+     "why": "The dead-end notice says RESTORE a saved position, but nothing ever prompted me to save and undo is one step deep. Only choice left is restart from the very beginning, losing 51 points of progress."
+    },
+    {
+     "n": 7,
+     "turn": 53,
+     "room": "Robot Pool",
+     "kind": "other",
+     "severity": "low",
+     "command": "21 (fore into Robot Pool)",
+     "result": "Text: robot in third bin crouched, can't see him well. Room list: '516 Floyd...'",
+     "why": "The clickable list names the hidden robot before the story reveals him, spoiling a reveal the prose is clearly setting up."
+    },
+    {
+     "n": 8,
+     "turn": 81,
+     "room": "Spacetruck",
+     "kind": "nice",
+     "severity": "low",
+     "command": "626 193 then 3 (wait) with hatch open",
+     "result": "The truck roars out... air gushes out through the open hatch. You have died",
+     "why": "Totally fair, funny death, and the death screen offering Undo made it painless. Learned to close hatches."
+    },
+    {
+     "n": 9,
+     "turn": 111,
+     "room": "Robot Shop",
+     "kind": "nice",
+     "severity": "low",
+     "command": "516 Tell Floyd to... -> 667 Take the medium drill bit",
+     "result": "Floyd grabs the hot bit, drops it, it cools",
+     "why": "The contextual 'Tell Floyd to' list surfaced exactly the idea I needed after the hand-too-big message. Satisfying, though it half-solves the puzzle for you."
+    },
+    {
+     "n": 10,
+     "turn": 132,
+     "room": "Commander's Office",
+     "kind": "nice",
+     "severity": "low",
+     "command": "40 push (log reader red button, x8)",
+     "result": "Commander's log: fuel cells locked in Dome bin with key in safe, stamp under bed, alien pyramid, machines malfunctioning",
+     "why": "Best moment so far: creepy story delivered in chunks, and it hands me concrete leads (stamp under the bed, key in safe)."
+    },
+    {
+     "n": 11,
+     "turn": 165,
+     "room": "Female Barracks",
+     "kind": "tedious",
+     "severity": "low",
+     "command": "8 Take all (while still in bed after waking)",
+     "result": "'You can't reach X from the bed' for every item, including Floyd and Plato",
+     "why": "The Take all button is offered while it can't work from the bed, and it tries to pick up the robots. Also waking up with all my stuff dumped on the floor was a surprise. Cost a turn with 17 moves to hunger."
+    },
+    {
+     "n": 12,
+     "turn": 257,
+     "room": "Laundry",
+     "kind": "nice",
+     "severity": "low",
+     "command": "778 Put it in presser, close, turn on, open",
+     "result": "neatly ironed Illegal Space Village Entry Form",
+     "why": "Crumpled form won't fit the slot -> iron it in the laundry presser. Clever, fair, and the laundry I'd seen earlier paid off. Felt smart."
+    },
+    {
+     "n": 13,
+     "turn": 348,
+     "room": "Comm Center",
+     "kind": "tedious",
+     "severity": "low",
+     "command": "41 examine (Comm Center screen)",
+     "result": "At the moment, the screen is displaying a message.",
+     "why": "Examine told me there's a message but not what it says; I had to open the menu again and pick Read. Small, but it cost a turn and nearly made me leave."
+    },
+    {
+     "n": 14,
+     "turn": 352,
+     "room": "Sick Bay",
+     "kind": "confusing",
+     "severity": "medium",
+     "command": "649 put ID card in Sick Bay reader (after re-ranking it to 10 at Shady Dan's)",
+     "result": "Magnetically-stored data has been damaged; see the Security Officer",
+     "why": "My freshly-hacked Admiral card is wiped and nothing told me when or why. My guess is the magnetic boots I put on while the card was in my uniform pocket, but that's only a guess. It feels like a silent trap."
+    }
+   ]
+  }
+ },
+ "triage": {
+  "date": "2026-09-25",
+  "name": "ROUND-4-TRIAGE.md",
+  "text": "# Playtest round 4: triage\n\nGenerated by `node scripts/playtest-registry.mjs report 4` from playtests/REGISTRY.jsonl and the round's friction JSONL. Do not edit by hand; re-run it.\n\n96 friction rows this round (32 of them praise, counted and not triaged); 64 linked to 43 issues (26 new, 17 repeats); 0 not yet linked.\n\nBy tier: 8 A, 4 B, 31 C.\n\nSuggested A/B/C is the registry's guess from the kind (A: build it, B: a deviation for the sponsor, C: leave it as the original). **Norm confirms each one** (`confirm <id> A|B|C`) after checking it against the ZIL and the oracle.\n\n## New issues\n\n| Issue | Title | Area / room | Kind | Rows this round | Rows in all | Rounds | Suggested | Norm confirms | Status | Evidence |\n|---|---|---|---|---|---|---|---|---|---|---|\n| SF-084 | No warning reaches the player while the explosive melts inside the closed Thermos, and nothing says how long the Thermos keeps it | Village / East Connection | confusing | 0 | 0 | 4 | B | B | open | The original. I-EXPLOSIVE-MELT adds C-ELAPSED/4 per turn in the closed Thermos and C-ELAPSED otherwise (interrupts.zil 358-365), so the melt runs on the clock, not on turns: a walk is 22 millichrons lit, 33 dark (V-WALK, verbs.zil 2345-2348), so 5 per walk sealed; EXAMINE is 32 (verbs.zil 803), so 8; the default move is 7 (misc.zil 381), so 1. Past 210 it is gone (366-373), about 38 lit walks after sealing; the warnings print only while it is visible and lit (374-383). Proposal (Q7), behind the D12 switch: when the counter passes 130 and 170 with the explosive in the closed Thermos, one bracketed line says the explosive is softening even sealed. |\n| SF-085 | The can't-be-won notice (SF-077) interrupts Plato's speech, and says RESTORE when there is no saved position | Page / East Connection | blocked | 1 | 1 | 4 | A | A | open | Our own deviation (Q6 default, 58746c3): hooks.turnEnd (rules/library.js) prints the line at the end of the turn the explosive goes, which in r4-typed-05day2 (command 352) was the turn Plato's ambush began, so it landed under the stun text; and it says RESTORE whatever the save slot holds (r4-click-06plato had none, and its one UNDO cannot help: the undone turn is still past 205 and the next walk melts it). Fix: hold the line while STUNNED or while I-PLATO-ATTACK is queued, and print it at the first turn end after; word it from what exists: 'RESTORE your saved position' when a save exists, else 'start again (Restart, or this checkpoint again)'. No auto-save at a checkpoint start: it would only restore the same start. |\n| SF-086 | Floyd is named in the Robot Pool list before the text reveals him | Click menus / Robot Pool | other | 1 | 1 | 4 | C | A | open | Interface. The text calls him the robot in the third bin until his TOUCHBIT is set (DESCRIBE-FLOYD, ship.zil 664-668); the object's DESC is \"Floyd\" (ship.zil 279-281). Oracle (seed 1: EAST, NORTH, LOOK): the reveal comes on the next turn. Fix: the room list labels FLOYD \"robot in the third bin\" until FLOYD has TOUCHBIT. No game text changes. |\n| SF-087 | Tell Floyd to… offers \"Take the medium drill bit\" only for what is in the heating chamber, which gives the puzzle away | Click menus / Robot Shop | other | 1 | 1 | 4 | C | A | open | Interface, D15 (no entry marks a puzzle). rules/robots.js:854 (shared) adds \"Take the X\" for HEATING-CHAMBER's contents alone. FLOYD-F answers TAKE of anything (the chamber's bit, or a whine; SF-010). Fix: one \"Take…\" submenu under Tell Floyd to…, listing every takeable thing drawn here, the chamber's contents among them. |\n| SF-088 | The compass calls joke non-exits and a real Out alike \"special\", and keeps offering a joke exit already tried | Click menus / Alley | tedious | 2 | 2 | 4 | B | A | open | Interface. engine/zmenus.js:181-182 titles every string exit (world.json kind 'blocked') 'special' (SF-047), and ui/ui.js:306 falls back to 'special' for any exit it cannot name, so the Spacetruck's Out to Docking Bay #2 reads the same as Alley W (\"there are openings in ALMOST every direction\"). Fix: name the target room when the exit leads somewhere; once a string exit has answered, title it 'tried' and dim it. The refusals are the original's. |\n| SF-089 | Diagnose's \"tired in ~N moves\" reads as a deadline, and there is no Sleep until tired and in a bed | Survival / Pet Store | blocked | 2 | 2 | 4 | A | A | open | Our own D12 text (engine/zmenus.js:540). V-SLEEP refuses until SLEEPY-LEVEL is set and then wants a bed (verbs.zil 1758-1765); left awake, you drop off where you stand and wake on day 2 (I-SLEEP-WARNINGS, globals.zil 906-938), which is no death. The Sleep button appears once tired (SF-007, SF-037), as r4-click-03village#2 found. Fix: the note reads \"sleepy in ~N moves\", so it is not read as a collapse countdown. |\n| SF-090 | The log reader explodes as you walk back into the Commander's Office, with no warning outside the room | Station / Commander's Office | confusing | 2 | 2 | 4 | B | B | open | The original. I-LOG-READER whines at its 12th and 13th turns only while HERE is the office, and at the 14th explodes: death in the office, \"You hear an explosion from nearby\" in four rooms next door (interrupts.zil 435-456). Both testers left and walked back in on the 14th; the replay of r4-typed-05day2 on our engine matches the transcript (command 194; only the death screen's clock differs, 4502 against the live 4504, a harness save/load matter). The log text warns (station.zil 834, 854). Proposal (Q7), behind the D12 switch: the two whine turns are also heard in those four rooms, as \"You hear a whine from nearby.\" Related: SF-033. |\n| SF-091 | The jammer set to 710 and turned on in the Gym gives no visible result | Station / Gym | confusing | 2 | 2 | 4 | B | C | left | The original. The jammer freezes the exercise machine only with the twenty-prong board in it, and matters when the machine runs for the forklift (I-EXERCISE-MACHINE, station.zil 3775-3790); in the machine, EXERCISE says \"The machine seems to be frozen.\" (V-EXERCISE, verbs.zil 851-857), as r4-typed-02station saw. Turning it on prints nothing more. Kept. |\n| SF-092 | The platinum detector's \"getting warm\" reads as a danger warning, and Examine does not show whether it is beeping | Village / Casino | confusing | 1 | 1 | 4 | B | C | left | The original. I-PLATINUM-DETECTOR beeps when the foil is with it (interrupts.zil 64-71, SF-080), and separately gets \"warm\" at its 50th and \"very warm\" at its 75th turn carried, and at the 100th is dropped, \"too hot to handle\" (72-82): an overheating clock, not hot-and-cold. Kept. |\n| SF-093 | EXAMINE EXERCISE MACHINE says \"There's no one in the exercise machine.\" | Station / Gym | confusing | 1 | 1 | 4 | B | C | left | The original: EXERCISE-MACHINE-F answers EXAMINE from outside with exactly that (station.zil 1270-1272). Kept. |\n| SF-094 | The status line names a dark room (Storage) that the text calls pitch black | Page / Storage | confusing | 1 | 1 | 4 | B | C | left | The original. Oracle (seed 1, the 01-duffy route then the tester's first 16 commands): NORTH from the Workshop gives \"It is pitch black...\" and the V3 status line reads \"Storage\". Kept. |\n| SF-095 | The log reader plays one entry per push, and starts again from the first when turned on again | Station / Commander's Office | tedious | 2 | 2 | 4 | B | C | left | The original: ON sets LOG-COUNTER to 0 (LOG-READER-F, station.zil 756-762) and each PUSH of the red button plays the next entry (777-793). Kept. |\n| SF-096 | Eat on the goo in a survival kit on the floor: \"You're not holding the survival kit.\" | Survival / Warehouse | tedious | 1 | 1 | 4 | B | C | left | The original: GOO-F refuses EAT unless the kit is carried (ship.zil 1395-1399), and the goo cannot be taken (1400-1404). Eat is on the menu because GOO-F answers it. Kept. |\n| SF-097 | Harness: \"<menu> <number>\" is refused for an entry the menu lists by number (9 953) | Harness / Studio | parse | 1 | 1 | 4 | A | A | open | Harness only: the child match in resolveClick (scripts/playtest.mjs) takes an entry's label after the menu number, not the number the entry shows. Fix: accept a number listed inside the named menu. |\n| SF-098 | Examine on the Comm Center screen says it shows a message but not what it says | Station / Comm Center | tedious | 1 | 1 | 4 | B | C | left | The original: SCREEN-F answers EXAMINE with \"At the moment, the screen is displaying a message.\" and READ with the message (station.zil 634-653). Read is on the menu (SF-005). Kept. |\n| SF-099 | SLEEP away from a bed: \"Members of civilized societies usually sleep in beds.\" | Survival / Female Barracks | parse | 1 | 1 | 4 | A | C | left | The original (V-SLEEP, verbs.zil 1758-1765). Kept. |\n| SF-100 | Waking up with everything you carried dropped beside the bed, with nothing said | Survival / Female Barracks | confusing | 1 | 1 | 4 | B | C | left | The original: the night's routine ROBs the player into the room (globals.zil 1099). TAKE ALL gets it back; from the bed it is refused (SF-040). Kept. |\n| SF-101 | READ SPOOL takes the spool back out of the nanofilm reader | Parser / Library | confusing | 1 | 1 | 4 | B | C | left | The original: READ is (TAKE) (syntax.zil 437), so a spool in the reader is taken first and its label read; TURN ON READER plays it (NANOFILM-READER-F, station.zil 1961-2010). Kept. |\n| SF-102 | SEARCH FORMS in the File Room picks the carried form, not the room's files | Parser / File Room | parse | 1 | 1 | 4 | A | C | left | The original. Oracle (seed 1: route to step 22, EAST, SOUTHEAST, SOUTHWEST, SEARCH FORMS): \"You can't search an Assignment Completion Form QX-17-T!\"; our engine the same. The FORMS pseudo (FILES-F, station.zil 682-684) loses to a carried form. Kept. |\n| SF-103 | The chapel star is out of reach, with no nudge toward what would work | Station / Chapel | blocked | 2 | 2 | 4 | A | C | left | The original: STAR-F wants HANGING-IN-AIR, from the balloon's leash where there is gravity (station.zil 1496-1511); the pulpit sways (PULPIT-F, 1586-1591) and Floyd is too short (ship.zil 356). The leash half is SF-063. Kept. |\n| SF-104 | Harness (typed): \"(Footnote 5)\" is a button on the page, but the typed harness does not say so | Harness / Commander's Quarters | confusing | 1 | 1 | 4 | B | A | open | Harness only. The page makes each \"Footnote n\" in the text a button that sends FOOTNOTE n, in typed mode too (ui/ui.js:213-221); FOOTNOTE n is the original's verb (reference/CANON-NOTES.md:18). The typed harness prints the bare text. Fix: after a line with a footnote mark, the typed harness adds \"[The page shows Footnote 5 as a button: it reads the footnote.]\". |\n| SF-105 | Docking Bay #1 is entered going northwest, but the way back is east | Station / Docking Bay #1 | confusing | 1 | 1 | 4 | B | C | left | The original: LEVEL-SIX NW TO DOCKING-BAY-1 (station.zil 2230), DOCKING-BAY-1 EAST TO LEVEL-SIX (2284), as SF-030 and SF-031. Kept. |\n| SF-106 | Evil Floyd in the Factory: nothing hints that he must be shot, and pleading words are unknown | Robots / Factory | confusing | 2 | 2 | 4 | B | C | left | The original. The tester won the way the original is won (porting/route-seed1.cmds); \"remember\" is not in the 1987 dictionary. Kept. |\n| SF-107 | Harness: an empty command at the win screen prints nothing; the page's Continue releases the held text | Harness / Factory | bug | 1 | 1 | 4 | A | A | open | Harness only. The win's CONTINUE holds TELL-SCORE until the next line (SF-083); the page's overlay has Continue, but scripts/playtest.mjs does nothing for an empty command (if (text)). Fix: an empty command sends what the page's Continue sends, when text is held. |\n| SF-108 | EXAMINE takes 32 millichrons, four times a normal move | Parser / Factory | confusing | 1 | 1 | 4 | B | C | left | The original: V-EXAMINE sets C-ELAPSED 32 (verbs.zil 803). Kept. |\n| SF-109 | The inventory panel still lists the foil after the win | Page / Factory | bug | 1 | 1 | 4 | A | C | left | The original: PYRAMID-F's win never moves the FOIL (station.zil 3915-3951), so it is still carried and the panel shows it. Kept. |\n\n## Repeats (already in the registry: counted, not re-triaged)\n\n| Issue | Title | Area / room | Kind | Rows this round | Rows in all | Rounds | Suggested | Norm confirms | Status | Evidence |\n|---|---|---|---|---|---|---|---|---|---|---|\n| SF-014 | Ask menu has no topics beyond the robots' own (no \"ask about the pyramid\") | Click menus / Engineering Lab | blocked | 1 | 2 | 1, 4 | A | C | left | Oracle: ASK FLOYD ABOUT PYRAMID gives \"Floyd shrugs. Beats me.\"; only things with FLOYD-ASK-ABOUT or PLATO-ASK-ABOUT have answers (16 in world.json). The Ask menu lists exactly those the player has met. Round 4: 1 more (r4-click-01duffy#3, wanting to ask Plato about the crew). Typed ASK FLOYD ABOUT CREW works in the original (oracle, seed 1: \"Floyd shrugs. \\\"Beats me.\\\"\"), so the words are there for a typed player; the click list stays the things drawn, so no topic marks an answer. Still C. |\n| SF-018 | A \"Junk Yard\" heading printed on entering the Studio | Village / Studio | confusing | 3 | 7 | 1, 3, 4 | B | C | left | STUDIO-F prints \"Junk Yard\" then the joke on the first visit (village.zil 629-637). The original's. Round 3: 2 more; still the original (STUDIO-F, village.zil 629-637). Round 4: 3 more (three click testers took the double heading for a glitch). Still the original (STUDIO-F, village.zil 629-637). |\n| SF-019 | Taking the magnetic boots scrambles the carried ID card with no warning | Village / Junk Yard | confusing | 2 | 7 | 1, 2, 3, 4 | B | C | left | Oracle, same on our engine: TAKE BOOTS with the card carried, then the ID reader says \"Magnetically-stored data has been damaged\"; no warning (V-TAKE; footnote 15: GOTCHA AGAIN). Now recoverable from an older save (SF-013). Round 2: 1 more (r2-click-03village#4). Still C: the scramble is Infocom's joke (V-TAKE, verbs.zil 1917-1927; BOOTS-F TAKE-OFF, village.zil 1936-1943; footnote 15, verbs.zil 1023-1026). The three kept saves (SF-013) make it recoverable. Round 3: 1 more (r3-typed-03village#13), now 5 sightings over 3 rounds. The round-1 note stands: the scramble happens the moment the boots are taken with the card carried (V-TAKE, verbs.zil 1917-1927), and footnote 15 (\"GOTCHA AGAIN\", verbs.zil 1023-1026) is the joke. Kept C; the three kept saves make it recoverable. Round 4: 2 more (r4-click-03village#5, r4-click-06plato#14); both blamed wearing the boots, but it is the take (V-TAKE, verbs.zil 1917-1927). Still C. |\n| SF-022 | Opening the airlock's outer door destroys the survival kit's food with no warning | Village / Airlock | blocked | 1 | 6 | 1, 2, 3, 4 | A | C | left | Oracle: OPEN OUTER DOOR with the kit open gives \"The food in the survival kit instantly crystallizes and drifts away.\" on both. Round 2: 1 more (r2-click-06plato#3), and r2-click-01duffy lost its soup the same way without filing it. Still C. Round 3: 3 more (two lost the goo, one then starved from checkpoint 06). ZIL as before: the kit food is lost when the kit is open (village.zil 1238-1243). Still C. Round 4: 1 more (r4-click-06plato#1, saved by UNDO). Still C (village.zil 1238-1243). |\n| SF-024 | \"units\" is not a word (the room says Food Processing and Dispensing Units) | Parser / Main Storage | parse | 2 | 5 | 1, 2, 4 | A | C | left | Oracle: [I don't know the word \"units.\"]. Round 4: 2 more (LOOK AT UNITS, EXAMINE UNITS). Still not a 1987 word; EXAMINE DISPENSING UNIT works. |\n| SF-025 | \"wave\" is not a word (the crystal ball says to wave your hands) | Parser / Fortune Teller | parse | 1 | 3 | 1, 3, 4 | A | C | left | Oracle: [I don't know the word \"wave.\"]. Round 3: 1 more. Oracle again: [I don't know the word \"wave.\"]. Round 4: 1 more. Still not a 1987 word. |\n| SF-030 | Auxiliary SanFac: text names no exits and puts the barracks north, though entered going east | Station / Auxiliary SanFac | confusing | 1 | 3 | 1, 2, 4 | B | C | left | AUXILIARY-SANFAC's LDESC and its only exits, NORTH and OUT (station.zil 2266-2274); the barracks curve round. Round 4: 1 more (r4-typed-02station#10). Still the original. |\n| SF-040 | Take all is offered in bed, and tries Floyd and Plato | Click menus / Sick Bay | confusing | 3 | 6 | 2, 3, 4 | B | C | left | Oracle, seed 1, route step 120 (in bed, Officers' Quarters B): TAKE ALL gives \"Floyd: You can't reach Floyd from the bed.\", then Plato and every thing; the same on our engine. The quick row keeps it in bed on SF-008's rule: the game's own refusal tells the player to get up. Round 3: 2 more, both waking in bed and pressing Take all while hungry. Still C: the refusal is the game's own (UNTOUCHABLE?, verbs.zil 3091-3100). Round 4: 3 more, all waking in bed. Still C: the game's own refusal (UNTOUCHABLE?, verbs.zil 3091-3100) says to get up. |\n| SF-051 | DRINK THERMOS gives a joke refusal | Parser / East Junction | parse | 1 | 2 | 2, 4 | A | C | left | Oracle: \"It's doubtful that the Thermos bottle would agree with you.\" (V-EAT, verbs.zil 703); the same on our engine. Round 4: 1 more (DRINK THERMOS). Still the original. |\n| SF-054 | Words the text uses that the dictionary lacks: \"quarters\", \"trading\", \"materials\", \"exits\" | Parser / Officers' Quarters A | not-understood | 3 | 9 | 2, 3, 4 | C | C | left | Oracle, route step 28: SEARCH QUARTERS, SEARCH TRADING POST, EXAMINE MATERIALS and EXITS each give [I don't know the word \"...\"]; the same on our engine. Not in the 1987 dictionary (as SF-023 station and SF-024 units). Round 3: 4 more: EXITS, SHELVES (twice) and SPORES. Oracle, seed 1: EXAMINE SHELVES, SPRAY SPORES AT CREATURE, EXITS and EXAMINE REACTOR each give [I don't know the word \"...\"]. SPRAY CAN AT CREATURE gets the nozzle line (SPRAY-CAN-F, village.zil 1471-1475): a bare SPRAY CAN is the verb. Round 4: 3 more: SHELVES, SPORES, TABLES. Not in the 1987 dictionary; SPRAY CAN AT CREATURE works. |\n| SF-055 | A fumble goes unnoticed; PUT SPOOLS IN KIT asks which spool | Parser / Robot Shop | tedious | 3 | 5 | 2, 3, 4 | B | C | left | The fumble line and D12's note are printed (the tester quotes the hint). The 1987 parser has no plurals, only ALL (oracle: TAKE SPOOLS gives \"You can't see any spools here!\"). Round 3: DROP SPOOLS asks which spool (r3-typed-01duffy#5), as the 1987 parser does with a plural it cannot match to all. Round 4: 4 more: PUT SPOOLS IN KIT and PUT SPOOLS IN BAG ask which spool (twice), and a fumble whose line and D12 note printed but went unnoticed (r4-typed-04day1end#3). The 1987 parser has no plurals. Still C. |\n| SF-062 | A drill that has made one hole dies on the next thing drilled | Village / Loan Shark | confusing | 1 | 2 | 3, 4 | B | C | left | The original. MAKE-HOLE-WITH-DRILL sets DRILL-DEAD when a hole already exists somewhere else: \"As you begin drilling, the drill sparks and stops running.\" (station.zil 996-1004), and afterwards \"The drill doesn't seem to be working anymore.\" (station.zil 2829). Infocom's one-hole rule. Kept. Round 4: 1 more (r4-click-03village#9, the drill died on the safe after the strong box). Still the original's one-hole rule (station.zil 996-1004). |\n| SF-063 | Grabbing the leash in the weightless Pet Store: the balloon creature farts and you drop everything, every time | Village / Pet Store | tedious | 2 | 4 | 3, 4 | B | C | left | The original. LEASH-F in a WEIGHTLESSBIT room: the fart line and ROB of everything in hand (village.zil 474-483). The line itself says why (\"its buoyancy system is useless in zero-gee\"); the spores lure it to a room with gravity (SPRAY-CAN-F, village.zil 1478-1500; the route sprays it along, porting/route-seed1.json steps 183-203). Kept. Round 4: 2 more (spraying the spores changes nothing in zero-gee). Still the original (LEASH-F, village.zil 474-483). |\n| SF-068 | The Factory text names a reactor that cannot be clicked or examined | Station / Factory | confusing | 1 | 2 | 3, 4 | B | C | left | The original. There is no REACTOR object in the ZIL: the reactor is only in I-FACTORY's lines (station.zil 3896-3905) and I-LAUNCH (3678-3691). Oracle: EXAMINE REACTOR gives [I don't know the word \"reactor.\"]. Nothing to draw. Round 4: 1 more (EXAMINE REACTOR under the countdown). Still no REACTOR object. |\n| SF-072 | The load hint names the thing the player wants (the fromitz board), and a take can still fumble after following it | Survival / Trading Post | tedious | 3 | 7 | 3, 4 | B | B | fixed | fixed in 58746c3 Round 4: 3 more. Not back: all three quote the new hint and call it helpful; the complaint is the load limit itself (ITAKE, verbs.zil 2546-2549), the original's. |\n| SF-073 | WEAR does not take the thing first | Parser / Flophouse | tedious | 1 | 2 | 3, 4 | B | C | left | The original. WEAR is (HAVE) without TAKE (syntax.zil 648), so WEAR SPACE SUIT on the floor says \"You're not holding the space suit.\" The same as SF-032 (PUT without taking). Kept. Round 4: 1 more (WEAR BOOTS). Still C (syntax.zil 648). |\n| SF-077 | The explosive melts away while the player is stunned, or silently inside the closed Thermos; with only one explosive, the game can no longer be won | Village / In Space | blocked | 3 | 5 | 3, 4 | A | B | fixed | fixed in 58746c3 Round 4: 3 more, and the verdict on the vanishing during Plato's ambush: the original, not a port bug. Replaying r4-typed-05day2 on our engine (seed 81378, checkpoint 05-day2, 1 mismatch in 371, a death-screen clock) logs MELT-COUNTER: sealed at command 273 (counter 0), 5 per walk and 1 per short turn, 206 at command 351, and 211 on command 352, the walk INTO East Connection, before the ambush printed; the stun's ROB (station.zil 3496) moves the kit to the floor, leaves the Thermos closed, and I-EXPLOSIVE-MELT tests only IN? THERMOS and OPENBIT (interrupts.zil 361-363), so the drop changes nothing. The alternative timeline read 204-205 at 6754-6761, 6 short, and would have gone two walks later. r4-click-06plato's went on the walk east into the Trading Post (command 45), after carrying it open 157 of 210. Oracle, seed 1, the route to step 292 then WEST/EAST pairs from the Commander's Quarters: 24 walks then OPEN THERMOS reveals it (ours: counter 206), 28 walks give the FREZONE puff (ours: gone on walk 25), with the same clock at every step. Plato can end un-stuck: the ambush is survivable (FLOYD, HELP), and the explosive lasts about 38 lit walks sealed. The notice itself: SF-085 (A). The missing warning: SF-084 (B, Q7). |\n\n## For the sponsor: the B items, in one batch\n\n- **SF-084** No warning reaches the player while the explosive melts inside the closed Thermos, and nothing says how long the Thermos keeps it (Village / East Connection; 0 sighting(s))\n- **SF-090** The log reader explodes as you walk back into the Commander's Office, with no warning outside the room (Station / Commander's Office; 2 sighting(s))\n\n## Rows not yet linked to an issue\n\nNone.\n",
+  "withheld": 0
+ }
+}
