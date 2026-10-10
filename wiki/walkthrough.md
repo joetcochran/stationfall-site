@@ -47,7 +47,15 @@ From Deck Twelve go east, then north into the Robot Pool. Put the robot-use form
 
 East, open the hatch, enter the spacetruck. Take the survival kit. Close the hatch. Sit in the pilot seat (Floyd takes the other). Put the Class Three form in the slot, then type the course.
 
-The accepted heading is computed when you type it, from the status time: divide by 50, subtract 132, square, divide by 4, add 103, all in integer arithmetic (SPACETRUCK-TYPE, verbs.zil 2125-2157). Both seats must be occupied and the form accepted, or the keypad refuses. Form QX-17-T is the same chart. On a prompt start the number is **259**. A wrong course leaves you dead in empty space when the fuel runs out (I-SPACETRUCK, ship.zil 1192-1218). Wait out the launch. Docking scores 5 (ship.zil 1198-1205).
+> **The course depends on the time you type it. 259 is right only at time 5355.**
+> There is no refuelling. If you die in space after the fuel "runs out", the course was wrong for the moment you typed it: the truck flies the wrong heading, the burn ends with "Fuel level now effectively at zero", and the oxygen runs out a while later (I-SPACETRUCK, ship.zil 1213-1218; I-SUFFOCATE).
+> Read the time on the status line just before you type, then either:
+> - **compute it:** time ÷ 50 (drop the remainder), − 132, square it, ÷ 4 (drop the remainder), + 103. At 5355: 107 − 132 = −25 → 625 → 156 → **259**. At 5405: 108 − 132 = −24 → 576 → 144 → **247**.
+> - **or look it up** on Form QX-17-T ("Papers & blueprints…"), the original's time-and-course chart.
+>
+> Any extra command before typing (a LOOK, an INVENTORY, a wrong turn) moves the clock and changes the answer.
+
+Both seats must be occupied and the form accepted, or the keypad refuses (SPACETRUCK-TYPE, verbs.zil 2125-2157). Wait out the launch. Docking scores 5 (ship.zil 1198-1205).
 
 Stand, open the hatch, go out. Open the kit and the Thermos, `EAT SOUP`. Keep the empty Thermos: only the explosive and the drill bits fit its neck, and the closed bottle slows the explosive's melt to a quarter speed (I-EXPLOSIVE-MELT, interrupts.zil 358-365; THERMOS-F, ship.zil 1288-1313).
 
@@ -57,9 +65,9 @@ East and southeast twice, then east into the Commander's Quarters. `LOOK UNDER B
 
 West, northwest twice, down twice to Level Seven. Open the trash can and take the crumpled village form. Northwest to Paper Recycling and take the drill (it already holds the small bit).
 
-Back to Level Three, northwest into the Laundry. Open the presser, put the crumpled form in, close it, turn the presser on, open it, take the ironed form (PRESSER-F, station.zil 1369-1411). The crumpled form will not enter a slot (FORM-SLOT-F, globals.zil 706-708). East and `VALIDATE IRONED FORM` (V-VALIDATE / VILLAGE-FORM-F, verbs.zil 2282-2293; station.zil 2750-2763).
+Back to Level Three: southeast into the Printing Plant and up the ladder four times (Levels Six, Five, Four, Three), then northwest into the Laundry. Open the presser, put the crumpled form in, close it, turn the presser on, open it, take the ironed form (PRESSER-F, station.zil 1369-1411). (It has to be pressed: the slot you will feed it to later refuses a crumpled form, FORM-SLOT-F, globals.zil 706-708.) Now stamp it yourself: with the validation stamp in hand, `VALIDATE IRONED FORM` ("Done."; V-VALIDATE / VILLAGE-FORM-F, verbs.zil 2282-2293; station.zil 2750-2763). There is no slot here and none is needed; this works in any room, and the route happens to step east first.
 
-Up to Level Two, north into Main Storage, take the detonator. Down to the South Connection. `PUT IRONED FORM IN SLOT`. A validated form opens the iris hatch about halfway and scores 6, to 11 (FORM-SLOT-F, globals.zil 735-751). An unstamped form is rejected. Drop the stamp and the assignment form; you will not need them again.
+Up the ladder to the Mess Hall on Level Two, north into Main Storage, take the detonator. Main Storage has no way down: go southwest back into the Mess Hall, then down the ladder three times (Level Three, Level Four, Level Five), southeast to the South Junction and south into the South Connection, where the slot is: `PUT IRONED FORM IN SLOT`. A validated form opens the iris hatch about halfway and scores 6, to 11 (FORM-SLOT-F, globals.zil 735-751). An unstamped form is rejected. Drop the stamp and the assignment form; you will not need them again.
 
 The space suit, when you have it, is too bulky for this hatch (VILLAGE-BOUNDARY-F, village.zil 10-15). Leave it in the Warehouse.
 
@@ -71,7 +79,16 @@ Down, west, northwest: take the bag of taffy. North, east: take the headlamp. We
 
 Southeast twice to Shady Dan's. Put the ID card in the slot, turn the machine on, `TYPE 8` (Admiral). Rank 7 or higher is enough: the Armory reader opens only when `ID-RANK` is greater than 6 (ID-CHANGER-TYPE, village.zil 1862-1881; ID-READER-F, station.zil 3061-3078). Take the card and put it in the uniform.
 
-Down to the Junk Yard for the magnetic boots. **Drop the ID card first.** Taking the boots while you carry the card, taking the card while you carry unworn boots, or taking the boots off while you hold the card, all set `ID-SCRAMBLED` (V-TAKE, verbs.zil 1917-1927; BOOTS-F, village.zil 1932-1944). A scrambled card cannot be rewritten and will not open the Armory. Wear the headlamp, take and wear the boots, then recover the card into the uniform.
+Down to the Junk Yard for the magnetic boots. The boots are magnetic, and the card is magnetic tape: if the card and the boots are ever on you together while the boots are not on your feet, the card is wiped (`ID-SCRAMBLED`), and a wiped card cannot be rewritten and will not open the Armory. Taking the boots while you carry the card, taking the card while you carry unworn boots, or taking the boots off while you hold the card all wipe it (V-TAKE, verbs.zil 1917-1927; BOOTS-F, village.zil 1932-1944). Step by step, from Shady Dan's with the rank-8 card in your uniform pocket:
+
+1. `DOWN` to the Junk Yard.
+2. `WEAR HEADLAMP`. The Junk Yard is lit; this is only to have it on, hands free, for the day-four blackout.
+3. `DROP ID CARD`. It comes out of the uniform pocket and floats here, safe from the boots.
+4. `TAKE BOOTS`, then `WEAR BOOTS`. Worn, the boots no longer wipe the card.
+5. `TAKE ID CARD`, then `PUT ID CARD IN UNIFORM`.
+6. `UP` to Shady Dan's.
+
+From now on, do not take the boots off while you hold the card.
 
 ## 4. Armory and first night (18 → 26)
 

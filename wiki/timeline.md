@@ -41,3 +41,31 @@ At most three milestones a day, one line each, with the commit.
 - Officers' Quarters C, A and SanFac reach the sponsor and are accepted (f2d4cb78, 38602203, 5754d362).
 - Docking Bay 1 is accepted on the built alien-ship look (D50) (f87ece2f).
 - Mess Hall and Main Storage are handed after overlay reviews (f9752449).
+
+## 2026-10-03
+- The Air Shaft family, Elevator and Meeting Room 2 are accepted, bringing M7 to 55 accepted rooms (committed in 7ad9298d).
+- D54: Docking Bay 2 is enlarged so the whole Spacetruck fits inside; its seed is painted the same day (greg-0411, greg-0412).
+
+## 2026-10-04
+- Docking Bay 2, Grimy Passage, Main Street and Greasy Straw are accepted, opening the Village; M7 reaches 59 of 63 packaged rooms (7ad9298d; mail norm-0999, norm-1030).
+- D55: seated pilot and copilot eyes for the Spacetruck are packaged, painted and handed to the sponsor (f4779065; norm-1036, norm-1037).
+- The sponsor's playtest files 16 reports, and the dashboard can now send answers to Norm's questions back to him (102e0c44; answer endpoint uncommitted).
+
+## 2026-10-06
+- Round 13 runs in GitHub Copilot (D63): three blind runs from the opening, one 400-command leg each, best scores 21 to 22 (29587327).
+- Every package paper gets a Markdown transcription for AI testers, after the Copilot testers could not read the spacetruck's course chart (99ce75cc).
+- The Engineering and Astro Offices are accepted, bringing M7 to 76 of 81 rooms; Computer Control and the Factory go to the sponsor (4e968236, 7c04050c, 364af384).
+
+## 2026-10-07
+- Computer Control, the Factory, the Bio Lab and the Bio Office are accepted, bringing M7 to 80 rooms (33d24268, eb9af6e1).
+- D67 and D68: a brief tremor where canon says the floor vibrates, and the hull welder drawn at the distance canon counts, both queued until after round 13 (7f985d12, 1b25e0e7).
+
+## 2026-10-08
+- D70's investigation finds no port bug: the original's one-way endgame kit check stopped both 73-point runs, and D71 makes the can't-be-won notice speak at the grating (cd491ab8, 6e008b36).
+- D73: with every room outside the Village packaged, the Village resumes in winning-route order; four more rooms are accepted, bringing M7 to 84 (31cc62d9, 65591546, cc709cea).
+- Round 14 starts early, at the sponsor's word; the Infocom-veteran tester from the Plato checkpoint wins at command 274, the first win since round 6 (aa2812af).
+
+## 2026-10-09
+- Round 14 ends: both full runs reach the 1,500-command cap without a win (best 71 and 54); triage builds 4 A fixes and sends Q42 to the sponsor (13822030, c93d609a).
+- D75 and D76: Floyd, Plato and the welder float in weightless rooms, and the Barbershop mirror will reflect the 3D actors live (ab3ad7a4, 160c75dc).
+- D77: the sponsor briefs Greg on the protagonist directly, and his identity cutout is approved (68a0ead1, 878d7102).

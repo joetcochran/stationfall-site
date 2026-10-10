@@ -28,8 +28,12 @@
 <rect x="243" y="64" width="14" height="14" rx="2" fill="#d55181"/>
 <text x="262.0" y="76.0" fill="#d9e3ea" font-size="14" text-anchor="start">round 6 (7 sessions)</text>
 </g>
-<rect x="420" y="64" width="14" height="14" rx="2" fill="url(#hatch)" stroke="#8fa3b1"/>
-<text x="439.0" y="76.0" fill="#d9e3ea" font-size="14" text-anchor="start">hatched: still playing</text>
+<g class="lg" data-s="r14">
+<rect x="420" y="64" width="14" height="14" rx="2" fill="#d95926"/>
+<text x="439.0" y="76.0" fill="#d9e3ea" font-size="14" text-anchor="start">round 14 (3 sessions)</text>
+</g>
+<rect x="604" y="64" width="14" height="14" rx="2" fill="url(#hatch)" stroke="#8fa3b1"/>
+<text x="623.0" y="76.0" fill="#d9e3ea" font-size="14" text-anchor="start">hatched: still playing</text>
 <path d="M67.5,88.5 L76.5,97.5 M76.5,88.5 L67.5,97.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
 <text x="84.0" y="98.0" fill="#d9e3ea" font-size="14" text-anchor="start">deaths (count)</text>
 <path d="M212.0,86.0 L213.9,90.5 L218.7,90.8 L215.0,94.0 L216.1,98.7 L212.0,96.2 L207.9,98.7 L209.0,94.0 L205.3,90.8 L210.1,90.5 Z" fill="#d9e3ea"/>
@@ -47,274 +51,346 @@
 <text x="58.0" y="308.0" fill="#8fa3b1" font-size="14" text-anchor="end">80%</text>
 <line x1="66" y1="253.0" x2="876" y2="253.0" stroke="#1f2c37"/>
 <text x="58.0" y="258.0" fill="#8fa3b1" font-size="14" text-anchor="end">100%</text>
-<text x="123.9" y="522.0" fill="#d9e3ea" font-size="14" text-anchor="middle">1. Duffy</text>
-<text x="123.9" y="539.0" fill="#8fa3b1" font-size="13" text-anchor="middle">5 pts (0-5)</text>
-<g class="m" data-s="r1"><title>21 of 5 points (420%)
-r1-click-01duffy (round 1, click): 21 of 5 points (420%), 2.83 stages; 397 of 400 commands; last new points at command 328; 0 death(s); ended: budget spent, still progressing</title>
-<path d="M77.3,503.0 V256.0 Q77.3,253.0 80.3,253.0 H86.5 Q89.5,253.0 89.5,256.0 V503.0 Z" fill="#3987e5" data-b="77.3 253.0 12.2 250.0"/>
-<text x="88.0" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 88.0 248.0)">21/5 420%</text>
+<text x="97.2" y="522.0" fill="#d9e3ea" font-size="14" text-anchor="middle">1. Duffy</text>
+<text x="97.2" y="539.0" fill="#8fa3b1" font-size="13" text-anchor="middle">0 pts (0-0)</text>
+<g class="m" data-s="r1"><title>21 of 0 points
+r1-click-01duffy (round 1, click): 21 of 0 points, 0 stages; 397 of 400 commands; last new points at command 328; 0 death(s); ended: budget spent, still progressing</title>
+<rect x="73.0" y="500.0" width="3.5" height="3" fill="#3987e5"/>
+<text x="79.4" y="495.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 79.4 495.0)">21/0</text>
 </g>
-<g class="m" data-s="r2"><title>28 of 5 points (560%)
-r2-click-01duffy (round 2, click, UNDO on): 28 of 5 points (560%), 4.08 stages; 386 of 400 commands; last new points at command 347; 1 death(s); ended: budget spent, still progressing</title>
-<path d="M93.5,503.0 V256.0 Q93.5,253.0 96.5,253.0 H102.7 Q105.7,253.0 105.7,256.0 V503.0 Z" fill="#d95926" data-b="93.5 253.0 12.2 250.0"/>
-<text x="104.2" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 104.2 248.0)">28/5 560%</text>
-<path d="M95.6,175.5 L103.6,183.5 M103.6,175.5 L95.6,183.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="99.6" y="171.5" fill="#d9e3ea" font-size="13" text-anchor="middle">1</text>
+<g class="m" data-s="r2"><title>28 of 0 points
+r2-click-01duffy (round 2, click, UNDO on): 28 of 0 points, 0 stages; 386 of 400 commands; last new points at command 347; 1 death(s); ended: budget spent, still progressing</title>
+<rect x="80.5" y="500.0" width="3.5" height="3" fill="#d95926"/>
+<text x="86.9" y="495.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 86.9 495.0)">28/0</text>
+<path d="M78.2,455.0 L86.2,463.0 M86.2,455.0 L78.2,463.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="82.2" y="451.0" fill="#d9e3ea" font-size="13" text-anchor="middle">1</text>
 </g>
-<g class="m" data-s="r3"><title>17 of 5 points (340%)
-r3-typed-01duffy (round 3, typed, UNDO on): 17 of 5 points (340%), 2.5 stages; 395 of 400 commands; last new points at command 317; 3 death(s); ended: budget spent, still progressing</title>
-<path d="M109.7,503.0 V256.0 Q109.7,253.0 112.7,253.0 H118.9 Q121.9,253.0 121.9,256.0 V503.0 Z" fill="#199e70" data-b="109.7 253.0 12.2 250.0"/>
-<text x="120.4" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 120.4 248.0)">17/5 340%</text>
-<path d="M111.8,175.5 L119.8,183.5 M119.8,175.5 L111.8,183.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="115.8" y="171.5" fill="#d9e3ea" font-size="13" text-anchor="middle">3</text>
+<g class="m" data-s="r3"><title>17 of 0 points
+r3-typed-01duffy (round 3, typed, UNDO on): 17 of 0 points, 0 stages; 395 of 400 commands; last new points at command 317; 3 death(s); ended: budget spent, still progressing</title>
+<rect x="87.9" y="500.0" width="3.5" height="3" fill="#199e70"/>
+<text x="94.4" y="495.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 94.4 495.0)">17/0</text>
+<path d="M85.7,455.0 L93.7,463.0 M93.7,455.0 L85.7,463.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="89.7" y="451.0" fill="#d9e3ea" font-size="13" text-anchor="middle">3</text>
 </g>
-<g class="m" data-s="r4"><title>17 of 5 points (340%)
-r4-click-01duffy (round 4, click, UNDO on): 17 of 5 points (340%), 2.5 stages; 375 of 400 commands; last new points at command 253; 1 death(s); ended: budget spent, still progressing</title>
-<path d="M125.9,503.0 V256.0 Q125.9,253.0 128.9,253.0 H135.1 Q138.1,253.0 138.1,256.0 V503.0 Z" fill="#c98500" data-b="125.9 253.0 12.2 250.0"/>
-<text x="136.6" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 136.6 248.0)">17/5 340%</text>
-<path d="M128.0,175.5 L136.0,183.5 M136.0,175.5 L128.0,183.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="132.0" y="171.5" fill="#d9e3ea" font-size="13" text-anchor="middle">1</text>
+<g class="m" data-s="r4"><title>17 of 0 points
+r4-click-01duffy (round 4, click, UNDO on): 17 of 0 points, 0 stages; 375 of 400 commands; last new points at command 253; 1 death(s); ended: budget spent, still progressing</title>
+<rect x="95.4" y="500.0" width="3.5" height="3" fill="#c98500"/>
+<text x="101.8" y="495.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 101.8 495.0)">17/0</text>
+<path d="M93.2,455.0 L101.2,463.0 M101.2,455.0 L93.2,463.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="97.2" y="451.0" fill="#d9e3ea" font-size="13" text-anchor="middle">1</text>
 </g>
-<g class="m" data-s="r5"><title>26 of 5 points (520%)
-r5-click-01duffy (round 5, click, UNDO on): 26 of 5 points (520%), 4 stages; 400 of 400 commands; last new points at command 375; 0 death(s); ended: budget spent, still progressing</title>
-<path d="M142.1,503.0 V256.0 Q142.1,253.0 145.1,253.0 H151.3 Q154.3,253.0 154.3,256.0 V503.0 Z" fill="#9085e9" data-b="142.1 253.0 12.2 250.0"/>
-<text x="152.8" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 152.8 248.0)">26/5 520%</text>
+<g class="m" data-s="r5"><title>26 of 0 points
+r5-click-01duffy (round 5, click, UNDO on): 26 of 0 points, 0 stages; 400 of 400 commands; last new points at command 375; 0 death(s); ended: budget spent, still progressing</title>
+<rect x="102.9" y="500.0" width="3.5" height="3" fill="#9085e9"/>
+<text x="109.3" y="495.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 109.3 495.0)">26/0</text>
 </g>
-<g class="m" data-s="r6"><title>22 of 5 points (440%)
-r6-click-01duffy (round 6, click, UNDO on): 22 of 5 points (440%), 2.92 stages; 400 of 400 commands; last new points at command 399; 0 death(s); ended: budget spent, still progressing</title>
-<path d="M158.3,503.0 V256.0 Q158.3,253.0 161.3,253.0 H167.5 Q170.5,253.0 170.5,256.0 V503.0 Z" fill="#d55181" data-b="158.3 253.0 12.2 250.0"/>
-<text x="169.0" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 169.0 248.0)">22/5 440%</text>
+<g class="m" data-s="r6"><title>22 of 0 points
+r6-click-01duffy (round 6, click, UNDO on): 22 of 0 points, 0 stages; 400 of 400 commands; last new points at command 399; 0 death(s); ended: budget spent, still progressing</title>
+<rect x="110.4" y="500.0" width="3.5" height="3" fill="#d55181"/>
+<text x="116.8" y="495.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 116.8 495.0)">22/0</text>
 </g>
-<line x1="181.7" y1="141" x2="181.7" y2="503" stroke="#1f2c37"/>
-<text x="239.6" y="522.0" fill="#d9e3ea" font-size="14" text-anchor="middle">2. Station</text>
-<text x="239.6" y="539.0" fill="#8fa3b1" font-size="13" text-anchor="middle">6 pts (5-11)</text>
-<g class="m" data-s="r1"><title>12 of 6 points (200%)
-r1-typed-02station (round 1, typed): 12 of 6 points (200%), 1.5 stages; 399 of 400 commands; last new points at command 310; 0 death(s); ended: budget spent, still progressing</title>
-<path d="M193.0,503.0 V256.0 Q193.0,253.0 196.0,253.0 H202.2 Q205.2,253.0 205.2,256.0 V503.0 Z" fill="#3987e5" data-b="193.0 253.0 12.2 250.0"/>
-<text x="203.8" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 203.8 248.0)">12/6 200%</text>
+<text x="124.3" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 124.3 497.0)">none</text>
+<line x1="128.3" y1="141" x2="128.3" y2="503" stroke="#1f2c37"/>
+<text x="159.5" y="522.0" fill="#d9e3ea" font-size="14" text-anchor="middle">2. 01b-launched</text>
+<text x="159.5" y="539.0" fill="#8fa3b1" font-size="13" text-anchor="middle">5 pts (0-5)</text>
+<text x="141.7" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 141.7 497.0)">none</text>
+<text x="149.2" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 149.2 497.0)">none</text>
+<text x="156.7" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 156.7 497.0)">none</text>
+<text x="164.1" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 164.1 497.0)">none</text>
+<text x="171.6" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 171.6 497.0)">none</text>
+<text x="179.1" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 179.1 497.0)">none</text>
+<text x="186.6" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 186.6 497.0)">none</text>
+<line x1="190.6" y1="141" x2="190.6" y2="503" stroke="#1f2c37"/>
+<text x="221.8" y="522.0" fill="#d9e3ea" font-size="14" text-anchor="middle">3. Station</text>
+<text x="221.8" y="539.0" fill="#8fa3b1" font-size="13" text-anchor="middle">0 pts (5-5)</text>
+<g class="m" data-s="r1"><title>12 of 0 points
+r1-typed-02station (round 1, typed): 12 of 0 points, 0 stages; 399 of 400 commands; last new points at command 310; 0 death(s); ended: budget spent, still progressing</title>
+<rect x="197.6" y="500.0" width="3.5" height="3" fill="#3987e5"/>
+<text x="204.0" y="495.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 204.0 495.0)">12/0</text>
 </g>
-<g class="m" data-s="r2"><title>6 of 6 points (100%)
-r2-typed-02station (round 2, typed, UNDO on): 6 of 6 points (100%), 1 stages; 397 of 400 commands; last new points at command 336; 5 death(s); ended: budget spent, still progressing</title>
-<path d="M209.2,503.0 V256.0 Q209.2,253.0 212.2,253.0 H218.4 Q221.4,253.0 221.4,256.0 V503.0 Z" fill="#d95926" data-b="209.2 253.0 12.2 250.0"/>
-<text x="220.0" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 220.0 248.0)">6/6</text>
-<path d="M211.3,214.5 L219.3,222.5 M219.3,214.5 L211.3,222.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="215.3" y="210.5" fill="#d9e3ea" font-size="13" text-anchor="middle">5</text>
+<g class="m" data-s="r2"><title>6 of 0 points
+r2-typed-02station (round 2, typed, UNDO on): 6 of 0 points, 0 stages; 397 of 400 commands; last new points at command 336; 5 death(s); ended: budget spent, still progressing</title>
+<rect x="205.1" y="500.0" width="3.5" height="3" fill="#d95926"/>
+<text x="211.5" y="495.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 211.5 495.0)">6/0</text>
+<path d="M202.8,461.5 L210.8,469.5 M210.8,461.5 L202.8,469.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="206.8" y="457.5" fill="#d9e3ea" font-size="13" text-anchor="middle">5</text>
 </g>
-<g class="m" data-s="r3"><title>12 of 6 points (200%)
-r3-click-02station (round 3, click, UNDO on): 12 of 6 points (200%), 1.5 stages; 394 of 400 commands; last new points at command 304; 1 death(s); ended: budget spent, still progressing</title>
-<path d="M225.4,503.0 V256.0 Q225.4,253.0 228.4,253.0 H234.6 Q237.6,253.0 237.6,256.0 V503.0 Z" fill="#199e70" data-b="225.4 253.0 12.2 250.0"/>
-<text x="236.2" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 236.2 248.0)">12/6 200%</text>
-<path d="M227.5,175.5 L235.5,183.5 M235.5,175.5 L227.5,183.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="231.5" y="171.5" fill="#d9e3ea" font-size="13" text-anchor="middle">1</text>
+<g class="m" data-s="r3"><title>12 of 0 points
+r3-click-02station (round 3, click, UNDO on): 12 of 0 points, 0 stages; 394 of 400 commands; last new points at command 304; 1 death(s); ended: budget spent, still progressing</title>
+<rect x="212.6" y="500.0" width="3.5" height="3" fill="#199e70"/>
+<text x="219.0" y="495.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 219.0 495.0)">12/0</text>
+<path d="M210.3,455.0 L218.3,463.0 M218.3,455.0 L210.3,463.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="214.3" y="451.0" fill="#d9e3ea" font-size="13" text-anchor="middle">1</text>
 </g>
-<g class="m" data-s="r4"><title>16 of 6 points (267%)
-r4-typed-02station (round 4, typed, UNDO on): 16 of 6 points (267%), 1.83 stages; 396 of 400 commands; last new points at command 340; 0 death(s); ended: budget spent, still progressing</title>
-<path d="M241.6,503.0 V256.0 Q241.6,253.0 244.6,253.0 H250.8 Q253.8,253.0 253.8,256.0 V503.0 Z" fill="#c98500" data-b="241.6 253.0 12.2 250.0"/>
-<text x="252.4" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 252.4 248.0)">16/6 267%</text>
+<g class="m" data-s="r4"><title>16 of 0 points
+r4-typed-02station (round 4, typed, UNDO on): 16 of 0 points, 0 stages; 396 of 400 commands; last new points at command 340; 0 death(s); ended: budget spent, still progressing</title>
+<rect x="220.0" y="500.0" width="3.5" height="3" fill="#c98500"/>
+<text x="226.4" y="495.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 226.4 495.0)">16/0</text>
 </g>
-<g class="m" data-s="r5"><title>12 of 6 points (200%)
-r5-typed-02station (round 5, typed, UNDO on): 12 of 6 points (200%), 1.5 stages; 400 of 400 commands; last new points at command 395; 0 death(s); ended: budget spent, still progressing</title>
-<path d="M257.8,503.0 V256.0 Q257.8,253.0 260.8,253.0 H267.0 Q270.0,253.0 270.0,256.0 V503.0 Z" fill="#9085e9" data-b="257.8 253.0 12.2 250.0"/>
-<text x="268.6" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 268.6 248.0)">12/6 200%</text>
+<g class="m" data-s="r5"><title>12 of 0 points
+r5-typed-02station (round 5, typed, UNDO on): 12 of 0 points, 0 stages; 400 of 400 commands; last new points at command 395; 0 death(s); ended: budget spent, still progressing</title>
+<rect x="227.5" y="500.0" width="3.5" height="3" fill="#9085e9"/>
+<text x="233.9" y="495.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 233.9 495.0)">12/0</text>
 </g>
-<g class="m" data-s="r6"><title>12 of 6 points (200%)
-r6-typed-02station (round 6, typed, UNDO on): 12 of 6 points (200%), 1.5 stages; 400 of 400 commands; last new points at command 396; 0 death(s); ended: budget spent, still progressing</title>
-<path d="M274.0,503.0 V256.0 Q274.0,253.0 277.0,253.0 H283.2 Q286.2,253.0 286.2,256.0 V503.0 Z" fill="#d55181" data-b="274.0 253.0 12.2 250.0"/>
-<text x="284.8" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 284.8 248.0)">12/6 200%</text>
+<g class="m" data-s="r6"><title>12 of 0 points
+r6-typed-02station (round 6, typed, UNDO on): 12 of 0 points, 0 stages; 400 of 400 commands; last new points at command 396; 0 death(s); ended: budget spent, still progressing</title>
+<rect x="235.0" y="500.0" width="3.5" height="3" fill="#d55181"/>
+<text x="241.4" y="495.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 241.4 495.0)">12/0</text>
 </g>
-<line x1="297.4" y1="141" x2="297.4" y2="503" stroke="#1f2c37"/>
-<text x="355.3" y="522.0" fill="#d9e3ea" font-size="14" text-anchor="middle">3. Village</text>
-<text x="355.3" y="539.0" fill="#8fa3b1" font-size="13" text-anchor="middle">12 pts (11-23)</text>
-<g class="m" data-s="r1"><title>13 of 12 points (108%)
-r1-click-03village (round 1, click): 13 of 12 points (108%), 1.33 stages; 367 of 400 commands; last new points at command 248; 2 death(s); ended: budget spent, still progressing</title>
-<path d="M308.7,503.0 V256.0 Q308.7,253.0 311.7,253.0 H317.9 Q320.9,253.0 320.9,256.0 V503.0 Z" fill="#3987e5" data-b="308.7 253.0 12.2 250.0"/>
-<text x="319.5" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 319.5 248.0)">13/12 108%</text>
-<path d="M310.8,169.0 L318.8,177.0 M318.8,169.0 L310.8,177.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="314.8" y="165.0" fill="#d9e3ea" font-size="13" text-anchor="middle">2</text>
+<text x="248.9" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 248.9 497.0)">none</text>
+<line x1="252.9" y1="141" x2="252.9" y2="503" stroke="#1f2c37"/>
+<text x="284.1" y="522.0" fill="#d9e3ea" font-size="14" text-anchor="middle">4. 02a-car-at-seven</text>
+<text x="284.1" y="539.0" fill="#8fa3b1" font-size="13" text-anchor="middle">0 pts (5-5)</text>
+<text x="266.3" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 266.3 497.0)">none</text>
+<text x="273.8" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 273.8 497.0)">none</text>
+<text x="281.3" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 281.3 497.0)">none</text>
+<text x="288.8" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 288.8 497.0)">none</text>
+<text x="296.2" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 296.2 497.0)">none</text>
+<text x="303.7" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 303.7 497.0)">none</text>
+<text x="311.2" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 311.2 497.0)">none</text>
+<line x1="315.2" y1="141" x2="315.2" y2="503" stroke="#1f2c37"/>
+<text x="346.4" y="522.0" fill="#d9e3ea" font-size="14" text-anchor="middle">5. 02b-laundry</text>
+<text x="346.4" y="539.0" fill="#8fa3b1" font-size="13" text-anchor="middle">6 pts (5-11)</text>
+<text x="328.6" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 328.6 497.0)">none</text>
+<text x="336.1" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 336.1 497.0)">none</text>
+<text x="343.6" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 343.6 497.0)">none</text>
+<text x="351.1" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 351.1 497.0)">none</text>
+<text x="358.5" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 358.5 497.0)">none</text>
+<text x="366.0" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 366.0 497.0)">none</text>
+<text x="373.5" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 373.5 497.0)">none</text>
+<line x1="377.5" y1="141" x2="377.5" y2="503" stroke="#1f2c37"/>
+<text x="408.7" y="522.0" fill="#d9e3ea" font-size="14" text-anchor="middle">6. Village</text>
+<text x="408.7" y="539.0" fill="#8fa3b1" font-size="13" text-anchor="middle">4 pts (11-15)</text>
+<g class="m" data-s="r1"><title>13 of 4 points (325%)
+r1-click-03village (round 1, click): 13 of 4 points (325%), 3.33 stages; 367 of 400 commands; last new points at command 248; 2 death(s); ended: budget spent, still progressing</title>
+<path d="M384.5,503.0 V254.7 Q384.5,253.0 386.3,253.0 H386.3 Q388.0,253.0 388.0,254.7 V503.0 Z" fill="#3987e5" data-b="384.5 253.0 3.5 250.0"/>
+<text x="390.9" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 390.9 248.0)">13/4 325%</text>
+<path d="M382.3,175.5 L390.3,183.5 M390.3,175.5 L382.3,183.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="386.3" y="171.5" fill="#d9e3ea" font-size="13" text-anchor="middle">2</text>
 </g>
-<g class="m" data-s="r2"><title>20 of 12 points (167%)
-r2-click-03village (round 2, click, UNDO on): 20 of 12 points (167%), 2.2 stages; 392 of 400 commands; last new points at command 372; 1 death(s); ended: budget spent, still progressing</title>
-<path d="M324.9,503.0 V256.0 Q324.9,253.0 327.9,253.0 H334.1 Q337.1,253.0 337.1,256.0 V503.0 Z" fill="#d95926" data-b="324.9 253.0 12.2 250.0"/>
-<text x="335.7" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 335.7 248.0)">20/12 167%</text>
-<path d="M327.0,169.0 L335.0,177.0 M335.0,169.0 L327.0,177.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="331.0" y="165.0" fill="#d9e3ea" font-size="13" text-anchor="middle">1</text>
+<g class="m" data-s="r2"><title>20 of 4 points (500%)
+r2-click-03village (round 2, click, UNDO on): 20 of 4 points (500%), 4.2 stages; 392 of 400 commands; last new points at command 372; 1 death(s); ended: budget spent, still progressing</title>
+<path d="M392.0,503.0 V254.7 Q392.0,253.0 393.7,253.0 H393.7 Q395.5,253.0 395.5,254.7 V503.0 Z" fill="#d95926" data-b="392.0 253.0 3.5 250.0"/>
+<text x="398.4" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 398.4 248.0)">20/4 500%</text>
+<path d="M389.7,175.5 L397.7,183.5 M397.7,175.5 L389.7,183.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="393.7" y="171.5" fill="#d9e3ea" font-size="13" text-anchor="middle">1</text>
 </g>
-<g class="m" data-s="r3"><title>24 of 12 points (200%)
-r3-typed-03village (round 3, typed, UNDO on): 24 of 12 points (200%), 2.36 stages; 387 of 400 commands; last new points at command 321; 1 death(s); ended: budget spent, still progressing</title>
-<path d="M341.1,503.0 V256.0 Q341.1,253.0 344.1,253.0 H350.3 Q353.3,253.0 353.3,256.0 V503.0 Z" fill="#199e70" data-b="341.1 253.0 12.2 250.0"/>
-<text x="351.9" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 351.9 248.0)">24/12 200%</text>
-<path d="M343.2,169.0 L351.2,177.0 M351.2,169.0 L343.2,177.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="347.2" y="165.0" fill="#d9e3ea" font-size="13" text-anchor="middle">1</text>
+<g class="m" data-s="r3"><title>24 of 4 points (600%)
+r3-typed-03village (round 3, typed, UNDO on): 24 of 4 points (600%), 4.36 stages; 387 of 400 commands; last new points at command 321; 1 death(s); ended: budget spent, still progressing</title>
+<path d="M399.5,503.0 V254.7 Q399.5,253.0 401.2,253.0 H401.2 Q403.0,253.0 403.0,254.7 V503.0 Z" fill="#199e70" data-b="399.5 253.0 3.5 250.0"/>
+<text x="405.9" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 405.9 248.0)">24/4 600%</text>
+<path d="M397.2,175.5 L405.2,183.5 M405.2,175.5 L397.2,183.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="401.2" y="171.5" fill="#d9e3ea" font-size="13" text-anchor="middle">1</text>
 </g>
-<g class="m" data-s="r4"><title>13 of 12 points (108%)
-r4-click-03village (round 4, click, UNDO on): 13 of 12 points (108%), 1.33 stages; 376 of 400 commands; last new points at command 193; 1 death(s); ended: budget spent, still progressing</title>
-<path d="M357.3,503.0 V256.0 Q357.3,253.0 360.3,253.0 H366.5 Q369.5,253.0 369.5,256.0 V503.0 Z" fill="#c98500" data-b="357.3 253.0 12.2 250.0"/>
-<text x="368.1" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 368.1 248.0)">13/12 108%</text>
-<path d="M359.4,169.0 L367.4,177.0 M367.4,169.0 L359.4,177.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="363.4" y="165.0" fill="#d9e3ea" font-size="13" text-anchor="middle">1</text>
+<g class="m" data-s="r4"><title>13 of 4 points (325%)
+r4-click-03village (round 4, click, UNDO on): 13 of 4 points (325%), 3.33 stages; 376 of 400 commands; last new points at command 193; 1 death(s); ended: budget spent, still progressing</title>
+<path d="M407.0,503.0 V254.7 Q407.0,253.0 408.7,253.0 H408.7 Q410.4,253.0 410.4,254.7 V503.0 Z" fill="#c98500" data-b="407.0 253.0 3.5 250.0"/>
+<text x="413.4" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 413.4 248.0)">13/4 325%</text>
+<path d="M404.7,175.5 L412.7,183.5 M412.7,175.5 L404.7,183.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="408.7" y="171.5" fill="#d9e3ea" font-size="13" text-anchor="middle">1</text>
 </g>
-<g class="m" data-s="r5"><title>27 of 12 points (225%)
-r5-click-03village (round 5, click, UNDO on): 27 of 12 points (225%), 2.48 stages; 400 of 400 commands; last new points at command 399; 2 death(s); ended: budget spent, still progressing</title>
-<path d="M373.5,503.0 V256.0 Q373.5,253.0 376.5,253.0 H382.7 Q385.7,253.0 385.7,256.0 V503.0 Z" fill="#9085e9" data-b="373.5 253.0 12.2 250.0"/>
-<text x="384.3" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 384.3 248.0)">27/12 225%</text>
-<path d="M375.6,169.0 L383.6,177.0 M383.6,169.0 L375.6,177.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="379.6" y="165.0" fill="#d9e3ea" font-size="13" text-anchor="middle">2</text>
+<g class="m" data-s="r5"><title>27 of 4 points (675%)
+r5-click-03village (round 5, click, UNDO on): 27 of 4 points (675%), 4.48 stages; 400 of 400 commands; last new points at command 399; 2 death(s); ended: budget spent, still progressing</title>
+<path d="M414.4,503.0 V254.7 Q414.4,253.0 416.2,253.0 H416.2 Q417.9,253.0 417.9,254.7 V503.0 Z" fill="#9085e9" data-b="414.4 253.0 3.5 250.0"/>
+<text x="420.8" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 420.8 248.0)">27/4 675%</text>
+<path d="M412.2,175.5 L420.2,183.5 M420.2,175.5 L412.2,183.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="416.2" y="171.5" fill="#d9e3ea" font-size="13" text-anchor="middle">2</text>
 </g>
-<g class="m" data-s="r6"><title>17 of 12 points (142%)
-r6-click-03village (round 6, click, UNDO on): 17 of 12 points (142%), 2.08 stages; 400 of 400 commands; last new points at command 372; 2 death(s); ended: budget spent, still progressing</title>
-<path d="M389.7,503.0 V256.0 Q389.7,253.0 392.7,253.0 H398.9 Q401.9,253.0 401.9,256.0 V503.0 Z" fill="#d55181" data-b="389.7 253.0 12.2 250.0"/>
-<text x="400.5" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 400.5 248.0)">17/12 142%</text>
-<path d="M391.8,169.0 L399.8,177.0 M399.8,169.0 L391.8,177.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="395.8" y="165.0" fill="#d9e3ea" font-size="13" text-anchor="middle">2</text>
+<g class="m" data-s="r6"><title>17 of 4 points (425%)
+r6-click-03village (round 6, click, UNDO on): 17 of 4 points (425%), 4.08 stages; 400 of 400 commands; last new points at command 372; 2 death(s); ended: budget spent, still progressing</title>
+<path d="M421.9,503.0 V254.7 Q421.9,253.0 423.6,253.0 H423.6 Q425.4,253.0 425.4,254.7 V503.0 Z" fill="#d55181" data-b="421.9 253.0 3.5 250.0"/>
+<text x="428.3" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 428.3 248.0)">17/4 425%</text>
+<path d="M419.6,175.5 L427.6,183.5 M427.6,175.5 L419.6,183.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="423.6" y="171.5" fill="#d9e3ea" font-size="13" text-anchor="middle">2</text>
 </g>
-<line x1="413.1" y1="141" x2="413.1" y2="503" stroke="#1f2c37"/>
-<text x="471.0" y="522.0" fill="#d9e3ea" font-size="14" text-anchor="middle">4. Day 1 end</text>
-<text x="471.0" y="539.0" fill="#8fa3b1" font-size="13" text-anchor="middle">3 pts (23-26)</text>
-<text x="435.2" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 435.2 497.0)">none</text>
-<text x="451.4" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 451.4 497.0)">none</text>
+<text x="435.8" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 435.8 497.0)">none</text>
+<line x1="439.8" y1="141" x2="439.8" y2="503" stroke="#1f2c37"/>
+<text x="471.0" y="522.0" fill="#d9e3ea" font-size="14" text-anchor="middle">7. 03a-pet-store</text>
+<text x="471.0" y="539.0" fill="#8fa3b1" font-size="13" text-anchor="middle">3 pts (15-18)</text>
+<text x="453.2" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 453.2 497.0)">none</text>
+<text x="460.7" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 460.7 497.0)">none</text>
+<text x="468.2" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 468.2 497.0)">none</text>
+<text x="475.7" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 475.7 497.0)">none</text>
+<text x="483.2" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 483.2 497.0)">none</text>
+<text x="490.6" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 490.6 497.0)">none</text>
+<text x="498.1" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 498.1 497.0)">none</text>
+<line x1="502.2" y1="141" x2="502.2" y2="503" stroke="#1f2c37"/>
+<text x="533.3" y="522.0" fill="#d9e3ea" font-size="14" text-anchor="middle">8. 03b-rank8</text>
+<text x="533.3" y="539.0" fill="#8fa3b1" font-size="13" text-anchor="middle">5 pts (18-23)</text>
+<text x="515.6" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 515.6 497.0)">none</text>
+<text x="523.0" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 523.0 497.0)">none</text>
+<text x="530.5" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 530.5 497.0)">none</text>
+<text x="538.0" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 538.0 497.0)">none</text>
+<text x="545.5" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 545.5 497.0)">none</text>
+<text x="552.9" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 552.9 497.0)">none</text>
+<text x="560.4" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 560.4 497.0)">none</text>
+<line x1="564.5" y1="141" x2="564.5" y2="503" stroke="#1f2c37"/>
+<text x="595.6" y="522.0" fill="#d9e3ea" font-size="14" text-anchor="middle">9. Day 1 end</text>
+<text x="595.6" y="539.0" fill="#8fa3b1" font-size="13" text-anchor="middle">3 pts (23-26)</text>
+<text x="577.9" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 577.9 497.0)">none</text>
+<text x="585.3" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 585.3 497.0)">none</text>
 <g class="m" data-s="r3"><title>13 of 3 points (433%)
 r3-click-04day1end (round 3, click, UNDO on): 13 of 3 points (433%), 1.4 stages; 387 of 400 commands; last new points at command 356; 2 death(s); ended: budget spent, still progressing</title>
-<path d="M456.8,503.0 V256.0 Q456.8,253.0 459.8,253.0 H466.0 Q469.0,253.0 469.0,256.0 V503.0 Z" fill="#199e70" data-b="456.8 253.0 12.2 250.0"/>
-<text x="467.6" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 467.6 248.0)">13/3 433%</text>
-<path d="M458.9,175.5 L466.9,183.5 M466.9,175.5 L458.9,183.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="462.9" y="171.5" fill="#d9e3ea" font-size="13" text-anchor="middle">2</text>
+<path d="M586.4,503.0 V254.7 Q586.4,253.0 588.1,253.0 H588.1 Q589.9,253.0 589.9,254.7 V503.0 Z" fill="#199e70" data-b="586.4 253.0 3.5 250.0"/>
+<text x="592.8" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 592.8 248.0)">13/3 433%</text>
+<path d="M584.1,175.5 L592.1,183.5 M592.1,175.5 L584.1,183.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="588.1" y="171.5" fill="#d9e3ea" font-size="13" text-anchor="middle">2</text>
 </g>
 <g class="m" data-s="r4"><title>6 of 3 points (200%)
 r4-typed-04day1end (round 4, typed, UNDO on): 6 of 3 points (200%), 1.12 stages; 382 of 400 commands; last new points at command 368; 1 death(s); ended: budget spent, still progressing</title>
-<path d="M473.0,503.0 V256.0 Q473.0,253.0 476.0,253.0 H482.2 Q485.2,253.0 485.2,256.0 V503.0 Z" fill="#c98500" data-b="473.0 253.0 12.2 250.0"/>
-<text x="483.8" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 483.8 248.0)">6/3 200%</text>
-<path d="M475.1,182.0 L483.1,190.0 M483.1,182.0 L475.1,190.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="479.1" y="178.0" fill="#d9e3ea" font-size="13" text-anchor="middle">1</text>
+<path d="M593.9,503.0 V254.7 Q593.9,253.0 595.6,253.0 H595.6 Q597.4,253.0 597.4,254.7 V503.0 Z" fill="#c98500" data-b="593.9 253.0 3.5 250.0"/>
+<text x="600.3" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 600.3 248.0)">6/3 200%</text>
+<path d="M591.6,182.0 L599.6,190.0 M599.6,182.0 L591.6,190.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="595.6" y="178.0" fill="#d9e3ea" font-size="13" text-anchor="middle">1</text>
 </g>
 <g class="m" data-s="r5"><title>3 of 3 points (100%)
 r5-typed-04day1end (round 5, typed, UNDO on): 3 of 3 points (100%), 1 stages; 400 of 400 commands; last new points at command 16; 6 death(s); ended: stuck (no new points in the last 200 commands)</title>
-<path d="M489.2,503.0 V256.0 Q489.2,253.0 492.2,253.0 H498.4 Q501.4,253.0 501.4,256.0 V503.0 Z" fill="#9085e9" data-b="489.2 253.0 12.2 250.0"/>
-<text x="500.0" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 500.0 248.0)">3/3</text>
-<path d="M491.3,214.5 L499.3,222.5 M499.3,214.5 L491.3,222.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="495.3" y="210.5" fill="#d9e3ea" font-size="13" text-anchor="middle">6</text>
+<path d="M601.4,503.0 V254.7 Q601.4,253.0 603.1,253.0 H603.1 Q604.8,253.0 604.8,254.7 V503.0 Z" fill="#9085e9" data-b="601.4 253.0 3.5 250.0"/>
+<text x="607.8" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 607.8 248.0)">3/3</text>
+<path d="M599.1,214.5 L607.1,222.5 M607.1,214.5 L599.1,222.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="603.1" y="210.5" fill="#d9e3ea" font-size="13" text-anchor="middle">6</text>
 </g>
 <g class="m" data-s="r6"><title>13 of 3 points (433%)
 r6-typed-04day1end (round 6, typed, UNDO on): 13 of 3 points (433%), 1.4 stages; 400 of 400 commands; last new points at command 300; 2 death(s); ended: budget spent, still progressing</title>
-<path d="M505.4,503.0 V256.0 Q505.4,253.0 508.4,253.0 H514.6 Q517.6,253.0 517.6,256.0 V503.0 Z" fill="#d55181" data-b="505.4 253.0 12.2 250.0"/>
-<text x="516.2" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 516.2 248.0)">13/3 433%</text>
-<path d="M507.5,175.5 L515.5,183.5 M515.5,175.5 L507.5,183.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="511.5" y="171.5" fill="#d9e3ea" font-size="13" text-anchor="middle">2</text>
+<path d="M608.8,503.0 V254.7 Q608.8,253.0 610.6,253.0 H610.6 Q612.3,253.0 612.3,254.7 V503.0 Z" fill="#d55181" data-b="608.8 253.0 3.5 250.0"/>
+<text x="615.2" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 615.2 248.0)">13/3 433%</text>
+<path d="M606.6,175.5 L614.6,183.5 M614.6,175.5 L606.6,183.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="610.6" y="171.5" fill="#d9e3ea" font-size="13" text-anchor="middle">2</text>
 </g>
-<line x1="528.9" y1="141" x2="528.9" y2="503" stroke="#1f2c37"/>
-<text x="586.7" y="522.0" fill="#d9e3ea" font-size="14" text-anchor="middle">5. Day 2</text>
-<text x="586.7" y="539.0" fill="#8fa3b1" font-size="13" text-anchor="middle">25 pts (26-51)</text>
+<text x="622.7" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 622.7 497.0)">none</text>
+<line x1="626.8" y1="141" x2="626.8" y2="503" stroke="#1f2c37"/>
+<text x="657.9" y="522.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10. Day 2</text>
+<text x="657.9" y="539.0" fill="#8fa3b1" font-size="13" text-anchor="middle">25 pts (26-51)</text>
 <g class="m" data-s="r1"><title>0 of 25 points (0%)
 r1-typed-05day2 (round 1, typed): 0 of 25 points (0%), 0 stages; 397 of 400 commands; last new points at command 0; 2 death(s); ended: stuck (no new points in the last 200 commands)</title>
-<rect x="540.1" y="500.0" width="12.2" height="3" fill="#3987e5"/>
-<text x="550.9" y="495.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 550.9 495.0)">0/25</text>
-<path d="M542.2,455.0 L550.2,463.0 M550.2,455.0 L542.2,463.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="546.2" y="451.0" fill="#d9e3ea" font-size="13" text-anchor="middle">2</text>
+<rect x="633.8" y="500.0" width="3.5" height="3" fill="#3987e5"/>
+<text x="640.2" y="495.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 640.2 495.0)">0/25</text>
+<path d="M631.5,455.0 L639.5,463.0 M639.5,455.0 L631.5,463.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="635.5" y="451.0" fill="#d9e3ea" font-size="13" text-anchor="middle">2</text>
 </g>
 <g class="m" data-s="r2"><title>12 of 25 points (48%)
 r2-typed-05day2 (round 2, typed, UNDO on): 12 of 25 points (48%), 0.48 stages; 391 of 400 commands; last new points at command 383; 3 death(s); ended: budget spent, still progressing</title>
-<path d="M556.3,503.0 V386.0 Q556.3,383.0 559.3,383.0 H565.5 Q568.5,383.0 568.5,386.0 V503.0 Z" fill="#d95926" data-b="556.3 383.0 12.2 120.0"/>
-<text x="567.1" y="378.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 567.1 378.0)">12/25</text>
-<path d="M558.4,331.5 L566.4,339.5 M566.4,331.5 L558.4,339.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="562.4" y="327.5" fill="#d9e3ea" font-size="13" text-anchor="middle">3</text>
+<path d="M641.2,503.0 V384.7 Q641.2,383.0 643.0,383.0 H643.0 Q644.7,383.0 644.7,384.7 V503.0 Z" fill="#d95926" data-b="641.2 383.0 3.5 120.0"/>
+<text x="647.6" y="378.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 647.6 378.0)">12/25</text>
+<path d="M639.0,331.5 L647.0,339.5 M647.0,331.5 L639.0,339.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="643.0" y="327.5" fill="#d9e3ea" font-size="13" text-anchor="middle">3</text>
 </g>
 <g class="m" data-s="r3"><title>21 of 25 points (84%)
 r3-click-05day2 (round 3, click, UNDO on): 21 of 25 points (84%), 0.84 stages; 376 of 400 commands; last new points at command 313; 0 death(s); ended: budget spent, still progressing</title>
-<path d="M572.5,503.0 V296.0 Q572.5,293.0 575.5,293.0 H581.7 Q584.7,293.0 584.7,296.0 V503.0 Z" fill="#199e70" data-b="572.5 293.0 12.2 210.0"/>
-<text x="583.3" y="288.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 583.3 288.0)">21/25</text>
+<path d="M648.7,503.0 V294.7 Q648.7,293.0 650.4,293.0 H650.4 Q652.2,293.0 652.2,294.7 V503.0 Z" fill="#199e70" data-b="648.7 293.0 3.5 210.0"/>
+<text x="655.1" y="288.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 655.1 288.0)">21/25</text>
 </g>
 <g class="m" data-s="r4"><title>15 of 25 points (60%)
 r4-typed-05day2 (round 4, typed, UNDO on): 15 of 25 points (60%), 0.6 stages; 371 of 400 commands; last new points at command 356; 1 death(s); ended: budget spent, still progressing</title>
-<path d="M588.7,503.0 V356.0 Q588.7,353.0 591.7,353.0 H597.9 Q600.9,353.0 600.9,356.0 V503.0 Z" fill="#c98500" data-b="588.7 353.0 12.2 150.0"/>
-<text x="599.5" y="348.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 599.5 348.0)">15/25</text>
-<path d="M590.8,301.5 L598.8,309.5 M598.8,301.5 L590.8,309.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="594.8" y="297.5" fill="#d9e3ea" font-size="13" text-anchor="middle">1</text>
+<path d="M656.2,503.0 V354.7 Q656.2,353.0 657.9,353.0 H657.9 Q659.7,353.0 659.7,354.7 V503.0 Z" fill="#c98500" data-b="656.2 353.0 3.5 150.0"/>
+<text x="662.6" y="348.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 662.6 348.0)">15/25</text>
+<path d="M653.9,301.5 L661.9,309.5 M661.9,301.5 L653.9,309.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="657.9" y="297.5" fill="#d9e3ea" font-size="13" text-anchor="middle">1</text>
 </g>
 <g class="m" data-s="r5"><title>18 of 25 points (72%)
 r5-typed-05day2 (round 5, typed, UNDO on): 18 of 25 points (72%), 0.72 stages; 400 of 400 commands; last new points at command 332; 2 death(s); ended: budget spent, still progressing</title>
-<path d="M604.9,503.0 V326.0 Q604.9,323.0 607.9,323.0 H614.1 Q617.1,323.0 617.1,326.0 V503.0 Z" fill="#9085e9" data-b="604.9 323.0 12.2 180.0"/>
-<text x="615.7" y="318.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 615.7 318.0)">18/25</text>
-<path d="M607.0,271.5 L615.0,279.5 M615.0,271.5 L607.0,279.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="611.0" y="267.5" fill="#d9e3ea" font-size="13" text-anchor="middle">2</text>
+<path d="M663.7,503.0 V324.7 Q663.7,323.0 665.4,323.0 H665.4 Q667.1,323.0 667.1,324.7 V503.0 Z" fill="#9085e9" data-b="663.7 323.0 3.5 180.0"/>
+<text x="670.1" y="318.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 670.1 318.0)">18/25</text>
+<path d="M661.4,271.5 L669.4,279.5 M669.4,271.5 L661.4,279.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="665.4" y="267.5" fill="#d9e3ea" font-size="13" text-anchor="middle">2</text>
 </g>
 <g class="m" data-s="r6"><title>15 of 25 points (60%)
 r6-typed-05day2 (round 6, typed, UNDO on): 15 of 25 points (60%), 0.6 stages; 400 of 400 commands; last new points at command 353; 0 death(s); ended: budget spent, still progressing</title>
-<path d="M621.1,503.0 V356.0 Q621.1,353.0 624.1,353.0 H630.3 Q633.3,353.0 633.3,356.0 V503.0 Z" fill="#d55181" data-b="621.1 353.0 12.2 150.0"/>
-<text x="631.9" y="348.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 631.9 348.0)">15/25</text>
+<path d="M671.1,503.0 V354.7 Q671.1,353.0 672.9,353.0 H672.9 Q674.6,353.0 674.6,354.7 V503.0 Z" fill="#d55181" data-b="671.1 353.0 3.5 150.0"/>
+<text x="677.6" y="348.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 677.6 348.0)">15/25</text>
 </g>
-<line x1="644.6" y1="141" x2="644.6" y2="503" stroke="#1f2c37"/>
-<text x="702.4" y="522.0" fill="#d9e3ea" font-size="14" text-anchor="middle">6. Plato</text>
-<text x="702.4" y="539.0" fill="#8fa3b1" font-size="13" text-anchor="middle">22 pts (51-73)</text>
+<text x="685.0" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 685.0 497.0)">none</text>
+<line x1="689.1" y1="141" x2="689.1" y2="503" stroke="#1f2c37"/>
+<text x="720.2" y="522.0" fill="#d9e3ea" font-size="14" text-anchor="middle">11. Plato</text>
+<text x="720.2" y="539.0" fill="#8fa3b1" font-size="13" text-anchor="middle">22 pts (51-73)</text>
 <g class="m" data-s="r1"><title>10 of 22 points (46%)
 r1-click-06plato (round 1, click): 10 of 22 points (46%), 0.45 stages; 382 of 400 commands; last new points at command 33; 3 death(s); ended: stuck (no new points in the last 200 commands)</title>
-<path d="M655.8,503.0 V392.3 Q655.8,389.3 658.8,389.3 H665.0 Q668.0,389.3 668.0,392.3 V503.0 Z" fill="#3987e5" data-b="655.8 389.3 12.2 113.8"/>
-<text x="666.6" y="384.3" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 666.6 384.3)">10/22</text>
-<path d="M657.9,337.8 L665.9,345.8 M665.9,337.8 L657.9,345.8" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="661.9" y="333.8" fill="#d9e3ea" font-size="13" text-anchor="middle">3</text>
+<path d="M696.1,503.0 V391.0 Q696.1,389.3 697.8,389.3 H697.8 Q699.5,389.3 699.5,391.0 V503.0 Z" fill="#3987e5" data-b="696.1 389.3 3.5 113.8"/>
+<text x="702.5" y="384.3" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 702.5 384.3)">10/22</text>
+<path d="M693.8,337.8 L701.8,345.8 M701.8,337.8 L693.8,345.8" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="697.8" y="333.8" fill="#d9e3ea" font-size="13" text-anchor="middle">3</text>
 </g>
 <g class="m" data-s="r2"><title>3 of 22 points (14%)
 r2-click-06plato (round 2, click, UNDO on): 3 of 22 points (14%), 0.14 stages; 398 of 400 commands; last new points at command 12; 4 death(s); ended: stuck (no new points in the last 200 commands)</title>
-<path d="M672.0,503.0 V472.0 Q672.0,469.0 675.0,469.0 H681.2 Q684.2,469.0 684.2,472.0 V503.0 Z" fill="#d95926" data-b="672.0 469.0 12.2 34.0"/>
-<text x="682.8" y="464.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 682.8 464.0)">3/22</text>
-<path d="M674.1,424.0 L682.1,432.0 M682.1,424.0 L674.1,432.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="678.1" y="420.0" fill="#d9e3ea" font-size="13" text-anchor="middle">4</text>
+<path d="M703.5,503.0 V470.7 Q703.5,469.0 705.3,469.0 H705.3 Q707.0,469.0 707.0,470.7 V503.0 Z" fill="#d95926" data-b="703.5 469.0 3.5 34.0"/>
+<text x="710.0" y="464.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 710.0 464.0)">3/22</text>
+<path d="M701.3,424.0 L709.3,432.0 M709.3,424.0 L701.3,432.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="705.3" y="420.0" fill="#d9e3ea" font-size="13" text-anchor="middle">4</text>
 </g>
 <g class="m" data-s="r3"><title>10 of 22 points (46%)
 r3-typed-06plato (round 3, typed, UNDO on): 10 of 22 points (46%), 0.45 stages; 399 of 400 commands; last new points at command 33; 2 death(s); ended: stuck (no new points in the last 200 commands)</title>
-<path d="M688.2,503.0 V392.3 Q688.2,389.3 691.2,389.3 H697.4 Q700.4,389.3 700.4,392.3 V503.0 Z" fill="#199e70" data-b="688.2 389.3 12.2 113.8"/>
-<text x="699.0" y="384.3" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 699.0 384.3)">10/22</text>
-<path d="M690.3,337.8 L698.3,345.8 M698.3,337.8 L690.3,345.8" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="694.3" y="333.8" fill="#d9e3ea" font-size="13" text-anchor="middle">2</text>
+<path d="M711.0,503.0 V391.0 Q711.0,389.3 712.8,389.3 H712.8 Q714.5,389.3 714.5,391.0 V503.0 Z" fill="#199e70" data-b="711.0 389.3 3.5 113.8"/>
+<text x="717.4" y="384.3" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 717.4 384.3)">10/22</text>
+<path d="M708.8,337.8 L716.8,345.8 M716.8,337.8 L708.8,345.8" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="712.8" y="333.8" fill="#d9e3ea" font-size="13" text-anchor="middle">2</text>
 </g>
 <g class="m" data-s="r4"><title>3 of 22 points (14%)
 r4-click-06plato (round 4, click, UNDO on): 3 of 22 points (14%), 0.14 stages; 396 of 400 commands; last new points at command 15; 1 death(s); ended: stuck (no new points in the last 200 commands)</title>
-<path d="M704.4,503.0 V472.0 Q704.4,469.0 707.4,469.0 H713.6 Q716.6,469.0 716.6,472.0 V503.0 Z" fill="#c98500" data-b="704.4 469.0 12.2 34.0"/>
-<text x="715.2" y="464.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 715.2 464.0)">3/22</text>
-<path d="M706.5,424.0 L714.5,432.0 M714.5,424.0 L706.5,432.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="710.5" y="420.0" fill="#d9e3ea" font-size="13" text-anchor="middle">1</text>
+<path d="M718.5,503.0 V470.7 Q718.5,469.0 720.2,469.0 H720.2 Q722.0,469.0 722.0,470.7 V503.0 Z" fill="#c98500" data-b="718.5 469.0 3.5 34.0"/>
+<text x="724.9" y="464.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 724.9 464.0)">3/22</text>
+<path d="M716.2,424.0 L724.2,432.0 M724.2,424.0 L716.2,432.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="720.2" y="420.0" fill="#d9e3ea" font-size="13" text-anchor="middle">1</text>
 </g>
 <g class="m" data-s="r5"><title>10 of 22 points (46%)
 r5-click-06plato (round 5, click, UNDO on): 10 of 22 points (46%), 0.45 stages; 400 of 400 commands; last new points at command 31; 1 death(s); ended: stuck (no new points in the last 200 commands)</title>
-<path d="M720.6,503.0 V392.3 Q720.6,389.3 723.6,389.3 H729.8 Q732.8,389.3 732.8,392.3 V503.0 Z" fill="#9085e9" data-b="720.6 389.3 12.2 113.8"/>
-<text x="731.4" y="384.3" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 731.4 384.3)">10/22</text>
-<path d="M722.7,337.8 L730.7,345.8 M730.7,337.8 L722.7,345.8" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="726.7" y="333.8" fill="#d9e3ea" font-size="13" text-anchor="middle">1</text>
+<path d="M726.0,503.0 V391.0 Q726.0,389.3 727.7,389.3 H727.7 Q729.4,389.3 729.4,391.0 V503.0 Z" fill="#9085e9" data-b="726.0 389.3 3.5 113.8"/>
+<text x="732.4" y="384.3" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 732.4 384.3)">10/22</text>
+<path d="M723.7,337.8 L731.7,345.8 M731.7,337.8 L723.7,345.8" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="727.7" y="333.8" fill="#d9e3ea" font-size="13" text-anchor="middle">1</text>
 </g>
 <g class="m" data-s="r6"><title>29 of 22 points (132%)
-r6-click-06plato (round 6, click, UNDO on): 29 of 22 points (132%), 2 stages; 333 of 400 commands; last new points at command 332; 8 death(s); ended: won</title>
-<path d="M736.8,503.0 V256.0 Q736.8,253.0 739.8,253.0 H746.0 Q749.0,253.0 749.0,256.0 V503.0 Z" fill="#d55181" data-b="736.8 253.0 12.2 250.0"/>
-<text x="747.6" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 747.6 248.0)">29/22 132%</text>
-<path d="M742.9,166.5 L744.6,170.6 L749.1,171.0 L745.7,173.9 L746.7,178.3 L742.9,175.9 L739.1,178.3 L740.1,173.9 L736.7,171.0 L741.2,170.6 Z" fill="#d9e3ea"/>
+r6-click-06plato (round 6, click, UNDO on): 29 of 22 points (132%), 1 stages; 333 of 400 commands; last new points at command 332; 8 death(s); ended: won</title>
+<path d="M733.4,503.0 V254.7 Q733.4,253.0 735.2,253.0 H735.2 Q736.9,253.0 736.9,254.7 V503.0 Z" fill="#d55181" data-b="733.4 253.0 3.5 250.0"/>
+<text x="739.9" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 739.9 248.0)">29/22 132%</text>
+<path d="M735.2,166.5 L736.9,170.6 L741.4,171.0 L738.0,173.9 L739.0,178.3 L735.2,175.9 L731.4,178.3 L732.4,173.9 L729.0,171.0 L733.5,170.6 Z" fill="#d9e3ea"/>
 </g>
-<line x1="760.3" y1="141" x2="760.3" y2="503" stroke="#1f2c37"/>
-<text x="818.1" y="522.0" fill="#d9e3ea" font-size="14" text-anchor="middle">7. Factory</text>
-<text x="818.1" y="539.0" fill="#8fa3b1" font-size="13" text-anchor="middle">7 pts (73-80)</text>
-<text x="782.3" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 782.3 497.0)">none</text>
-<text x="798.5" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 798.5 497.0)">none</text>
+<g class="m" data-s="r14"><title>29 of 22 points (132%)
+r14-veteran-plato (round 14, typed): 29 of 22 points (132%), 1 stages; 800 of 800 commands; last new points at command 274; 6 death(s); ended: won</title>
+<path d="M740.9,503.0 V254.7 Q740.9,253.0 742.7,253.0 H742.7 Q744.4,253.0 744.4,254.7 V503.0 Z" fill="#d95926" data-b="740.9 253.0 3.5 250.0"/>
+<text x="747.3" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 747.3 248.0)">29/22 132%</text>
+<path d="M742.7,166.5 L744.4,170.6 L748.8,171.0 L745.4,173.9 L746.5,178.3 L742.7,175.9 L738.8,178.3 L739.9,173.9 L736.5,171.0 L740.9,170.6 Z" fill="#d9e3ea"/>
+</g>
+<line x1="751.4" y1="141" x2="751.4" y2="503" stroke="#1f2c37"/>
+<text x="782.5" y="522.0" fill="#d9e3ea" font-size="14" text-anchor="middle">12. 06a-no-zapgun</text>
+<text x="782.5" y="539.0" fill="#8fa3b1" font-size="13" text-anchor="middle">0 pts (73-73)</text>
+<text x="764.8" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 764.8 497.0)">none</text>
+<text x="772.3" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 772.3 497.0)">none</text>
+<text x="779.7" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 779.7 497.0)">none</text>
+<text x="787.2" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 787.2 497.0)">none</text>
+<text x="794.7" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 794.7 497.0)">none</text>
+<text x="802.2" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 802.2 497.0)">none</text>
+<text x="809.6" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 809.6 497.0)">none</text>
+<line x1="813.7" y1="141" x2="813.7" y2="503" stroke="#1f2c37"/>
+<text x="844.8" y="522.0" fill="#d9e3ea" font-size="14" text-anchor="middle">13. Factory</text>
+<text x="844.8" y="539.0" fill="#8fa3b1" font-size="13" text-anchor="middle">7 pts (73-80)</text>
+<text x="827.1" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 827.1 497.0)">none</text>
+<text x="834.6" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 834.6 497.0)">none</text>
 <g class="m" data-s="r3"><title>7 of 7 points (100%)
 r3-click-07factory (round 3, click, UNDO on): 7 of 7 points (100%), 1 stages; 38 of 400 commands; last new points at command 38; 3 death(s); ended: won</title>
-<path d="M803.9,503.0 V256.0 Q803.9,253.0 806.9,253.0 H813.1 Q816.1,253.0 816.1,256.0 V503.0 Z" fill="#199e70" data-b="803.9 253.0 12.2 250.0"/>
-<text x="814.7" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 814.7 248.0)">7/7</text>
-<path d="M810.0,212.0 L811.8,216.1 L816.2,216.5 L812.8,219.4 L813.9,223.8 L810.0,221.4 L806.2,223.8 L807.3,219.4 L803.9,216.5 L808.3,216.1 Z" fill="#d9e3ea"/>
+<path d="M835.6,503.0 V254.7 Q835.6,253.0 837.4,253.0 H837.4 Q839.1,253.0 839.1,254.7 V503.0 Z" fill="#199e70" data-b="835.6 253.0 3.5 250.0"/>
+<text x="842.0" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 842.0 248.0)">7/7</text>
+<path d="M837.4,212.0 L839.1,216.1 L843.6,216.5 L840.2,219.4 L841.2,223.8 L837.4,221.4 L833.5,223.8 L834.6,219.4 L831.2,216.5 L835.6,216.1 Z" fill="#d9e3ea"/>
 </g>
 <g class="m" data-s="r4"><title>7 of 7 points (100%)
 r4-typed-07factory (round 4, typed, UNDO on): 7 of 7 points (100%), 1 stages; 35 of 400 commands; last new points at command 33; 0 death(s); ended: won</title>
-<path d="M820.1,503.0 V256.0 Q820.1,253.0 823.1,253.0 H829.3 Q832.3,253.0 832.3,256.0 V503.0 Z" fill="#c98500" data-b="820.1 253.0 12.2 250.0"/>
-<text x="830.9" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 830.9 248.0)">7/7</text>
-<path d="M826.2,212.0 L828.0,216.1 L832.4,216.5 L829.0,219.4 L830.1,223.8 L826.2,221.4 L822.4,223.8 L823.5,219.4 L820.1,216.5 L824.5,216.1 Z" fill="#d9e3ea"/>
+<path d="M843.1,503.0 V254.7 Q843.1,253.0 844.8,253.0 H844.8 Q846.6,253.0 846.6,254.7 V503.0 Z" fill="#c98500" data-b="843.1 253.0 3.5 250.0"/>
+<text x="849.5" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 849.5 248.0)">7/7</text>
+<path d="M844.8,212.0 L846.6,216.1 L851.0,216.5 L847.6,219.4 L848.7,223.8 L844.8,221.4 L841.0,223.8 L842.1,219.4 L838.7,216.5 L843.1,216.1 Z" fill="#d9e3ea"/>
 </g>
 <g class="m" data-s="r5"><title>7 of 7 points (100%)
 r5-typed-07factory (round 5, typed, UNDO on): 7 of 7 points (100%), 1 stages; 30 of 400 commands; last new points at command 18; 1 death(s); ended: won</title>
-<path d="M836.3,503.0 V256.0 Q836.3,253.0 839.3,253.0 H845.5 Q848.5,253.0 848.5,256.0 V503.0 Z" fill="#9085e9" data-b="836.3 253.0 12.2 250.0"/>
-<text x="847.1" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 847.1 248.0)">7/7</text>
-<path d="M842.4,212.0 L844.2,216.1 L848.6,216.5 L845.2,219.4 L846.3,223.8 L842.4,221.4 L838.6,223.8 L839.7,219.4 L836.3,216.5 L840.7,216.1 Z" fill="#d9e3ea"/>
+<path d="M850.6,503.0 V254.7 Q850.6,253.0 852.3,253.0 H852.3 Q854.1,253.0 854.1,254.7 V503.0 Z" fill="#9085e9" data-b="850.6 253.0 3.5 250.0"/>
+<text x="857.0" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 857.0 248.0)">7/7</text>
+<path d="M852.3,212.0 L854.0,216.1 L858.5,216.5 L855.1,219.4 L856.1,223.8 L852.3,221.4 L848.5,223.8 L849.5,219.4 L846.1,216.5 L850.6,216.1 Z" fill="#d9e3ea"/>
 </g>
 <g class="m" data-s="r6"><title>7 of 7 points (100%)
 r6-typed-07factory (round 6, typed, UNDO on): 7 of 7 points (100%), 1 stages; 17 of 400 commands; last new points at command 17; 0 death(s); ended: won</title>
-<path d="M852.5,503.0 V256.0 Q852.5,253.0 855.5,253.0 H861.7 Q864.7,253.0 864.7,256.0 V503.0 Z" fill="#d55181" data-b="852.5 253.0 12.2 250.0"/>
-<text x="863.3" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 863.3 248.0)">7/7</text>
-<path d="M858.6,212.0 L860.4,216.1 L864.8,216.5 L861.4,219.4 L862.5,223.8 L858.6,221.4 L854.8,223.8 L855.9,219.4 L852.5,216.5 L856.9,216.1 Z" fill="#d9e3ea"/>
+<path d="M858.1,503.0 V254.7 Q858.1,253.0 859.8,253.0 H859.8 Q861.5,253.0 861.5,254.7 V503.0 Z" fill="#d55181" data-b="858.1 253.0 3.5 250.0"/>
+<text x="864.5" y="248.0" fill="#d9e3ea" font-size="13" text-anchor="start" transform="rotate(-90 864.5 248.0)">7/7</text>
+<path d="M859.8,212.0 L861.5,216.1 L866.0,216.5 L862.6,219.4 L863.6,223.8 L859.8,221.4 L856.0,223.8 L857.0,219.4 L853.6,216.5 L858.1,216.1 Z" fill="#d9e3ea"/>
 </g>
+<text x="872.0" y="497.0" fill="#5d7282" font-size="13" text-anchor="start" transform="rotate(-90 872.0 497.0)">none</text>
 <rect x="66" y="141" width="810" height="362" fill="none" stroke="#34495a"/>
-<text x="66.0" y="563.0" fill="#8fa3b1" font-size="13" text-anchor="start">Bars left to right in each stage: round 1, round 2, round 3, round 4, round 5, round 6. &quot;none&quot;: no session started there that</text>
-<text x="66.0" y="580.0" fill="#8fa3b1" font-size="13" text-anchor="start">round (not zero). A thin bar on the axis is a session that gained nothing.</text>
+<text x="66.0" y="563.0" fill="#8fa3b1" font-size="13" text-anchor="start">Bars left to right in each stage: round 1, round 2, round 3, round 4, round 5, round 6, round 14. &quot;none&quot;: no session started</text>
+<text x="66.0" y="580.0" fill="#8fa3b1" font-size="13" text-anchor="start">there that round (not zero). A thin bar on the axis is a session that gained nothing.</text>
 </svg>

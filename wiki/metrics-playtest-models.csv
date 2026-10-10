@@ -1,0 +1,7 @@
+host_and_model,model,rounds,runs,legs,commands,rows_per_100,negative_per_100,weighted_per_100
+"Copilot (Claude Opus 5.5, then GPT-6 Luna)","Claude Opus 5.5 and GPT-6 Luna, mixed",13,3,12,3070,22.02,10.98,17.1
+Claude Code (Claude Opus 5.5),Claude Opus 5.5 (named in the log),13,2,2,237,6.33,2.95,5.49
+Copilot (Claude Opus 5.5),Claude Opus 5.5 (named in the log),13,3,3,1200,4.67,2.33,3.67
+host not recorded,model not named in the log,7,3,3,1102,2.36,1.81,3.9
+Claude Code,model not named in the log,7 8 9 10 11 12,18,69,25862,2.78,1.59,2.71
+Claude Code (claude-opus-5-5),Claude Opus 5.5 (named in the log),14,2,9,3000,2.63,1.5,2.5

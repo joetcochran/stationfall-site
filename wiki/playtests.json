@@ -2286,6 +2286,294 @@
      "hasDiary": true
     }
    ]
+  },
+  {
+   "round": "13",
+   "kind": "full",
+   "dates": [
+    "2026-10-06"
+   ],
+   "file": "playtests-r13.json",
+   "triage": {
+    "date": "2026-10-06",
+    "name": "ROUND-13-TRIAGE.md"
+   },
+   "stats": {
+    "commands": 4507,
+    "bestScore": 47,
+    "deaths": 21,
+    "wins": 0,
+    "undoSessions": 0,
+    "undos": 0,
+    "friction": {
+     "rows": 747,
+     "negative": 372,
+     "byKind": {
+      "nice": 375,
+      "blocked": 131,
+      "bug": 10,
+      "parse": 53,
+      "not-understood": 22,
+      "confusing": 126,
+      "tedious": 24,
+      "other": 6
+     },
+     "bySeverity": {
+      "low": 205,
+      "medium": 124,
+      "high": 43
+     },
+     "per100": 16.57,
+     "negativePer100": 8.25,
+     "weightedPer100": 12.91,
+     "byKindPer100": {
+      "nice": 8.32,
+      "blocked": 2.91,
+      "bug": 0.22,
+      "parse": 1.18,
+      "not-understood": 0.49,
+      "confusing": 2.8,
+      "tedious": 0.53,
+      "other": 0.13
+     },
+     "bySeverityPer100": {
+      "low": 4.55,
+      "medium": 2.75,
+      "high": 0.95
+     }
+    },
+    "issues": {
+     "touched": 93,
+     "linkedRows": 372,
+     "unlinkedRows": 375,
+     "repeatRows": 177,
+     "repeatRate": 0.476
+    }
+   },
+   "sessions": [
+    {
+     "session": "r13-typed-full",
+     "date": "2026-10-06",
+     "mode": "typed",
+     "sub": "typed",
+     "subLabel": "typed",
+     "kind": "full",
+     "label": "full run",
+     "checkpoint": "01-duffy",
+     "persona": "a stage-magic hobbyist who notices every object, keeps a written inventory and types full sentences",
+     "outcome": "cap",
+     "stuckAt": 1381,
+     "commands": 1505,
+     "legs": 5,
+     "lives": 3,
+     "bestScore": 27,
+     "startScore": 0,
+     "deaths": 4,
+     "won": false,
+     "friction": 273,
+     "undo": false,
+     "undos": 0,
+     "clicksWithoutTurn": 0,
+     "frictionNegative": 131,
+     "hasDiary": true
+    },
+    {
+     "session": "r13-click-fullA",
+     "date": "2026-10-06",
+     "mode": "click",
+     "sub": "click-a",
+     "subLabel": "click A",
+     "kind": "full",
+     "label": "run A",
+     "checkpoint": "01-duffy",
+     "persona": "a museum docent in their sixties on a laptop trackpad who reads everything slowly and twice",
+     "outcome": "cap",
+     "stuckAt": 1381,
+     "commands": 1501,
+     "legs": 7,
+     "lives": 1,
+     "bestScore": 47,
+     "startScore": 0,
+     "deaths": 7,
+     "won": false,
+     "friction": 256,
+     "undo": false,
+     "undos": 0,
+     "clicksWithoutTurn": 609,
+     "frictionNegative": 128,
+     "hasDiary": true
+    },
+    {
+     "session": "r13-click-fullB",
+     "date": "2026-10-06",
+     "mode": "click",
+     "sub": "click-b",
+     "subLabel": "click B",
+     "kind": "full",
+     "label": "run B",
+     "checkpoint": "01-duffy",
+     "persona": "a sixteen-year-old who plays survival-crafting games and opens every container looking for loot",
+     "outcome": "cap",
+     "stuckAt": 1336,
+     "commands": 1501,
+     "legs": 5,
+     "lives": 1,
+     "bestScore": 38,
+     "startScore": 0,
+     "deaths": 10,
+     "won": false,
+     "friction": 218,
+     "undo": false,
+     "undos": 0,
+     "clicksWithoutTurn": 520,
+     "frictionNegative": 113,
+     "hasDiary": true
+    }
+   ]
+  },
+  {
+   "round": "14",
+   "kind": "full",
+   "dates": [
+    "2026-10-08"
+   ],
+   "file": "playtests-r14.json",
+   "triage": {
+    "date": "2026-10-08",
+    "name": "ROUND-14-TRIAGE.md"
+   },
+   "stats": {
+    "commands": 3800,
+    "bestScore": 80,
+    "deaths": 26,
+    "wins": 1,
+    "undoSessions": 0,
+    "undos": 0,
+    "friction": {
+     "rows": 102,
+     "negative": 61,
+     "byKind": {
+      "nice": 41,
+      "blocked": 9,
+      "bug": 7,
+      "parse": 9,
+      "not-understood": 2,
+      "confusing": 20,
+      "tedious": 5,
+      "other": 9
+     },
+     "bySeverity": {
+      "low": 30,
+      "medium": 26,
+      "high": 5
+     },
+     "per100": 2.68,
+     "negativePer100": 1.61,
+     "weightedPer100": 2.55,
+     "byKindPer100": {
+      "nice": 1.08,
+      "blocked": 0.24,
+      "bug": 0.18,
+      "parse": 0.24,
+      "not-understood": 0.05,
+      "confusing": 0.53,
+      "tedious": 0.13,
+      "other": 0.24
+     },
+     "bySeverityPer100": {
+      "low": 0.79,
+      "medium": 0.68,
+      "high": 0.13
+     }
+    },
+    "issues": {
+     "touched": 41,
+     "linkedRows": 61,
+     "unlinkedRows": 41,
+     "repeatRows": 46,
+     "repeatRate": 0.754
+    }
+   },
+   "sessions": [
+    {
+     "session": "r14-typed-full",
+     "date": "2026-10-08",
+     "mode": "typed",
+     "sub": "typed",
+     "subLabel": "typed",
+     "kind": "full",
+     "label": "full run",
+     "checkpoint": "01-duffy",
+     "persona": "a retired air-traffic controller who logs every clock reading, plans each move and types complete sentences",
+     "outcome": "cap",
+     "stuckAt": 1462,
+     "commands": 1500,
+     "legs": 4,
+     "lives": 1,
+     "bestScore": 54,
+     "startScore": 0,
+     "deaths": 10,
+     "won": false,
+     "friction": 36,
+     "undo": false,
+     "undos": 0,
+     "clicksWithoutTurn": 0,
+     "frictionNegative": 25,
+     "hasDiary": true
+    },
+    {
+     "session": "r14-veteran-plato",
+     "date": "2026-10-08",
+     "mode": "typed",
+     "sub": "typed",
+     "subLabel": "typed",
+     "kind": "segmented",
+     "label": "from 06-plato",
+     "checkpoint": "06-plato",
+     "persona": "a text-adventure veteran who finished every Infocom game in the 1980s, maps carefully, examines everything twice, keeps a save from before every step that cannot be undone and never saves over it, and after anything knocks them down gathers up everything dropped",
+     "outcome": "won",
+     "stuckAt": 274,
+     "commands": 800,
+     "legs": 3,
+     "lives": 5,
+     "bestScore": 80,
+     "startScore": 51,
+     "deaths": 6,
+     "won": true,
+     "friction": 23,
+     "undo": false,
+     "undos": 0,
+     "clicksWithoutTurn": 0,
+     "frictionNegative": 16,
+     "hasDiary": true
+    },
+    {
+     "session": "r14-click-full",
+     "date": "2026-10-08",
+     "mode": "click",
+     "sub": "click",
+     "subLabel": "click",
+     "kind": "full",
+     "label": "full run",
+     "checkpoint": "01-duffy",
+     "persona": "a night-shift nurse who plays in short bursts on a tablet, saves often and distrusts anything that looks dangerous",
+     "outcome": "cap",
+     "stuckAt": 1419,
+     "commands": 1500,
+     "legs": 5,
+     "lives": 1,
+     "bestScore": 71,
+     "startScore": 0,
+     "deaths": 10,
+     "won": false,
+     "friction": 43,
+     "undo": false,
+     "undos": 0,
+     "clicksWithoutTurn": 361,
+     "frictionNegative": 20,
+     "hasDiary": true
+    }
+   ]
   }
  ]
 }

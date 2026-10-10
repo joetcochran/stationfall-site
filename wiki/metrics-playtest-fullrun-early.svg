@@ -61,26 +61,43 @@
 <text x="290.0" y="120.0" fill="#d9e3ea" font-size="14" text-anchor="start">stuck point (last new best)</text>
 <line x1="495" y1="115" x2="517" y2="115" stroke="#8fa3b1" stroke-width="2" stroke-dasharray="5 3"/>
 <text x="523.0" y="120.0" fill="#d9e3ea" font-size="14" text-anchor="start">dashed line: still playing</text>
-<rect x="66" y="538.5" width="698" height="25.5" fill="#1f2c37"/>
-<text x="772.0" y="556.3" fill="#d9e3ea" font-size="13" text-anchor="start">Duffy 0-5</text>
+<rect x="66" y="564.0" width="698" height="0.0" fill="#1f2c37"/>
+<text x="772.0" y="569.0" fill="#d9e3ea" font-size="13" text-anchor="start">Duffy 0-0</text>
+<line x1="66" y1="564.0" x2="764" y2="564.0" stroke="#34495a" stroke-width="0.6"/>
+<text x="772.0" y="556.3" fill="#d9e3ea" font-size="13" text-anchor="start">01b-launched 0-5</text>
+<rect x="66" y="538.5" width="698" height="0.0" fill="#1f2c37"/>
 <line x1="66" y1="538.5" x2="764" y2="538.5" stroke="#34495a" stroke-width="0.6"/>
-<text x="772.0" y="528.2" fill="#d9e3ea" font-size="13" text-anchor="start">Station 5-11</text>
-<rect x="66" y="446.7" width="698" height="61.2" fill="#1f2c37"/>
+<text x="772.0" y="543.5" fill="#d9e3ea" font-size="13" text-anchor="start">Station 5-5</text>
+<line x1="66" y1="538.5" x2="764" y2="538.5" stroke="#34495a" stroke-width="0.6"/>
+<text x="772.0" y="543.5" fill="#d9e3ea" font-size="13" text-anchor="start">02a-car-at-seven 5-5</text>
+<rect x="66" y="507.9" width="698" height="30.6" fill="#1f2c37"/>
+<line x1="66" y1="538.5" x2="764" y2="538.5" stroke="#34495a" stroke-width="0.6"/>
+<text x="772.0" y="528.2" fill="#d9e3ea" font-size="13" text-anchor="start">02b-laundry 5-11</text>
 <line x1="66" y1="507.9" x2="764" y2="507.9" stroke="#34495a" stroke-width="0.6"/>
-<text x="772.0" y="482.3" fill="#d9e3ea" font-size="13" text-anchor="start">Village 11-23</text>
+<text x="772.0" y="502.7" fill="#d9e3ea" font-size="13" text-anchor="start">Village 11-15</text>
+<rect x="66" y="472.2" width="698" height="15.3" fill="#1f2c37"/>
+<line x1="66" y1="487.5" x2="764" y2="487.5" stroke="#34495a" stroke-width="0.6"/>
+<text x="772.0" y="484.9" fill="#d9e3ea" font-size="13" text-anchor="start">03a-pet-store 15-18</text>
+<line x1="66" y1="472.2" x2="764" y2="472.2" stroke="#34495a" stroke-width="0.6"/>
+<text x="772.0" y="464.5" fill="#d9e3ea" font-size="13" text-anchor="start">03b-rank8 18-23</text>
+<rect x="66" y="431.4" width="698" height="15.3" fill="#1f2c37"/>
 <line x1="66" y1="446.7" x2="764" y2="446.7" stroke="#34495a" stroke-width="0.6"/>
 <text x="772.0" y="444.1" fill="#d9e3ea" font-size="13" text-anchor="start">Day 1 end 23-26</text>
-<rect x="66" y="303.9" width="698" height="127.5" fill="#1f2c37"/>
 <line x1="66" y1="431.4" x2="764" y2="431.4" stroke="#34495a" stroke-width="0.6"/>
 <text x="772.0" y="372.7" fill="#d9e3ea" font-size="13" text-anchor="start">Day 2 26-51</text>
+<rect x="66" y="191.7" width="698" height="112.2" fill="#1f2c37"/>
 <line x1="66" y1="303.9" x2="764" y2="303.9" stroke="#34495a" stroke-width="0.6"/>
 <text x="772.0" y="252.8" fill="#d9e3ea" font-size="13" text-anchor="start">Plato 51-73</text>
+<line x1="66" y1="191.7" x2="764" y2="191.7" stroke="#34495a" stroke-width="0.6"/>
+<text x="772.0" y="196.7" fill="#d9e3ea" font-size="13" text-anchor="start">06a-no-zapgun 73-73</text>
 <rect x="66" y="156.0" width="698" height="35.7" fill="#1f2c37"/>
 <line x1="66" y1="191.7" x2="764" y2="191.7" stroke="#34495a" stroke-width="0.6"/>
 <text x="772.0" y="178.8" fill="#d9e3ea" font-size="13" text-anchor="start">Factory 73-80</text>
 <text x="58.0" y="569.0" fill="#8fa3b1" font-size="14" text-anchor="end">0</text>
 <text x="58.0" y="543.5" fill="#8fa3b1" font-size="14" text-anchor="end">5</text>
 <text x="58.0" y="512.9" fill="#8fa3b1" font-size="14" text-anchor="end">11</text>
+<text x="58.0" y="492.5" fill="#8fa3b1" font-size="14" text-anchor="end">15</text>
+<text x="58.0" y="477.2" fill="#8fa3b1" font-size="14" text-anchor="end">18</text>
 <text x="58.0" y="451.7" fill="#8fa3b1" font-size="14" text-anchor="end">23</text>
 <text x="58.0" y="436.4" fill="#8fa3b1" font-size="14" text-anchor="end">26</text>
 <text x="58.0" y="308.9" fill="#8fa3b1" font-size="14" text-anchor="end">51</text>

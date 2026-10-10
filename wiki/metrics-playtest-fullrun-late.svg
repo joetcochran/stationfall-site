@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 639" width="900" height="639" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="Full runs, late group (rounds 11 and 12): score over commands" data-csv="metrics-playtest-fullrun.csv">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 661" width="900" height="661" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="Full runs, late group (rounds 11 to 14): score over commands" data-csv="metrics-playtest-fullrun.csv">
 <defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#111a22"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8fa3b1" stroke-width="2"/></pattern></defs>
-<rect width="900" height="639" fill="#111a22" rx="6"/>
-<text x="66.0" y="28.0" fill="#d9e3ea" font-size="18" text-anchor="start" font-weight="600">Full runs, late group (rounds 11 and 12): score over commands</text>
-<text x="66.0" y="610.0" fill="#8fa3b1" font-size="13" text-anchor="start">Best score so far over commands used, all legs. Stages are bands on the score axis, from the walkthrough's score at each</text>
-<text x="66.0" y="627.0" fill="#8fa3b1" font-size="13" text-anchor="start">checkpoint (80 wins).</text>
+<rect width="900" height="661" fill="#111a22" rx="6"/>
+<text x="66.0" y="28.0" fill="#d9e3ea" font-size="18" text-anchor="start" font-weight="600">Full runs, late group (rounds 11 to 14): score over commands</text>
+<text x="66.0" y="632.0" fill="#8fa3b1" font-size="13" text-anchor="start">Best score so far over commands used, all legs. Stages are bands on the score axis, from the walkthrough's score at each</text>
+<text x="66.0" y="649.0" fill="#8fa3b1" font-size="13" text-anchor="start">checkpoint (80 wins).</text>
 <g class="lg" data-s="run-r11-click-fulla" data-round="11" data-session="r11-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><line x1="66" y1="49" x2="88" y2="49" stroke="#9085e9" stroke-width="2.5"/>
 <text x="94.0" y="54.0" fill="#d9e3ea" font-size="14" text-anchor="start">r11 click A</text>
 </g>
@@ -22,262 +22,452 @@
 <g class="lg" data-s="run-r12-typed-full" data-round="12" data-session="r12-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><line x1="657" y1="49" x2="679" y2="49" stroke="#f3cedc" stroke-width="2.5"/>
 <text x="685.0" y="54.0" fill="#d9e3ea" font-size="14" text-anchor="start">r12 typed</text>
 </g>
-<text x="66.0" y="76.0" fill="#d9e3ea" font-size="14" text-anchor="start">Where a run ended:</text>
-<path d="M214.0,63.0 L216.1,68.1 L221.6,68.5 L217.4,72.1 L218.7,77.5 L214.0,74.6 L209.3,77.5 L210.6,72.1 L206.4,68.5 L211.9,68.1 Z" fill="#d9e3ea"/>
-<text x="224.0" y="76.0" fill="#d9e3ea" font-size="14" text-anchor="start">won</text>
-<circle cx="267.0" cy="71.0" r="5.5" fill="#111a22" stroke="#d9e3ea" stroke-width="2.2"/>
-<text x="277.0" y="76.0" fill="#d9e3ea" font-size="14" text-anchor="start">stuck</text>
-<path d="M328.0,65.0 L340.0,65.0 L334.0,77.0 Z" fill="#d9e3ea" stroke="#111a22" stroke-width="1"/><line x1="327.0" y1="62.0" x2="341.0" y2="62.0" stroke="#d9e3ea" stroke-width="2"/>
-<text x="344.0" y="76.0" fill="#d9e3ea" font-size="14" text-anchor="start">cap reached</text>
-<path d="M438.0,66.0 L448.0,76.0 M448.0,66.0 L438.0,76.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="453.0" y="76.0" fill="#d9e3ea" font-size="14" text-anchor="start">died</text>
-<rect x="498.0" y="66.0" width="10.0" height="10.0" fill="#111a22" stroke="#d9e3ea" stroke-width="1.8"/>
-<text x="513.0" y="76.0" fill="#d9e3ea" font-size="14" text-anchor="start">cut off</text>
-<rect x="579.0" y="66.0" width="10.0" height="10.0" fill="url(#hatch)" stroke="#d9e3ea" stroke-width="1.8"/>
-<text x="594.0" y="76.0" fill="#d9e3ea" font-size="14" text-anchor="start">still playing</text>
-<path d="M68.0,89.0 L76.0,97.0 M76.0,89.0 L68.0,97.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
-<text x="82.0" y="98.0" fill="#d9e3ea" font-size="14" text-anchor="start">death</text>
-<line x1="133" y1="93" x2="147" y2="93" stroke="#8fa3b1" stroke-width="2"/><line x1="140" y1="86" x2="140" y2="100" stroke="#d9e3ea" stroke-width="2"/>
-<text x="153.0" y="98.0" fill="#d9e3ea" font-size="14" text-anchor="start">a new leg began</text>
-<circle cx="280" cy="93" r="4" fill="#111a22" stroke="#d9e3ea" stroke-width="2"/>
-<text x="290.0" y="98.0" fill="#d9e3ea" font-size="14" text-anchor="start">stuck point (last new best)</text>
-<line x1="495" y1="93" x2="517" y2="93" stroke="#8fa3b1" stroke-width="2" stroke-dasharray="5 3"/>
-<text x="523.0" y="98.0" fill="#d9e3ea" font-size="14" text-anchor="start">dashed line: still playing</text>
-<rect x="66" y="516.5" width="698" height="25.5" fill="#1f2c37"/>
-<text x="772.0" y="534.3" fill="#d9e3ea" font-size="13" text-anchor="start">Duffy 0-5</text>
-<line x1="66" y1="516.5" x2="764" y2="516.5" stroke="#34495a" stroke-width="0.6"/>
-<text x="772.0" y="506.2" fill="#d9e3ea" font-size="13" text-anchor="start">Station 5-11</text>
-<rect x="66" y="424.7" width="698" height="61.2" fill="#1f2c37"/>
-<line x1="66" y1="485.9" x2="764" y2="485.9" stroke="#34495a" stroke-width="0.6"/>
-<text x="772.0" y="460.3" fill="#d9e3ea" font-size="13" text-anchor="start">Village 11-23</text>
-<line x1="66" y1="424.7" x2="764" y2="424.7" stroke="#34495a" stroke-width="0.6"/>
-<text x="772.0" y="422.1" fill="#d9e3ea" font-size="13" text-anchor="start">Day 1 end 23-26</text>
-<rect x="66" y="281.9" width="698" height="127.5" fill="#1f2c37"/>
-<line x1="66" y1="409.4" x2="764" y2="409.4" stroke="#34495a" stroke-width="0.6"/>
-<text x="772.0" y="350.7" fill="#d9e3ea" font-size="13" text-anchor="start">Day 2 26-51</text>
-<line x1="66" y1="281.9" x2="764" y2="281.9" stroke="#34495a" stroke-width="0.6"/>
-<text x="772.0" y="230.8" fill="#d9e3ea" font-size="13" text-anchor="start">Plato 51-73</text>
-<rect x="66" y="134.0" width="698" height="35.7" fill="#1f2c37"/>
-<line x1="66" y1="169.7" x2="764" y2="169.7" stroke="#34495a" stroke-width="0.6"/>
-<text x="772.0" y="156.8" fill="#d9e3ea" font-size="13" text-anchor="start">Factory 73-80</text>
-<text x="58.0" y="547.0" fill="#8fa3b1" font-size="14" text-anchor="end">0</text>
-<text x="58.0" y="521.5" fill="#8fa3b1" font-size="14" text-anchor="end">5</text>
-<text x="58.0" y="490.9" fill="#8fa3b1" font-size="14" text-anchor="end">11</text>
-<text x="58.0" y="429.7" fill="#8fa3b1" font-size="14" text-anchor="end">23</text>
-<text x="58.0" y="414.4" fill="#8fa3b1" font-size="14" text-anchor="end">26</text>
-<text x="58.0" y="286.9" fill="#8fa3b1" font-size="14" text-anchor="end">51</text>
-<text x="58.0" y="174.7" fill="#8fa3b1" font-size="14" text-anchor="end">73</text>
-<text x="58.0" y="139.0" fill="#d9e3ea" font-size="14" text-anchor="end">80 win</text>
-<text x="14.0" y="338.0" fill="#8fa3b1" font-size="14" text-anchor="middle" transform="rotate(-90 14.0 338.0)">score</text>
-<g class="tx" data-kind="num" data-dom="0 1500" data-px="66 134 698 408" data-th="#34495a #d9e3ea #8fa3b1 14">
-<text x="66.0" y="561.0" fill="#8fa3b1" font-size="14" text-anchor="start">0</text>
-<line x1="182.3" y1="134" x2="182.3" y2="542" stroke="#34495a" stroke-opacity="0.45" stroke-dasharray="2 4"/>
-<text x="182.3" y="561.0" fill="#8fa3b1" font-size="14" text-anchor="middle">250</text>
-<line x1="298.7" y1="134" x2="298.7" y2="542" stroke="#34495a" stroke-opacity="0.45" stroke-dasharray="2 4"/>
-<text x="298.7" y="561.0" fill="#8fa3b1" font-size="14" text-anchor="middle">500</text>
-<line x1="415.0" y1="134" x2="415.0" y2="542" stroke="#34495a" stroke-opacity="0.45" stroke-dasharray="2 4"/>
-<text x="415.0" y="561.0" fill="#8fa3b1" font-size="14" text-anchor="middle">750</text>
-<line x1="531.3" y1="134" x2="531.3" y2="542" stroke="#34495a" stroke-opacity="0.45" stroke-dasharray="2 4"/>
-<text x="531.3" y="561.0" fill="#8fa3b1" font-size="14" text-anchor="middle">1000</text>
-<line x1="647.7" y1="134" x2="647.7" y2="542" stroke="#34495a" stroke-opacity="0.45" stroke-dasharray="2 4"/>
-<text x="647.7" y="561.0" fill="#8fa3b1" font-size="14" text-anchor="middle">1250</text>
-<line x1="764.0" y1="134" x2="764.0" y2="542" stroke="#34495a" stroke-opacity="0.45" stroke-dasharray="2 4"/>
-<text x="764.0" y="561.0" fill="#8fa3b1" font-size="14" text-anchor="end">1500</text>
+<g class="lg" data-s="run-r13-click-fulla" data-round="13" data-session="r13-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><line x1="764" y1="49" x2="786" y2="49" stroke="#3987e5" stroke-width="2.5"/>
+<text x="792.0" y="54.0" fill="#d9e3ea" font-size="14" text-anchor="start">r13 click A</text>
 </g>
-<text x="415.0" y="582.0" fill="#8fa3b1" font-size="14" text-anchor="middle">commands used, all legs (1,500: the cap)</text>
-<line x1="66" y1="134.0" x2="764" y2="134.0" stroke="#8fa3b1" stroke-dasharray="3 3"/>
-<g class="tz" data-kind="num" data-dom="0 1500" data-px="66 134 698 408">
-<g class="m ln" data-s="run-r11-click-fulla" data-round="11" data-session="r11-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r11-click-fullA (round 11, click A): 47 of 80 points in 1500 commands over 4 leg(s); furthest stage Day 2; last new best at command 625; 6 death(s); outcome: command cap reached</title><path d="M66.0,542.0 H79.5 V516.5 H120.0 V501.2 H158.6 V485.9 H185.1 V455.3 H197.7 V434.9 H246.5 V409.4 H268.9 V373.7 H334.0 V358.4 H348.9 V332.9 H356.8 V302.3 H764.0" fill="none" stroke="#9085e9" stroke-width="2.2" stroke-linejoin="round"/></g>
-<g class="m ln" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r11-click-fullB (round 11, click B): 73 of 80 points in 1499 commands over 4 leg(s); furthest stage Factory; last new best at command 1183; 16 death(s); outcome: command cap reached</title><path d="M66.0,542.0 H86.5 V516.5 H100.9 V501.2 H140.9 V485.9 H212.1 V455.3 H233.1 V434.9 H247.9 V414.5 H271.7 V399.2 H281.0 V363.5 H397.8 V338.0 H412.2 V312.5 H473.2 V297.2 H480.1 V266.6 H506.2 V251.3 H562.0 V230.9 H607.6 V215.6 H610.0 V179.9 H616.5 V169.7 H763.5" fill="none" stroke="#c2bcf3" stroke-width="2.2" stroke-linejoin="round"/></g>
-<g class="m ln" data-s="run-r11-typed-full" data-round="11" data-session="r11-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r11-typed-full (round 11, typed): 54 of 80 points in 1500 commands over 4 leg(s); furthest stage Plato; last new best at command 1420; 6 death(s); outcome: command cap reached</title><path d="M66.0,542.0 H89.3 V516.5 H121.8 V501.2 H168.8 V485.9 H203.3 V455.3 H247.9 V429.8 H346.1 V414.5 H351.2 V378.8 H393.6 V343.1 H519.2 V322.7 H541.6 V307.4 H562.5 V281.9 H726.8 V266.6 H764.0" fill="none" stroke="#e0ddf9" stroke-width="2.2" stroke-linejoin="round"/></g>
-<g class="m ln" data-s="run-r12-click-fulla" data-round="12" data-session="r12-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r12-click-fullA (round 12, click A): 53 of 80 points in 1500 commands over 4 leg(s); furthest stage Plato; last new best at command 1386; 11 death(s); outcome: command cap reached</title><path d="M66.0,542.0 H85.1 V516.5 H118.1 V501.2 H146.0 V485.9 H206.1 V455.3 H219.1 V434.9 H278.2 V409.4 H303.8 V373.7 H317.3 V358.4 H480.1 V322.7 H571.4 V317.6 H588.6 V302.3 H608.1 V287.0 H711.0 V271.7 H764.0" fill="none" stroke="#d55181" stroke-width="2.2" stroke-linejoin="round"/></g>
-<g class="m ln" data-s="run-r12-click-fullb" data-round="12" data-session="r12-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="stuck"><title>r12-click-fullB (round 12, click B): 53 of 80 points in 1461 commands over 4 leg(s); furthest stage Plato; last new best at command 1221; 3 death(s); outcome: stuck: stopped short, judging the game unwinnable or blocked</title><path d="M66.0,542.0 H83.2 V516.5 H111.1 V501.2 H117.7 V485.9 H199.1 V455.3 H256.8 V434.9 H357.8 V419.6 H395.0 V404.3 H402.9 V394.1 H409.4 V368.6 H572.3 V348.2 H596.5 V332.9 H603.9 V302.3 H619.3 V287.0 H634.2 V271.7 H745.9" fill="none" stroke="#e89fba" stroke-width="2.2" stroke-linejoin="round"/></g>
-<g class="m ln" data-s="run-r12-typed-full" data-round="12" data-session="r12-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r12-typed-full (round 12, typed): 67 of 80 points in 1500 commands over 4 leg(s); furthest stage Plato; last new best at command 1453; 10 death(s); outcome: command cap reached</title><path d="M66.0,542.0 H86.9 V516.5 H102.3 V501.2 H133.0 V485.9 H195.8 V455.3 H227.0 V429.8 H338.7 V414.5 H343.8 V378.8 H373.1 V343.1 H413.1 V322.7 H434.1 V307.4 H468.0 V281.9 H481.1 V266.6 H679.3 V251.3 H707.7 V236.0 H742.1 V200.3 H764.0" fill="none" stroke="#f3cedc" stroke-width="2.2" stroke-linejoin="round"/></g>
+<g class="lg" data-s="run-r13-click-fullb" data-round="13" data-session="r13-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><line x1="66" y1="71" x2="88" y2="71" stroke="#92bdf1" stroke-width="2.5"/>
+<text x="94.0" y="76.0" fill="#d9e3ea" font-size="14" text-anchor="start">r13 click B</text>
+</g>
+<g class="lg" data-s="run-r13-typed-full" data-round="13" data-session="r13-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><line x1="187" y1="71" x2="209" y2="71" stroke="#c8ddf8" stroke-width="2.5"/>
+<text x="215.0" y="76.0" fill="#d9e3ea" font-size="14" text-anchor="start">r13 typed</text>
+</g>
+<g class="lg" data-s="run-r14-click-full" data-round="14" data-session="r14-click-full" data-mode="click" data-sub="click" data-outcome="cap"><line x1="294" y1="71" x2="316" y2="71" stroke="#d95926" stroke-width="2.5"/>
+<text x="322.0" y="76.0" fill="#d9e3ea" font-size="14" text-anchor="start">r14 click</text>
+</g>
+<g class="lg" data-s="run-r14-typed-full" data-round="14" data-session="r14-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><line x1="401" y1="71" x2="423" y2="71" stroke="#eaa488" stroke-width="2.5"/>
+<text x="429.0" y="76.0" fill="#d9e3ea" font-size="14" text-anchor="start">r14 typed</text>
+</g>
+<text x="66.0" y="98.0" fill="#d9e3ea" font-size="14" text-anchor="start">Where a run ended:</text>
+<path d="M214.0,85.0 L216.1,90.1 L221.6,90.5 L217.4,94.1 L218.7,99.5 L214.0,96.6 L209.3,99.5 L210.6,94.1 L206.4,90.5 L211.9,90.1 Z" fill="#d9e3ea"/>
+<text x="224.0" y="98.0" fill="#d9e3ea" font-size="14" text-anchor="start">won</text>
+<circle cx="267.0" cy="93.0" r="5.5" fill="#111a22" stroke="#d9e3ea" stroke-width="2.2"/>
+<text x="277.0" y="98.0" fill="#d9e3ea" font-size="14" text-anchor="start">stuck</text>
+<path d="M328.0,87.0 L340.0,87.0 L334.0,99.0 Z" fill="#d9e3ea" stroke="#111a22" stroke-width="1"/><line x1="327.0" y1="84.0" x2="341.0" y2="84.0" stroke="#d9e3ea" stroke-width="2"/>
+<text x="344.0" y="98.0" fill="#d9e3ea" font-size="14" text-anchor="start">cap reached</text>
+<path d="M438.0,88.0 L448.0,98.0 M448.0,88.0 L438.0,98.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="453.0" y="98.0" fill="#d9e3ea" font-size="14" text-anchor="start">died</text>
+<rect x="498.0" y="88.0" width="10.0" height="10.0" fill="#111a22" stroke="#d9e3ea" stroke-width="1.8"/>
+<text x="513.0" y="98.0" fill="#d9e3ea" font-size="14" text-anchor="start">cut off</text>
+<rect x="579.0" y="88.0" width="10.0" height="10.0" fill="url(#hatch)" stroke="#d9e3ea" stroke-width="1.8"/>
+<text x="594.0" y="98.0" fill="#d9e3ea" font-size="14" text-anchor="start">still playing</text>
+<path d="M68.0,111.0 L76.0,119.0 M76.0,111.0 L68.0,119.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/>
+<text x="82.0" y="120.0" fill="#d9e3ea" font-size="14" text-anchor="start">death</text>
+<line x1="133" y1="115" x2="147" y2="115" stroke="#8fa3b1" stroke-width="2"/><line x1="140" y1="108" x2="140" y2="122" stroke="#d9e3ea" stroke-width="2"/>
+<text x="153.0" y="120.0" fill="#d9e3ea" font-size="14" text-anchor="start">a new leg began</text>
+<circle cx="280" cy="115" r="4" fill="#111a22" stroke="#d9e3ea" stroke-width="2"/>
+<text x="290.0" y="120.0" fill="#d9e3ea" font-size="14" text-anchor="start">stuck point (last new best)</text>
+<line x1="495" y1="115" x2="517" y2="115" stroke="#8fa3b1" stroke-width="2" stroke-dasharray="5 3"/>
+<text x="523.0" y="120.0" fill="#d9e3ea" font-size="14" text-anchor="start">dashed line: still playing</text>
+<rect x="66" y="564.0" width="698" height="0.0" fill="#1f2c37"/>
+<text x="772.0" y="569.0" fill="#d9e3ea" font-size="13" text-anchor="start">Duffy 0-0</text>
+<line x1="66" y1="564.0" x2="764" y2="564.0" stroke="#34495a" stroke-width="0.6"/>
+<text x="772.0" y="556.3" fill="#d9e3ea" font-size="13" text-anchor="start">01b-launched 0-5</text>
+<rect x="66" y="538.5" width="698" height="0.0" fill="#1f2c37"/>
+<line x1="66" y1="538.5" x2="764" y2="538.5" stroke="#34495a" stroke-width="0.6"/>
+<text x="772.0" y="543.5" fill="#d9e3ea" font-size="13" text-anchor="start">Station 5-5</text>
+<line x1="66" y1="538.5" x2="764" y2="538.5" stroke="#34495a" stroke-width="0.6"/>
+<text x="772.0" y="543.5" fill="#d9e3ea" font-size="13" text-anchor="start">02a-car-at-seven 5-5</text>
+<rect x="66" y="507.9" width="698" height="30.6" fill="#1f2c37"/>
+<line x1="66" y1="538.5" x2="764" y2="538.5" stroke="#34495a" stroke-width="0.6"/>
+<text x="772.0" y="528.2" fill="#d9e3ea" font-size="13" text-anchor="start">02b-laundry 5-11</text>
+<line x1="66" y1="507.9" x2="764" y2="507.9" stroke="#34495a" stroke-width="0.6"/>
+<text x="772.0" y="502.7" fill="#d9e3ea" font-size="13" text-anchor="start">Village 11-15</text>
+<rect x="66" y="472.2" width="698" height="15.3" fill="#1f2c37"/>
+<line x1="66" y1="487.5" x2="764" y2="487.5" stroke="#34495a" stroke-width="0.6"/>
+<text x="772.0" y="484.9" fill="#d9e3ea" font-size="13" text-anchor="start">03a-pet-store 15-18</text>
+<line x1="66" y1="472.2" x2="764" y2="472.2" stroke="#34495a" stroke-width="0.6"/>
+<text x="772.0" y="464.5" fill="#d9e3ea" font-size="13" text-anchor="start">03b-rank8 18-23</text>
+<rect x="66" y="431.4" width="698" height="15.3" fill="#1f2c37"/>
+<line x1="66" y1="446.7" x2="764" y2="446.7" stroke="#34495a" stroke-width="0.6"/>
+<text x="772.0" y="444.1" fill="#d9e3ea" font-size="13" text-anchor="start">Day 1 end 23-26</text>
+<line x1="66" y1="431.4" x2="764" y2="431.4" stroke="#34495a" stroke-width="0.6"/>
+<text x="772.0" y="372.7" fill="#d9e3ea" font-size="13" text-anchor="start">Day 2 26-51</text>
+<rect x="66" y="191.7" width="698" height="112.2" fill="#1f2c37"/>
+<line x1="66" y1="303.9" x2="764" y2="303.9" stroke="#34495a" stroke-width="0.6"/>
+<text x="772.0" y="252.8" fill="#d9e3ea" font-size="13" text-anchor="start">Plato 51-73</text>
+<line x1="66" y1="191.7" x2="764" y2="191.7" stroke="#34495a" stroke-width="0.6"/>
+<text x="772.0" y="196.7" fill="#d9e3ea" font-size="13" text-anchor="start">06a-no-zapgun 73-73</text>
+<rect x="66" y="156.0" width="698" height="35.7" fill="#1f2c37"/>
+<line x1="66" y1="191.7" x2="764" y2="191.7" stroke="#34495a" stroke-width="0.6"/>
+<text x="772.0" y="178.8" fill="#d9e3ea" font-size="13" text-anchor="start">Factory 73-80</text>
+<text x="58.0" y="569.0" fill="#8fa3b1" font-size="14" text-anchor="end">0</text>
+<text x="58.0" y="543.5" fill="#8fa3b1" font-size="14" text-anchor="end">5</text>
+<text x="58.0" y="512.9" fill="#8fa3b1" font-size="14" text-anchor="end">11</text>
+<text x="58.0" y="492.5" fill="#8fa3b1" font-size="14" text-anchor="end">15</text>
+<text x="58.0" y="477.2" fill="#8fa3b1" font-size="14" text-anchor="end">18</text>
+<text x="58.0" y="451.7" fill="#8fa3b1" font-size="14" text-anchor="end">23</text>
+<text x="58.0" y="436.4" fill="#8fa3b1" font-size="14" text-anchor="end">26</text>
+<text x="58.0" y="308.9" fill="#8fa3b1" font-size="14" text-anchor="end">51</text>
+<text x="58.0" y="196.7" fill="#8fa3b1" font-size="14" text-anchor="end">73</text>
+<text x="58.0" y="161.0" fill="#d9e3ea" font-size="14" text-anchor="end">80 win</text>
+<text x="14.0" y="360.0" fill="#8fa3b1" font-size="14" text-anchor="middle" transform="rotate(-90 14.0 360.0)">score</text>
+<g class="tx" data-kind="num" data-dom="0 1505" data-px="66 156 698 408" data-th="#34495a #d9e3ea #8fa3b1 14">
+<text x="66.0" y="583.0" fill="#8fa3b1" font-size="14" text-anchor="start">0</text>
+<line x1="297.9" y1="156" x2="297.9" y2="564" stroke="#34495a" stroke-opacity="0.45" stroke-dasharray="2 4"/>
+<text x="297.9" y="583.0" fill="#8fa3b1" font-size="14" text-anchor="middle">500</text>
+<line x1="529.8" y1="156" x2="529.8" y2="564" stroke="#34495a" stroke-opacity="0.45" stroke-dasharray="2 4"/>
+<text x="529.8" y="583.0" fill="#8fa3b1" font-size="14" text-anchor="middle">1000</text>
+<line x1="761.7" y1="156" x2="761.7" y2="564" stroke="#34495a" stroke-opacity="0.45" stroke-dasharray="2 4"/>
+<text x="761.7" y="583.0" fill="#8fa3b1" font-size="14" text-anchor="middle">1500</text>
+</g>
+<text x="415.0" y="604.0" fill="#8fa3b1" font-size="14" text-anchor="middle">commands used, all legs (1,505: the cap)</text>
+<line x1="66" y1="156.0" x2="764" y2="156.0" stroke="#8fa3b1" stroke-dasharray="3 3"/>
+<g class="tz" data-kind="num" data-dom="0 1505" data-px="66 156 698 408">
+<g class="m ln" data-s="run-r11-click-fulla" data-round="11" data-session="r11-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r11-click-fullA (round 11, click A): 47 of 80 points in 1500 commands over 4 leg(s); furthest stage Day 2; last new best at command 625; 6 death(s); outcome: command cap reached</title><path d="M66.0,564.0 H79.4 V538.5 H119.8 V523.2 H158.3 V507.9 H184.7 V477.3 H197.3 V456.9 H245.9 V431.4 H268.2 V395.7 H333.1 V380.4 H348.0 V354.9 H355.9 V324.3 H761.7" fill="none" stroke="#9085e9" stroke-width="2.2" stroke-linejoin="round"/></g>
+<g class="m ln" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r11-click-fullB (round 11, click B): 73 of 80 points in 1499 commands over 4 leg(s); furthest stage Factory; last new best at command 1183; 16 death(s); outcome: command cap reached</title><path d="M66.0,564.0 H86.4 V538.5 H100.8 V523.2 H140.7 V507.9 H211.6 V477.3 H232.5 V456.9 H247.3 V436.5 H271.0 V421.2 H280.3 V385.5 H396.7 V360.0 H411.1 V334.5 H471.8 V319.2 H478.8 V288.6 H504.7 V273.3 H560.4 V252.9 H605.8 V237.6 H608.2 V201.9 H614.7 V191.7 H761.2" fill="none" stroke="#c2bcf3" stroke-width="2.2" stroke-linejoin="round"/></g>
+<g class="m ln" data-s="run-r11-typed-full" data-round="11" data-session="r11-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r11-typed-full (round 11, typed): 54 of 80 points in 1500 commands over 4 leg(s); furthest stage Plato; last new best at command 1420; 6 death(s); outcome: command cap reached</title><path d="M66.0,564.0 H89.2 V538.5 H121.7 V523.2 H168.5 V507.9 H202.8 V477.3 H247.3 V451.8 H345.2 V436.5 H350.3 V400.8 H392.5 V365.1 H517.7 V344.7 H540.0 V329.4 H560.9 V303.9 H724.6 V288.6 H761.7" fill="none" stroke="#e0ddf9" stroke-width="2.2" stroke-linejoin="round"/></g>
+<g class="m ln" data-s="run-r12-click-fulla" data-round="12" data-session="r12-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r12-click-fullA (round 12, click A): 53 of 80 points in 1500 commands over 4 leg(s); furthest stage Plato; last new best at command 1386; 11 death(s); outcome: command cap reached</title><path d="M66.0,564.0 H85.0 V538.5 H117.9 V523.2 H145.8 V507.9 H205.6 V477.3 H218.6 V456.9 H277.5 V431.4 H303.0 V395.7 H316.4 V380.4 H478.8 V344.7 H569.7 V339.6 H586.8 V324.3 H606.3 V309.0 H708.8 V293.7 H761.7" fill="none" stroke="#d55181" stroke-width="2.2" stroke-linejoin="round"/></g>
+<g class="m ln" data-s="run-r12-click-fullb" data-round="12" data-session="r12-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="stuck"><title>r12-click-fullB (round 12, click B): 53 of 80 points in 1461 commands over 4 leg(s); furthest stage Plato; last new best at command 1221; 3 death(s); outcome: stuck: stopped short, judging the game unwinnable or blocked</title><path d="M66.0,564.0 H83.2 V538.5 H111.0 V523.2 H117.5 V507.9 H198.6 V477.3 H256.2 V456.9 H356.8 V441.6 H393.9 V426.3 H401.8 V416.1 H408.3 V390.6 H570.6 V370.2 H594.7 V354.9 H602.1 V324.3 H617.4 V309.0 H632.3 V293.7 H743.6" fill="none" stroke="#e89fba" stroke-width="2.2" stroke-linejoin="round"/></g>
+<g class="m ln" data-s="run-r12-typed-full" data-round="12" data-session="r12-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r12-typed-full (round 12, typed): 67 of 80 points in 1500 commands over 4 leg(s); furthest stage Plato; last new best at command 1453; 10 death(s); outcome: command cap reached</title><path d="M66.0,564.0 H86.9 V538.5 H102.2 V523.2 H132.8 V507.9 H195.4 V477.3 H226.5 V451.8 H337.8 V436.5 H342.9 V400.8 H372.1 V365.1 H412.0 V344.7 H432.9 V329.4 H466.7 V303.9 H479.7 V288.6 H677.3 V273.3 H705.6 V258.0 H739.9 V222.3 H761.7" fill="none" stroke="#f3cedc" stroke-width="2.2" stroke-linejoin="round"/></g>
+<g class="m ln" data-s="run-r13-click-fulla" data-round="13" data-session="r13-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r13-click-fullA (round 13, click A): 47 of 80 points in 1501 commands over 7 leg(s); furthest stage Day 2; last new best at command 1381; 7 death(s); outcome: command cap reached</title><path d="M66.0,564.0 H93.8 V538.5 H117.9 V523.2 H153.2 V507.9 H196.3 V477.3 H220.4 V456.9 H604.0 V431.4 H661.5 V405.9 H670.3 V390.6 H672.6 V354.9 H706.5 V324.3 H762.1" fill="none" stroke="#3987e5" stroke-width="2.2" stroke-linejoin="round"/></g>
+<g class="m ln" data-s="run-r13-click-fullb" data-round="13" data-session="r13-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r13-click-fullB (round 13, click B): 38 of 80 points in 1501 commands over 5 leg(s); furthest stage Day 2; last new best at command 1336; 10 death(s); outcome: command cap reached</title><path d="M66.0,564.0 H104.0 V538.5 H132.3 V523.2 H166.2 V507.9 H198.6 V477.3 H217.7 V456.9 H276.1 V436.5 H382.8 V421.2 H397.1 V400.8 H648.5 V385.5 H685.6 V370.2 H762.1" fill="none" stroke="#92bdf1" stroke-width="2.2" stroke-linejoin="round"/></g>
+<g class="m ln" data-s="run-r13-typed-full" data-round="13" data-session="r13-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r13-typed-full (round 13, typed): 27 of 80 points in 1505 commands over 5 leg(s); furthest stage Day 2; last new best at command 1381; 4 death(s); outcome: command cap reached</title><path d="M66.0,564.0 H98.5 V538.5 H132.3 V523.2 H163.9 V507.9 H203.7 V477.3 H237.6 V451.8 H576.2 V441.6 H706.5 V426.3 H764.0" fill="none" stroke="#c8ddf8" stroke-width="2.2" stroke-linejoin="round"/></g>
+<g class="m ln" data-s="run-r14-click-full" data-round="14" data-session="r14-click-full" data-mode="click" data-sub="click" data-outcome="cap"><title>r14-click-full (round 14, click): 71 of 80 points in 1500 commands over 5 leg(s); furthest stage Plato; last new best at command 1419; 10 death(s); outcome: command cap reached</title><path d="M66.0,564.0 H77.6 V538.5 H93.4 V523.2 H123.5 V507.9 H205.1 V477.3 H275.2 V451.8 H307.2 V431.4 H322.0 V395.7 H345.2 V380.4 H481.1 V344.7 H504.7 V324.3 H539.5 V309.0 H551.6 V283.5 H620.7 V252.9 H627.6 V237.6 H724.1 V201.9 H761.7" fill="none" stroke="#d95926" stroke-width="2.2" stroke-linejoin="round"/></g>
+<g class="m ln" data-s="run-r14-typed-full" data-round="14" data-session="r14-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r14-typed-full (round 14, typed): 54 of 80 points in 1500 commands over 4 leg(s); furthest stage Plato; last new best at command 1462; 10 death(s); outcome: command cap reached</title><path d="M66.0,564.0 H80.4 V538.5 H108.2 V523.2 H130.5 V507.9 H204.2 V477.3 H325.3 V441.6 H363.8 V416.1 H382.3 V390.6 H432.9 V375.3 H441.7 V344.7 H484.8 V309.0 H744.1 V288.6 H761.7" fill="none" stroke="#eaa488" stroke-width="2.2" stroke-linejoin="round"/></g>
 <g class="m" data-s="run-r11-click-fulla" data-round="11" data-session="r11-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r11-click-fullA: leg began after command 400
-score then: 26</title><line x1="252.1" y1="402.4" x2="252.1" y2="416.4" stroke="#9085e9" stroke-width="2"/></g>
+score then: 26</title><line x1="251.5" y1="424.4" x2="251.5" y2="438.4" stroke="#9085e9" stroke-width="2"/></g>
 <g class="m" data-s="run-r11-click-fulla" data-round="11" data-session="r11-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r11-click-fullA: leg began after command 800
-score then: 47</title><line x1="438.3" y1="295.3" x2="438.3" y2="309.3" stroke="#9085e9" stroke-width="2"/></g>
+score then: 47</title><line x1="437.0" y1="317.3" x2="437.0" y2="331.3" stroke="#9085e9" stroke-width="2"/></g>
 <g class="m" data-s="run-r11-click-fulla" data-round="11" data-session="r11-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r11-click-fullA: leg began after command 1200
-score then: 47</title><line x1="624.4" y1="295.3" x2="624.4" y2="309.3" stroke="#9085e9" stroke-width="2"/></g>
+score then: 47</title><line x1="622.5" y1="317.3" x2="622.5" y2="331.3" stroke="#9085e9" stroke-width="2"/></g>
 <g class="m pt" data-s="run-r11-click-fulla" data-round="11" data-session="r11-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r11-click-fullA: died at command 507
-score then: 33</title><path d="M298.4,370.2 L305.4,377.2 M305.4,370.2 L298.4,377.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 33</title><path d="M297.6,392.2 L304.6,399.2 M304.6,392.2 L297.6,399.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-click-fulla" data-round="11" data-session="r11-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r11-click-fullA: died at command 554
-score then: 33</title><path d="M320.3,370.2 L327.3,377.2 M327.3,370.2 L320.3,377.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 33</title><path d="M319.4,392.2 L326.4,399.2 M326.4,392.2 L319.4,399.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-click-fulla" data-round="11" data-session="r11-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r11-click-fullA: died at command 657
-score then: 47</title><path d="M368.2,298.8 L375.2,305.8 M375.2,298.8 L368.2,305.8" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 47</title><path d="M367.2,320.8 L374.2,327.8 M374.2,320.8 L367.2,327.8" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-click-fulla" data-round="11" data-session="r11-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r11-click-fullA: died at command 666
-score then: 47</title><path d="M372.4,298.8 L379.4,305.8 M379.4,298.8 L372.4,305.8" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 47</title><path d="M371.4,320.8 L378.4,327.8 M378.4,320.8 L371.4,327.8" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-click-fulla" data-round="11" data-session="r11-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r11-click-fullA: died at command 913
-score then: 47</title><path d="M487.3,298.8 L494.3,305.8 M494.3,298.8 L487.3,305.8" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 47</title><path d="M485.9,320.8 L492.9,327.8 M492.9,320.8 L485.9,327.8" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-click-fulla" data-round="11" data-session="r11-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r11-click-fullA: died at command 1300
-score then: 47</title><path d="M667.4,298.8 L674.4,305.8 M674.4,298.8 L667.4,305.8" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 47</title><path d="M665.4,320.8 L672.4,327.8 M672.4,320.8 L665.4,327.8" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m" data-s="run-r11-click-fulla" data-round="11" data-session="r11-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r11-click-fullA: last new best at command 625, then 875 commands without
-best score: 47</title><circle cx="356.8" cy="302.3" r="4" fill="#111a22" stroke="#9085e9" stroke-width="2"/></g>
+best score: 47</title><circle cx="355.9" cy="324.3" r="4" fill="#111a22" stroke="#9085e9" stroke-width="2"/></g>
 <g class="m pt" data-s="run-r11-click-fulla" data-round="11" data-session="r11-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>47 of 80 points, cap reached
-r11-click-fullA (round 11, click A): 47 of 80 points in 1500 commands over 4 leg(s); furthest stage Day 2; last new best at command 625; 6 death(s); outcome: command cap reached</title><path d="M758.0,296.3 L770.0,296.3 L764.0,308.3 Z" fill="#9085e9" stroke="#111a22" stroke-width="1"/><line x1="757.0" y1="293.3" x2="771.0" y2="293.3" stroke="#9085e9" stroke-width="2"/></g>
+r11-click-fullA (round 11, click A): 47 of 80 points in 1500 commands over 4 leg(s); furthest stage Day 2; last new best at command 625; 6 death(s); outcome: command cap reached</title><path d="M755.7,318.3 L767.7,318.3 L761.7,330.3 Z" fill="#9085e9" stroke="#111a22" stroke-width="1"/><line x1="754.7" y1="315.3" x2="768.7" y2="315.3" stroke="#9085e9" stroke-width="2"/></g>
 <g class="m" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r11-click-fullB: leg began after command 400
-score then: 25</title><line x1="252.1" y1="407.5" x2="252.1" y2="421.5" stroke="#c2bcf3" stroke-width="2"/></g>
+score then: 25</title><line x1="251.5" y1="429.5" x2="251.5" y2="443.5" stroke="#c2bcf3" stroke-width="2"/></g>
 <g class="m" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r11-click-fullB: leg began after command 800
-score then: 45</title><line x1="438.3" y1="305.5" x2="438.3" y2="319.5" stroke="#c2bcf3" stroke-width="2"/></g>
+score then: 45</title><line x1="437.0" y1="327.5" x2="437.0" y2="341.5" stroke="#c2bcf3" stroke-width="2"/></g>
 <g class="m" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r11-click-fullB: leg began after command 1200
-score then: 73</title><line x1="624.4" y1="162.7" x2="624.4" y2="176.7" stroke="#c2bcf3" stroke-width="2"/></g>
+score then: 73</title><line x1="622.5" y1="184.7" x2="622.5" y2="198.7" stroke="#c2bcf3" stroke-width="2"/></g>
 <g class="m pt" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r11-click-fullB: died at command 22
-score then: 0</title><path d="M72.7,538.5 L79.7,545.5 M79.7,538.5 L72.7,545.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 0</title><path d="M72.7,560.5 L79.7,567.5 M79.7,560.5 L72.7,567.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r11-click-fullB: died at command 419
-score then: 25</title><path d="M257.5,411.0 L264.5,418.0 M264.5,411.0 L257.5,418.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 25</title><path d="M256.8,433.0 L263.8,440.0 M263.8,433.0 L256.8,440.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r11-click-fullB: died at command 492
-score then: 35</title><path d="M291.4,360.0 L298.4,367.0 M298.4,360.0 L291.4,367.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 35</title><path d="M290.7,382.0 L297.7,389.0 M297.7,382.0 L290.7,389.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r11-click-fullB: died at command 787
-score then: 45</title><path d="M428.7,309.0 L435.7,316.0 M435.7,309.0 L428.7,316.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 45</title><path d="M427.5,331.0 L434.5,338.0 M434.5,331.0 L427.5,338.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r11-click-fullB: died at command 1197
-score then: 73</title><path d="M619.5,166.2 L626.5,173.2 M626.5,166.2 L619.5,173.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 73</title><path d="M617.7,188.2 L624.7,195.2 M624.7,188.2 L617.7,195.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r11-click-fullB: died at command 1244
-score then: 73</title><path d="M641.4,166.2 L648.4,173.2 M648.4,166.2 L641.4,173.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 73</title><path d="M639.5,188.2 L646.5,195.2 M646.5,188.2 L639.5,195.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r11-click-fullB: died at command 1256
-score then: 73</title><path d="M647.0,166.2 L654.0,173.2 M654.0,166.2 L647.0,173.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 73</title><path d="M645.0,188.2 L652.0,195.2 M652.0,188.2 L645.0,195.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r11-click-fullB: died at command 1277
-score then: 73</title><path d="M656.7,166.2 L663.7,173.2 M663.7,166.2 L656.7,173.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 73</title><path d="M654.8,188.2 L661.8,195.2 M661.8,188.2 L654.8,195.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r11-click-fullB: died at command 1372
-score then: 73</title><path d="M700.9,166.2 L707.9,173.2 M707.9,166.2 L700.9,173.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 73</title><path d="M698.8,188.2 L705.8,195.2 M705.8,188.2 L698.8,195.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r11-click-fullB: died at command 1376
-score then: 73</title><path d="M702.8,166.2 L709.8,173.2 M709.8,166.2 L702.8,173.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 73</title><path d="M700.7,188.2 L707.7,195.2 M707.7,188.2 L700.7,195.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r11-click-fullB: died at command 1380
-score then: 73</title><path d="M704.7,166.2 L711.7,173.2 M711.7,166.2 L704.7,173.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 73</title><path d="M702.5,188.2 L709.5,195.2 M709.5,188.2 L702.5,195.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r11-click-fullB: died at command 1404
-score then: 73</title><path d="M715.8,166.2 L722.8,173.2 M722.8,166.2 L715.8,173.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 73</title><path d="M713.7,188.2 L720.7,195.2 M720.7,188.2 L713.7,195.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r11-click-fullB: died at command 1433
-score then: 73</title><path d="M729.3,166.2 L736.3,173.2 M736.3,166.2 L729.3,173.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 73</title><path d="M727.1,188.2 L734.1,195.2 M734.1,188.2 L727.1,195.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r11-click-fullB: died at command 1474
-score then: 73</title><path d="M748.4,166.2 L755.4,173.2 M755.4,166.2 L748.4,173.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 73</title><path d="M746.1,188.2 L753.1,195.2 M753.1,188.2 L746.1,195.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r11-click-fullB: died at command 1478
-score then: 73</title><path d="M750.3,166.2 L757.3,173.2 M757.3,166.2 L750.3,173.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 73</title><path d="M748.0,188.2 L755.0,195.2 M755.0,188.2 L748.0,195.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r11-click-fullB: died at command 1499
-score then: 73</title><path d="M760.0,166.2 L767.0,173.2 M767.0,166.2 L760.0,173.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 73</title><path d="M757.7,188.2 L764.7,195.2 M764.7,188.2 L757.7,195.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r11-click-fullB: last new best at command 1183, then 316 commands without
-best score: 73</title><circle cx="616.5" cy="169.7" r="4" fill="#111a22" stroke="#c2bcf3" stroke-width="2"/></g>
+best score: 73</title><circle cx="614.7" cy="191.7" r="4" fill="#111a22" stroke="#c2bcf3" stroke-width="2"/></g>
 <g class="m pt" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>73 of 80 points, cap reached
-r11-click-fullB (round 11, click B): 73 of 80 points in 1499 commands over 4 leg(s); furthest stage Factory; last new best at command 1183; 16 death(s); outcome: command cap reached</title><path d="M757.5,163.7 L769.5,163.7 L763.5,175.7 Z" fill="#c2bcf3" stroke="#111a22" stroke-width="1"/><line x1="756.5" y1="160.7" x2="770.5" y2="160.7" stroke="#c2bcf3" stroke-width="2"/></g>
+r11-click-fullB (round 11, click B): 73 of 80 points in 1499 commands over 4 leg(s); furthest stage Factory; last new best at command 1183; 16 death(s); outcome: command cap reached</title><path d="M755.2,185.7 L767.2,185.7 L761.2,197.7 Z" fill="#c2bcf3" stroke="#111a22" stroke-width="1"/><line x1="754.2" y1="182.7" x2="768.2" y2="182.7" stroke="#c2bcf3" stroke-width="2"/></g>
 <g class="m" data-s="run-r11-typed-full" data-round="11" data-session="r11-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r11-typed-full: leg began after command 400
-score then: 22</title><line x1="252.1" y1="422.8" x2="252.1" y2="436.8" stroke="#e0ddf9" stroke-width="2"/></g>
+score then: 22</title><line x1="251.5" y1="444.8" x2="251.5" y2="458.8" stroke="#e0ddf9" stroke-width="2"/></g>
 <g class="m" data-s="run-r11-typed-full" data-round="11" data-session="r11-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r11-typed-full: leg began after command 800
-score then: 39</title><line x1="438.3" y1="336.1" x2="438.3" y2="350.1" stroke="#e0ddf9" stroke-width="2"/></g>
+score then: 39</title><line x1="437.0" y1="358.1" x2="437.0" y2="372.1" stroke="#e0ddf9" stroke-width="2"/></g>
 <g class="m" data-s="run-r11-typed-full" data-round="11" data-session="r11-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r11-typed-full: leg began after command 1200
-score then: 51</title><line x1="624.4" y1="274.9" x2="624.4" y2="288.9" stroke="#e0ddf9" stroke-width="2"/></g>
+score then: 51</title><line x1="622.5" y1="296.9" x2="622.5" y2="310.9" stroke="#e0ddf9" stroke-width="2"/></g>
 <g class="m pt" data-s="run-r11-typed-full" data-round="11" data-session="r11-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r11-typed-full: died at command 27
-score then: 0</title><path d="M75.1,538.5 L82.1,545.5 M82.1,538.5 L75.1,545.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 0</title><path d="M75.0,560.5 L82.0,567.5 M82.0,560.5 L75.0,567.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-typed-full" data-round="11" data-session="r11-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r11-typed-full: died at command 101
-score then: 5</title><path d="M109.5,513.0 L116.5,520.0 M116.5,513.0 L109.5,520.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 5</title><path d="M109.3,535.0 L116.3,542.0 M116.3,535.0 L109.3,542.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-typed-full" data-round="11" data-session="r11-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r11-typed-full: died at command 727
-score then: 39</title><path d="M400.8,339.6 L407.8,346.6 M407.8,339.6 L400.8,346.6" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 39</title><path d="M399.7,361.6 L406.7,368.6 M406.7,361.6 L399.7,368.6" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-typed-full" data-round="11" data-session="r11-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r11-typed-full: died at command 787
-score then: 39</title><path d="M428.7,339.6 L435.7,346.6 M435.7,339.6 L428.7,346.6" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 39</title><path d="M427.5,361.6 L434.5,368.6 M434.5,361.6 L427.5,368.6" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-typed-full" data-round="11" data-session="r11-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r11-typed-full: died at command 954
-score then: 39</title><path d="M506.4,339.6 L513.4,346.6 M513.4,339.6 L506.4,346.6" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 39</title><path d="M505.0,361.6 L512.0,368.6 M512.0,361.6 L505.0,368.6" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r11-typed-full" data-round="11" data-session="r11-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r11-typed-full: died at command 1005
-score then: 43</title><path d="M530.2,319.2 L537.2,326.2 M537.2,319.2 L530.2,326.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 43</title><path d="M528.6,341.2 L535.6,348.2 M535.6,341.2 L528.6,348.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m" data-s="run-r11-typed-full" data-round="11" data-session="r11-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r11-typed-full: last new best at command 1420, then 80 commands without
-best score: 54</title><circle cx="726.8" cy="266.6" r="4" fill="#111a22" stroke="#e0ddf9" stroke-width="2"/></g>
+best score: 54</title><circle cx="724.6" cy="288.6" r="4" fill="#111a22" stroke="#e0ddf9" stroke-width="2"/></g>
 <g class="m pt" data-s="run-r11-typed-full" data-round="11" data-session="r11-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>54 of 80 points, cap reached
-r11-typed-full (round 11, typed): 54 of 80 points in 1500 commands over 4 leg(s); furthest stage Plato; last new best at command 1420; 6 death(s); outcome: command cap reached</title><path d="M758.0,260.6 L770.0,260.6 L764.0,272.6 Z" fill="#e0ddf9" stroke="#111a22" stroke-width="1"/><line x1="757.0" y1="257.6" x2="771.0" y2="257.6" stroke="#e0ddf9" stroke-width="2"/></g>
+r11-typed-full (round 11, typed): 54 of 80 points in 1500 commands over 4 leg(s); furthest stage Plato; last new best at command 1420; 6 death(s); outcome: command cap reached</title><path d="M755.7,282.6 L767.7,282.6 L761.7,294.6 Z" fill="#e0ddf9" stroke="#111a22" stroke-width="1"/><line x1="754.7" y1="279.6" x2="768.7" y2="279.6" stroke="#e0ddf9" stroke-width="2"/></g>
 <g class="m" data-s="run-r12-click-fulla" data-round="12" data-session="r12-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r12-click-fullA: leg began after command 400
-score then: 21</title><line x1="252.1" y1="427.9" x2="252.1" y2="441.9" stroke="#d55181" stroke-width="2"/></g>
+score then: 21</title><line x1="251.5" y1="449.9" x2="251.5" y2="463.9" stroke="#d55181" stroke-width="2"/></g>
 <g class="m" data-s="run-r12-click-fulla" data-round="12" data-session="r12-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r12-click-fullA: leg began after command 800
-score then: 36</title><line x1="438.3" y1="351.4" x2="438.3" y2="365.4" stroke="#d55181" stroke-width="2"/></g>
+score then: 36</title><line x1="437.0" y1="373.4" x2="437.0" y2="387.4" stroke="#d55181" stroke-width="2"/></g>
 <g class="m" data-s="run-r12-click-fulla" data-round="12" data-session="r12-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r12-click-fullA: leg began after command 1200
-score then: 50</title><line x1="624.4" y1="280.0" x2="624.4" y2="294.0" stroke="#d55181" stroke-width="2"/></g>
+score then: 50</title><line x1="622.5" y1="302.0" x2="622.5" y2="316.0" stroke="#d55181" stroke-width="2"/></g>
 <g class="m pt" data-s="run-r12-click-fulla" data-round="12" data-session="r12-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r12-click-fullA: died at command 27
-score then: 0</title><path d="M75.1,538.5 L82.1,545.5 M82.1,538.5 L75.1,545.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 0</title><path d="M75.0,560.5 L82.0,567.5 M82.0,560.5 L75.0,567.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r12-click-fulla" data-round="12" data-session="r12-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r12-click-fullA: died at command 81
-score then: 5</title><path d="M100.2,513.0 L107.2,520.0 M107.2,513.0 L100.2,520.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 5</title><path d="M100.1,535.0 L107.1,542.0 M107.1,535.0 L100.1,542.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r12-click-fulla" data-round="12" data-session="r12-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r12-click-fullA: died at command 604
-score then: 36</title><path d="M343.6,354.9 L350.6,361.9 M350.6,354.9 L343.6,361.9" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 36</title><path d="M342.6,376.9 L349.6,383.9 M349.6,376.9 L342.6,383.9" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r12-click-fulla" data-round="12" data-session="r12-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r12-click-fullA: died at command 635
-score then: 36</title><path d="M358.0,354.9 L365.0,361.9 M365.0,354.9 L358.0,361.9" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 36</title><path d="M357.0,376.9 L364.0,383.9 M364.0,376.9 L357.0,383.9" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r12-click-fulla" data-round="12" data-session="r12-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r12-click-fullA: died at command 723
-score then: 36</title><path d="M398.9,354.9 L405.9,361.9 M405.9,354.9 L398.9,361.9" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 36</title><path d="M397.8,376.9 L404.8,383.9 M404.8,376.9 L397.8,383.9" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r12-click-fulla" data-round="12" data-session="r12-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r12-click-fullA: died at command 960
-score then: 43</title><path d="M509.2,319.2 L516.2,326.2 M516.2,319.2 L509.2,326.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 43</title><path d="M507.7,341.2 L514.7,348.2 M514.7,341.2 L507.7,348.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r12-click-fulla" data-round="12" data-session="r12-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r12-click-fullA: died at command 1041
-score then: 43</title><path d="M546.9,319.2 L553.9,326.2 M553.9,319.2 L546.9,326.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 43</title><path d="M545.3,341.2 L552.3,348.2 M552.3,341.2 L545.3,348.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r12-click-fulla" data-round="12" data-session="r12-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r12-click-fullA: died at command 1058
-score then: 43</title><path d="M554.8,319.2 L561.8,326.2 M561.8,319.2 L554.8,326.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 43</title><path d="M553.2,341.2 L560.2,348.2 M560.2,341.2 L553.2,348.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r12-click-fulla" data-round="12" data-session="r12-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r12-click-fullA: died at command 1107
-score then: 44</title><path d="M577.6,314.1 L584.6,321.1 M584.6,314.1 L577.6,321.1" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 44</title><path d="M575.9,336.1 L582.9,343.1 M582.9,336.1 L575.9,343.1" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r12-click-fulla" data-round="12" data-session="r12-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r12-click-fullA: died at command 1326
-score then: 50</title><path d="M679.5,283.5 L686.5,290.5 M686.5,283.5 L679.5,290.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 50</title><path d="M677.5,305.5 L684.5,312.5 M684.5,305.5 L677.5,312.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r12-click-fulla" data-round="12" data-session="r12-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r12-click-fullA: died at command 1449
-score then: 53</title><path d="M736.8,268.2 L743.8,275.2 M743.8,268.2 L736.8,275.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 53</title><path d="M734.5,290.2 L741.5,297.2 M741.5,290.2 L734.5,297.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m" data-s="run-r12-click-fulla" data-round="12" data-session="r12-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r12-click-fullA: last new best at command 1386, then 114 commands without
-best score: 53</title><circle cx="711.0" cy="271.7" r="4" fill="#111a22" stroke="#d55181" stroke-width="2"/></g>
+best score: 53</title><circle cx="708.8" cy="293.7" r="4" fill="#111a22" stroke="#d55181" stroke-width="2"/></g>
 <g class="m pt" data-s="run-r12-click-fulla" data-round="12" data-session="r12-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>53 of 80 points, cap reached
-r12-click-fullA (round 12, click A): 53 of 80 points in 1500 commands over 4 leg(s); furthest stage Plato; last new best at command 1386; 11 death(s); outcome: command cap reached</title><path d="M758.0,265.7 L770.0,265.7 L764.0,277.7 Z" fill="#d55181" stroke="#111a22" stroke-width="1"/><line x1="757.0" y1="262.7" x2="771.0" y2="262.7" stroke="#d55181" stroke-width="2"/></g>
+r12-click-fullA (round 12, click A): 53 of 80 points in 1500 commands over 4 leg(s); furthest stage Plato; last new best at command 1386; 11 death(s); outcome: command cap reached</title><path d="M755.7,287.7 L767.7,287.7 L761.7,299.7 Z" fill="#d55181" stroke="#111a22" stroke-width="1"/><line x1="754.7" y1="284.7" x2="768.7" y2="284.7" stroke="#d55181" stroke-width="2"/></g>
 <g class="m" data-s="run-r12-click-fullb" data-round="12" data-session="r12-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="stuck"><title>r12-click-fullB: leg began after command 400
-score then: 17</title><line x1="252.1" y1="448.3" x2="252.1" y2="462.3" stroke="#e89fba" stroke-width="2"/></g>
+score then: 17</title><line x1="251.5" y1="470.3" x2="251.5" y2="484.3" stroke="#e89fba" stroke-width="2"/></g>
 <g class="m" data-s="run-r12-click-fullb" data-round="12" data-session="r12-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="stuck"><title>r12-click-fullB: leg began after command 800
-score then: 34</title><line x1="438.3" y1="361.6" x2="438.3" y2="375.6" stroke="#e89fba" stroke-width="2"/></g>
+score then: 34</title><line x1="437.0" y1="383.6" x2="437.0" y2="397.6" stroke="#e89fba" stroke-width="2"/></g>
 <g class="m" data-s="run-r12-click-fullb" data-round="12" data-session="r12-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="stuck"><title>r12-click-fullB: leg began after command 1200
-score then: 50</title><line x1="624.4" y1="280.0" x2="624.4" y2="294.0" stroke="#e89fba" stroke-width="2"/></g>
+score then: 50</title><line x1="622.5" y1="302.0" x2="622.5" y2="316.0" stroke="#e89fba" stroke-width="2"/></g>
 <g class="m pt" data-s="run-r12-click-fullb" data-round="12" data-session="r12-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="stuck"><title>r12-click-fullB: died at command 452
-score then: 21</title><path d="M272.8,431.4 L279.8,438.4 M279.8,431.4 L272.8,438.4" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 21</title><path d="M272.1,453.4 L279.1,460.4 M279.1,453.4 L272.1,460.4" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r12-click-fullb" data-round="12" data-session="r12-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="stuck"><title>r12-click-fullB: died at command 467
-score then: 21</title><path d="M279.8,431.4 L286.8,438.4 M286.8,431.4 L279.8,438.4" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 21</title><path d="M279.1,453.4 L286.1,460.4 M286.1,453.4 L279.1,460.4" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r12-click-fullb" data-round="12" data-session="r12-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="stuck"><title>r12-click-fullB: died at command 612
-score then: 21</title><path d="M347.3,431.4 L354.3,438.4 M354.3,431.4 L347.3,438.4" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 21</title><path d="M346.3,453.4 L353.3,460.4 M353.3,453.4 L346.3,460.4" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m" data-s="run-r12-click-fullb" data-round="12" data-session="r12-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="stuck"><title>r12-click-fullB: last new best at command 1221, then 240 commands without
-best score: 53</title><circle cx="634.2" cy="271.7" r="4" fill="#111a22" stroke="#e89fba" stroke-width="2"/></g>
+best score: 53</title><circle cx="632.3" cy="293.7" r="4" fill="#111a22" stroke="#e89fba" stroke-width="2"/></g>
 <g class="m pt" data-s="run-r12-click-fullb" data-round="12" data-session="r12-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="stuck"><title>53 of 80 points, stuck
-r12-click-fullB (round 12, click B): 53 of 80 points in 1461 commands over 4 leg(s); furthest stage Plato; last new best at command 1221; 3 death(s); outcome: stuck: stopped short, judging the game unwinnable or blocked</title><circle cx="745.9" cy="271.7" r="5.5" fill="#111a22" stroke="#e89fba" stroke-width="2.2"/></g>
+r12-click-fullB (round 12, click B): 53 of 80 points in 1461 commands over 4 leg(s); furthest stage Plato; last new best at command 1221; 3 death(s); outcome: stuck: stopped short, judging the game unwinnable or blocked</title><circle cx="743.6" cy="293.7" r="5.5" fill="#111a22" stroke="#e89fba" stroke-width="2.2"/></g>
 <g class="m" data-s="run-r12-typed-full" data-round="12" data-session="r12-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r12-typed-full: leg began after command 400
-score then: 22</title><line x1="252.1" y1="422.8" x2="252.1" y2="436.8" stroke="#f3cedc" stroke-width="2"/></g>
+score then: 22</title><line x1="251.5" y1="444.8" x2="251.5" y2="458.8" stroke="#f3cedc" stroke-width="2"/></g>
 <g class="m" data-s="run-r12-typed-full" data-round="12" data-session="r12-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r12-typed-full: leg began after command 800
-score then: 46</title><line x1="438.3" y1="300.4" x2="438.3" y2="314.4" stroke="#f3cedc" stroke-width="2"/></g>
+score then: 46</title><line x1="437.0" y1="322.4" x2="437.0" y2="336.4" stroke="#f3cedc" stroke-width="2"/></g>
 <g class="m" data-s="run-r12-typed-full" data-round="12" data-session="r12-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r12-typed-full: leg began after command 1200
-score then: 54</title><line x1="624.4" y1="259.6" x2="624.4" y2="273.6" stroke="#f3cedc" stroke-width="2"/></g>
+score then: 54</title><line x1="622.5" y1="281.6" x2="622.5" y2="295.6" stroke="#f3cedc" stroke-width="2"/></g>
 <g class="m pt" data-s="run-r12-typed-full" data-round="12" data-session="r12-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r12-typed-full: died at command 25
-score then: 0</title><path d="M74.1,538.5 L81.1,545.5 M81.1,538.5 L74.1,545.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 0</title><path d="M74.1,560.5 L81.1,567.5 M81.1,560.5 L74.1,567.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r12-typed-full" data-round="12" data-session="r12-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r12-typed-full: died at command 355
-score then: 22</title><path d="M227.7,426.3 L234.7,433.3 M234.7,426.3 L227.7,433.3" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 22</title><path d="M227.1,448.3 L234.1,455.3 M234.1,448.3 L227.1,455.3" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r12-typed-full" data-round="12" data-session="r12-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r12-typed-full: died at command 365
-score then: 22</title><path d="M232.3,426.3 L239.3,433.3 M239.3,426.3 L232.3,433.3" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 22</title><path d="M231.8,448.3 L238.8,455.3 M238.8,448.3 L231.8,455.3" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r12-typed-full" data-round="12" data-session="r12-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r12-typed-full: died at command 736
-score then: 39</title><path d="M405.0,339.6 L412.0,346.6 M412.0,339.6 L405.0,346.6" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 39</title><path d="M403.8,361.6 L410.8,368.6 M410.8,361.6 L403.8,368.6" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r12-typed-full" data-round="12" data-session="r12-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r12-typed-full: died at command 766
-score then: 43</title><path d="M418.9,319.2 L425.9,326.2 M425.9,319.2 L418.9,326.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 43</title><path d="M417.8,341.2 L424.8,348.2 M424.8,341.2 L417.8,348.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r12-typed-full" data-round="12" data-session="r12-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r12-typed-full: died at command 960
-score then: 54</title><path d="M509.2,263.1 L516.2,270.1 M516.2,263.1 L509.2,270.1" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 54</title><path d="M507.7,285.1 L514.7,292.1 M514.7,285.1 L507.7,292.1" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r12-typed-full" data-round="12" data-session="r12-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r12-typed-full: died at command 1128
-score then: 54</title><path d="M587.4,263.1 L594.4,270.1 M594.4,263.1 L587.4,270.1" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 54</title><path d="M585.7,285.1 L592.7,292.1 M592.7,285.1 L585.7,292.1" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r12-typed-full" data-round="12" data-session="r12-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r12-typed-full: died at command 1287
-score then: 54</title><path d="M661.4,263.1 L668.4,270.1 M668.4,263.1 L661.4,270.1" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 54</title><path d="M659.4,285.1 L666.4,292.1 M666.4,285.1 L659.4,292.1" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r12-typed-full" data-round="12" data-session="r12-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r12-typed-full: died at command 1383
-score then: 60</title><path d="M706.1,232.5 L713.1,239.5 M713.1,232.5 L706.1,239.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 60</title><path d="M703.9,254.5 L710.9,261.5 M710.9,254.5 L703.9,261.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m pt" data-s="run-r12-typed-full" data-round="12" data-session="r12-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r12-typed-full: died at command 1486
-score then: 67</title><path d="M754.0,196.8 L761.0,203.8 M761.0,196.8 L754.0,203.8" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+score then: 67</title><path d="M751.7,218.8 L758.7,225.8 M758.7,218.8 L751.7,225.8" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
 <g class="m" data-s="run-r12-typed-full" data-round="12" data-session="r12-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r12-typed-full: last new best at command 1453, then 47 commands without
-best score: 67</title><circle cx="742.1" cy="200.3" r="4" fill="#111a22" stroke="#f3cedc" stroke-width="2"/></g>
+best score: 67</title><circle cx="739.9" cy="222.3" r="4" fill="#111a22" stroke="#f3cedc" stroke-width="2"/></g>
 <g class="m pt" data-s="run-r12-typed-full" data-round="12" data-session="r12-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>67 of 80 points, cap reached
-r12-typed-full (round 12, typed): 67 of 80 points in 1500 commands over 4 leg(s); furthest stage Plato; last new best at command 1453; 10 death(s); outcome: command cap reached</title><path d="M758.0,194.3 L770.0,194.3 L764.0,206.3 Z" fill="#f3cedc" stroke="#111a22" stroke-width="1"/><line x1="757.0" y1="191.3" x2="771.0" y2="191.3" stroke="#f3cedc" stroke-width="2"/></g>
+r12-typed-full (round 12, typed): 67 of 80 points in 1500 commands over 4 leg(s); furthest stage Plato; last new best at command 1453; 10 death(s); outcome: command cap reached</title><path d="M755.7,216.3 L767.7,216.3 L761.7,228.3 Z" fill="#f3cedc" stroke="#111a22" stroke-width="1"/><line x1="754.7" y1="213.3" x2="768.7" y2="213.3" stroke="#f3cedc" stroke-width="2"/></g>
+<g class="m" data-s="run-r13-click-fulla" data-round="13" data-session="r13-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r13-click-fullA: leg began after command 400
+score then: 21</title><line x1="251.5" y1="449.9" x2="251.5" y2="463.9" stroke="#3987e5" stroke-width="2"/></g>
+<g class="m" data-s="run-r13-click-fulla" data-round="13" data-session="r13-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r13-click-fullA: leg began after command 409
+score then: 21</title><line x1="255.7" y1="449.9" x2="255.7" y2="463.9" stroke="#3987e5" stroke-width="2"/></g>
+<g class="m" data-s="run-r13-click-fulla" data-round="13" data-session="r13-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r13-click-fullA: leg began after command 430
+score then: 21</title><line x1="265.4" y1="449.9" x2="265.4" y2="463.9" stroke="#3987e5" stroke-width="2"/></g>
+<g class="m" data-s="run-r13-click-fulla" data-round="13" data-session="r13-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r13-click-fullA: leg began after command 830
+score then: 21</title><line x1="450.9" y1="449.9" x2="450.9" y2="463.9" stroke="#3987e5" stroke-width="2"/></g>
+<g class="m" data-s="run-r13-click-fulla" data-round="13" data-session="r13-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r13-click-fullA: leg began after command 1231
+score then: 26</title><line x1="636.9" y1="424.4" x2="636.9" y2="438.4" stroke="#3987e5" stroke-width="2"/></g>
+<g class="m" data-s="run-r13-click-fulla" data-round="13" data-session="r13-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r13-click-fullA: leg began after command 1376
+score then: 41</title><line x1="704.2" y1="347.9" x2="704.2" y2="361.9" stroke="#3987e5" stroke-width="2"/></g>
+<g class="m pt" data-s="run-r13-click-fulla" data-round="13" data-session="r13-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r13-click-fullA: died at command 30
+score then: 0</title><path d="M76.4,560.5 L83.4,567.5 M83.4,560.5 L76.4,567.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r13-click-fulla" data-round="13" data-session="r13-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r13-click-fullA: died at command 237
+score then: 11</title><path d="M172.4,504.4 L179.4,511.4 M179.4,504.4 L172.4,511.4" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r13-click-fulla" data-round="13" data-session="r13-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r13-click-fullA: died at command 414
+score then: 21</title><path d="M254.5,453.4 L261.5,460.4 M261.5,453.4 L254.5,460.4" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r13-click-fulla" data-round="13" data-session="r13-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r13-click-fullA: died at command 510
+score then: 21</title><path d="M299.0,453.4 L306.0,460.4 M306.0,453.4 L299.0,460.4" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r13-click-fulla" data-round="13" data-session="r13-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r13-click-fullA: died at command 928
+score then: 21</title><path d="M492.9,453.4 L499.9,460.4 M499.9,453.4 L492.9,460.4" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r13-click-fulla" data-round="13" data-session="r13-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r13-click-fullA: died at command 960
+score then: 21</title><path d="M507.7,453.4 L514.7,460.4 M514.7,453.4 L507.7,460.4" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r13-click-fulla" data-round="13" data-session="r13-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r13-click-fullA: died at command 1443
+score then: 47</title><path d="M731.7,320.8 L738.7,327.8 M738.7,320.8 L731.7,327.8" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m" data-s="run-r13-click-fulla" data-round="13" data-session="r13-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r13-click-fullA: last new best at command 1381, then 120 commands without
+best score: 47</title><circle cx="706.5" cy="324.3" r="4" fill="#111a22" stroke="#3987e5" stroke-width="2"/></g>
+<g class="m pt" data-s="run-r13-click-fulla" data-round="13" data-session="r13-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>47 of 80 points, cap reached
+r13-click-fullA (round 13, click A): 47 of 80 points in 1501 commands over 7 leg(s); furthest stage Day 2; last new best at command 1381; 7 death(s); outcome: command cap reached</title><path d="M756.1,318.3 L768.1,318.3 L762.1,330.3 Z" fill="#3987e5" stroke="#111a22" stroke-width="1"/><line x1="755.1" y1="315.3" x2="769.1" y2="315.3" stroke="#3987e5" stroke-width="2"/></g>
+<g class="m" data-s="run-r13-click-fullb" data-round="13" data-session="r13-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r13-click-fullB: leg began after command 400
+score then: 21</title><line x1="251.5" y1="449.9" x2="251.5" y2="463.9" stroke="#92bdf1" stroke-width="2"/></g>
+<g class="m" data-s="run-r13-click-fullb" data-round="13" data-session="r13-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r13-click-fullB: leg began after command 800
+score then: 32</title><line x1="437.0" y1="393.8" x2="437.0" y2="407.8" stroke="#92bdf1" stroke-width="2"/></g>
+<g class="m" data-s="run-r13-click-fullb" data-round="13" data-session="r13-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r13-click-fullB: leg began after command 1200
+score then: 32</title><line x1="622.5" y1="393.8" x2="622.5" y2="407.8" stroke="#92bdf1" stroke-width="2"/></g>
+<g class="m" data-s="run-r13-click-fullb" data-round="13" data-session="r13-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r13-click-fullB: leg began after command 1389
+score then: 38</title><line x1="710.2" y1="363.2" x2="710.2" y2="377.2" stroke="#92bdf1" stroke-width="2"/></g>
+<g class="m pt" data-s="run-r13-click-fullb" data-round="13" data-session="r13-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r13-click-fullB: died at command 34
+score then: 0</title><path d="M78.3,560.5 L85.3,567.5 M85.3,560.5 L78.3,567.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r13-click-fullb" data-round="13" data-session="r13-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r13-click-fullB: died at command 473
+score then: 25</title><path d="M281.9,433.0 L288.9,440.0 M288.9,433.0 L281.9,440.0" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r13-click-fullb" data-round="13" data-session="r13-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r13-click-fullB: died at command 1131
+score then: 32</title><path d="M587.0,397.3 L594.0,404.3 M594.0,397.3 L587.0,404.3" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r13-click-fullb" data-round="13" data-session="r13-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r13-click-fullB: died at command 1169
+score then: 32</title><path d="M604.7,397.3 L611.7,404.3 M611.7,397.3 L604.7,404.3" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r13-click-fullb" data-round="13" data-session="r13-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r13-click-fullB: died at command 1195
+score then: 32</title><path d="M616.7,397.3 L623.7,404.3 M623.7,397.3 L616.7,404.3" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r13-click-fullb" data-round="13" data-session="r13-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r13-click-fullB: died at command 1240
+score then: 32</title><path d="M637.6,397.3 L644.6,404.3 M644.6,397.3 L637.6,404.3" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r13-click-fullb" data-round="13" data-session="r13-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r13-click-fullB: died at command 1381
+score then: 38</title><path d="M703.0,366.7 L710.0,373.7 M710.0,366.7 L703.0,373.7" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r13-click-fullb" data-round="13" data-session="r13-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r13-click-fullB: died at command 1418
+score then: 38</title><path d="M720.2,366.7 L727.2,373.7 M727.2,366.7 L720.2,373.7" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r13-click-fullb" data-round="13" data-session="r13-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r13-click-fullB: died at command 1441
+score then: 38</title><path d="M730.8,366.7 L737.8,373.7 M737.8,366.7 L730.8,373.7" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r13-click-fullb" data-round="13" data-session="r13-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r13-click-fullB: died at command 1455
+score then: 38</title><path d="M737.3,366.7 L744.3,373.7 M744.3,366.7 L737.3,373.7" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m" data-s="run-r13-click-fullb" data-round="13" data-session="r13-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r13-click-fullB: last new best at command 1336, then 165 commands without
+best score: 38</title><circle cx="685.6" cy="370.2" r="4" fill="#111a22" stroke="#92bdf1" stroke-width="2"/></g>
+<g class="m pt" data-s="run-r13-click-fullb" data-round="13" data-session="r13-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>38 of 80 points, cap reached
+r13-click-fullB (round 13, click B): 38 of 80 points in 1501 commands over 5 leg(s); furthest stage Day 2; last new best at command 1336; 10 death(s); outcome: command cap reached</title><path d="M756.1,364.2 L768.1,364.2 L762.1,376.2 Z" fill="#92bdf1" stroke="#111a22" stroke-width="1"/><line x1="755.1" y1="361.2" x2="769.1" y2="361.2" stroke="#92bdf1" stroke-width="2"/></g>
+<g class="m" data-s="run-r13-typed-full" data-round="13" data-session="r13-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r13-typed-full: leg began after command 400
+score then: 22</title><line x1="251.5" y1="444.8" x2="251.5" y2="458.8" stroke="#c8ddf8" stroke-width="2"/></g>
+<g class="m" data-s="run-r13-typed-full" data-round="13" data-session="r13-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r13-typed-full: leg began after command 436
+score then: 22</title><line x1="268.2" y1="444.8" x2="268.2" y2="458.8" stroke="#c8ddf8" stroke-width="2"/></g>
+<g class="m" data-s="run-r13-typed-full" data-round="13" data-session="r13-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r13-typed-full: leg began after command 836
+score then: 22</title><line x1="453.7" y1="444.8" x2="453.7" y2="458.8" stroke="#c8ddf8" stroke-width="2"/></g>
+<g class="m" data-s="run-r13-typed-full" data-round="13" data-session="r13-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r13-typed-full: leg began after command 1236
+score then: 24</title><line x1="639.2" y1="434.6" x2="639.2" y2="448.6" stroke="#c8ddf8" stroke-width="2"/></g>
+<g class="m pt" data-s="run-r13-typed-full" data-round="13" data-session="r13-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r13-typed-full: died at command 478
+score then: 22</title><path d="M284.2,448.3 L291.2,455.3 M291.2,448.3 L284.2,455.3" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r13-typed-full" data-round="13" data-session="r13-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r13-typed-full: died at command 514
+score then: 22</title><path d="M300.9,448.3 L307.9,455.3 M307.9,448.3 L300.9,455.3" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r13-typed-full" data-round="13" data-session="r13-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r13-typed-full: died at command 1130
+score then: 24</title><path d="M586.6,438.1 L593.6,445.1 M593.6,438.1 L586.6,445.1" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r13-typed-full" data-round="13" data-session="r13-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r13-typed-full: died at command 1332
+score then: 24</title><path d="M680.3,438.1 L687.3,445.1 M687.3,438.1 L680.3,445.1" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m" data-s="run-r13-typed-full" data-round="13" data-session="r13-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r13-typed-full: last new best at command 1381, then 124 commands without
+best score: 27</title><circle cx="706.5" cy="426.3" r="4" fill="#111a22" stroke="#c8ddf8" stroke-width="2"/></g>
+<g class="m pt" data-s="run-r13-typed-full" data-round="13" data-session="r13-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>27 of 80 points, cap reached
+r13-typed-full (round 13, typed): 27 of 80 points in 1505 commands over 5 leg(s); furthest stage Day 2; last new best at command 1381; 4 death(s); outcome: command cap reached</title><path d="M758.0,420.3 L770.0,420.3 L764.0,432.3 Z" fill="#c8ddf8" stroke="#111a22" stroke-width="1"/><line x1="757.0" y1="417.3" x2="771.0" y2="417.3" stroke="#c8ddf8" stroke-width="2"/></g>
+<g class="m" data-s="run-r14-click-full" data-round="14" data-session="r14-click-full" data-mode="click" data-sub="click" data-outcome="cap"><title>r14-click-full: leg began after command 400
+score then: 17</title><line x1="251.5" y1="470.3" x2="251.5" y2="484.3" stroke="#d95926" stroke-width="2"/></g>
+<g class="m" data-s="run-r14-click-full" data-round="14" data-session="r14-click-full" data-mode="click" data-sub="click" data-outcome="cap"><title>r14-click-full: leg began after command 800
+score then: 36</title><line x1="437.0" y1="373.4" x2="437.0" y2="387.4" stroke="#d95926" stroke-width="2"/></g>
+<g class="m" data-s="run-r14-click-full" data-round="14" data-session="r14-click-full" data-mode="click" data-sub="click" data-outcome="cap"><title>r14-click-full: leg began after command 1090
+score then: 55</title><line x1="571.5" y1="276.5" x2="571.5" y2="290.5" stroke="#d95926" stroke-width="2"/></g>
+<g class="m" data-s="run-r14-click-full" data-round="14" data-session="r14-click-full" data-mode="click" data-sub="click" data-outcome="cap"><title>r14-click-full: leg began after command 1490
+score then: 71</title><line x1="757.0" y1="194.9" x2="757.0" y2="208.9" stroke="#d95926" stroke-width="2"/></g>
+<g class="m pt" data-s="run-r14-click-full" data-round="14" data-session="r14-click-full" data-mode="click" data-sub="click" data-outcome="cap"><title>r14-click-full: died at command 287
+score then: 11</title><path d="M195.6,504.4 L202.6,511.4 M202.6,504.4 L195.6,511.4" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r14-click-full" data-round="14" data-session="r14-click-full" data-mode="click" data-sub="click" data-outcome="cap"><title>r14-click-full: died at command 408
+score then: 17</title><path d="M251.7,473.8 L258.7,480.8 M258.7,473.8 L251.7,480.8" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r14-click-full" data-round="14" data-session="r14-click-full" data-mode="click" data-sub="click" data-outcome="cap"><title>r14-click-full: died at command 624
+score then: 36</title><path d="M351.9,376.9 L358.9,383.9 M358.9,376.9 L351.9,383.9" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r14-click-full" data-round="14" data-session="r14-click-full" data-mode="click" data-sub="click" data-outcome="cap"><title>r14-click-full: died at command 668
+score then: 36</title><path d="M372.3,376.9 L379.3,383.9 M379.3,376.9 L372.3,383.9" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r14-click-full" data-round="14" data-session="r14-click-full" data-mode="click" data-sub="click" data-outcome="cap"><title>r14-click-full: died at command 745
+score then: 36</title><path d="M408.0,376.9 L415.0,383.9 M415.0,376.9 L408.0,383.9" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r14-click-full" data-round="14" data-session="r14-click-full" data-mode="click" data-sub="click" data-outcome="cap"><title>r14-click-full: died at command 818
+score then: 36</title><path d="M441.9,376.9 L448.9,383.9 M448.9,376.9 L441.9,383.9" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r14-click-full" data-round="14" data-session="r14-click-full" data-mode="click" data-sub="click" data-outcome="cap"><title>r14-click-full: died at command 847
+score then: 36</title><path d="M455.3,376.9 L462.3,383.9 M462.3,376.9 L455.3,383.9" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r14-click-full" data-round="14" data-session="r14-click-full" data-mode="click" data-sub="click" data-outcome="cap"><title>r14-click-full: died at command 978
+score then: 47</title><path d="M516.1,320.8 L523.1,327.8 M523.1,320.8 L516.1,327.8" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r14-click-full" data-round="14" data-session="r14-click-full" data-mode="click" data-sub="click" data-outcome="cap"><title>r14-click-full: died at command 1318
+score then: 64</title><path d="M673.8,234.1 L680.8,241.1 M680.8,234.1 L673.8,241.1" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r14-click-full" data-round="14" data-session="r14-click-full" data-mode="click" data-sub="click" data-outcome="cap"><title>r14-click-full: died at command 1439
+score then: 71</title><path d="M729.9,198.4 L736.9,205.4 M736.9,198.4 L729.9,205.4" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m" data-s="run-r14-click-full" data-round="14" data-session="r14-click-full" data-mode="click" data-sub="click" data-outcome="cap"><title>r14-click-full: last new best at command 1419, then 81 commands without
+best score: 71</title><circle cx="724.1" cy="201.9" r="4" fill="#111a22" stroke="#d95926" stroke-width="2"/></g>
+<g class="m pt" data-s="run-r14-click-full" data-round="14" data-session="r14-click-full" data-mode="click" data-sub="click" data-outcome="cap"><title>71 of 80 points, cap reached
+r14-click-full (round 14, click): 71 of 80 points in 1500 commands over 5 leg(s); furthest stage Plato; last new best at command 1419; 10 death(s); outcome: command cap reached</title><path d="M755.7,195.9 L767.7,195.9 L761.7,207.9 Z" fill="#d95926" stroke="#111a22" stroke-width="1"/><line x1="754.7" y1="192.9" x2="768.7" y2="192.9" stroke="#d95926" stroke-width="2"/></g>
+<g class="m" data-s="run-r14-typed-full" data-round="14" data-session="r14-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r14-typed-full: leg began after command 400
+score then: 17</title><line x1="251.5" y1="470.3" x2="251.5" y2="484.3" stroke="#eaa488" stroke-width="2"/></g>
+<g class="m" data-s="run-r14-typed-full" data-round="14" data-session="r14-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r14-typed-full: leg began after command 800
+score then: 37</title><line x1="437.0" y1="368.3" x2="437.0" y2="382.3" stroke="#eaa488" stroke-width="2"/></g>
+<g class="m" data-s="run-r14-typed-full" data-round="14" data-session="r14-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r14-typed-full: leg began after command 1200
+score then: 50</title><line x1="622.5" y1="302.0" x2="622.5" y2="316.0" stroke="#eaa488" stroke-width="2"/></g>
+<g class="m pt" data-s="run-r14-typed-full" data-round="14" data-session="r14-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r14-typed-full: died at command 672
+score then: 29</title><path d="M374.2,412.6 L381.2,419.6 M381.2,412.6 L374.2,419.6" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r14-typed-full" data-round="14" data-session="r14-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r14-typed-full: died at command 731
+score then: 34</title><path d="M401.5,387.1 L408.5,394.1 M408.5,387.1 L401.5,394.1" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r14-typed-full" data-round="14" data-session="r14-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r14-typed-full: died at command 752
+score then: 34</title><path d="M411.3,387.1 L418.3,394.1 M418.3,387.1 L411.3,394.1" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r14-typed-full" data-round="14" data-session="r14-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r14-typed-full: died at command 859
+score then: 43</title><path d="M460.9,341.2 L467.9,348.2 M467.9,341.2 L460.9,348.2" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r14-typed-full" data-round="14" data-session="r14-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r14-typed-full: died at command 995
+score then: 50</title><path d="M524.0,305.5 L531.0,312.5 M531.0,305.5 L524.0,312.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r14-typed-full" data-round="14" data-session="r14-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r14-typed-full: died at command 1208
+score then: 50</title><path d="M622.8,305.5 L629.8,312.5 M629.8,305.5 L622.8,312.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r14-typed-full" data-round="14" data-session="r14-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r14-typed-full: died at command 1232
+score then: 50</title><path d="M633.9,305.5 L640.9,312.5 M640.9,305.5 L633.9,312.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r14-typed-full" data-round="14" data-session="r14-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r14-typed-full: died at command 1332
+score then: 50</title><path d="M680.3,305.5 L687.3,312.5 M687.3,305.5 L680.3,312.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r14-typed-full" data-round="14" data-session="r14-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r14-typed-full: died at command 1453
+score then: 50</title><path d="M736.4,305.5 L743.4,312.5 M743.4,305.5 L736.4,312.5" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m pt" data-s="run-r14-typed-full" data-round="14" data-session="r14-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r14-typed-full: died at command 1479
+score then: 54</title><path d="M748.4,285.1 L755.4,292.1 M755.4,285.1 L748.4,292.1" stroke="#d9e3ea" stroke-width="2" stroke-linecap="round"/></g>
+<g class="m" data-s="run-r14-typed-full" data-round="14" data-session="r14-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r14-typed-full: last new best at command 1462, then 38 commands without
+best score: 54</title><circle cx="744.1" cy="288.6" r="4" fill="#111a22" stroke="#eaa488" stroke-width="2"/></g>
+<g class="m pt" data-s="run-r14-typed-full" data-round="14" data-session="r14-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>54 of 80 points, cap reached
+r14-typed-full (round 14, typed): 54 of 80 points in 1500 commands over 4 leg(s); furthest stage Plato; last new best at command 1462; 10 death(s); outcome: command cap reached</title><path d="M755.7,282.6 L767.7,282.6 L761.7,294.6 Z" fill="#eaa488" stroke="#111a22" stroke-width="1"/><line x1="754.7" y1="279.6" x2="768.7" y2="279.6" stroke="#eaa488" stroke-width="2"/></g>
 </g>
 <g class="sr zoff rlab" data-s="run-r11-click-fullb" data-round="11" data-session="r11-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap" visibility="hidden">
-<text x="749.5" y="174.7" fill="#c2bcf3" font-size="13" text-anchor="end" font-weight="600" stroke="#111a22" stroke-width="4" stroke-linejoin="round" paint-order="stroke">r11 click B 73</text>
+<text x="747.2" y="196.7" fill="#c2bcf3" font-size="13" text-anchor="end" font-weight="600" stroke="#111a22" stroke-width="4" stroke-linejoin="round" paint-order="stroke">r11 click B 73</text>
 </g>
 <g class="sr zoff rlab" data-s="run-r11-typed-full" data-round="11" data-session="r11-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap" visibility="hidden">
-<text x="749.5" y="271.6" fill="#e0ddf9" font-size="13" text-anchor="end" font-weight="600" stroke="#111a22" stroke-width="4" stroke-linejoin="round" paint-order="stroke">r11 typed 54</text>
+<text x="747.2" y="293.6" fill="#e0ddf9" font-size="13" text-anchor="end" font-weight="600" stroke="#111a22" stroke-width="4" stroke-linejoin="round" paint-order="stroke">r11 typed 54</text>
 </g>
 <g class="sr zoff rlab" data-s="run-r11-click-fulla" data-round="11" data-session="r11-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap" visibility="hidden">
-<text x="749.5" y="307.3" fill="#9085e9" font-size="13" text-anchor="end" font-weight="600" stroke="#111a22" stroke-width="4" stroke-linejoin="round" paint-order="stroke">r11 click A 47</text>
+<text x="747.2" y="329.3" fill="#9085e9" font-size="13" text-anchor="end" font-weight="600" stroke="#111a22" stroke-width="4" stroke-linejoin="round" paint-order="stroke">r11 click A 47</text>
 </g>
-<g class="sr zoff rlab" data-s="run-r12-typed-full" data-round="12" data-session="r12-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap" data-default="1">
-<line x1="757.0" y1="200.3" x2="734.9" y2="200.3" stroke="#f3cedc" stroke-opacity="0.45"/>
-<text x="731.9" y="205.3" fill="#f3cedc" font-size="13" text-anchor="end" font-weight="600" stroke="#111a22" stroke-width="4" stroke-linejoin="round" paint-order="stroke">r12 typed 67</text>
+<g class="sr zoff rlab" data-s="run-r12-typed-full" data-round="12" data-session="r12-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap" visibility="hidden">
+<line x1="754.7" y1="222.3" x2="732.6" y2="222.3" stroke="#f3cedc" stroke-opacity="0.45"/>
+<text x="729.6" y="227.3" fill="#f3cedc" font-size="13" text-anchor="end" font-weight="600" stroke="#111a22" stroke-width="4" stroke-linejoin="round" paint-order="stroke">r12 typed 67</text>
 </g>
-<g class="sr zoff rlab" data-s="run-r12-click-fulla" data-round="12" data-session="r12-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap" data-default="1">
-<line x1="757.0" y1="271.7" x2="734.9" y2="271.7" stroke="#d55181" stroke-opacity="0.45"/>
-<text x="731.9" y="276.7" fill="#d55181" font-size="13" text-anchor="end" font-weight="600" stroke="#111a22" stroke-width="4" stroke-linejoin="round" paint-order="stroke">r12 click A 53</text>
+<g class="sr zoff rlab" data-s="run-r12-click-fulla" data-round="12" data-session="r12-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap" visibility="hidden">
+<line x1="754.7" y1="293.7" x2="732.6" y2="293.7" stroke="#d55181" stroke-opacity="0.45"/>
+<text x="729.6" y="298.7" fill="#d55181" font-size="13" text-anchor="end" font-weight="600" stroke="#111a22" stroke-width="4" stroke-linejoin="round" paint-order="stroke">r12 click A 53</text>
 </g>
-<g class="sr zoff rlab" data-s="run-r12-click-fullb" data-round="12" data-session="r12-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="stuck" data-default="1">
-<line x1="738.9" y1="271.7" x2="734.9" y2="288.7" stroke="#e89fba" stroke-opacity="0.45"/>
-<text x="731.9" y="293.7" fill="#e89fba" font-size="13" text-anchor="end" font-weight="600" stroke="#111a22" stroke-width="4" stroke-linejoin="round" paint-order="stroke">r12 click B 53</text>
+<g class="sr zoff rlab" data-s="run-r12-click-fullb" data-round="12" data-session="r12-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="stuck" visibility="hidden">
+<line x1="736.6" y1="293.7" x2="732.6" y2="310.7" stroke="#e89fba" stroke-opacity="0.45"/>
+<text x="729.6" y="315.7" fill="#e89fba" font-size="13" text-anchor="end" font-weight="600" stroke="#111a22" stroke-width="4" stroke-linejoin="round" paint-order="stroke">r12 click B 53</text>
 </g>
-<rect x="66" y="134" width="698" height="408" fill="none" stroke="#34495a"/>
+<g class="sr zoff rlab" data-s="run-r13-click-fulla" data-round="13" data-session="r13-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap" visibility="hidden">
+<text x="748.1" y="329.3" fill="#3987e5" font-size="13" text-anchor="end" font-weight="600" stroke="#111a22" stroke-width="4" stroke-linejoin="round" paint-order="stroke">r13 click A 47</text>
+</g>
+<g class="sr zoff rlab" data-s="run-r13-click-fullb" data-round="13" data-session="r13-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap" visibility="hidden">
+<text x="748.1" y="375.2" fill="#92bdf1" font-size="13" text-anchor="end" font-weight="600" stroke="#111a22" stroke-width="4" stroke-linejoin="round" paint-order="stroke">r13 click B 38</text>
+</g>
+<g class="sr zoff rlab" data-s="run-r13-typed-full" data-round="13" data-session="r13-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap" visibility="hidden">
+<text x="748.1" y="431.3" fill="#c8ddf8" font-size="13" text-anchor="end" font-weight="600" stroke="#111a22" stroke-width="4" stroke-linejoin="round" paint-order="stroke">r13 typed 27</text>
+</g>
+<g class="sr zoff rlab" data-s="run-r14-click-full" data-round="14" data-session="r14-click-full" data-mode="click" data-sub="click" data-outcome="cap" data-default="1">
+<text x="747.7" y="206.9" fill="#d95926" font-size="13" text-anchor="end" font-weight="600" stroke="#111a22" stroke-width="4" stroke-linejoin="round" paint-order="stroke">r14 click 71</text>
+</g>
+<g class="sr zoff rlab" data-s="run-r14-typed-full" data-round="14" data-session="r14-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap" data-default="1">
+<text x="747.7" y="293.6" fill="#eaa488" font-size="13" text-anchor="end" font-weight="600" stroke="#111a22" stroke-width="4" stroke-linejoin="round" paint-order="stroke">r14 typed 54</text>
+</g>
+<rect x="66" y="156" width="698" height="408" fill="none" stroke="#34495a"/>
 </svg>

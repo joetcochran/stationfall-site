@@ -592,3 +592,82 @@ Elevator went to the sponsor after Norm registered LEVEL 3–6 west-mouth room-t
 **Playtest.** No new round. Round 12 remains latest (`metrics-playtest-fullrun.svg`). Personas rotate; testers are agents; UNDO on in early rounds.
 
 <!-- through: git f9752449 · mail 20261003-115011-norm-0858 · decisions 62 -->
+
+## 2026-10-03 -- Air Shaft family and Meeting Room 2 accepted; Docking Bay 2 enlarged (M7)
+
+Level 2's leftovers closed and its last room opened. The Air Shaft family, Elevator and Meeting Room 2 were accepted, taking M7 from 50 to 55 accepted rooms (room-status). The sponsor enlarged Docking Bay 2 so the whole Spacetruck fits inside, and Greg painted its seed and three walls that evening.
+
+**Decisions.** D54: the sponsor chose to ***enlarge Docking Bay 2 beyond plan 6 so the complete twelve-metre truck visibly sits inside*** (ship.zil:1011, 1211-1214), art and geometry only, no gameplay change (greg-0411). Norm lifted the hold and packaged DR-054 (norm-0884, 0885). Norm: Meeting Room 2's kick/floor FAIL is a false check and its 331/238 overlap a fitter leftover; review-room now accepts a pair when both views recover the lens sharply (N-2026-10-03-mr2-*). Handed at norm-0892.
+
+**What went wrong and what changed.** The Air Shaft send-backs took six compute attempts on bearing 270 in about 2.5 hours. The holes landed in the wall and were pulled (norm-0865 to 0867), pulled again after a restore (0871 to 0873), and dest-filled to a visual FAIL (0877 to 0879). Building the plates from pierced-plate fabric worked (0880 to 0882), and the three rooms were accepted. Docking Bay 2's seed waited about seven hours for a verdict (greg-0412 to norm-0886); the record does not say why. The cap asks named a 1660-pixel dest that Greg's generator cannot produce, since it outputs 1254 (greg-0418). That was Norm's ask fault, and it waited overnight.
+
+**Milestones:** M7 55 accepted; Docking Bay 2 caps with Greg. M5: no full-run win.
+
+**Rework, efficiency and playtest.** Measured once for both days in the next entry. No new playtest round.
+
+<!-- through: git f9752449 · mail 20261004-001053-greg-0418 · decisions 67 -->
+
+## 2026-10-04 -- Village begun; seated truck eyes; playtest answers on the dashboard (M7)
+
+Docking Bay 2, Grimy Passage, Main Street and Greasy Straw were accepted; the Village is under way. The sponsor's playtest filed 16 reports, and the dashboard gained an answer box for Norm's questions on them.
+
+**Decisions.** D55: ***seated eyes for pilot and copilot, front fan only***. Interface only, since sitting is canon (ship.zil:995-1092). The sponsor answered ten playtest questions:
+- compute fixes on accepted art (Forms Storage doorway, truck floor seam, Robot Pool glimpse);
+- Greg sprites for six dropped items;
+- stencilled bin numbers;
+- Floyd's follow kept as the original;
+- a 1-2-3 keypad, a deviation not yet recorded.
+
+Norm dropped rust-course criteria from Village ring asks (N-2026-10-04-village-courses). Per Norm, the Casino (DR-061) is packaged but held: the sponsor ***chose pacing to conserve tokens***.
+
+**What went wrong and what changed.** Greg stopped at R5 on 13 views, mostly check faults (rust read as courses, a floor detector missing edges), at up to five rasters each. Fixes: the course rule, and Trading Post and Saloon seeds taken back with `_place-shell.mjs` (norm-1033, 1039). On Greasy Straw 180 the restore crushed the blue, so Norm kept Greg's colour (norm-1021). The sponsor returned both trucks three times: no overlays (greg-0455), Floyd cut by the chair (0466), too far aft (0471); compute fixed each within 45 minutes. Some verdicts went out twice (norm-0942/0943); per Norm, the sponsor closed a parallel second Norm session.
+
+**Milestones:** M7 59 of 63; trucks with the sponsor.
+
+**Rework (D20).** Sol (all period): 264 views, 190 first-pass, 20% (22%), 1.34 rounds (1.39). No new guide faults.
+
+**Efficiency (D21).** 198 views (165); Greg p90 1.6 h (1.7); 585,000 tokens/view (698,000) (token log stops 30 Sep); sponsor touches 5.9/day (6.3).
+
+**Playtest.** No new agent round; round 12 stays latest (`metrics-playtest-fullrun.svg`).
+
+<!-- through: git fcd47cb7 · mail 20261004-231710-norm-1039 · decisions 69 -->
+
+## 2026-10-06 -- Round 13 in Copilot; the papers as text; Level Nine handed (M5, M7)
+
+Round 13's blind testers played their first legs in GitHub Copilot, and the package papers gained text copies for AI testers. The Engineering and Astro Offices were accepted; Computer Control and the Factory went to the sponsor. (5 Oct and 6 Oct daytime, fcd47cb7 to 27a80e37, have no entry yet.)
+
+**Decisions.** D63: the sponsor ***offered spare Copilot capacity***; protocol unchanged, Claude Opus 5.5 on Norm's advice, for comparability. D65: ***the robots' growing menace should show***: four Floyd postures, a surly Plato (1cea5d13), a 3D trial (c7dbe994). D66: red eyes on Plato's attack cutout (f7879fcf).
+
+**What went wrong and what changed.** Copilot cannot view images, and the course heading exists only on Form QX-17-T (verbs.zil:2140-2152). Four friction rows record the wall; launching took 60-82 commands (37-45 in round 12). Two testers got the course rule from their operator, as their diaries say. The sponsor ***asked for text copies of every paper***: `design/papers/text/` (99ce75cc). The Factory's dropped stun ray landed inside the elevator well, because the scene read a static TAKEBIT; the fix waited nine hours for the engine freeze (364af384).
+
+**Milestones:** M7 76 of 81 accepted (74 of 77 at 18:00). M5: no full-run win.
+
+**Rework (D20).** Sol: 357 views, 279 first-pass, 15% (20%), 1.27 rounds (1.34). Greg on Sol. Guide faults 22 (20), both 5 Oct.
+
+**Efficiency (D21).** 272 views (198); Greg p90 1.5 h (1.6); 465,000 tokens/view (585,000); 5.6 touches/day (5.9). Round 13 tokens: null.
+
+**Playtest round 13** (still playing). ![Late full runs](wiki/metrics-playtest-fullrun-late.svg) One 400-command leg each: typed 22, clicks 21 and 21, all in the Village's last stage; 3 deaths. [Triage](playtests.md#r=13): 18 issues, 3 A (fixes pending commit), 1 B for the sponsor (SF-255), 14 C; 29% repeats (74%). New personas.
+
+<!-- through: git 364af384 · mail 20261007-092359-greg-0570 · decisions 80 -->
+
+## 2026-10-09 -- Round 14: a win from Plato; the Village resumes; the actors float (M5, M7)
+
+A blind tester won from the Plato checkpoint, the first win since round 6; the Village is painted again.
+
+**Decisions.** Behind the conveniences switch, the sponsor added reading a thing by where it is (D69), a can't-be-won notice at the grating (D71) and RESTORE by number (D72). D74 starts the veteran at the opening: the sponsor ***wants a win from the start***. D73 resumes the Village. D75 floats Floyd, Plato and the welder (canon, ship.zil:575-578); D76 mirrors the 3D actors live. D77: the sponsor briefs Greg on the protagonist (cutout approved, norm-1352).
+
+**What went wrong and what changed.**
+- Two runs had stalled at 73: the one-way grating silently needs the whole endgame kit (cd491ab8). D71 speaks there now.
+- Round 13's model switch went unrecorded; the harness now stamps the model (216701b3).
+- The sponsor returned a room whose walls hid Floyd and Plato; review now raycasts actors (affabc34).
+- An overnight restart wiped the click run's state; Norm replayed it identically (13822030). File locks lost moves; the harness now waits (SF-296).
+
+**Milestones:** M7 85 of 95 accepted (76 of 81). M5: no win from the opening.
+
+**Rework (D20).** Sol all period: 387 views, 309 first-pass, 14% (15%), 1.25 rounds (1.27). No new guide faults this period.
+
+**Efficiency (D21).** 300 views (272); Greg p90 1.5 h; 885,000 tokens/view (465,000), as the token log now reaches 7 Oct; 6.0 touches/day (5.6).
+
+**Playtest round 14** ![How sessions ended](wiki/metrics-playtest-ends.svg) The veteran won at command 274. Full runs capped at 71 and 54: Day 2 100% (45%), Plato 52% (0%); both stalled in the day-4 blackout (Q42). Agent testers, new personas; the charts file this mixed round as segmented. [Triage](playtests.md#r=14): 41 issues, 75% repeats, 4 A built.
+
+<!-- through: git 878d7102 · mail 20261009-111714-norm-1352 · decisions 91 -->

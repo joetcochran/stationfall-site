@@ -394,7 +394,9 @@ function chartView(text, shared, doc, { large = false, enlarge = null } = {}) {
   // ---- series: hide, show, and close up a stack
   const restack = st => {
     const dir = st.dataset.dir, gap = +st.dataset.gap || 0;
-    const segs = [...st.querySelectorAll(':scope > .m')];
+    // A segment too thin to draw (bar() draws nothing under a pixel: round 13's scale left round 2's high-severity
+    // sliver empty) has no shape to move, and is skipped rather than failing the page.
+    const segs = [...st.querySelectorAll(':scope > .m')].filter(s => s.querySelector('[data-b], rect, path'));
     const geo = s => { const el = s.querySelector('[data-b]'); if (el) { const [x, y, w, h] = nums(el.dataset.b); return { x, y, w, h }; } const r = s.querySelector('rect, path'); const o = orig.get(r) ?? {}; return { x: +(o.x ?? r.getAttribute('x')), y: +r.getAttribute('y'), w: +(o.width ?? r.getAttribute('width')), h: +r.getAttribute('height') }; };
     if (!segs.length) return;
     const g0 = geo(segs[0]);
@@ -969,7 +971,112 @@ export async function contractApp(host, doc = globalThis.document) {
   if (want) show2(want);
   box.open = true;
 }
-const APPS = { playtests: playtestsApp, 'contract-versions': contractApp };
+// The blind playtesters' leaderboard (the sponsor, 8 October): the full runs ranked several ways, the generated
+// persona-against-friction findings, and every run in one table that sorts by any column. All from
+// wiki/playtest-leaderboard.json (scripts/wiki-data.mjs, scripts/lib/playtest-leaderboard.mjs).
+export const LB_COLUMNS = [
+  ['label', 'Run'], ['persona', 'Persona'], ['host', 'Host'], ['bestScore', 'Best'], ['furthestStage', 'Furthest stage'], ['outcome', 'Outcome'],
+  ['deaths', 'Deaths'], ['restores', 'Restores'], ['backToZero', 'Back to 0'], ['commands', 'Commands'], ['rows', 'Friction rows'], ['kinds', 'Kinds (of 7)'],
+  ['negativePer100', 'Negative / 100'], ['weightedPer100', 'Weighted / 100'], ['high', 'High severity'], ['blocked', 'Blocked'], ['praiseShare', 'Praise'],
+];
+const LB_HELP = {
+  bestScore: 'best score of 80', restores: 'RESTORE commands sent', backToZero: 'times the score fell back to 0: a restart, or a save from the opening restored',
+  kinds: 'how many of the seven negative kinds it filed (blocked, bug, parse, not-understood, confusing, tedious, other)', negativePer100: 'rows that were not praise, per 100 commands',
+  weightedPer100: 'negative rows weighted by severity (low 1, medium 2, high 3), per 100 commands: the frustration measure', blocked: 'rows of the kind "blocked"', praiseShare: 'the share of its rows that were praise ("nice")',
+};
+// The value a column sorts and shows by: numbers as numbers, the host as its hosts joined.
+export const lbValue = (r, k) => k === 'host' ? (r.hosts ?? []).join(' then ') : k === 'label' ? `${String(r.round).padStart(4, '0')} ${r.label}` : r[k];
+export function sortRuns(runs, key, dir = -1) {
+  return [...runs].sort((a, b) => {
+    const x = lbValue(a, key), y = lbValue(b, key);
+    const d = typeof x === 'number' && typeof y === 'number' ? x - y : String(x ?? '').localeCompare(String(y ?? ''));
+    return (d * dir) || a.session.localeCompare(b.session);
+  });
+}
+export async function leaderboardApp(host, doc = globalThis.document) {
+  const data = await getJson('wiki/playtest-leaderboard.json');
+  const runs = data.runs ?? [], bySession = new Map(runs.map(r => [r.session, r]));
+  const outcomes = data.outcomes ?? [];
+  const root = make(doc, 'div', { class: 'lb' });
+  const runLink = r => make(doc, 'a', { href: `?page=playtests#s=${encodeURIComponent(r.session)}`, title: `${r.session}: its diary, friction rows and triage`, text: r.label });
+  const fmt = (k, v) => v == null ? '–' : k === 'praiseShare' ? `${Math.round(v * 100)}%` : typeof v === 'number' ? (Number.isInteger(v) ? num(v) : v.toFixed(2)) : String(v);
+  const cell = (r, k) => k === 'label' ? make(doc, 'td', { class: 'nm' }, runLink(r), r.undo ? make(doc, 'span', { class: 'flag', title: 'UNDO was on in this round', text: ' UNDO' }) : null)
+    : k === 'persona' ? make(doc, 'td', { class: 'persona' }, make(doc, 'span', { text: r.persona ?? '–' }), make(doc, 'span', { class: 'tags', text: `${data.experience?.[r.experience] ?? r.experience} · ${data.pace?.[r.pace] ?? r.pace}` }))
+    : k === 'host' ? make(doc, 'td', { class: 'nm' }, make(doc, 'span', { text: (r.hosts ?? []).join(' → ') || 'not recorded' }), r.models?.length ? make(doc, 'span', { class: 'tags', text: r.models.join(', then ') }) : null)
+    : k === 'outcome' ? make(doc, 'td', {}, outcomeChip(doc, r.outcome, outcomes))
+    : make(doc, 'td', { class: typeof r[k] === 'number' ? 'n' : null, text: fmt(k, r[k]) });
+
+  // Which runs are ranked and listed: all, or the runs of one host (the chips; round 13's host fills the friction
+  // rankings, so the persona question reads best within one host).
+  const hostKey = r => (r.hosts ?? []).join(' → ') || 'not recorded';
+  const hostKeys = [...new Set(runs.map(hostKey))];
+  let only = null;
+  const shown = () => only ? runs.filter(r => hostKey(r) === only) : runs;
+  const chipBar = make(doc, 'div', { class: 'chips', role: 'group', 'aria-label': 'Which runs, by host' });
+  const chips = [[null, `All hosts (${runs.length})`], ...hostKeys.map(k => [k, `${k} (${runs.filter(r => hostKey(r) === k).length})`])].map(([k, t]) => {
+    const b = make(doc, 'button', { type: 'button', text: t, 'aria-pressed': String(k === only), onclick: () => { only = k; chips.forEach(c => c.setAttribute('aria-pressed', String(c === b))); drawRanks(); draw(); } });
+    return b;
+  });
+  chipBar.append(make(doc, 'span', { class: 'lbl', text: 'Runs: ' }), ...chips);
+  // The rankings: the top five of each.
+  const TOP = 5;
+  const grid = make(doc, 'div', { class: 'ranks' });
+  const drawRanks = () => { grid.replaceChildren(); const keep = new Set(shown().map(r => r.session)); for (const R0 of data.rankings ?? []) { const R = { ...R0, order: R0.order.filter(s => keep.has(s)) };
+    const cols = R.show ?? [];
+    grid.append(make(doc, 'section', { class: 'rank' }, make(doc, 'h3', { text: R.title }), make(doc, 'p', { class: 'note', text: `By ${R.note}.` }),
+      make(doc, 'div', { class: 'table' }, make(doc, 'table', {},
+        make(doc, 'thead', {}, make(doc, 'tr', {}, make(doc, 'th', { text: '#' }), make(doc, 'th', { text: 'Run' }), cols.map(k => make(doc, 'th', { title: LB_HELP[k] ?? null, text: LB_COLUMNS.find(c => c[0] === k)?.[1] ?? k })))),
+        make(doc, 'tbody', {}, R.order.slice(0, TOP).map((s, i) => { const r = bySession.get(s); return r ? make(doc, 'tr', {}, make(doc, 'td', { class: 'n', text: String(i + 1) }),
+          make(doc, 'td', { class: 'nm' }, runLink(r), make(doc, 'span', { class: 'tags', text: r.persona ?? '' })), cols.map(k => k === 'outcome' ? make(doc, 'td', {}, outcomeChip(doc, r.outcome, outcomes)) : make(doc, 'td', { class: typeof r[k] === 'number' ? 'n' : null, text: fmt(k, r[k]) }))) : null; }))))));
+  } };
+  root.append(make(doc, 'h2', { id: 'rankings', text: 'The rankings' }), make(doc, 'p', { class: 'note', text: `The top ${TOP} of the ${runs.length} full runs each way. A run's name opens its diary and friction rows on the playtests page. Pick a host to rank only its runs: round 13's Copilot runs top every friction ranking.` }), chipBar, grid);
+
+  // The findings, as generated from the numbers.
+  const A = data.analysis ?? {};
+  root.append(make(doc, 'h2', { id: 'what-the-numbers-say', text: 'What the numbers say' }),
+    make(doc, 'p', { class: 'note', text: 'Each sentence below is written by the generator from the runs as they stand, so it follows new rounds. "Spread explained" is the share of the run-to-run variation (sum of squares) that the grouping accounts for.' }),
+    make(doc, 'ul', { class: 'findings' }, (A.findings ?? []).map(f => make(doc, 'li', { text: f }))));
+  const groupTable = (title, rows, first = 'Group') => rows?.length ? make(doc, 'div', { class: 'table' }, make(doc, 'table', { 'aria-label': title },
+    make(doc, 'caption', { text: title }),
+    make(doc, 'thead', {}, make(doc, 'tr', {}, [first, 'Runs', 'Mean best', 'Negative / 100', 'Weighted / 100', 'Blocked / 100', 'Kinds'].map(t => make(doc, 'th', { text: t })))),
+    make(doc, 'tbody', {}, rows.map(g => make(doc, 'tr', {}, make(doc, 'td', { title: (g.sessions ?? []).join(', '), text: g.label }), ['runs', 'bestScore', 'negativePer100', 'weightedPer100', 'blockedPer100', 'kinds'].map(k => make(doc, 'td', { class: 'n', text: fmt(k, g[k]) }))))))) : null;
+  const C = A.clean;
+  if (C?.runs) root.append(make(doc, 'h3', { text: `Persona kinds, in the ${C.runs} runs played wholly in ${C.host} with UNDO off (rounds ${C.rounds.join(', ')})` }),
+    make(doc, 'p', { class: 'note', text: 'The tags are read from each persona\'s own words by fixed patterns (scripts/lib/playtest-leaderboard.mjs): what it says of text-adventure experience, and of pace. Hover a group for its runs.' }),
+    groupTable('By mode', C.byMode, 'Mode'), groupTable('By experience', C.byExperience, 'Experience'), groupTable('By pace', C.byPace, 'Pace'));
+  if (A.byHost?.length) root.append(make(doc, 'h3', { text: 'By host, leg by leg' }),
+    make(doc, 'p', { class: 'note', text: 'Each leg counted under the host decisions/work.jsonl gives it, and the model its entry names, if any. A leg the log does not place is "host not recorded".' }),
+    make(doc, 'div', { class: 'table' }, make(doc, 'table', {},
+      make(doc, 'thead', {}, make(doc, 'tr', {}, ['Host (model, where named)', 'Rounds', 'Runs', 'Legs', 'Commands', 'All rows / 100', 'Negative / 100', 'Weighted / 100'].map(t => make(doc, 'th', { text: t })))),
+      make(doc, 'tbody', {}, A.byHost.map(h => make(doc, 'tr', {}, make(doc, 'td', { text: h.host }), make(doc, 'td', { text: h.rounds.join(', ') }),
+        ['runs', 'legs', 'commands', 'per100', 'negativePer100', 'weightedPer100'].map(k => make(doc, 'td', { class: 'n', text: fmt(k, h[k]) }))))))));
+  // The same legs by the model they ran on (metrics.mjs chart 17; the sponsor, 9 October). The page's charts were made
+  // live before this app mounted, so this one is made live here.
+  if (A.byHost?.length) {
+    const fig = make(doc, 'p', {}, make(doc, 'img', { src: 'wiki/metrics-playtest-models.svg', alt: 'Negative friction rows per 100 commands by the model the tester ran on: the round 13 Copilot legs where GPT-6 Luna played filed 11.0, every Claude Opus 5.5 group 1.5 to 3.0' }));
+    root.append(make(doc, 'p', { class: 'note', text: 'By model: the negative friction came mostly from the Copilot legs where GPT-6 Luna played (hatched: Opus and Luna mixed, which legs is not recorded). Every group of legs on Claude Opus 5.5, in either host, filed 1.5 to 3.0 negative rows per 100 commands.' }), fig);
+    charts(fig, doc);
+  }
+
+  // Every run, sortable by any column.
+  let key = 'label', dir = 1;
+  const tbody = make(doc, 'tbody', {});
+  const heads = LB_COLUMNS.map(([k, t]) => {
+    const b = make(doc, 'button', { type: 'button', class: 'sort', title: LB_HELP[k] ? `${LB_HELP[k]}. Sort by this column.` : 'Sort by this column.', text: t, onclick: () => { if (key === k) dir = -dir; else { key = k; dir = ['label', 'persona', 'host', 'furthestStage', 'outcome'].includes(k) ? 1 : -1; } draw(); } });
+    const th = make(doc, 'th', { scope: 'col' }, b); th.dataset.k = k; return th;
+  });
+  const draw = () => {
+    for (const th of heads) { const on = th.dataset.k === key; if (on) th.setAttribute('aria-sort', dir > 0 ? 'ascending' : 'descending'); else th.removeAttribute('aria-sort'); }
+    tbody.replaceChildren(...sortRuns(shown(), key, dir).map(r => make(doc, 'tr', {}, LB_COLUMNS.map(([k]) => cell(r, k)))));
+  };
+  root.append(make(doc, 'h2', { id: 'every-full-run', text: 'Every full run' }),
+    make(doc, 'p', { class: 'note', text: 'Click a column\'s heading to sort by it, and again to reverse. Hover a heading for what it counts. The host chips above pick the runs here too. The same table is metrics-playtest-testers.csv.' }),
+    make(doc, 'div', { class: 'table' }, make(doc, 'table', { class: 'all' }, make(doc, 'thead', {}, make(doc, 'tr', {}, heads)), tbody)));
+  drawRanks();
+  draw();
+  host.append(root);
+}
+const APPS = { playtests: playtestsApp, 'contract-versions': contractApp, leaderboard: leaderboardApp };
 
 // The page itself: ?page=<name> (index by default), with the contents from index.md down the side.
 export async function show(doc = globalThis.document) {
