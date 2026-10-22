@@ -59,29 +59,50 @@
     "outcome"
    ],
    "order": [
+    "r17-illustrator-full",
+    "r15d-click-full",
+    "r16b-gm-full",
     "r11-click-fullB",
+    "r16-engineer-full",
+    "r16-newcomer-full",
     "r8-click-fullB",
     "r10-click-fullA",
     "r14-click-full",
+    "r16-gm-full",
     "r12-typed-full",
+    "r16b-newcomer-full",
+    "r17-stenographer-full",
     "r8-typed-full",
     "r9-click-fullB",
     "r7-click-fullB",
     "r10-click-fullB",
     "r11-typed-full",
     "r14-typed-full",
+    "r16b-engineer-full",
+    "r17-escaperoom-full",
     "r9-click-fullA",
     "r9-typed-full",
     "r12-click-fullB",
     "r12-click-fullA",
     "r7-click-fullA",
+    "r15d-veteran-full",
     "r8-click-fullA",
     "r11-click-fullA",
     "r13-click-fullA",
+    "r15b-click-full",
+    "r15c-click-full",
+    "r15-typed-full",
+    "r15b-typed-full",
+    "r15c-typed-full",
     "r7-typed-full",
+    "r15c-veteran-full-b",
+    "r15-click-full",
     "r10-typed-full",
+    "r15d-typed-full",
     "r13-click-fullB",
-    "r13-typed-full"
+    "r15b-veteran-full",
+    "r13-typed-full",
+    "r15-veteran-full"
    ]
   },
   {
@@ -100,6 +121,7 @@
     "r7-click-fullA",
     "r8-click-fullB",
     "r11-click-fullA",
+    "r17-escaperoom-full",
     "r9-click-fullA",
     "r9-click-fullB",
     "r11-click-fullB",
@@ -107,16 +129,36 @@
     "r12-click-fullB",
     "r7-typed-full",
     "r14-typed-full",
+    "r17-illustrator-full",
     "r7-click-fullB",
     "r8-typed-full",
     "r10-click-fullA",
     "r12-click-fullA",
     "r12-typed-full",
     "r11-typed-full",
+    "r17-stenographer-full",
     "r9-typed-full",
     "r14-click-full",
     "r10-click-fullB",
-    "r10-typed-full"
+    "r16-engineer-full",
+    "r16b-gm-full",
+    "r16-newcomer-full",
+    "r10-typed-full",
+    "r15d-veteran-full",
+    "r16b-engineer-full",
+    "r16-gm-full",
+    "r15d-typed-full",
+    "r16b-newcomer-full",
+    "r15b-click-full",
+    "r15d-click-full",
+    "r15-click-full",
+    "r15b-typed-full",
+    "r15c-click-full",
+    "r15b-veteran-full",
+    "r15-typed-full",
+    "r15c-typed-full",
+    "r15c-veteran-full-b",
+    "r15-veteran-full"
    ]
   },
   {
@@ -131,6 +173,7 @@
     "r13-click-fullA",
     "r13-click-fullB",
     "r13-typed-full",
+    "r17-escaperoom-full",
     "r9-click-fullA",
     "r11-click-fullA",
     "r8-click-fullA",
@@ -142,15 +185,35 @@
     "r10-click-fullB",
     "r10-typed-full",
     "r12-typed-full",
+    "r16-engineer-full",
     "r7-click-fullB",
     "r7-typed-full",
     "r11-click-fullB",
+    "r15d-veteran-full",
+    "r16b-engineer-full",
     "r8-typed-full",
     "r12-click-fullA",
     "r14-click-full",
+    "r16-gm-full",
+    "r16b-newcomer-full",
     "r9-typed-full",
     "r14-typed-full",
-    "r11-typed-full"
+    "r15d-typed-full",
+    "r16-newcomer-full",
+    "r16b-gm-full",
+    "r15d-click-full",
+    "r17-illustrator-full",
+    "r15b-click-full",
+    "r11-typed-full",
+    "r15c-click-full",
+    "r17-stenographer-full",
+    "r15-click-full",
+    "r15b-typed-full",
+    "r15-typed-full",
+    "r15-veteran-full",
+    "r15b-veteran-full",
+    "r15c-typed-full",
+    "r15c-veteran-full-b"
    ]
   },
   {
@@ -167,6 +230,7 @@
     "r13-click-fullA",
     "r13-click-fullB",
     "r14-typed-full",
+    "r15d-veteran-full",
     "r8-click-fullB",
     "r9-click-fullA",
     "r8-click-fullA",
@@ -176,6 +240,8 @@
     "r11-typed-full",
     "r7-typed-full",
     "r10-click-fullB",
+    "r16b-gm-full",
+    "r15d-typed-full",
     "r7-click-fullA",
     "r12-typed-full",
     "r10-click-fullA",
@@ -183,9 +249,27 @@
     "r12-click-fullB",
     "r9-typed-full",
     "r10-typed-full",
+    "r16-engineer-full",
     "r11-click-fullA",
     "r9-click-fullB",
-    "r14-click-full"
+    "r17-escaperoom-full",
+    "r14-click-full",
+    "r17-stenographer-full",
+    "r16-gm-full",
+    "r16b-engineer-full",
+    "r15-click-full",
+    "r15b-typed-full",
+    "r16-newcomer-full",
+    "r17-illustrator-full",
+    "r16b-newcomer-full",
+    "r15d-click-full",
+    "r15b-click-full",
+    "r15c-click-full",
+    "r15b-veteran-full",
+    "r15-veteran-full",
+    "r15-typed-full",
+    "r15c-typed-full",
+    "r15c-veteran-full-b"
    ]
   },
   {
@@ -200,25 +284,46 @@
    "order": [
     "r7-typed-full",
     "r11-click-fullB",
+    "r15-click-full",
     "r10-click-fullA",
     "r8-click-fullB",
+    "r15c-veteran-full-b",
+    "r16b-engineer-full",
     "r10-typed-full",
     "r12-click-fullA",
     "r10-click-fullB",
     "r9-click-fullA",
     "r14-click-full",
+    "r15b-click-full",
+    "r16-newcomer-full",
+    "r15c-click-full",
     "r12-typed-full",
     "r14-typed-full",
     "r13-click-fullB",
+    "r15b-veteran-full",
+    "r16b-newcomer-full",
+    "r16-engineer-full",
+    "r17-stenographer-full",
     "r9-click-fullB",
+    "r15c-typed-full",
     "r8-typed-full",
     "r8-click-fullA",
+    "r15b-typed-full",
+    "r15-typed-full",
+    "r16b-gm-full",
     "r13-click-fullA",
     "r11-click-fullA",
     "r11-typed-full",
+    "r15-veteran-full",
     "r7-click-fullA",
     "r7-click-fullB",
+    "r15d-click-full",
+    "r15d-typed-full",
     "r9-typed-full",
+    "r17-escaperoom-full",
+    "r17-illustrator-full",
+    "r16-gm-full",
+    "r15d-veteran-full",
     "r13-typed-full",
     "r12-click-fullB"
    ]
@@ -232,34 +337,55 @@
     "praise"
    ],
    "order": [
+    "r16b-newcomer-full",
     "r9-click-fullB",
     "r14-click-full",
     "r13-typed-full",
     "r10-click-fullB",
     "r13-click-fullA",
     "r12-click-fullB",
+    "r16-newcomer-full",
     "r13-click-fullB",
     "r12-click-fullA",
     "r8-click-fullA",
+    "r17-illustrator-full",
     "r11-click-fullB",
     "r10-typed-full",
     "r9-click-fullA",
+    "r15d-typed-full",
     "r10-click-fullA",
     "r9-typed-full",
+    "r16-engineer-full",
     "r7-click-fullB",
+    "r15d-click-full",
+    "r15c-click-full",
     "r11-click-fullA",
+    "r16-gm-full",
     "r8-typed-full",
+    "r16b-gm-full",
+    "r17-escaperoom-full",
     "r8-click-fullB",
+    "r17-stenographer-full",
     "r12-typed-full",
     "r11-typed-full",
+    "r16b-engineer-full",
     "r7-click-fullA",
     "r14-typed-full",
-    "r7-typed-full"
+    "r7-typed-full",
+    "r15-click-full",
+    "r15b-click-full",
+    "r15-veteran-full",
+    "r15b-typed-full",
+    "r15c-typed-full",
+    "r15d-veteran-full",
+    "r15b-veteran-full",
+    "r15-typed-full",
+    "r15c-veteran-full-b"
    ]
   }
  ],
  "analysis": {
-  "runs": 23,
+  "runs": 44,
   "rounds": [
    "7",
    "8",
@@ -268,15 +394,22 @@
    "11",
    "12",
    "13",
-   "14"
+   "14",
+   "15a",
+   "15b",
+   "15c",
+   "15d",
+   "16a",
+   "16b",
+   "17"
   ],
   "explainedAll": {
    "round": 0.99,
-   "mode": 0,
-   "host": 0.99,
+   "mode": 0.03,
+   "host": 0.96,
    "weightedRound": 0.98,
-   "scoreRound": 0.41,
-   "scoreMode": 0.09
+   "scoreRound": 0.54,
+   "scoreMode": 0.08
   },
   "clean": {
    "host": "Claude Code",
@@ -286,9 +419,10 @@
     "10",
     "11",
     "12",
-    "14"
+    "14",
+    "15a"
    ],
-   "runs": 17,
+   "runs": 19,
    "roundMeans": [
     {
      "round": "8",
@@ -313,44 +447,49 @@
     {
      "round": "14",
      "negativePer100": 1.5
+    },
+    {
+     "round": "15a",
+     "negativePer100": 0.48
     }
    ],
    "negativeRange": [
-    1.2,
+    0.4,
     2.13
    ],
    "explained": {
-    "round": 0.51,
-    "mode": 0.1,
-    "experience": 0.01,
-    "pace": 0.08,
-    "scoreRound": 0.07,
-    "scoreExperience": 0.07,
-    "scorePace": 0.02
+    "round": 0.85,
+    "mode": 0.07,
+    "experience": 0.06,
+    "pace": 0.12,
+    "scoreRound": 0.25,
+    "scoreExperience": 0.05,
+    "scorePace": 0
    },
    "byMode": [
     {
      "key": "typed",
      "label": "typed",
-     "runs": 6,
+     "runs": 7,
      "sessions": [
       "r8-typed-full",
       "r9-typed-full",
       "r10-typed-full",
       "r11-typed-full",
       "r12-typed-full",
-      "r14-typed-full"
+      "r14-typed-full",
+      "r15-typed-full"
      ],
-     "bestScore": 54,
-     "negativePer100": 1.48,
-     "weightedPer100": 2.4,
-     "blockedPer100": 0.35,
-     "kinds": 5.67
+     "bestScore": 52.71,
+     "negativePer100": 1.33,
+     "weightedPer100": 2.16,
+     "blockedPer100": 0.3,
+     "kinds": 5.14
     },
     {
      "key": "click",
      "label": "click",
-     "runs": 11,
+     "runs": 12,
      "sessions": [
       "r8-click-fullA",
       "r8-click-fullB",
@@ -362,13 +501,14 @@
       "r11-click-fullB",
       "r12-click-fullA",
       "r12-click-fullB",
-      "r14-click-full"
+      "r14-click-full",
+      "r15-click-full"
      ],
-     "bestScore": 59.64,
-     "negativePer100": 1.63,
-     "weightedPer100": 2.84,
-     "blockedPer100": 0.5,
-     "kinds": 5.18
+     "bestScore": 58.08,
+     "negativePer100": 1.54,
+     "weightedPer100": 2.69,
+     "blockedPer100": 0.47,
+     "kinds": 5.08
     }
    ],
    "byExperience": [
@@ -405,7 +545,7 @@
     {
      "key": "other",
      "label": "other games; no text adventures named",
-     "runs": 11,
+     "runs": 13,
      "sessions": [
       "r8-click-fullA",
       "r9-click-fullA",
@@ -417,13 +557,15 @@
       "r12-click-fullB",
       "r12-typed-full",
       "r14-click-full",
-      "r14-typed-full"
+      "r14-typed-full",
+      "r15-click-full",
+      "r15-typed-full"
      ],
-     "bestScore": 58.36,
-     "negativePer100": 1.56,
-     "weightedPer100": 2.67,
-     "blockedPer100": 0.48,
-     "kinds": 5.36
+     "bestScore": 56,
+     "negativePer100": 1.39,
+     "weightedPer100": 2.39,
+     "blockedPer100": 0.41,
+     "kinds": 5
     }
    ],
    "byPace": [
@@ -448,40 +590,42 @@
     {
      "key": "fast",
      "label": "fast, skims",
-     "runs": 5,
+     "runs": 6,
      "sessions": [
       "r8-click-fullA",
       "r9-click-fullB",
       "r10-click-fullB",
       "r12-typed-full",
-      "r14-click-full"
+      "r14-click-full",
+      "r15-click-full"
      ],
-     "bestScore": 59.8,
-     "negativePer100": 1.56,
-     "weightedPer100": 2.6,
-     "blockedPer100": 0.49,
-     "kinds": 5
+     "bestScore": 56.67,
+     "negativePer100": 1.39,
+     "weightedPer100": 2.34,
+     "blockedPer100": 0.42,
+     "kinds": 4.83
     },
     {
      "key": "unstated",
      "label": "pace not stated",
-     "runs": 6,
+     "runs": 7,
      "sessions": [
       "r8-typed-full",
       "r9-typed-full",
       "r10-click-fullA",
       "r11-typed-full",
       "r12-click-fullB",
-      "r14-typed-full"
+      "r14-typed-full",
+      "r15-typed-full"
      ],
-     "bestScore": 57.17,
-     "negativePer100": 1.51,
-     "weightedPer100": 2.53,
-     "blockedPer100": 0.36,
-     "kinds": 5.67
+     "bestScore": 55.43,
+     "negativePer100": 1.35,
+     "weightedPer100": 2.28,
+     "blockedPer100": 0.31,
+     "kinds": 5.14
     }
    ],
-   "scoreVsFriction": 0.26
+   "scoreVsFriction": 0.49
   },
   "others": [
    {
@@ -542,6 +686,139 @@
     ],
     "undo": false,
     "negativePer100": 8.7
+   },
+   {
+    "session": "r15-veteran-full",
+    "round": "15a",
+    "hosts": [],
+    "undo": false,
+    "negativePer100": 0.2
+   },
+   {
+    "session": "r15b-click-full",
+    "round": "15b",
+    "hosts": [],
+    "undo": false,
+    "negativePer100": 0.67
+   },
+   {
+    "session": "r15b-typed-full",
+    "round": "15b",
+    "hosts": [],
+    "undo": false,
+    "negativePer100": 0.47
+   },
+   {
+    "session": "r15b-veteran-full",
+    "round": "15b",
+    "hosts": [],
+    "undo": false,
+    "negativePer100": 0.34
+   },
+   {
+    "session": "r15c-click-full",
+    "round": "15c",
+    "hosts": [],
+    "undo": false,
+    "negativePer100": 0.4
+   },
+   {
+    "session": "r15c-typed-full",
+    "round": "15c",
+    "hosts": [],
+    "undo": false,
+    "negativePer100": 0.27
+   },
+   {
+    "session": "r15c-veteran-full-b",
+    "round": "15c",
+    "hosts": [],
+    "undo": false,
+    "negativePer100": 0.2
+   },
+   {
+    "session": "r15d-click-full",
+    "round": "15d",
+    "hosts": [],
+    "undo": false,
+    "negativePer100": 0.86
+   },
+   {
+    "session": "r15d-typed-full",
+    "round": "15d",
+    "hosts": [],
+    "undo": false,
+    "negativePer100": 0.8
+   },
+   {
+    "session": "r15d-veteran-full",
+    "round": "15d",
+    "hosts": [],
+    "undo": false,
+    "negativePer100": 1.13
+   },
+   {
+    "session": "r16-engineer-full",
+    "round": "16a",
+    "hosts": [],
+    "undo": false,
+    "negativePer100": 1.2
+   },
+   {
+    "session": "r16-gm-full",
+    "round": "16a",
+    "hosts": [],
+    "undo": false,
+    "negativePer100": 0.93
+   },
+   {
+    "session": "r16-newcomer-full",
+    "round": "16a",
+    "hosts": [],
+    "undo": false,
+    "negativePer100": 1.07
+   },
+   {
+    "session": "r16b-engineer-full",
+    "round": "16b",
+    "hosts": [],
+    "undo": false,
+    "negativePer100": 0.87
+   },
+   {
+    "session": "r16b-gm-full",
+    "round": "16b",
+    "hosts": [],
+    "undo": false,
+    "negativePer100": 1.27
+   },
+   {
+    "session": "r16b-newcomer-full",
+    "round": "16b",
+    "hosts": [],
+    "undo": false,
+    "negativePer100": 0.8
+   },
+   {
+    "session": "r17-escaperoom-full",
+    "round": "17",
+    "hosts": [],
+    "undo": false,
+    "negativePer100": 1.53
+   },
+   {
+    "session": "r17-illustrator-full",
+    "round": "17",
+    "hosts": [],
+    "undo": false,
+    "negativePer100": 1.17
+   },
+   {
+    "session": "r17-stenographer-full",
+    "round": "17",
+    "hosts": [],
+    "undo": false,
+    "negativePer100": 1.13
    }
   ],
   "byHost": [
@@ -627,14 +904,70 @@
     "per100": 2.63,
     "negativePer100": 1.5,
     "weightedPer100": 2.5
+   },
+   {
+    "host": "Claude Code (claude-sonnet-5-5)",
+    "legs": 10,
+    "runs": 2,
+    "rounds": [
+     "15a"
+    ],
+    "commands": 2945,
+    "rows": 18,
+    "per100": 0.61,
+    "negativePer100": 0.48,
+    "weightedPer100": 0.88
+   },
+   {
+    "host": "host not recorded (claude-sonnet-5-5)",
+    "legs": 36,
+    "runs": 7,
+    "rounds": [
+     "15a",
+     "15b",
+     "15c"
+    ],
+    "commands": 10322,
+    "rows": 49,
+    "per100": 0.47,
+    "negativePer100": 0.36,
+    "weightedPer100": 0.73
+   },
+   {
+    "host": "host not recorded (claude-opus-5-5)",
+    "legs": 35,
+    "runs": 9,
+    "rounds": [
+     "15d",
+     "16a",
+     "16b"
+    ],
+    "commands": 13158,
+    "rows": 220,
+    "per100": 1.67,
+    "negativePer100": 1,
+    "weightedPer100": 1.79
+   },
+   {
+    "host": "host not recorded (gpt-6-astra)",
+    "legs": 11,
+    "runs": 3,
+    "rounds": [
+     "17"
+    ],
+    "commands": 4109,
+    "rows": 86,
+    "per100": 2.09,
+    "negativePer100": 1.29,
+    "weightedPer100": 2.7
    }
   ],
   "findings": [
-   "Across the 23 full runs (rounds 7 to 14), the round a run belonged to accounts for 99% of the run-to-run spread in negative rows per 100 commands, and typed against click for 0%. For best score the shares are 41% and 9%.",
-   "The cleanest comparison is the 17 runs played wholly in Claude Code with UNDO off (rounds 8, 9, 10, 11, 12 and 14): one host, one protocol, a different persona in every run. Their negative rows per 100 commands ran only from 1.2 to 2.1; round means 1.4 to 1.9.",
-   "Within them, by mode: typed 1.5 (6 runs), click 1.6 (11 runs). By what the persona says of experience: has played text adventures 1.6 (3 runs), new to text adventures 1.6 (3 runs), other games; no text adventures named 1.6 (11 runs). By pace: careful, reads everything 1.7 (6 runs), fast, skims 1.6 (5 runs), pace not stated 1.5 (6 runs). Mode accounts for 10% of that spread, experience for 1% and pace for 8%, each from groups of two to ten runs.",
-   "Best score, in the same runs: by experience has played text adventures 60.3, new to text adventures 52.3, other games; no text adventures named 58.4; by pace careful, reads everything 56.3, fast, skims 59.8, pace not stated 57.2. Score and friction rate correlate at r = 0.26.",
-   "By the host each leg ran in (decisions/work.jsonl): Claude Code, 69 legs and 25,862 commands, 1.6 negative rows per 100 (2.8 all rows); host not recorded, 3 legs and 1,102 commands, 1.8 negative rows per 100 (2.4 all rows); Copilot (Claude Opus 5.5), 3 legs and 1,200 commands, 2.3 negative rows per 100 (4.7 all rows); Copilot (Claude Opus 5.5, then GPT-6 Luna), 12 legs and 3,070 commands, 11.0 negative rows per 100 (22.0 all rows); Claude Code (Claude Opus 5.5), 2 legs and 237 commands, 3.0 negative rows per 100 (6.3 all rows); Claude Code (claude-opus-5-5), 9 legs and 3,000 commands, 1.5 negative rows per 100 (2.6 all rows)."
+   "Across the 44 full runs (rounds 7 to 17), the round a run belonged to accounts for 99% of the run-to-run spread in negative rows per 100 commands, and typed against click for 3%. For best score the shares are 54% and 8%.",
+   "The cleanest comparison is the 19 runs played wholly in Claude Code with UNDO off (rounds 8, 9, 10, 11, 12, 14 and 15a): one host, one protocol, a different persona in every run. Their negative rows per 100 commands ran only from 0.4 to 2.1; round means 0.5 to 1.9.",
+   "Within them, by mode: typed 1.3 (7 runs), click 1.5 (12 runs). By what the persona says of experience: has played text adventures 1.6 (3 runs), new to text adventures 1.6 (3 runs), other games; no text adventures named 1.4 (13 runs). By pace: careful, reads everything 1.7 (6 runs), fast, skims 1.4 (6 runs), pace not stated 1.4 (7 runs). Mode accounts for 7% of that spread, experience for 6% and pace for 12%, each from groups of two to ten runs.",
+   "Best score, in the same runs: by experience has played text adventures 60.3, new to text adventures 52.3, other games; no text adventures named 56.0; by pace careful, reads everything 56.3, fast, skims 56.7, pace not stated 55.4. Score and friction rate correlate at r = 0.49.",
+   "By the host each leg ran in (decisions/work.jsonl): Claude Code, 69 legs and 25,862 commands, 1.6 negative rows per 100 (2.8 all rows); host not recorded, 3 legs and 1,102 commands, 1.8 negative rows per 100 (2.4 all rows); Copilot (Claude Opus 5.5), 3 legs and 1,200 commands, 2.3 negative rows per 100 (4.7 all rows); Copilot (Claude Opus 5.5, then GPT-6 Luna), 12 legs and 3,070 commands, 11.0 negative rows per 100 (22.0 all rows); Claude Code (Claude Opus 5.5), 2 legs and 237 commands, 3.0 negative rows per 100 (6.3 all rows); Claude Code (claude-opus-5-5), 9 legs and 3,000 commands, 1.5 negative rows per 100 (2.6 all rows); Claude Code (claude-sonnet-5-5), 10 legs and 2,945 commands, 0.5 negative rows per 100 (0.6 all rows); host not recorded (claude-sonnet-5-5), 36 legs and 10,322 commands, 0.4 negative rows per 100 (0.5 all rows); host not recorded (claude-opus-5-5), 35 legs and 13,158 commands, 1.0 negative rows per 100 (1.7 all rows); host not recorded (gpt-6-astra), 11 legs and 4,109 commands, 1.3 negative rows per 100 (2.1 all rows)."
   ]
  },
  "runs": [
@@ -2680,6 +3013,1982 @@
      "rows": 11,
      "negative": 9,
      "weighted": 15
+    }
+   ]
+  },
+  {
+   "round": "15a",
+   "session": "r15-click-full",
+   "date": "2026-10-10",
+   "label": "r15a click",
+   "mode": "click",
+   "sub": "click",
+   "persona": "a night-shift nurse who plays in short bursts on a tablet, saves often and distrusts anything that looks dangerous",
+   "experience": "other",
+   "pace": "fast",
+   "build": "48d3cbc3",
+   "undo": false,
+   "hosts": [
+    "Claude Code"
+   ],
+   "models": [
+    "Claude Sonnet 5.5"
+   ],
+   "bestScore": 41,
+   "furthestStage": "Day 2",
+   "outcome": "cutoff",
+   "commands": 1445,
+   "legs": 6,
+   "deaths": 15,
+   "restores": 23,
+   "backToZero": 1,
+   "rows": 11,
+   "negative": 8,
+   "praise": 3,
+   "kinds": 4,
+   "byKind": {
+    "blocked": 1,
+    "bug": 0,
+    "parse": 0,
+    "not-understood": 0,
+    "confusing": 4,
+    "tedious": 1,
+    "other": 2
+   },
+   "high": 2,
+   "blocked": 1,
+   "per100": 0.76,
+   "negativePer100": 0.55,
+   "weightedPer100": 1.04,
+   "blockedPer100": 0.07,
+   "praiseShare": 0.27,
+   "legDetail": [
+    {
+     "leg": 1,
+     "host": "Claude Code",
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 387,
+     "rows": 4,
+     "negative": 3,
+     "weighted": 4
+    },
+    {
+     "leg": 2,
+     "host": "Claude Code",
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 328,
+     "rows": 2,
+     "negative": 1,
+     "weighted": 1
+    },
+    {
+     "leg": 3,
+     "host": "Claude Code",
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 381,
+     "rows": 3,
+     "negative": 2,
+     "weighted": 5
+    },
+    {
+     "leg": 4,
+     "host": "Claude Code",
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 345,
+     "rows": 1,
+     "negative": 1,
+     "weighted": 3
+    },
+    {
+     "leg": 5,
+     "host": "Claude Code",
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 4,
+     "rows": 1,
+     "negative": 1,
+     "weighted": 2
+    },
+    {
+     "leg": 6,
+     "host": "Claude Code",
+     "models": [
+      "Claude Sonnet 5.5"
+     ],
+     "commands": 0,
+     "rows": 0,
+     "negative": 0,
+     "weighted": 0
+    }
+   ]
+  },
+  {
+   "round": "15a",
+   "session": "r15-typed-full",
+   "date": "2026-10-10",
+   "label": "r15a typed",
+   "mode": "typed",
+   "sub": "typed",
+   "persona": "a retired air-traffic controller who logs every clock reading, plans each move and types complete sentences",
+   "experience": "other",
+   "pace": "unstated",
+   "build": "48d3cbc3",
+   "undo": false,
+   "hosts": [
+    "Claude Code"
+   ],
+   "models": [
+    "Claude Sonnet 5.5"
+   ],
+   "bestScore": 45,
+   "furthestStage": "Day 2",
+   "outcome": "cap",
+   "commands": 1500,
+   "legs": 5,
+   "deaths": 8,
+   "restores": 9,
+   "backToZero": 0,
+   "rows": 7,
+   "negative": 6,
+   "praise": 1,
+   "kinds": 2,
+   "byKind": {
+    "blocked": 0,
+    "bug": 0,
+    "parse": 0,
+    "not-understood": 0,
+    "confusing": 4,
+    "tedious": 0,
+    "other": 2
+   },
+   "high": 0,
+   "blocked": 0,
+   "per100": 0.47,
+   "negativePer100": 0.4,
+   "weightedPer100": 0.73,
+   "blockedPer100": 0,
+   "praiseShare": 0.14,
+   "legDetail": [
+    {
+     "leg": 1,
+     "host": "Claude Code",
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 400,
+     "rows": 5,
+     "negative": 4,
+     "weighted": 7
+    },
+    {
+     "leg": 2,
+     "host": "Claude Code",
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 400,
+     "rows": 0,
+     "negative": 0,
+     "weighted": 0
+    },
+    {
+     "leg": 3,
+     "host": "Claude Code",
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 387,
+     "rows": 1,
+     "negative": 1,
+     "weighted": 2
+    },
+    {
+     "leg": 4,
+     "host": "Claude Code",
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 307,
+     "rows": 1,
+     "negative": 1,
+     "weighted": 2
+    },
+    {
+     "leg": 5,
+     "host": "Claude Code",
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 6,
+     "rows": 0,
+     "negative": 0,
+     "weighted": 0
+    }
+   ]
+  },
+  {
+   "round": "15a",
+   "session": "r15-veteran-full",
+   "date": "2026-10-10",
+   "label": "r15a typed",
+   "mode": "typed",
+   "sub": "typed",
+   "persona": "a text-adventure veteran who finished every Infocom game in the 1980s, maps carefully, examines everything twice, keeps a save from before every step that cannot be undone and never saves over it, and after anything knocks them down gathers up everything dropped",
+   "experience": "veteran",
+   "pace": "careful",
+   "build": "48d3cbc3",
+   "undo": false,
+   "hosts": [],
+   "models": [],
+   "bestScore": 11,
+   "furthestStage": "Village",
+   "outcome": "cap",
+   "commands": 1500,
+   "legs": 5,
+   "deaths": 6,
+   "restores": 12,
+   "backToZero": 1,
+   "rows": 4,
+   "negative": 3,
+   "praise": 1,
+   "kinds": 3,
+   "byKind": {
+    "blocked": 0,
+    "bug": 0,
+    "parse": 1,
+    "not-understood": 0,
+    "confusing": 1,
+    "tedious": 0,
+    "other": 1
+   },
+   "high": 1,
+   "blocked": 0,
+   "per100": 0.27,
+   "negativePer100": 0.2,
+   "weightedPer100": 0.33,
+   "blockedPer100": 0,
+   "praiseShare": 0.25,
+   "legDetail": [
+    {
+     "leg": 1,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 400,
+     "rows": 0,
+     "negative": 0,
+     "weighted": 0
+    },
+    {
+     "leg": 2,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 397,
+     "rows": 1,
+     "negative": 1,
+     "weighted": 1
+    },
+    {
+     "leg": 3,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 349,
+     "rows": 2,
+     "negative": 1,
+     "weighted": 3
+    },
+    {
+     "leg": 4,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 342,
+     "rows": 1,
+     "negative": 1,
+     "weighted": 1
+    },
+    {
+     "leg": 5,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 12,
+     "rows": 0,
+     "negative": 0,
+     "weighted": 0
+    }
+   ]
+  },
+  {
+   "round": "15b",
+   "session": "r15b-click-full",
+   "date": "2026-10-10",
+   "label": "r15b click",
+   "mode": "click",
+   "sub": "click",
+   "persona": "a night-shift nurse who plays in short bursts on a tablet, saves often and distrusts anything that looks dangerous",
+   "experience": "other",
+   "pace": "fast",
+   "build": "454a441e",
+   "undo": false,
+   "hosts": [],
+   "models": [],
+   "bestScore": 45,
+   "furthestStage": "Day 2",
+   "outcome": "stuck",
+   "commands": 1350,
+   "legs": 6,
+   "deaths": 10,
+   "restores": 20,
+   "backToZero": 0,
+   "rows": 12,
+   "negative": 9,
+   "praise": 3,
+   "kinds": 3,
+   "byKind": {
+    "blocked": 2,
+    "bug": 0,
+    "parse": 0,
+    "not-understood": 0,
+    "confusing": 2,
+    "tedious": 0,
+    "other": 5
+   },
+   "high": 3,
+   "blocked": 2,
+   "per100": 0.89,
+   "negativePer100": 0.67,
+   "weightedPer100": 1.26,
+   "blockedPer100": 0.15,
+   "praiseShare": 0.25,
+   "legDetail": [
+    {
+     "leg": 1,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 392,
+     "rows": 6,
+     "negative": 3,
+     "weighted": 8
+    },
+    {
+     "leg": 2,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 389,
+     "rows": 2,
+     "negative": 2,
+     "weighted": 4
+    },
+    {
+     "leg": 3,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 344,
+     "rows": 3,
+     "negative": 3,
+     "weighted": 4
+    },
+    {
+     "leg": 4,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 210,
+     "rows": 1,
+     "negative": 1,
+     "weighted": 1
+    },
+    {
+     "leg": 5,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 10,
+     "rows": 0,
+     "negative": 0,
+     "weighted": 0
+    },
+    {
+     "leg": 6,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 5,
+     "rows": 0,
+     "negative": 0,
+     "weighted": 0
+    }
+   ]
+  },
+  {
+   "round": "15b",
+   "session": "r15b-typed-full",
+   "date": "2026-10-10",
+   "label": "r15b typed",
+   "mode": "typed",
+   "sub": "typed",
+   "persona": "a retired air-traffic controller who logs every clock reading, plans each move and types complete sentences",
+   "experience": "other",
+   "pace": "unstated",
+   "build": "454a441e",
+   "undo": false,
+   "hosts": [],
+   "models": [],
+   "bestScore": 45,
+   "furthestStage": "Day 2",
+   "outcome": "cap",
+   "commands": 1500,
+   "legs": 5,
+   "deaths": 8,
+   "restores": 10,
+   "backToZero": 0,
+   "rows": 9,
+   "negative": 7,
+   "praise": 2,
+   "kinds": 4,
+   "byKind": {
+    "blocked": 1,
+    "bug": 0,
+    "parse": 1,
+    "not-understood": 0,
+    "confusing": 2,
+    "tedious": 0,
+    "other": 3
+   },
+   "high": 2,
+   "blocked": 1,
+   "per100": 0.6,
+   "negativePer100": 0.47,
+   "weightedPer100": 1,
+   "blockedPer100": 0.07,
+   "praiseShare": 0.22,
+   "legDetail": [
+    {
+     "leg": 1,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 399,
+     "rows": 2,
+     "negative": 1,
+     "weighted": 1
+    },
+    {
+     "leg": 2,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 390,
+     "rows": 3,
+     "negative": 2,
+     "weighted": 4
+    },
+    {
+     "leg": 3,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 400,
+     "rows": 2,
+     "negative": 2,
+     "weighted": 5
+    },
+    {
+     "leg": 4,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 296,
+     "rows": 2,
+     "negative": 2,
+     "weighted": 5
+    },
+    {
+     "leg": 5,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 15,
+     "rows": 0,
+     "negative": 0,
+     "weighted": 0
+    }
+   ]
+  },
+  {
+   "round": "15b",
+   "session": "r15b-veteran-full",
+   "date": "2026-10-10",
+   "label": "r15b typed",
+   "mode": "typed",
+   "sub": "typed",
+   "persona": "a text-adventure veteran who finished every Infocom game in the 1980s, maps carefully, examines everything twice, keeps a save from before every step that cannot be undone and never saves over it, and after anything knocks them down gathers up everything dropped",
+   "experience": "veteran",
+   "pace": "careful",
+   "build": "454a441e",
+   "undo": false,
+   "hosts": [],
+   "models": [],
+   "bestScore": 37,
+   "furthestStage": "Day 2",
+   "outcome": "cap",
+   "commands": 1483,
+   "legs": 6,
+   "deaths": 10,
+   "restores": 13,
+   "backToZero": 0,
+   "rows": 6,
+   "negative": 5,
+   "praise": 1,
+   "kinds": 3,
+   "byKind": {
+    "blocked": 0,
+    "bug": 0,
+    "parse": 1,
+    "not-understood": 1,
+    "confusing": 3,
+    "tedious": 0,
+    "other": 0
+   },
+   "high": 2,
+   "blocked": 0,
+   "per100": 0.4,
+   "negativePer100": 0.34,
+   "weightedPer100": 0.74,
+   "blockedPer100": 0,
+   "praiseShare": 0.17,
+   "legDetail": [
+    {
+     "leg": 1,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 391,
+     "rows": 4,
+     "negative": 3,
+     "weighted": 6
+    },
+    {
+     "leg": 2,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 400,
+     "rows": 1,
+     "negative": 1,
+     "weighted": 2
+    },
+    {
+     "leg": 3,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 400,
+     "rows": 1,
+     "negative": 1,
+     "weighted": 3
+    },
+    {
+     "leg": 4,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 277,
+     "rows": 0,
+     "negative": 0,
+     "weighted": 0
+    },
+    {
+     "leg": 5,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 11,
+     "rows": 0,
+     "negative": 0,
+     "weighted": 0
+    },
+    {
+     "leg": 6,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 4,
+     "rows": 0,
+     "negative": 0,
+     "weighted": 0
+    }
+   ]
+  },
+  {
+   "round": "15c",
+   "session": "r15c-click-full",
+   "date": "2026-10-10",
+   "label": "r15c click",
+   "mode": "click",
+   "sub": "click",
+   "persona": "a night-shift nurse who plays in short bursts on a tablet, saves often and distrusts anything that looks dangerous",
+   "experience": "other",
+   "pace": "fast",
+   "build": "186e66f4",
+   "undo": false,
+   "hosts": [],
+   "models": [],
+   "bestScore": 45,
+   "furthestStage": "Day 2",
+   "outcome": "cap",
+   "commands": 1489,
+   "legs": 6,
+   "deaths": 10,
+   "restores": 19,
+   "backToZero": 1,
+   "rows": 10,
+   "negative": 6,
+   "praise": 4,
+   "kinds": 3,
+   "byKind": {
+    "blocked": 2,
+    "bug": 0,
+    "parse": 0,
+    "not-understood": 0,
+    "confusing": 2,
+    "tedious": 0,
+    "other": 2
+   },
+   "high": 2,
+   "blocked": 2,
+   "per100": 0.67,
+   "negativePer100": 0.4,
+   "weightedPer100": 0.81,
+   "blockedPer100": 0.13,
+   "praiseShare": 0.4,
+   "legDetail": [
+    {
+     "leg": 1,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 388,
+     "rows": 1,
+     "negative": 0,
+     "weighted": 0
+    },
+    {
+     "leg": 2,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 400,
+     "rows": 3,
+     "negative": 2,
+     "weighted": 3
+    },
+    {
+     "leg": 3,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 400,
+     "rows": 3,
+     "negative": 2,
+     "weighted": 5
+    },
+    {
+     "leg": 4,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 294,
+     "rows": 3,
+     "negative": 2,
+     "weighted": 4
+    },
+    {
+     "leg": 5,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 3,
+     "rows": 0,
+     "negative": 0,
+     "weighted": 0
+    },
+    {
+     "leg": 6,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 4,
+     "rows": 0,
+     "negative": 0,
+     "weighted": 0
+    }
+   ]
+  },
+  {
+   "round": "15c",
+   "session": "r15c-typed-full",
+   "date": "2026-10-10",
+   "label": "r15c typed",
+   "mode": "typed",
+   "sub": "typed",
+   "persona": "a retired air-traffic controller who logs every clock reading, plans each move and types complete sentences",
+   "experience": "other",
+   "pace": "unstated",
+   "build": "186e66f4",
+   "undo": false,
+   "hosts": [],
+   "models": [],
+   "bestScore": 45,
+   "furthestStage": "Day 2",
+   "outcome": "cap",
+   "commands": 1500,
+   "legs": 4,
+   "deaths": 9,
+   "restores": 10,
+   "backToZero": 1,
+   "rows": 5,
+   "negative": 4,
+   "praise": 1,
+   "kinds": 2,
+   "byKind": {
+    "blocked": 0,
+    "bug": 0,
+    "parse": 0,
+    "not-understood": 0,
+    "confusing": 2,
+    "tedious": 0,
+    "other": 2
+   },
+   "high": 2,
+   "blocked": 0,
+   "per100": 0.33,
+   "negativePer100": 0.27,
+   "weightedPer100": 0.6,
+   "blockedPer100": 0,
+   "praiseShare": 0.2,
+   "legDetail": [
+    {
+     "leg": 1,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 400,
+     "rows": 4,
+     "negative": 3,
+     "weighted": 6
+    },
+    {
+     "leg": 2,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 400,
+     "rows": 1,
+     "negative": 1,
+     "weighted": 3
+    },
+    {
+     "leg": 3,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 400,
+     "rows": 0,
+     "negative": 0,
+     "weighted": 0
+    },
+    {
+     "leg": 4,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 300,
+     "rows": 0,
+     "negative": 0,
+     "weighted": 0
+    }
+   ]
+  },
+  {
+   "round": "15c",
+   "session": "r15c-veteran-full-b",
+   "date": "2026-10-10",
+   "label": "r15c typed",
+   "mode": "typed",
+   "sub": "typed",
+   "persona": "a text-adventure veteran who finished every Infocom game in the 1980s, maps carefully, examines everything twice, keeps a save from before every step that cannot be undone and never saves over it, and after anything knocks them down gathers up everything dropped",
+   "experience": "veteran",
+   "pace": "careful",
+   "build": "78ce3ab5",
+   "undo": false,
+   "hosts": [],
+   "models": [],
+   "bestScore": 44,
+   "furthestStage": "Day 2",
+   "outcome": "cap",
+   "commands": 1500,
+   "legs": 4,
+   "deaths": 12,
+   "restores": 16,
+   "backToZero": 1,
+   "rows": 3,
+   "negative": 3,
+   "praise": 0,
+   "kinds": 1,
+   "byKind": {
+    "blocked": 0,
+    "bug": 0,
+    "parse": 0,
+    "not-understood": 0,
+    "confusing": 3,
+    "tedious": 0,
+    "other": 0
+   },
+   "high": 0,
+   "blocked": 0,
+   "per100": 0.2,
+   "negativePer100": 0.2,
+   "weightedPer100": 0.4,
+   "blockedPer100": 0,
+   "praiseShare": 0,
+   "legDetail": [
+    {
+     "leg": 1,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 400,
+     "rows": 1,
+     "negative": 1,
+     "weighted": 2
+    },
+    {
+     "leg": 2,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 352,
+     "rows": 1,
+     "negative": 1,
+     "weighted": 2
+    },
+    {
+     "leg": 3,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 400,
+     "rows": 0,
+     "negative": 0,
+     "weighted": 0
+    },
+    {
+     "leg": 4,
+     "host": null,
+     "models": [
+      "claude-sonnet-5-5"
+     ],
+     "commands": 348,
+     "rows": 1,
+     "negative": 1,
+     "weighted": 2
+    }
+   ]
+  },
+  {
+   "round": "15d",
+   "session": "r15d-click-full",
+   "date": "2026-10-11",
+   "label": "r15d click",
+   "mode": "click",
+   "sub": "click",
+   "persona": "a night-shift nurse who plays in short bursts on a tablet, saves often and distrusts anything that looks dangerous",
+   "experience": "other",
+   "pace": "fast",
+   "build": "1a04b2f2",
+   "undo": false,
+   "hosts": [],
+   "models": [],
+   "bestScore": 80,
+   "furthestStage": "Factory",
+   "outcome": "won",
+   "commands": 1158,
+   "legs": 3,
+   "deaths": 5,
+   "restores": 12,
+   "backToZero": 0,
+   "rows": 17,
+   "negative": 10,
+   "praise": 7,
+   "kinds": 3,
+   "byKind": {
+    "blocked": 3,
+    "bug": 0,
+    "parse": 0,
+    "not-understood": 0,
+    "confusing": 4,
+    "tedious": 0,
+    "other": 3
+   },
+   "high": 0,
+   "blocked": 3,
+   "per100": 1.47,
+   "negativePer100": 0.86,
+   "weightedPer100": 1.21,
+   "blockedPer100": 0.26,
+   "praiseShare": 0.41,
+   "legDetail": [
+    {
+     "leg": 1,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 5,
+     "negative": 3,
+     "weighted": 3
+    },
+    {
+     "leg": 2,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 399,
+     "rows": 7,
+     "negative": 4,
+     "weighted": 6
+    },
+    {
+     "leg": 3,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 359,
+     "rows": 5,
+     "negative": 3,
+     "weighted": 5
+    }
+   ]
+  },
+  {
+   "round": "15d",
+   "session": "r15d-typed-full",
+   "date": "2026-10-11",
+   "label": "r15d typed",
+   "mode": "typed",
+   "sub": "typed",
+   "persona": "a retired air-traffic controller who logs every clock reading, plans each move and types complete sentences",
+   "experience": "other",
+   "pace": "unstated",
+   "build": "1a04b2f2",
+   "undo": false,
+   "hosts": [],
+   "models": [],
+   "bestScore": 38,
+   "furthestStage": "Day 2",
+   "outcome": "cap",
+   "commands": 1500,
+   "legs": 4,
+   "deaths": 5,
+   "restores": 11,
+   "backToZero": 1,
+   "rows": 21,
+   "negative": 12,
+   "praise": 9,
+   "kinds": 6,
+   "byKind": {
+    "blocked": 4,
+    "bug": 1,
+    "parse": 3,
+    "not-understood": 0,
+    "confusing": 2,
+    "tedious": 1,
+    "other": 1
+   },
+   "high": 5,
+   "blocked": 4,
+   "per100": 1.4,
+   "negativePer100": 0.8,
+   "weightedPer100": 1.53,
+   "blockedPer100": 0.27,
+   "praiseShare": 0.43,
+   "legDetail": [
+    {
+     "leg": 1,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 8,
+     "negative": 4,
+     "weighted": 4
+    },
+    {
+     "leg": 2,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 5,
+     "negative": 3,
+     "weighted": 6
+    },
+    {
+     "leg": 3,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 5,
+     "negative": 3,
+     "weighted": 9
+    },
+    {
+     "leg": 4,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 300,
+     "rows": 3,
+     "negative": 2,
+     "weighted": 4
+    }
+   ]
+  },
+  {
+   "round": "15d",
+   "session": "r15d-veteran-full",
+   "date": "2026-10-11",
+   "label": "r15d typed",
+   "mode": "typed",
+   "sub": "typed",
+   "persona": "a text-adventure veteran who finished every Infocom game in the 1980s, maps carefully, examines everything twice, keeps a save from before every step that cannot be undone and never saves over it, and after anything knocks them down gathers up everything dropped",
+   "experience": "veteran",
+   "pace": "careful",
+   "build": "1a04b2f2",
+   "undo": false,
+   "hosts": [],
+   "models": [],
+   "bestScore": 51,
+   "furthestStage": "Plato",
+   "outcome": "cap",
+   "commands": 1500,
+   "legs": 4,
+   "deaths": 4,
+   "restores": 7,
+   "backToZero": 2,
+   "rows": 21,
+   "negative": 17,
+   "praise": 4,
+   "kinds": 7,
+   "byKind": {
+    "blocked": 6,
+    "bug": 3,
+    "parse": 2,
+    "not-understood": 1,
+    "confusing": 2,
+    "tedious": 1,
+    "other": 2
+   },
+   "high": 3,
+   "blocked": 6,
+   "per100": 1.4,
+   "negativePer100": 1.13,
+   "weightedPer100": 1.93,
+   "blockedPer100": 0.4,
+   "praiseShare": 0.19,
+   "legDetail": [
+    {
+     "leg": 1,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 5,
+     "negative": 4,
+     "weighted": 5
+    },
+    {
+     "leg": 2,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 6,
+     "negative": 4,
+     "weighted": 9
+    },
+    {
+     "leg": 3,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 6,
+     "negative": 6,
+     "weighted": 10
+    },
+    {
+     "leg": 4,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 300,
+     "rows": 4,
+     "negative": 3,
+     "weighted": 5
+    }
+   ]
+  },
+  {
+   "round": "16a",
+   "session": "r16-engineer-full",
+   "date": "2026-10-12",
+   "label": "r16a typed",
+   "mode": "typed",
+   "sub": "typed",
+   "persona": "a systems engineer who wants to understand how things work before using them, tests one variable at a time, keeps notes on cause and effect and saves before every experiment",
+   "experience": "other",
+   "pace": "unstated",
+   "build": "0ba77ff0",
+   "undo": false,
+   "hosts": [],
+   "models": [],
+   "bestScore": 73,
+   "furthestStage": "Factory",
+   "outcome": "cap",
+   "commands": 1500,
+   "legs": 4,
+   "deaths": 9,
+   "restores": 16,
+   "backToZero": 1,
+   "rows": 31,
+   "negative": 18,
+   "praise": 13,
+   "kinds": 5,
+   "byKind": {
+    "blocked": 7,
+    "bug": 0,
+    "parse": 2,
+    "not-understood": 0,
+    "confusing": 5,
+    "tedious": 1,
+    "other": 3
+   },
+   "high": 5,
+   "blocked": 7,
+   "per100": 2.07,
+   "negativePer100": 1.2,
+   "weightedPer100": 2.13,
+   "blockedPer100": 0.47,
+   "praiseShare": 0.42,
+   "legDetail": [
+    {
+     "leg": 1,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 8,
+     "negative": 5,
+     "weighted": 6
+    },
+    {
+     "leg": 2,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 7,
+     "negative": 3,
+     "weighted": 6
+    },
+    {
+     "leg": 3,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 7,
+     "negative": 4,
+     "weighted": 8
+    },
+    {
+     "leg": 4,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 300,
+     "rows": 9,
+     "negative": 6,
+     "weighted": 12
+    }
+   ]
+  },
+  {
+   "round": "16a",
+   "session": "r16-gm-full",
+   "date": "2026-10-12",
+   "label": "r16a typed",
+   "mode": "typed",
+   "sub": "typed",
+   "persona": "a tabletop game master who treats every character as a person, talks to Floyd and Plato constantly, asks everyone about everything and follows hunches from what they say",
+   "experience": "other",
+   "pace": "unstated",
+   "build": "0ba77ff0",
+   "undo": false,
+   "hosts": [],
+   "models": [],
+   "bestScore": 69,
+   "furthestStage": "Plato",
+   "outcome": "cap",
+   "commands": 1500,
+   "legs": 4,
+   "deaths": 4,
+   "restores": 8,
+   "backToZero": 1,
+   "rows": 23,
+   "negative": 14,
+   "praise": 9,
+   "kinds": 4,
+   "byKind": {
+    "blocked": 5,
+    "bug": 1,
+    "parse": 3,
+    "not-understood": 0,
+    "confusing": 5,
+    "tedious": 0,
+    "other": 0
+   },
+   "high": 2,
+   "blocked": 5,
+   "per100": 1.53,
+   "negativePer100": 0.93,
+   "weightedPer100": 1.67,
+   "blockedPer100": 0.33,
+   "praiseShare": 0.39,
+   "legDetail": [
+    {
+     "leg": 1,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 7,
+     "negative": 3,
+     "weighted": 4
+    },
+    {
+     "leg": 2,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 6,
+     "negative": 4,
+     "weighted": 7
+    },
+    {
+     "leg": 3,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 5,
+     "negative": 4,
+     "weighted": 8
+    },
+    {
+     "leg": 4,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 300,
+     "rows": 5,
+     "negative": 3,
+     "weighted": 6
+    }
+   ]
+  },
+  {
+   "round": "16a",
+   "session": "r16-newcomer-full",
+   "date": "2026-10-12",
+   "label": "r16a click",
+   "mode": "click",
+   "sub": "click",
+   "persona": "a first-time player of text adventures in their twenties who grew up on mobile games, taps whatever looks interactive, reads quickly and gets bored by long descriptions",
+   "experience": "newcomer",
+   "pace": "unstated",
+   "build": "0ba77ff0",
+   "undo": false,
+   "hosts": [],
+   "models": [],
+   "bestScore": 73,
+   "furthestStage": "Factory",
+   "outcome": "cap",
+   "commands": 1500,
+   "legs": 4,
+   "deaths": 10,
+   "restores": 20,
+   "backToZero": 1,
+   "rows": 32,
+   "negative": 16,
+   "praise": 16,
+   "kinds": 3,
+   "byKind": {
+    "blocked": 4,
+    "bug": 3,
+    "parse": 0,
+    "not-understood": 0,
+    "confusing": 9,
+    "tedious": 0,
+    "other": 0
+   },
+   "high": 3,
+   "blocked": 4,
+   "per100": 2.13,
+   "negativePer100": 1.07,
+   "weightedPer100": 2.07,
+   "blockedPer100": 0.27,
+   "praiseShare": 0.5,
+   "legDetail": [
+    {
+     "leg": 1,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 9,
+     "negative": 3,
+     "weighted": 5
+    },
+    {
+     "leg": 2,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 7,
+     "negative": 4,
+     "weighted": 9
+    },
+    {
+     "leg": 3,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 8,
+     "negative": 5,
+     "weighted": 7
+    },
+    {
+     "leg": 4,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 300,
+     "rows": 8,
+     "negative": 4,
+     "weighted": 10
+    }
+   ]
+  },
+  {
+   "round": "16b",
+   "session": "r16b-engineer-full",
+   "date": "2026-10-12",
+   "label": "r16b typed",
+   "mode": "typed",
+   "sub": "typed",
+   "persona": "a systems engineer who wants to understand how things work before using them, tests one variable at a time, keeps notes on cause and effect and saves before every experiment",
+   "experience": "other",
+   "pace": "unstated",
+   "build": "70c66c14",
+   "undo": false,
+   "hosts": [],
+   "models": [],
+   "bestScore": 54,
+   "furthestStage": "Plato",
+   "outcome": "cap",
+   "commands": 1500,
+   "legs": 4,
+   "deaths": 12,
+   "restores": 15,
+   "backToZero": 1,
+   "rows": 19,
+   "negative": 13,
+   "praise": 6,
+   "kinds": 4,
+   "byKind": {
+    "blocked": 6,
+    "bug": 1,
+    "parse": 0,
+    "not-understood": 0,
+    "confusing": 4,
+    "tedious": 0,
+    "other": 2
+   },
+   "high": 5,
+   "blocked": 6,
+   "per100": 1.27,
+   "negativePer100": 0.87,
+   "weightedPer100": 1.8,
+   "blockedPer100": 0.4,
+   "praiseShare": 0.32,
+   "legDetail": [
+    {
+     "leg": 1,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 5,
+     "negative": 3,
+     "weighted": 4
+    },
+    {
+     "leg": 2,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 6,
+     "negative": 4,
+     "weighted": 6
+    },
+    {
+     "leg": 3,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 5,
+     "negative": 4,
+     "weighted": 12
+    },
+    {
+     "leg": 4,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 300,
+     "rows": 3,
+     "negative": 2,
+     "weighted": 5
+    }
+   ]
+  },
+  {
+   "round": "16b",
+   "session": "r16b-gm-full",
+   "date": "2026-10-12",
+   "label": "r16b typed",
+   "mode": "typed",
+   "sub": "typed",
+   "persona": "a tabletop game master who treats every character as a person, talks to Floyd and Plato constantly, asks everyone about everything and follows hunches from what they say",
+   "experience": "other",
+   "pace": "unstated",
+   "build": "70c66c14",
+   "undo": false,
+   "hosts": [],
+   "models": [],
+   "bestScore": 80,
+   "furthestStage": "Factory",
+   "outcome": "won",
+   "commands": 1500,
+   "legs": 4,
+   "deaths": 7,
+   "restores": 17,
+   "backToZero": 0,
+   "rows": 30,
+   "negative": 19,
+   "praise": 11,
+   "kinds": 6,
+   "byKind": {
+    "blocked": 4,
+    "bug": 0,
+    "parse": 3,
+    "not-understood": 1,
+    "confusing": 8,
+    "tedious": 1,
+    "other": 2
+   },
+   "high": 2,
+   "blocked": 4,
+   "per100": 2,
+   "negativePer100": 1.27,
+   "weightedPer100": 2.13,
+   "blockedPer100": 0.27,
+   "praiseShare": 0.37,
+   "legDetail": [
+    {
+     "leg": 1,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 5,
+     "negative": 4,
+     "weighted": 6
+    },
+    {
+     "leg": 2,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 5,
+     "negative": 3,
+     "weighted": 6
+    },
+    {
+     "leg": 3,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 8,
+     "negative": 5,
+     "weighted": 11
+    },
+    {
+     "leg": 4,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 300,
+     "rows": 12,
+     "negative": 7,
+     "weighted": 9
+    }
+   ]
+  },
+  {
+   "round": "16b",
+   "session": "r16b-newcomer-full",
+   "date": "2026-10-12",
+   "label": "r16b click",
+   "mode": "click",
+   "sub": "click",
+   "persona": "a first-time player of text adventures in their twenties who grew up on mobile games, taps whatever looks interactive, reads quickly and gets bored by long descriptions",
+   "experience": "newcomer",
+   "pace": "unstated",
+   "build": "70c66c14",
+   "undo": false,
+   "hosts": [],
+   "models": [],
+   "bestScore": 61,
+   "furthestStage": "Plato",
+   "outcome": "cap",
+   "commands": 1500,
+   "legs": 4,
+   "deaths": 9,
+   "restores": 23,
+   "backToZero": 2,
+   "rows": 26,
+   "negative": 12,
+   "praise": 14,
+   "kinds": 3,
+   "byKind": {
+    "blocked": 5,
+    "bug": 1,
+    "parse": 0,
+    "not-understood": 0,
+    "confusing": 6,
+    "tedious": 0,
+    "other": 0
+   },
+   "high": 3,
+   "blocked": 5,
+   "per100": 1.73,
+   "negativePer100": 0.8,
+   "weightedPer100": 1.53,
+   "blockedPer100": 0.33,
+   "praiseShare": 0.54,
+   "legDetail": [
+    {
+     "leg": 1,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 9,
+     "negative": 3,
+     "weighted": 6
+    },
+    {
+     "leg": 2,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 7,
+     "negative": 4,
+     "weighted": 5
+    },
+    {
+     "leg": 3,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 400,
+     "rows": 7,
+     "negative": 3,
+     "weighted": 8
+    },
+    {
+     "leg": 4,
+     "host": null,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "commands": 300,
+     "rows": 3,
+     "negative": 2,
+     "weighted": 4
+    }
+   ]
+  },
+  {
+   "round": "17",
+   "session": "r17-escaperoom-full",
+   "date": "2026-10-13",
+   "label": "r17 typed",
+   "mode": "typed",
+   "sub": "typed",
+   "persona": "an escape-room designer who asks how each puzzle was built, keeps a timeline of what happens on the station each day, and saves before every risky step",
+   "experience": "other",
+   "pace": "unstated",
+   "build": "d2a53dc7@launch",
+   "undo": false,
+   "hosts": [],
+   "models": [],
+   "bestScore": 54,
+   "furthestStage": "Plato",
+   "outcome": "cap",
+   "commands": 1500,
+   "legs": 4,
+   "deaths": 4,
+   "restores": 23,
+   "backToZero": 0,
+   "rows": 36,
+   "negative": 23,
+   "praise": 13,
+   "kinds": 4,
+   "byKind": {
+    "blocked": 12,
+    "bug": 0,
+    "parse": 4,
+    "not-understood": 0,
+    "confusing": 6,
+    "tedious": 1,
+    "other": 0
+   },
+   "high": 7,
+   "blocked": 12,
+   "per100": 2.4,
+   "negativePer100": 1.53,
+   "weightedPer100": 3.2,
+   "blockedPer100": 0.8,
+   "praiseShare": 0.36,
+   "legDetail": [
+    {
+     "leg": 1,
+     "host": null,
+     "models": [
+      "gpt-6-astra"
+     ],
+     "commands": 400,
+     "rows": 9,
+     "negative": 4,
+     "weighted": 8
+    },
+    {
+     "leg": 2,
+     "host": null,
+     "models": [
+      "gpt-6-astra"
+     ],
+     "commands": 400,
+     "rows": 12,
+     "negative": 8,
+     "weighted": 14
+    },
+    {
+     "leg": 3,
+     "host": null,
+     "models": [
+      "gpt-6-astra"
+     ],
+     "commands": 400,
+     "rows": 7,
+     "negative": 5,
+     "weighted": 12
+    },
+    {
+     "leg": 4,
+     "host": null,
+     "models": [
+      "gpt-6-astra"
+     ],
+     "commands": 300,
+     "rows": 8,
+     "negative": 6,
+     "weighted": 14
+    }
+   ]
+  },
+  {
+   "round": "17",
+   "session": "r17-illustrator-full",
+   "date": "2026-10-13",
+   "label": "r17 click",
+   "mode": "click",
+   "sub": "click",
+   "persona": "a freelance illustrator in their thirties on a laptop who looks at the picture first, clicks whatever is drawn, and reads descriptions to check them against what they see",
+   "experience": "other",
+   "pace": "unstated",
+   "build": "d2a53dc7@launch",
+   "undo": false,
+   "hosts": [],
+   "models": [],
+   "bestScore": 80,
+   "furthestStage": "Factory",
+   "outcome": "won",
+   "commands": 1109,
+   "legs": 3,
+   "deaths": 4,
+   "restores": 11,
+   "backToZero": 0,
+   "rows": 24,
+   "negative": 13,
+   "praise": 11,
+   "kinds": 3,
+   "byKind": {
+    "blocked": 2,
+    "bug": 1,
+    "parse": 0,
+    "not-understood": 0,
+    "confusing": 10,
+    "tedious": 0,
+    "other": 0
+   },
+   "high": 3,
+   "blocked": 2,
+   "per100": 2.16,
+   "negativePer100": 1.17,
+   "weightedPer100": 2.61,
+   "blockedPer100": 0.18,
+   "praiseShare": 0.46,
+   "legDetail": [
+    {
+     "leg": 1,
+     "host": null,
+     "models": [
+      "gpt-6-astra"
+     ],
+     "commands": 400,
+     "rows": 9,
+     "negative": 5,
+     "weighted": 11
+    },
+    {
+     "leg": 2,
+     "host": null,
+     "models": [
+      "gpt-6-astra"
+     ],
+     "commands": 400,
+     "rows": 8,
+     "negative": 4,
+     "weighted": 9
+    },
+    {
+     "leg": 3,
+     "host": null,
+     "models": [
+      "gpt-6-astra"
+     ],
+     "commands": 309,
+     "rows": 7,
+     "negative": 4,
+     "weighted": 9
+    }
+   ]
+  },
+  {
+   "round": "17",
+   "session": "r17-stenographer-full",
+   "date": "2026-10-13",
+   "label": "r17 typed",
+   "mode": "typed",
+   "sub": "typed",
+   "persona": "a court stenographer who types fast and exactly, adopts the parser's abbreviations once learned, and reads every paper in the package before acting on it",
+   "experience": "other",
+   "pace": "careful",
+   "build": "d2a53dc7@launch",
+   "undo": false,
+   "hosts": [],
+   "models": [],
+   "bestScore": 58,
+   "furthestStage": "Plato",
+   "outcome": "cap",
+   "commands": 1500,
+   "legs": 4,
+   "deaths": 9,
+   "restores": 14,
+   "backToZero": 0,
+   "rows": 26,
+   "negative": 17,
+   "praise": 9,
+   "kinds": 4,
+   "byKind": {
+    "blocked": 2,
+    "bug": 0,
+    "parse": 5,
+    "not-understood": 0,
+    "confusing": 8,
+    "tedious": 2,
+    "other": 0
+   },
+   "high": 4,
+   "blocked": 2,
+   "per100": 1.73,
+   "negativePer100": 1.13,
+   "weightedPer100": 2.27,
+   "blockedPer100": 0.13,
+   "praiseShare": 0.35,
+   "legDetail": [
+    {
+     "leg": 1,
+     "host": null,
+     "models": [
+      "gpt-6-astra"
+     ],
+     "commands": 400,
+     "rows": 8,
+     "negative": 5,
+     "weighted": 10
+    },
+    {
+     "leg": 2,
+     "host": null,
+     "models": [
+      "gpt-6-astra"
+     ],
+     "commands": 377,
+     "rows": 6,
+     "negative": 3,
+     "weighted": 6
+    },
+    {
+     "leg": 3,
+     "host": null,
+     "models": [
+      "gpt-6-astra"
+     ],
+     "commands": 400,
+     "rows": 7,
+     "negative": 5,
+     "weighted": 10
+    },
+    {
+     "leg": 4,
+     "host": null,
+     "models": [
+      "gpt-6-astra"
+     ],
+     "commands": 323,
+     "rows": 5,
+     "negative": 4,
+     "weighted": 8
     }
    ]
   }

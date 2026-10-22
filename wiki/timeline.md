@@ -30,7 +30,7 @@ At most three milestones a day, one line each, with the commit.
 ## 2026-09-29
 - Overnight compute finishes Level Six, the barracks, Docking Bays 3 and 4, the Brig, Shipping Room and more; the sponsor accepts a broad batch (82e25ef, 1f274ae, 44a4b38).
 - The Gym gains sports dressing, the Chapel gains pews, and dark painted rooms gain a headlamp cone (568bbb8, f187250, 5bb77e7).
-- Claude's allowance ends and GitHub Copilot takes over the Norm role; Greg remains in OpenAI ChatGPT (c0e2366).
+- Claude's allowance ends and GitHub Copilot takes over the Norm role; Greg remains in OpenAI Codex (c0e2366).
 
 ## 2026-09-30
 - Contract v1.21 makes visual authority and explicit mailbox resolution binding; old mailbox items are reconciled (05bf7b4, 96f72d2).
@@ -69,3 +69,30 @@ At most three milestones a day, one line each, with the commit.
 - Round 14 ends: both full runs reach the 1,500-command cap without a win (best 71 and 54); triage builds 4 A fixes and sends Q42 to the sponsor (13822030, c93d609a).
 - D75 and D76: Floyd, Plato and the welder float in weightless rooms, and the Barbershop mirror will reflect the 3D actors live (ab3ad7a4, 160c75dc).
 - D77: the sponsor briefs Greg on the protagonist directly, and his identity cutout is approved (68a0ead1, 878d7102).
+
+## 2026-10-10
+- D83: design/review and the 3D originals are purged from git history (.git 7.9 to 4.4 GB); every commit hash changes, so hashes cited above this day name the pre-purge history (6f270c89).
+- D86: round 15's Sonnet testers played in blind volleys, so it becomes 15a; the harness now refuses a command until the last reply is read, and 15b runs with the guard (best 45, no win) (282f959d, 19f228ca, ab3a59c9).
+- Contract v1.27 measures a lit region's edge-falloff; two R5 gates trace the flat lamp light to Norm's masks, and the rebuilt asks converge (0c8b21b0, ab116347, 1a711d41).
+
+## 2026-10-11
+- Round 15c, on Sonnet 5.5 with the D89 guardrails, resumes after a usage-limit stop and ends with no win (45, 45, 44); triage finds nothing new and rewords the SF-111 drill warning (a4ad5676, 1972000a).
+- The Alley and the Fortune Teller are accepted; by the evening the Missionary, Pawn Shop, Warehouse, Loan Shark, Rec Shop and Recruitment Office are with the sponsor, and five more Village rooms are packaged with their seeds approved (644dc14a, ab5df66c, 8ba98892).
+- Round 15d, on Opus 5.5 with 15c's personas (D92): the click tester wins, 80 of 80 at command 1,144, the first win in a full run from the opening; triage builds three A fixes and sends Q46 on the PX timer (cda3e16d, bb1c7286).
+
+## 2026-10-12
+- D93's three always-on hints (time, a longer reach, persuading the creature) go in, and D95 makes a hint pass after the first blind win part of the porting protocol (ab522ebf, 2c6290ae).
+- Fifteen rooms are accepted, the last of the Village among them (108 of 110); the camera moves into the booth, the exercise machine and a bed (D97, 0ba77ff0).
+- Round 16a (named 16 until 13 October), on Opus 5.5 with the hints: no win, but all three runs reach the endgame (73, 73, 69); D98's hints are built, and in round 16b, the same personas with seven hints, the game master wins, 80 of 80 at command 1,383, the first typed win from the opening (8958d422, 2c053540, b7b7ce7d).
+
+## 2026-10-13
+- The sponsor approves all six of 16b's proposals as always-on deviations (D106, built 0e0f8c7c); round 16 is renamed 16a (296f8a9b), and the last round, 17, was set for Astra with new personas the evening before (D102, D103).
+- `methodology/`: how the project works, written down whole in eleven linked documents, resolving five contradictions it found (df70fa07).
+- Bed eyes (D99): the Sick Bay's and the Scientists' Quarters' go to the sponsor; the three barracks eyes are placed, with seeds asked of Greg (c957aa83, edd48326, f15dd1b4).
+
+## 2026-10-17
+- Round 17, the last playtest round, ends: three new personas on Astra through the Codex CLI (D108, launched at d2a53dc7), and the illustrator wins by clicking, 80 of 80 at command 1,036; the stenographer (58) and the escape-room designer (best 54) reach the 1,500-command cap (8ea6fe1f).
+
+## 2026-10-18
+- Round 17's triage and its four A fixes, among them the win screen offering only Continue while the score is held (355136c2, fcce09d5); the sponsor approves both B items as always-on lines, HELP pointing at the blueprints binder and the coffee's chemical smell (D109, 1601351a).
+- Q49's default for name plates is merged: plates for blocked directions hang on a seen wall, and things wholly out of sight lose their plate; 11 accepted rooms go back to the sponsor (64f0aac4).

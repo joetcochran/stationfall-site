@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 982" width="900" height="982" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="Full runs: negative friction rows per 100 commands, by run and host, most first" data-csv="metrics-playtest-testers.csv">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1612" width="900" height="1612" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="Full runs: negative friction rows per 100 commands, by run and host, most first" data-csv="metrics-playtest-testers.csv">
 <defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#111a22"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8fa3b1" stroke-width="2"/></pattern></defs>
-<rect width="900" height="982" fill="#111a22" rx="6"/>
+<rect width="900" height="1612" fill="#111a22" rx="6"/>
 <text x="66.0" y="28.0" fill="#d9e3ea" font-size="18" text-anchor="start" font-weight="600">Full runs: negative friction rows per 100 commands, by run and host, most first</text>
-<text x="66.0" y="936.0" fill="#8fa3b1" font-size="13" text-anchor="start">One bar per full run, a different persona in each, ranked within each group. Colour: the host its legs ran in</text>
-<text x="66.0" y="953.0" fill="#8fa3b1" font-size="13" text-anchor="start">(decisions/work.jsonl); hatched: some legs on GPT-6 Luna. Round 7 had UNDO on. Hover a bar for the persona, score and</text>
-<text x="66.0" y="970.0" fill="#8fa3b1" font-size="13" text-anchor="start">friction.</text>
+<text x="66.0" y="1566.0" fill="#8fa3b1" font-size="13" text-anchor="start">One bar per full run, a different persona in each, ranked within each group. Colour: the host its legs ran in</text>
+<text x="66.0" y="1583.0" fill="#8fa3b1" font-size="13" text-anchor="start">(decisions/work.jsonl); hatched: some legs on GPT-6 Luna. Round 7 had UNDO on. Hover a bar for the persona, score and</text>
+<text x="66.0" y="1600.0" fill="#8fa3b1" font-size="13" text-anchor="start">friction.</text>
 <g class="lg" data-s="claude">
 <rect x="66" y="42" width="14" height="14" rx="2" fill="#3987e5"/>
 <text x="85.0" y="54.0" fill="#d9e3ea" font-size="14" text-anchor="start">Claude Code throughout</text>
@@ -21,19 +21,23 @@
 <rect x="66" y="64" width="14" height="14" rx="2" fill="#d95926"/>
 <text x="85.0" y="76.0" fill="#d9e3ea" font-size="14" text-anchor="start">Copilot throughout</text>
 </g>
-<line x1="250.0" y1="128" x2="250.0" y2="878" stroke="#34495a"/>
-<text x="250.0" y="897.0" fill="#8fa3b1" font-size="14" text-anchor="middle">0</text>
-<line x1="356.0" y1="128" x2="356.0" y2="878" stroke="#1f2c37"/>
-<text x="356.0" y="897.0" fill="#8fa3b1" font-size="14" text-anchor="middle">2</text>
-<line x1="462.0" y1="128" x2="462.0" y2="878" stroke="#1f2c37"/>
-<text x="462.0" y="897.0" fill="#8fa3b1" font-size="14" text-anchor="middle">4</text>
-<line x1="568.0" y1="128" x2="568.0" y2="878" stroke="#1f2c37"/>
-<text x="568.0" y="897.0" fill="#8fa3b1" font-size="14" text-anchor="middle">6</text>
-<line x1="674.0" y1="128" x2="674.0" y2="878" stroke="#1f2c37"/>
-<text x="674.0" y="897.0" fill="#8fa3b1" font-size="14" text-anchor="middle">8</text>
-<line x1="780.0" y1="128" x2="780.0" y2="878" stroke="#1f2c37"/>
-<text x="780.0" y="897.0" fill="#8fa3b1" font-size="14" text-anchor="middle">10</text>
-<text x="515.0" y="918.0" fill="#8fa3b1" font-size="14" text-anchor="middle">negative friction rows per 100 commands</text>
+<g class="lg" data-s="other">
+<rect x="229" y="64" width="14" height="14" rx="2" fill="#8fa3b1"/>
+<text x="248.0" y="76.0" fill="#d9e3ea" font-size="14" text-anchor="start">host not recorded</text>
+</g>
+<line x1="250.0" y1="128" x2="250.0" y2="1508" stroke="#34495a"/>
+<text x="250.0" y="1527.0" fill="#8fa3b1" font-size="14" text-anchor="middle">0</text>
+<line x1="356.0" y1="128" x2="356.0" y2="1508" stroke="#1f2c37"/>
+<text x="356.0" y="1527.0" fill="#8fa3b1" font-size="14" text-anchor="middle">2</text>
+<line x1="462.0" y1="128" x2="462.0" y2="1508" stroke="#1f2c37"/>
+<text x="462.0" y="1527.0" fill="#8fa3b1" font-size="14" text-anchor="middle">4</text>
+<line x1="568.0" y1="128" x2="568.0" y2="1508" stroke="#1f2c37"/>
+<text x="568.0" y="1527.0" fill="#8fa3b1" font-size="14" text-anchor="middle">6</text>
+<line x1="674.0" y1="128" x2="674.0" y2="1508" stroke="#1f2c37"/>
+<text x="674.0" y="1527.0" fill="#8fa3b1" font-size="14" text-anchor="middle">8</text>
+<line x1="780.0" y1="128" x2="780.0" y2="1508" stroke="#1f2c37"/>
+<text x="780.0" y="1527.0" fill="#8fa3b1" font-size="14" text-anchor="middle">10</text>
+<text x="515.0" y="1548.0" fill="#8fa3b1" font-size="14" text-anchor="middle">negative friction rows per 100 commands</text>
 <text x="24.0" y="148.0" fill="#d9e3ea" font-size="14" text-anchor="start">Runs with some legs on GPT-6 Luna (round 13, Copilot): hatched</text>
 <text x="238.0" y="174.0" fill="#d9e3ea" font-size="14" text-anchor="end">r13 typed</text>
 <text x="238.0" y="187.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · careful</text>
@@ -163,85 +167,274 @@ host: Claude Code, then Cursor
 best score: 55, furthest stage Plato
 weighted per 100: 2.53; blocked rows: 7; negative kinds: 6 of 7</title><path d="M250.0,584.0 H328.1 Q331.1,584.0 331.1,587.0 V599.0 Q331.1,602.0 328.1,602.0 H250.0 Z" fill="#9085e9"/></g>
 <text x="337.1" y="598.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.5 · best 55</text>
-<text x="238.0" y="624.0" fill="#d9e3ea" font-size="14" text-anchor="end">r12 click B</text>
+<text x="238.0" y="624.0" fill="#d9e3ea" font-size="14" text-anchor="end">r17 typed</text>
 <text x="238.0" y="637.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · unstated</text>
+<g class="m" data-s="other" data-v="1.53"><title>1.53 negative rows per 100 commands
+r17-escaperoom-full (round 17, typed)
+persona: an escape-room designer who asks how each puzzle was built, keeps a timeline of what happens on the station each day, and saves before every risky step
+host: not recorded
+best score: 54, furthest stage Plato
+weighted per 100: 3.2; blocked rows: 12; negative kinds: 4 of 7</title><path d="M250.0,614.0 H328.1 Q331.1,614.0 331.1,617.0 V629.0 Q331.1,632.0 328.1,632.0 H250.0 Z" fill="#8fa3b1"/></g>
+<text x="337.1" y="628.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.5 · best 54</text>
+<text x="238.0" y="654.0" fill="#d9e3ea" font-size="14" text-anchor="end">r12 click B</text>
+<text x="238.0" y="667.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · unstated</text>
 <g class="m" data-s="claude" data-v="1.51"><title>1.51 negative rows per 100 commands
 r12-click-fullB (round 12, click)
 persona: a sci-fi fan who loves the story, talks to every character and explores every room before solving anything
 host: Claude Code
 best score: 53, furthest stage Plato
-weighted per 100: 2.87; blocked rows: 8; negative kinds: 5 of 7</title><path d="M250.0,614.0 H327.0 Q330.0,614.0 330.0,617.0 V629.0 Q330.0,632.0 327.0,632.0 H250.0 Z" fill="#3987e5"/></g>
-<text x="336.0" y="628.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.5 · best 53</text>
-<text x="238.0" y="654.0" fill="#d9e3ea" font-size="14" text-anchor="end">r7 typed (UNDO on)</text>
-<text x="238.0" y="667.0" fill="#8fa3b1" font-size="11" text-anchor="end">veteran · unstated</text>
+weighted per 100: 2.87; blocked rows: 8; negative kinds: 5 of 7</title><path d="M250.0,644.0 H327.0 Q330.0,644.0 330.0,647.0 V659.0 Q330.0,662.0 327.0,662.0 H250.0 Z" fill="#3987e5"/></g>
+<text x="336.0" y="658.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.5 · best 53</text>
+<text x="238.0" y="684.0" fill="#d9e3ea" font-size="14" text-anchor="end">r7 typed (UNDO on)</text>
+<text x="238.0" y="697.0" fill="#8fa3b1" font-size="11" text-anchor="end">veteran · unstated</text>
 <g class="m" data-s="cursor" data-v="1.47"><title>1.47 negative rows per 100 commands
 r7-typed-full (round 7, typed)
 persona: an adult who played Zork in the 1980s but has never played this game
 host: Claude Code, then Cursor
 best score: 45, furthest stage Day 2
-weighted per 100: 2.73; blocked rows: 7; negative kinds: 6 of 7</title><path d="M250.0,644.0 H324.9 Q327.9,644.0 327.9,647.0 V659.0 Q327.9,662.0 324.9,662.0 H250.0 Z" fill="#9085e9"/></g>
-<text x="333.9" y="658.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.5 · best 45</text>
-<text x="238.0" y="684.0" fill="#d9e3ea" font-size="14" text-anchor="end">r10 click A</text>
-<text x="238.0" y="697.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · unstated</text>
+weighted per 100: 2.73; blocked rows: 7; negative kinds: 6 of 7</title><path d="M250.0,674.0 H324.9 Q327.9,674.0 327.9,677.0 V689.0 Q327.9,692.0 324.9,692.0 H250.0 Z" fill="#9085e9"/></g>
+<text x="333.9" y="688.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.5 · best 45</text>
+<text x="238.0" y="714.0" fill="#d9e3ea" font-size="14" text-anchor="end">r10 click A</text>
+<text x="238.0" y="727.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · unstated</text>
 <g class="m" data-s="claude" data-v="1.47"><title>1.47 negative rows per 100 commands
 r10-click-fullA (round 10, click)
 persona: a game-design student who narrates theories aloud and experiments with every object
 host: Claude Code
 best score: 71, furthest stage Plato
-weighted per 100: 2.47; blocked rows: 7; negative kinds: 5 of 7</title><path d="M250.0,674.0 H324.9 Q327.9,674.0 327.9,677.0 V689.0 Q327.9,692.0 324.9,692.0 H250.0 Z" fill="#3987e5"/></g>
-<text x="333.9" y="688.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.5 · best 71</text>
-<text x="238.0" y="714.0" fill="#d9e3ea" font-size="14" text-anchor="end">r11 typed</text>
-<text x="238.0" y="727.0" fill="#8fa3b1" font-size="11" text-anchor="end">veteran · unstated</text>
+weighted per 100: 2.47; blocked rows: 7; negative kinds: 5 of 7</title><path d="M250.0,704.0 H324.9 Q327.9,704.0 327.9,707.0 V719.0 Q327.9,722.0 324.9,722.0 H250.0 Z" fill="#3987e5"/></g>
+<text x="333.9" y="718.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.5 · best 71</text>
+<text x="238.0" y="744.0" fill="#d9e3ea" font-size="14" text-anchor="end">r11 typed</text>
+<text x="238.0" y="757.0" fill="#8fa3b1" font-size="11" text-anchor="end">veteran · unstated</text>
 <g class="m" data-s="claude" data-v="1.47"><title>1.47 negative rows per 100 commands
 r11-typed-full (round 11, typed)
 persona: a veteran Infocom player who played Planetfall in 1983 and expects the parser to be sharp
 host: Claude Code
 best score: 54, furthest stage Plato
-weighted per 100: 2.33; blocked rows: 2; negative kinds: 6 of 7</title><path d="M250.0,704.0 H324.9 Q327.9,704.0 327.9,707.0 V719.0 Q327.9,722.0 324.9,722.0 H250.0 Z" fill="#3987e5"/></g>
-<text x="333.9" y="718.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.5 · best 54</text>
-<text x="238.0" y="744.0" fill="#d9e3ea" font-size="14" text-anchor="end">r12 click A</text>
-<text x="238.0" y="757.0" fill="#8fa3b1" font-size="11" text-anchor="end">newcomer · careful</text>
+weighted per 100: 2.33; blocked rows: 2; negative kinds: 6 of 7</title><path d="M250.0,734.0 H324.9 Q327.9,734.0 327.9,737.0 V749.0 Q327.9,752.0 324.9,752.0 H250.0 Z" fill="#3987e5"/></g>
+<text x="333.9" y="748.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.5 · best 54</text>
+<text x="238.0" y="774.0" fill="#d9e3ea" font-size="14" text-anchor="end">r12 click A</text>
+<text x="238.0" y="787.0" fill="#8fa3b1" font-size="11" text-anchor="end">newcomer · careful</text>
 <g class="m" data-s="claude" data-v="1.47"><title>1.47 negative rows per 100 commands
 r12-click-fullA (round 12, click)
 persona: a retired schoolteacher new to computer games who clicks carefully and wants every step explained
 host: Claude Code
 best score: 53, furthest stage Plato
-weighted per 100: 2.47; blocked rows: 5; negative kinds: 5 of 7</title><path d="M250.0,734.0 H324.9 Q327.9,734.0 327.9,737.0 V749.0 Q327.9,752.0 324.9,752.0 H250.0 Z" fill="#3987e5"/></g>
-<text x="333.9" y="748.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.5 · best 53</text>
-<text x="238.0" y="774.0" fill="#d9e3ea" font-size="14" text-anchor="end">r10 click B</text>
-<text x="238.0" y="787.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · fast</text>
+weighted per 100: 2.47; blocked rows: 5; negative kinds: 5 of 7</title><path d="M250.0,764.0 H324.9 Q327.9,764.0 327.9,767.0 V779.0 Q327.9,782.0 324.9,782.0 H250.0 Z" fill="#3987e5"/></g>
+<text x="333.9" y="778.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.5 · best 53</text>
+<text x="238.0" y="804.0" fill="#d9e3ea" font-size="14" text-anchor="end">r10 click B</text>
+<text x="238.0" y="817.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · fast</text>
 <g class="m" data-s="claude" data-v="1.4"><title>1.4 negative rows per 100 commands
 r10-click-fullB (round 10, click)
 persona: a busy parent who plays in short bursts, saves often and wants clear feedback
 host: Claude Code
 best score: 54, furthest stage Plato
-weighted per 100: 2.2; blocked rows: 7; negative kinds: 6 of 7</title><path d="M250.0,764.0 H321.2 Q324.2,764.0 324.2,767.0 V779.0 Q324.2,782.0 321.2,782.0 H250.0 Z" fill="#3987e5"/></g>
-<text x="330.2" y="778.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.4 · best 54</text>
-<text x="238.0" y="804.0" fill="#d9e3ea" font-size="14" text-anchor="end">r14 click</text>
-<text x="238.0" y="817.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · fast</text>
+weighted per 100: 2.2; blocked rows: 7; negative kinds: 6 of 7</title><path d="M250.0,794.0 H321.2 Q324.2,794.0 324.2,797.0 V809.0 Q324.2,812.0 321.2,812.0 H250.0 Z" fill="#3987e5"/></g>
+<text x="330.2" y="808.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.4 · best 54</text>
+<text x="238.0" y="834.0" fill="#d9e3ea" font-size="14" text-anchor="end">r14 click</text>
+<text x="238.0" y="847.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · fast</text>
 <g class="m" data-s="claude" data-v="1.33"><title>1.33 negative rows per 100 commands
 r14-click-full (round 14, click)
 persona: a night-shift nurse who plays in short bursts on a tablet, saves often and distrusts anything that looks dangerous
 host: Claude Code (Claude Opus 5.5)
 best score: 71, furthest stage Plato
-weighted per 100: 2.27; blocked rows: 5; negative kinds: 4 of 7</title><path d="M250.0,794.0 H317.5 Q320.5,794.0 320.5,797.0 V809.0 Q320.5,812.0 317.5,812.0 H250.0 Z" fill="#3987e5"/></g>
-<text x="326.5" y="808.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.3 · best 71</text>
-<text x="238.0" y="834.0" fill="#d9e3ea" font-size="14" text-anchor="end">r9 typed</text>
-<text x="238.0" y="847.0" fill="#8fa3b1" font-size="11" text-anchor="end">veteran · unstated</text>
+weighted per 100: 2.27; blocked rows: 5; negative kinds: 4 of 7</title><path d="M250.0,824.0 H317.5 Q320.5,824.0 320.5,827.0 V839.0 Q320.5,842.0 317.5,842.0 H250.0 Z" fill="#3987e5"/></g>
+<text x="326.5" y="838.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.3 · best 71</text>
+<text x="238.0" y="864.0" fill="#d9e3ea" font-size="14" text-anchor="end">r9 typed</text>
+<text x="238.0" y="877.0" fill="#8fa3b1" font-size="11" text-anchor="end">veteran · unstated</text>
 <g class="m" data-s="claude" data-v="1.27"><title>1.27 negative rows per 100 commands
 r9-typed-full (round 9, typed)
 persona: a night-shift nurse who likes crosswords and has played a few text adventures on her phone
 host: Claude Code
 best score: 54, furthest stage Plato
-weighted per 100: 2.27; blocked rows: 5; negative kinds: 5 of 7</title><path d="M250.0,824.0 H314.3 Q317.3,824.0 317.3,827.0 V839.0 Q317.3,842.0 314.3,842.0 H250.0 Z" fill="#3987e5"/></g>
-<text x="323.3" y="838.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.3 · best 54</text>
-<text x="238.0" y="864.0" fill="#d9e3ea" font-size="14" text-anchor="end">r10 typed</text>
-<text x="238.0" y="877.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · careful</text>
+weighted per 100: 2.27; blocked rows: 5; negative kinds: 5 of 7</title><path d="M250.0,854.0 H314.3 Q317.3,854.0 317.3,857.0 V869.0 Q317.3,872.0 314.3,872.0 H250.0 Z" fill="#3987e5"/></g>
+<text x="323.3" y="868.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.3 · best 54</text>
+<text x="238.0" y="894.0" fill="#d9e3ea" font-size="14" text-anchor="end">r16b typed</text>
+<text x="238.0" y="907.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · unstated</text>
+<g class="m" data-s="other" data-v="1.27"><title>1.27 negative rows per 100 commands
+r16b-gm-full (round 16b, typed)
+persona: a tabletop game master who treats every character as a person, talks to Floyd and Plato constantly, asks everyone about everything and follows hunches from what they say
+host: not recorded
+best score: 80, furthest stage Factory
+weighted per 100: 2.13; blocked rows: 4; negative kinds: 6 of 7</title><path d="M250.0,884.0 H314.3 Q317.3,884.0 317.3,887.0 V899.0 Q317.3,902.0 314.3,902.0 H250.0 Z" fill="#8fa3b1"/></g>
+<text x="323.3" y="898.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.3 · best 80</text>
+<text x="238.0" y="924.0" fill="#d9e3ea" font-size="14" text-anchor="end">r10 typed</text>
+<text x="238.0" y="937.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · careful</text>
 <g class="m" data-s="claude" data-v="1.2"><title>1.2 negative rows per 100 commands
 r10-typed-full (round 10, typed)
 persona: a retired librarian who reads the manual first and maps every room on graph paper
 host: Claude Code
 best score: 38, furthest stage Day 2
-weighted per 100: 2.07; blocked rows: 7; negative kinds: 5 of 7</title><path d="M250.0,854.0 H310.6 Q313.6,854.0 313.6,857.0 V869.0 Q313.6,872.0 310.6,872.0 H250.0 Z" fill="#3987e5"/></g>
-<text x="319.6" y="868.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.2 · best 38</text>
+weighted per 100: 2.07; blocked rows: 7; negative kinds: 5 of 7</title><path d="M250.0,914.0 H310.6 Q313.6,914.0 313.6,917.0 V929.0 Q313.6,932.0 310.6,932.0 H250.0 Z" fill="#3987e5"/></g>
+<text x="319.6" y="928.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.2 · best 38</text>
+<text x="238.0" y="954.0" fill="#d9e3ea" font-size="14" text-anchor="end">r16a typed</text>
+<text x="238.0" y="967.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · unstated</text>
+<g class="m" data-s="other" data-v="1.2"><title>1.2 negative rows per 100 commands
+r16-engineer-full (round 16a, typed)
+persona: a systems engineer who wants to understand how things work before using them, tests one variable at a time, keeps notes on cause and effect and saves before every experiment
+host: not recorded
+best score: 73, furthest stage Factory
+weighted per 100: 2.13; blocked rows: 7; negative kinds: 5 of 7</title><path d="M250.0,944.0 H310.6 Q313.6,944.0 313.6,947.0 V959.0 Q313.6,962.0 310.6,962.0 H250.0 Z" fill="#8fa3b1"/></g>
+<text x="319.6" y="958.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.2 · best 73</text>
+<text x="238.0" y="984.0" fill="#d9e3ea" font-size="14" text-anchor="end">r17 click</text>
+<text x="238.0" y="997.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · unstated</text>
+<g class="m" data-s="other" data-v="1.17"><title>1.17 negative rows per 100 commands
+r17-illustrator-full (round 17, click)
+persona: a freelance illustrator in their thirties on a laptop who looks at the picture first, clicks whatever is drawn, and reads descriptions to check them against what they see
+host: not recorded
+best score: 80, furthest stage Factory
+weighted per 100: 2.61; blocked rows: 2; negative kinds: 3 of 7</title><path d="M250.0,974.0 H309.0 Q312.0,974.0 312.0,977.0 V989.0 Q312.0,992.0 309.0,992.0 H250.0 Z" fill="#8fa3b1"/></g>
+<text x="318.0" y="988.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.2 · best 80</text>
+<text x="238.0" y="1014.0" fill="#d9e3ea" font-size="14" text-anchor="end">r15d typed</text>
+<text x="238.0" y="1027.0" fill="#8fa3b1" font-size="11" text-anchor="end">veteran · careful</text>
+<g class="m" data-s="other" data-v="1.13"><title>1.13 negative rows per 100 commands
+r15d-veteran-full (round 15d, typed)
+persona: a text-adventure veteran who finished every Infocom game in the 1980s, maps carefully, examines everything twice, keeps a save from before every step that cannot be undone and never saves over it, and after anything knocks them down gathers up everything dropped
+host: not recorded
+best score: 51, furthest stage Plato
+weighted per 100: 1.93; blocked rows: 6; negative kinds: 7 of 7</title><path d="M250.0,1004.0 H306.9 Q309.9,1004.0 309.9,1007.0 V1019.0 Q309.9,1022.0 306.9,1022.0 H250.0 Z" fill="#8fa3b1"/></g>
+<text x="315.9" y="1018.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.1 · best 51</text>
+<text x="238.0" y="1044.0" fill="#d9e3ea" font-size="14" text-anchor="end">r17 typed</text>
+<text x="238.0" y="1057.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · careful</text>
+<g class="m" data-s="other" data-v="1.13"><title>1.13 negative rows per 100 commands
+r17-stenographer-full (round 17, typed)
+persona: a court stenographer who types fast and exactly, adopts the parser's abbreviations once learned, and reads every paper in the package before acting on it
+host: not recorded
+best score: 58, furthest stage Plato
+weighted per 100: 2.27; blocked rows: 2; negative kinds: 4 of 7</title><path d="M250.0,1034.0 H306.9 Q309.9,1034.0 309.9,1037.0 V1049.0 Q309.9,1052.0 306.9,1052.0 H250.0 Z" fill="#8fa3b1"/></g>
+<text x="315.9" y="1048.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.1 · best 58</text>
+<text x="238.0" y="1074.0" fill="#d9e3ea" font-size="14" text-anchor="end">r16a click</text>
+<text x="238.0" y="1087.0" fill="#8fa3b1" font-size="11" text-anchor="end">newcomer · unstated</text>
+<g class="m" data-s="other" data-v="1.07"><title>1.07 negative rows per 100 commands
+r16-newcomer-full (round 16a, click)
+persona: a first-time player of text adventures in their twenties who grew up on mobile games, taps whatever looks interactive, reads quickly and gets bored by long descriptions
+host: not recorded
+best score: 73, furthest stage Factory
+weighted per 100: 2.07; blocked rows: 4; negative kinds: 3 of 7</title><path d="M250.0,1064.0 H303.7 Q306.7,1064.0 306.7,1067.0 V1079.0 Q306.7,1082.0 303.7,1082.0 H250.0 Z" fill="#8fa3b1"/></g>
+<text x="312.7" y="1078.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.1 · best 73</text>
+<text x="238.0" y="1104.0" fill="#d9e3ea" font-size="14" text-anchor="end">r16a typed</text>
+<text x="238.0" y="1117.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · unstated</text>
+<g class="m" data-s="other" data-v="0.93"><title>0.93 negative rows per 100 commands
+r16-gm-full (round 16a, typed)
+persona: a tabletop game master who treats every character as a person, talks to Floyd and Plato constantly, asks everyone about everything and follows hunches from what they say
+host: not recorded
+best score: 69, furthest stage Plato
+weighted per 100: 1.67; blocked rows: 5; negative kinds: 4 of 7</title><path d="M250.0,1094.0 H296.3 Q299.3,1094.0 299.3,1097.0 V1109.0 Q299.3,1112.0 296.3,1112.0 H250.0 Z" fill="#8fa3b1"/></g>
+<text x="305.3" y="1108.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.9 · best 69</text>
+<text x="238.0" y="1134.0" fill="#d9e3ea" font-size="14" text-anchor="end">r16b typed</text>
+<text x="238.0" y="1147.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · unstated</text>
+<g class="m" data-s="other" data-v="0.87"><title>0.87 negative rows per 100 commands
+r16b-engineer-full (round 16b, typed)
+persona: a systems engineer who wants to understand how things work before using them, tests one variable at a time, keeps notes on cause and effect and saves before every experiment
+host: not recorded
+best score: 54, furthest stage Plato
+weighted per 100: 1.8; blocked rows: 6; negative kinds: 4 of 7</title><path d="M250.0,1124.0 H293.1 Q296.1,1124.0 296.1,1127.0 V1139.0 Q296.1,1142.0 293.1,1142.0 H250.0 Z" fill="#8fa3b1"/></g>
+<text x="302.1" y="1138.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.9 · best 54</text>
+<text x="238.0" y="1164.0" fill="#d9e3ea" font-size="14" text-anchor="end">r15d click</text>
+<text x="238.0" y="1177.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · fast</text>
+<g class="m" data-s="other" data-v="0.86"><title>0.86 negative rows per 100 commands
+r15d-click-full (round 15d, click)
+persona: a night-shift nurse who plays in short bursts on a tablet, saves often and distrusts anything that looks dangerous
+host: not recorded
+best score: 80, furthest stage Factory
+weighted per 100: 1.21; blocked rows: 3; negative kinds: 3 of 7</title><path d="M250.0,1154.0 H292.6 Q295.6,1154.0 295.6,1157.0 V1169.0 Q295.6,1172.0 292.6,1172.0 H250.0 Z" fill="#8fa3b1"/></g>
+<text x="301.6" y="1168.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.9 · best 80</text>
+<text x="238.0" y="1194.0" fill="#d9e3ea" font-size="14" text-anchor="end">r15d typed</text>
+<text x="238.0" y="1207.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · unstated</text>
+<g class="m" data-s="other" data-v="0.8"><title>0.8 negative rows per 100 commands
+r15d-typed-full (round 15d, typed)
+persona: a retired air-traffic controller who logs every clock reading, plans each move and types complete sentences
+host: not recorded
+best score: 38, furthest stage Day 2
+weighted per 100: 1.53; blocked rows: 4; negative kinds: 6 of 7</title><path d="M250.0,1184.0 H289.4 Q292.4,1184.0 292.4,1187.0 V1199.0 Q292.4,1202.0 289.4,1202.0 H250.0 Z" fill="#8fa3b1"/></g>
+<text x="298.4" y="1198.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.8 · best 38</text>
+<text x="238.0" y="1224.0" fill="#d9e3ea" font-size="14" text-anchor="end">r16b click</text>
+<text x="238.0" y="1237.0" fill="#8fa3b1" font-size="11" text-anchor="end">newcomer · unstated</text>
+<g class="m" data-s="other" data-v="0.8"><title>0.8 negative rows per 100 commands
+r16b-newcomer-full (round 16b, click)
+persona: a first-time player of text adventures in their twenties who grew up on mobile games, taps whatever looks interactive, reads quickly and gets bored by long descriptions
+host: not recorded
+best score: 61, furthest stage Plato
+weighted per 100: 1.53; blocked rows: 5; negative kinds: 3 of 7</title><path d="M250.0,1214.0 H289.4 Q292.4,1214.0 292.4,1217.0 V1229.0 Q292.4,1232.0 289.4,1232.0 H250.0 Z" fill="#8fa3b1"/></g>
+<text x="298.4" y="1228.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.8 · best 61</text>
+<text x="238.0" y="1254.0" fill="#d9e3ea" font-size="14" text-anchor="end">r15b click</text>
+<text x="238.0" y="1267.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · fast</text>
+<g class="m" data-s="other" data-v="0.67"><title>0.67 negative rows per 100 commands
+r15b-click-full (round 15b, click)
+persona: a night-shift nurse who plays in short bursts on a tablet, saves often and distrusts anything that looks dangerous
+host: not recorded
+best score: 45, furthest stage Day 2
+weighted per 100: 1.26; blocked rows: 2; negative kinds: 3 of 7</title><path d="M250.0,1244.0 H282.5 Q285.5,1244.0 285.5,1247.0 V1259.0 Q285.5,1262.0 282.5,1262.0 H250.0 Z" fill="#8fa3b1"/></g>
+<text x="291.5" y="1258.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.7 · best 45</text>
+<text x="238.0" y="1284.0" fill="#d9e3ea" font-size="14" text-anchor="end">r15a click</text>
+<text x="238.0" y="1297.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · fast</text>
+<g class="m" data-s="claude" data-v="0.55"><title>0.55 negative rows per 100 commands
+r15-click-full (round 15a, click)
+persona: a night-shift nurse who plays in short bursts on a tablet, saves often and distrusts anything that looks dangerous
+host: Claude Code (Claude Sonnet 5.5)
+best score: 41, furthest stage Day 2
+weighted per 100: 1.04; blocked rows: 1; negative kinds: 4 of 7</title><path d="M250.0,1274.0 H276.2 Q279.2,1274.0 279.2,1277.0 V1289.0 Q279.2,1292.0 276.2,1292.0 H250.0 Z" fill="#3987e5"/></g>
+<text x="285.2" y="1288.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.6 · best 41</text>
+<text x="238.0" y="1314.0" fill="#d9e3ea" font-size="14" text-anchor="end">r15b typed</text>
+<text x="238.0" y="1327.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · unstated</text>
+<g class="m" data-s="other" data-v="0.47"><title>0.47 negative rows per 100 commands
+r15b-typed-full (round 15b, typed)
+persona: a retired air-traffic controller who logs every clock reading, plans each move and types complete sentences
+host: not recorded
+best score: 45, furthest stage Day 2
+weighted per 100: 1; blocked rows: 1; negative kinds: 4 of 7</title><path d="M250.0,1304.0 H271.9 Q274.9,1304.0 274.9,1307.0 V1319.0 Q274.9,1322.0 271.9,1322.0 H250.0 Z" fill="#8fa3b1"/></g>
+<text x="280.9" y="1318.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.5 · best 45</text>
+<text x="238.0" y="1344.0" fill="#d9e3ea" font-size="14" text-anchor="end">r15a typed</text>
+<text x="238.0" y="1357.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · unstated</text>
+<g class="m" data-s="claude" data-v="0.4"><title>0.4 negative rows per 100 commands
+r15-typed-full (round 15a, typed)
+persona: a retired air-traffic controller who logs every clock reading, plans each move and types complete sentences
+host: Claude Code (Claude Sonnet 5.5)
+best score: 45, furthest stage Day 2
+weighted per 100: 0.73; blocked rows: 0; negative kinds: 2 of 7</title><path d="M250.0,1334.0 H268.2 Q271.2,1334.0 271.2,1337.0 V1349.0 Q271.2,1352.0 268.2,1352.0 H250.0 Z" fill="#3987e5"/></g>
+<text x="277.2" y="1348.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.4 · best 45</text>
+<text x="238.0" y="1374.0" fill="#d9e3ea" font-size="14" text-anchor="end">r15c click</text>
+<text x="238.0" y="1387.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · fast</text>
+<g class="m" data-s="other" data-v="0.4"><title>0.4 negative rows per 100 commands
+r15c-click-full (round 15c, click)
+persona: a night-shift nurse who plays in short bursts on a tablet, saves often and distrusts anything that looks dangerous
+host: not recorded
+best score: 45, furthest stage Day 2
+weighted per 100: 0.81; blocked rows: 2; negative kinds: 3 of 7</title><path d="M250.0,1364.0 H268.2 Q271.2,1364.0 271.2,1367.0 V1379.0 Q271.2,1382.0 268.2,1382.0 H250.0 Z" fill="#8fa3b1"/></g>
+<text x="277.2" y="1378.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.4 · best 45</text>
+<text x="238.0" y="1404.0" fill="#d9e3ea" font-size="14" text-anchor="end">r15b typed</text>
+<text x="238.0" y="1417.0" fill="#8fa3b1" font-size="11" text-anchor="end">veteran · careful</text>
+<g class="m" data-s="other" data-v="0.34"><title>0.34 negative rows per 100 commands
+r15b-veteran-full (round 15b, typed)
+persona: a text-adventure veteran who finished every Infocom game in the 1980s, maps carefully, examines everything twice, keeps a save from before every step that cannot be undone and never saves over it, and after anything knocks them down gathers up everything dropped
+host: not recorded
+best score: 37, furthest stage Day 2
+weighted per 100: 0.74; blocked rows: 0; negative kinds: 3 of 7</title><path d="M250.0,1394.0 H265.0 Q268.0,1394.0 268.0,1397.0 V1409.0 Q268.0,1412.0 265.0,1412.0 H250.0 Z" fill="#8fa3b1"/></g>
+<text x="274.0" y="1408.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.3 · best 37</text>
+<text x="238.0" y="1434.0" fill="#d9e3ea" font-size="14" text-anchor="end">r15c typed</text>
+<text x="238.0" y="1447.0" fill="#8fa3b1" font-size="11" text-anchor="end">other · unstated</text>
+<g class="m" data-s="other" data-v="0.27"><title>0.27 negative rows per 100 commands
+r15c-typed-full (round 15c, typed)
+persona: a retired air-traffic controller who logs every clock reading, plans each move and types complete sentences
+host: not recorded
+best score: 45, furthest stage Day 2
+weighted per 100: 0.6; blocked rows: 0; negative kinds: 2 of 7</title><path d="M250.0,1424.0 H261.3 Q264.3,1424.0 264.3,1427.0 V1439.0 Q264.3,1442.0 261.3,1442.0 H250.0 Z" fill="#8fa3b1"/></g>
+<text x="270.3" y="1438.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.3 · best 45</text>
+<text x="238.0" y="1464.0" fill="#d9e3ea" font-size="14" text-anchor="end">r15a typed</text>
+<text x="238.0" y="1477.0" fill="#8fa3b1" font-size="11" text-anchor="end">veteran · careful</text>
+<g class="m" data-s="other" data-v="0.2"><title>0.2 negative rows per 100 commands
+r15-veteran-full (round 15a, typed)
+persona: a text-adventure veteran who finished every Infocom game in the 1980s, maps carefully, examines everything twice, keeps a save from before every step that cannot be undone and never saves over it, and after anything knocks them down gathers up everything dropped
+host: not recorded
+best score: 11, furthest stage Village
+weighted per 100: 0.33; blocked rows: 0; negative kinds: 3 of 7</title><path d="M250.0,1454.0 H257.6 Q260.6,1454.0 260.6,1457.0 V1469.0 Q260.6,1472.0 257.6,1472.0 H250.0 Z" fill="#8fa3b1"/></g>
+<text x="266.6" y="1468.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.2 · best 11</text>
+<text x="238.0" y="1494.0" fill="#d9e3ea" font-size="14" text-anchor="end">r15c typed</text>
+<text x="238.0" y="1507.0" fill="#8fa3b1" font-size="11" text-anchor="end">veteran · careful</text>
+<g class="m" data-s="other" data-v="0.2"><title>0.2 negative rows per 100 commands
+r15c-veteran-full-b (round 15c, typed)
+persona: a text-adventure veteran who finished every Infocom game in the 1980s, maps carefully, examines everything twice, keeps a save from before every step that cannot be undone and never saves over it, and after anything knocks them down gathers up everything dropped
+host: not recorded
+best score: 44, furthest stage Day 2
+weighted per 100: 0.4; blocked rows: 0; negative kinds: 1 of 7</title><path d="M250.0,1484.0 H257.6 Q260.6,1484.0 260.6,1487.0 V1499.0 Q260.6,1502.0 257.6,1502.0 H250.0 Z" fill="#8fa3b1"/></g>
+<text x="266.6" y="1498.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.2 · best 44</text>
 </svg>

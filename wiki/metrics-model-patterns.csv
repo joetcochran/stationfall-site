@@ -1,0 +1,45 @@
+round,session,model,mode,persona,commands,best,won,deaths,saves,restores,undos,rows,praise,negative,negLinked,whyWords,cause,fix,soft,diaryWords,stocktakeWords,hypo,revise,medianGap,fastShare,volleysRefused,repeats,parserRefusals,meta,exam,talk,clock,wordsPerCmd,spells100,longestFlat,firstDock,coursesBeforeDock,timerBought,timerFreed,tokens,wallMs
+7,r7-click-fullA,not stamped,click,a casual puzzle fan who plays escape-roo,1503,53,false,6,46,7,7,42,13,29,29,1429,9,6,1,10549,0,35,9,8.71,0.06,0,1,0,137,125,17,0,,4,429,31,1,569,674,431849,3449166
+7,r7-click-fullB,not stamped,click,someone who played Planetfall on an Appl,1501,55,false,6,45,5,5,39,16,23,23,1131,7,3,2,12176,0,54,10,8.96,0.04,0,2,0,130,151,17,0,,4,376,37,1,565,,409371,3245216
+7,r7-typed-full,not stamped,typed,an adult who played Zork in the 1980s bu,1500,45,false,17,18,5,20,32,10,22,22,954,6,4,3,6917,0,31,8,4.96,0.17,0,0,20,121,177,27,0,1.71,3,673,30,1,841,,335170,3549044
+8,r8-click-fullA,not stamped,click,a teenager who plays mobile puzzle games,1500,50,false,8,37,11,0,52,24,28,28,952,3,4,2,9819,0,47,12,4.94,0.02,0,1,0,118,152,22,0,,5,457,44,2,,,,
+8,r8-click-fullB,not stamped,click,a software tester who played Zork decade,1500,73,false,13,49,20,0,49,17,32,32,970,6,4,1,8185,0,32,11,4.6,0.01,0,1,0,122,119,14,0,,4,474,44,2,578,867,,
+8,r8-typed-full,not stamped,typed,a retired schoolteacher who reads myster,1500,57,false,8,22,13,0,40,15,25,25,710,2,3,0,5673,0,25,4,2.09,0.4,0,0,16,123,200,26,0,1.7,6,348,54,2,1073,1169,,
+10,r10-click-fullA,not stamped,click,a game-design student who narrates theor,1500,71,false,13,44,36,0,38,16,22,22,766,1,4,1,9849,0,47,17,5.69,0.03,0,8,0,144,168,15,1,,3,572,44,2,771,773,,
+10,r10-click-fullB,not stamped,click,"a busy parent who plays in short bursts,",1500,54,false,11,62,14,0,44,23,21,21,999,5,1,1,8529,0,38,6,5.29,0.02,0,0,0,143,146,16,0,,5,655,48,2,662,834,,
+10,r10-typed-full,not stamped,typed,a retired librarian who reads the manual,1500,38,false,12,37,12,0,33,15,18,18,582,1,0,0,6989,0,35,7,1.59,0.31,0,0,16,137,191,48,0,1.72,4,869,30,1,638,,,
+11,r11-click-fullA,not stamped,click,a cautious first-time adventure player w,1500,47,false,6,42,27,0,41,16,25,25,966,5,4,1,11698,0,56,15,7.43,0,0,1,0,151,178,27,0,,3,875,29,1,619,625,,
+11,r11-click-fullB,not stamped,click,a puzzle-hunt enthusiast who keeps metic,1499,73,false,16,40,38,0,44,20,24,24,892,0,2,4,7854,0,33,5,5.96,0.04,0,0,0,146,110,15,0,,5,316,44,2,754,890,,
+11,r11-typed-full,not stamped,typed,a veteran Infocom player who played Plan,1500,54,false,6,23,13,0,33,11,22,22,499,2,2,0,5687,0,37,3,3.89,0.29,0,0,12,110,175,27,0,1.67,4,353,50,2,1080,,,
+12,r12-click-fullA,not stamped,click,a retired schoolteacher new to computer ,1500,53,false,11,60,20,0,42,20,22,22,1034,6,5,2,12613,0,53,14,7.89,0.01,0,0,0,149,156,20,0,,6,350,41,2,,,,
+12,r12-click-fullB,not stamped,click,"a sci-fi fan who loves the story, talks ",1461,53,false,3,35,11,0,44,22,22,22,995,3,2,0,9116,0,45,12,5.93,0.02,0,1,0,107,149,22,0,,5,350,37,1,906,1156,,
+12,r12-typed-full,not stamped,typed,"a speedrunner who plays fast, types ters",1500,67,false,10,31,18,0,36,12,24,24,528,2,1,2,5282,0,33,5,3.41,0.34,0,0,13,108,153,11,0,1.61,3,426,45,2,930,1318,,
+9,r9-click-fullA,not stamped,click,a retired engineer who reads every sign ,1500,54,false,11,37,14,0,51,22,29,29,1084,3,5,3,10446,0,47,16,6.22,0.04,0,0,0,121,200,19,1,,2,558,49,2,993,1096,,
+9,r9-click-fullB,not stamped,click,a college student who speedruns platform,1500,57,false,9,47,13,0,51,27,24,24,1198,3,1,4,9083,0,45,10,5.54,0.01,0,0,0,133,121,17,0,,6,345,44,2,835,957,,
+9,r9-typed-full,not stamped,typed,night-shift nurse,1500,54,false,5,20,4,0,33,14,19,19,610,2,3,1,5592,0,25,4,3.19,0.41,0,0,18,146,199,17,1,1.69,5,458,31,1,1033,1175,,
+13,r13-click-fullA,Copilot / Opus 5.5 (round 13),click,a museum docent in their sixties on a la,1501,47,false,7,28,9,0,256,128,128,128,5301,18,5,5,20173,0,60,22,6.48,0,0,0,0,148,220,14,0,,3,827,60,4,1379,1382,212177,3967221
+13,r13-click-fullB,Copilot / Opus 5.5 (round 13),click,a sixteen-year-old who plays survival-cr,1501,38,false,10,30,14,0,218,105,113,113,5092,17,11,5,18306,0,81,34,7.22,0,0,0,0,129,196,21,4,,4,542,82,5,,,165023,4115177
+13,r13-typed-full,Copilot / Opus 5.5 (round 13),typed,a stage-magic hobbyist who notices every,1505,27,false,4,6,2,0,273,142,131,131,5575,15,4,1,21630,0,66,34,4.52,0,0,0,61,104,217,51,1,2.96,3,730,70,2,1435,,,2614079
+14,r14-click-full,Opus 5.5,click,night-shift nurse,1500,71,false,10,65,28,0,43,23,20,20,1284,7,1,1,9616,0,34,14,4.87,0,0,0,0,162,150,7,1,,5,293,25,1,1092,1196,1632590,7921571
+14,r14-typed-full,Opus 5.5,typed,air-traffic controller,1500,54,false,10,35,15,0,36,11,25,25,1003,4,5,1,6358,0,30,7,3.38,0.29,0,11,15,101,157,28,2,2.72,4,559,31,1,697,810,752374,5033619
+15a,r15-click-full,Sonnet 5.5,click,night-shift nurse,1445,41,false,15,35,23,0,11,3,8,8,213,1,1,0,4588,0,22,1,2.55,0.11,0,1,0,204,179,6,0,,6,260,35,2,1197,,676508,3950636
+15a,r15-typed-full,Sonnet 5.5,typed,air-traffic controller,1500,45,false,8,13,9,0,7,1,6,6,89,0,0,1,3683,0,13,0,0.2,0.61,0,0,18,227,195,32,0,1.85,5,371,69,3,,,332439,1113344
+15a,r15-veteran-full,Sonnet 5.5,typed,veteran,1500,11,false,6,17,12,0,4,1,3,3,77,1,0,0,3163,0,14,4,0.11,0.69,0,1,57,235,285,87,6,1.95,1,1292,93,3,,,220880,763161
+15b,r15b-click-full,Sonnet 5.5,click,night-shift nurse,1350,45,false,10,32,20,0,12,3,9,9,372,2,2,0,7272,0,40,2,3.06,0,1,1,0,121,176,11,1,,6,410,103,4,683,,861359,2886442
+15b,r15b-typed-full,Sonnet 5.5,typed,air-traffic controller,1500,45,false,8,11,10,0,9,2,7,7,194,2,1,0,4705,0,16,2,2.09,0,2,3,26,93,208,36,0,2.57,5,377,39,2,1380,,244174,1171736
+15b,r15b-veteran-full,Sonnet 5.5,typed,veteran,1483,37,false,10,23,13,0,6,1,5,5,114,0,0,0,4906,0,25,2,2.01,0,4,0,31,115,232,56,1,1.81,7,382,56,1,,,443260,2061455
+15c,r15c-click-full,Sonnet 5.5,click,night-shift nurse,1489,45,false,10,32,19,0,10,4,6,6,301,1,1,2,9078,2093,48,4,3.21,0,0,3,0,115,203,18,2,,4,371,36,2,810,,1857187,5655145
+15c,r15c-typed-full,Sonnet 5.5,typed,air-traffic controller,1500,45,false,9,17,10,0,5,1,4,4,79,0,0,0,3909,1501,12,2,1.99,0,2,1,24,97,257,24,1,2.28,5,424,46,2,1268,,785820,3557497
+15c,r15c-veteran-full-b,Sonnet 5.5,typed,veteran,1500,44,false,12,23,16,0,3,0,3,3,66,0,0,0,4040,1810,13,5,2.17,0,0,0,16,146,229,49,2,1.77,7,321,112,3,1411,,769910,3785698
+15d,r15d-click-full,Opus 5.5,click,night-shift nurse,1158,80,true,5,56,12,0,17,7,10,10,512,3,5,0,8708,2501,23,7,5.02,0,3,0,0,100,159,11,0,,4,175,41,2,585,590,1543555,7463604
+15d,r15d-typed-full,Opus 5.5,typed,air-traffic controller,1500,38,false,5,20,11,0,21,9,12,12,465,2,2,1,9105,2519,46,5,3.58,0,7,0,25,87,182,55,2,3.06,4,767,30,1,744,,1022405,7325760
+15d,r15d-veteran-full,Opus 5.5,typed,veteran,1500,51,false,4,45,7,0,21,4,17,17,520,2,1,2,9772,3496,30,5,3.81,0,9,0,5,113,177,46,1,1.86,5,447,37,1,1476,,1013194,7194219
+16a,r16-engineer-full,Opus 5.5,typed,systems engineer,1500,73,false,9,58,16,0,31,13,18,18,850,3,3,1,10413,3013,27,9,4.12,0,5,0,7,130,198,27,0,1.78,4,489,57,2,619,681,1088168,7598838
+16a,r16-gm-full,Opus 5.5,typed,game master,1500,69,false,4,17,8,0,23,9,14,14,652,2,5,1,8971,2933,32,6,4.01,0,15,0,19,74,171,84,0,1.91,4,341,37,1,706,894,1008995,7401291
+16a,r16-newcomer-full,Opus 5.5,click,newcomer,1500,73,false,10,47,20,0,32,16,16,16,869,4,3,0,10600,3355,44,9,5.09,0,4,0,0,134,135,15,1,,4,559,31,1,534,561,2133353,10317053
+16b,r16b-engineer-full,Opus 5.5,typed,systems engineer,1500,54,false,12,52,15,0,19,6,13,13,430,3,0,0,8615,2863,35,4,4.5,0,10,0,13,136,198,29,2,1.7,3,718,40,1,759,782,1050121,8795261
+16b,r16b-gm-full,Opus 5.5,typed,game master,1500,80,true,7,23,17,0,30,11,19,19,751,6,3,1,9822,2688,33,6,4.19,0,6,0,22,86,189,83,1,1.87,6,222,82,2,921,927,1034586,7939623
+16b,r16b-newcomer-full,Opus 5.5,click,newcomer,1500,61,false,9,43,23,0,26,14,12,12,886,4,6,0,10345,2957,41,9,5.7,0,6,0,0,131,146,11,0,,7,322,38,1,779,903,2022718,11624332
+17,r17-escaperoom-full,Astra,typed,an escape-room designer who asks how eac,1500,54,false,4,182,23,0,36,13,23,23,568,0,1,0,25678,1896,208,29,4.46,0,0,0,12,270,145,18,0,1.57,6,246,57,2,998,1014,811223,7298118
+17,r17-illustrator-full,Astra,click,a freelance illustrator in their thirtie,1109,80,true,4,19,11,0,24,11,13,13,398,0,0,0,24656,1523,74,21,6.29,0,0,0,0,59,114,8,0,,2,165,37,2,634,660,825227,6652840
+17,r17-stenographer-full,Astra,typed,a court stenographer who types fast and ,1500,58,false,9,17,14,0,26,9,17,17,410,1,0,0,33690,1719,131,33,4.22,0,1,0,16,136,209,17,0,1.66,4,460,41,1,690,741,891174,7706607

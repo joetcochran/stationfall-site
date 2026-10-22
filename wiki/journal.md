@@ -465,7 +465,7 @@ Rooms finished partly by compute reached the sponsor, who accepted eight between
 - Norm reports (not logged) that about nine agents at once hit the session limit near 05:50. The sponsor, ***seeing over half the week's allowance gone in under a day***, asked him to slow down: one or two agents at a time.
 - File Room 010 went back once for Norm's own guide fault (norm-0365).
 
-**Playtesting.** ![Full-run rounds](wiki/metrics-playtest-fullrun-late.svg)
+**Playtesting.** ![Full-run rounds](wiki/metrics-playtest-fullrun-middle.svg)
 
 Round 12, new personas: the speedrunner 67 (Plato 16/22, cap), the schoolteacher 53 (2/22, cap), the sci-fi fan 53 (2/22, stuck). Day 2 100% (95%), Plato 30% (38%); 24 deaths (28); no win. Triage: 44 issues; SF-026 and SF-234 fixed; Q22 to Q24 (75e74f3). Norm's reading (reported, not filed): the runs fail at silent dead ends, not on the budget; he proposed a careful-veteran run from a checkpoint. Agent testers, three runs.
 
@@ -508,7 +508,7 @@ M7 crossed Level Six and entered its officers' quarters. Between the last entry 
 
 **What went wrong and what changed**
 - Labels obscured the Commander's Quarters' tiny tape and key and the Gym's sign. Plates now stay on their own object and the whole-room review treats overlap as a problem (D45, 47567cb).
-- The sponsor reports that Claude's allowance ran out on the morning of 29 September. ***They moved the Norm role to GitHub Copilot so work could continue***; Greg remained in OpenAI ChatGPT (c0e2366).
+- The sponsor reports that Claude's allowance ran out on the morning of 29 September. ***They moved the Norm role to GitHub Copilot so work could continue***; Greg remained in OpenAI Codex (c0e2366).
 - Mail history had closures inferred from later files. v1.21 reconciled them and made `--re` linkage authoritative (96f72d2).
 
 **Milestones:** M7: 42 of 46 packaged rooms accepted; Officers' Quarters C is in paint. M5: no full-run win; round 12 remains latest.
@@ -646,7 +646,7 @@ Round 13's blind testers played their first legs in GitHub Copilot, and the pack
 
 **Efficiency (D21).** 272 views (198); Greg p90 1.5 h (1.6); 465,000 tokens/view (585,000); 5.6 touches/day (5.9). Round 13 tokens: null.
 
-**Playtest round 13** (still playing). ![Late full runs](wiki/metrics-playtest-fullrun-late.svg) One 400-command leg each: typed 22, clicks 21 and 21, all in the Village's last stage; 3 deaths. [Triage](playtests.md#r=13): 18 issues, 3 A (fixes pending commit), 1 B for the sponsor (SF-255), 14 C; 29% repeats (74%). New personas.
+**Playtest round 13** (still playing). ![Middle full runs](wiki/metrics-playtest-fullrun-middle.svg) One 400-command leg each: typed 22, clicks 21 and 21, all in the Village's last stage; 3 deaths. [Triage](playtests.md#r=13): 18 issues, 3 A (fixes pending commit), 1 B for the sponsor (SF-255), 14 C; 29% repeats (74%). New personas.
 
 <!-- through: git 364af384 · mail 20261007-092359-greg-0570 · decisions 80 -->
 
@@ -671,3 +671,136 @@ A blind tester won from the Plato checkpoint, the first win since round 6; the V
 **Playtest round 14** ![How sessions ended](wiki/metrics-playtest-ends.svg) The veteran won at command 274. Full runs capped at 71 and 54: Day 2 100% (45%), Plato 52% (0%); both stalled in the day-4 blackout (Q42). Agent testers, new personas; the charts file this mixed round as segmented. [Triage](playtests.md#r=14): 41 issues, 75% repeats, 4 A built.
 
 <!-- through: git 878d7102 · mail 20261009-111714-norm-1352 · decisions 91 -->
+
+## 2026-10-10 -- Rounds 15a and 15b: blind volleys and a guard (M5, M7)
+
+Round 15 tried Sonnet 5.5 testers and yielded a rule for every Infocom port. (9 Oct after 07:30 has no entry.)
+
+**Decisions.** D83: design/review and the 3D originals purged from git history (.git 7.9 to 4.4 GB, 6f270c89). D84: Sonnet testers, a morning launch. D85: where the 3D ostrich cannot fit, its cutout is drawn (b2ef75ed). Q43's default: the Alley waits for the Missionary.
+
+**What went wrong and what changed.**
+- The purge renamed every commit. decisions/purge-commit-map.tsv maps each old hash to its new one (1,095 of 1,096; one commit that only added originals was dropped), so the older hashes cited here can still be followed.
+- The sponsor ***saw two testers finish far too fast***. Norm found blind volleys: commands sent unread, median 0.1-0.2 s (Opus 3.4 s). The sponsor ***named it 15a and made a read-before-next-command guard standard for Infocom ports*** (D86): replies carry a random code the next call must return (282f959d). 15b: medians 2-3 s; 7 volleys refused.
+- Four lamp regions came back as flat washes; v1.27 added an edge-falloff check (0c8b21b0). Two R5 gates traced the fault to Norm's masks (greg-0670, -0671); rebuilt asks converged (1a711d41, 3ad1e482).
+
+**Milestones:** M7 90 of 100 accepted (85 of 95); the 3.2 m Airlock awaits the sponsor (D82). M5: no opening win.
+
+**Rework (D20).** Sol: 432 views, 345 first-pass, 15% (14%), 1.26 rounds (1.25). Guide faults 23 (22), three lamp verdicts recharged.
+
+**Efficiency (D21).** 330 views (300); Greg p90 1.4 h (1.5); 842,000 tokens/view (885,000; log ends 7 Oct); 6.2 touches/day (6.0).
+
+**Playtests.** ![Current full runs](wiki/metrics-playtest-fullrun-current.svg) 15b ended in Day 2: 45 stuck, 45 at the cap, the veteran 37 (11 in 15a). Day 2 65%, Plato 0%; round 14 (Opus, same personas): 100%, 52%. One run each; agents. [Triage](playtests.md#r=15b): 8 new issues, 2 A built.
+
+Queued: a porting SOP and a *Changes to our process* page. New: [unlikely comments](sponsor-comments.md).
+
+<!-- through: git d5746239 · mail 20261010-170503-norm-1485 · decisions 100 -->
+
+## 2026-10-11 -- Round 15c: a usage-limit stop and a resume (M5, M7)
+
+Round 15c re-ran 15b on Sonnet 5.5 with new guardrails; none won. The Alley and the Fortune Teller were accepted; three Village rooms packaged (44abede4).
+
+**Decisions.** D88: the Airlock ostrich is the painted bird, drifting (69830c18). D89: tester guardrails for every model; Sonnet for 15c was ***the sponsor's choice over Norm's Opus***. D90 restarted a veteran stuck one clock bracket off, adding a rethink rule. D91: ***Opus for full runs, Sonnet for early or segmented ones***. The sponsor ***allowed room work mid-round***; Norm held its commits, as the harness stamps HEAD. The sponsor then ***asked for a proposal: 15d, a full Opus round***.
+
+**What went wrong and what changed.**
+- On 10 Oct the account hit its usage limit; the launcher ran out the legs unplayed (21 zero-token lines), and the round sat 26 hours. Norm gave the runner a start-leg option and sent fresh agents into the unfinished legs (progress.log).
+- Two runs took the drill warning's tail as advice; it now states the cost (SF-111, 1972000a).
+- Rows carry the filing turn, not the event's; two click legs began with under 20 commands. Noted.
+
+**Milestones:** M7 93 of 103 accepted (90 of 100; Fortune Teller uncommitted). M5: no opening win.
+
+**Rework (D20).** Sol all period: 442 views, 355 first-pass, 15% (15%), 1.26 rounds (1.26). Guide faults 23 (23).
+
+**Efficiency (D21).** 339 views (330); Greg p90 1.4 h; 825,000 tokens/view (842,000; log ends 7 Oct); 6.2 touches/day.
+
+**Playtests.** ![Current full runs](wiki/metrics-playtest-fullrun-current.svg) All ended in Day 2: typed 45 (cap, 4 legs), click 45 (leg budget, 6 legs), veteran 44 (cap, 4 legs; 37 in 15b). Day 2 75% (65%), Plato 0%. Ends: 2 cap, 1 budget (15b: 1 stuck, 1 cap, 1 budget). One agent run each. [Triage](playtests.md#r=15c): 11 known issues, 1 A, no B. No Sonnet run freed the PX timer (SF-044).
+
+<!-- through: git 1972000a · mail 20261011-230746-norm-1506 · decisions 105 -->
+
+## 2026-10-11 -- Round 15d: the first win from the opening (M5, M7)
+
+On Opus 5.5 with 15c's personas, the click tester won from the opening, a first for a blind tester here. Six Village rooms went to the sponsor.
+
+**Decisions.** D92: the sponsor ***launched the full Opus round at once*** (Q45) and ***asked for Telegram progress every 10 minutes***; Norm built `report.mjs`, now standing practice. Room commits waited for the round's end, as records stamp HEAD (8ba98892). Q46 reviews the PX timer again, defaulting to the original.
+
+**What went wrong and what changed.**
+- Two runs lost their endgames at the jammed PX timer (SF-044): typed spent about 500 commands; the veteran tested its correct ostrich idea before buying, saw nothing, and dropped it. Hence Q46.
+- The EAT count was read as commands; it now gives a move's scale (SF-203). New words: SF-315.
+- Repeat stocktake asks: a note within 10 commands of one due now counts (SF-316).
+- Compute smeared narrow plate along unseeded walls; Greg repainted four by region, all first time (norm-1526 to -1529). Decks now come from his own deck picture (norm-1535).
+
+**Milestones:** M7 93 of 107 accepted, 6 with the sponsor; four rooms added (two uncommitted). M5: first full win.
+
+**Rework (D20).** Sol all period: 457 views, 370 first-pass, 14% (15%), 1.25 rounds (1.26). Guide faults 23 (23).
+
+**Efficiency (D21).** 351 views (339); Greg p90 1.4 h; 802,000 tokens/view (825,000; log ends 7 Oct); 6.4 touches/day (6.2).
+
+**Playtests.** ![Current full runs](wiki/metrics-playtest-fullrun-current.svg) Click won, 80 at command 1,144. Typed best 38 (Day 2), veteran 51 (Plato's start), both at the cap, charted stuck. Day 2 83% (75%), Plato 33% (0%), Factory 33% (0%). Ends: 1 won, 2 stuck (15c: 2 cap, 1 budget). Same personas; one agent run each. [Triage](playtests.md#r=15d): 26 issues, 2 new, 3 A built.
+
+<!-- through: git bb1c7286 · mail 20261012-020718-norm-1542 · decisions 106 -->
+
+## 2026-10-12 -- Round 16 (since renamed 16a): the hints tested, a tighter field, no win (M5, M7)
+
+Round 16 measured D93's three always-on hints with three new Opus personas: none won; all reached the endgame.
+
+**Decisions.** D93: hints that ***teach the idea behind a stall, always on***. D95: a hint pass after the first blind win, standard. D94 left the launch to Norm (0ba77ff0). D96: a blueprints binder, since dropping the last form lost the plans. D97: camera eyes in the booth, the exercise machine and a bed, as ***getting up first was unclear***. D98: four more hints, four fixes; the oracle showed two fixes are the original's, so six were built (2c053540). The sponsor ***asked for review screenshots with each verdict*** (b346df7c).
+
+**What went wrong and what changed.**
+- The Gym machine's 270 and UP send-backs carried no new ask and sat six hours (norm-1684, -1685). norm-watch now flags such a gap after 20 minutes (8e867ce4).
+- Every run lost an explosive to the unheard J-series diode; all dropped through the one-way grating without the jammer. D98 answers both.
+- The game master read the reach hint as Plato; a rewording waits on the sponsor.
+- The bed eye came back ***smeary***: compute fixed the ceiling, Greg the rest over four asks (0f56c745).
+
+**Milestones:** M7 108 of 110 accepted (93 of 107). M5: a win from the opening in click mode only.
+
+**Rework (D20).** Sol throughout: 499 views, 406 first-pass, 14% (14%), 1.25 rounds (1.25). One guide fault (norm-1645).
+
+**Efficiency (D21).** 374 views (351); Greg p90 1.4 h; 763,000 tokens/view (802,000; log ends 7 Oct); 6.4 touches/day.
+
+**Playtests.** ![Current full runs](wiki/metrics-playtest-fullrun-current.svg) Best 73, 73, 69, all at the cap. Day 2 100% (83%), Plato 94% (33%), Factory 0% (33%). Ends: 3 cap (15d: 1 won, 2 cap). New personas; one agent run each. [Triage](playtests.md#r=16a): 30 issues, 2 new. Chart groups now 7-10, 11-14, 15 on (f8af0464).
+
+<!-- through: git f8af0464 · mail 20261012-183211-norm-1685 · decisions 112 -->
+
+## 2026-10-13 -- Round 16b: the first typed win, and the models measured (M5, M7)
+
+Round 16b reran 16a's personas with seven hints; the game master won by typing, so a blind win from the opening now exists in both modes.
+
+**Decisions.** D99: a bed camera in every bed room. D100: a stun line, and a reach hint naming a longer neck (16a's game master read Plato). D102, D103: a last round, 17, on Astra with new personas. D104: 2D Barbershop reflections, the sponsor ***rejecting #50 without them***. D106: ***yes to all six 16b proposals*** (0e0f8c7c). Round 16 became 16a (296f8a9b).
+
+**What went wrong and what changed.**
+- Greg sat idle an hour beside an unstarted set-in; norm-watch now wakes Norm after 20 minutes (15db2994).
+- 40 of 522 guides failed check-lines unseen behind other failures (d57932e1).
+- A browser kept a repaired view's old picture three times; pictures now carry a version stamp (b3cad04f).
+- Writing methodology/ found five contradictions, resolved in contract v1.28 (df70fa07).
+- The engineer never spun the roulette wheel; D106 adds a hint.
+
+**Milestones:** M5 both-mode wins; gate the sponsor's. M7 114 of 119 (108 of 110).
+
+**Rework (D20).** Sol all period: 537 views, 438 first-pass, 14% (14%), 1.25 rounds (1.25). Guide faults 2 (norm-1804, -1805).
+
+**Efficiency (D21).** 413 views (374); Greg p90 1.5 h (1.4); 705,000 tokens/view (763,000; log ends 7 Oct); 6.5 touches/day (6.4).
+
+**Playtests.** ![Current full runs](wiki/metrics-playtest-fullrun-current.svg) Game master won at command 1,383; newcomer 61, engineer 54, stuck at the cap. Plato 53% (94%), Factory 33% (0%). Ends: 1 won, 2 stuck (16a: 3 at cap, scoring). Same personas; one run each. [Triage](playtests.md#r=16b): 33 issues, 5 new, 3 A. [Model findings](playtesting.md): on like personas Opus filed 1.93 rows per 100 commands to Sonnet's 0.51 and freed the PX timer in 3 runs to 0; neither praised more in bad stretches.
+
+<!-- through: git cb9be5ab · mail 20261013-102515-greg-0800 · decisions 120 -->
+
+## 2026-10-18 -- Round 17, the last: a click win on Astra, and playtesting ends (M5, M7)
+
+Round 17 gave the D106 build to three new personas on Astra (Codex CLI), the first full runs pinned to a non-Claude model. The illustrator won by clicking; playtesting is over (D103).
+
+**Decisions.** D108: Norm's personas approved. D109: ***yes to both B items***, always on: HELP points at the blueprints binder (SF-332); the coffee smells of chemicals when first handled after day 1, after 34 coffee deaths (SF-333; 1601351a). Q49, unanswered, ran on its default: plates move to a seen wall or go; 11 accepted rooms return to the sponsor (64f0aac4).
+
+**What went wrong and what changed.**
+- A live smoke test caught runner faults before launch; a failed start now stops for a resume (d2a53dc7).
+- The round paused four times in five days, first at the Codex usage limit; resumes took per-tester start legs (6e2327a7).
+- The win screen offered Restore while the score was held, so Restore restored nothing (SF-324; fixed, fcce09d5).
+- The registry's `note` replaces a note; triage overwrote six and restored them from git (355136c2).
+
+**Milestones:** M5: round 17's B list decided; the gate is the sponsor's. M7 115 of 119 (114).
+
+**Rework (D20).** Sol all period: 547 views, 448 first-pass, 14% (14%), 1.24 rounds (1.25). No guide faults.
+
+**Efficiency (D21).** 424 views (413); 690,000 tokens/view (705,000; log to 7 Oct); 5.4 touches/day (6.5), none 14-17 Oct.
+
+**Playtests.** ![Current full runs](wiki/metrics-playtest-fullrun-current.svg) Illustrator won at command 1,036, 3 legs; stenographer 58 at the 1,500 cap, scoring; escape-room designer best 54, stuck. Plato 48% (53%), Factory 33% (33%). Ends: 1 won, 1 cap, 1 stuck (1 won, 2 stuck). Caveats: new personas and model, one run each. [Triage](playtests.md#r=17): 9 new, 4 A. [Astra vs Opus](playtesting.md): slightly more friction, triple the diary.
+
+<!-- through: git a12cab42 · mail 20261013-130828-norm-1840 · decisions 123 -->

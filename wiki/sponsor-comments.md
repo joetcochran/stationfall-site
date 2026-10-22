@@ -1,0 +1,12 @@
+# Unlikely comments from the sponsor made during development
+
+Everywhere else this wiki paraphrases the sponsor and never quotes them. This page is the one exception, made at their request on 10 October 2026, and it was prompted by the first line below. Each entry is a line from the record, as typed, with its date, where it is recorded and what it was about. Out of context they read oddly; in context each one sent a room or a picture back for work.
+
+- **10 October 2026.** "we are still running into a clipping issue with the 3d ostrich" -- With the 3D models switched on, the ostrich (canon's bird, "nearly three meters tall") poked through the walls of the Airlock and the Makeshift Connector. Measured over its whole float it is about 2.75 m across and 1.7 m deep, so where it cannot fit, the game now draws Greg's painted ostrich instead, and Floyd moved 25 cm toward the middle of the tube (D85, b2ef75ed). See [Where we left the original](canon-deviations.md).
+- **6 October 2026.** "plato is standing on the plants, not in the pathway, move him to the right, to the right of floyd" -- In the Dome, Plato's cutout had been placed in a flower bed. He now stands on the pebbled path to the right of Floyd, with nothing painted changed (norm-1217).
+- **3 October 2026.** "air shaft feedback: ladder up leads into the ceiling... no hole? ladder leads down to the floor.... no hole?" -- The Air Shaft's ladder ran into solid plates above and below, because the middle of the shaft had been built with a floor and a ceiling it should not have (norm-0861).
+- **3 October 2026.** "weird square artifact at 296 bearing" -- At the Bottom of the Air Shaft, a side duct cut into the painting had stamped a flat black square onto the view (norm-0859).
+- **2 October 2026.** "detonator needs art - just shows as a grey box." -- Main Storage went back because the detonator had no painting yet, only its placeholder. Norm asked Greg for it that evening (norm-0767), and Greg delivered it within the hour (greg-0393).
+- **30 September 2026.** "survival kit renders as a brown box - i think we need the art for this?" -- The same for the Spacetruck's survival kit: asked of Greg that morning (norm-0595), delivered 22 minutes later (greg-0328).
+
+The ostrich line reached the historian through Norm on the day. The others are from the mailbox, where Norm quoted them in the asks and notes that answered them.

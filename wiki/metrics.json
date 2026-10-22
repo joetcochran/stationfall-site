@@ -1,44 +1,44 @@
 {
- "generated": "2026-10-09T16:11:40.274Z",
+ "generated": "2026-10-18T11:29:30.738Z",
  "clock": "US Eastern wall-clock",
  "span": {
   "from": "2026-09-24 20:34",
-  "to": "2026-10-09 12:11",
-  "hours": 351.6
+  "to": "2026-10-18 07:29",
+  "hours": 562.9
  },
  "binHours": 24,
  "headline": {
-  "asksClosed": 654,
-  "asksRaised": 654,
-  "asksWithdrawn": 45,
-  "normItemsClosed": 517,
-  "normItems": 518,
-  "itemsClosedPerActiveHour": 3.3,
-  "roomViewsRegistered": 311,
+  "asksClosed": 818,
+  "asksRaised": 818,
+  "asksWithdrawn": 49,
+  "normItemsClosed": 683,
+  "normItems": 684,
+  "itemsClosedPerActiveHour": 2.7,
+  "roomViewsRegistered": 424,
   "cycle": {
    "norm": {
-    "n": 568,
-    "p50": 0.06,
-    "p90": 0.48
+    "n": 734,
+    "p50": 0.03,
+    "p90": 0.42
    },
    "greg": {
-    "n": 603,
+    "n": 767,
     "p50": 0.37,
-    "p90": 1.53
+    "p90": 1.52
    },
    "all": {
-    "n": 1171,
-    "p50": 0.2,
-    "p90": 1.19
+    "n": 1501,
+    "p50": 0.18,
+    "p90": 1.16
    }
   },
   "reviewLatency": {
-   "n": 442,
-   "p50": 0.06,
-   "p90": 0.52
+   "n": 605,
+   "p50": 0.03,
+   "p90": 0.42
   },
   "gregTurnaround": {
-   "n": 563,
+   "n": 727,
    "p50": 0.39,
    "p90": 1.53
   },
@@ -50,12 +50,12 @@
    "share": 0.18,
    "paint": 0.14,
    "guide": 0.04,
-   "judged": 496
+   "judged": 667
   },
-  "tokensPerAcceptedView": 866921,
+  "tokensPerAcceptedView": 689522,
   "tokensPerAcceptedViewBasis": "greg + norm-main + art subagents, work tokens (fresh + cache writes + output)",
-  "tokensPerAcceptedViewWithCachedReads": 21777645,
-  "sponsorTouchesPerDay": 6.1
+  "tokensPerAcceptedViewWithCachedReads": 16027341,
+  "sponsorTouchesPerDay": 5.4
  },
  "throughput": [
   {
@@ -165,31 +165,94 @@
   },
   {
    "start": "2026-10-09 00:00",
+   "closedByNorm": 45,
+   "closedByGreg": 43,
+   "roomViews": 25,
+   "otherArt": 17
+  },
+  {
+   "start": "2026-10-10 00:00",
+   "closedByNorm": 23,
+   "closedByGreg": 23,
+   "roomViews": 12,
+   "otherArt": 1
+  },
+  {
+   "start": "2026-10-11 00:00",
    "closedByNorm": 27,
-   "closedByGreg": 29,
-   "roomViews": 16,
-   "otherArt": 13
+   "closedByGreg": 27,
+   "roomViews": 23,
+   "otherArt": 4
+  },
+  {
+   "start": "2026-10-12 00:00",
+   "closedByNorm": 68,
+   "closedByGreg": 70,
+   "roomViews": 43,
+   "otherArt": 17
+  },
+  {
+   "start": "2026-10-13 00:00",
+   "closedByNorm": 30,
+   "closedByGreg": 30,
+   "roomViews": 26,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-10-14 00:00",
+   "closedByNorm": 0,
+   "closedByGreg": 0,
+   "roomViews": 0,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-10-15 00:00",
+   "closedByNorm": 0,
+   "closedByGreg": 0,
+   "roomViews": 0,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-10-16 00:00",
+   "closedByNorm": 0,
+   "closedByGreg": 0,
+   "roomViews": 0,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-10-17 00:00",
+   "closedByNorm": 0,
+   "closedByGreg": 0,
+   "roomViews": 0,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-10-18 00:00",
+   "closedByNorm": 0,
+   "closedByGreg": 0,
+   "roomViews": 0,
+   "otherArt": 0
   }
  ],
  "rework": {
-  "judged": 496,
-  "paint": 67,
-  "guide": 22,
+  "judged": 667,
+  "paint": 91,
+  "guide": 26,
   "share": 0.18,
   "paintShare": 0.14,
   "guideShare": 0.04,
   "byCategory": {
-   "content": 12,
+   "content": 34,
    "geometry": 28,
    "material": 26,
-   "guide": 22,
-   "light": 1
+   "guide": 26,
+   "light": 3
   },
   "byModel": {
    "Sol": {
-    "views": 408,
-    "judged": 382,
-    "rework": 54,
+    "views": 547,
+    "judged": 521,
+    "rework": 73,
     "rate": 0.14,
     "roundsPerView": 1.24
    },
@@ -302,8 +365,62 @@
   },
   {
    "start": "2026-10-09 00:00",
-   "approved": 29,
+   "approved": 44,
+   "paint": 5,
+   "guide": 0
+  },
+  {
+   "start": "2026-10-10 00:00",
+   "approved": 15,
+   "paint": 5,
+   "guide": 1
+  },
+  {
+   "start": "2026-10-11 00:00",
+   "approved": 27,
+   "paint": 0,
+   "guide": 0
+  },
+  {
+   "start": "2026-10-12 00:00",
+   "approved": 60,
+   "paint": 14,
+   "guide": 1
+  },
+  {
+   "start": "2026-10-13 00:00",
+   "approved": 26,
    "paint": 2,
+   "guide": 2
+  },
+  {
+   "start": "2026-10-14 00:00",
+   "approved": 0,
+   "paint": 0,
+   "guide": 0
+  },
+  {
+   "start": "2026-10-15 00:00",
+   "approved": 0,
+   "paint": 0,
+   "guide": 0
+  },
+  {
+   "start": "2026-10-16 00:00",
+   "approved": 0,
+   "paint": 0,
+   "guide": 0
+  },
+  {
+   "start": "2026-10-17 00:00",
+   "approved": 0,
+   "paint": 0,
+   "guide": 0
+  },
+  {
+   "start": "2026-10-18 00:00",
+   "approved": 0,
+   "paint": 0,
    "guide": 0
   }
  ],
@@ -4859,12 +4976,1324 @@
    "retro": false,
    "kind": "seed",
    "hours": 0.197
+  },
+  {
+   "ask": "20261009-161929-norm-1390#1",
+   "room": "WAREHOUSE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.519
+  },
+  {
+   "ask": "20261009-161930-norm-1391#1",
+   "room": "WAREHOUSE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.519
+  },
+  {
+   "ask": "20261009-162724-norm-1393#1",
+   "room": "AIRLOCK",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.451
+  },
+  {
+   "ask": "20261009-162726-norm-1394#1",
+   "room": "AIRLOCK",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.45
+  },
+  {
+   "ask": "20261009-170000-norm-1399#1",
+   "room": "VACUUM-STORAGE",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.742
+  },
+  {
+   "ask": "20261009-180130-norm-1406#1",
+   "room": "VACUUM-STORAGE",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.196
+  },
+  {
+   "ask": "20261009-183000-norm-1410#1",
+   "room": "VACUUM-STORAGE",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.061
+  },
+  {
+   "ask": "20261009-192955-norm-1413#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.091
+  },
+  {
+   "ask": "20261009-213704-norm-1416#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.331
+  },
+  {
+   "ask": "20261010-002344-norm-1422#1",
+   "room": "ALLEY",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.051
+  },
+  {
+   "ask": "20261010-002345-norm-1423#1",
+   "room": "LOAN-SHARK",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.089
+  },
+  {
+   "ask": "20261010-002429-norm-1424#1",
+   "room": "AIRLOCK",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.221
+  },
+  {
+   "ask": "20261010-002430-norm-1425#1",
+   "room": "AIRLOCK",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.271
+  },
+  {
+   "ask": "20261010-002432-norm-1426#1",
+   "room": "AIRLOCK",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.337
+  },
+  {
+   "ask": "20261010-112250-norm-1435#1",
+   "room": "AIRLOCK",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.173
+  },
+  {
+   "ask": "20261010-112254-norm-1436#1",
+   "room": "AIRLOCK",
+   "score": 8,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.172
+  },
+  {
+   "ask": "20261010-114609-norm-1440#1",
+   "room": "PAWN-SHOP",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.094
+  },
+  {
+   "ask": "20261010-114612-norm-1441#1",
+   "room": "PAWN-SHOP",
+   "score": 5,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.327
+  },
+  {
+   "ask": "20261010-115813-norm-1442#1",
+   "room": "PAWN-SHOP",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.206
+  },
+  {
+   "ask": "20261010-123928-norm-1444#1",
+   "room": "PAWN-SHOP",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.122
+  },
+  {
+   "ask": "20261010-124645-norm-1445#1",
+   "room": "ALLEY",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.131
+  },
+  {
+   "ask": "20261010-124646-norm-1446#1",
+   "room": "ALLEY",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.271
+  },
+  {
+   "ask": "20261010-124647-norm-1447#1",
+   "room": "ALLEY",
+   "score": 5,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.444
+  },
+  {
+   "ask": "20261010-124649-norm-1448#1",
+   "room": "LOAN-SHARK",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.588
+  },
+  {
+   "ask": "20261010-124650-norm-1449#1",
+   "room": "LOAN-SHARK",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.718
+  },
+  {
+   "ask": "20261010-124652-norm-1450#1",
+   "room": "LOAN-SHARK",
+   "score": 5,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.953
+  },
+  {
+   "ask": "20261010-125542-norm-1452#1",
+   "room": "ALLEY",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.949
+  },
+  {
+   "ask": "20261010-131358-norm-1454#1",
+   "room": "ALLEY",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.829
+  },
+  {
+   "ask": "20261010-133117-norm-1457#1",
+   "room": "LOAN-SHARK",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.69
+  },
+  {
+   "ask": "20261010-145124-norm-1468#1",
+   "room": "LOAN-SHARK",
+   "score": 5,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.118
+  },
+  {
+   "ask": "20261010-145127-norm-1472#1",
+   "room": "ALLEY",
+   "score": 5,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.219
+  },
+  {
+   "ask": "20261010-145937-norm-1474#1",
+   "room": "LOAN-SHARK",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.569
+  },
+  {
+   "ask": "20261010-162403-norm-1478#1",
+   "room": "MISSIONARY",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.204
+  },
+  {
+   "ask": "20261010-162405-norm-1479#1",
+   "room": "FORTUNE-TELLER",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.27
+  },
+  {
+   "ask": "20261010-164942-norm-1482#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.186
+  },
+  {
+   "ask": "20261010-170501-norm-1484#1",
+   "room": "MISSIONARY",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.221
+  },
+  {
+   "ask": "20261010-170503-norm-1485#1",
+   "room": "FORTUNE-TELLER",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.355
+  },
+  {
+   "ask": "20261011-214724-norm-1490#1",
+   "room": "REC-SHOP",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.13
+  },
+  {
+   "ask": "20261011-214727-norm-1491#1",
+   "room": "RECRUITMENT-OFFICE",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.185
+  },
+  {
+   "ask": "20261011-220108-norm-1494#1",
+   "room": "RECRUITMENT-OFFICE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.197
+  },
+  {
+   "ask": "20261011-220130-norm-1495#1",
+   "room": "REC-SHOP",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.254
+  },
+  {
+   "ask": "20261011-221557-norm-1497#1",
+   "room": "RECRUITMENT-OFFICE",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.086
+  },
+  {
+   "ask": "20261011-224618-norm-1500#1",
+   "room": "STUDIO",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.084
+  },
+  {
+   "ask": "20261011-225105-norm-1501#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.203
+  },
+  {
+   "ask": "20261011-225349-norm-1504#1",
+   "room": "STUDIO",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.224
+  },
+  {
+   "ask": "20261012-000859-norm-1511#1",
+   "room": "MAYORS-OFFICE",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.081
+  },
+  {
+   "ask": "20261012-001630-norm-1513#1",
+   "room": "MAYORS-OFFICE",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.148
+  },
+  {
+   "ask": "20261012-001635-norm-1514#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.193
+  },
+  {
+   "ask": "20261012-001638-norm-1515#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.233
+  },
+  {
+   "ask": "20261012-003702-norm-1519#1",
+   "room": "OPIUM-DEN",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.137
+  },
+  {
+   "ask": "20261012-003910-norm-1520#1",
+   "room": "REC-SHOP",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.176
+  },
+  {
+   "ask": "20261012-003913-norm-1521#1",
+   "room": "REC-SHOP",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.301
+  },
+  {
+   "ask": "20261012-003917-norm-1522#1",
+   "room": "RECRUITMENT-OFFICE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.407
+  },
+  {
+   "ask": "20261012-003920-norm-1523#1",
+   "room": "RECRUITMENT-OFFICE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.526
+  },
+  {
+   "ask": "20261012-004601-norm-1525#1",
+   "room": "OPIUM-DEN",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.576
+  },
+  {
+   "ask": "20261012-012348-norm-1531#1",
+   "room": "BANK",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.105
+  },
+  {
+   "ask": "20261012-012350-norm-1532#1",
+   "room": "TRAVEL-AGENCY",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.302
+  },
+  {
+   "ask": "20261012-012617-norm-1533#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.358
+  },
+  {
+   "ask": "20261012-013233-norm-1537#1",
+   "room": "BANK",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.407
+  },
+  {
+   "ask": "20261012-014324-norm-1539#1",
+   "room": "TRAVEL-AGENCY",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.387
+  },
+  {
+   "ask": "20261012-031527-norm-1543#1",
+   "room": "STUDIO",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.197
+  },
+  {
+   "ask": "20261012-031531-norm-1544#1",
+   "room": "STUDIO",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.326
+  },
+  {
+   "ask": "20261012-031534-norm-1545#1",
+   "room": "MAYORS-OFFICE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.504
+  },
+  {
+   "ask": "20261012-031537-norm-1546#1",
+   "room": "MAYORS-OFFICE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.677
+  },
+  {
+   "ask": "20261012-031540-norm-1547#1",
+   "room": "OPIUM-DEN",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.873
+  },
+  {
+   "ask": "20261012-031544-norm-1548#1",
+   "room": "OPIUM-DEN",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.022
+  },
+  {
+   "ask": "20261012-040349-norm-1553#1",
+   "room": "BANK",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.4
+  },
+  {
+   "ask": "20261012-040350-norm-1554#1",
+   "room": "BANK",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.564
+  },
+  {
+   "ask": "20261012-040351-norm-1555#1",
+   "room": "TRAVEL-AGENCY",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.733
+  },
+  {
+   "ask": "20261012-040353-norm-1556#1",
+   "room": "TRAVEL-AGENCY",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.863
+  },
+  {
+   "ask": "20261012-042911-norm-1563#1",
+   "room": "BANK",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.618
+  },
+  {
+   "ask": "20261012-051431-norm-1568#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.251
+  },
+  {
+   "ask": "20261012-093220-norm-1578#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.09
+  },
+  {
+   "ask": "20261012-093222-norm-1579#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.219
+  },
+  {
+   "ask": "20261012-094955-norm-1580#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.087
+  },
+  {
+   "ask": "20261012-094957-norm-1581#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.258
+  },
+  {
+   "ask": "20261012-094958-norm-1582#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.585
+  },
+  {
+   "ask": "20261012-095000-norm-1583#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.748
+  },
+  {
+   "ask": "20261012-095001-norm-1584#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 0.984
+  },
+  {
+   "ask": "20261012-095442-norm-1585#1",
+   "room": null,
+   "score": 3,
+   "retro": false,
+   "kind": "other",
+   "hours": 1.078
+  },
+  {
+   "ask": "20261012-104041-norm-1597#1",
+   "room": "REC-SHOP-BOOTH",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.438
+  },
+  {
+   "ask": "20261012-104042-norm-1598#1",
+   "room": "REC-SHOP-BOOTH",
+   "score": 5,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.651
+  },
+  {
+   "ask": "20261012-104046-norm-1599#1",
+   "room": "GYM-MACHINE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.766
+  },
+  {
+   "ask": "20261012-104051-norm-1600#1",
+   "room": "GYM-MACHINE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.983
+  },
+  {
+   "ask": "20261012-104054-norm-1601#1",
+   "room": "GYM-MACHINE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.116
+  },
+  {
+   "ask": "20261012-104057-norm-1602#1",
+   "room": "GYM-MACHINE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.316
+  },
+  {
+   "ask": "20261012-104101-norm-1603#1",
+   "room": "GYM-MACHINE",
+   "score": 3,
+   "retro": false,
+   "kind": "cap",
+   "hours": 1.458
+  },
+  {
+   "ask": "20261012-104105-norm-1604#1",
+   "room": "GYM-MACHINE",
+   "score": 3,
+   "retro": false,
+   "kind": "cap",
+   "hours": 1.598
+  },
+  {
+   "ask": "20261012-105455-norm-1606#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 1.524
+  },
+  {
+   "ask": "20261012-111422-norm-1612#1",
+   "room": null,
+   "score": 2,
+   "retro": false,
+   "kind": "other",
+   "hours": 1.391
+  },
+  {
+   "ask": "20261012-112757-norm-1621#1",
+   "room": "OFFICERS-QUARTERS-B-BED",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 1.413
+  },
+  {
+   "ask": "20261012-112758-norm-1622#1",
+   "room": "OFFICERS-QUARTERS-B-BED",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 1.501
+  },
+  {
+   "ask": "20261012-120420-norm-1636#1",
+   "room": "GYM-MACHINE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.061
+  },
+  {
+   "ask": "20261012-121316-norm-1646#1",
+   "room": "GYM-MACHINE",
+   "score": 3,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.062
+  },
+  {
+   "ask": "20261012-150034-norm-1674#1",
+   "room": "OFFICERS-QUARTERS-B-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.138
+  },
+  {
+   "ask": "20261012-150035-norm-1675#1",
+   "room": "OFFICERS-QUARTERS-B-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.301
+  },
+  {
+   "ask": "20261012-150038-norm-1676#1",
+   "room": "OFFICERS-QUARTERS-B-BED",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.473
+  },
+  {
+   "ask": "20261012-151003-norm-1677#1",
+   "room": "OFFICERS-QUARTERS-B-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.465
+  },
+  {
+   "ask": "20261012-154643-norm-1681#1",
+   "room": "OFFICERS-QUARTERS-B-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.164
+  },
+  {
+   "ask": "20261012-183210-norm-1684#1",
+   "room": "GYM-MACHINE",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.203
+  },
+  {
+   "ask": "20261012-183211-norm-1685#1",
+   "room": "GYM-MACHINE",
+   "score": 3,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.379
+  },
+  {
+   "ask": "20261012-191305-norm-1690#1",
+   "room": "OFFICERS-QUARTERS-A-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.216
+  },
+  {
+   "ask": "20261012-191307-norm-1691#1",
+   "room": "OFFICERS-QUARTERS-A-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.344
+  },
+  {
+   "ask": "20261012-191308-norm-1692#1",
+   "room": "OFFICERS-QUARTERS-A-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "ring",
+   "hours": 1.858
+  },
+  {
+   "ask": "20261012-191309-norm-1693#1",
+   "room": "OFFICERS-QUARTERS-A-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "cap",
+   "hours": 2.033
+  },
+  {
+   "ask": "20261012-191310-norm-1694#1",
+   "room": "OFFICERS-QUARTERS-A-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "cap",
+   "hours": 2.314
+  },
+  {
+   "ask": "20261012-191312-norm-1695#1",
+   "room": "OFFICERS-QUARTERS-C-BED",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 2.511
+  },
+  {
+   "ask": "20261012-191313-norm-1696#1",
+   "room": "OFFICERS-QUARTERS-C-BED",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 2.886
+  },
+  {
+   "ask": "20261012-191314-norm-1697#1",
+   "room": "OFFICERS-QUARTERS-C-BED",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 3.168
+  },
+  {
+   "ask": "20261012-191315-norm-1698#1",
+   "room": "OFFICERS-QUARTERS-C-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "cap",
+   "hours": 3.334
+  },
+  {
+   "ask": "20261012-191316-norm-1699#1",
+   "room": "OFFICERS-QUARTERS-C-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "cap",
+   "hours": 5.192
+  },
+  {
+   "ask": "20261012-202731-norm-1705#1",
+   "room": "ALIEN-SHIP",
+   "score": 5,
+   "retro": false,
+   "kind": "cap",
+   "hours": 2.806
+  },
+  {
+   "ask": "20261012-202929-norm-1707#1",
+   "room": "OFFICERS-QUARTERS-A-BED",
+   "score": 2,
+   "retro": false,
+   "kind": "region",
+   "hours": 3.554
+  },
+  {
+   "ask": "20261012-204719-norm-1711#1",
+   "room": "OFFICERS-QUARTERS-A-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.288
+  },
+  {
+   "ask": "20261012-205459-norm-1712#1",
+   "room": "MAIN-STREET",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 2.965
+  },
+  {
+   "ask": "20261012-205915-norm-1713#1",
+   "room": "OFFICERS-QUARTERS-A-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.089
+  },
+  {
+   "ask": "20261012-212632-norm-1716#1",
+   "room": "OFFICERS-QUARTERS-A-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.091
+  },
+  {
+   "ask": "20261012-215022-norm-1718#1",
+   "room": "OFFICERS-QUARTERS-C-BED",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.267
+  },
+  {
+   "ask": "20261012-215026-norm-1719#1",
+   "room": "OFFICERS-QUARTERS-C-BED",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.548
+  },
+  {
+   "ask": "20261012-215030-norm-1720#1",
+   "room": "OFFICERS-QUARTERS-C-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "cap",
+   "hours": 2.572
+  },
+  {
+   "ask": "20261012-215130-norm-1721#1",
+   "room": "OFFICERS-QUARTERS-C-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 2.755
+  },
+  {
+   "ask": "20261012-235050-norm-1729#1",
+   "room": "OFFICERS-QUARTERS-A-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.198
+  },
+  {
+   "ask": "20261013-012649-norm-1746#1",
+   "room": "COMMANDERS-QUARTERS-BED",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.188
+  },
+  {
+   "ask": "20261013-012651-norm-1747#1",
+   "room": "COMMANDERS-QUARTERS-BED",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.302
+  },
+  {
+   "ask": "20261013-012652-norm-1748#1",
+   "room": "FLOPHOUSE-BED",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.55
+  },
+  {
+   "ask": "20261013-012654-norm-1749#1",
+   "room": "FLOPHOUSE-BED",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.658
+  },
+  {
+   "ask": "20261013-012656-norm-1750#1",
+   "room": "FLOPHOUSE-BED",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.794
+  },
+  {
+   "ask": "20261013-021354-norm-1755#1",
+   "room": "COMMANDERS-QUARTERS-BED",
+   "score": 5,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.063
+  },
+  {
+   "ask": "20261013-021400-norm-1756#1",
+   "room": "COMMANDERS-QUARTERS-BED",
+   "score": 5,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.146
+  },
+  {
+   "ask": "20261013-022324-norm-1759#1",
+   "room": "COMMANDERS-QUARTERS-BED",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.069
+  },
+  {
+   "ask": "20261013-024031-norm-1763#1",
+   "room": "COMMANDERS-QUARTERS-BED",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.239
+  },
+  {
+   "ask": "20261013-024032-norm-1764#1",
+   "room": "COMMANDERS-QUARTERS-BED",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.324
+  },
+  {
+   "ask": "20261013-032546-norm-1767#1",
+   "room": "COMMANDERS-QUARTERS-BED",
+   "score": 5,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.172
+  },
+  {
+   "ask": "20261013-033700-norm-1768#1",
+   "room": "COMMANDERS-QUARTERS-BED",
+   "score": 5,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.174
+  },
+  {
+   "ask": "20261013-051829-norm-1771#1",
+   "room": "FLOPHOUSE-BED",
+   "score": 5,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.181
+  },
+  {
+   "ask": "20261013-051833-norm-1772#1",
+   "room": "FLOPHOUSE-BED",
+   "score": 5,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.31
+  },
+  {
+   "ask": "20261013-053815-norm-1775#1",
+   "room": "FLOPHOUSE-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.124
+  },
+  {
+   "ask": "20261013-060811-norm-1777#1",
+   "room": "FLOPHOUSE-BED",
+   "score": 5,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.131
+  },
+  {
+   "ask": "20261013-065504-norm-1780#1",
+   "room": "SICK-BAY-BED",
+   "score": 13,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.301
+  },
+  {
+   "ask": "20261013-065506-norm-1781#1",
+   "room": "SCIENTISTS-QUARTERS-BED",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.581
+  },
+  {
+   "ask": "20261013-065509-norm-1783#1",
+   "room": "SCIENTISTS-QUARTERS-BED",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 1.029
+  },
+  {
+   "ask": "20261013-065510-norm-1784#1",
+   "room": "SCIENTISTS-QUARTERS-BED",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 1.198
+  },
+  {
+   "ask": "20261013-072951-norm-1787#1",
+   "room": "SICK-BAY-BED",
+   "score": 5,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.787
+  },
+  {
+   "ask": "20261013-072953-norm-1788#1",
+   "room": "SICK-BAY-BED",
+   "score": 5,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.943
+  },
+  {
+   "ask": "20261013-075633-norm-1793#1",
+   "room": "SCIENTISTS-QUARTERS-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.729
+  },
+  {
+   "ask": "20261013-085221-norm-1802#1",
+   "room": "SCIENTISTS-QUARTERS-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.051
+  },
+  {
+   "ask": "20261013-085228-norm-1803#1",
+   "room": "SCIENTISTS-QUARTERS-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.209
+  },
+  {
+   "ask": "20261013-085746-norm-1804#1",
+   "room": "SCIENTISTS-QUARTERS-BED",
+   "score": 2,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.144
+  },
+  {
+   "ask": "20261013-090704-norm-1805#1",
+   "room": "SCIENTISTS-QUARTERS-BED",
+   "score": 2,
+   "retro": false,
+   "kind": "region",
+   "hours": 0.043
+  },
+  {
+   "ask": "20261013-092452-norm-1808#1",
+   "room": "FEMALE-BARRACKS-BED",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.343
+  },
+  {
+   "ask": "20261013-092459-norm-1809#1",
+   "room": "FEMALE-BARRACKS-BED",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.514
+  },
+  {
+   "ask": "20261013-092506-norm-1810#1",
+   "room": "FEMALE-BARRACKS-BED",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.727
+  },
+  {
+   "ask": "20261013-092512-norm-1811#1",
+   "room": "FEMALE-BARRACKS-BED",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.832
+  },
+  {
+   "ask": "20261013-092519-norm-1812#1",
+   "room": "AUXILIARY-BARRACKS-BED",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.999
+  },
+  {
+   "ask": "20261013-092525-norm-1813#1",
+   "room": "AUXILIARY-BARRACKS-BED",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 1.207
+  },
+  {
+   "ask": "20261013-092530-norm-1814#1",
+   "room": "AUXILIARY-BARRACKS-BED",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 1.368
+  },
+  {
+   "ask": "20261013-092537-norm-1815#1",
+   "room": "AUXILIARY-BARRACKS-BED",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 1.536
+  },
+  {
+   "ask": "20261013-101755-norm-1821#1",
+   "room": "FEMALE-BARRACKS-BED",
+   "score": 8,
+   "retro": false,
+   "kind": "seed",
+   "hours": 0.815
+  },
+  {
+   "ask": "20261013-114108-norm-1822#1",
+   "room": "OFFICERS-QUARTERS-C-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.107
+  },
+  {
+   "ask": "20261013-114836-norm-1829#1",
+   "room": "OFFICERS-QUARTERS-C-BED",
+   "score": 5,
+   "retro": false,
+   "kind": "ring",
+   "hours": 0.18
+  },
+  {
+   "ask": "20261013-121223-norm-1832#1",
+   "room": "FEMALE-BARRACKS-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.049
+  },
+  {
+   "ask": "20261013-121229-norm-1833#1",
+   "room": "FEMALE-BARRACKS-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.237
+  },
+  {
+   "ask": "20261013-121235-norm-1834#1",
+   "room": "AUXILIARY-BARRACKS-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.404
+  },
+  {
+   "ask": "20261013-121242-norm-1835#1",
+   "room": "AUXILIARY-BARRACKS-BED",
+   "score": 3,
+   "retro": false,
+   "kind": "cap",
+   "hours": 0.586
   }
  ],
  "cost": {
-  "runs": 683,
-  "tokens": 178463754,
-  "agentHours": 374.03,
+  "runs": 939,
+  "tokens": 230731090,
+  "agentHours": 473.4,
   "byMilestone": {
    "planning": {
     "runs": 4,
@@ -4902,14 +6331,14 @@
     "hours": 0.81
    },
    "M7": {
-    "runs": 480,
-    "tokens": 120229606,
-    "hours": 282.42
+    "runs": 594,
+    "tokens": 147268481,
+    "hours": 341.31
    },
    "M5": {
-    "runs": 158,
-    "tokens": 47419901,
-    "hours": 78.15
+    "runs": 299,
+    "tokens": 72382757,
+    "hours": 118.48
    },
    "D21": {
     "runs": 3,
@@ -4935,28 +6364,33 @@
     "runs": 10,
     "tokens": 1831565,
     "hours": 3.5
+   },
+   "M9": {
+    "runs": 1,
+    "tokens": 265605,
+    "hours": 0.16
    }
   },
   "byKind": {
    "research": {
-    "runs": 11,
-    "tokens": 1908595,
-    "hours": 2.51
+    "runs": 12,
+    "tokens": 2074073,
+    "hours": 2.75
    },
    "tooling": {
-    "runs": 56,
-    "tokens": 13041934,
-    "hours": 29.08
+    "runs": 61,
+    "tokens": 14065436,
+    "hours": 30.92
    },
    "engine": {
-    "runs": 43,
-    "tokens": 11350487,
-    "hours": 29.82
+    "runs": 62,
+    "tokens": 15819730,
+    "hours": 39.6
    },
    "history": {
-    "runs": 16,
-    "tokens": 2373443,
-    "hours": 2.74
+    "runs": 22,
+    "tokens": 3440608,
+    "hours": 3.9
    },
    "porting": {
     "runs": 10,
@@ -4964,9 +6398,9 @@
     "hours": 3.53
    },
    "art-prep": {
-    "runs": 250,
-    "tokens": 82254536,
-    "hours": 201.39
+    "runs": 344,
+    "tokens": 104655519,
+    "hours": 250.56
    },
    "integration": {
     "runs": 10,
@@ -4974,27 +6408,27 @@
     "hours": 3.54
    },
    "playtest": {
-    "runs": 112,
-    "tokens": 36391247,
-    "hours": 61.99
+    "runs": 235,
+    "tokens": 57233618,
+    "hours": 95.66
    },
    "review": {
-    "runs": 159,
-    "tokens": 21222425,
-    "hours": 33.74
+    "runs": 161,
+    "tokens": 21566441,
+    "hours": 34.48
    },
    "triage": {
-    "runs": 16,
-    "tokens": 4476959,
-    "hours": 5.71
+    "runs": 22,
+    "tokens": 6431537,
+    "hours": 8.45
    }
   },
-  "artTokens": 103476961,
-  "roomViewsRegistered": 311,
-  "tokensPerAcceptedView": 332723,
+  "artTokens": 126221960,
+  "roomViewsRegistered": 424,
+  "tokensPerAcceptedView": 297693,
   "passes": {
    "tagged": 78,
-   "deliveries": 536,
+   "deliveries": 709,
    "perDelivery": 2.44
   }
  },
@@ -5152,9 +6586,9 @@
    "all": 18462643479
   },
   "perAcceptedView": {
-   "views": 311,
-   "work": 866921,
-   "all": 21777645,
+   "views": 424,
+   "work": 689522,
+   "all": 16027341,
    "parts": {
     "greg": {
      "work": 58367640,
@@ -5164,7 +6598,7 @@
      "work": 107767829,
      "all": 4910627525
     },
-    "subagentArtFromWorkLog": 103476961
+    "subagentArtFromWorkLog": 126221960
    }
   },
   "gregByModelPerView": {
@@ -5174,9 +6608,9 @@
     ],
     "work": 58078164,
     "all": 1744720724,
-    "views": 272,
-    "workPerView": 213523,
-    "allPerView": 6414414
+    "views": 385,
+    "workPerView": 150852,
+    "allPerView": 4531742
    },
    "Astra": {
     "models": [
@@ -5445,8 +6879,8 @@
   ]
  },
  "touches": {
-  "decisions": 55,
-  "questions": 42,
+  "decisions": 86,
+  "questions": 50,
   "days": [
    {
     "date": "2026-09-24",
@@ -5525,67 +6959,112 @@
    },
    {
     "date": "2026-10-09",
-    "decisions": 4,
+    "decisions": 9,
+    "questions": 1
+   },
+   {
+    "date": "2026-10-10",
+    "decisions": 8,
+    "questions": 2
+   },
+   {
+    "date": "2026-10-11",
+    "decisions": 1,
+    "questions": 2
+   },
+   {
+    "date": "2026-10-12",
+    "decisions": 13,
+    "questions": 2
+   },
+   {
+    "date": "2026-10-13",
+    "decisions": 3,
+    "questions": 1
+   },
+   {
+    "date": "2026-10-14",
+    "decisions": 0,
+    "questions": 0
+   },
+   {
+    "date": "2026-10-15",
+    "decisions": 0,
+    "questions": 0
+   },
+   {
+    "date": "2026-10-16",
+    "decisions": 0,
+    "questions": 0
+   },
+   {
+    "date": "2026-10-17",
+    "decisions": 0,
+    "questions": 0
+   },
+   {
+    "date": "2026-10-18",
+    "decisions": 1,
     "questions": 1
    }
   ],
-  "perDay": 6.1
+  "perDay": 5.4
  },
  "milestones": [
   {
    "id": "M0",
-   "started": "2026-09-24 20:18",
-   "done": "2026-09-24 20:46",
-   "timedBy": "commit",
-   "leadHours": 0.5
-  },
-  {
-   "id": "M6",
-   "started": "2026-09-24 20:35",
-   "done": "2026-09-24 23:37",
-   "timedBy": "commit",
-   "leadHours": 3
+   "started": "2026-09-24 00:00",
+   "done": "2026-09-24 00:00",
+   "timedBy": "date",
+   "leadHours": 0
   },
   {
    "id": "M1",
-   "started": "2026-09-24 20:46",
-   "done": "2026-09-24 21:13",
-   "timedBy": "commit",
-   "leadHours": 0.4
+   "started": "2026-09-24 00:00",
+   "done": "2026-09-24 00:00",
+   "timedBy": "date",
+   "leadHours": 0
   },
   {
    "id": "M2",
-   "started": "2026-09-24 21:14",
-   "done": "2026-09-24 23:09",
-   "timedBy": "commit",
-   "leadHours": 1.9
+   "started": "2026-09-24 00:00",
+   "done": "2026-09-25 00:00",
+   "timedBy": "date",
+   "leadHours": 24
+  },
+  {
+   "id": "M6",
+   "started": "2026-09-24 00:00",
+   "done": "2026-09-25 00:00",
+   "timedBy": "date",
+   "leadHours": 24
   },
   {
    "id": "M3",
    "started": null,
-   "done": "2026-09-24 23:09",
-   "timedBy": "commit",
-   "leadHours": null
-  },
-  {
-   "id": "M7",
-   "started": "2026-09-24 23:37",
-   "done": null,
-   "timedBy": "commit",
+   "done": "2026-09-25 00:00",
+   "timedBy": "date",
    "leadHours": null
   },
   {
    "id": "M4",
    "started": null,
-   "done": "2026-09-25 00:17",
-   "timedBy": "commit",
+   "done": "2026-09-25 00:00",
+   "timedBy": "date",
    "leadHours": null
   },
   {
    "id": "M5",
-   "started": "2026-09-25 00:38",
+   "started": "2026-09-25 00:00",
    "done": null,
-   "timedBy": "commit",
+   "timedBy": "date",
+   "leadHours": null
+  },
+  {
+   "id": "M7",
+   "started": "2026-09-25 00:00",
+   "done": null,
+   "timedBy": "date",
    "leadHours": null
   }
  ],
@@ -5827,6 +7306,125 @@
     "high": 0.13
    },
    "weightedPer100": 2.55
+  },
+  {
+   "round": "15a",
+   "sessions": 3,
+   "commands": 4445,
+   "wins": 0,
+   "deaths": 29,
+   "per100": 0.49,
+   "negativePer100": 0.38,
+   "repeatRate": 0.824,
+   "issuesRaised": 3,
+   "severityPer100": {
+    "low": 0.13,
+    "medium": 0.18,
+    "high": 0.07
+   },
+   "weightedPer100": 0.7
+  },
+  {
+   "round": "15b",
+   "sessions": 3,
+   "commands": 4333,
+   "wins": 0,
+   "deaths": 28,
+   "per100": 0.62,
+   "negativePer100": 0.48,
+   "repeatRate": 0.81,
+   "issuesRaised": 5,
+   "severityPer100": {
+    "low": 0.14,
+    "medium": 0.18,
+    "high": 0.16
+   },
+   "weightedPer100": 0.99
+  },
+  {
+   "round": "15c",
+   "sessions": 3,
+   "commands": 4489,
+   "wins": 0,
+   "deaths": 31,
+   "per100": 0.4,
+   "negativePer100": 0.29,
+   "repeatRate": 1,
+   "issuesRaised": 0,
+   "severityPer100": {
+    "low": 0.07,
+    "medium": 0.13,
+    "high": 0.09
+   },
+   "weightedPer100": 0.6
+  },
+  {
+   "round": "15d",
+   "sessions": 3,
+   "commands": 4158,
+   "wins": 1,
+   "deaths": 14,
+   "per100": 1.42,
+   "negativePer100": 0.94,
+   "repeatRate": 0.897,
+   "issuesRaised": 2,
+   "severityPer100": {
+    "low": 0.48,
+    "medium": 0.26,
+    "high": 0.19
+   },
+   "weightedPer100": 1.59
+  },
+  {
+   "round": "16a",
+   "sessions": 3,
+   "commands": 4500,
+   "wins": 0,
+   "deaths": 23,
+   "per100": 1.91,
+   "negativePer100": 1.07,
+   "repeatRate": 0.938,
+   "issuesRaised": 2,
+   "severityPer100": {
+    "low": 0.4,
+    "medium": 0.44,
+    "high": 0.22
+   },
+   "weightedPer100": 1.96
+  },
+  {
+   "round": "16b",
+   "sessions": 3,
+   "commands": 4500,
+   "wins": 1,
+   "deaths": 28,
+   "per100": 1.67,
+   "negativePer100": 0.98,
+   "repeatRate": 0.841,
+   "issuesRaised": 5,
+   "severityPer100": {
+    "low": 0.36,
+    "medium": 0.4,
+    "high": 0.22
+   },
+   "weightedPer100": 1.82
+  },
+  {
+   "round": "17",
+   "sessions": 3,
+   "commands": 4109,
+   "wins": 1,
+   "deaths": 17,
+   "per100": 2.09,
+   "negativePer100": 1.29,
+   "repeatRate": 0.774,
+   "issuesRaised": 10,
+   "severityPer100": {
+    "low": 0.22,
+    "medium": 0.73,
+    "high": 0.34
+   },
+   "weightedPer100": 2.7
   }
  ],
  "progress": {
@@ -5939,7 +7537,14 @@
    "11",
    "12",
    "13",
-   "14"
+   "14",
+   "15a",
+   "15b",
+   "15c",
+   "15d",
+   "16a",
+   "16b",
+   "17"
   ],
   "segmentedRounds": [
    "1",
@@ -5958,7 +7563,14 @@
    "11",
    "12",
    "13",
-   "14"
+   "14",
+   "15a",
+   "15b",
+   "15c",
+   "15d",
+   "16a",
+   "16b",
+   "17"
   ],
   "byRound": {
    "1": {
@@ -6139,6 +7751,97 @@
      "won": 1,
      "budget": 2,
      "stuck": 0,
+     "died": 0,
+     "open": 0
+    }
+   },
+   "17": {
+    "kind": "full",
+    "sessions": 3,
+    "commands": 4109,
+    "gained": 192,
+    "ends": {
+     "won": 1,
+     "budget": 1,
+     "stuck": 1,
+     "died": 0,
+     "open": 0
+    }
+   },
+   "15a": {
+    "kind": "full",
+    "sessions": 3,
+    "commands": 4445,
+    "gained": 97,
+    "ends": {
+     "won": 0,
+     "budget": 1,
+     "stuck": 2,
+     "died": 0,
+     "open": 0
+    }
+   },
+   "15b": {
+    "kind": "full",
+    "sessions": 3,
+    "commands": 4333,
+    "gained": 127,
+    "ends": {
+     "won": 0,
+     "budget": 2,
+     "stuck": 1,
+     "died": 0,
+     "open": 0
+    }
+   },
+   "15c": {
+    "kind": "full",
+    "sessions": 3,
+    "commands": 4489,
+    "gained": 134,
+    "ends": {
+     "won": 0,
+     "budget": 3,
+     "stuck": 0,
+     "died": 0,
+     "open": 0
+    }
+   },
+   "15d": {
+    "kind": "full",
+    "sessions": 3,
+    "commands": 4158,
+    "gained": 169,
+    "ends": {
+     "won": 1,
+     "budget": 0,
+     "stuck": 2,
+     "died": 0,
+     "open": 0
+    }
+   },
+   "16a": {
+    "kind": "full",
+    "sessions": 3,
+    "commands": 4500,
+    "gained": 215,
+    "ends": {
+     "won": 0,
+     "budget": 3,
+     "stuck": 0,
+     "died": 0,
+     "open": 0
+    }
+   },
+   "16b": {
+    "kind": "full",
+    "sessions": 3,
+    "commands": 4500,
+    "gained": 195,
+    "ends": {
+     "won": 1,
+     "budget": 0,
+     "stuck": 2,
      "died": 0,
      "open": 0
     }
@@ -14969,34 +16672,5834 @@
     },
     "roundKind": "segmented",
     "outcome": "won"
+   },
+   {
+    "session": "r15-click-full",
+    "date": "2026-10-10",
+    "round": "15a",
+    "mode": "click",
+    "persona": "a night-shift nurse who plays in short bursts on a tablet, saves often and distrusts anything that looks dangerous",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1445,
+    "legs": 6,
+    "startScore": 0,
+    "bestScore": 41,
+    "gained": 41,
+    "available": 80,
+    "share": 0.512,
+    "stagesAdvanced": 0,
+    "stuckAt": 1187,
+    "tail": 258,
+    "deaths": [
+     {
+      "n": 19,
+      "gained": 0
+     },
+     {
+      "n": 75,
+      "gained": 5
+     },
+     {
+      "n": 151,
+      "gained": 5
+     },
+     {
+      "n": 212,
+      "gained": 5
+     },
+     {
+      "n": 332,
+      "gained": 14
+     },
+     {
+      "n": 563,
+      "gained": 17
+     },
+     {
+      "n": 673,
+      "gained": 22
+     },
+     {
+      "n": 701,
+      "gained": 29
+     },
+     {
+      "n": 722,
+      "gained": 29
+     },
+     {
+      "n": 876,
+      "gained": 29
+     },
+     {
+      "n": 886,
+      "gained": 29
+     },
+     {
+      "n": 925,
+      "gained": 33
+     },
+     {
+      "n": 973,
+      "gained": 36
+     },
+     {
+      "n": 1393,
+      "gained": 41
+     },
+     {
+      "n": 1420,
+      "gained": 41
+     }
+    ],
+    "won": false,
+    "reason": "stuck",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      35,
+      5
+     ],
+     [
+      265,
+      8
+     ],
+     [
+      273,
+      14
+     ],
+     [
+      374,
+      17
+     ],
+     [
+      634,
+      22
+     ],
+     [
+      692,
+      29
+     ],
+     [
+      895,
+      33
+     ],
+     [
+      940,
+      36
+     ],
+     [
+      1187,
+      41
+     ]
+    ],
+    "legStarts": [
+     387,
+     715,
+     1096,
+     1441,
+     1445
+    ],
+    "turnCap": 1500,
+    "capped": false,
+    "lastDied": false,
+    "noLongerAt": 434,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 0,
+       "commands": 0
+      },
+      {
+       "id": "01b-launched",
+       "name": "01b-launched",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 35
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 35,
+       "commands": 0
+      },
+      {
+       "id": "02a-car-at-seven",
+       "name": "02a-car-at-seven",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 35,
+       "commands": 0
+      },
+      {
+       "id": "02b-laundry",
+       "name": "02b-laundry",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 35,
+       "commands": 238
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 4,
+       "reached": true,
+       "points": 4,
+       "share": 1,
+       "enteredAt": 273,
+       "commands": 101
+      },
+      {
+       "id": "03a-pet-store",
+       "name": "03a-pet-store",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 374,
+       "commands": 260
+      },
+      {
+       "id": "03b-rank8",
+       "name": "03b-rank8",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 634,
+       "commands": 58
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 692,
+       "commands": 0
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 15,
+       "share": 0.6,
+       "enteredAt": 692,
+       "commands": 753
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06a-no-zapgun",
+       "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 9,
+     "furthestStage": "05-day2",
+     "end": "stuck"
+    },
+    "outcome": "cutoff"
+   },
+   {
+    "session": "r15-typed-full",
+    "date": "2026-10-10",
+    "round": "15a",
+    "mode": "typed",
+    "persona": "a retired air-traffic controller who logs every clock reading, plans each move and types complete sentences",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 5,
+    "startScore": 0,
+    "bestScore": 45,
+    "gained": 45,
+    "available": 80,
+    "share": 0.563,
+    "stagesAdvanced": 0,
+    "stuckAt": 1392,
+    "tail": 108,
+    "deaths": [
+     {
+      "n": 33,
+      "gained": 0
+     },
+     {
+      "n": 290,
+      "gained": 11
+     },
+     {
+      "n": 438,
+      "gained": 11
+     },
+     {
+      "n": 546,
+      "gained": 11
+     },
+     {
+      "n": 1061,
+      "gained": 38
+     },
+     {
+      "n": 1210,
+      "gained": 38
+     },
+     {
+      "n": 1375,
+      "gained": 42
+     },
+     {
+      "n": 1467,
+      "gained": 45
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      69,
+      5
+     ],
+     [
+      167,
+      8
+     ],
+     [
+      256,
+      11
+     ],
+     [
+      627,
+      17
+     ],
+     [
+      740,
+      22
+     ],
+     [
+      882,
+      29
+     ],
+     [
+      962,
+      34
+     ],
+     [
+      1002,
+      38
+     ],
+     [
+      1341,
+      42
+     ],
+     [
+      1392,
+      45
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1187,
+     1494
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 1433,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 0,
+       "commands": 0
+      },
+      {
+       "id": "01b-launched",
+       "name": "01b-launched",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 69
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 69,
+       "commands": 0
+      },
+      {
+       "id": "02a-car-at-seven",
+       "name": "02a-car-at-seven",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 69,
+       "commands": 0
+      },
+      {
+       "id": "02b-laundry",
+       "name": "02b-laundry",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 69,
+       "commands": 187
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 4,
+       "reached": true,
+       "points": 4,
+       "share": 1,
+       "enteredAt": 256,
+       "commands": 371
+      },
+      {
+       "id": "03a-pet-store",
+       "name": "03a-pet-store",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 627,
+       "commands": 113
+      },
+      {
+       "id": "03b-rank8",
+       "name": "03b-rank8",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 740,
+       "commands": 142
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 882,
+       "commands": 0
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 19,
+       "share": 0.76,
+       "enteredAt": 882,
+       "commands": 618
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06a-no-zapgun",
+       "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 9,
+     "furthestStage": "05-day2",
+     "end": "cap"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r15-veteran-full",
+    "date": "2026-10-10",
+    "round": "15a",
+    "mode": "typed",
+    "persona": "a text-adventure veteran who finished every Infocom game in the 1980s, maps carefully, examines everything twice, keeps a save from before every step that cannot be undone and never saves over it, and after anything knocks them down gathers up everything dropped",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 5,
+    "startScore": 0,
+    "bestScore": 11,
+    "gained": 11,
+    "available": 80,
+    "share": 0.138,
+    "stagesAdvanced": 0,
+    "stuckAt": 208,
+    "tail": 1292,
+    "deaths": [
+     {
+      "n": 51,
+      "gained": 0
+     },
+     {
+      "n": 134,
+      "gained": 5
+     },
+     {
+      "n": 452,
+      "gained": 11
+     },
+     {
+      "n": 515,
+      "gained": 11
+     },
+     {
+      "n": 827,
+      "gained": 11
+     },
+     {
+      "n": 903,
+      "gained": 11
+     }
+    ],
+    "won": false,
+    "reason": "stuck",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      93,
+      5
+     ],
+     [
+      169,
+      8
+     ],
+     [
+      208,
+      11
+     ]
+    ],
+    "legStarts": [
+     400,
+     797,
+     1146,
+     1488
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 578,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 0,
+       "commands": 0
+      },
+      {
+       "id": "01b-launched",
+       "name": "01b-launched",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 93
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 93,
+       "commands": 0
+      },
+      {
+       "id": "02a-car-at-seven",
+       "name": "02a-car-at-seven",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 93,
+       "commands": 0
+      },
+      {
+       "id": "02b-laundry",
+       "name": "02b-laundry",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 93,
+       "commands": 115
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 4,
+       "reached": true,
+       "points": 0,
+       "share": 0,
+       "enteredAt": 208,
+       "commands": 1292
+      },
+      {
+       "id": "03a-pet-store",
+       "name": "03a-pet-store",
+       "available": 3,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "03b-rank8",
+       "name": "03b-rank8",
+       "available": 5,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06a-no-zapgun",
+       "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 5,
+     "furthestStage": "03-village",
+     "end": "stuck"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r15b-click-full",
+    "date": "2026-10-10",
+    "round": "15b",
+    "mode": "click",
+    "persona": "a night-shift nurse who plays in short bursts on a tablet, saves often and distrusts anything that looks dangerous",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1350,
+    "legs": 6,
+    "startScore": 0,
+    "bestScore": 45,
+    "gained": 45,
+    "available": 80,
+    "share": 0.563,
+    "stagesAdvanced": 0,
+    "stuckAt": 940,
+    "tail": 410,
+    "deaths": [
+     {
+      "n": 37,
+      "gained": 0
+     },
+     {
+      "n": 456,
+      "gained": 21
+     },
+     {
+      "n": 533,
+      "gained": 24
+     },
+     {
+      "n": 742,
+      "gained": 38
+     },
+     {
+      "n": 980,
+      "gained": 45
+     },
+     {
+      "n": 1121,
+      "gained": 45
+     },
+     {
+      "n": 1124,
+      "gained": 45
+     },
+     {
+      "n": 1130,
+      "gained": 45
+     },
+     {
+      "n": 1138,
+      "gained": 45
+     },
+     {
+      "n": 1242,
+      "gained": 45
+     }
+    ],
+    "won": false,
+    "reason": "stuck",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      103,
+      5
+     ],
+     [
+      136,
+      8
+     ],
+     [
+      243,
+      11
+     ],
+     [
+      367,
+      17
+     ],
+     [
+      430,
+      21
+     ],
+     [
+      472,
+      24
+     ],
+     [
+      623,
+      26
+     ],
+     [
+      647,
+      33
+     ],
+     [
+      672,
+      38
+     ],
+     [
+      940,
+      45
+     ]
+    ],
+    "legStarts": [
+     392,
+     781,
+     1125,
+     1335,
+     1345
+    ],
+    "turnCap": 1500,
+    "capped": false,
+    "lastDied": false,
+    "noLongerAt": 1316,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 0,
+       "commands": 0
+      },
+      {
+       "id": "01b-launched",
+       "name": "01b-launched",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 103
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 103,
+       "commands": 0
+      },
+      {
+       "id": "02a-car-at-seven",
+       "name": "02a-car-at-seven",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 103,
+       "commands": 0
+      },
+      {
+       "id": "02b-laundry",
+       "name": "02b-laundry",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 103,
+       "commands": 140
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 4,
+       "reached": true,
+       "points": 4,
+       "share": 1,
+       "enteredAt": 243,
+       "commands": 124
+      },
+      {
+       "id": "03a-pet-store",
+       "name": "03a-pet-store",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 367,
+       "commands": 63
+      },
+      {
+       "id": "03b-rank8",
+       "name": "03b-rank8",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 430,
+       "commands": 42
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 472,
+       "commands": 151
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 19,
+       "share": 0.76,
+       "enteredAt": 623,
+       "commands": 727
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06a-no-zapgun",
+       "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 9,
+     "furthestStage": "05-day2",
+     "end": "stuck"
+    },
+    "outcome": "stuck"
+   },
+   {
+    "session": "r15b-typed-full",
+    "date": "2026-10-10",
+    "round": "15b",
+    "mode": "typed",
+    "persona": "a retired air-traffic controller who logs every clock reading, plans each move and types complete sentences",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 5,
+    "startScore": 0,
+    "bestScore": 45,
+    "gained": 45,
+    "available": 80,
+    "share": 0.563,
+    "stagesAdvanced": 0,
+    "stuckAt": 1358,
+    "tail": 142,
+    "deaths": [
+     {
+      "n": 19,
+      "gained": 0
+     },
+     {
+      "n": 495,
+      "gained": 17
+     },
+     {
+      "n": 684,
+      "gained": 26
+     },
+     {
+      "n": 746,
+      "gained": 26
+     },
+     {
+      "n": 830,
+      "gained": 33
+     },
+     {
+      "n": 1016,
+      "gained": 33
+     },
+     {
+      "n": 1123,
+      "gained": 33
+     },
+     {
+      "n": 1337,
+      "gained": 40
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      39,
+      5
+     ],
+     [
+      81,
+      8
+     ],
+     [
+      161,
+      11
+     ],
+     [
+      260,
+      17
+     ],
+     [
+      556,
+      21
+     ],
+     [
+      601,
+      26
+     ],
+     [
+      809,
+      33
+     ],
+     [
+      1186,
+      37
+     ],
+     [
+      1216,
+      40
+     ],
+     [
+      1358,
+      45
+     ]
+    ],
+    "legStarts": [
+     399,
+     789,
+     1189,
+     1485
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 900,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 0,
+       "commands": 0
+      },
+      {
+       "id": "01b-launched",
+       "name": "01b-launched",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 39
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 39,
+       "commands": 0
+      },
+      {
+       "id": "02a-car-at-seven",
+       "name": "02a-car-at-seven",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 39,
+       "commands": 0
+      },
+      {
+       "id": "02b-laundry",
+       "name": "02b-laundry",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 39,
+       "commands": 122
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 4,
+       "reached": true,
+       "points": 4,
+       "share": 1,
+       "enteredAt": 161,
+       "commands": 99
+      },
+      {
+       "id": "03a-pet-store",
+       "name": "03a-pet-store",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 260,
+       "commands": 296
+      },
+      {
+       "id": "03b-rank8",
+       "name": "03b-rank8",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 556,
+       "commands": 45
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 601,
+       "commands": 0
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 19,
+       "share": 0.76,
+       "enteredAt": 601,
+       "commands": 899
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06a-no-zapgun",
+       "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 9,
+     "furthestStage": "05-day2",
+     "end": "cap"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r15b-veteran-full",
+    "date": "2026-10-10",
+    "round": "15b",
+    "mode": "typed",
+    "persona": "a text-adventure veteran who finished every Infocom game in the 1980s, maps carefully, examines everything twice, keeps a save from before every step that cannot be undone and never saves over it, and after anything knocks them down gathers up everything dropped",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1483,
+    "legs": 6,
+    "startScore": 0,
+    "bestScore": 37,
+    "gained": 37,
+    "available": 80,
+    "share": 0.463,
+    "stagesAdvanced": 0,
+    "stuckAt": 1383,
+    "tail": 100,
+    "deaths": [
+     {
+      "n": 45,
+      "gained": 0
+     },
+     {
+      "n": 101,
+      "gained": 5
+     },
+     {
+      "n": 404,
+      "gained": 8
+     },
+     {
+      "n": 700,
+      "gained": 11
+     },
+     {
+      "n": 720,
+      "gained": 11
+     },
+     {
+      "n": 820,
+      "gained": 17
+     },
+     {
+      "n": 871,
+      "gained": 17
+     },
+     {
+      "n": 1163,
+      "gained": 35
+     },
+     {
+      "n": 1414,
+      "gained": 37
+     },
+     {
+      "n": 1420,
+      "gained": 37
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      56,
+      5
+     ],
+     [
+      207,
+      8
+     ],
+     [
+      589,
+      11
+     ],
+     [
+      752,
+      17
+     ],
+     [
+      911,
+      24
+     ],
+     [
+      965,
+      28
+     ],
+     [
+      989,
+      31
+     ],
+     [
+      1094,
+      35
+     ],
+     [
+      1383,
+      37
+     ]
+    ],
+    "legStarts": [
+     391,
+     791,
+     1191,
+     1468,
+     1479
+    ],
+    "turnCap": 1500,
+    "capped": false,
+    "lastDied": false,
+    "noLongerAt": 1396,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 0,
+       "commands": 0
+      },
+      {
+       "id": "01b-launched",
+       "name": "01b-launched",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 56
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 56,
+       "commands": 0
+      },
+      {
+       "id": "02a-car-at-seven",
+       "name": "02a-car-at-seven",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 56,
+       "commands": 0
+      },
+      {
+       "id": "02b-laundry",
+       "name": "02b-laundry",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 56,
+       "commands": 533
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 4,
+       "reached": true,
+       "points": 4,
+       "share": 1,
+       "enteredAt": 589,
+       "commands": 163
+      },
+      {
+       "id": "03a-pet-store",
+       "name": "03a-pet-store",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 752,
+       "commands": 159
+      },
+      {
+       "id": "03b-rank8",
+       "name": "03b-rank8",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 911,
+       "commands": 0
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 911,
+       "commands": 54
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 11,
+       "share": 0.44,
+       "enteredAt": 965,
+       "commands": 518
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06a-no-zapgun",
+       "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 9,
+     "furthestStage": "05-day2",
+     "end": "budget"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r15c-click-full",
+    "date": "2026-10-10",
+    "round": "15c",
+    "mode": "click",
+    "persona": "a night-shift nurse who plays in short bursts on a tablet, saves often and distrusts anything that looks dangerous",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1489,
+    "legs": 6,
+    "startScore": 0,
+    "bestScore": 45,
+    "gained": 45,
+    "available": 80,
+    "share": 0.563,
+    "stagesAdvanced": 0,
+    "stuckAt": 1365,
+    "tail": 124,
+    "deaths": [
+     {
+      "n": 24,
+      "gained": 0
+     },
+     {
+      "n": 86,
+      "gained": 5
+     },
+     {
+      "n": 465,
+      "gained": 11
+     },
+     {
+      "n": 651,
+      "gained": 24
+     },
+     {
+      "n": 720,
+      "gained": 29
+     },
+     {
+      "n": 819,
+      "gained": 34
+     },
+     {
+      "n": 895,
+      "gained": 38
+     },
+     {
+      "n": 1164,
+      "gained": 44
+     },
+     {
+      "n": 1271,
+      "gained": 44
+     },
+     {
+      "n": 1279,
+      "gained": 44
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      36,
+      5
+     ],
+     [
+      122,
+      8
+     ],
+     [
+      192,
+      11
+     ],
+     [
+      490,
+      17
+     ],
+     [
+      621,
+      24
+     ],
+     [
+      706,
+      29
+     ],
+     [
+      788,
+      34
+     ],
+     [
+      868,
+      38
+     ],
+     [
+      907,
+      41
+     ],
+     [
+      994,
+      44
+     ],
+     [
+      1365,
+      45
+     ]
+    ],
+    "legStarts": [
+     388,
+     788,
+     1188,
+     1482,
+     1485
+    ],
+    "turnCap": 1500,
+    "capped": false,
+    "lastDied": false,
+    "noLongerAt": 1289,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 0,
+       "commands": 0
+      },
+      {
+       "id": "01b-launched",
+       "name": "01b-launched",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 36
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 36,
+       "commands": 0
+      },
+      {
+       "id": "02a-car-at-seven",
+       "name": "02a-car-at-seven",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 36,
+       "commands": 0
+      },
+      {
+       "id": "02b-laundry",
+       "name": "02b-laundry",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 36,
+       "commands": 156
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 4,
+       "reached": true,
+       "points": 4,
+       "share": 1,
+       "enteredAt": 192,
+       "commands": 298
+      },
+      {
+       "id": "03a-pet-store",
+       "name": "03a-pet-store",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 490,
+       "commands": 131
+      },
+      {
+       "id": "03b-rank8",
+       "name": "03b-rank8",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 621,
+       "commands": 0
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 621,
+       "commands": 85
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 19,
+       "share": 0.76,
+       "enteredAt": 706,
+       "commands": 783
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06a-no-zapgun",
+       "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 9,
+     "furthestStage": "05-day2",
+     "end": "budget"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r15c-typed-full",
+    "date": "2026-10-10",
+    "round": "15c",
+    "mode": "typed",
+    "persona": "a retired air-traffic controller who logs every clock reading, plans each move and types complete sentences",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 45,
+    "gained": 45,
+    "available": 80,
+    "share": 0.563,
+    "stagesAdvanced": 0,
+    "stuckAt": 1499,
+    "tail": 1,
+    "deaths": [
+     {
+      "n": 25,
+      "gained": 0
+     },
+     {
+      "n": 295,
+      "gained": 11
+     },
+     {
+      "n": 822,
+      "gained": 21
+     },
+     {
+      "n": 912,
+      "gained": 21
+     },
+     {
+      "n": 1063,
+      "gained": 33
+     },
+     {
+      "n": 1307,
+      "gained": 38
+     },
+     {
+      "n": 1384,
+      "gained": 38
+     },
+     {
+      "n": 1393,
+      "gained": 38
+     },
+     {
+      "n": 1470,
+      "gained": 42
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      46,
+      5
+     ],
+     [
+      145,
+      8
+     ],
+     [
+      155,
+      11
+     ],
+     [
+      579,
+      17
+     ],
+     [
+      748,
+      21
+     ],
+     [
+      930,
+      26
+     ],
+     [
+      947,
+      33
+     ],
+     [
+      1256,
+      38
+     ],
+     [
+      1451,
+      42
+     ],
+     [
+      1499,
+      45
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 499,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 0,
+       "commands": 0
+      },
+      {
+       "id": "01b-launched",
+       "name": "01b-launched",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 46
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 46,
+       "commands": 0
+      },
+      {
+       "id": "02a-car-at-seven",
+       "name": "02a-car-at-seven",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 46,
+       "commands": 0
+      },
+      {
+       "id": "02b-laundry",
+       "name": "02b-laundry",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 46,
+       "commands": 109
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 4,
+       "reached": true,
+       "points": 4,
+       "share": 1,
+       "enteredAt": 155,
+       "commands": 424
+      },
+      {
+       "id": "03a-pet-store",
+       "name": "03a-pet-store",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 579,
+       "commands": 169
+      },
+      {
+       "id": "03b-rank8",
+       "name": "03b-rank8",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 748,
+       "commands": 182
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 930,
+       "commands": 0
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 19,
+       "share": 0.76,
+       "enteredAt": 930,
+       "commands": 570
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06a-no-zapgun",
+       "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 9,
+     "furthestStage": "05-day2",
+     "end": "cap"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r15c-veteran-full-b",
+    "date": "2026-10-10",
+    "round": "15c",
+    "mode": "typed",
+    "persona": "a text-adventure veteran who finished every Infocom game in the 1980s, maps carefully, examines everything twice, keeps a save from before every step that cannot be undone and never saves over it, and after anything knocks them down gathers up everything dropped",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 44,
+    "gained": 44,
+    "available": 80,
+    "share": 0.55,
+    "stagesAdvanced": 0,
+    "stuckAt": 1398,
+    "tail": 102,
+    "deaths": [
+     {
+      "n": 36,
+      "gained": 0
+     },
+     {
+      "n": 181,
+      "gained": 8
+     },
+     {
+      "n": 330,
+      "gained": 8
+     },
+     {
+      "n": 374,
+      "gained": 8
+     },
+     {
+      "n": 605,
+      "gained": 17
+     },
+     {
+      "n": 801,
+      "gained": 22
+     },
+     {
+      "n": 876,
+      "gained": 26
+     },
+     {
+      "n": 897,
+      "gained": 26
+     },
+     {
+      "n": 969,
+      "gained": 36
+     },
+     {
+      "n": 1003,
+      "gained": 36
+     },
+     {
+      "n": 1280,
+      "gained": 39
+     },
+     {
+      "n": 1292,
+      "gained": 39
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      112,
+      5
+     ],
+     [
+      161,
+      8
+     ],
+     [
+      482,
+      11
+     ],
+     [
+      556,
+      17
+     ],
+     [
+      664,
+      22
+     ],
+     [
+      847,
+      26
+     ],
+     [
+      911,
+      29
+     ],
+     [
+      957,
+      36
+     ],
+     [
+      1112,
+      39
+     ],
+     [
+      1398,
+      44
+     ]
+    ],
+    "legStarts": [
+     400,
+     752,
+     1152
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 1359,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 0,
+       "commands": 0
+      },
+      {
+       "id": "01b-launched",
+       "name": "01b-launched",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 112
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 112,
+       "commands": 0
+      },
+      {
+       "id": "02a-car-at-seven",
+       "name": "02a-car-at-seven",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 112,
+       "commands": 0
+      },
+      {
+       "id": "02b-laundry",
+       "name": "02b-laundry",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 112,
+       "commands": 370
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 4,
+       "reached": true,
+       "points": 4,
+       "share": 1,
+       "enteredAt": 482,
+       "commands": 74
+      },
+      {
+       "id": "03a-pet-store",
+       "name": "03a-pet-store",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 556,
+       "commands": 108
+      },
+      {
+       "id": "03b-rank8",
+       "name": "03b-rank8",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 664,
+       "commands": 183
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 847,
+       "commands": 0
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 18,
+       "share": 0.72,
+       "enteredAt": 847,
+       "commands": 653
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06a-no-zapgun",
+       "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 9,
+     "furthestStage": "05-day2",
+     "end": "cap"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r15d-click-full",
+    "date": "2026-10-11",
+    "round": "15d",
+    "mode": "click",
+    "persona": "a night-shift nurse who plays in short bursts on a tablet, saves often and distrusts anything that looks dangerous",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1200,
+    "commands": 1158,
+    "legs": 3,
+    "startScore": 0,
+    "bestScore": 80,
+    "gained": 80,
+    "available": 80,
+    "share": 1,
+    "stagesAdvanced": 0,
+    "stuckAt": 1144,
+    "tail": 14,
+    "deaths": [
+     {
+      "n": 28,
+      "gained": 0
+     },
+     {
+      "n": 556,
+      "gained": 36
+     },
+     {
+      "n": 601,
+      "gained": 47
+     },
+     {
+      "n": 716,
+      "gained": 51
+     },
+     {
+      "n": 1154,
+      "gained": 80
+     }
+    ],
+    "won": true,
+    "reason": "won",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      41,
+      5
+     ],
+     [
+      116,
+      8
+     ],
+     [
+      172,
+      11
+     ],
+     [
+      321,
+      17
+     ],
+     [
+      451,
+      20
+     ],
+     [
+      469,
+      24
+     ],
+     [
+      511,
+      31
+     ],
+     [
+      520,
+      36
+     ],
+     [
+      563,
+      41
+     ],
+     [
+      590,
+      47
+     ],
+     [
+      695,
+      51
+     ],
+     [
+      733,
+      54
+     ],
+     [
+      786,
+      57
+     ],
+     [
+      961,
+      61
+     ],
+     [
+      1032,
+      64
+     ],
+     [
+      1037,
+      71
+     ],
+     [
+      1078,
+      73
+     ],
+     [
+      1139,
+      75
+     ],
+     [
+      1144,
+      80
+     ]
+    ],
+    "legStarts": [
+     400,
+     799
+    ],
+    "turnCap": 1500,
+    "capped": false,
+    "lastDied": true,
+    "noLongerAt": 1081,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 0,
+       "commands": 0
+      },
+      {
+       "id": "01b-launched",
+       "name": "01b-launched",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 41
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 41,
+       "commands": 0
+      },
+      {
+       "id": "02a-car-at-seven",
+       "name": "02a-car-at-seven",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 41,
+       "commands": 0
+      },
+      {
+       "id": "02b-laundry",
+       "name": "02b-laundry",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 41,
+       "commands": 131
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 4,
+       "reached": true,
+       "points": 4,
+       "share": 1,
+       "enteredAt": 172,
+       "commands": 149
+      },
+      {
+       "id": "03a-pet-store",
+       "name": "03a-pet-store",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 321,
+       "commands": 130
+      },
+      {
+       "id": "03b-rank8",
+       "name": "03b-rank8",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 451,
+       "commands": 18
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 469,
+       "commands": 42
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 511,
+       "commands": 184
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 22,
+       "share": 1,
+       "enteredAt": 695,
+       "commands": 383
+      },
+      {
+       "id": "06a-no-zapgun",
+       "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1078,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": true,
+       "points": 7,
+       "share": 1,
+       "enteredAt": 1078,
+       "commands": 80
+      }
+     ],
+     "furthest": 12,
+     "furthestStage": "07-factory",
+     "end": "won"
+    },
+    "outcome": "won"
+   },
+   {
+    "session": "r15d-typed-full",
+    "date": "2026-10-11",
+    "round": "15d",
+    "mode": "typed",
+    "persona": "a retired air-traffic controller who logs every clock reading, plans each move and types complete sentences",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 38,
+    "gained": 38,
+    "available": 80,
+    "share": 0.475,
+    "stagesAdvanced": 0,
+    "stuckAt": 733,
+    "tail": 767,
+    "deaths": [
+     {
+      "n": 438,
+      "gained": 21
+     },
+     {
+      "n": 818,
+      "gained": 38
+     },
+     {
+      "n": 977,
+      "gained": 38
+     },
+     {
+      "n": 1140,
+      "gained": 38
+     },
+     {
+      "n": 1314,
+      "gained": 38
+     }
+    ],
+    "won": false,
+    "reason": "stuck",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      30,
+      5
+     ],
+     [
+      95,
+      8
+     ],
+     [
+      115,
+      11
+     ],
+     [
+      310,
+      17
+     ],
+     [
+      370,
+      21
+     ],
+     [
+      497,
+      24
+     ],
+     [
+      561,
+      31
+     ],
+     [
+      695,
+      33
+     ],
+     [
+      733,
+      38
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 1161,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 0,
+       "commands": 0
+      },
+      {
+       "id": "01b-launched",
+       "name": "01b-launched",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 30
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 30,
+       "commands": 0
+      },
+      {
+       "id": "02a-car-at-seven",
+       "name": "02a-car-at-seven",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 30,
+       "commands": 0
+      },
+      {
+       "id": "02b-laundry",
+       "name": "02b-laundry",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 30,
+       "commands": 85
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 4,
+       "reached": true,
+       "points": 4,
+       "share": 1,
+       "enteredAt": 115,
+       "commands": 195
+      },
+      {
+       "id": "03a-pet-store",
+       "name": "03a-pet-store",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 310,
+       "commands": 60
+      },
+      {
+       "id": "03b-rank8",
+       "name": "03b-rank8",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 370,
+       "commands": 127
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 497,
+       "commands": 64
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 12,
+       "share": 0.48,
+       "enteredAt": 561,
+       "commands": 939
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06a-no-zapgun",
+       "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 9,
+     "furthestStage": "05-day2",
+     "end": "stuck"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r15d-veteran-full",
+    "date": "2026-10-11",
+    "round": "15d",
+    "mode": "typed",
+    "persona": "a text-adventure veteran who finished every Infocom game in the 1980s, maps carefully, examines everything twice, keeps a save from before every step that cannot be undone and never saves over it, and after anything knocks them down gathers up everything dropped",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 51,
+    "gained": 51,
+    "available": 80,
+    "share": 0.637,
+    "stagesAdvanced": 0,
+    "stuckAt": 1275,
+    "tail": 225,
+    "deaths": [
+     {
+      "n": 475,
+      "gained": 17
+     },
+     {
+      "n": 607,
+      "gained": 29
+     },
+     {
+      "n": 811,
+      "gained": 43
+     },
+     {
+      "n": 862,
+      "gained": 46
+     }
+    ],
+    "won": false,
+    "reason": "stuck",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      37,
+      5
+     ],
+     [
+      94,
+      8
+     ],
+     [
+      132,
+      11
+     ],
+     [
+      310,
+      17
+     ],
+     [
+      513,
+      22
+     ],
+     [
+      552,
+      29
+     ],
+     [
+      659,
+      32
+     ],
+     [
+      733,
+      39
+     ],
+     [
+      790,
+      43
+     ],
+     [
+      828,
+      46
+     ],
+     [
+      1275,
+      51
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 1313,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 0,
+       "commands": 0
+      },
+      {
+       "id": "01b-launched",
+       "name": "01b-launched",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 37
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 37,
+       "commands": 0
+      },
+      {
+       "id": "02a-car-at-seven",
+       "name": "02a-car-at-seven",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 37,
+       "commands": 0
+      },
+      {
+       "id": "02b-laundry",
+       "name": "02b-laundry",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 37,
+       "commands": 95
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 4,
+       "reached": true,
+       "points": 4,
+       "share": 1,
+       "enteredAt": 132,
+       "commands": 178
+      },
+      {
+       "id": "03a-pet-store",
+       "name": "03a-pet-store",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 310,
+       "commands": 203
+      },
+      {
+       "id": "03b-rank8",
+       "name": "03b-rank8",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 513,
+       "commands": 39
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 552,
+       "commands": 0
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 552,
+       "commands": 723
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 0,
+       "share": 0,
+       "enteredAt": 1275,
+       "commands": 225
+      },
+      {
+       "id": "06a-no-zapgun",
+       "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 10,
+     "furthestStage": "06-plato",
+     "end": "stuck"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r16-engineer-full",
+    "date": "2026-10-12",
+    "round": "16a",
+    "mode": "typed",
+    "persona": "a systems engineer who wants to understand how things work before using them, tests one variable at a time, keeps notes on cause and effect and saves before every experiment",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 73,
+    "gained": 73,
+    "available": 80,
+    "share": 0.912,
+    "stagesAdvanced": 0,
+    "stuckAt": 1451,
+    "tail": 49,
+    "deaths": [
+     {
+      "n": 44,
+      "gained": 0
+     },
+     {
+      "n": 372,
+      "gained": 17
+     },
+     {
+      "n": 650,
+      "gained": 41
+     },
+     {
+      "n": 704,
+      "gained": 47
+     },
+     {
+      "n": 747,
+      "gained": 47
+     },
+     {
+      "n": 860,
+      "gained": 47
+     },
+     {
+      "n": 871,
+      "gained": 47
+     },
+     {
+      "n": 885,
+      "gained": 47
+     },
+     {
+      "n": 1156,
+      "gained": 47
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      57,
+      5
+     ],
+     [
+      174,
+      8
+     ],
+     [
+      246,
+      11
+     ],
+     [
+      331,
+      17
+     ],
+     [
+      431,
+      21
+     ],
+     [
+      519,
+      26
+     ],
+     [
+      541,
+      33
+     ],
+     [
+      569,
+      38
+     ],
+     [
+      633,
+      41
+     ],
+     [
+      681,
+      47
+     ],
+     [
+      1170,
+      51
+     ],
+     [
+      1211,
+      54
+     ],
+     [
+      1259,
+      57
+     ],
+     [
+      1363,
+      58
+     ],
+     [
+      1399,
+      61
+     ],
+     [
+      1428,
+      64
+     ],
+     [
+      1434,
+      71
+     ],
+     [
+      1451,
+      73
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 1460,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 0,
+       "commands": 0
+      },
+      {
+       "id": "01b-launched",
+       "name": "01b-launched",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 57
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 57,
+       "commands": 0
+      },
+      {
+       "id": "02a-car-at-seven",
+       "name": "02a-car-at-seven",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 57,
+       "commands": 0
+      },
+      {
+       "id": "02b-laundry",
+       "name": "02b-laundry",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 57,
+       "commands": 189
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 4,
+       "reached": true,
+       "points": 4,
+       "share": 1,
+       "enteredAt": 246,
+       "commands": 85
+      },
+      {
+       "id": "03a-pet-store",
+       "name": "03a-pet-store",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 331,
+       "commands": 100
+      },
+      {
+       "id": "03b-rank8",
+       "name": "03b-rank8",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 431,
+       "commands": 88
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 519,
+       "commands": 0
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 519,
+       "commands": 651
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 22,
+       "share": 1,
+       "enteredAt": 1170,
+       "commands": 281
+      },
+      {
+       "id": "06a-no-zapgun",
+       "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1451,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": true,
+       "points": 0,
+       "share": 0,
+       "enteredAt": 1451,
+       "commands": 49
+      }
+     ],
+     "furthest": 12,
+     "furthestStage": "07-factory",
+     "end": "cap"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r16-gm-full",
+    "date": "2026-10-12",
+    "round": "16a",
+    "mode": "typed",
+    "persona": "a tabletop game master who treats every character as a person, talks to Floyd and Plato constantly, asks everyone about everything and follows hunches from what they say",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 69,
+    "gained": 69,
+    "available": 80,
+    "share": 0.863,
+    "stagesAdvanced": 0,
+    "stuckAt": 1407,
+    "tail": 93,
+    "deaths": [
+     {
+      "n": 644,
+      "gained": 33
+     },
+     {
+      "n": 823,
+      "gained": 44
+     },
+     {
+      "n": 901,
+      "gained": 47
+     },
+     {
+      "n": 997,
+      "gained": 53
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      37,
+      5
+     ],
+     [
+      80,
+      8
+     ],
+     [
+      119,
+      11
+     ],
+     [
+      349,
+      17
+     ],
+     [
+      477,
+      22
+     ],
+     [
+      545,
+      29
+     ],
+     [
+      623,
+      33
+     ],
+     [
+      659,
+      36
+     ],
+     [
+      676,
+      41
+     ],
+     [
+      732,
+      44
+     ],
+     [
+      894,
+      47
+     ],
+     [
+      951,
+      50
+     ],
+     [
+      972,
+      53
+     ],
+     [
+      1313,
+      57
+     ],
+     [
+      1337,
+      60
+     ],
+     [
+      1393,
+      67
+     ],
+     [
+      1407,
+      69
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 1415,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 0,
+       "commands": 0
+      },
+      {
+       "id": "01b-launched",
+       "name": "01b-launched",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 37
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 37,
+       "commands": 0
+      },
+      {
+       "id": "02a-car-at-seven",
+       "name": "02a-car-at-seven",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 37,
+       "commands": 0
+      },
+      {
+       "id": "02b-laundry",
+       "name": "02b-laundry",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 37,
+       "commands": 82
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 4,
+       "reached": true,
+       "points": 4,
+       "share": 1,
+       "enteredAt": 119,
+       "commands": 230
+      },
+      {
+       "id": "03a-pet-store",
+       "name": "03a-pet-store",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 349,
+       "commands": 128
+      },
+      {
+       "id": "03b-rank8",
+       "name": "03b-rank8",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 477,
+       "commands": 68
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 545,
+       "commands": 0
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 545,
+       "commands": 427
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 18,
+       "share": 0.818,
+       "enteredAt": 972,
+       "commands": 528
+      },
+      {
+       "id": "06a-no-zapgun",
+       "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 10,
+     "furthestStage": "06-plato",
+     "end": "cap"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r16-newcomer-full",
+    "date": "2026-10-12",
+    "round": "16a",
+    "mode": "click",
+    "persona": "a first-time player of text adventures in their twenties who grew up on mobile games, taps whatever looks interactive, reads quickly and gets bored by long descriptions",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 73,
+    "gained": 73,
+    "available": 80,
+    "share": 0.912,
+    "stagesAdvanced": 0,
+    "stuckAt": 1443,
+    "tail": 57,
+    "deaths": [
+     {
+      "n": 21,
+      "gained": 0
+     },
+     {
+      "n": 493,
+      "gained": 38
+     },
+     {
+      "n": 573,
+      "gained": 47
+     },
+     {
+      "n": 618,
+      "gained": 47
+     },
+     {
+      "n": 914,
+      "gained": 47
+     },
+     {
+      "n": 1098,
+      "gained": 47
+     },
+     {
+      "n": 1138,
+      "gained": 51
+     },
+     {
+      "n": 1247,
+      "gained": 57
+     },
+     {
+      "n": 1315,
+      "gained": 57
+     },
+     {
+      "n": 1489,
+      "gained": 73
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      31,
+      5
+     ],
+     [
+      90,
+      8
+     ],
+     [
+      119,
+      11
+     ],
+     [
+      271,
+      17
+     ],
+     [
+      388,
+      22
+     ],
+     [
+      441,
+      26
+     ],
+     [
+      450,
+      33
+     ],
+     [
+      483,
+      38
+     ],
+     [
+      512,
+      41
+     ],
+     [
+      561,
+      47
+     ],
+     [
+      1120,
+      51
+     ],
+     [
+      1152,
+      54
+     ],
+     [
+      1183,
+      57
+     ],
+     [
+      1355,
+      61
+     ],
+     [
+      1418,
+      64
+     ],
+     [
+      1427,
+      71
+     ],
+     [
+      1443,
+      73
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 1453,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 0,
+       "commands": 0
+      },
+      {
+       "id": "01b-launched",
+       "name": "01b-launched",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 31
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 31,
+       "commands": 0
+      },
+      {
+       "id": "02a-car-at-seven",
+       "name": "02a-car-at-seven",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 31,
+       "commands": 0
+      },
+      {
+       "id": "02b-laundry",
+       "name": "02b-laundry",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 31,
+       "commands": 88
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 4,
+       "reached": true,
+       "points": 4,
+       "share": 1,
+       "enteredAt": 119,
+       "commands": 152
+      },
+      {
+       "id": "03a-pet-store",
+       "name": "03a-pet-store",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 271,
+       "commands": 117
+      },
+      {
+       "id": "03b-rank8",
+       "name": "03b-rank8",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 388,
+       "commands": 53
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 441,
+       "commands": 0
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 441,
+       "commands": 679
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 22,
+       "share": 1,
+       "enteredAt": 1120,
+       "commands": 323
+      },
+      {
+       "id": "06a-no-zapgun",
+       "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1443,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": true,
+       "points": 0,
+       "share": 0,
+       "enteredAt": 1443,
+       "commands": 57
+      }
+     ],
+     "furthest": 12,
+     "furthestStage": "07-factory",
+     "end": "cap"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r16b-engineer-full",
+    "date": "2026-10-12",
+    "round": "16b",
+    "mode": "typed",
+    "persona": "a systems engineer who wants to understand how things work before using them, tests one variable at a time, keeps notes on cause and effect and saves before every experiment",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 54,
+    "gained": 54,
+    "available": 80,
+    "share": 0.675,
+    "stagesAdvanced": 0,
+    "stuckAt": 782,
+    "tail": 718,
+    "deaths": [
+     {
+      "n": 154,
+      "gained": 11
+     },
+     {
+      "n": 262,
+      "gained": 11
+     },
+     {
+      "n": 265,
+      "gained": 11
+     },
+     {
+      "n": 475,
+      "gained": 17
+     },
+     {
+      "n": 835,
+      "gained": 54
+     },
+     {
+      "n": 862,
+      "gained": 54
+     },
+     {
+      "n": 871,
+      "gained": 54
+     },
+     {
+      "n": 891,
+      "gained": 54
+     },
+     {
+      "n": 1119,
+      "gained": 54
+     },
+     {
+      "n": 1253,
+      "gained": 54
+     },
+     {
+      "n": 1282,
+      "gained": 54
+     },
+     {
+      "n": 1483,
+      "gained": 54
+     }
+    ],
+    "won": false,
+    "reason": "stuck",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      40,
+      5
+     ],
+     [
+      79,
+      8
+     ],
+     [
+      120,
+      11
+     ],
+     [
+      377,
+      17
+     ],
+     [
+      589,
+      24
+     ],
+     [
+      614,
+      31
+     ],
+     [
+      641,
+      36
+     ],
+     [
+      686,
+      40
+     ],
+     [
+      727,
+      43
+     ],
+     [
+      745,
+      48
+     ],
+     [
+      782,
+      54
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 0,
+       "commands": 0
+      },
+      {
+       "id": "01b-launched",
+       "name": "01b-launched",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 40
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 40,
+       "commands": 0
+      },
+      {
+       "id": "02a-car-at-seven",
+       "name": "02a-car-at-seven",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 40,
+       "commands": 0
+      },
+      {
+       "id": "02b-laundry",
+       "name": "02b-laundry",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 40,
+       "commands": 80
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 4,
+       "reached": true,
+       "points": 4,
+       "share": 1,
+       "enteredAt": 120,
+       "commands": 257
+      },
+      {
+       "id": "03a-pet-store",
+       "name": "03a-pet-store",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 377,
+       "commands": 212
+      },
+      {
+       "id": "03b-rank8",
+       "name": "03b-rank8",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 589,
+       "commands": 0
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 589,
+       "commands": 25
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 614,
+       "commands": 168
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 3,
+       "share": 0.136,
+       "enteredAt": 782,
+       "commands": 718
+      },
+      {
+       "id": "06a-no-zapgun",
+       "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 10,
+     "furthestStage": "06-plato",
+     "end": "stuck"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r16b-gm-full",
+    "date": "2026-10-12",
+    "round": "16b",
+    "mode": "typed",
+    "persona": "a tabletop game master who treats every character as a person, talks to Floyd and Plato constantly, asks everyone about everything and follows hunches from what they say",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 80,
+    "gained": 80,
+    "available": 80,
+    "share": 1,
+    "stagesAdvanced": 0,
+    "stuckAt": 1382,
+    "tail": 118,
+    "deaths": [
+     {
+      "n": 46,
+      "gained": 0
+     },
+     {
+      "n": 480,
+      "gained": 21
+     },
+     {
+      "n": 521,
+      "gained": 21
+     },
+     {
+      "n": 890,
+      "gained": 41
+     },
+     {
+      "n": 1116,
+      "gained": 67
+     },
+     {
+      "n": 1171,
+      "gained": 69
+     },
+     {
+      "n": 1227,
+      "gained": 69
+     }
+    ],
+    "won": true,
+    "reason": "won",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      82,
+      5
+     ],
+     [
+      191,
+      8
+     ],
+     [
+      221,
+      11
+     ],
+     [
+      370,
+      17
+     ],
+     [
+      452,
+      21
+     ],
+     [
+      581,
+      24
+     ],
+     [
+      649,
+      29
+     ],
+     [
+      665,
+      36
+     ],
+     [
+      843,
+      38
+     ],
+     [
+      875,
+      41
+     ],
+     [
+      927,
+      47
+     ],
+     [
+      1034,
+      54
+     ],
+     [
+      1070,
+      57
+     ],
+     [
+      1093,
+      60
+     ],
+     [
+      1098,
+      67
+     ],
+     [
+      1119,
+      69
+     ],
+     [
+      1341,
+      71
+     ],
+     [
+      1355,
+      73
+     ],
+     [
+      1369,
+      75
+     ],
+     [
+      1382,
+      80
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 1132,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 0,
+       "commands": 0
+      },
+      {
+       "id": "01b-launched",
+       "name": "01b-launched",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 82
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 82,
+       "commands": 0
+      },
+      {
+       "id": "02a-car-at-seven",
+       "name": "02a-car-at-seven",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 82,
+       "commands": 0
+      },
+      {
+       "id": "02b-laundry",
+       "name": "02b-laundry",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 82,
+       "commands": 139
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 4,
+       "reached": true,
+       "points": 4,
+       "share": 1,
+       "enteredAt": 221,
+       "commands": 149
+      },
+      {
+       "id": "03a-pet-store",
+       "name": "03a-pet-store",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 370,
+       "commands": 82
+      },
+      {
+       "id": "03b-rank8",
+       "name": "03b-rank8",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 452,
+       "commands": 129
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 581,
+       "commands": 68
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 649,
+       "commands": 385
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 22,
+       "share": 1,
+       "enteredAt": 1034,
+       "commands": 321
+      },
+      {
+       "id": "06a-no-zapgun",
+       "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1355,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": true,
+       "points": 7,
+       "share": 1,
+       "enteredAt": 1355,
+       "commands": 145
+      }
+     ],
+     "furthest": 12,
+     "furthestStage": "07-factory",
+     "end": "won"
+    },
+    "outcome": "won"
+   },
+   {
+    "session": "r16b-newcomer-full",
+    "date": "2026-10-12",
+    "round": "16b",
+    "mode": "click",
+    "persona": "a first-time player of text adventures in their twenties who grew up on mobile games, taps whatever looks interactive, reads quickly and gets bored by long descriptions",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 61,
+    "gained": 61,
+    "available": 80,
+    "share": 0.762,
+    "stagesAdvanced": 0,
+    "stuckAt": 1178,
+    "tail": 322,
+    "deaths": [
+     {
+      "n": 28,
+      "gained": 0
+     },
+     {
+      "n": 89,
+      "gained": 5
+     },
+     {
+      "n": 482,
+      "gained": 26
+     },
+     {
+      "n": 588,
+      "gained": 40
+     },
+     {
+      "n": 689,
+      "gained": 40
+     },
+     {
+      "n": 734,
+      "gained": 40
+     },
+     {
+      "n": 950,
+      "gained": 54
+     },
+     {
+      "n": 1153,
+      "gained": 57
+     },
+     {
+      "n": 1264,
+      "gained": 61
+     }
+    ],
+    "won": false,
+    "reason": "stuck",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      38,
+      5
+     ],
+     [
+      98,
+      8
+     ],
+     [
+      128,
+      11
+     ],
+     [
+      277,
+      17
+     ],
+     [
+      429,
+      22
+     ],
+     [
+      461,
+      26
+     ],
+     [
+      498,
+      29
+     ],
+     [
+      528,
+      36
+     ],
+     [
+      552,
+      40
+     ],
+     [
+      768,
+      45
+     ],
+     [
+      890,
+      48
+     ],
+     [
+      903,
+      54
+     ],
+     [
+      1009,
+      57
+     ],
+     [
+      1178,
+      61
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 1194,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 0,
+       "commands": 0
+      },
+      {
+       "id": "01b-launched",
+       "name": "01b-launched",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 38
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 38,
+       "commands": 0
+      },
+      {
+       "id": "02a-car-at-seven",
+       "name": "02a-car-at-seven",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 38,
+       "commands": 0
+      },
+      {
+       "id": "02b-laundry",
+       "name": "02b-laundry",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 38,
+       "commands": 90
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 4,
+       "reached": true,
+       "points": 4,
+       "share": 1,
+       "enteredAt": 128,
+       "commands": 149
+      },
+      {
+       "id": "03a-pet-store",
+       "name": "03a-pet-store",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 277,
+       "commands": 152
+      },
+      {
+       "id": "03b-rank8",
+       "name": "03b-rank8",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 429,
+       "commands": 32
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 461,
+       "commands": 0
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 461,
+       "commands": 442
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 10,
+       "share": 0.455,
+       "enteredAt": 903,
+       "commands": 597
+      },
+      {
+       "id": "06a-no-zapgun",
+       "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 10,
+     "furthestStage": "06-plato",
+     "end": "stuck"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r17-escaperoom-full",
+    "date": "2026-10-13",
+    "round": "17",
+    "mode": "typed",
+    "persona": "an escape-room designer who asks how each puzzle was built, keeps a timeline of what happens on the station each day, and saves before every risky step",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 54,
+    "gained": 54,
+    "available": 80,
+    "share": 0.675,
+    "stagesAdvanced": 0,
+    "stuckAt": 1254,
+    "tail": 246,
+    "deaths": [
+     {
+      "n": 41,
+      "gained": 0
+     },
+     {
+      "n": 886,
+      "gained": 36
+     },
+     {
+      "n": 1098,
+      "gained": 47
+     },
+     {
+      "n": 1296,
+      "gained": 54
+     }
+    ],
+    "won": false,
+    "reason": "stuck",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      57,
+      5
+     ],
+     [
+      158,
+      8
+     ],
+     [
+      302,
+      11
+     ],
+     [
+      377,
+      17
+     ],
+     [
+      529,
+      21
+     ],
+     [
+      599,
+      24
+     ],
+     [
+      685,
+      31
+     ],
+     [
+      750,
+      36
+     ],
+     [
+      960,
+      41
+     ],
+     [
+      1014,
+      47
+     ],
+     [
+      1254,
+      54
+     ]
+    ],
+    "legStarts": [
+     400,
+     800,
+     1200
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 0,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 0,
+       "commands": 0
+      },
+      {
+       "id": "01b-launched",
+       "name": "01b-launched",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 57
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 57,
+       "commands": 0
+      },
+      {
+       "id": "02a-car-at-seven",
+       "name": "02a-car-at-seven",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 57,
+       "commands": 0
+      },
+      {
+       "id": "02b-laundry",
+       "name": "02b-laundry",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 57,
+       "commands": 245
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 4,
+       "reached": true,
+       "points": 4,
+       "share": 1,
+       "enteredAt": 302,
+       "commands": 75
+      },
+      {
+       "id": "03a-pet-store",
+       "name": "03a-pet-store",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 377,
+       "commands": 152
+      },
+      {
+       "id": "03b-rank8",
+       "name": "03b-rank8",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 529,
+       "commands": 70
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 599,
+       "commands": 86
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 685,
+       "commands": 569
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 3,
+       "share": 0.136,
+       "enteredAt": 1254,
+       "commands": 246
+      },
+      {
+       "id": "06a-no-zapgun",
+       "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 10,
+     "furthestStage": "06-plato",
+     "end": "stuck"
+    },
+    "outcome": "cap"
+   },
+   {
+    "session": "r17-illustrator-full",
+    "date": "2026-10-13",
+    "round": "17",
+    "mode": "click",
+    "persona": "a freelance illustrator in their thirties on a laptop who looks at the picture first, clicks whatever is drawn, and reads descriptions to check them against what they see",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1200,
+    "commands": 1109,
+    "legs": 3,
+    "startScore": 0,
+    "bestScore": 80,
+    "gained": 80,
+    "available": 80,
+    "share": 1,
+    "stagesAdvanced": 0,
+    "stuckAt": 1036,
+    "tail": 73,
+    "deaths": [
+     {
+      "n": 17,
+      "gained": 0
+     },
+     {
+      "n": 512,
+      "gained": 26
+     },
+     {
+      "n": 747,
+      "gained": 53
+     },
+     {
+      "n": 1054,
+      "gained": 80
+     }
+    ],
+    "won": true,
+    "reason": "won",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      37,
+      5
+     ],
+     [
+      101,
+      8
+     ],
+     [
+      122,
+      11
+     ],
+     [
+      255,
+      17
+     ],
+     [
+      321,
+      22
+     ],
+     [
+      486,
+      26
+     ],
+     [
+      520,
+      33
+     ],
+     [
+      539,
+      36
+     ],
+     [
+      623,
+      41
+     ],
+     [
+      647,
+      44
+     ],
+     [
+      660,
+      50
+     ],
+     [
+      708,
+      53
+     ],
+     [
+      779,
+      57
+     ],
+     [
+      849,
+      60
+     ],
+     [
+      856,
+      67
+     ],
+     [
+      872,
+      69
+     ],
+     [
+      964,
+      71
+     ],
+     [
+      1018,
+      73
+     ],
+     [
+      1031,
+      75
+     ],
+     [
+      1036,
+      80
+     ]
+    ],
+    "legStarts": [
+     400,
+     800
+    ],
+    "turnCap": 1500,
+    "capped": false,
+    "lastDied": false,
+    "noLongerAt": 882,
+    "sub": {
+     "key": "click",
+     "label": "click",
+     "tokens": [
+      "click"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 0,
+       "commands": 0
+      },
+      {
+       "id": "01b-launched",
+       "name": "01b-launched",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 37
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 37,
+       "commands": 0
+      },
+      {
+       "id": "02a-car-at-seven",
+       "name": "02a-car-at-seven",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 37,
+       "commands": 0
+      },
+      {
+       "id": "02b-laundry",
+       "name": "02b-laundry",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 37,
+       "commands": 85
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 4,
+       "reached": true,
+       "points": 4,
+       "share": 1,
+       "enteredAt": 122,
+       "commands": 133
+      },
+      {
+       "id": "03a-pet-store",
+       "name": "03a-pet-store",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 255,
+       "commands": 66
+      },
+      {
+       "id": "03b-rank8",
+       "name": "03b-rank8",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 321,
+       "commands": 165
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 486,
+       "commands": 0
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 486,
+       "commands": 222
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 22,
+       "share": 1,
+       "enteredAt": 708,
+       "commands": 310
+      },
+      {
+       "id": "06a-no-zapgun",
+       "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1018,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": true,
+       "points": 7,
+       "share": 1,
+       "enteredAt": 1018,
+       "commands": 91
+      }
+     ],
+     "furthest": 12,
+     "furthestStage": "07-factory",
+     "end": "won"
+    },
+    "outcome": "won"
+   },
+   {
+    "session": "r17-stenographer-full",
+    "date": "2026-10-13",
+    "round": "17",
+    "mode": "typed",
+    "persona": "a court stenographer who types fast and exactly, adopts the parser's abbreviations once learned, and reads every paper in the package before acting on it",
+    "checkpoint": "01-duffy",
+    "fromOpening": true,
+    "undo": false,
+    "budget": 1500,
+    "commands": 1500,
+    "legs": 4,
+    "startScore": 0,
+    "bestScore": 58,
+    "gained": 58,
+    "available": 80,
+    "share": 0.725,
+    "stagesAdvanced": 0,
+    "stuckAt": 1468,
+    "tail": 32,
+    "deaths": [
+     {
+      "n": 16,
+      "gained": 0
+     },
+     {
+      "n": 99,
+      "gained": 5
+     },
+     {
+      "n": 790,
+      "gained": 50
+     },
+     {
+      "n": 964,
+      "gained": 50
+     },
+     {
+      "n": 1060,
+      "gained": 54
+     },
+     {
+      "n": 1301,
+      "gained": 54
+     },
+     {
+      "n": 1325,
+      "gained": 54
+     },
+     {
+      "n": 1332,
+      "gained": 54
+     },
+     {
+      "n": 1495,
+      "gained": 58
+     }
+    ],
+    "won": false,
+    "reason": "budget",
+    "steps": [
+     [
+      0,
+      0
+     ],
+     [
+      41,
+      5
+     ],
+     [
+      115,
+      8
+     ],
+     [
+      215,
+      11
+     ],
+     [
+      295,
+      17
+     ],
+     [
+      496,
+      20
+     ],
+     [
+      521,
+      25
+     ],
+     [
+      591,
+      27
+     ],
+     [
+      616,
+      32
+     ],
+     [
+      646,
+      37
+     ],
+     [
+      673,
+      44
+     ],
+     [
+      741,
+      50
+     ],
+     [
+      1008,
+      54
+     ],
+     [
+      1468,
+      58
+     ]
+    ],
+    "legStarts": [
+     400,
+     777,
+     1177
+    ],
+    "turnCap": 1500,
+    "capped": true,
+    "lastDied": false,
+    "noLongerAt": 538,
+    "sub": {
+     "key": "typed",
+     "label": "typed",
+     "tokens": [
+      "typed"
+     ]
+    },
+    "roundKind": "full",
+    "run": {
+     "byStage": [
+      {
+       "id": "01-duffy",
+       "name": "Duffy",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 0,
+       "commands": 0
+      },
+      {
+       "id": "01b-launched",
+       "name": "01b-launched",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 0,
+       "commands": 41
+      },
+      {
+       "id": "02-station",
+       "name": "Station",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 41,
+       "commands": 0
+      },
+      {
+       "id": "02a-car-at-seven",
+       "name": "02a-car-at-seven",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 41,
+       "commands": 0
+      },
+      {
+       "id": "02b-laundry",
+       "name": "02b-laundry",
+       "available": 6,
+       "reached": true,
+       "points": 6,
+       "share": 1,
+       "enteredAt": 41,
+       "commands": 174
+      },
+      {
+       "id": "03-village",
+       "name": "Village",
+       "available": 4,
+       "reached": true,
+       "points": 4,
+       "share": 1,
+       "enteredAt": 215,
+       "commands": 80
+      },
+      {
+       "id": "03a-pet-store",
+       "name": "03a-pet-store",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 295,
+       "commands": 201
+      },
+      {
+       "id": "03b-rank8",
+       "name": "03b-rank8",
+       "available": 5,
+       "reached": true,
+       "points": 5,
+       "share": 1,
+       "enteredAt": 496,
+       "commands": 25
+      },
+      {
+       "id": "04-day1-end",
+       "name": "Day 1 end",
+       "available": 3,
+       "reached": true,
+       "points": 3,
+       "share": 1,
+       "enteredAt": 521,
+       "commands": 70
+      },
+      {
+       "id": "05-day2",
+       "name": "Day 2",
+       "available": 25,
+       "reached": true,
+       "points": 25,
+       "share": 1,
+       "enteredAt": 591,
+       "commands": 417
+      },
+      {
+       "id": "06-plato",
+       "name": "Plato",
+       "available": 22,
+       "reached": true,
+       "points": 7,
+       "share": 0.318,
+       "enteredAt": 1008,
+       "commands": 492
+      },
+      {
+       "id": "06a-no-zapgun",
+       "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07-factory",
+       "name": "Factory",
+       "available": 7,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      }
+     ],
+     "furthest": 10,
+     "furthestStage": "06-plato",
+     "end": "cap"
+    },
+    "outcome": "cap"
    }
   ]
  },
  "git": {
-  "commits": 958,
-  "withWorkTrailer": 542,
+  "commits": 1271,
+  "withWorkTrailer": 703,
   "churnByArea": {
-   "design": 928810,
-   "wwwroot/data": 473353,
-   "wwwroot/wiki": 195070,
-   "playtests": 74973,
-   "scripts": 67796,
+   "design": 601781,
+   "wwwroot/data": 553165,
+   "wwwroot/wiki": 285978,
+   "playtests": 130390,
+   "scripts": 75232,
    "stationfall-master": 44064,
-   "wwwroot/rules": 9803,
-   "wwwroot/scene": 5771,
-   "wwwroot/engine": 5222,
-   "wwwroot/dashboard": 4764,
+   "wwwroot/rules": 10141,
+   "wwwroot/scene": 6726,
+   "wwwroot/engine": 5334,
+   "wwwroot/dashboard": 4886,
+   "decisions": 4235,
    "porting": 4081,
-   "decisions": 2788,
-   "(top)": 2273,
+   "(top)": 2685,
    "reference": 1649,
-   "wwwroot": 1426,
-   "wwwroot/ui": 487,
+   "wwwroot": 1501,
+   "methodology": 925,
+   "wwwroot/ui": 510,
    "docs": 158,
    "Properties": 23,
    "wwwroot/assets": 0
   },
   "byWork": [
+   {
+    "work": "M5 [triage]",
+    "commits": 12
+   },
+   {
+    "work": "M7 [plates]",
+    "commits": 3
+   },
+   {
+    "work": "M5 [playtest]",
+    "commits": 19
+   },
+   {
+    "work": "playtest [round-17]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [art-eyes]",
+    "commits": 27
+   },
+   {
+    "work": "M7 [handoff]",
+    "commits": 12
+   },
+   {
+    "work": "M5 [history]",
+    "commits": 6
+   },
+   {
+    "work": "M9 [methodology]",
+    "commits": 1
+   },
+   {
+    "work": "M5 [D106]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [tooling]",
+    "commits": 36
+   },
+   {
+    "work": "M8 [playtest]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [mail]",
+    "commits": 36
+   },
+   {
+    "work": "M7 [rooms]",
+    "commits": 11
+   },
+   {
+    "work": "M7 [D104]",
+    "commits": 1
+   },
+   {
+    "work": "M5 [handoff]",
+    "commits": 4
+   },
+   {
+    "work": "M7 [decisions]",
+    "commits": 5
+   },
+   {
+    "work": "M7 [playtest-fixes]",
+    "commits": 6
+   },
+   {
+    "work": "M7 [dashboard]",
+    "commits": 9
+   },
+   {
+    "work": "M5 [decisions]",
+    "commits": 3
+   },
+   {
+    "work": "M5 [D100]",
+    "commits": 1
+   },
+   {
+    "work": "M5 [D98]",
+    "commits": 1
+   },
+   {
+    "work": "M5 [D96 D97]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [glimpses]",
+    "commits": 3
+   },
+   {
+    "work": "M5 [D93]",
+    "commits": 3
+   },
+   {
+    "work": "M5 [walkthrough]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-089 DR-090 DR-105 DR-011]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-101 DR-105 DR-089 DR-090 DR-011]",
+    "commits": 1
+   },
+   {
+    "work": "M5 [process]",
+    "commits": 3
+   },
+   {
+    "work": "M7 [review]",
+    "commits": 3
+   },
+   {
+    "work": "M7 [DR-083 DR-089 DR-088]",
+    "commits": 1
+   },
+   {
+    "work": "M5 [dashboard]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-083 DR-079]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-092]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-048]",
+    "commits": 6
+   },
+   {
+    "work": "M7 [DR-104 DR-105 DR-048]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-101 DR-102 DR-103]",
+    "commits": 2
+   },
+   {
+    "work": "M7 [DR-087 DR-099 DR-100 DR-104 DR-105]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-098 DR-101]",
+    "commits": 1
+   },
+   {
+    "work": "M7 [DR-098 DR-099 DR-100 DR-101]",
+    "commits": 1
+   },
    {
     "work": "M7 [DR-074]",
     "commits": 4
@@ -15016,10 +22519,6 @@
    {
     "work": "M7 [DR-073]",
     "commits": 2
-   },
-   {
-    "work": "M7 [handoff]",
-    "commits": 5
    },
    {
     "work": "M7 [contract, DR-073, DR-074]",
@@ -15090,10 +22589,6 @@
     "commits": 4
    },
    {
-    "work": "M7 [DR-048]",
-    "commits": 5
-   },
-   {
     "work": "M7 [DR-047]",
     "commits": 5
    },
@@ -15108,10 +22603,6 @@
    {
     "work": "M7 DR-033",
     "commits": 2
-   },
-   {
-    "work": "M7 [mail]",
-    "commits": 4
    },
    {
     "work": "M7 [DR-038]",
@@ -15152,10 +22643,6 @@
    {
     "work": "M7 [DR-025]",
     "commits": 6
-   },
-   {
-    "work": "M7 [tooling]",
-    "commits": 29
    },
    {
     "work": "M7 [DR-038, DR-037]",
@@ -15278,10 +22765,6 @@
     "commits": 1
    },
    {
-    "work": "M7 [characters]",
-    "commits": 7
-   },
-   {
     "work": "M7 [DR-016]",
     "commits": 13
    },
@@ -15366,10 +22849,6 @@
     "commits": 1
    },
    {
-    "work": "M7 [review]",
-    "commits": 2
-   },
-   {
     "work": "M7 [DR-017, DR-004, DR-002, DR-020, DR-021, DR-022, DR-026, DR-029]",
     "commits": 1
    },
@@ -15446,16 +22925,16 @@
     "commits": 1
    },
    {
-    "work": "M5 [playtest]",
-    "commits": 9
-   },
-   {
     "work": "M3 [DR-023]",
     "commits": 2
    },
    {
     "work": "M3 [DR-024]",
     "commits": 1
+   },
+   {
+    "work": "M7 [characters]",
+    "commits": 6
    },
    {
     "work": "M7 [DR-017]",
@@ -15480,10 +22959,6 @@
    {
     "work": "M7 [DR-014]",
     "commits": 14
-   },
-   {
-    "work": "M7 [decisions]",
-    "commits": 1
    },
    {
     "work": "M7 [DR-021]",
@@ -15518,16 +22993,8 @@
     "commits": 2
    },
    {
-    "work": "M7 [dashboard]",
-    "commits": 3
-   },
-   {
     "work": "M7 [DR-008]",
     "commits": 7
-   },
-   {
-    "work": "M5 [handoff]",
-    "commits": 3
    },
    {
     "work": "M7 [DR-009]",
@@ -15539,10 +23006,6 @@
    },
    {
     "work": "M7 [DR-016|DR-017|DR-018|DR-019]",
-    "commits": 1
-   },
-   {
-    "work": "M5 [history]",
     "commits": 1
    },
    {
@@ -15584,10 +23047,6 @@
    {
     "work": "M5 [round 8]",
     "commits": 3
-   },
-   {
-    "work": "M5 [process]",
-    "commits": 2
    },
    {
     "work": "M7 [DR-020, DR-022, DR-024]",
@@ -15666,10 +23125,6 @@
     "commits": 1
    },
    {
-    "work": "M5 [triage]",
-    "commits": 2
-   },
-   {
     "work": "M7 DR-004",
     "commits": 2
    },
@@ -15693,6 +23148,18 @@
    "date": "2026-10-03"
   },
   {
+   "room": "AIRLOCK",
+   "date": "2026-10-10"
+  },
+  {
+   "room": "ALIEN-SHIP",
+   "date": "2026-10-12"
+  },
+  {
+   "room": "ALLEY",
+   "date": "2026-10-11"
+  },
+  {
    "room": "ARMORY",
    "date": "2026-09-30"
   },
@@ -15711,6 +23178,14 @@
   {
    "room": "AUXILIARY-SANFAC",
    "date": "2026-10-08"
+  },
+  {
+   "room": "BANK",
+   "date": "2026-10-12"
+  },
+  {
+   "room": "BARBERSHOP",
+   "date": "2026-10-13"
   },
   {
    "room": "BARRACKS-SANFAC",
@@ -15771,6 +23246,10 @@
   {
    "room": "COMMANDERS-QUARTERS",
    "date": "2026-09-28"
+  },
+  {
+   "room": "COMMANDERS-QUARTERS-BED",
+   "date": "2026-10-13"
   },
   {
    "room": "COMPUTER-CONTROL",
@@ -15849,12 +23328,20 @@
    "date": "2026-10-05"
   },
   {
+   "room": "FLOPHOUSE-BED",
+   "date": "2026-10-13"
+  },
+  {
    "room": "FORM-STORAGE-ROOM",
    "date": "2026-09-26"
   },
   {
+   "room": "FORTUNE-TELLER",
+   "date": "2026-10-11"
+  },
+  {
    "room": "GREASY-STRAW",
-   "date": "2026-10-04"
+   "date": "2026-10-12"
   },
   {
    "room": "GRIMY-PASSAGE",
@@ -15867,6 +23354,14 @@
   {
    "room": "GYM",
    "date": "2026-09-28"
+  },
+  {
+   "room": "GYM-MACHINE",
+   "date": "2026-10-12"
+  },
+  {
+   "room": "HOLDING-TANK-INSIDE",
+   "date": "2026-10-12"
   },
   {
    "room": "HOLDING-TANK-LEVEL",
@@ -15901,6 +23396,10 @@
    "date": "2026-10-02"
   },
   {
+   "room": "LOAN-SHARK",
+   "date": "2026-10-12"
+  },
+  {
    "room": "MAIN-STORAGE",
    "date": "2026-10-02"
   },
@@ -15909,8 +23408,16 @@
    "date": "2026-10-04"
   },
   {
+   "room": "MAKESHIFT-CONNECTOR",
+   "date": "2026-10-12"
+  },
+  {
    "room": "MALE-BARRACKS",
    "date": "2026-09-30"
+  },
+  {
+   "room": "MAYORS-OFFICE",
+   "date": "2026-10-12"
   },
   {
    "room": "MEETING-ROOM-1",
@@ -15925,6 +23432,10 @@
    "date": "2026-10-02"
   },
   {
+   "room": "MISSIONARY",
+   "date": "2026-10-12"
+  },
+  {
    "room": "NORTH-CONNECTION",
    "date": "2026-09-29"
   },
@@ -15937,8 +23448,16 @@
    "date": "2026-10-01"
   },
   {
+   "room": "OFFICERS-QUARTERS-A-BED",
+   "date": "2026-10-12"
+  },
+  {
    "room": "OFFICERS-QUARTERS-B",
-   "date": "2026-09-30"
+   "date": "2026-10-12"
+  },
+  {
+   "room": "OFFICERS-QUARTERS-B-BED",
+   "date": "2026-10-12"
   },
   {
    "room": "OFFICERS-QUARTERS-C",
@@ -15949,8 +23468,16 @@
    "date": "2026-10-01"
   },
   {
+   "room": "OPIUM-DEN",
+   "date": "2026-10-12"
+  },
+  {
    "room": "PAPER-RECYCLING-PLANT",
    "date": "2026-10-05"
+  },
+  {
+   "room": "PAWN-SHOP",
+   "date": "2026-10-12"
   },
   {
    "room": "PET-STORE",
@@ -15963,6 +23490,18 @@
   {
    "room": "PX",
    "date": "2026-09-27"
+  },
+  {
+   "room": "REC-SHOP",
+   "date": "2026-10-12"
+  },
+  {
+   "room": "REC-SHOP-BOOTH",
+   "date": "2026-10-12"
+  },
+  {
+   "room": "RECRUITMENT-OFFICE",
+   "date": "2026-10-12"
   },
   {
    "room": "ROBOT-POOL",
@@ -15981,6 +23520,10 @@
    "date": "2026-10-08"
   },
   {
+   "room": "SCIENTISTS-QUARTERS-BED",
+   "date": "2026-10-13"
+  },
+  {
    "room": "SHADY-DANS",
    "date": "2026-10-08"
   },
@@ -15991,6 +23534,10 @@
   {
    "room": "SICK-BAY",
    "date": "2026-09-27"
+  },
+  {
+   "room": "SICK-BAY-BED",
+   "date": "2026-10-13"
   },
   {
    "room": "SOUTH-CONNECTION",
@@ -16021,6 +23568,10 @@
    "date": "2026-09-29"
   },
   {
+   "room": "STUDIO",
+   "date": "2026-10-12"
+  },
+  {
    "room": "THEATRE",
    "date": "2026-09-29"
   },
@@ -16033,8 +23584,20 @@
    "date": "2026-10-05"
   },
   {
+   "room": "TRAVEL-AGENCY",
+   "date": "2026-10-12"
+  },
+  {
    "room": "TUBE",
    "date": "2026-10-06"
+  },
+  {
+   "room": "VACUUM-STORAGE",
+   "date": "2026-10-09"
+  },
+  {
+   "room": "WAREHOUSE",
+   "date": "2026-10-12"
   },
   {
    "room": "WORKSHOP",
@@ -16047,7 +23610,7 @@
    "room": "DECK-TWELVE",
    "change": 1,
    "date": "2026-09-24",
-   "via": "1bcdc5e",
+   "via": "e0a977e",
    "total": 1
   },
   {
@@ -16055,7 +23618,7 @@
    "room": "FORM-STORAGE-ROOM",
    "change": 1,
    "date": "2026-09-26",
-   "via": "431a2fa",
+   "via": "c2f5099",
    "total": 2
   },
   {
@@ -16063,7 +23626,7 @@
    "room": "COMM-CENTER",
    "change": 1,
    "date": "2026-09-27",
-   "via": "cf98bd1",
+   "via": "a6dc10a",
    "total": 3
   },
   {
@@ -16071,7 +23634,7 @@
    "room": "PX",
    "change": 1,
    "date": "2026-09-27",
-   "via": "cf98bd1",
+   "via": "a6dc10a",
    "total": 4
   },
   {
@@ -16079,7 +23642,7 @@
    "room": "SICK-BAY",
    "change": 1,
    "date": "2026-09-27",
-   "via": "cf98bd1",
+   "via": "a6dc10a",
    "total": 5
   },
   {
@@ -16087,7 +23650,7 @@
    "room": "COMMANDERS-OFFICE",
    "change": 1,
    "date": "2026-09-27",
-   "via": "efb3db1",
+   "via": "40159b3",
    "total": 6
   },
   {
@@ -16095,7 +23658,7 @@
    "room": "SOUTH-JUNCTION",
    "change": 1,
    "date": "2026-09-27",
-   "via": "3d88a7d",
+   "via": "7e7eae0",
    "total": 7
   },
   {
@@ -16103,7 +23666,7 @@
    "room": "LEVEL-FIVE",
    "change": 1,
    "date": "2026-09-27",
-   "via": "050a012",
+   "via": "11e78be",
    "total": 8
   },
   {
@@ -16111,7 +23674,7 @@
    "room": "STATION-CONTROL",
    "change": 1,
    "date": "2026-09-27",
-   "via": "5af8956",
+   "via": "cc0afed",
    "total": 9
   },
   {
@@ -16119,7 +23682,7 @@
    "room": "BRIEFING-ROOM",
    "change": 1,
    "date": "2026-09-28",
-   "via": "bf23f4c",
+   "via": "2b6df90",
    "total": 10
   },
   {
@@ -16127,7 +23690,7 @@
    "room": "CARGO-BAY",
    "change": 1,
    "date": "2026-09-28",
-   "via": "bf23f4c",
+   "via": "2b6df90",
    "total": 11
   },
   {
@@ -16135,7 +23698,7 @@
    "room": "CARGO-BAY-ENTRANCE",
    "change": 1,
    "date": "2026-09-28",
-   "via": "bf23f4c",
+   "via": "2b6df90",
    "total": 12
   },
   {
@@ -16143,7 +23706,7 @@
    "room": "EAST-CONNECTION",
    "change": 1,
    "date": "2026-09-28",
-   "via": "bf23f4c",
+   "via": "2b6df90",
    "total": 13
   },
   {
@@ -16151,7 +23714,7 @@
    "room": "EAST-JUNCTION",
    "change": 1,
    "date": "2026-09-28",
-   "via": "bf23f4c",
+   "via": "2b6df90",
    "total": 14
   },
   {
@@ -16159,7 +23722,7 @@
    "room": "LEVEL-THREE",
    "change": 1,
    "date": "2026-09-28",
-   "via": "bf23f4c",
+   "via": "2b6df90",
    "total": 15
   },
   {
@@ -16167,7 +23730,7 @@
    "room": "NORTH-JUNCTION",
    "change": 1,
    "date": "2026-09-28",
-   "via": "bf23f4c",
+   "via": "2b6df90",
    "total": 16
   },
   {
@@ -16175,7 +23738,7 @@
    "room": "SOUTH-CONNECTION",
    "change": 1,
    "date": "2026-09-28",
-   "via": "bf23f4c",
+   "via": "2b6df90",
    "total": 17
   },
   {
@@ -16183,7 +23746,7 @@
    "room": "LEVEL-FOUR",
    "change": 1,
    "date": "2026-09-28",
-   "via": "202064c",
+   "via": "8a5e616",
    "total": 18
   },
   {
@@ -16191,7 +23754,7 @@
    "room": "COMMANDERS-QUARTERS",
    "change": 1,
    "date": "2026-09-28",
-   "via": "f34579a",
+   "via": "4c1ef91",
    "total": 19
   },
   {
@@ -16199,7 +23762,7 @@
    "room": "ROBOT-POOL",
    "change": 1,
    "date": "2026-09-28",
-   "via": "ea07111",
+   "via": "80e1d9e",
    "total": 20
   },
   {
@@ -16207,7 +23770,7 @@
    "room": "ROBOT-POOL",
    "change": -1,
    "date": null,
-   "via": "ab670e6",
+   "via": "08eb5b0",
    "total": 19
   },
   {
@@ -16215,7 +23778,7 @@
    "room": "ROBOT-POOL",
    "change": 1,
    "date": "2026-09-28",
-   "via": "07440b7",
+   "via": "720d428",
    "total": 20
   },
   {
@@ -16223,7 +23786,7 @@
    "room": "GYM",
    "change": 1,
    "date": "2026-09-28",
-   "via": "f55949f",
+   "via": "310b454",
    "total": 21
   },
   {
@@ -16231,7 +23794,7 @@
    "room": "CHAPEL",
    "change": 1,
    "date": "2026-09-28",
-   "via": "7192844",
+   "via": "7466ff5",
    "total": 22
   },
   {
@@ -16239,7 +23802,7 @@
    "room": "BRIG",
    "change": 1,
    "date": "2026-09-29",
-   "via": "c0e2366",
+   "via": "21cc691",
    "total": 23
   },
   {
@@ -16247,7 +23810,7 @@
    "room": "DOCKING-BAY-3",
    "change": 1,
    "date": "2026-09-29",
-   "via": "c0e2366",
+   "via": "21cc691",
    "total": 24
   },
   {
@@ -16255,7 +23818,7 @@
    "room": "DOCKING-BAY-4",
    "change": 1,
    "date": "2026-09-29",
-   "via": "c0e2366",
+   "via": "21cc691",
    "total": 25
   },
   {
@@ -16263,7 +23826,7 @@
    "room": "END-OF-CORRIDOR",
    "change": 1,
    "date": "2026-09-29",
-   "via": "c0e2366",
+   "via": "21cc691",
    "total": 26
   },
   {
@@ -16271,7 +23834,7 @@
    "room": "FILE-ROOM",
    "change": 1,
    "date": "2026-09-29",
-   "via": "c0e2366",
+   "via": "21cc691",
    "total": 27
   },
   {
@@ -16279,7 +23842,7 @@
    "room": "LAUNDRY",
    "change": 1,
    "date": "2026-09-29",
-   "via": "c0e2366",
+   "via": "21cc691",
    "total": 28
   },
   {
@@ -16287,7 +23850,7 @@
    "room": "LEVEL-SIX",
    "change": 1,
    "date": "2026-09-29",
-   "via": "c0e2366",
+   "via": "21cc691",
    "total": 29
   },
   {
@@ -16295,7 +23858,7 @@
    "room": "NORTH-CONNECTION",
    "change": 1,
    "date": "2026-09-29",
-   "via": "c0e2366",
+   "via": "21cc691",
    "total": 30
   },
   {
@@ -16303,7 +23866,7 @@
    "room": "ROBOT-SHOP",
    "change": 1,
    "date": "2026-09-29",
-   "via": "c0e2366",
+   "via": "21cc691",
    "total": 31
   },
   {
@@ -16311,7 +23874,7 @@
    "room": "SHIPPING-ROOM",
    "change": 1,
    "date": "2026-09-29",
-   "via": "c0e2366",
+   "via": "21cc691",
    "total": 32
   },
   {
@@ -16319,7 +23882,7 @@
    "room": "WORKSHOP",
    "change": 1,
    "date": "2026-09-29",
-   "via": "c0e2366",
+   "via": "21cc691",
    "total": 33
   },
   {
@@ -16327,7 +23890,7 @@
    "room": "BARRACKS-SANFAC",
    "change": 1,
    "date": "2026-09-29",
-   "via": "151b44a",
+   "via": "02c6da2",
    "total": 34
   },
   {
@@ -16335,7 +23898,7 @@
    "room": "FEMALE-BARRACKS",
    "change": 1,
    "date": "2026-09-29",
-   "via": "151b44a",
+   "via": "02c6da2",
    "total": 35
   },
   {
@@ -16343,7 +23906,7 @@
    "room": "STORAGE-5",
    "change": 1,
    "date": "2026-09-29",
-   "via": "151b44a",
+   "via": "02c6da2",
    "total": 36
   },
   {
@@ -16351,7 +23914,7 @@
    "room": "THEATRE",
    "change": 1,
    "date": "2026-09-29",
-   "via": "151b44a",
+   "via": "02c6da2",
    "total": 37
   },
   {
@@ -16359,7 +23922,7 @@
    "room": "ARMORY",
    "change": 1,
    "date": "2026-09-30",
-   "via": "96a9f9f",
+   "via": "989646f",
    "total": 38
   },
   {
@@ -16367,7 +23930,7 @@
    "room": "SPACETRUCK",
    "change": 1,
    "date": "2026-09-30",
-   "via": "151b44a",
+   "via": "02c6da2",
    "total": 39
   },
   {
@@ -16375,7 +23938,7 @@
    "room": "AUXILIARY-BARRACKS",
    "change": 1,
    "date": "2026-09-30",
-   "via": "9cd9d85",
+   "via": "8008c3a",
    "total": 40
   },
   {
@@ -16383,7 +23946,7 @@
    "room": "MALE-BARRACKS",
    "change": 1,
    "date": "2026-09-30",
-   "via": "9cd9d85",
+   "via": "8008c3a",
    "total": 41
   },
   {
@@ -16391,7 +23954,7 @@
    "room": "OFFICERS-QUARTERS-B",
    "change": 1,
    "date": "2026-09-30",
-   "via": "ac10989",
+   "via": "22d00ae",
    "total": 42
   },
   {
@@ -16399,7 +23962,7 @@
    "room": "OFFICERS-QUARTERS-C",
    "change": 1,
    "date": "2026-10-01",
-   "via": "3860220",
+   "via": "f19d135",
    "total": 43
   },
   {
@@ -16407,7 +23970,7 @@
    "room": "OFFICERS-QUARTERS-A",
    "change": 1,
    "date": "2026-10-01",
-   "via": "e0ab469",
+   "via": "8d7f553",
    "total": 44
   },
   {
@@ -16415,7 +23978,7 @@
    "room": "OFFICERS-SANFAC",
    "change": 1,
    "date": "2026-10-01",
-   "via": "751fd1a",
+   "via": "cfbe1ca",
    "total": 45
   },
   {
@@ -16423,7 +23986,7 @@
    "room": "DOCKING-BAY-1",
    "change": 1,
    "date": "2026-10-01",
-   "via": "33fe553",
+   "via": "fee9478",
    "total": 46
   },
   {
@@ -16431,7 +23994,7 @@
    "room": "LIBRARY",
    "change": 1,
    "date": "2026-10-02",
-   "via": "0c41a8f",
+   "via": "72435c2",
    "total": 47
   },
   {
@@ -16439,7 +24002,7 @@
    "room": "MAIN-STORAGE",
    "change": 1,
    "date": "2026-10-02",
-   "via": "0c41a8f",
+   "via": "72435c2",
    "total": 48
   },
   {
@@ -16447,7 +24010,7 @@
    "room": "MEETING-ROOM-1",
    "change": 1,
    "date": "2026-10-02",
-   "via": "0c41a8f",
+   "via": "72435c2",
    "total": 49
   },
   {
@@ -16455,7 +24018,7 @@
    "room": "MESS-HALL",
    "change": 1,
    "date": "2026-10-02",
-   "via": "0c41a8f",
+   "via": "72435c2",
    "total": 50
   },
   {
@@ -16463,7 +24026,7 @@
    "room": "AIR-SHAFT",
    "change": 1,
    "date": "2026-10-03",
-   "via": "0c41a8f",
+   "via": "72435c2",
    "total": 51
   },
   {
@@ -16471,7 +24034,7 @@
    "room": "BOTTOM-OF-AIR-SHAFT",
    "change": 1,
    "date": "2026-10-03",
-   "via": "0c41a8f",
+   "via": "72435c2",
    "total": 52
   },
   {
@@ -16479,7 +24042,7 @@
    "room": "ELEVATOR",
    "change": 1,
    "date": "2026-10-03",
-   "via": "0c41a8f",
+   "via": "72435c2",
    "total": 53
   },
   {
@@ -16487,7 +24050,7 @@
    "room": "MEETING-ROOM-2",
    "change": 1,
    "date": "2026-10-03",
-   "via": "0c41a8f",
+   "via": "72435c2",
    "total": 54
   },
   {
@@ -16495,7 +24058,7 @@
    "room": "TOP-OF-AIR-SHAFT",
    "change": 1,
    "date": "2026-10-03",
-   "via": "0c41a8f",
+   "via": "72435c2",
    "total": 55
   },
   {
@@ -16503,7 +24066,7 @@
    "room": "DOCKING-BAY-2",
    "change": 1,
    "date": "2026-10-04",
-   "via": "0c41a8f",
+   "via": "72435c2",
    "total": 56
   },
   {
@@ -16511,7 +24074,7 @@
    "room": "GREASY-STRAW",
    "change": 1,
    "date": "2026-10-04",
-   "via": "7a2c0a0",
+   "via": "7b421b8",
    "total": 57
   },
   {
@@ -16519,7 +24082,7 @@
    "room": "GRIMY-PASSAGE",
    "change": 1,
    "date": "2026-10-04",
-   "via": "7a2c0a0",
+   "via": "7b421b8",
    "total": 58
   },
   {
@@ -16527,7 +24090,7 @@
    "room": "MAIN-STREET",
    "change": 1,
    "date": "2026-10-04",
-   "via": "7a2c0a0",
+   "via": "7b421b8",
    "total": 59
   },
   {
@@ -16535,7 +24098,7 @@
    "room": "SPACETRUCK-COPILOT",
    "change": 1,
    "date": "2026-10-04",
-   "via": "7a2c0a0",
+   "via": "7b421b8",
    "total": 60
   },
   {
@@ -16543,7 +24106,7 @@
    "room": "SPACETRUCK-PILOT",
    "change": 1,
    "date": "2026-10-04",
-   "via": "7a2c0a0",
+   "via": "7b421b8",
    "total": 61
   },
   {
@@ -16551,7 +24114,7 @@
    "room": "BROADWAY",
    "change": 1,
    "date": "2026-10-05",
-   "via": "7a2c0a0",
+   "via": "7b421b8",
    "total": 62
   },
   {
@@ -16559,7 +24122,7 @@
    "room": "CASINO",
    "change": 1,
    "date": "2026-10-05",
-   "via": "7a2c0a0",
+   "via": "7b421b8",
    "total": 63
   },
   {
@@ -16567,7 +24130,7 @@
    "room": "FIELD-OFFICE",
    "change": 1,
    "date": "2026-10-05",
-   "via": "7a2c0a0",
+   "via": "7b421b8",
    "total": 64
   },
   {
@@ -16575,7 +24138,7 @@
    "room": "FLOPHOUSE",
    "change": 1,
    "date": "2026-10-05",
-   "via": "7a2c0a0",
+   "via": "7b421b8",
    "total": 65
   },
   {
@@ -16583,7 +24146,7 @@
    "room": "GROCERY",
    "change": 1,
    "date": "2026-10-05",
-   "via": "7a2c0a0",
+   "via": "7b421b8",
    "total": 66
   },
   {
@@ -16591,7 +24154,7 @@
    "room": "PAPER-RECYCLING-PLANT",
    "change": 1,
    "date": "2026-10-05",
-   "via": "7a2c0a0",
+   "via": "7b421b8",
    "total": 67
   },
   {
@@ -16599,7 +24162,7 @@
    "room": "PRINTING-PLANT",
    "change": 1,
    "date": "2026-10-05",
-   "via": "7a2c0a0",
+   "via": "7b421b8",
    "total": 68
   },
   {
@@ -16607,7 +24170,7 @@
    "room": "SALOON",
    "change": 1,
    "date": "2026-10-05",
-   "via": "7a2c0a0",
+   "via": "7b421b8",
    "total": 69
   },
   {
@@ -16615,7 +24178,7 @@
    "room": "TRADING-POST",
    "change": 1,
    "date": "2026-10-05",
-   "via": "7a2c0a0",
+   "via": "7b421b8",
    "total": 70
   },
   {
@@ -16623,7 +24186,7 @@
    "room": "TUBE",
    "change": 1,
    "date": "2026-10-06",
-   "via": "17c8a9f",
+   "via": "642be57",
    "total": 71
   },
   {
@@ -16631,7 +24194,7 @@
    "room": "DOME",
    "change": 1,
    "date": "2026-10-06",
-   "via": "423341a",
+   "via": "2b0397f",
    "total": 72
   },
   {
@@ -16639,7 +24202,7 @@
    "room": "ASTRO-LAB",
    "change": 1,
    "date": "2026-10-06",
-   "via": "8df4de5",
+   "via": "cebca1e",
    "total": 73
   },
   {
@@ -16647,7 +24210,7 @@
    "room": "ENGINEERING-LAB",
    "change": 1,
    "date": "2026-10-06",
-   "via": "8df4de5",
+   "via": "cebca1e",
    "total": 74
   },
   {
@@ -16655,7 +24218,7 @@
    "room": "ASTRO-OFFICE",
    "change": 1,
    "date": "2026-10-06",
-   "via": "364af38",
+   "via": "58bfe67",
    "total": 75
   },
   {
@@ -16663,7 +24226,7 @@
    "room": "ENGINEERING-OFFICE",
    "change": 1,
    "date": "2026-10-06",
-   "via": "364af38",
+   "via": "58bfe67",
    "total": 76
   },
   {
@@ -16671,7 +24234,7 @@
    "room": "FACTORY",
    "change": 1,
    "date": "2026-10-07",
-   "via": "33d2426",
+   "via": "8e3a6e6",
    "total": 77
   },
   {
@@ -16679,7 +24242,7 @@
    "room": "BIO-LAB",
    "change": 1,
    "date": "2026-10-07",
-   "via": "eb9af6e",
+   "via": "d1c61b8",
    "total": 78
   },
   {
@@ -16687,7 +24250,7 @@
    "room": "BIO-OFFICE",
    "change": 1,
    "date": "2026-10-07",
-   "via": "eb9af6e",
+   "via": "d1c61b8",
    "total": 79
   },
   {
@@ -16695,7 +24258,7 @@
    "room": "COMPUTER-CONTROL",
    "change": 1,
    "date": "2026-10-07",
-   "via": "eb9af6e",
+   "via": "d1c61b8",
    "total": 80
   },
   {
@@ -16703,7 +24266,7 @@
    "room": "BOTTOM-OF-ELEVATOR-SHAFT",
    "change": 1,
    "date": "2026-10-08",
-   "via": "6559154",
+   "via": "7b48f91",
    "total": 81
   },
   {
@@ -16711,7 +24274,7 @@
    "room": "HOLDING-TANK-LEVEL",
    "change": 1,
    "date": "2026-10-08",
-   "via": "6559154",
+   "via": "7b48f91",
    "total": 82
   },
   {
@@ -16719,7 +24282,7 @@
    "room": "SCIENTISTS-QUARTERS",
    "change": 1,
    "date": "2026-10-08",
-   "via": "6559154",
+   "via": "7b48f91",
    "total": 83
   },
   {
@@ -16727,7 +24290,7 @@
    "room": "AUXILIARY-SANFAC",
    "change": 1,
    "date": "2026-10-08",
-   "via": "cc709ce",
+   "via": "dac7f91",
    "total": 84
   },
   {
@@ -16735,7 +24298,7 @@
    "room": "SHADY-DANS",
    "change": 1,
    "date": "2026-10-08",
-   "via": "81f6e57",
+   "via": "210f8b6",
    "total": 85
   },
   {
@@ -16743,7 +24306,7 @@
    "room": "DOC-SCHUSTER",
    "change": 1,
    "date": "2026-10-09",
-   "via": "a185648",
+   "via": "5d9601c",
    "total": 86
   },
   {
@@ -16751,7 +24314,7 @@
    "room": "JUNK-YARD",
    "change": 1,
    "date": "2026-10-09",
-   "via": "5ff087b",
+   "via": "5e8da19",
    "total": 87
   },
   {
@@ -16759,15 +24322,247 @@
    "room": "PET-STORE",
    "change": 1,
    "date": "2026-10-09",
-   "via": "c514b79",
+   "via": "f2dcbaf",
    "total": 88
+  },
+  {
+   "t": "2026-10-09 19:50",
+   "room": "BARBERSHOP",
+   "change": 1,
+   "date": "2026-10-09",
+   "via": "449fd77",
+   "total": 89
+  },
+  {
+   "t": "2026-10-09 19:51",
+   "room": "VACUUM-STORAGE",
+   "change": 1,
+   "date": "2026-10-09",
+   "via": "a482eb0",
+   "total": 90
+  },
+  {
+   "t": "2026-10-10 14:30",
+   "room": "AIRLOCK",
+   "change": 1,
+   "date": "2026-10-10",
+   "via": "4f686a7",
+   "total": 91
+  },
+  {
+   "t": "2026-10-11 19:20",
+   "room": "ALLEY",
+   "change": 1,
+   "date": "2026-10-11",
+   "via": "ab5df66",
+   "total": 92
+  },
+  {
+   "t": "2026-10-11 19:20",
+   "room": "FORTUNE-TELLER",
+   "change": 1,
+   "date": "2026-10-11",
+   "via": "ab5df66",
+   "total": 93
+  },
+  {
+   "t": "2026-10-12 05:18",
+   "room": "BANK",
+   "change": 1,
+   "date": "2026-10-12",
+   "via": "9fd0e4e",
+   "total": 94
+  },
+  {
+   "t": "2026-10-12 05:18",
+   "room": "HOLDING-TANK-INSIDE",
+   "change": 1,
+   "date": "2026-10-12",
+   "via": "9fd0e4e",
+   "total": 95
+  },
+  {
+   "t": "2026-10-12 05:18",
+   "room": "MAKESHIFT-CONNECTOR",
+   "change": 1,
+   "date": "2026-10-12",
+   "via": "9fd0e4e",
+   "total": 96
+  },
+  {
+   "t": "2026-10-12 05:18",
+   "room": "MAYORS-OFFICE",
+   "change": 1,
+   "date": "2026-10-12",
+   "via": "9fd0e4e",
+   "total": 97
+  },
+  {
+   "t": "2026-10-12 05:18",
+   "room": "MISSIONARY",
+   "change": 1,
+   "date": "2026-10-12",
+   "via": "9fd0e4e",
+   "total": 98
+  },
+  {
+   "t": "2026-10-12 05:18",
+   "room": "OPIUM-DEN",
+   "change": 1,
+   "date": "2026-10-12",
+   "via": "9fd0e4e",
+   "total": 99
+  },
+  {
+   "t": "2026-10-12 05:34",
+   "room": "ALIEN-SHIP",
+   "change": 1,
+   "date": "2026-10-12",
+   "via": "6664d10",
+   "total": 100
+  },
+  {
+   "t": "2026-10-12 05:34",
+   "room": "RECRUITMENT-OFFICE",
+   "change": 1,
+   "date": "2026-10-12",
+   "via": "6664d10",
+   "total": 101
+  },
+  {
+   "t": "2026-10-12 05:34",
+   "room": "WAREHOUSE",
+   "change": 1,
+   "date": "2026-10-12",
+   "via": "6664d10",
+   "total": 102
+  },
+  {
+   "t": "2026-10-12 07:07",
+   "room": "LOAN-SHARK",
+   "change": 1,
+   "date": "2026-10-12",
+   "via": "425abfc",
+   "total": 103
+  },
+  {
+   "t": "2026-10-12 07:07",
+   "room": "PAWN-SHOP",
+   "change": 1,
+   "date": "2026-10-12",
+   "via": "425abfc",
+   "total": 104
+  },
+  {
+   "t": "2026-10-12 07:07",
+   "room": "TRAVEL-AGENCY",
+   "change": 1,
+   "date": "2026-10-12",
+   "via": "425abfc",
+   "total": 105
+  },
+  {
+   "t": "2026-10-12 11:12",
+   "room": "REC-SHOP",
+   "change": 1,
+   "date": "2026-10-12",
+   "via": "d83bb12",
+   "total": 106
+  },
+  {
+   "t": "2026-10-12 11:12",
+   "room": "REC-SHOP-BOOTH",
+   "change": 1,
+   "date": "2026-10-12",
+   "via": "d83bb12",
+   "total": 107
+  },
+  {
+   "t": "2026-10-12 11:12",
+   "room": "STUDIO",
+   "change": 1,
+   "date": "2026-10-12",
+   "via": "d83bb12",
+   "total": 108
+  },
+  {
+   "t": "2026-10-12 20:05",
+   "room": "GYM-MACHINE",
+   "change": 1,
+   "date": "2026-10-12",
+   "via": "3e83b80",
+   "total": 109
+  },
+  {
+   "t": "2026-10-12 20:05",
+   "room": "OFFICERS-QUARTERS-B-BED",
+   "change": 1,
+   "date": "2026-10-12",
+   "via": "3e83b80",
+   "total": 110
+  },
+  {
+   "t": "2026-10-12 20:05",
+   "room": "BARBERSHOP",
+   "change": -1,
+   "date": null,
+   "via": "3e83b80",
+   "total": 109
+  },
+  {
+   "t": "2026-10-12 20:42",
+   "room": "OFFICERS-QUARTERS-A-BED",
+   "change": 1,
+   "date": "2026-10-12",
+   "via": "3ffe0b6",
+   "total": 110
+  },
+  {
+   "t": "2026-10-13 05:50",
+   "room": "BARBERSHOP",
+   "change": 1,
+   "date": "2026-10-13",
+   "via": "edd4832",
+   "total": 111
+  },
+  {
+   "t": "2026-10-13 05:50",
+   "room": "COMMANDERS-QUARTERS-BED",
+   "change": 1,
+   "date": "2026-10-13",
+   "via": "edd4832",
+   "total": 112
+  },
+  {
+   "t": "2026-10-13 05:50",
+   "room": "FLOPHOUSE-BED",
+   "change": 1,
+   "date": "2026-10-13",
+   "via": "edd4832",
+   "total": 113
+  },
+  {
+   "t": "2026-10-13 05:50",
+   "room": "SICK-BAY-BED",
+   "change": 1,
+   "date": "2026-10-13",
+   "via": "edd4832",
+   "total": 114
+  },
+  {
+   "t": "2026-10-13 23:59",
+   "room": "SCIENTISTS-QUARTERS-BED",
+   "change": 1,
+   "date": "2026-10-13",
+   "via": "working copy",
+   "total": 115
   }
  ],
  "readLog": {
-  "entries": 760,
+  "entries": 1114,
   "byAgent": {
-   "greg": 484,
-   "norm": 276
+   "greg": 673,
+   "norm": 441
   },
   "since": "2026-09-25T10:40:02.380Z"
  }

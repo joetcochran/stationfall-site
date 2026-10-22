@@ -5,3 +5,7 @@ Copilot (Claude Opus 5.5),Claude Opus 5.5 (named in the log),13,3,3,1200,4.67,2.
 host not recorded,model not named in the log,7,3,3,1102,2.36,1.81,3.9
 Claude Code,model not named in the log,7 8 9 10 11 12,18,69,25862,2.78,1.59,2.71
 Claude Code (claude-opus-5-5),Claude Opus 5.5 (named in the log),14,2,9,3000,2.63,1.5,2.5
+host not recorded (gpt-6-astra),model not named in the log,17,3,11,4109,2.09,1.29,2.7
+host not recorded (claude-opus-5-5),Claude Opus 5.5 (named in the log),15d 16a 16b,9,35,13158,1.67,1,1.79
+Claude Code (claude-sonnet-5-5),Claude Sonnet 5.5 (named in the log),15a,2,10,2945,0.61,0.48,0.88
+host not recorded (claude-sonnet-5-5),Claude Sonnet 5.5 (named in the log),15a 15b 15c,7,36,10322,0.47,0.36,0.73

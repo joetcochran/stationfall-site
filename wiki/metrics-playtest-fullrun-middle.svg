@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 661" width="900" height="661" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="Full runs, late group (rounds 11 to 14): score over commands" data-csv="metrics-playtest-fullrun.csv">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 661" width="900" height="661" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="Full runs, middle group (rounds 11 to 14): score over commands" data-csv="metrics-playtest-fullrun.csv">
 <defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#111a22"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8fa3b1" stroke-width="2"/></pattern></defs>
 <rect width="900" height="661" fill="#111a22" rx="6"/>
-<text x="66.0" y="28.0" fill="#d9e3ea" font-size="18" text-anchor="start" font-weight="600">Full runs, late group (rounds 11 to 14): score over commands</text>
+<text x="66.0" y="28.0" fill="#d9e3ea" font-size="18" text-anchor="start" font-weight="600">Full runs, middle group (rounds 11 to 14): score over commands</text>
 <text x="66.0" y="632.0" fill="#8fa3b1" font-size="13" text-anchor="start">Best score so far over commands used, all legs. Stages are bands on the score axis, from the walkthrough's score at each</text>
 <text x="66.0" y="649.0" fill="#8fa3b1" font-size="13" text-anchor="start">checkpoint (80 wins).</text>
 <g class="lg" data-s="run-r11-click-fulla" data-round="11" data-session="r11-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><line x1="66" y1="49" x2="88" y2="49" stroke="#9085e9" stroke-width="2.5"/>

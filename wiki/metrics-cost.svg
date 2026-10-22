@@ -1,108 +1,108 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 607" width="900" height="607" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="Cost: agent tokens by milestone and by kind of work" data-csv="metrics-cost.csv">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 635" width="900" height="635" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="Cost: agent tokens by milestone and by kind of work" data-csv="metrics-cost.csv">
 <defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#111a22"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8fa3b1" stroke-width="2"/></pattern></defs>
-<rect width="900" height="607" fill="#111a22" rx="6"/>
+<rect width="900" height="635" fill="#111a22" rx="6"/>
 <text x="24.0" y="28.0" fill="#d9e3ea" font-size="18" text-anchor="start" font-weight="600">Cost: agent tokens by milestone and by kind of work</text>
-<text x="24.0" y="578.0" fill="#8fa3b1" font-size="13" text-anchor="start">From decisions/work.jsonl (subagent runs, as their completion reports count them). Every session's tokens are on the tokens chart;</text>
-<text x="24.0" y="595.0" fill="#8fa3b1" font-size="13" text-anchor="start">hours are agent wall-clock.</text>
-<text x="24.0" y="58.0" fill="#d9e3ea" font-size="15" text-anchor="start">178.5M tokens · 374.03 agent-hours · 683 runs</text>
-<text x="24.0" y="80.0" fill="#8fa3b1" font-size="13" text-anchor="start">Art subagents per accepted view: 333k (art-prep + review 103.5M / 311 room views) · all sessions: 867k · image passes per delivery:</text>
-<text x="24.0" y="98.0" fill="#8fa3b1" font-size="13" text-anchor="start">2.44 (78 of 536 tagged)</text>
+<text x="24.0" y="606.0" fill="#8fa3b1" font-size="13" text-anchor="start">From decisions/work.jsonl (subagent runs, as their completion reports count them). Every session's tokens are on the tokens chart;</text>
+<text x="24.0" y="623.0" fill="#8fa3b1" font-size="13" text-anchor="start">hours are agent wall-clock.</text>
+<text x="24.0" y="58.0" fill="#d9e3ea" font-size="15" text-anchor="start">230.7M tokens · 473.4 agent-hours · 939 runs</text>
+<text x="24.0" y="80.0" fill="#8fa3b1" font-size="13" text-anchor="start">Art subagents per accepted view: 298k (art-prep + review 126.2M / 424 room views) · all sessions: 690k · image passes per delivery:</text>
+<text x="24.0" y="98.0" fill="#8fa3b1" font-size="13" text-anchor="start">2.44 (78 of 709 tagged)</text>
 <text x="24.0" y="140.0" fill="#d9e3ea" font-size="15" text-anchor="start">By milestone (tokens · hours · runs)</text>
 <text x="126.0" y="168.0" fill="#d9e3ea" font-size="14" text-anchor="end">M7</text>
-<g class="m"><title>120,229,606 tokens
+<g class="m"><title>147,268,481 tokens
 milestone: M7
-agent-hours: 282.4
-runs: 480</title>
+agent-hours: 341.3
+runs: 594</title>
 <path d="M134.0,156.0 H291.0 Q294.0,156.0 294.0,159.0 V171.0 Q294.0,174.0 291.0,174.0 H134.0 Z" fill="#3987e5"/>
-<text x="300.0" y="169.0" fill="#8fa3b1" font-size="13" text-anchor="start">120.2M · 282.4 h · 480</text>
+<text x="300.0" y="169.0" fill="#8fa3b1" font-size="13" text-anchor="start">147.3M · 341.3 h · 594</text>
 </g>
 <text x="126.0" y="196.0" fill="#d9e3ea" font-size="14" text-anchor="end">M5</text>
-<g class="m"><title>47,419,901 tokens
+<g class="m"><title>72,382,757 tokens
 milestone: M5
-agent-hours: 78.2
-runs: 158</title>
-<path d="M134.0,184.0 H194.1 Q197.1,184.0 197.1,187.0 V199.0 Q197.1,202.0 194.1,202.0 H134.0 Z" fill="#3987e5"/>
-<text x="203.1" y="197.0" fill="#8fa3b1" font-size="13" text-anchor="start">47.4M · 78.2 h · 158</text>
+agent-hours: 118.5
+runs: 299</title>
+<path d="M134.0,184.0 H209.6 Q212.6,184.0 212.6,187.0 V199.0 Q212.6,202.0 209.6,202.0 H134.0 Z" fill="#3987e5"/>
+<text x="218.6" y="197.0" fill="#8fa3b1" font-size="13" text-anchor="start">72.4M · 118.5 h · 299</text>
 </g>
 <text x="126.0" y="224.0" fill="#d9e3ea" font-size="14" text-anchor="end">M2</text>
 <g class="m"><title>3,653,978 tokens
 milestone: M2
 agent-hours: 3.5
 runs: 10</title>
-<path d="M134.0,212.0 H135.9 Q138.9,212.0 138.9,215.0 V227.0 Q138.9,230.0 135.9,230.0 H134.0 Z" fill="#3987e5"/>
-<text x="144.9" y="225.0" fill="#8fa3b1" font-size="13" text-anchor="start">3.7M · 3.5 h · 10</text>
+<path d="M134.0,212.0 H135.0 Q138.0,212.0 138.0,215.0 V227.0 Q138.0,230.0 135.0,230.0 H134.0 Z" fill="#3987e5"/>
+<text x="144.0" y="225.0" fill="#8fa3b1" font-size="13" text-anchor="start">3.7M · 3.5 h · 10</text>
 </g>
 <text x="126.0" y="252.0" fill="#d9e3ea" font-size="14" text-anchor="end">playtest</text>
 <g class="m"><title>1,831,565 tokens
 milestone: playtest
 agent-hours: 3.5
 runs: 10</title>
-<path d="M134.0,240.0 H134.0 Q136.4,240.0 136.4,242.4 V255.6 Q136.4,258.0 134.0,258.0 H134.0 Z" fill="#3987e5"/>
-<text x="142.4" y="253.0" fill="#8fa3b1" font-size="13" text-anchor="start">1.8M · 3.5 h · 10</text>
+<path d="M134.0,240.0 H134.0 Q136.0,240.0 136.0,242.0 V256.0 Q136.0,258.0 134.0,258.0 H134.0 Z" fill="#3987e5"/>
+<text x="142.0" y="253.0" fill="#8fa3b1" font-size="13" text-anchor="start">1.8M · 3.5 h · 10</text>
 </g>
 <text x="126.0" y="280.0" fill="#d9e3ea" font-size="14" text-anchor="end">M3</text>
 <g class="m"><title>942,769 tokens
 milestone: M3
 agent-hours: 0.9
 runs: 3</title>
-<path d="M134.0,268.0 H134.0 Q135.3,268.0 135.3,269.3 V284.7 Q135.3,286.0 134.0,286.0 H134.0 Z" fill="#3987e5"/>
-<text x="141.3" y="281.0" fill="#8fa3b1" font-size="13" text-anchor="start">943k · 0.9 h · 3</text>
+<path d="M134.0,268.0 H134.0 Q135.0,268.0 135.0,269.0 V285.0 Q135.0,286.0 134.0,286.0 H134.0 Z" fill="#3987e5"/>
+<text x="141.0" y="281.0" fill="#8fa3b1" font-size="13" text-anchor="start">943k · 0.9 h · 3</text>
 </g>
 <text x="126.0" y="308.0" fill="#d9e3ea" font-size="14" text-anchor="end">M6</text>
 <g class="m"><title>743,344 tokens
 milestone: M6
 agent-hours: 0.9
 runs: 5</title>
-<path d="M134.0,296.0 H134.0 Q135.0,296.0 135.0,297.0 V313.0 Q135.0,314.0 134.0,314.0 H134.0 Z" fill="#3987e5"/>
-<text x="141.0" y="309.0" fill="#8fa3b1" font-size="13" text-anchor="start">743k · 0.9 h · 5</text>
+<path d="M134.0,296.0 H134.0 Q134.8,296.0 134.8,296.8 V313.2 Q134.8,314.0 134.0,314.0 H134.0 Z" fill="#3987e5"/>
+<text x="140.8" y="309.0" fill="#8fa3b1" font-size="13" text-anchor="start">743k · 0.9 h · 5</text>
 </g>
 <text x="126.0" y="336.0" fill="#d9e3ea" font-size="14" text-anchor="end">M0</text>
 <g class="m"><title>666,789 tokens
 milestone: M0
 agent-hours: 0.6
 runs: 4</title>
-<path d="M134.0,324.0 H134.0 Q134.9,324.0 134.9,324.9 V341.1 Q134.9,342.0 134.0,342.0 H134.0 Z" fill="#3987e5"/>
-<text x="140.9" y="337.0" fill="#8fa3b1" font-size="13" text-anchor="start">667k · 0.6 h · 4</text>
+<path d="M134.0,324.0 H134.0 Q134.7,324.0 134.7,324.7 V341.3 Q134.7,342.0 134.0,342.0 H134.0 Z" fill="#3987e5"/>
+<text x="140.7" y="337.0" fill="#8fa3b1" font-size="13" text-anchor="start">667k · 0.6 h · 4</text>
 </g>
 <text x="126.0" y="364.0" fill="#d9e3ea" font-size="14" text-anchor="end">M8</text>
 <g class="m"><title>581,446 tokens
 milestone: M8
 agent-hours: 1.1
 runs: 2</title>
-<path d="M134.0,352.0 H134.0 Q134.8,352.0 134.8,352.8 V369.2 Q134.8,370.0 134.0,370.0 H134.0 Z" fill="#3987e5"/>
-<text x="140.8" y="365.0" fill="#8fa3b1" font-size="13" text-anchor="start">581k · 1.1 h · 2</text>
+<path d="M134.0,352.0 H134.0 Q134.6,352.0 134.6,352.6 V369.4 Q134.6,370.0 134.0,370.0 H134.0 Z" fill="#3987e5"/>
+<text x="140.6" y="365.0" fill="#8fa3b1" font-size="13" text-anchor="start">581k · 1.1 h · 2</text>
 </g>
 <text x="126.0" y="392.0" fill="#d9e3ea" font-size="14" text-anchor="end">M4</text>
 <g class="m"><title>540,229 tokens
 milestone: M4
 agent-hours: 0.8
 runs: 1</title>
-<path d="M134.0,380.0 H134.0 Q134.7,380.0 134.7,380.7 V397.3 Q134.7,398.0 134.0,398.0 H134.0 Z" fill="#3987e5"/>
-<text x="140.7" y="393.0" fill="#8fa3b1" font-size="13" text-anchor="start">540k · 0.8 h · 1</text>
+<path d="M134.0,380.0 H134.0 Q134.6,380.0 134.6,380.6 V397.4 Q134.6,398.0 134.0,398.0 H134.0 Z" fill="#3987e5"/>
+<text x="140.6" y="393.0" fill="#8fa3b1" font-size="13" text-anchor="start">540k · 0.8 h · 1</text>
 </g>
 <text x="126.0" y="420.0" fill="#d9e3ea" font-size="14" text-anchor="end">D21</text>
 <g class="m"><title>517,122 tokens
 milestone: D21
 agent-hours: 0.7
 runs: 3</title>
-<path d="M134.0,408.0 H134.0 Q134.7,408.0 134.7,408.7 V425.3 Q134.7,426.0 134.0,426.0 H134.0 Z" fill="#3987e5"/>
-<text x="140.7" y="421.0" fill="#8fa3b1" font-size="13" text-anchor="start">517k · 0.7 h · 3</text>
+<path d="M134.0,408.0 H134.0 Q134.6,408.0 134.6,408.6 V425.4 Q134.6,426.0 134.0,426.0 H134.0 Z" fill="#3987e5"/>
+<text x="140.6" y="421.0" fill="#8fa3b1" font-size="13" text-anchor="start">517k · 0.7 h · 3</text>
 </g>
 <text x="126.0" y="448.0" fill="#d9e3ea" font-size="14" text-anchor="end">planning</text>
 <g class="m"><title>483,568 tokens
 milestone: planning
 agent-hours: 0.2
 runs: 4</title>
-<path d="M134.0,436.0 H134.0 Q134.6,436.0 134.6,436.6 V453.4 Q134.6,454.0 134.0,454.0 H134.0 Z" fill="#3987e5"/>
-<text x="140.6" y="449.0" fill="#8fa3b1" font-size="13" text-anchor="start">484k · 0.2 h · 4</text>
+<path d="M134.0,436.0 H134.0 Q134.5,436.0 134.5,436.5 V453.5 Q134.5,454.0 134.0,454.0 H134.0 Z" fill="#3987e5"/>
+<text x="140.5" y="449.0" fill="#8fa3b1" font-size="13" text-anchor="start">484k · 0.2 h · 4</text>
 </g>
 <text x="126.0" y="476.0" fill="#d9e3ea" font-size="14" text-anchor="end">art</text>
 <g class="m"><title>404,685 tokens
 milestone: art
 agent-hours: 0.5
 runs: 1</title>
-<path d="M134.0,464.0 H134.0 Q134.5,464.0 134.5,464.5 V481.5 Q134.5,482.0 134.0,482.0 H134.0 Z" fill="#3987e5"/>
-<text x="140.5" y="477.0" fill="#8fa3b1" font-size="13" text-anchor="start">405k · 0.5 h · 1</text>
+<path d="M134.0,464.0 H134.0 Q134.4,464.0 134.4,464.4 V481.6 Q134.4,482.0 134.0,482.0 H134.0 Z" fill="#3987e5"/>
+<text x="140.4" y="477.0" fill="#8fa3b1" font-size="13" text-anchor="start">405k · 0.5 h · 1</text>
 </g>
 <text x="126.0" y="504.0" fill="#d9e3ea" font-size="14" text-anchor="end">M1</text>
 <g class="m"><title>322,569 tokens
@@ -112,93 +112,101 @@ runs: 1</title>
 <path d="M134.0,492.0 H134.0 Q134.4,492.0 134.4,492.4 V509.6 Q134.4,510.0 134.0,510.0 H134.0 Z" fill="#3987e5"/>
 <text x="140.4" y="505.0" fill="#8fa3b1" font-size="13" text-anchor="start">323k · 0.4 h · 1</text>
 </g>
-<text x="126.0" y="532.0" fill="#d9e3ea" font-size="14" text-anchor="end">D22</text>
+<text x="126.0" y="532.0" fill="#d9e3ea" font-size="14" text-anchor="end">M9</text>
+<g class="m"><title>265,605 tokens
+milestone: M9
+agent-hours: 0.2
+runs: 1</title>
+<path d="M134.0,520.0 H134.0 Q134.3,520.0 134.3,520.3 V537.7 Q134.3,538.0 134.0,538.0 H134.0 Z" fill="#3987e5"/>
+<text x="140.3" y="533.0" fill="#8fa3b1" font-size="13" text-anchor="start">266k · 0.2 h · 1</text>
+</g>
+<text x="126.0" y="560.0" fill="#d9e3ea" font-size="14" text-anchor="end">D22</text>
 <g class="m"><title>126,183 tokens
 milestone: D22
 agent-hours: 0.2
 runs: 1</title>
-<path d="M134.0,520.0 H134.0 Q134.2,520.0 134.2,520.2 V537.8 Q134.2,538.0 134.0,538.0 H134.0 Z" fill="#3987e5"/>
-<text x="140.2" y="533.0" fill="#8fa3b1" font-size="13" text-anchor="start">126k · 0.2 h · 1</text>
+<path d="M134.0,548.0 H134.0 Q134.1,548.0 134.1,548.1 V565.9 Q134.1,566.0 134.0,566.0 H134.0 Z" fill="#3987e5"/>
+<text x="140.1" y="561.0" fill="#8fa3b1" font-size="13" text-anchor="start">126k · 0.2 h · 1</text>
 </g>
 <text x="470.0" y="140.0" fill="#d9e3ea" font-size="15" text-anchor="start">By kind</text>
 <text x="572.0" y="168.0" fill="#d9e3ea" font-size="14" text-anchor="end">art-prep</text>
-<g class="m"><title>82,254,536 tokens
+<g class="m"><title>104,655,519 tokens
 kind: art-prep
-agent-hours: 201.4
-runs: 250</title>
+agent-hours: 250.6
+runs: 344</title>
 <path d="M580.0,156.0 H723.0 Q726.0,156.0 726.0,159.0 V171.0 Q726.0,174.0 723.0,174.0 H580.0 Z" fill="#3987e5"/>
-<text x="732.0" y="169.0" fill="#8fa3b1" font-size="13" text-anchor="start">82.3M · 201.4 h · 250</text>
+<text x="732.0" y="169.0" fill="#8fa3b1" font-size="13" text-anchor="start">104.7M · 250.6 h · 344</text>
 </g>
 <text x="572.0" y="196.0" fill="#d9e3ea" font-size="14" text-anchor="end">playtest</text>
-<g class="m"><title>36,391,247 tokens
+<g class="m"><title>57,233,618 tokens
 kind: playtest
-agent-hours: 62.0
-runs: 112</title>
-<path d="M580.0,184.0 H641.6 Q644.6,184.0 644.6,187.0 V199.0 Q644.6,202.0 641.6,202.0 H580.0 Z" fill="#3987e5"/>
-<text x="650.6" y="197.0" fill="#8fa3b1" font-size="13" text-anchor="start">36.4M · 62.0 h · 112</text>
+agent-hours: 95.7
+runs: 235</title>
+<path d="M580.0,184.0 H656.8 Q659.8,184.0 659.8,187.0 V199.0 Q659.8,202.0 656.8,202.0 H580.0 Z" fill="#3987e5"/>
+<text x="665.8" y="197.0" fill="#8fa3b1" font-size="13" text-anchor="start">57.2M · 95.7 h · 235</text>
 </g>
 <text x="572.0" y="224.0" fill="#d9e3ea" font-size="14" text-anchor="end">review</text>
-<g class="m"><title>21,222,425 tokens
+<g class="m"><title>21,566,441 tokens
 kind: review
-agent-hours: 33.7
-runs: 159</title>
-<path d="M580.0,212.0 H614.7 Q617.7,212.0 617.7,215.0 V227.0 Q617.7,230.0 614.7,230.0 H580.0 Z" fill="#3987e5"/>
-<text x="623.7" y="225.0" fill="#8fa3b1" font-size="13" text-anchor="start">21.2M · 33.7 h · 159</text>
+agent-hours: 34.5
+runs: 161</title>
+<path d="M580.0,212.0 H607.1 Q610.1,212.0 610.1,215.0 V227.0 Q610.1,230.0 607.1,230.0 H580.0 Z" fill="#3987e5"/>
+<text x="616.1" y="225.0" fill="#8fa3b1" font-size="13" text-anchor="start">21.6M · 34.5 h · 161</text>
 </g>
-<text x="572.0" y="252.0" fill="#d9e3ea" font-size="14" text-anchor="end">tooling</text>
-<g class="m"><title>13,041,934 tokens
-kind: tooling
-agent-hours: 29.1
-runs: 56</title>
-<path d="M580.0,240.0 H600.1 Q603.1,240.0 603.1,243.0 V255.0 Q603.1,258.0 600.1,258.0 H580.0 Z" fill="#3987e5"/>
-<text x="609.1" y="253.0" fill="#8fa3b1" font-size="13" text-anchor="start">13.0M · 29.1 h · 56</text>
-</g>
-<text x="572.0" y="280.0" fill="#d9e3ea" font-size="14" text-anchor="end">engine</text>
-<g class="m"><title>11,350,487 tokens
+<text x="572.0" y="252.0" fill="#d9e3ea" font-size="14" text-anchor="end">engine</text>
+<g class="m"><title>15,819,730 tokens
 kind: engine
-agent-hours: 29.8
-runs: 43</title>
-<path d="M580.0,268.0 H597.1 Q600.1,268.0 600.1,271.0 V283.0 Q600.1,286.0 597.1,286.0 H580.0 Z" fill="#3987e5"/>
-<text x="606.1" y="281.0" fill="#8fa3b1" font-size="13" text-anchor="start">11.4M · 29.8 h · 43</text>
+agent-hours: 39.6
+runs: 62</title>
+<path d="M580.0,240.0 H599.1 Q602.1,240.0 602.1,243.0 V255.0 Q602.1,258.0 599.1,258.0 H580.0 Z" fill="#3987e5"/>
+<text x="608.1" y="253.0" fill="#8fa3b1" font-size="13" text-anchor="start">15.8M · 39.6 h · 62</text>
+</g>
+<text x="572.0" y="280.0" fill="#d9e3ea" font-size="14" text-anchor="end">tooling</text>
+<g class="m"><title>14,065,436 tokens
+kind: tooling
+agent-hours: 30.9
+runs: 61</title>
+<path d="M580.0,268.0 H596.6 Q599.6,268.0 599.6,271.0 V283.0 Q599.6,286.0 596.6,286.0 H580.0 Z" fill="#3987e5"/>
+<text x="605.6" y="281.0" fill="#8fa3b1" font-size="13" text-anchor="start">14.1M · 30.9 h · 61</text>
 </g>
 <text x="572.0" y="308.0" fill="#d9e3ea" font-size="14" text-anchor="end">triage</text>
-<g class="m"><title>4,476,959 tokens
+<g class="m"><title>6,431,537 tokens
 kind: triage
-agent-hours: 5.7
-runs: 16</title>
-<path d="M580.0,296.0 H584.9 Q587.9,296.0 587.9,299.0 V311.0 Q587.9,314.0 584.9,314.0 H580.0 Z" fill="#3987e5"/>
-<text x="593.9" y="309.0" fill="#8fa3b1" font-size="13" text-anchor="start">4.5M · 5.7 h · 16</text>
+agent-hours: 8.5
+runs: 22</title>
+<path d="M580.0,296.0 H586.0 Q589.0,296.0 589.0,299.0 V311.0 Q589.0,314.0 586.0,314.0 H580.0 Z" fill="#3987e5"/>
+<text x="595.0" y="309.0" fill="#8fa3b1" font-size="13" text-anchor="start">6.4M · 8.5 h · 22</text>
 </g>
 <text x="572.0" y="336.0" fill="#d9e3ea" font-size="14" text-anchor="end">porting</text>
 <g class="m"><title>3,653,978 tokens
 kind: porting
 agent-hours: 3.5
 runs: 10</title>
-<path d="M580.0,324.0 H583.5 Q586.5,324.0 586.5,327.0 V339.0 Q586.5,342.0 583.5,342.0 H580.0 Z" fill="#3987e5"/>
-<text x="592.5" y="337.0" fill="#8fa3b1" font-size="13" text-anchor="start">3.7M · 3.5 h · 10</text>
+<path d="M580.0,324.0 H582.1 Q585.1,324.0 585.1,327.0 V339.0 Q585.1,342.0 582.1,342.0 H580.0 Z" fill="#3987e5"/>
+<text x="591.1" y="337.0" fill="#8fa3b1" font-size="13" text-anchor="start">3.7M · 3.5 h · 10</text>
 </g>
 <text x="572.0" y="364.0" fill="#d9e3ea" font-size="14" text-anchor="end">history</text>
-<g class="m"><title>2,373,443 tokens
+<g class="m"><title>3,440,608 tokens
 kind: history
-agent-hours: 2.7
-runs: 16</title>
-<path d="M580.0,352.0 H581.2 Q584.2,352.0 584.2,355.0 V367.0 Q584.2,370.0 581.2,370.0 H580.0 Z" fill="#3987e5"/>
-<text x="590.2" y="365.0" fill="#8fa3b1" font-size="13" text-anchor="start">2.4M · 2.7 h · 16</text>
+agent-hours: 3.9
+runs: 22</title>
+<path d="M580.0,352.0 H581.8 Q584.8,352.0 584.8,355.0 V367.0 Q584.8,370.0 581.8,370.0 H580.0 Z" fill="#3987e5"/>
+<text x="590.8" y="365.0" fill="#8fa3b1" font-size="13" text-anchor="start">3.4M · 3.9 h · 22</text>
 </g>
 <text x="572.0" y="392.0" fill="#d9e3ea" font-size="14" text-anchor="end">research</text>
-<g class="m"><title>1,908,595 tokens
+<g class="m"><title>2,074,073 tokens
 kind: research
-agent-hours: 2.5
-runs: 11</title>
-<path d="M580.0,380.0 H580.4 Q583.4,380.0 583.4,383.0 V395.0 Q583.4,398.0 580.4,398.0 H580.0 Z" fill="#3987e5"/>
-<text x="589.4" y="393.0" fill="#8fa3b1" font-size="13" text-anchor="start">1.9M · 2.5 h · 11</text>
+agent-hours: 2.8
+runs: 12</title>
+<path d="M580.0,380.0 H580.0 Q582.9,380.0 582.9,382.9 V395.1 Q582.9,398.0 580.0,398.0 H580.0 Z" fill="#3987e5"/>
+<text x="588.9" y="393.0" fill="#8fa3b1" font-size="13" text-anchor="start">2.1M · 2.8 h · 12</text>
 </g>
 <text x="572.0" y="420.0" fill="#d9e3ea" font-size="14" text-anchor="end">integration</text>
 <g class="m"><title>1,790,150 tokens
 kind: integration
 agent-hours: 3.5
 runs: 10</title>
-<path d="M580.0,408.0 H580.2 Q583.2,408.0 583.2,411.0 V423.0 Q583.2,426.0 580.2,426.0 H580.0 Z" fill="#3987e5"/>
-<text x="589.2" y="421.0" fill="#8fa3b1" font-size="13" text-anchor="start">1.8M · 3.5 h · 10</text>
+<path d="M580.0,408.0 H580.0 Q582.5,408.0 582.5,410.5 V423.5 Q582.5,426.0 580.0,426.0 H580.0 Z" fill="#3987e5"/>
+<text x="588.5" y="421.0" fill="#8fa3b1" font-size="13" text-anchor="start">1.8M · 3.5 h · 10</text>
 </g>
 </svg>

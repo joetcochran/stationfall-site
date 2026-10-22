@@ -409,6 +409,6 @@ Norm, own session</title><path d="M838.1,532.0 V532.0 Q838.1,530.3 839.8,530.3 H
 10/07
 Norm's subagents</title><path d="M856.0,532.0 V532.0 Q856.0,530.4 857.7,530.4 H871.4 Q873.0,530.4 873.0,532.0 V532.0 Z" fill="#9085e9" data-b="856.0 530.4 17.0 1.6" fill-opacity="0.8"/></g>
 </g>
-<text x="66.0" y="582.0" fill="#d9e3ea" font-size="14" text-anchor="start">Per accepted room view (311): 867k work tokens (21.8M with cached reads), Greg + Norm's own session + art subagents.</text>
-<text x="66.0" y="602.0" fill="#8fa3b1" font-size="14" text-anchor="start">Greg by model per accepted view: Sol 214k (58.1M / 272) · Astra 96k (289k / 3)</text>
+<text x="66.0" y="582.0" fill="#d9e3ea" font-size="14" text-anchor="start">Per accepted room view (424): 690k work tokens (16.0M with cached reads), Greg + Norm's own session + art subagents.</text>
+<text x="66.0" y="602.0" fill="#8fa3b1" font-size="14" text-anchor="start">Greg by model per accepted view: Sol 151k (58.1M / 385) · Astra 96k (289k / 3)</text>
 </svg>

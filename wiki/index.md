@@ -13,3 +13,4 @@ This is the history of a web remake of Infocom's *Stationfall* (1987), faithful 
   - [The playtesters' leaderboard](playtest-leaderboard.md): every full run ranked by score, frustration, blocks and variety of feedback, and how much of the friction comes from the persona.
   - [Playtests, round by round](playtests.md): every blind playtest as the testers left it: each session's diary, friction rows and outcome, with its round's triage and stats.
 - [Where we left the original](canon-deviations.md): the register of deliberate deviations, and what was declined.
+- [Unlikely comments from the sponsor made during development](sponsor-comments.md): lines from the record that read oddly out of context, quoted at the sponsor's request.

@@ -2230,20 +2230,658 @@ score: 5 (ring), stamped when sent</title><circle cx="524.5" cy="237.2" r="4.5" 
 ask: 20261009-153612-norm-1387#1
 room: AIRLOCK
 score: 13 (seed), stamped when sent</title><circle cx="794.5" cy="256.6" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
-<g class="m" data-s="median"><title>29 min median
-score 2: 74 asks</title><line x1="221.3" y1="221.7" x2="315.8" y2="221.7" stroke="#d9e3ea" stroke-width="2"/></g>
-<g class="m" data-s="median"><title>26 min median
-score 3: 88 asks</title><line x1="356.3" y1="225.3" x2="450.8" y2="225.3" stroke="#d9e3ea" stroke-width="2"/></g>
-<g class="m" data-s="median"><title>29 min median
-score 5: 175 asks</title><line x1="491.3" y1="221.2" x2="585.8" y2="221.2" stroke="#d9e3ea" stroke-width="2"/></g>
+<g class="m" data-s="stamped"><title>31 min to close
+ask: 20261009-161929-norm-1390#1
+room: WAREHOUSE
+score: 5 (ring), stamped when sent</title><circle cx="531.5" cy="218.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>31 min to close
+ask: 20261009-161930-norm-1391#1
+room: WAREHOUSE
+score: 5 (ring), stamped when sent</title><circle cx="538.5" cy="218.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>27 min to close
+ask: 20261009-162724-norm-1393#1
+room: AIRLOCK
+score: 8 (ring), stamped when sent</title><circle cx="680.5" cy="223.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>27 min to close
+ask: 20261009-162726-norm-1394#1
+room: AIRLOCK
+score: 8 (ring), stamped when sent</title><circle cx="687.5" cy="224.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>45 min to close
+ask: 20261009-170000-norm-1399#1
+room: VACUUM-STORAGE
+score: 13 (seed), stamped when sent</title><circle cx="801.5" cy="204.3" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>12 min to close
+ask: 20261009-180130-norm-1406#1
+room: VACUUM-STORAGE
+score: 13 (seed), stamped when sent</title><circle cx="808.5" cy="256.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>4 min to close
+ask: 20261009-183000-norm-1410#1
+room: VACUUM-STORAGE
+score: 13 (seed), stamped when sent</title><circle cx="815.5" cy="302.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>5 min to close
+ask: 20261009-192955-norm-1413#1
+score: 2 (other), stamped when sent</title><circle cx="254.5" cy="287.1" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>20 min to close
+ask: 20261009-213704-norm-1416#1
+score: 2 (other), stamped when sent</title><circle cx="261.5" cy="236.1" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>3 min to close
+ask: 20261010-002344-norm-1422#1
+room: ALLEY
+score: 13 (seed), stamped when sent</title><circle cx="822.5" cy="309.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>5 min to close
+ask: 20261010-002345-norm-1423#1
+room: LOAN-SHARK
+score: 13 (seed), stamped when sent</title><circle cx="794.5" cy="287.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>13 min to close
+ask: 20261010-002429-norm-1424#1
+room: AIRLOCK
+score: 13 (seed), stamped when sent</title><circle cx="801.5" cy="252.1" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>16 min to close
+ask: 20261010-002430-norm-1425#1
+room: AIRLOCK
+score: 13 (seed), stamped when sent</title><circle cx="808.5" cy="244.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>20 min to close
+ask: 20261010-002432-norm-1426#1
+room: AIRLOCK
+score: 13 (seed), stamped when sent</title><circle cx="815.5" cy="235.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>10 min to close
+ask: 20261010-112250-norm-1435#1
+room: AIRLOCK
+score: 8 (ring), stamped when sent</title><circle cx="659.5" cy="261.7" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>10 min to close
+ask: 20261010-112254-norm-1436#1
+room: AIRLOCK
+score: 8 (ring), stamped when sent</title><circle cx="666.5" cy="261.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>6 min to close
+ask: 20261010-114609-norm-1440#1
+room: PAWN-SHOP
+score: 5 (ring), stamped when sent</title><circle cx="545.5" cy="285.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>20 min to close
+ask: 20261010-114612-norm-1441#1
+room: PAWN-SHOP
+score: 5 (cap), stamped when sent</title><circle cx="552.5" cy="236.6" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>12 min to close
+ask: 20261010-115813-norm-1442#1
+room: PAWN-SHOP
+score: 3 (region), stamped when sent</title><circle cx="417.5" cy="254.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>7 min to close
+ask: 20261010-123928-norm-1444#1
+room: PAWN-SHOP
+score: 3 (region), stamped when sent</title><circle cx="389.5" cy="275.5" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>8 min to close
+ask: 20261010-124645-norm-1445#1
+room: ALLEY
+score: 5 (ring), stamped when sent</title><circle cx="524.5" cy="272.7" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>16 min to close
+ask: 20261010-124646-norm-1446#1
+room: ALLEY
+score: 5 (ring), stamped when sent</title><circle cx="531.5" cy="244.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>27 min to close
+ask: 20261010-124647-norm-1447#1
+room: ALLEY
+score: 5 (cap), stamped when sent</title><circle cx="538.5" cy="224.5" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>35 min to close
+ask: 20261010-124649-norm-1448#1
+room: LOAN-SHARK
+score: 5 (ring), stamped when sent</title><circle cx="545.5" cy="213.5" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>43 min to close
+ask: 20261010-124650-norm-1449#1
+room: LOAN-SHARK
+score: 5 (ring), stamped when sent</title><circle cx="552.5" cy="205.6" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>57 min to close
+ask: 20261010-124652-norm-1450#1
+room: LOAN-SHARK
+score: 5 (cap), stamped when sent</title><circle cx="524.5" cy="194.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>57 min to close
+ask: 20261010-125542-norm-1452#1
+room: ALLEY
+score: 3 (region), stamped when sent</title><circle cx="396.5" cy="194.6" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>50 min to close
+ask: 20261010-131358-norm-1454#1
+room: ALLEY
+score: 3 (region), stamped when sent</title><circle cx="403.5" cy="199.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>41 min to close
+ask: 20261010-133117-norm-1457#1
+room: LOAN-SHARK
+score: 3 (region), stamped when sent</title><circle cx="410.5" cy="207.1" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>7 min to close
+ask: 20261010-145124-norm-1468#1
+room: LOAN-SHARK
+score: 5 (cap), stamped when sent</title><circle cx="531.5" cy="276.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>13 min to close
+ask: 20261010-145127-norm-1472#1
+room: ALLEY
+score: 5 (cap), stamped when sent</title><circle cx="538.5" cy="252.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>34 min to close
+ask: 20261010-145937-norm-1474#1
+room: LOAN-SHARK
+score: 3 (region), stamped when sent</title><circle cx="417.5" cy="214.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>12 min to close
+ask: 20261010-162403-norm-1478#1
+room: MISSIONARY
+score: 13 (seed), stamped when sent</title><circle cx="822.5" cy="255.2" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>16 min to close
+ask: 20261010-162405-norm-1479#1
+room: FORTUNE-TELLER
+score: 13 (seed), stamped when sent</title><circle cx="794.5" cy="244.2" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>11 min to close
+ask: 20261010-164942-norm-1482#1
+score: 2 (other), stamped when sent</title><circle cx="268.5" cy="258.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>13 min to close
+ask: 20261010-170501-norm-1484#1
+room: MISSIONARY
+score: 13 (seed), stamped when sent</title><circle cx="801.5" cy="252.1" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>21 min to close
+ask: 20261010-170503-norm-1485#1
+room: FORTUNE-TELLER
+score: 13 (seed), stamped when sent</title><circle cx="808.5" cy="233.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>8 min to close
+ask: 20261011-214724-norm-1490#1
+room: REC-SHOP
+score: 13 (seed), stamped when sent</title><circle cx="815.5" cy="273.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>11 min to close
+ask: 20261011-214727-norm-1491#1
+room: RECRUITMENT-OFFICE
+score: 13 (seed), stamped when sent</title><circle cx="822.5" cy="259.1" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>12 min to close
+ask: 20261011-220108-norm-1494#1
+room: RECRUITMENT-OFFICE
+score: 5 (ring), stamped when sent</title><circle cx="545.5" cy="256.6" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>15 min to close
+ask: 20261011-220130-norm-1495#1
+room: REC-SHOP
+score: 13 (seed), stamped when sent</title><circle cx="794.5" cy="246.6" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>5 min to close
+ask: 20261011-221557-norm-1497#1
+room: RECRUITMENT-OFFICE
+score: 13 (seed), stamped when sent</title><circle cx="801.5" cy="289.3" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>5 min to close
+ask: 20261011-224618-norm-1500#1
+room: STUDIO
+score: 13 (seed), stamped when sent</title><circle cx="808.5" cy="290.2" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>12 min to close
+ask: 20261011-225105-norm-1501#1
+score: 2 (other), stamped when sent</title><circle cx="275.5" cy="255.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>13 min to close
+ask: 20261011-225349-norm-1504#1
+room: STUDIO
+score: 13 (seed), stamped when sent</title><circle cx="815.5" cy="251.5" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>5 min to close
+ask: 20261012-000859-norm-1511#1
+room: MAYORS-OFFICE
+score: 13 (seed), stamped when sent</title><circle cx="822.5" cy="291.6" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>9 min to close
+ask: 20261012-001630-norm-1513#1
+room: MAYORS-OFFICE
+score: 13 (seed), stamped when sent</title><circle cx="794.5" cy="267.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>12 min to close
+ask: 20261012-001635-norm-1514#1
+score: 2 (other), stamped when sent</title><circle cx="282.5" cy="257.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>14 min to close
+ask: 20261012-001638-norm-1515#1
+score: 2 (other), stamped when sent</title><circle cx="254.5" cy="250.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>8 min to close
+ask: 20261012-003702-norm-1519#1
+room: OPIUM-DEN
+score: 13 (seed), stamped when sent</title><circle cx="801.5" cy="270.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>11 min to close
+ask: 20261012-003910-norm-1520#1
+room: REC-SHOP
+score: 5 (ring), stamped when sent</title><circle cx="552.5" cy="261.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>18 min to close
+ask: 20261012-003913-norm-1521#1
+room: REC-SHOP
+score: 5 (ring), stamped when sent</title><circle cx="524.5" cy="239.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>24 min to close
+ask: 20261012-003917-norm-1522#1
+room: RECRUITMENT-OFFICE
+score: 5 (ring), stamped when sent</title><circle cx="531.5" cy="228.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>32 min to close
+ask: 20261012-003920-norm-1523#1
+room: RECRUITMENT-OFFICE
+score: 5 (ring), stamped when sent</title><circle cx="538.5" cy="217.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>35 min to close
+ask: 20261012-004601-norm-1525#1
+room: OPIUM-DEN
+score: 13 (seed), stamped when sent</title><circle cx="808.5" cy="214.3" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>6 min to close
+ask: 20261012-012348-norm-1531#1
+room: BANK
+score: 13 (seed), stamped when sent</title><circle cx="815.5" cy="281.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>18 min to close
+ask: 20261012-012350-norm-1532#1
+room: TRAVEL-AGENCY
+score: 13 (seed), stamped when sent</title><circle cx="822.5" cy="239.7" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>21 min to close
+ask: 20261012-012617-norm-1533#1
+score: 2 (other), stamped when sent</title><circle cx="261.5" cy="233.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>24 min to close
+ask: 20261012-013233-norm-1537#1
+room: BANK
+score: 13 (seed), stamped when sent</title><circle cx="794.5" cy="228.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>23 min to close
+ask: 20261012-014324-norm-1539#1
+room: TRAVEL-AGENCY
+score: 13 (seed), stamped when sent</title><circle cx="801.5" cy="230.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>12 min to close
+ask: 20261012-031527-norm-1543#1
+room: STUDIO
+score: 5 (ring), stamped when sent</title><circle cx="545.5" cy="256.6" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>20 min to close
+ask: 20261012-031531-norm-1544#1
+room: STUDIO
+score: 5 (ring), stamped when sent</title><circle cx="552.5" cy="236.7" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>30 min to close
+ask: 20261012-031534-norm-1545#1
+room: MAYORS-OFFICE
+score: 5 (ring), stamped when sent</title><circle cx="524.5" cy="219.5" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>41 min to close
+ask: 20261012-031537-norm-1546#1
+room: MAYORS-OFFICE
+score: 5 (ring), stamped when sent</title><circle cx="531.5" cy="207.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>52 min to close
+ask: 20261012-031540-norm-1547#1
+room: OPIUM-DEN
+score: 5 (ring), stamped when sent</title><circle cx="538.5" cy="197.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>1.0 h to close
+ask: 20261012-031544-norm-1548#1
+room: OPIUM-DEN
+score: 5 (ring), stamped when sent</title><circle cx="545.5" cy="191.7" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>24 min to close
+ask: 20261012-040349-norm-1553#1
+room: BANK
+score: 5 (ring), stamped when sent</title><circle cx="552.5" cy="228.7" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>34 min to close
+ask: 20261012-040350-norm-1554#1
+room: BANK
+score: 5 (ring), stamped when sent</title><circle cx="524.5" cy="215.1" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>44 min to close
+ask: 20261012-040351-norm-1555#1
+room: TRAVEL-AGENCY
+score: 5 (ring), stamped when sent</title><circle cx="531.5" cy="204.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>52 min to close
+ask: 20261012-040353-norm-1556#1
+room: TRAVEL-AGENCY
+score: 5 (ring), stamped when sent</title><circle cx="538.5" cy="198.3" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>37 min to close
+ask: 20261012-042911-norm-1563#1
+room: BANK
+score: 5 (ring), stamped when sent</title><circle cx="545.5" cy="211.5" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>15 min to close
+ask: 20261012-051431-norm-1568#1
+score: 2 (other), stamped when sent</title><circle cx="268.5" cy="247.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>5 min to close
+ask: 20261012-093220-norm-1578#1
+score: 2 (other), stamped when sent</title><circle cx="275.5" cy="287.5" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>13 min to close
+ask: 20261012-093222-norm-1579#1
+score: 2 (other), stamped when sent</title><circle cx="282.5" cy="252.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>5 min to close
+ask: 20261012-094955-norm-1580#1
+score: 2 (other), stamped when sent</title><circle cx="254.5" cy="288.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>15 min to close
+ask: 20261012-094957-norm-1581#1
+score: 2 (other), stamped when sent</title><circle cx="261.5" cy="245.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>35 min to close
+ask: 20261012-094958-norm-1582#1
+score: 2 (other), stamped when sent</title><circle cx="268.5" cy="213.7" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>45 min to close
+ask: 20261012-095000-norm-1583#1
+score: 2 (other), stamped when sent</title><circle cx="275.5" cy="204.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>59 min to close
+ask: 20261012-095001-norm-1584#1
+score: 2 (other), stamped when sent</title><circle cx="282.5" cy="193.1" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>1.1 h to close
+ask: 20261012-095442-norm-1585#1
+score: 3 (other), stamped when sent</title><circle cx="389.5" cy="189.6" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>26 min to close
+ask: 20261012-104041-norm-1597#1
+room: REC-SHOP-BOOTH
+score: 5 (ring), stamped when sent</title><circle cx="552.5" cy="225.1" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>39 min to close
+ask: 20261012-104042-norm-1598#1
+room: REC-SHOP-BOOTH
+score: 5 (cap), stamped when sent</title><circle cx="524.5" cy="209.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>46 min to close
+ask: 20261012-104046-norm-1599#1
+room: GYM-MACHINE
+score: 5 (ring), stamped when sent</title><circle cx="531.5" cy="203.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>59 min to close
+ask: 20261012-104051-norm-1600#1
+room: GYM-MACHINE
+score: 5 (ring), stamped when sent</title><circle cx="538.5" cy="193.2" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>1.1 h to close
+ask: 20261012-104054-norm-1601#1
+room: GYM-MACHINE
+score: 5 (ring), stamped when sent</title><circle cx="545.5" cy="188.2" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>1.3 h to close
+ask: 20261012-104057-norm-1602#1
+room: GYM-MACHINE
+score: 5 (ring), stamped when sent</title><circle cx="552.5" cy="181.7" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>1.5 h to close
+ask: 20261012-104101-norm-1603#1
+room: GYM-MACHINE
+score: 3 (cap), stamped when sent</title><circle cx="396.5" cy="177.6" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>1.6 h to close
+ask: 20261012-104105-norm-1604#1
+room: GYM-MACHINE
+score: 3 (cap), stamped when sent</title><circle cx="403.5" cy="174.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>1.5 h to close
+ask: 20261012-105455-norm-1606#1
+score: 2 (other), stamped when sent</title><circle cx="254.5" cy="175.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>1.4 h to close
+ask: 20261012-111422-norm-1612#1
+score: 2 (other), stamped when sent</title><circle cx="261.5" cy="179.5" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>1.4 h to close
+ask: 20261012-112757-norm-1621#1
+room: OFFICERS-QUARTERS-B-BED
+score: 8 (seed), stamped when sent</title><circle cx="673.5" cy="178.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>1.5 h to close
+ask: 20261012-112758-norm-1622#1
+room: OFFICERS-QUARTERS-B-BED
+score: 8 (seed), stamped when sent</title><circle cx="680.5" cy="176.5" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>1.1 h to close
+ask: 20261012-120420-norm-1636#1
+room: GYM-MACHINE
+score: 5 (ring), stamped when sent</title><circle cx="524.5" cy="190.2" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>4 min to close
+ask: 20261012-121316-norm-1646#1
+room: GYM-MACHINE
+score: 3 (cap), stamped when sent</title><circle cx="410.5" cy="302.2" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>8 min to close
+ask: 20261012-150034-norm-1674#1
+room: OFFICERS-QUARTERS-B-BED
+score: 3 (cap), stamped when sent</title><circle cx="417.5" cy="270.6" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>18 min to close
+ask: 20261012-150035-norm-1675#1
+room: OFFICERS-QUARTERS-B-BED
+score: 3 (cap), stamped when sent</title><circle cx="389.5" cy="239.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>28 min to close
+ask: 20261012-150038-norm-1676#1
+room: OFFICERS-QUARTERS-B-BED
+score: 5 (ring), stamped when sent</title><circle cx="531.5" cy="222.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>28 min to close
+ask: 20261012-151003-norm-1677#1
+room: OFFICERS-QUARTERS-B-BED
+score: 3 (region), stamped when sent</title><circle cx="396.5" cy="222.7" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>10 min to close
+ask: 20261012-154643-norm-1681#1
+room: OFFICERS-QUARTERS-B-BED
+score: 3 (cap), stamped when sent</title><circle cx="403.5" cy="263.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>12 min to close
+ask: 20261012-183210-norm-1684#1
+room: GYM-MACHINE
+score: 5 (ring), stamped when sent</title><circle cx="538.5" cy="255.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>23 min to close
+ask: 20261012-183211-norm-1685#1
+room: GYM-MACHINE
+score: 3 (cap), stamped when sent</title><circle cx="410.5" cy="230.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>1.2 h to close
+ask: 20261012-191305-norm-1690#1
+room: OFFICERS-QUARTERS-A-BED
+score: 3 (ring), stamped when sent</title><circle cx="417.5" cy="184.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>1.3 h to close
+ask: 20261012-191307-norm-1691#1
+room: OFFICERS-QUARTERS-A-BED
+score: 3 (ring), stamped when sent</title><circle cx="389.5" cy="180.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>1.9 h to close
+ask: 20261012-191308-norm-1692#1
+room: OFFICERS-QUARTERS-A-BED
+score: 3 (ring), stamped when sent</title><circle cx="396.5" cy="168.1" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>2.0 h to close
+ask: 20261012-191309-norm-1693#1
+room: OFFICERS-QUARTERS-A-BED
+score: 3 (cap), stamped when sent</title><circle cx="403.5" cy="164.5" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>2.3 h to close
+ask: 20261012-191310-norm-1694#1
+room: OFFICERS-QUARTERS-A-BED
+score: 3 (cap), stamped when sent</title><circle cx="410.5" cy="159.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>2.5 h to close
+ask: 20261012-191312-norm-1695#1
+room: OFFICERS-QUARTERS-C-BED
+score: 5 (ring), stamped when sent</title><circle cx="545.5" cy="156.2" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>2.9 h to close
+ask: 20261012-191313-norm-1696#1
+room: OFFICERS-QUARTERS-C-BED
+score: 5 (ring), stamped when sent</title><circle cx="552.5" cy="150.7" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>3.2 h to close
+ask: 20261012-191314-norm-1697#1
+room: OFFICERS-QUARTERS-C-BED
+score: 5 (ring), stamped when sent</title><circle cx="524.5" cy="147.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>3.3 h to close
+ask: 20261012-191315-norm-1698#1
+room: OFFICERS-QUARTERS-C-BED
+score: 3 (cap), stamped when sent</title><circle cx="417.5" cy="145.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>5.2 h to close
+ask: 20261012-191316-norm-1699#1
+room: OFFICERS-QUARTERS-C-BED
+score: 3 (cap), stamped when sent</title><circle cx="389.5" cy="127.5" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>2.8 h to close
+ask: 20261012-202731-norm-1705#1
+room: ALIEN-SHIP
+score: 5 (cap), stamped when sent</title><circle cx="531.5" cy="151.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>3.6 h to close
+ask: 20261012-202929-norm-1707#1
+room: OFFICERS-QUARTERS-A-BED
+score: 2 (region), stamped when sent</title><circle cx="268.5" cy="142.5" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>17 min to close
+ask: 20261012-204719-norm-1711#1
+room: OFFICERS-QUARTERS-A-BED
+score: 3 (ring), stamped when sent</title><circle cx="396.5" cy="241.6" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>3.0 h to close
+ask: 20261012-205459-norm-1712#1
+room: MAIN-STREET
+score: 5 (ring), stamped when sent</title><circle cx="538.5" cy="149.6" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>5 min to close
+ask: 20261012-205915-norm-1713#1
+room: OFFICERS-QUARTERS-A-BED
+score: 3 (ring), stamped when sent</title><circle cx="403.5" cy="287.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>5 min to close
+ask: 20261012-212632-norm-1716#1
+room: OFFICERS-QUARTERS-A-BED
+score: 3 (cap), stamped when sent</title><circle cx="410.5" cy="287.1" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>16 min to close
+ask: 20261012-215022-norm-1718#1
+room: OFFICERS-QUARTERS-C-BED
+score: 5 (ring), stamped when sent</title><circle cx="545.5" cy="244.6" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>33 min to close
+ask: 20261012-215026-norm-1719#1
+room: OFFICERS-QUARTERS-C-BED
+score: 5 (ring), stamped when sent</title><circle cx="552.5" cy="216.2" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>2.6 h to close
+ask: 20261012-215030-norm-1720#1
+room: OFFICERS-QUARTERS-C-BED
+score: 3 (cap), stamped when sent</title><circle cx="417.5" cy="155.3" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>2.8 h to close
+ask: 20261012-215130-norm-1721#1
+room: OFFICERS-QUARTERS-C-BED
+score: 3 (region), stamped when sent</title><circle cx="389.5" cy="152.5" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>12 min to close
+ask: 20261012-235050-norm-1729#1
+room: OFFICERS-QUARTERS-A-BED
+score: 3 (ring), stamped when sent</title><circle cx="396.5" cy="256.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>11 min to close
+ask: 20261013-012649-norm-1746#1
+room: COMMANDERS-QUARTERS-BED
+score: 13 (seed), stamped when sent</title><circle cx="808.5" cy="258.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>18 min to close
+ask: 20261013-012651-norm-1747#1
+room: COMMANDERS-QUARTERS-BED
+score: 13 (seed), stamped when sent</title><circle cx="815.5" cy="239.7" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>33 min to close
+ask: 20261013-012652-norm-1748#1
+room: FLOPHOUSE-BED
+score: 13 (seed), stamped when sent</title><circle cx="822.5" cy="216.1" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>39 min to close
+ask: 20261013-012654-norm-1749#1
+room: FLOPHOUSE-BED
+score: 5 (ring), stamped when sent</title><circle cx="524.5" cy="209.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>48 min to close
+ask: 20261013-012656-norm-1750#1
+room: FLOPHOUSE-BED
+score: 5 (ring), stamped when sent</title><circle cx="531.5" cy="201.6" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>4 min to close
+ask: 20261013-021354-norm-1755#1
+room: COMMANDERS-QUARTERS-BED
+score: 5 (cap), stamped when sent</title><circle cx="538.5" cy="301.6" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>9 min to close
+ask: 20261013-021400-norm-1756#1
+room: COMMANDERS-QUARTERS-BED
+score: 5 (cap), stamped when sent</title><circle cx="545.5" cy="268.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>4 min to close
+ask: 20261013-022324-norm-1759#1
+room: COMMANDERS-QUARTERS-BED
+score: 5 (region), stamped when sent</title><circle cx="552.5" cy="298.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>14 min to close
+ask: 20261013-024031-norm-1763#1
+room: COMMANDERS-QUARTERS-BED
+score: 13 (seed), stamped when sent</title><circle cx="794.5" cy="249.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>19 min to close
+ask: 20261013-024032-norm-1764#1
+room: COMMANDERS-QUARTERS-BED
+score: 13 (seed), stamped when sent</title><circle cx="801.5" cy="237.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>10 min to close
+ask: 20261013-032546-norm-1767#1
+room: COMMANDERS-QUARTERS-BED
+score: 5 (cap), stamped when sent</title><circle cx="524.5" cy="261.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>10 min to close
+ask: 20261013-033700-norm-1768#1
+room: COMMANDERS-QUARTERS-BED
+score: 5 (region), stamped when sent</title><circle cx="531.5" cy="261.5" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>11 min to close
+ask: 20261013-051829-norm-1771#1
+room: FLOPHOUSE-BED
+score: 5 (cap), stamped when sent</title><circle cx="538.5" cy="259.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>19 min to close
+ask: 20261013-051833-norm-1772#1
+room: FLOPHOUSE-BED
+score: 5 (cap), stamped when sent</title><circle cx="545.5" cy="238.7" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>7 min to close
+ask: 20261013-053815-norm-1775#1
+room: FLOPHOUSE-BED
+score: 3 (region), stamped when sent</title><circle cx="403.5" cy="274.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>8 min to close
+ask: 20261013-060811-norm-1777#1
+room: FLOPHOUSE-BED
+score: 5 (cap), stamped when sent</title><circle cx="552.5" cy="272.7" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>18 min to close
+ask: 20261013-065504-norm-1780#1
+room: SICK-BAY-BED
+score: 13 (seed), stamped when sent</title><circle cx="808.5" cy="239.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>35 min to close
+ask: 20261013-065506-norm-1781#1
+room: SCIENTISTS-QUARTERS-BED
+score: 8 (seed), stamped when sent</title><circle cx="687.5" cy="213.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>1.0 h to close
+ask: 20261013-065509-norm-1783#1
+room: SCIENTISTS-QUARTERS-BED
+score: 8 (seed), stamped when sent</title><circle cx="659.5" cy="191.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>1.2 h to close
+ask: 20261013-065510-norm-1784#1
+room: SCIENTISTS-QUARTERS-BED
+score: 8 (seed), stamped when sent</title><circle cx="666.5" cy="185.4" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>47 min to close
+ask: 20261013-072951-norm-1787#1
+room: SICK-BAY-BED
+score: 5 (cap), stamped when sent</title><circle cx="524.5" cy="202.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>57 min to close
+ask: 20261013-072953-norm-1788#1
+room: SICK-BAY-BED
+score: 5 (cap), stamped when sent</title><circle cx="531.5" cy="194.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>44 min to close
+ask: 20261013-075633-norm-1793#1
+room: SCIENTISTS-QUARTERS-BED
+score: 3 (ring), stamped when sent</title><circle cx="410.5" cy="205.0" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>3 min to close
+ask: 20261013-085221-norm-1802#1
+room: SCIENTISTS-QUARTERS-BED
+score: 3 (cap), stamped when sent</title><circle cx="417.5" cy="309.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>13 min to close
+ask: 20261013-085228-norm-1803#1
+room: SCIENTISTS-QUARTERS-BED
+score: 3 (cap), stamped when sent</title><circle cx="389.5" cy="254.3" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>9 min to close
+ask: 20261013-085746-norm-1804#1
+room: SCIENTISTS-QUARTERS-BED
+score: 2 (region), stamped when sent</title><circle cx="275.5" cy="268.9" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>3 min to close
+ask: 20261013-090704-norm-1805#1
+room: SCIENTISTS-QUARTERS-BED
+score: 2 (region), stamped when sent</title><circle cx="282.5" cy="316.6" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>21 min to close
+ask: 20261013-092452-norm-1808#1
+room: FEMALE-BARRACKS-BED
+score: 8 (seed), stamped when sent</title><circle cx="673.5" cy="234.7" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>31 min to close
+ask: 20261013-092459-norm-1809#1
+room: FEMALE-BARRACKS-BED
+score: 8 (seed), stamped when sent</title><circle cx="680.5" cy="218.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>44 min to close
+ask: 20261013-092506-norm-1810#1
+room: FEMALE-BARRACKS-BED
+score: 8 (seed), stamped when sent</title><circle cx="687.5" cy="205.1" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>50 min to close
+ask: 20261013-092512-norm-1811#1
+room: FEMALE-BARRACKS-BED
+score: 8 (seed), stamped when sent</title><circle cx="659.5" cy="199.8" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>60 min to close
+ask: 20261013-092519-norm-1812#1
+room: AUXILIARY-BARRACKS-BED
+score: 8 (seed), stamped when sent</title><circle cx="666.5" cy="192.6" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>1.2 h to close
+ask: 20261013-092525-norm-1813#1
+room: AUXILIARY-BARRACKS-BED
+score: 8 (seed), stamped when sent</title><circle cx="673.5" cy="185.1" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>1.4 h to close
+ask: 20261013-092530-norm-1814#1
+room: AUXILIARY-BARRACKS-BED
+score: 8 (seed), stamped when sent</title><circle cx="680.5" cy="180.2" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>1.5 h to close
+ask: 20261013-092537-norm-1815#1
+room: AUXILIARY-BARRACKS-BED
+score: 8 (seed), stamped when sent</title><circle cx="687.5" cy="175.6" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>49 min to close
+ask: 20261013-101755-norm-1821#1
+room: FEMALE-BARRACKS-BED
+score: 8 (seed), stamped when sent</title><circle cx="659.5" cy="200.6" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>6 min to close
+ask: 20261013-114108-norm-1822#1
+room: OFFICERS-QUARTERS-C-BED
+score: 3 (cap), stamped when sent</title><circle cx="396.5" cy="280.7" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>11 min to close
+ask: 20261013-114836-norm-1829#1
+room: OFFICERS-QUARTERS-C-BED
+score: 5 (ring), stamped when sent</title><circle cx="538.5" cy="260.1" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>3 min to close
+ask: 20261013-121223-norm-1832#1
+room: FEMALE-BARRACKS-BED
+score: 3 (cap), stamped when sent</title><circle cx="403.5" cy="311.5" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>14 min to close
+ask: 20261013-121229-norm-1833#1
+room: FEMALE-BARRACKS-BED
+score: 3 (cap), stamped when sent</title><circle cx="410.5" cy="249.3" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>24 min to close
+ask: 20261013-121235-norm-1834#1
+room: AUXILIARY-BARRACKS-BED
+score: 3 (cap), stamped when sent</title><circle cx="417.5" cy="228.3" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
+<g class="m" data-s="stamped"><title>35 min to close
+ask: 20261013-121242-norm-1835#1
+room: AUXILIARY-BARRACKS-BED
+score: 3 (cap), stamped when sent</title><circle cx="389.5" cy="213.6" r="4.5" fill="#d95926" stroke="#111a22" stroke-width="1"/></g>
 <g class="m" data-s="median"><title>22 min median
-score 8: 162 asks</title><line x1="626.3" y1="232.2" x2="720.8" y2="232.2" stroke="#d9e3ea" stroke-width="2"/></g>
-<g class="m" data-s="median"><title>15 min median
-score 13: 70 asks</title><line x1="761.3" y1="247.3" x2="855.8" y2="247.3" stroke="#d9e3ea" stroke-width="2"/></g>
+score 2: 94 asks</title><line x1="221.3" y1="231.8" x2="315.8" y2="231.8" stroke="#d9e3ea" stroke-width="2"/></g>
+<g class="m" data-s="median"><title>26 min median
+score 3: 125 asks</title><line x1="356.3" y1="225.3" x2="450.8" y2="225.3" stroke="#d9e3ea" stroke-width="2"/></g>
+<g class="m" data-s="median"><title>29 min median
+score 5: 232 asks</title><line x1="491.3" y1="220.9" x2="585.8" y2="220.9" stroke="#d9e3ea" stroke-width="2"/></g>
+<g class="m" data-s="median"><title>24 min median
+score 8: 180 asks</title><line x1="626.3" y1="229.5" x2="720.8" y2="229.5" stroke="#d9e3ea" stroke-width="2"/></g>
+<g class="m" data-s="median"><title>14 min median
+score 13: 102 asks</title><line x1="761.3" y1="249.0" x2="855.8" y2="249.0" stroke="#d9e3ea" stroke-width="2"/></g>
 <rect x="66" y="76" width="810" height="278" fill="none" stroke="#34495a"/>
 <g class="lg" data-s="stamped">
 <circle cx="73" cy="49" r="5" fill="#d95926"/>
-<text x="85.0" y="54.0" fill="#d9e3ea" font-size="14" text-anchor="start">stamped when sent (528)</text>
+<text x="85.0" y="54.0" fill="#d9e3ea" font-size="14" text-anchor="start">stamped when sent (692)</text>
 </g>
 <g class="lg" data-s="retro">
 <circle cx="271" cy="49" r="4.5" fill="none" stroke="#d95926" stroke-width="1.8"/>
