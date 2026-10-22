@@ -16,615 +16,637 @@
 <text x="58.0" y="124.6" fill="#8fa3b1" font-size="14" text-anchor="end">100</text>
 <line x1="66" y1="76.0" x2="804" y2="76.0" stroke="#1f2c37"/>
 <text x="58.0" y="81.0" fill="#8fa3b1" font-size="14" text-anchor="end">125</text>
-<g class="tx" data-kind="time" data-dom="1790282079000 1792308570000" data-px="66 76 738 218" data-th="#34495a #d9e3ea #8fa3b1 14">
-<line x1="259.3" y1="76" x2="259.3" y2="294" stroke="#34495a" stroke-dasharray="3 3"/>
-<text x="259.3" y="313.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/01</text>
-<line x1="479.5" y1="76" x2="479.5" y2="294" stroke="#34495a" stroke-dasharray="3 3"/>
-<text x="479.5" y="313.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/08</text>
-<line x1="699.8" y1="76" x2="699.8" y2="294" stroke="#34495a" stroke-dasharray="3 3"/>
-<text x="699.8" y="313.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/15</text>
+<g class="tx" data-kind="time" data-dom="1790282079000 1792658677000" data-px="66 76 738 218" data-th="#34495a #d9e3ea #8fa3b1 14">
+<line x1="230.8" y1="76" x2="230.8" y2="294" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="230.8" y="313.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/01</text>
+<line x1="418.6" y1="76" x2="418.6" y2="294" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="418.6" y="313.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/08</text>
+<line x1="606.4" y1="76" x2="606.4" y2="294" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="606.4" y="313.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/15</text>
+<line x1="794.2" y1="76" x2="794.2" y2="294" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="794.2" y="313.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/22</text>
 </g>
-<g class="tz" data-kind="time" data-dom="1790282079000 1792308570000" data-px="66 76 738 218">
-<g class="sr" data-s="accepted"><polygon points="66.0,294.0 70.1,294.0 70.1,292.3 122.3,292.3 122.3,290.5 142.0,290.5 142.0,288.8 142.0,288.8 142.0,287.0 142.0,287.0 142.0,285.3 146.3,285.3 146.3,283.5 149.4,283.5 149.4,281.8 150.8,281.8 150.8,280.0 156.9,280.0 156.9,278.3 174.3,278.3 174.3,276.6 174.3,276.6 174.3,274.8 174.3,274.8 174.3,273.1 174.3,273.1 174.3,271.3 174.3,271.3 174.3,269.6 174.3,269.6 174.3,267.8 174.3,267.8 174.3,266.1 174.3,266.1 174.3,264.4 176.0,264.4 176.0,262.6 186.9,262.6 186.9,260.9 188.2,260.9 188.2,259.1 189.4,259.1 189.4,260.9 189.4,260.9 189.4,259.1 190.1,259.1 190.1,257.4 193.5,257.4 193.5,255.6 205.3,255.6 205.3,253.9 205.3,253.9 205.3,252.1 205.3,252.1 205.3,250.4 205.3,250.4 205.3,248.7 205.3,248.7 205.3,246.9 205.3,246.9 205.3,245.2 205.3,245.2 205.3,243.4 205.3,243.4 205.3,241.7 205.3,241.7 205.3,239.9 205.3,239.9 205.3,238.2 205.3,238.2 205.3,236.4 227.8,236.4 227.8,234.7 227.8,234.7 227.8,233.0 227.8,233.0 227.8,231.2 227.8,231.2 227.8,229.5 239.1,229.5 239.1,227.7 246.3,227.7 246.3,226.0 247.4,226.0 247.4,224.2 247.4,224.2 247.4,222.5 249.9,222.5 249.9,220.8 276.3,220.8 276.3,219.0 276.8,219.0 276.8,217.3 278.8,217.3 278.8,215.5 284.1,215.5 284.1,213.8 322.2,213.8 322.2,212.0 322.2,212.0 322.2,210.3 322.2,210.3 322.2,208.5 322.2,208.5 322.2,206.8 353.7,206.8 353.7,205.1 353.7,205.1 353.7,203.3 353.7,203.3 353.7,201.6 353.7,201.6 353.7,199.8 353.7,199.8 353.7,198.1 367.4,198.1 367.4,196.3 385.1,196.3 385.1,194.6 385.1,194.6 385.1,192.8 385.1,192.8 385.1,191.1 385.1,191.1 385.1,189.4 385.1,189.4 385.1,187.6 416.6,187.6 416.6,185.9 416.6,185.9 416.6,184.1 416.6,184.1 416.6,182.4 416.6,182.4 416.6,180.6 416.6,180.6 416.6,178.9 416.6,178.9 416.6,177.2 416.6,177.2 416.6,175.4 416.6,175.4 416.6,173.7 416.6,173.7 416.6,171.9 432.0,171.9 432.0,170.2 432.1,170.2 432.1,168.4 433.7,168.4 433.7,166.7 433.7,166.7 433.7,164.9 448.1,164.9 448.1,163.2 448.1,163.2 448.1,161.5 458.8,161.5 458.8,159.7 459.2,159.7 459.2,158.0 459.2,158.0 459.2,156.2 459.2,156.2 459.2,154.5 495.8,154.5 495.8,152.7 495.8,152.7 495.8,151.0 495.8,151.0 495.8,149.2 496.8,149.2 496.8,147.5 511.0,147.5 511.0,145.8 526.9,145.8 526.9,144.0 526.9,144.0 526.9,142.3 526.9,142.3 526.9,140.5 537.0,140.5 537.0,138.8 537.0,138.8 537.0,137.0 561.5,137.0 561.5,135.3 599.3,135.3 599.3,133.6 599.3,133.6 599.3,131.8 612.4,131.8 612.4,130.1 612.4,130.1 612.4,128.3 612.4,128.3 612.4,126.6 612.4,126.6 612.4,124.8 612.4,124.8 612.4,123.1 612.4,123.1 612.4,121.3 612.7,121.3 612.7,119.6 612.7,119.6 612.7,117.9 612.7,117.9 612.7,116.1 614.7,116.1 614.7,114.4 614.7,114.4 614.7,112.6 614.7,112.6 614.7,110.9 620.1,110.9 620.1,109.1 620.1,109.1 620.1,107.4 620.1,107.4 620.1,105.6 631.7,105.6 631.7,103.9 631.7,103.9 631.7,102.2 631.7,102.2 631.7,103.9 632.5,103.9 632.5,102.2 644.5,102.2 644.5,100.4 644.5,100.4 644.5,98.7 644.5,98.7 644.5,96.9 644.5,96.9 644.5,95.2 668.3,95.2 668.3,93.4 804.0,93.4 804.0,294.0" fill="#199e70" fill-opacity="0.28"/><polyline points="66.0,294.0 70.1,294.0 70.1,292.3 122.3,292.3 122.3,290.5 142.0,290.5 142.0,288.8 142.0,288.8 142.0,287.0 142.0,287.0 142.0,285.3 146.3,285.3 146.3,283.5 149.4,283.5 149.4,281.8 150.8,281.8 150.8,280.0 156.9,280.0 156.9,278.3 174.3,278.3 174.3,276.6 174.3,276.6 174.3,274.8 174.3,274.8 174.3,273.1 174.3,273.1 174.3,271.3 174.3,271.3 174.3,269.6 174.3,269.6 174.3,267.8 174.3,267.8 174.3,266.1 174.3,266.1 174.3,264.4 176.0,264.4 176.0,262.6 186.9,262.6 186.9,260.9 188.2,260.9 188.2,259.1 189.4,259.1 189.4,260.9 189.4,260.9 189.4,259.1 190.1,259.1 190.1,257.4 193.5,257.4 193.5,255.6 205.3,255.6 205.3,253.9 205.3,253.9 205.3,252.1 205.3,252.1 205.3,250.4 205.3,250.4 205.3,248.7 205.3,248.7 205.3,246.9 205.3,246.9 205.3,245.2 205.3,245.2 205.3,243.4 205.3,243.4 205.3,241.7 205.3,241.7 205.3,239.9 205.3,239.9 205.3,238.2 205.3,238.2 205.3,236.4 227.8,236.4 227.8,234.7 227.8,234.7 227.8,233.0 227.8,233.0 227.8,231.2 227.8,231.2 227.8,229.5 239.1,229.5 239.1,227.7 246.3,227.7 246.3,226.0 247.4,226.0 247.4,224.2 247.4,224.2 247.4,222.5 249.9,222.5 249.9,220.8 276.3,220.8 276.3,219.0 276.8,219.0 276.8,217.3 278.8,217.3 278.8,215.5 284.1,215.5 284.1,213.8 322.2,213.8 322.2,212.0 322.2,212.0 322.2,210.3 322.2,210.3 322.2,208.5 322.2,208.5 322.2,206.8 353.7,206.8 353.7,205.1 353.7,205.1 353.7,203.3 353.7,203.3 353.7,201.6 353.7,201.6 353.7,199.8 353.7,199.8 353.7,198.1 367.4,198.1 367.4,196.3 385.1,196.3 385.1,194.6 385.1,194.6 385.1,192.8 385.1,192.8 385.1,191.1 385.1,191.1 385.1,189.4 385.1,189.4 385.1,187.6 416.6,187.6 416.6,185.9 416.6,185.9 416.6,184.1 416.6,184.1 416.6,182.4 416.6,182.4 416.6,180.6 416.6,180.6 416.6,178.9 416.6,178.9 416.6,177.2 416.6,177.2 416.6,175.4 416.6,175.4 416.6,173.7 416.6,173.7 416.6,171.9 432.0,171.9 432.0,170.2 432.1,170.2 432.1,168.4 433.7,168.4 433.7,166.7 433.7,166.7 433.7,164.9 448.1,164.9 448.1,163.2 448.1,163.2 448.1,161.5 458.8,161.5 458.8,159.7 459.2,159.7 459.2,158.0 459.2,158.0 459.2,156.2 459.2,156.2 459.2,154.5 495.8,154.5 495.8,152.7 495.8,152.7 495.8,151.0 495.8,151.0 495.8,149.2 496.8,149.2 496.8,147.5 511.0,147.5 511.0,145.8 526.9,145.8 526.9,144.0 526.9,144.0 526.9,142.3 526.9,142.3 526.9,140.5 537.0,140.5 537.0,138.8 537.0,138.8 537.0,137.0 561.5,137.0 561.5,135.3 599.3,135.3 599.3,133.6 599.3,133.6 599.3,131.8 612.4,131.8 612.4,130.1 612.4,130.1 612.4,128.3 612.4,128.3 612.4,126.6 612.4,126.6 612.4,124.8 612.4,124.8 612.4,123.1 612.4,123.1 612.4,121.3 612.7,121.3 612.7,119.6 612.7,119.6 612.7,117.9 612.7,117.9 612.7,116.1 614.7,116.1 614.7,114.4 614.7,114.4 614.7,112.6 614.7,112.6 614.7,110.9 620.1,110.9 620.1,109.1 620.1,109.1 620.1,107.4 620.1,107.4 620.1,105.6 631.7,105.6 631.7,103.9 631.7,103.9 631.7,102.2 631.7,102.2 631.7,103.9 632.5,103.9 632.5,102.2 644.5,102.2 644.5,100.4 644.5,100.4 644.5,98.7 644.5,98.7 644.5,96.9 644.5,96.9 644.5,95.2 668.3,95.2 668.3,93.4 804.0,93.4" fill="none" stroke="#199e70" stroke-width="2"/></g>
+<g class="tz" data-kind="time" data-dom="1790282079000 1792658677000" data-px="66 76 738 218">
+<g class="sr" data-s="accepted"><polygon points="66.0,294.0 69.5,294.0 69.5,292.3 114.0,292.3 114.0,290.5 130.8,290.5 130.8,288.8 130.8,288.8 130.8,287.0 130.8,287.0 130.8,285.3 134.5,285.3 134.5,283.5 137.1,283.5 137.1,281.8 138.3,281.8 138.3,280.0 143.5,280.0 143.5,278.3 158.3,278.3 158.3,276.6 158.3,276.6 158.3,274.8 158.3,274.8 158.3,273.1 158.3,273.1 158.3,271.3 158.3,271.3 158.3,269.6 158.3,269.6 158.3,267.8 158.3,267.8 158.3,266.1 158.3,266.1 158.3,264.4 159.8,264.4 159.8,262.6 169.1,262.6 169.1,260.9 170.2,260.9 170.2,259.1 171.2,259.1 171.2,260.9 171.2,260.9 171.2,259.1 171.8,259.1 171.8,257.4 174.8,257.4 174.8,255.6 184.8,255.6 184.8,253.9 184.8,253.9 184.8,252.1 184.8,252.1 184.8,250.4 184.8,250.4 184.8,248.7 184.8,248.7 184.8,246.9 184.8,246.9 184.8,245.2 184.8,245.2 184.8,243.4 184.8,243.4 184.8,241.7 184.8,241.7 184.8,239.9 184.8,239.9 184.8,238.2 184.8,238.2 184.8,236.4 204.0,236.4 204.0,234.7 204.0,234.7 204.0,233.0 204.0,233.0 204.0,231.2 204.0,231.2 204.0,229.5 213.6,229.5 213.6,227.7 219.7,227.7 219.7,226.0 220.6,226.0 220.6,224.2 220.6,224.2 220.6,222.5 222.8,222.5 222.8,220.8 245.3,220.8 245.3,219.0 245.8,219.0 245.8,217.3 247.4,217.3 247.4,215.5 252.0,215.5 252.0,213.8 284.5,213.8 284.5,212.0 284.5,212.0 284.5,210.3 284.5,210.3 284.5,208.5 284.5,208.5 284.5,206.8 311.3,206.8 311.3,205.1 311.3,205.1 311.3,203.3 311.3,203.3 311.3,201.6 311.3,201.6 311.3,199.8 311.3,199.8 311.3,198.1 323.0,198.1 323.0,196.3 338.1,196.3 338.1,194.6 338.1,194.6 338.1,192.8 338.1,192.8 338.1,191.1 338.1,191.1 338.1,189.4 338.1,189.4 338.1,187.6 365.0,187.6 365.0,185.9 365.0,185.9 365.0,184.1 365.0,184.1 365.0,182.4 365.0,182.4 365.0,180.6 365.0,180.6 365.0,178.9 365.0,178.9 365.0,177.2 365.0,177.2 365.0,175.4 365.0,175.4 365.0,173.7 365.0,173.7 365.0,171.9 378.1,171.9 378.1,170.2 378.1,170.2 378.1,168.4 379.6,168.4 379.6,166.7 379.6,166.7 379.6,164.9 391.8,164.9 391.8,163.2 391.8,163.2 391.8,161.5 400.9,161.5 400.9,159.7 401.3,159.7 401.3,158.0 401.3,158.0 401.3,156.2 401.3,156.2 401.3,154.5 432.5,154.5 432.5,152.7 432.5,152.7 432.5,151.0 432.5,151.0 432.5,149.2 433.3,149.2 433.3,147.5 445.4,147.5 445.4,145.8 459.0,145.8 459.0,144.0 459.0,144.0 459.0,142.3 459.0,142.3 459.0,140.5 467.6,140.5 467.6,138.8 467.6,138.8 467.6,137.0 488.5,137.0 488.5,135.3 520.7,135.3 520.7,133.6 520.7,133.6 520.7,131.8 531.9,131.8 531.9,130.1 531.9,130.1 531.9,128.3 531.9,128.3 531.9,126.6 531.9,126.6 531.9,124.8 531.9,124.8 531.9,123.1 531.9,123.1 531.9,121.3 532.2,121.3 532.2,119.6 532.2,119.6 532.2,117.9 532.2,117.9 532.2,116.1 533.9,116.1 533.9,114.4 533.9,114.4 533.9,112.6 533.9,112.6 533.9,110.9 538.4,110.9 538.4,109.1 538.4,109.1 538.4,107.4 538.4,107.4 538.4,105.6 548.4,105.6 548.4,103.9 548.4,103.9 548.4,102.2 548.4,102.2 548.4,103.9 549.1,103.9 549.1,102.2 559.3,102.2 559.3,100.4 559.3,100.4 559.3,98.7 559.3,98.7 559.3,96.9 559.3,96.9 559.3,95.2 579.6,95.2 579.6,93.4 712.6,93.4 712.6,91.7 712.6,91.7 712.6,90.0 712.6,90.0 712.6,88.2 712.6,88.2 712.6,86.5 804.0,86.5 804.0,294.0" fill="#199e70" fill-opacity="0.28"/><polyline points="66.0,294.0 69.5,294.0 69.5,292.3 114.0,292.3 114.0,290.5 130.8,290.5 130.8,288.8 130.8,288.8 130.8,287.0 130.8,287.0 130.8,285.3 134.5,285.3 134.5,283.5 137.1,283.5 137.1,281.8 138.3,281.8 138.3,280.0 143.5,280.0 143.5,278.3 158.3,278.3 158.3,276.6 158.3,276.6 158.3,274.8 158.3,274.8 158.3,273.1 158.3,273.1 158.3,271.3 158.3,271.3 158.3,269.6 158.3,269.6 158.3,267.8 158.3,267.8 158.3,266.1 158.3,266.1 158.3,264.4 159.8,264.4 159.8,262.6 169.1,262.6 169.1,260.9 170.2,260.9 170.2,259.1 171.2,259.1 171.2,260.9 171.2,260.9 171.2,259.1 171.8,259.1 171.8,257.4 174.8,257.4 174.8,255.6 184.8,255.6 184.8,253.9 184.8,253.9 184.8,252.1 184.8,252.1 184.8,250.4 184.8,250.4 184.8,248.7 184.8,248.7 184.8,246.9 184.8,246.9 184.8,245.2 184.8,245.2 184.8,243.4 184.8,243.4 184.8,241.7 184.8,241.7 184.8,239.9 184.8,239.9 184.8,238.2 184.8,238.2 184.8,236.4 204.0,236.4 204.0,234.7 204.0,234.7 204.0,233.0 204.0,233.0 204.0,231.2 204.0,231.2 204.0,229.5 213.6,229.5 213.6,227.7 219.7,227.7 219.7,226.0 220.6,226.0 220.6,224.2 220.6,224.2 220.6,222.5 222.8,222.5 222.8,220.8 245.3,220.8 245.3,219.0 245.8,219.0 245.8,217.3 247.4,217.3 247.4,215.5 252.0,215.5 252.0,213.8 284.5,213.8 284.5,212.0 284.5,212.0 284.5,210.3 284.5,210.3 284.5,208.5 284.5,208.5 284.5,206.8 311.3,206.8 311.3,205.1 311.3,205.1 311.3,203.3 311.3,203.3 311.3,201.6 311.3,201.6 311.3,199.8 311.3,199.8 311.3,198.1 323.0,198.1 323.0,196.3 338.1,196.3 338.1,194.6 338.1,194.6 338.1,192.8 338.1,192.8 338.1,191.1 338.1,191.1 338.1,189.4 338.1,189.4 338.1,187.6 365.0,187.6 365.0,185.9 365.0,185.9 365.0,184.1 365.0,184.1 365.0,182.4 365.0,182.4 365.0,180.6 365.0,180.6 365.0,178.9 365.0,178.9 365.0,177.2 365.0,177.2 365.0,175.4 365.0,175.4 365.0,173.7 365.0,173.7 365.0,171.9 378.1,171.9 378.1,170.2 378.1,170.2 378.1,168.4 379.6,168.4 379.6,166.7 379.6,166.7 379.6,164.9 391.8,164.9 391.8,163.2 391.8,163.2 391.8,161.5 400.9,161.5 400.9,159.7 401.3,159.7 401.3,158.0 401.3,158.0 401.3,156.2 401.3,156.2 401.3,154.5 432.5,154.5 432.5,152.7 432.5,152.7 432.5,151.0 432.5,151.0 432.5,149.2 433.3,149.2 433.3,147.5 445.4,147.5 445.4,145.8 459.0,145.8 459.0,144.0 459.0,144.0 459.0,142.3 459.0,142.3 459.0,140.5 467.6,140.5 467.6,138.8 467.6,138.8 467.6,137.0 488.5,137.0 488.5,135.3 520.7,135.3 520.7,133.6 520.7,133.6 520.7,131.8 531.9,131.8 531.9,130.1 531.9,130.1 531.9,128.3 531.9,128.3 531.9,126.6 531.9,126.6 531.9,124.8 531.9,124.8 531.9,123.1 531.9,123.1 531.9,121.3 532.2,121.3 532.2,119.6 532.2,119.6 532.2,117.9 532.2,117.9 532.2,116.1 533.9,116.1 533.9,114.4 533.9,114.4 533.9,112.6 533.9,112.6 533.9,110.9 538.4,110.9 538.4,109.1 538.4,109.1 538.4,107.4 538.4,107.4 538.4,105.6 548.4,105.6 548.4,103.9 548.4,103.9 548.4,102.2 548.4,102.2 548.4,103.9 549.1,103.9 549.1,102.2 559.3,102.2 559.3,100.4 559.3,100.4 559.3,98.7 559.3,98.7 559.3,96.9 559.3,96.9 559.3,95.2 579.6,95.2 579.6,93.4 712.6,93.4 712.6,91.7 712.6,91.7 712.6,90.0 712.6,90.0 712.6,88.2 712.6,88.2 712.6,86.5 804.0,86.5" fill="none" stroke="#199e70" stroke-width="2"/></g>
 <g class="m" data-s="accepted"><title>1 accepted
 DECK-TWELVE: accepted
 at: 09/24 23:41
 verdict date: 2026-09-24
-recorded by: e0a977e</title><circle cx="70.1" cy="292.3" r="4" fill="#199e70"/></g>
+recorded by: e0a977e</title><circle cx="69.5" cy="292.3" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>2 accepted
 FORM-STORAGE-ROOM: accepted
 at: 09/26 15:30
 verdict date: 2026-09-26
-recorded by: c2f5099</title><circle cx="122.3" cy="290.5" r="4" fill="#199e70"/></g>
+recorded by: c2f5099</title><circle cx="114.0" cy="290.5" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>3 accepted
 COMM-CENTER: accepted
 at: 09/27 06:34
 verdict date: 2026-09-27
-recorded by: a6dc10a</title><circle cx="142.0" cy="288.8" r="4" fill="#199e70"/></g>
+recorded by: a6dc10a</title><circle cx="130.8" cy="288.8" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>4 accepted
 PX: accepted
 at: 09/27 06:34
 verdict date: 2026-09-27
-recorded by: a6dc10a</title><circle cx="142.0" cy="287.0" r="4" fill="#199e70"/></g>
+recorded by: a6dc10a</title><circle cx="130.8" cy="287.0" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>5 accepted
 SICK-BAY: accepted
 at: 09/27 06:34
 verdict date: 2026-09-27
-recorded by: a6dc10a</title><circle cx="142.0" cy="285.3" r="4" fill="#199e70"/></g>
+recorded by: a6dc10a</title><circle cx="130.8" cy="285.3" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>6 accepted
 COMMANDERS-OFFICE: accepted
 at: 09/27 09:49
 verdict date: 2026-09-27
-recorded by: 40159b3</title><circle cx="146.3" cy="283.5" r="4" fill="#199e70"/></g>
+recorded by: 40159b3</title><circle cx="134.5" cy="283.5" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>7 accepted
 SOUTH-JUNCTION: accepted
 at: 09/27 12:13
 verdict date: 2026-09-27
-recorded by: 7e7eae0</title><circle cx="149.4" cy="281.8" r="4" fill="#199e70"/></g>
+recorded by: 7e7eae0</title><circle cx="137.1" cy="281.8" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>8 accepted
 LEVEL-FIVE: accepted
 at: 09/27 13:17
 verdict date: 2026-09-27
-recorded by: 11e78be</title><circle cx="150.8" cy="280.0" r="4" fill="#199e70"/></g>
+recorded by: 11e78be</title><circle cx="138.3" cy="280.0" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>9 accepted
 STATION-CONTROL: accepted
 at: 09/27 17:52
 verdict date: 2026-09-27
-recorded by: cc0afed</title><circle cx="156.9" cy="278.3" r="4" fill="#199e70"/></g>
+recorded by: cc0afed</title><circle cx="143.5" cy="278.3" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>10 accepted
 BRIEFING-ROOM: accepted
 at: 09/28 07:10
 verdict date: 2026-09-28
-recorded by: 2b6df90</title><circle cx="174.3" cy="276.6" r="4" fill="#199e70"/></g>
+recorded by: 2b6df90</title><circle cx="158.3" cy="276.6" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>11 accepted
 CARGO-BAY: accepted
 at: 09/28 07:10
 verdict date: 2026-09-28
-recorded by: 2b6df90</title><circle cx="174.3" cy="274.8" r="4" fill="#199e70"/></g>
+recorded by: 2b6df90</title><circle cx="158.3" cy="274.8" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>12 accepted
 CARGO-BAY-ENTRANCE: accepted
 at: 09/28 07:10
 verdict date: 2026-09-28
-recorded by: 2b6df90</title><circle cx="174.3" cy="273.1" r="4" fill="#199e70"/></g>
+recorded by: 2b6df90</title><circle cx="158.3" cy="273.1" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>13 accepted
 EAST-CONNECTION: accepted
 at: 09/28 07:10
 verdict date: 2026-09-28
-recorded by: 2b6df90</title><circle cx="174.3" cy="271.3" r="4" fill="#199e70"/></g>
+recorded by: 2b6df90</title><circle cx="158.3" cy="271.3" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>14 accepted
 EAST-JUNCTION: accepted
 at: 09/28 07:10
 verdict date: 2026-09-28
-recorded by: 2b6df90</title><circle cx="174.3" cy="269.6" r="4" fill="#199e70"/></g>
+recorded by: 2b6df90</title><circle cx="158.3" cy="269.6" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>15 accepted
 LEVEL-THREE: accepted
 at: 09/28 07:10
 verdict date: 2026-09-28
-recorded by: 2b6df90</title><circle cx="174.3" cy="267.8" r="4" fill="#199e70"/></g>
+recorded by: 2b6df90</title><circle cx="158.3" cy="267.8" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>16 accepted
 NORTH-JUNCTION: accepted
 at: 09/28 07:10
 verdict date: 2026-09-28
-recorded by: 2b6df90</title><circle cx="174.3" cy="266.1" r="4" fill="#199e70"/></g>
+recorded by: 2b6df90</title><circle cx="158.3" cy="266.1" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>17 accepted
 SOUTH-CONNECTION: accepted
 at: 09/28 07:10
 verdict date: 2026-09-28
-recorded by: 2b6df90</title><circle cx="174.3" cy="264.4" r="4" fill="#199e70"/></g>
+recorded by: 2b6df90</title><circle cx="158.3" cy="264.4" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>18 accepted
 LEVEL-FOUR: accepted
 at: 09/28 08:27
 verdict date: 2026-09-28
-recorded by: 8a5e616</title><circle cx="176.0" cy="262.6" r="4" fill="#199e70"/></g>
+recorded by: 8a5e616</title><circle cx="159.8" cy="262.6" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>19 accepted
 COMMANDERS-QUARTERS: accepted
 at: 09/28 16:45
 verdict date: 2026-09-28
-recorded by: 4c1ef91</title><circle cx="186.9" cy="260.9" r="4" fill="#199e70"/></g>
+recorded by: 4c1ef91</title><circle cx="169.1" cy="260.9" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>20 accepted
 ROBOT-POOL: accepted
 at: 09/28 17:47
 verdict date: 2026-09-28
-recorded by: 80e1d9e</title><circle cx="188.2" cy="259.1" r="4" fill="#199e70"/></g>
+recorded by: 80e1d9e</title><circle cx="170.2" cy="259.1" r="4" fill="#199e70"/></g>
 <g class="m" data-s="withdrawn"><title>19 accepted
 ROBOT-POOL: acceptance withdrawn
 at: 09/28 18:41
-recorded by: 08eb5b0</title><circle cx="189.4" cy="260.9" r="4" fill="#111a22" stroke="#199e70" stroke-width="2"/></g>
+recorded by: 08eb5b0</title><circle cx="171.2" cy="260.9" r="4" fill="#111a22" stroke="#199e70" stroke-width="2"/></g>
 <g class="m" data-s="accepted"><title>20 accepted
 ROBOT-POOL: accepted
 at: 09/28 18:42
 verdict date: 2026-09-28
-recorded by: 720d428</title><circle cx="189.4" cy="259.1" r="4" fill="#199e70"/></g>
+recorded by: 720d428</title><circle cx="171.2" cy="259.1" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>21 accepted
 GYM: accepted
 at: 09/28 19:14
 verdict date: 2026-09-28
-recorded by: 310b454</title><circle cx="190.1" cy="257.4" r="4" fill="#199e70"/></g>
+recorded by: 310b454</title><circle cx="171.8" cy="257.4" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>22 accepted
 CHAPEL: accepted
 at: 09/28 21:51
 verdict date: 2026-09-28
-recorded by: 7466ff5</title><circle cx="193.5" cy="255.6" r="4" fill="#199e70"/></g>
+recorded by: 7466ff5</title><circle cx="174.8" cy="255.6" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>23 accepted
 BRIG: accepted
 at: 09/29 06:51
 verdict date: 2026-09-29
-recorded by: 21cc691</title><circle cx="205.3" cy="253.9" r="4" fill="#199e70"/></g>
+recorded by: 21cc691</title><circle cx="184.8" cy="253.9" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>24 accepted
 DOCKING-BAY-3: accepted
 at: 09/29 06:51
 verdict date: 2026-09-29
-recorded by: 21cc691</title><circle cx="205.3" cy="252.1" r="4" fill="#199e70"/></g>
+recorded by: 21cc691</title><circle cx="184.8" cy="252.1" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>25 accepted
 DOCKING-BAY-4: accepted
 at: 09/29 06:51
 verdict date: 2026-09-29
-recorded by: 21cc691</title><circle cx="205.3" cy="250.4" r="4" fill="#199e70"/></g>
+recorded by: 21cc691</title><circle cx="184.8" cy="250.4" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>26 accepted
 END-OF-CORRIDOR: accepted
 at: 09/29 06:51
 verdict date: 2026-09-29
-recorded by: 21cc691</title><circle cx="205.3" cy="248.7" r="4" fill="#199e70"/></g>
+recorded by: 21cc691</title><circle cx="184.8" cy="248.7" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>27 accepted
 FILE-ROOM: accepted
 at: 09/29 06:51
 verdict date: 2026-09-29
-recorded by: 21cc691</title><circle cx="205.3" cy="246.9" r="4" fill="#199e70"/></g>
+recorded by: 21cc691</title><circle cx="184.8" cy="246.9" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>28 accepted
 LAUNDRY: accepted
 at: 09/29 06:51
 verdict date: 2026-09-29
-recorded by: 21cc691</title><circle cx="205.3" cy="245.2" r="4" fill="#199e70"/></g>
+recorded by: 21cc691</title><circle cx="184.8" cy="245.2" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>29 accepted
 LEVEL-SIX: accepted
 at: 09/29 06:51
 verdict date: 2026-09-29
-recorded by: 21cc691</title><circle cx="205.3" cy="243.4" r="4" fill="#199e70"/></g>
+recorded by: 21cc691</title><circle cx="184.8" cy="243.4" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>30 accepted
 NORTH-CONNECTION: accepted
 at: 09/29 06:51
 verdict date: 2026-09-29
-recorded by: 21cc691</title><circle cx="205.3" cy="241.7" r="4" fill="#199e70"/></g>
+recorded by: 21cc691</title><circle cx="184.8" cy="241.7" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>31 accepted
 ROBOT-SHOP: accepted
 at: 09/29 06:51
 verdict date: 2026-09-29
-recorded by: 21cc691</title><circle cx="205.3" cy="239.9" r="4" fill="#199e70"/></g>
+recorded by: 21cc691</title><circle cx="184.8" cy="239.9" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>32 accepted
 SHIPPING-ROOM: accepted
 at: 09/29 06:51
 verdict date: 2026-09-29
-recorded by: 21cc691</title><circle cx="205.3" cy="238.2" r="4" fill="#199e70"/></g>
+recorded by: 21cc691</title><circle cx="184.8" cy="238.2" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>33 accepted
 WORKSHOP: accepted
 at: 09/29 06:51
 verdict date: 2026-09-29
-recorded by: 21cc691</title><circle cx="205.3" cy="236.4" r="4" fill="#199e70"/></g>
+recorded by: 21cc691</title><circle cx="184.8" cy="236.4" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>34 accepted
 BARRACKS-SANFAC: accepted
 at: 09/29 23:59
 verdict date: 2026-09-29
-recorded by: 02c6da2</title><circle cx="227.8" cy="234.7" r="4" fill="#199e70"/></g>
+recorded by: 02c6da2</title><circle cx="204.0" cy="234.7" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>35 accepted
 FEMALE-BARRACKS: accepted
 at: 09/29 23:59
 verdict date: 2026-09-29
-recorded by: 02c6da2</title><circle cx="227.8" cy="233.0" r="4" fill="#199e70"/></g>
+recorded by: 02c6da2</title><circle cx="204.0" cy="233.0" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>36 accepted
 STORAGE-5: accepted
 at: 09/29 23:59
 verdict date: 2026-09-29
-recorded by: 02c6da2</title><circle cx="227.8" cy="231.2" r="4" fill="#199e70"/></g>
+recorded by: 02c6da2</title><circle cx="204.0" cy="231.2" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>37 accepted
 THEATRE: accepted
 at: 09/29 23:59
 verdict date: 2026-09-29
-recorded by: 02c6da2</title><circle cx="227.8" cy="229.5" r="4" fill="#199e70"/></g>
+recorded by: 02c6da2</title><circle cx="204.0" cy="229.5" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>38 accepted
 ARMORY: accepted
 at: 09/30 08:34
 verdict date: 2026-09-30
-recorded by: 989646f</title><circle cx="239.1" cy="227.7" r="4" fill="#199e70"/></g>
+recorded by: 989646f</title><circle cx="213.6" cy="227.7" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>39 accepted
 SPACETRUCK: accepted
 at: 09/30 14:04
 verdict date: 2026-09-30
-recorded by: 02c6da2</title><circle cx="246.3" cy="226.0" r="4" fill="#199e70"/></g>
+recorded by: 02c6da2</title><circle cx="219.7" cy="226.0" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>40 accepted
 AUXILIARY-BARRACKS: accepted
 at: 09/30 14:54
 verdict date: 2026-09-30
-recorded by: 8008c3a</title><circle cx="247.4" cy="224.2" r="4" fill="#199e70"/></g>
+recorded by: 8008c3a</title><circle cx="220.6" cy="224.2" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>41 accepted
 MALE-BARRACKS: accepted
 at: 09/30 14:54
 verdict date: 2026-09-30
-recorded by: 8008c3a</title><circle cx="247.4" cy="222.5" r="4" fill="#199e70"/></g>
+recorded by: 8008c3a</title><circle cx="220.6" cy="222.5" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>42 accepted
 OFFICERS-QUARTERS-B: accepted
 at: 09/30 16:49
 verdict date: 2026-09-30
-recorded by: 22d00ae</title><circle cx="249.9" cy="220.8" r="4" fill="#199e70"/></g>
+recorded by: 22d00ae</title><circle cx="222.8" cy="220.8" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>43 accepted
 OFFICERS-QUARTERS-C: accepted
 at: 10/01 12:57
 verdict date: 2026-10-01
-recorded by: f19d135</title><circle cx="276.3" cy="219.0" r="4" fill="#199e70"/></g>
+recorded by: f19d135</title><circle cx="245.3" cy="219.0" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>44 accepted
 OFFICERS-QUARTERS-A: accepted
 at: 10/01 13:24
 verdict date: 2026-10-01
-recorded by: 8d7f553</title><circle cx="276.8" cy="217.3" r="4" fill="#199e70"/></g>
+recorded by: 8d7f553</title><circle cx="245.8" cy="217.3" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>45 accepted
 OFFICERS-SANFAC: accepted
 at: 10/01 14:51
 verdict date: 2026-10-01
-recorded by: cfbe1ca</title><circle cx="278.8" cy="215.5" r="4" fill="#199e70"/></g>
+recorded by: cfbe1ca</title><circle cx="247.4" cy="215.5" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>46 accepted
 DOCKING-BAY-1: accepted
 at: 10/01 18:56
 verdict date: 2026-10-01
-recorded by: fee9478</title><circle cx="284.1" cy="213.8" r="4" fill="#199e70"/></g>
+recorded by: fee9478</title><circle cx="252.0" cy="213.8" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>47 accepted
 LIBRARY: accepted
 at: 10/02 23:59
 verdict date: 2026-10-02
-recorded by: 72435c2</title><circle cx="322.2" cy="212.0" r="4" fill="#199e70"/></g>
+recorded by: 72435c2</title><circle cx="284.5" cy="212.0" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>48 accepted
 MAIN-STORAGE: accepted
 at: 10/02 23:59
 verdict date: 2026-10-02
-recorded by: 72435c2</title><circle cx="322.2" cy="210.3" r="4" fill="#199e70"/></g>
+recorded by: 72435c2</title><circle cx="284.5" cy="210.3" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>49 accepted
 MEETING-ROOM-1: accepted
 at: 10/02 23:59
 verdict date: 2026-10-02
-recorded by: 72435c2</title><circle cx="322.2" cy="208.5" r="4" fill="#199e70"/></g>
+recorded by: 72435c2</title><circle cx="284.5" cy="208.5" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>50 accepted
 MESS-HALL: accepted
 at: 10/02 23:59
 verdict date: 2026-10-02
-recorded by: 72435c2</title><circle cx="322.2" cy="206.8" r="4" fill="#199e70"/></g>
+recorded by: 72435c2</title><circle cx="284.5" cy="206.8" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>51 accepted
 AIR-SHAFT: accepted
 at: 10/03 23:59
 verdict date: 2026-10-03
-recorded by: 72435c2</title><circle cx="353.7" cy="205.1" r="4" fill="#199e70"/></g>
+recorded by: 72435c2</title><circle cx="311.3" cy="205.1" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>52 accepted
 BOTTOM-OF-AIR-SHAFT: accepted
 at: 10/03 23:59
 verdict date: 2026-10-03
-recorded by: 72435c2</title><circle cx="353.7" cy="203.3" r="4" fill="#199e70"/></g>
+recorded by: 72435c2</title><circle cx="311.3" cy="203.3" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>53 accepted
 ELEVATOR: accepted
 at: 10/03 23:59
 verdict date: 2026-10-03
-recorded by: 72435c2</title><circle cx="353.7" cy="201.6" r="4" fill="#199e70"/></g>
+recorded by: 72435c2</title><circle cx="311.3" cy="201.6" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>54 accepted
 MEETING-ROOM-2: accepted
 at: 10/03 23:59
 verdict date: 2026-10-03
-recorded by: 72435c2</title><circle cx="353.7" cy="199.8" r="4" fill="#199e70"/></g>
+recorded by: 72435c2</title><circle cx="311.3" cy="199.8" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>55 accepted
 TOP-OF-AIR-SHAFT: accepted
 at: 10/03 23:59
 verdict date: 2026-10-03
-recorded by: 72435c2</title><circle cx="353.7" cy="198.1" r="4" fill="#199e70"/></g>
+recorded by: 72435c2</title><circle cx="311.3" cy="198.1" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>56 accepted
 DOCKING-BAY-2: accepted
 at: 10/04 10:30
 verdict date: 2026-10-04
-recorded by: 72435c2</title><circle cx="367.4" cy="196.3" r="4" fill="#199e70"/></g>
+recorded by: 72435c2</title><circle cx="323.0" cy="196.3" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>57 accepted
 GREASY-STRAW: accepted
 at: 10/04 23:59
 verdict date: 2026-10-04
-recorded by: 7b421b8</title><circle cx="385.1" cy="194.6" r="4" fill="#199e70"/></g>
+recorded by: 7b421b8</title><circle cx="338.1" cy="194.6" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>58 accepted
 GRIMY-PASSAGE: accepted
 at: 10/04 23:59
 verdict date: 2026-10-04
-recorded by: 7b421b8</title><circle cx="385.1" cy="192.8" r="4" fill="#199e70"/></g>
+recorded by: 7b421b8</title><circle cx="338.1" cy="192.8" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>59 accepted
 MAIN-STREET: accepted
 at: 10/04 23:59
 verdict date: 2026-10-04
-recorded by: 7b421b8</title><circle cx="385.1" cy="191.1" r="4" fill="#199e70"/></g>
+recorded by: 7b421b8</title><circle cx="338.1" cy="191.1" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>60 accepted
 SPACETRUCK-COPILOT: accepted
 at: 10/04 23:59
 verdict date: 2026-10-04
-recorded by: 7b421b8</title><circle cx="385.1" cy="189.4" r="4" fill="#199e70"/></g>
+recorded by: 7b421b8</title><circle cx="338.1" cy="189.4" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>61 accepted
 SPACETRUCK-PILOT: accepted
 at: 10/04 23:59
 verdict date: 2026-10-04
-recorded by: 7b421b8</title><circle cx="385.1" cy="187.6" r="4" fill="#199e70"/></g>
+recorded by: 7b421b8</title><circle cx="338.1" cy="187.6" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>62 accepted
 BROADWAY: accepted
 at: 10/05 23:59
 verdict date: 2026-10-05
-recorded by: 7b421b8</title><circle cx="416.6" cy="185.9" r="4" fill="#199e70"/></g>
+recorded by: 7b421b8</title><circle cx="365.0" cy="185.9" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>63 accepted
 CASINO: accepted
 at: 10/05 23:59
 verdict date: 2026-10-05
-recorded by: 7b421b8</title><circle cx="416.6" cy="184.1" r="4" fill="#199e70"/></g>
+recorded by: 7b421b8</title><circle cx="365.0" cy="184.1" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>64 accepted
 FIELD-OFFICE: accepted
 at: 10/05 23:59
 verdict date: 2026-10-05
-recorded by: 7b421b8</title><circle cx="416.6" cy="182.4" r="4" fill="#199e70"/></g>
+recorded by: 7b421b8</title><circle cx="365.0" cy="182.4" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>65 accepted
 FLOPHOUSE: accepted
 at: 10/05 23:59
 verdict date: 2026-10-05
-recorded by: 7b421b8</title><circle cx="416.6" cy="180.6" r="4" fill="#199e70"/></g>
+recorded by: 7b421b8</title><circle cx="365.0" cy="180.6" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>66 accepted
 GROCERY: accepted
 at: 10/05 23:59
 verdict date: 2026-10-05
-recorded by: 7b421b8</title><circle cx="416.6" cy="178.9" r="4" fill="#199e70"/></g>
+recorded by: 7b421b8</title><circle cx="365.0" cy="178.9" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>67 accepted
 PAPER-RECYCLING-PLANT: accepted
 at: 10/05 23:59
 verdict date: 2026-10-05
-recorded by: 7b421b8</title><circle cx="416.6" cy="177.2" r="4" fill="#199e70"/></g>
+recorded by: 7b421b8</title><circle cx="365.0" cy="177.2" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>68 accepted
 PRINTING-PLANT: accepted
 at: 10/05 23:59
 verdict date: 2026-10-05
-recorded by: 7b421b8</title><circle cx="416.6" cy="175.4" r="4" fill="#199e70"/></g>
+recorded by: 7b421b8</title><circle cx="365.0" cy="175.4" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>69 accepted
 SALOON: accepted
 at: 10/05 23:59
 verdict date: 2026-10-05
-recorded by: 7b421b8</title><circle cx="416.6" cy="173.7" r="4" fill="#199e70"/></g>
+recorded by: 7b421b8</title><circle cx="365.0" cy="173.7" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>70 accepted
 TRADING-POST: accepted
 at: 10/05 23:59
 verdict date: 2026-10-05
-recorded by: 7b421b8</title><circle cx="416.6" cy="171.9" r="4" fill="#199e70"/></g>
+recorded by: 7b421b8</title><circle cx="365.0" cy="171.9" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>71 accepted
 TUBE: accepted
 at: 10/06 11:43
 verdict date: 2026-10-06
-recorded by: 642be57</title><circle cx="432.0" cy="170.2" r="4" fill="#199e70"/></g>
+recorded by: 642be57</title><circle cx="378.1" cy="170.2" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>72 accepted
 DOME: accepted
 at: 10/06 11:48
 verdict date: 2026-10-06
-recorded by: 2b0397f</title><circle cx="432.1" cy="168.4" r="4" fill="#199e70"/></g>
+recorded by: 2b0397f</title><circle cx="378.1" cy="168.4" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>73 accepted
 ASTRO-LAB: accepted
 at: 10/06 13:03
 verdict date: 2026-10-06
-recorded by: cebca1e</title><circle cx="433.7" cy="166.7" r="4" fill="#199e70"/></g>
+recorded by: cebca1e</title><circle cx="379.6" cy="166.7" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>74 accepted
 ENGINEERING-LAB: accepted
 at: 10/06 13:03
 verdict date: 2026-10-06
-recorded by: cebca1e</title><circle cx="433.7" cy="164.9" r="4" fill="#199e70"/></g>
+recorded by: cebca1e</title><circle cx="379.6" cy="164.9" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>75 accepted
 ASTRO-OFFICE: accepted
 at: 10/06 23:59
 verdict date: 2026-10-06
-recorded by: 58bfe67</title><circle cx="448.1" cy="163.2" r="4" fill="#199e70"/></g>
+recorded by: 58bfe67</title><circle cx="391.8" cy="163.2" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>76 accepted
 ENGINEERING-OFFICE: accepted
 at: 10/06 23:59
 verdict date: 2026-10-06
-recorded by: 58bfe67</title><circle cx="448.1" cy="161.5" r="4" fill="#199e70"/></g>
+recorded by: 58bfe67</title><circle cx="391.8" cy="161.5" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>77 accepted
 FACTORY: accepted
 at: 10/07 08:10
 verdict date: 2026-10-07
-recorded by: 8e3a6e6</title><circle cx="458.8" cy="159.7" r="4" fill="#199e70"/></g>
+recorded by: 8e3a6e6</title><circle cx="400.9" cy="159.7" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>78 accepted
 BIO-LAB: accepted
 at: 10/07 08:29
 verdict date: 2026-10-07
-recorded by: d1c61b8</title><circle cx="459.2" cy="158.0" r="4" fill="#199e70"/></g>
+recorded by: d1c61b8</title><circle cx="401.3" cy="158.0" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>79 accepted
 BIO-OFFICE: accepted
 at: 10/07 08:29
 verdict date: 2026-10-07
-recorded by: d1c61b8</title><circle cx="459.2" cy="156.2" r="4" fill="#199e70"/></g>
+recorded by: d1c61b8</title><circle cx="401.3" cy="156.2" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>80 accepted
 COMPUTER-CONTROL: accepted
 at: 10/07 08:29
 verdict date: 2026-10-07
-recorded by: d1c61b8</title><circle cx="459.2" cy="154.5" r="4" fill="#199e70"/></g>
+recorded by: d1c61b8</title><circle cx="401.3" cy="154.5" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>81 accepted
 BOTTOM-OF-ELEVATOR-SHAFT: accepted
 at: 10/08 12:25
 verdict date: 2026-10-08
-recorded by: 7b48f91</title><circle cx="495.8" cy="152.7" r="4" fill="#199e70"/></g>
+recorded by: 7b48f91</title><circle cx="432.5" cy="152.7" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>82 accepted
 HOLDING-TANK-LEVEL: accepted
 at: 10/08 12:25
 verdict date: 2026-10-08
-recorded by: 7b48f91</title><circle cx="495.8" cy="151.0" r="4" fill="#199e70"/></g>
+recorded by: 7b48f91</title><circle cx="432.5" cy="151.0" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>83 accepted
 SCIENTISTS-QUARTERS: accepted
 at: 10/08 12:25
 verdict date: 2026-10-08
-recorded by: 7b48f91</title><circle cx="495.8" cy="149.2" r="4" fill="#199e70"/></g>
+recorded by: 7b48f91</title><circle cx="432.5" cy="149.2" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>84 accepted
 AUXILIARY-SANFAC: accepted
 at: 10/08 13:08
 verdict date: 2026-10-08
-recorded by: dac7f91</title><circle cx="496.8" cy="147.5" r="4" fill="#199e70"/></g>
+recorded by: dac7f91</title><circle cx="433.3" cy="147.5" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>85 accepted
 SHADY-DANS: accepted
 at: 10/08 23:59
 verdict date: 2026-10-08
-recorded by: 210f8b6</title><circle cx="511.0" cy="145.8" r="4" fill="#199e70"/></g>
+recorded by: 210f8b6</title><circle cx="445.4" cy="145.8" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>86 accepted
 DOC-SCHUSTER: accepted
 at: 10/09 12:06
 verdict date: 2026-10-09
-recorded by: 5d9601c</title><circle cx="526.9" cy="144.0" r="4" fill="#199e70"/></g>
+recorded by: 5d9601c</title><circle cx="459.0" cy="144.0" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>87 accepted
 JUNK-YARD: accepted
 at: 10/09 12:07
 verdict date: 2026-10-09
-recorded by: 5e8da19</title><circle cx="526.9" cy="142.3" r="4" fill="#199e70"/></g>
+recorded by: 5e8da19</title><circle cx="459.0" cy="142.3" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>88 accepted
 PET-STORE: accepted
 at: 10/09 12:08
 verdict date: 2026-10-09
-recorded by: f2dcbaf</title><circle cx="526.9" cy="140.5" r="4" fill="#199e70"/></g>
+recorded by: f2dcbaf</title><circle cx="459.0" cy="140.5" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>89 accepted
 BARBERSHOP: accepted
 at: 10/09 19:50
 verdict date: 2026-10-09
-recorded by: 449fd77</title><circle cx="537.0" cy="138.8" r="4" fill="#199e70"/></g>
+recorded by: 449fd77</title><circle cx="467.6" cy="138.8" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>90 accepted
 VACUUM-STORAGE: accepted
 at: 10/09 19:51
 verdict date: 2026-10-09
-recorded by: a482eb0</title><circle cx="537.0" cy="137.0" r="4" fill="#199e70"/></g>
+recorded by: a482eb0</title><circle cx="467.6" cy="137.0" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>91 accepted
 AIRLOCK: accepted
 at: 10/10 14:30
 verdict date: 2026-10-10
-recorded by: 4f686a7</title><circle cx="561.5" cy="135.3" r="4" fill="#199e70"/></g>
+recorded by: 4f686a7</title><circle cx="488.5" cy="135.3" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>92 accepted
 ALLEY: accepted
 at: 10/11 19:20
 verdict date: 2026-10-11
-recorded by: ab5df66</title><circle cx="599.3" cy="133.6" r="4" fill="#199e70"/></g>
+recorded by: ab5df66</title><circle cx="520.7" cy="133.6" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>93 accepted
 FORTUNE-TELLER: accepted
 at: 10/11 19:20
 verdict date: 2026-10-11
-recorded by: ab5df66</title><circle cx="599.3" cy="131.8" r="4" fill="#199e70"/></g>
+recorded by: ab5df66</title><circle cx="520.7" cy="131.8" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>94 accepted
 BANK: accepted
 at: 10/12 05:18
 verdict date: 2026-10-12
-recorded by: 9fd0e4e</title><circle cx="612.4" cy="130.1" r="4" fill="#199e70"/></g>
+recorded by: 9fd0e4e</title><circle cx="531.9" cy="130.1" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>95 accepted
 HOLDING-TANK-INSIDE: accepted
 at: 10/12 05:18
 verdict date: 2026-10-12
-recorded by: 9fd0e4e</title><circle cx="612.4" cy="128.3" r="4" fill="#199e70"/></g>
+recorded by: 9fd0e4e</title><circle cx="531.9" cy="128.3" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>96 accepted
 MAKESHIFT-CONNECTOR: accepted
 at: 10/12 05:18
 verdict date: 2026-10-12
-recorded by: 9fd0e4e</title><circle cx="612.4" cy="126.6" r="4" fill="#199e70"/></g>
+recorded by: 9fd0e4e</title><circle cx="531.9" cy="126.6" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>97 accepted
 MAYORS-OFFICE: accepted
 at: 10/12 05:18
 verdict date: 2026-10-12
-recorded by: 9fd0e4e</title><circle cx="612.4" cy="124.8" r="4" fill="#199e70"/></g>
+recorded by: 9fd0e4e</title><circle cx="531.9" cy="124.8" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>98 accepted
 MISSIONARY: accepted
 at: 10/12 05:18
 verdict date: 2026-10-12
-recorded by: 9fd0e4e</title><circle cx="612.4" cy="123.1" r="4" fill="#199e70"/></g>
+recorded by: 9fd0e4e</title><circle cx="531.9" cy="123.1" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>99 accepted
 OPIUM-DEN: accepted
 at: 10/12 05:18
 verdict date: 2026-10-12
-recorded by: 9fd0e4e</title><circle cx="612.4" cy="121.3" r="4" fill="#199e70"/></g>
+recorded by: 9fd0e4e</title><circle cx="531.9" cy="121.3" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>100 accepted
 ALIEN-SHIP: accepted
 at: 10/12 05:34
 verdict date: 2026-10-12
-recorded by: 6664d10</title><circle cx="612.7" cy="119.6" r="4" fill="#199e70"/></g>
+recorded by: 6664d10</title><circle cx="532.2" cy="119.6" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>101 accepted
 RECRUITMENT-OFFICE: accepted
 at: 10/12 05:34
 verdict date: 2026-10-12
-recorded by: 6664d10</title><circle cx="612.7" cy="117.9" r="4" fill="#199e70"/></g>
+recorded by: 6664d10</title><circle cx="532.2" cy="117.9" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>102 accepted
 WAREHOUSE: accepted
 at: 10/12 05:34
 verdict date: 2026-10-12
-recorded by: 6664d10</title><circle cx="612.7" cy="116.1" r="4" fill="#199e70"/></g>
+recorded by: 6664d10</title><circle cx="532.2" cy="116.1" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>103 accepted
 LOAN-SHARK: accepted
 at: 10/12 07:07
 verdict date: 2026-10-12
-recorded by: 425abfc</title><circle cx="614.7" cy="114.4" r="4" fill="#199e70"/></g>
+recorded by: 425abfc</title><circle cx="533.9" cy="114.4" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>104 accepted
 PAWN-SHOP: accepted
 at: 10/12 07:07
 verdict date: 2026-10-12
-recorded by: 425abfc</title><circle cx="614.7" cy="112.6" r="4" fill="#199e70"/></g>
+recorded by: 425abfc</title><circle cx="533.9" cy="112.6" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>105 accepted
 TRAVEL-AGENCY: accepted
 at: 10/12 07:07
 verdict date: 2026-10-12
-recorded by: 425abfc</title><circle cx="614.7" cy="110.9" r="4" fill="#199e70"/></g>
+recorded by: 425abfc</title><circle cx="533.9" cy="110.9" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>106 accepted
 REC-SHOP: accepted
 at: 10/12 11:12
 verdict date: 2026-10-12
-recorded by: d83bb12</title><circle cx="620.1" cy="109.1" r="4" fill="#199e70"/></g>
+recorded by: d83bb12</title><circle cx="538.4" cy="109.1" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>107 accepted
 REC-SHOP-BOOTH: accepted
 at: 10/12 11:12
 verdict date: 2026-10-12
-recorded by: d83bb12</title><circle cx="620.1" cy="107.4" r="4" fill="#199e70"/></g>
+recorded by: d83bb12</title><circle cx="538.4" cy="107.4" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>108 accepted
 STUDIO: accepted
 at: 10/12 11:12
 verdict date: 2026-10-12
-recorded by: d83bb12</title><circle cx="620.1" cy="105.6" r="4" fill="#199e70"/></g>
+recorded by: d83bb12</title><circle cx="538.4" cy="105.6" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>109 accepted
 GYM-MACHINE: accepted
 at: 10/12 20:05
 verdict date: 2026-10-12
-recorded by: 3e83b80</title><circle cx="631.7" cy="103.9" r="4" fill="#199e70"/></g>
+recorded by: 3e83b80</title><circle cx="548.4" cy="103.9" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>110 accepted
 OFFICERS-QUARTERS-B-BED: accepted
 at: 10/12 20:05
 verdict date: 2026-10-12
-recorded by: 3e83b80</title><circle cx="631.7" cy="102.2" r="4" fill="#199e70"/></g>
+recorded by: 3e83b80</title><circle cx="548.4" cy="102.2" r="4" fill="#199e70"/></g>
 <g class="m" data-s="withdrawn"><title>109 accepted
 BARBERSHOP: acceptance withdrawn
 at: 10/12 20:05
-recorded by: 3e83b80</title><circle cx="631.7" cy="103.9" r="4" fill="#111a22" stroke="#199e70" stroke-width="2"/></g>
+recorded by: 3e83b80</title><circle cx="548.4" cy="103.9" r="4" fill="#111a22" stroke="#199e70" stroke-width="2"/></g>
 <g class="m" data-s="accepted"><title>110 accepted
 OFFICERS-QUARTERS-A-BED: accepted
 at: 10/12 20:42
 verdict date: 2026-10-12
-recorded by: 3ffe0b6</title><circle cx="632.5" cy="102.2" r="4" fill="#199e70"/></g>
+recorded by: 3ffe0b6</title><circle cx="549.1" cy="102.2" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>111 accepted
 BARBERSHOP: accepted
 at: 10/13 05:50
 verdict date: 2026-10-13
-recorded by: edd4832</title><circle cx="644.5" cy="100.4" r="4" fill="#199e70"/></g>
+recorded by: edd4832</title><circle cx="559.3" cy="100.4" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>112 accepted
 COMMANDERS-QUARTERS-BED: accepted
 at: 10/13 05:50
 verdict date: 2026-10-13
-recorded by: edd4832</title><circle cx="644.5" cy="98.7" r="4" fill="#199e70"/></g>
+recorded by: edd4832</title><circle cx="559.3" cy="98.7" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>113 accepted
 FLOPHOUSE-BED: accepted
 at: 10/13 05:50
 verdict date: 2026-10-13
-recorded by: edd4832</title><circle cx="644.5" cy="96.9" r="4" fill="#199e70"/></g>
+recorded by: edd4832</title><circle cx="559.3" cy="96.9" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>114 accepted
 SICK-BAY-BED: accepted
 at: 10/13 05:50
 verdict date: 2026-10-13
-recorded by: edd4832</title><circle cx="644.5" cy="95.2" r="4" fill="#199e70"/></g>
+recorded by: edd4832</title><circle cx="559.3" cy="95.2" r="4" fill="#199e70"/></g>
 <g class="m" data-s="accepted"><title>115 accepted
 SCIENTISTS-QUARTERS-BED: accepted
 at: 10/13 23:59
 verdict date: 2026-10-13
-recorded by: working copy</title><circle cx="668.3" cy="93.4" r="4" fill="#199e70"/></g>
+recorded by: 6a86790</title><circle cx="579.6" cy="93.4" r="4" fill="#199e70"/></g>
+<g class="m" data-s="accepted"><title>116 accepted
+AUXILIARY-BARRACKS-BED: accepted
+at: 10/18 22:57
+verdict date: 2026-10-18
+recorded by: ed0cf43</title><circle cx="712.6" cy="91.7" r="4" fill="#199e70"/></g>
+<g class="m" data-s="accepted"><title>117 accepted
+FEMALE-BARRACKS-BED: accepted
+at: 10/18 22:57
+verdict date: 2026-10-18
+recorded by: ed0cf43</title><circle cx="712.6" cy="90.0" r="4" fill="#199e70"/></g>
+<g class="m" data-s="accepted"><title>118 accepted
+MALE-BARRACKS-BED: accepted
+at: 10/18 22:57
+verdict date: 2026-10-18
+recorded by: ed0cf43</title><circle cx="712.6" cy="88.2" r="4" fill="#199e70"/></g>
+<g class="m" data-s="accepted"><title>119 accepted
+OFFICERS-QUARTERS-C-BED: accepted
+at: 10/18 22:57
+verdict date: 2026-10-18
+recorded by: ed0cf43</title><circle cx="712.6" cy="86.5" r="4" fill="#199e70"/></g>
 </g>
 <rect x="66" y="76" width="738" height="218" fill="none" stroke="#34495a"/>
-<text x="812.0" y="98.4" fill="#199e70" font-size="15" text-anchor="start" font-weight="600">115 now</text>
+<text x="812.0" y="91.5" fill="#199e70" font-size="15" text-anchor="start" font-weight="600">119 now</text>
 <g class="lg" data-s="accepted">
 <rect x="66" y="42" width="14" height="14" rx="2" fill="#199e70" fill-opacity="0.6"/>
-<text x="85.0" y="54.0" fill="#d9e3ea" font-size="14" text-anchor="start">rooms accepted (now 115)</text>
+<text x="85.0" y="54.0" fill="#d9e3ea" font-size="14" text-anchor="start">rooms accepted (now 119)</text>
 </g>
 <g class="lg" data-s="withdrawn">
 <circle cx="278" cy="49" r="4.5" fill="none" stroke="#199e70" stroke-width="1.8"/>

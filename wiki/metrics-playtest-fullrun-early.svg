@@ -85,11 +85,21 @@
 <text x="772.0" y="444.1" fill="#d9e3ea" font-size="13" text-anchor="start">Day 1 end 23-26</text>
 <line x1="66" y1="431.4" x2="764" y2="431.4" stroke="#34495a" stroke-width="0.6"/>
 <text x="772.0" y="372.7" fill="#d9e3ea" font-size="13" text-anchor="start">Day 2 26-51</text>
-<rect x="66" y="191.7" width="698" height="112.2" fill="#1f2c37"/>
+<rect x="66" y="303.9" width="698" height="0.0" fill="#1f2c37"/>
 <line x1="66" y1="303.9" x2="764" y2="303.9" stroke="#34495a" stroke-width="0.6"/>
-<text x="772.0" y="252.8" fill="#d9e3ea" font-size="13" text-anchor="start">Plato 51-73</text>
+<text x="772.0" y="308.9" fill="#d9e3ea" font-size="13" text-anchor="start">05a-foil 51-51</text>
+<line x1="66" y1="303.9" x2="764" y2="303.9" stroke="#34495a" stroke-width="0.6"/>
+<text x="772.0" y="283.4" fill="#d9e3ea" font-size="13" text-anchor="start">Plato 51-61</text>
+<rect x="66" y="191.7" width="698" height="61.2" fill="#1f2c37"/>
+<line x1="66" y1="252.9" x2="764" y2="252.9" stroke="#34495a" stroke-width="0.6"/>
+<text x="772.0" y="227.3" fill="#d9e3ea" font-size="13" text-anchor="start">06b-charge 61-73</text>
 <line x1="66" y1="191.7" x2="764" y2="191.7" stroke="#34495a" stroke-width="0.6"/>
 <text x="772.0" y="196.7" fill="#d9e3ea" font-size="13" text-anchor="start">06a-no-zapgun 73-73</text>
+<rect x="66" y="191.7" width="698" height="0.0" fill="#1f2c37"/>
+<line x1="66" y1="191.7" x2="764" y2="191.7" stroke="#34495a" stroke-width="0.6"/>
+<text x="772.0" y="196.7" fill="#d9e3ea" font-size="13" text-anchor="start">07a-forklift 73-73</text>
+<line x1="66" y1="191.7" x2="764" y2="191.7" stroke="#34495a" stroke-width="0.6"/>
+<text x="772.0" y="196.7" fill="#d9e3ea" font-size="13" text-anchor="start">07b-jammer-off 73-73</text>
 <rect x="66" y="156.0" width="698" height="35.7" fill="#1f2c37"/>
 <line x1="66" y1="191.7" x2="764" y2="191.7" stroke="#34495a" stroke-width="0.6"/>
 <text x="772.0" y="178.8" fill="#d9e3ea" font-size="13" text-anchor="start">Factory 73-80</text>
@@ -101,6 +111,7 @@
 <text x="58.0" y="451.7" fill="#8fa3b1" font-size="14" text-anchor="end">23</text>
 <text x="58.0" y="436.4" fill="#8fa3b1" font-size="14" text-anchor="end">26</text>
 <text x="58.0" y="308.9" fill="#8fa3b1" font-size="14" text-anchor="end">51</text>
+<text x="58.0" y="257.9" fill="#8fa3b1" font-size="14" text-anchor="end">61</text>
 <text x="58.0" y="196.7" fill="#8fa3b1" font-size="14" text-anchor="end">73</text>
 <text x="58.0" y="161.0" fill="#d9e3ea" font-size="14" text-anchor="end">80 win</text>
 <text x="14.0" y="360.0" fill="#8fa3b1" font-size="14" text-anchor="middle" transform="rotate(-90 14.0 360.0)">score</text>
@@ -125,7 +136,7 @@
 <g class="m ln" data-s="run-r9-click-fulla" data-round="9" data-session="r9-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r9-click-fullA (round 9, click A): 54 of 80 points in 1500 commands over 4 leg(s); furthest stage Plato; last new best at command 1096; 11 death(s); outcome: command cap reached</title><path d="M66.0,564.0 H88.8 V538.5 H105.0 V523.2 H137.1 V507.9 H396.2 V487.5 H405.5 V472.2 H434.7 V446.7 H469.6 V431.4 H493.3 V405.9 H523.0 V370.2 H533.2 V334.5 H568.5 V319.2 H575.0 V288.6 H762.6" fill="none" stroke="#199e70" stroke-width="2.2" stroke-linejoin="round"/></g>
 <g class="m ln" data-s="run-r9-click-fullb" data-round="9" data-session="r9-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r9-click-fullB (round 9, click B): 57 of 80 points in 1500 commands over 4 leg(s); furthest stage Plato; last new best at command 1467; 9 death(s); outcome: command cap reached</title><path d="M66.0,564.0 H86.4 V538.5 H114.8 V523.2 H139.4 V507.9 H202.1 V477.3 H228.5 V456.9 H243.9 V441.6 H350.7 V405.9 H431.5 V380.4 H448.2 V354.9 H503.5 V339.6 H510.4 V309.0 H670.7 V293.7 H747.3 V273.3 H762.6" fill="none" stroke="#81cab0" stroke-width="2.2" stroke-linejoin="round"/></g>
 <g class="m ln" data-s="run-r9-typed-full" data-round="9" data-session="r9-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r9-typed-full (round 9, typed): 54 of 80 points in 1500 commands over 4 leg(s); furthest stage Plato; last new best at command 1175; 5 death(s); outcome: command cap reached</title><path d="M66.0,564.0 H80.4 V538.5 H110.1 V523.2 H144.9 V507.9 H211.4 V477.3 H424.1 V456.9 H445.0 V431.4 H506.7 V395.7 H536.0 V370.2 H540.2 V334.5 H604.7 V319.2 H611.7 V288.6 H762.6" fill="none" stroke="#bfe4d7" stroke-width="2.2" stroke-linejoin="round"/></g>
-<g class="m ln" data-s="run-r10-click-fulla" data-round="10" data-session="r10-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r10-click-fullA (round 10, click A): 71 of 80 points in 1500 commands over 4 leg(s); furthest stage Plato; last new best at command 928; 13 death(s); outcome: command cap reached</title><path d="M66.0,564.0 H86.4 V538.5 H115.2 V523.2 H135.2 V507.9 H199.3 V477.3 H233.2 V451.8 H262.9 V431.4 H295.4 V416.1 H313.5 V380.4 H346.5 V360.0 H405.9 V344.7 H418.0 V319.2 H425.0 V288.6 H460.3 V273.3 H476.1 V258.0 H478.9 V222.3 H489.5 V212.1 H497.0 V201.9 H762.6" fill="none" stroke="#c98500" stroke-width="2.2" stroke-linejoin="round"/></g>
+<g class="m ln" data-s="run-r10-click-fulla" data-round="10" data-session="r10-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r10-click-fullA (round 10, click A): 71 of 80 points in 1500 commands over 4 leg(s); furthest stage 06b-charge; last new best at command 928; 13 death(s); outcome: command cap reached</title><path d="M66.0,564.0 H86.4 V538.5 H115.2 V523.2 H135.2 V507.9 H199.3 V477.3 H233.2 V451.8 H262.9 V431.4 H295.4 V416.1 H313.5 V380.4 H346.5 V360.0 H405.9 V344.7 H418.0 V319.2 H425.0 V288.6 H460.3 V273.3 H476.1 V258.0 H478.9 V222.3 H489.5 V212.1 H497.0 V201.9 H762.6" fill="none" stroke="#c98500" stroke-width="2.2" stroke-linejoin="round"/></g>
 <g class="m ln" data-s="run-r10-click-fullb" data-round="10" data-session="r10-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r10-click-fullB (round 10, click B): 54 of 80 points in 1500 commands over 4 leg(s); furthest stage Plato; last new best at command 1489; 11 death(s); outcome: command cap reached</title><path d="M66.0,564.0 H88.3 V538.5 H102.7 V523.2 H151.0 V507.9 H198.8 V477.3 H327.5 V441.6 H335.8 V405.9 H339.5 V380.4 H367.9 V354.9 H446.3 V339.6 H453.3 V309.0 H757.5 V288.6 H762.6" fill="none" stroke="#e1bc73" stroke-width="2.2" stroke-linejoin="round"/></g>
 <g class="m ln" data-s="run-r10-typed-full" data-round="10" data-session="r10-typed-full" data-mode="typed" data-sub="typed" data-outcome="cap"><title>r10-typed-full (round 10, typed): 38 of 80 points in 1500 commands over 4 leg(s); furthest stage Day 2; last new best at command 1450; 12 death(s); outcome: command cap reached</title><path d="M66.0,564.0 H79.9 V538.5 H96.7 V523.2 H174.2 V507.9 H231.3 V477.3 H277.8 V451.8 H317.2 V426.3 H335.8 V390.6 H739.4 V370.2 H762.6" fill="none" stroke="#f0ddb8" stroke-width="2.2" stroke-linejoin="round"/></g>
 <g class="m" data-s="run-r7-click-fulla" data-round="7" data-session="r7-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r7-click-fullA: leg began after command 399
@@ -419,7 +430,7 @@ score then: 71</title><path d="M699.7,198.4 L706.7,205.4 M706.7,198.4 L699.7,205
 <g class="m" data-s="run-r10-click-fulla" data-round="10" data-session="r10-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>r10-click-fullA: last new best at command 928, then 572 commands without
 best score: 71</title><circle cx="497.0" cy="201.9" r="4" fill="#111a22" stroke="#c98500" stroke-width="2"/></g>
 <g class="m pt" data-s="run-r10-click-fulla" data-round="10" data-session="r10-click-fullA" data-mode="click" data-sub="click click-a" data-outcome="cap"><title>71 of 80 points, cap reached
-r10-click-fullA (round 10, click A): 71 of 80 points in 1500 commands over 4 leg(s); furthest stage Plato; last new best at command 928; 13 death(s); outcome: command cap reached</title><path d="M756.6,195.9 L768.6,195.9 L762.6,207.9 Z" fill="#c98500" stroke="#111a22" stroke-width="1"/><line x1="755.6" y1="192.9" x2="769.6" y2="192.9" stroke="#c98500" stroke-width="2"/></g>
+r10-click-fullA (round 10, click A): 71 of 80 points in 1500 commands over 4 leg(s); furthest stage 06b-charge; last new best at command 928; 13 death(s); outcome: command cap reached</title><path d="M756.6,195.9 L768.6,195.9 L762.6,207.9 Z" fill="#c98500" stroke="#111a22" stroke-width="1"/><line x1="755.6" y1="192.9" x2="769.6" y2="192.9" stroke="#c98500" stroke-width="2"/></g>
 <g class="m" data-s="run-r10-click-fullb" data-round="10" data-session="r10-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r10-click-fullB: leg began after command 400
 score then: 17</title><line x1="251.8" y1="470.3" x2="251.8" y2="484.3" stroke="#e1bc73" stroke-width="2"/></g>
 <g class="m" data-s="run-r10-click-fullb" data-round="10" data-session="r10-click-fullB" data-mode="click" data-sub="click click-b" data-outcome="cap"><title>r10-click-fullB: leg began after command 800

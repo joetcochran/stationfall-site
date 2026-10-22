@@ -96,3 +96,19 @@ At most three milestones a day, one line each, with the commit.
 ## 2026-10-18
 - Round 17's triage and its four A fixes, among them the win screen offering only Continue while the score is held (355136c2, fcce09d5); the sponsor approves both B items as always-on lines, HELP pointing at the blueprints binder and the coffee's chemical smell (D109, 1601351a).
 - Q49's default for name plates is merged: plates for blocked directions hang on a seen wall, and things wholly out of sight lose their plate; 11 accepted rooms go back to the sponsor (64f0aac4).
+- The 3D characters reach the game by a switch in its own UI, off by default and remembered, and Floyd's rig is replaced with one carrying every clip (D110, ed0cf43a); the sponsor answers Q44 against its own default and a tool finds where a few centimetres would bring each model back (D111, 6b3ebce9).
+
+## 2026-10-19
+- D111 applied: 32 of 41 actor spots move 0.9 to 28.9 cm across 22 accepted rooms and the page draws the 3D model at every one; nine keep their cutouts (D112, a3fa7558).
+- M7's gate is met at 119 of 119 rooms accepted, and the browser harness's drawn-pixel list falls from 16 flagged clicks to 8, the four that left a player nowhere to click among them (a5650a27, 89352e4f).
+
+## 2026-10-20
+- The sponsor's own playthrough starts M8's second half: a checkpoint at the head of walkthrough section 8, and Plato's ambush shown to be the original's clock rather than a fault (a5fd5e77).
+- Plato's ambush gets a walkthrough section of its own, linked from four places (e61ff883).
+
+## 2026-10-21
+- Checkpoints at the head of section 9 and on both sides of the Computer Control trap; an off-route checkpoint's briefing now replays its own commands instead of the route's (aca45849, cb5732e5).
+- TURN ON JAMMER gets its own paragraph in section 9, with the four conditions the trap tests and the rescue written down (6e0ddf07).
+
+## 2026-10-22
+- The dashboard, the per-room review pages, the decisions queue, the mailbox and the sponsor's playthrough notes answer 404 to anything but a localhost runner, and a test holds the gate's list to every route the app maps (60bf51c6).

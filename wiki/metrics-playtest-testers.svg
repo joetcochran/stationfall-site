@@ -155,7 +155,7 @@ weighted per 100: 3; blocked rows: 6; negative kinds: 6 of 7</title><path d="M25
 r12-typed-full (round 12, typed)
 persona: a speedrunner who plays fast, types terse abbreviations and skims long descriptions
 host: Claude Code
-best score: 67, furthest stage Plato
+best score: 67, furthest stage 06b-charge
 weighted per 100: 2.47; blocked rows: 7; negative kinds: 5 of 7</title><path d="M250.0,554.0 H331.8 Q334.8,554.0 334.8,557.0 V569.0 Q334.8,572.0 331.8,572.0 H250.0 Z" fill="#3987e5"/></g>
 <text x="340.8" y="568.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.6 · best 67</text>
 <text x="238.0" y="594.0" fill="#d9e3ea" font-size="14" text-anchor="end">r7 click B (UNDO on)</text>
@@ -200,7 +200,7 @@ weighted per 100: 2.73; blocked rows: 7; negative kinds: 6 of 7</title><path d="
 r10-click-fullA (round 10, click)
 persona: a game-design student who narrates theories aloud and experiments with every object
 host: Claude Code
-best score: 71, furthest stage Plato
+best score: 71, furthest stage 06b-charge
 weighted per 100: 2.47; blocked rows: 7; negative kinds: 5 of 7</title><path d="M250.0,704.0 H324.9 Q327.9,704.0 327.9,707.0 V719.0 Q327.9,722.0 324.9,722.0 H250.0 Z" fill="#3987e5"/></g>
 <text x="333.9" y="718.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.5 · best 71</text>
 <text x="238.0" y="744.0" fill="#d9e3ea" font-size="14" text-anchor="end">r11 typed</text>
@@ -236,7 +236,7 @@ weighted per 100: 2.2; blocked rows: 7; negative kinds: 6 of 7</title><path d="M
 r14-click-full (round 14, click)
 persona: a night-shift nurse who plays in short bursts on a tablet, saves often and distrusts anything that looks dangerous
 host: Claude Code (Claude Opus 5.5)
-best score: 71, furthest stage Plato
+best score: 71, furthest stage 06b-charge
 weighted per 100: 2.27; blocked rows: 5; negative kinds: 4 of 7</title><path d="M250.0,824.0 H317.5 Q320.5,824.0 320.5,827.0 V839.0 Q320.5,842.0 317.5,842.0 H250.0 Z" fill="#3987e5"/></g>
 <text x="326.5" y="838.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.3 · best 71</text>
 <text x="238.0" y="864.0" fill="#d9e3ea" font-size="14" text-anchor="end">r9 typed</text>
@@ -317,7 +317,7 @@ weighted per 100: 2.07; blocked rows: 4; negative kinds: 3 of 7</title><path d="
 r16-gm-full (round 16a, typed)
 persona: a tabletop game master who treats every character as a person, talks to Floyd and Plato constantly, asks everyone about everything and follows hunches from what they say
 host: not recorded
-best score: 69, furthest stage Plato
+best score: 69, furthest stage 06b-charge
 weighted per 100: 1.67; blocked rows: 5; negative kinds: 4 of 7</title><path d="M250.0,1094.0 H296.3 Q299.3,1094.0 299.3,1097.0 V1109.0 Q299.3,1112.0 296.3,1112.0 H250.0 Z" fill="#8fa3b1"/></g>
 <text x="305.3" y="1108.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.9 · best 69</text>
 <text x="238.0" y="1134.0" fill="#d9e3ea" font-size="14" text-anchor="end">r16b typed</text>
@@ -353,7 +353,7 @@ weighted per 100: 1.53; blocked rows: 4; negative kinds: 6 of 7</title><path d="
 r16b-newcomer-full (round 16b, click)
 persona: a first-time player of text adventures in their twenties who grew up on mobile games, taps whatever looks interactive, reads quickly and gets bored by long descriptions
 host: not recorded
-best score: 61, furthest stage Plato
+best score: 61, furthest stage 06b-charge
 weighted per 100: 1.53; blocked rows: 5; negative kinds: 3 of 7</title><path d="M250.0,1214.0 H289.4 Q292.4,1214.0 292.4,1217.0 V1229.0 Q292.4,1232.0 289.4,1232.0 H250.0 Z" fill="#8fa3b1"/></g>
 <text x="298.4" y="1228.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.8 · best 61</text>
 <text x="238.0" y="1254.0" fill="#d9e3ea" font-size="14" text-anchor="end">r15b click</text>

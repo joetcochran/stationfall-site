@@ -1,10 +1,10 @@
 {
- "generated": "2026-10-18T11:29:30.738Z",
+ "generated": "2026-10-22T12:44:37.299Z",
  "clock": "US Eastern wall-clock",
  "span": {
   "from": "2026-09-24 20:34",
-  "to": "2026-10-18 07:29",
-  "hours": 562.9
+  "to": "2026-10-22 08:44",
+  "hours": 660.2
  },
  "binHours": 24,
  "headline": {
@@ -13,7 +13,7 @@
   "asksWithdrawn": 49,
   "normItemsClosed": 683,
   "normItems": 684,
-  "itemsClosedPerActiveHour": 2.7,
+  "itemsClosedPerActiveHour": 2.3,
   "roomViewsRegistered": 424,
   "cycle": {
    "norm": {
@@ -52,10 +52,10 @@
    "guide": 0.04,
    "judged": 667
   },
-  "tokensPerAcceptedView": 689522,
+  "tokensPerAcceptedView": 690567,
   "tokensPerAcceptedViewBasis": "greg + norm-main + art subagents, work tokens (fresh + cache writes + output)",
-  "tokensPerAcceptedViewWithCachedReads": 16027341,
-  "sponsorTouchesPerDay": 5.4
+  "tokensPerAcceptedViewWithCachedReads": 16028386,
+  "sponsorTouchesPerDay": 4.8
  },
  "throughput": [
   {
@@ -228,6 +228,34 @@
   },
   {
    "start": "2026-10-18 00:00",
+   "closedByNorm": 0,
+   "closedByGreg": 0,
+   "roomViews": 0,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-10-19 00:00",
+   "closedByNorm": 0,
+   "closedByGreg": 0,
+   "roomViews": 0,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-10-20 00:00",
+   "closedByNorm": 0,
+   "closedByGreg": 0,
+   "roomViews": 0,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-10-21 00:00",
+   "closedByNorm": 0,
+   "closedByGreg": 0,
+   "roomViews": 0,
+   "otherArt": 0
+  },
+  {
+   "start": "2026-10-22 00:00",
    "closedByNorm": 0,
    "closedByGreg": 0,
    "roomViews": 0,
@@ -419,6 +447,30 @@
   },
   {
    "start": "2026-10-18 00:00",
+   "approved": 0,
+   "paint": 0,
+   "guide": 0
+  },
+  {
+   "start": "2026-10-19 00:00",
+   "approved": 0,
+   "paint": 0,
+   "guide": 0
+  },
+  {
+   "start": "2026-10-20 00:00",
+   "approved": 0,
+   "paint": 0,
+   "guide": 0
+  },
+  {
+   "start": "2026-10-21 00:00",
+   "approved": 0,
+   "paint": 0,
+   "guide": 0
+  },
+  {
+   "start": "2026-10-22 00:00",
    "approved": 0,
    "paint": 0,
    "guide": 0
@@ -6291,9 +6343,9 @@
   }
  ],
  "cost": {
-  "runs": 939,
-  "tokens": 230731090,
-  "agentHours": 473.4,
+  "runs": 943,
+  "tokens": 231562788,
+  "agentHours": 474.84,
   "byMilestone": {
    "planning": {
     "runs": 4,
@@ -6331,14 +6383,14 @@
     "hours": 0.81
    },
    "M7": {
-    "runs": 594,
-    "tokens": 147268481,
-    "hours": 341.31
+    "runs": 597,
+    "tokens": 147929673,
+    "hours": 342.57
    },
    "M5": {
-    "runs": 299,
-    "tokens": 72382757,
-    "hours": 118.48
+    "runs": 300,
+    "tokens": 72553263,
+    "hours": 118.65
    },
    "D21": {
     "runs": 3,
@@ -6383,14 +6435,14 @@
     "hours": 30.92
    },
    "engine": {
-    "runs": 62,
-    "tokens": 15819730,
-    "hours": 39.6
+    "runs": 63,
+    "tokens": 16038053,
+    "hours": 39.87
    },
    "history": {
-    "runs": 22,
-    "tokens": 3440608,
-    "hours": 3.9
+    "runs": 23,
+    "tokens": 3611114,
+    "hours": 4.07
    },
    "porting": {
     "runs": 10,
@@ -6398,9 +6450,9 @@
     "hours": 3.53
    },
    "art-prep": {
-    "runs": 344,
-    "tokens": 104655519,
-    "hours": 250.56
+    "runs": 345,
+    "tokens": 104894719,
+    "hours": 250.95
    },
    "integration": {
     "runs": 10,
@@ -6413,9 +6465,9 @@
     "hours": 95.66
    },
    "review": {
-    "runs": 161,
-    "tokens": 21566441,
-    "hours": 34.48
+    "runs": 162,
+    "tokens": 21770110,
+    "hours": 35.08
    },
    "triage": {
     "runs": 22,
@@ -6423,9 +6475,9 @@
     "hours": 8.45
    }
   },
-  "artTokens": 126221960,
+  "artTokens": 126664829,
   "roomViewsRegistered": 424,
-  "tokensPerAcceptedView": 297693,
+  "tokensPerAcceptedView": 298738,
   "passes": {
    "tagged": 78,
    "deliveries": 709,
@@ -6587,8 +6639,8 @@
   },
   "perAcceptedView": {
    "views": 424,
-   "work": 689522,
-   "all": 16027341,
+   "work": 690567,
+   "all": 16028386,
    "parts": {
     "greg": {
      "work": 58367640,
@@ -6598,7 +6650,7 @@
      "work": 107767829,
      "all": 4910627525
     },
-    "subagentArtFromWorkLog": 126221960
+    "subagentArtFromWorkLog": 126664829
    }
   },
   "gregByModelPerView": {
@@ -6879,8 +6931,8 @@
   ]
  },
  "touches": {
-  "decisions": 86,
-  "questions": 50,
+  "decisions": 88,
+  "questions": 51,
   "days": [
    {
     "date": "2026-09-24",
@@ -7004,11 +7056,31 @@
    },
    {
     "date": "2026-10-18",
-    "decisions": 1,
+    "decisions": 3,
     "questions": 1
+   },
+   {
+    "date": "2026-10-19",
+    "decisions": 0,
+    "questions": 1
+   },
+   {
+    "date": "2026-10-20",
+    "decisions": 0,
+    "questions": 0
+   },
+   {
+    "date": "2026-10-21",
+    "decisions": 0,
+    "questions": 0
+   },
+   {
+    "date": "2026-10-22",
+    "decisions": 0,
+    "questions": 0
    }
   ],
-  "perDay": 5.4
+  "perDay": 4.8
  },
  "milestones": [
   {
@@ -7502,15 +7574,43 @@
     "available": 25
    },
    {
+    "id": "05a-foil",
+    "name": "05a-foil",
+    "start": 51,
+    "end": 51,
+    "available": 0
+   },
+   {
     "id": "06-plato",
     "name": "Plato",
     "start": 51,
+    "end": 61,
+    "available": 10
+   },
+   {
+    "id": "06b-charge",
+    "name": "06b-charge",
+    "start": 61,
     "end": 73,
-    "available": 22
+    "available": 12
    },
    {
     "id": "06a-no-zapgun",
     "name": "06a-no-zapgun",
+    "start": 73,
+    "end": 73,
+    "available": 0
+   },
+   {
+    "id": "07a-forklift",
+    "name": "07a-forklift",
+    "start": 73,
+    "end": 73,
+    "available": 0
+   },
+   {
+    "id": "07b-jammer-off",
+    "name": "07b-jammer-off",
     "start": 73,
     "end": 73,
     "available": 0
@@ -7996,9 +8096,9 @@
     "startScore": 51,
     "bestScore": 61,
     "gained": 10,
-    "available": 22,
-    "share": 0.455,
-    "stagesAdvanced": 0.45,
+    "available": 10,
+    "share": 1,
+    "stagesAdvanced": 1,
     "stuckAt": 33,
     "tail": 349,
     "deaths": [
@@ -8316,9 +8416,9 @@
     "startScore": 51,
     "bestScore": 54,
     "gained": 3,
-    "available": 22,
-    "share": 0.136,
-    "stagesAdvanced": 0.14,
+    "available": 10,
+    "share": 0.3,
+    "stagesAdvanced": 0.3,
     "stuckAt": 12,
     "tail": 386,
     "deaths": [
@@ -8916,9 +9016,9 @@
     "startScore": 51,
     "bestScore": 61,
     "gained": 10,
-    "available": 22,
-    "share": 0.455,
-    "stagesAdvanced": 0.45,
+    "available": 10,
+    "share": 1,
+    "stagesAdvanced": 1,
     "stuckAt": 33,
     "tail": 366,
     "deaths": [
@@ -9107,9 +9207,9 @@
     "startScore": 51,
     "bestScore": 54,
     "gained": 3,
-    "available": 22,
-    "share": 0.136,
-    "stagesAdvanced": 0.14,
+    "available": 10,
+    "share": 0.3,
+    "stagesAdvanced": 0.3,
     "stuckAt": 15,
     "tail": 381,
     "deaths": [
@@ -9535,9 +9635,9 @@
     "startScore": 51,
     "bestScore": 61,
     "gained": 10,
-    "available": 22,
-    "share": 0.455,
-    "stagesAdvanced": 0.45,
+    "available": 10,
+    "share": 1,
+    "stagesAdvanced": 1,
     "stuckAt": 31,
     "tail": 369,
     "deaths": [
@@ -9984,9 +10084,9 @@
     "startScore": 51,
     "bestScore": 80,
     "gained": 29,
-    "available": 22,
-    "share": 1.318,
-    "stagesAdvanced": 1,
+    "available": 10,
+    "share": 2.9,
+    "stagesAdvanced": 2,
     "stuckAt": 332,
     "tail": 1,
     "deaths": [
@@ -10526,18 +10626,58 @@
        "commands": 696
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1072,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
        "points": 2,
-       "share": 0.091,
+       "share": 0.2,
        "enteredAt": 1072,
        "commands": 431
       },
       {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -10556,7 +10696,7 @@
        "commands": 0
       }
      ],
-     "furthest": 10,
+     "furthest": 11,
      "furthestStage": "06-plato",
      "end": "stuck"
     },
@@ -10789,18 +10929,58 @@
        "commands": 1057
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1477,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
        "points": 4,
-       "share": 0.182,
+       "share": 0.4,
        "enteredAt": 1477,
        "commands": 24
       },
       {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -10819,7 +10999,7 @@
        "commands": 0
       }
      ],
-     "furthest": 10,
+     "furthest": 11,
      "furthestStage": "06-plato",
      "end": "cap"
     },
@@ -11083,9 +11263,29 @@
        "commands": 1036
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
        "reached": false,
        "points": 0,
        "share": 0,
@@ -11095,6 +11295,26 @@
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -11350,9 +11570,29 @@
        "commands": 955
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
        "reached": false,
        "points": 0,
        "share": 0,
@@ -11362,6 +11602,26 @@
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -11653,18 +11913,58 @@
        "commands": 386
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 782,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
-       "points": 22,
+       "points": 10,
        "share": 1,
        "enteredAt": 782,
-       "commands": 244
+       "commands": 85
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": true,
+       "points": 12,
+       "share": 1,
+       "enteredAt": 867,
+       "commands": 159
       },
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1026,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1026,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": true,
        "points": 0,
@@ -11683,7 +11983,7 @@
        "commands": 474
       }
      ],
-     "furthest": 12,
+     "furthest": 16,
      "furthestStage": "07-factory",
      "end": "stuck"
     },
@@ -11919,18 +12219,58 @@
        "commands": 748
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1356,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
        "points": 6,
-       "share": 0.273,
+       "share": 0.6,
        "enteredAt": 1356,
        "commands": 144
       },
       {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -11949,7 +12289,7 @@
        "commands": 0
       }
      ],
-     "furthest": 10,
+     "furthest": 11,
      "furthestStage": "06-plato",
      "end": "cap"
     },
@@ -12226,18 +12566,58 @@
        "commands": 349
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 773,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
-       "points": 20,
-       "share": 0.909,
+       "points": 10,
+       "share": 1,
        "enteredAt": 773,
-       "commands": 727
+       "commands": 116
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": true,
+       "points": 10,
+       "share": 0.833,
+       "enteredAt": 889,
+       "commands": 611
       },
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -12256,8 +12636,8 @@
        "commands": 0
       }
      ],
-     "furthest": 10,
-     "furthestStage": "06-plato",
+     "furthest": 12,
+     "furthestStage": "06b-charge",
      "end": "stuck"
     },
     "outcome": "cap"
@@ -12501,18 +12881,58 @@
        "commands": 908
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1489,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
        "points": 3,
-       "share": 0.136,
+       "share": 0.3,
        "enteredAt": 1489,
        "commands": 11
       },
       {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -12531,7 +12951,7 @@
        "commands": 0
       }
      ],
-     "furthest": 10,
+     "furthest": 11,
      "furthestStage": "06-plato",
      "end": "cap"
     },
@@ -12767,9 +13187,29 @@
        "commands": 959
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
        "reached": false,
        "points": 0,
        "share": 0,
@@ -12779,6 +13219,26 @@
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -13018,9 +13478,29 @@
        "commands": 1112
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
        "reached": false,
        "points": 0,
        "share": 0,
@@ -13030,6 +13510,26 @@
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -13337,18 +13837,58 @@
        "commands": 448
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 890,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
-       "points": 22,
+       "points": 10,
        "share": 1,
        "enteredAt": 890,
-       "commands": 293
+       "commands": 176
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": true,
+       "points": 12,
+       "share": 1,
+       "enteredAt": 1066,
+       "commands": 117
       },
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1183,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1183,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": true,
        "points": 0,
@@ -13367,7 +13907,7 @@
        "commands": 316
       }
      ],
-     "furthest": 12,
+     "furthest": 16,
      "furthestStage": "07-factory",
      "end": "died"
     },
@@ -13595,18 +14135,58 @@
        "commands": 454
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1067,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
        "points": 3,
-       "share": 0.136,
+       "share": 0.3,
        "enteredAt": 1067,
        "commands": 433
       },
       {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -13625,7 +14205,7 @@
        "commands": 0
       }
      ],
-     "furthest": 10,
+     "furthest": 11,
      "furthestStage": "06-plato",
      "end": "cap"
     },
@@ -13878,18 +14458,58 @@
        "commands": 930
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1386,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
        "points": 2,
-       "share": 0.091,
+       "share": 0.2,
        "enteredAt": 1386,
        "commands": 114
       },
       {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -13908,7 +14528,7 @@
        "commands": 0
       }
      ],
-     "furthest": 10,
+     "furthest": 11,
      "furthestStage": "06-plato",
      "end": "cap"
     },
@@ -14133,18 +14753,58 @@
        "commands": 514
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1221,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
        "points": 2,
-       "share": 0.091,
+       "share": 0.2,
        "enteredAt": 1221,
        "commands": 240
       },
       {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -14163,7 +14823,7 @@
        "commands": 0
       }
      ],
-     "furthest": 10,
+     "furthest": 11,
      "furthestStage": "06-plato",
      "end": "stuck"
     },
@@ -14419,18 +15079,58 @@
        "commands": 267
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 864,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
-       "points": 16,
-       "share": 0.727,
+       "points": 10,
+       "share": 1,
        "enteredAt": 864,
-       "commands": 636
+       "commands": 589
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": true,
+       "points": 6,
+       "share": 0.5,
+       "enteredAt": 1453,
+       "commands": 47
       },
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -14449,8 +15149,8 @@
        "commands": 0
       }
      ],
-     "furthest": 10,
-     "furthestStage": "06-plato",
+     "furthest": 12,
+     "furthestStage": "06b-charge",
      "end": "cap"
     },
     "outcome": "cap"
@@ -14698,18 +15398,58 @@
        "commands": 227
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1096,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
        "points": 3,
-       "share": 0.136,
+       "share": 0.3,
        "enteredAt": 1096,
        "commands": 404
       },
       {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -14728,7 +15468,7 @@
        "commands": 0
       }
      ],
-     "furthest": 10,
+     "furthest": 11,
      "furthestStage": "06-plato",
      "end": "stuck"
     },
@@ -14973,18 +15713,58 @@
        "commands": 689
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1302,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
        "points": 6,
-       "share": 0.273,
+       "share": 0.6,
        "enteredAt": 1302,
        "commands": 198
       },
       {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -15003,7 +15783,7 @@
        "commands": 0
       }
      ],
-     "furthest": 10,
+     "furthest": 11,
      "furthestStage": "06-plato",
      "end": "cap"
     },
@@ -15223,18 +16003,58 @@
        "commands": 359
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1175,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
        "points": 3,
-       "share": 0.136,
+       "share": 0.3,
        "enteredAt": 1175,
        "commands": 325
       },
       {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -15253,7 +16073,7 @@
        "commands": 0
       }
      ],
-     "furthest": 10,
+     "furthest": 11,
      "furthestStage": "06-plato",
      "end": "stuck"
     },
@@ -15481,9 +16301,29 @@
        "commands": 341
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
        "reached": false,
        "points": 0,
        "share": 0,
@@ -15493,6 +16333,26 @@
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -15749,9 +16609,29 @@
        "commands": 818
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
        "reached": false,
        "points": 0,
        "share": 0,
@@ -15761,6 +16641,26 @@
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -15980,9 +16880,29 @@
        "commands": 124
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
        "reached": false,
        "points": 0,
        "share": 0,
@@ -15992,6 +16912,26 @@
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -16267,18 +17207,58 @@
        "commands": 527
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1047,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
-       "points": 20,
-       "share": 0.909,
+       "points": 10,
+       "share": 1,
        "enteredAt": 1047,
-       "commands": 453
+       "commands": 149
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": true,
+       "points": 10,
+       "share": 0.833,
+       "enteredAt": 1196,
+       "commands": 304
       },
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -16297,8 +17277,8 @@
        "commands": 0
       }
      ],
-     "furthest": 10,
-     "furthestStage": "06-plato",
+     "furthest": 12,
+     "furthestStage": "06b-charge",
      "end": "cap"
     },
     "outcome": "cap"
@@ -16537,18 +17517,58 @@
        "commands": 820
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1462,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
        "points": 3,
-       "share": 0.136,
+       "share": 0.3,
        "enteredAt": 1462,
        "commands": 38
       },
       {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -16567,7 +17587,7 @@
        "commands": 0
       }
      ],
-     "furthest": 10,
+     "furthest": 11,
      "furthestStage": "06-plato",
      "end": "cap"
     },
@@ -16588,9 +17608,9 @@
     "startScore": 51,
     "bestScore": 80,
     "gained": 29,
-    "available": 22,
-    "share": 1.318,
-    "stagesAdvanced": 1,
+    "available": 10,
+    "share": 2.9,
+    "stagesAdvanced": 2,
     "stuckAt": 274,
     "tail": 526,
     "deaths": [
@@ -16921,9 +17941,29 @@
        "commands": 753
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
        "reached": false,
        "points": 0,
        "share": 0,
@@ -16933,6 +17973,26 @@
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -17180,9 +18240,29 @@
        "commands": 618
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
        "reached": false,
        "points": 0,
        "share": 0,
@@ -17192,6 +18272,26 @@
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -17403,9 +18503,29 @@
        "commands": 0
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
        "reached": false,
        "points": 0,
        "share": 0,
@@ -17415,6 +18535,26 @@
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -17671,9 +18811,29 @@
        "commands": 727
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
        "reached": false,
        "points": 0,
        "share": 0,
@@ -17683,6 +18843,26 @@
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -17930,9 +19110,29 @@
        "commands": 899
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
        "reached": false,
        "points": 0,
        "share": 0,
@@ -17942,6 +19142,26 @@
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -18194,9 +19414,29 @@
        "commands": 518
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
        "reached": false,
        "points": 0,
        "share": 0,
@@ -18206,6 +19446,26 @@
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -18466,9 +19726,29 @@
        "commands": 783
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
        "reached": false,
        "points": 0,
        "share": 0,
@@ -18478,6 +19758,26 @@
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -18728,9 +20028,29 @@
        "commands": 570
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
        "reached": false,
        "points": 0,
        "share": 0,
@@ -18740,6 +20060,26 @@
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -19002,9 +20342,29 @@
        "commands": 653
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
        "reached": false,
        "points": 0,
        "share": 0,
@@ -19014,6 +20374,26 @@
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -19283,18 +20663,58 @@
        "commands": 184
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 695,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
-       "points": 22,
+       "points": 10,
        "share": 1,
        "enteredAt": 695,
-       "commands": 383
+       "commands": 266
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": true,
+       "points": 12,
+       "share": 1,
+       "enteredAt": 961,
+       "commands": 117
       },
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1078,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1078,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": true,
        "points": 0,
@@ -19313,7 +20733,7 @@
        "commands": 80
       }
      ],
-     "furthest": 12,
+     "furthest": 16,
      "furthestStage": "07-factory",
      "end": "won"
     },
@@ -19525,9 +20945,29 @@
        "commands": 939
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
        "reached": false,
        "points": 0,
        "share": 0,
@@ -19537,6 +20977,26 @@
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -19771,9 +21231,19 @@
        "commands": 723
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1275,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
        "points": 0,
        "share": 0,
@@ -19781,8 +21251,38 @@
        "commands": 225
       },
       {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -19801,7 +21301,7 @@
        "commands": 0
       }
      ],
-     "furthest": 10,
+     "furthest": 11,
      "furthestStage": "06-plato",
      "end": "stuck"
     },
@@ -20065,18 +21565,58 @@
        "commands": 651
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1170,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
-       "points": 22,
+       "points": 10,
        "share": 1,
        "enteredAt": 1170,
-       "commands": 281
+       "commands": 229
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": true,
+       "points": 12,
+       "share": 1,
+       "enteredAt": 1399,
+       "commands": 52
       },
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1451,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1451,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": true,
        "points": 0,
@@ -20095,7 +21635,7 @@
        "commands": 49
       }
      ],
-     "furthest": 12,
+     "furthest": 16,
      "furthestStage": "07-factory",
      "end": "cap"
     },
@@ -20335,18 +21875,58 @@
        "commands": 427
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 972,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
-       "points": 18,
-       "share": 0.818,
+       "points": 10,
+       "share": 1,
        "enteredAt": 972,
-       "commands": 528
+       "commands": 421
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": true,
+       "points": 8,
+       "share": 0.667,
+       "enteredAt": 1393,
+       "commands": 107
       },
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -20365,8 +21945,8 @@
        "commands": 0
       }
      ],
-     "furthest": 10,
-     "furthestStage": "06-plato",
+     "furthest": 12,
+     "furthestStage": "06b-charge",
      "end": "cap"
     },
     "outcome": "cap"
@@ -20629,18 +22209,58 @@
        "commands": 679
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1120,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
-       "points": 22,
+       "points": 10,
        "share": 1,
        "enteredAt": 1120,
-       "commands": 323
+       "commands": 235
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": true,
+       "points": 12,
+       "share": 1,
+       "enteredAt": 1355,
+       "commands": 88
       },
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1443,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1443,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": true,
        "points": 0,
@@ -20659,7 +22279,7 @@
        "commands": 57
       }
      ],
-     "furthest": 12,
+     "furthest": 16,
      "furthestStage": "07-factory",
      "end": "cap"
     },
@@ -20907,18 +22527,58 @@
        "commands": 168
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 782,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
        "points": 3,
-       "share": 0.136,
+       "share": 0.3,
        "enteredAt": 782,
        "commands": 718
       },
       {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -20937,7 +22597,7 @@
        "commands": 0
       }
      ],
-     "furthest": 10,
+     "furthest": 11,
      "furthestStage": "06-plato",
      "end": "stuck"
     },
@@ -21201,18 +22861,58 @@
        "commands": 385
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1034,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
-       "points": 22,
+       "points": 10,
        "share": 1,
        "enteredAt": 1034,
-       "commands": 321
+       "commands": 64
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": true,
+       "points": 12,
+       "share": 1,
+       "enteredAt": 1098,
+       "commands": 257
       },
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1355,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1355,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": true,
        "points": 0,
@@ -21231,7 +22931,7 @@
        "commands": 145
       }
      ],
-     "furthest": 12,
+     "furthest": 16,
      "furthestStage": "07-factory",
      "end": "won"
     },
@@ -21479,18 +23179,58 @@
        "commands": 442
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 903,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
        "points": 10,
-       "share": 0.455,
+       "share": 1,
        "enteredAt": 903,
-       "commands": 597
+       "commands": 275
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": true,
+       "points": 0,
+       "share": 0,
+       "enteredAt": 1178,
+       "commands": 322
       },
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -21509,8 +23249,8 @@
        "commands": 0
       }
      ],
-     "furthest": 10,
-     "furthestStage": "06-plato",
+     "furthest": 12,
+     "furthestStage": "06b-charge",
      "end": "stuck"
     },
     "outcome": "cap"
@@ -21725,18 +23465,58 @@
        "commands": 569
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1254,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
        "points": 3,
-       "share": 0.136,
+       "share": 0.3,
        "enteredAt": 1254,
        "commands": 246
       },
       {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -21755,7 +23535,7 @@
        "commands": 0
       }
      ],
-     "furthest": 10,
+     "furthest": 11,
      "furthestStage": "06-plato",
      "end": "stuck"
     },
@@ -22006,18 +23786,58 @@
        "commands": 222
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 708,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
-       "points": 22,
+       "points": 10,
        "share": 1,
        "enteredAt": 708,
-       "commands": 310
+       "commands": 148
+      },
+      {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": true,
+       "points": 12,
+       "share": 1,
+       "enteredAt": 856,
+       "commands": 162
       },
       {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1018,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1018,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": true,
        "points": 0,
@@ -22036,7 +23856,7 @@
        "commands": 91
       }
      ],
-     "furthest": 12,
+     "furthest": 16,
      "furthestStage": "07-factory",
      "end": "won"
     },
@@ -22280,18 +24100,58 @@
        "commands": 417
       },
       {
+       "id": "05a-foil",
+       "name": "05a-foil",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1008,
+       "commands": 0
+      },
+      {
        "id": "06-plato",
        "name": "Plato",
-       "available": 22,
+       "available": 10,
        "reached": true,
        "points": 7,
-       "share": 0.318,
+       "share": 0.7,
        "enteredAt": 1008,
        "commands": 492
       },
       {
+       "id": "06b-charge",
+       "name": "06b-charge",
+       "available": 12,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
        "id": "06a-no-zapgun",
        "name": "06a-no-zapgun",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07a-forklift",
+       "name": "07a-forklift",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "07b-jammer-off",
+       "name": "07b-jammer-off",
        "available": 0,
        "reached": false,
        "points": 0,
@@ -22310,7 +24170,7 @@
        "commands": 0
       }
      ],
-     "furthest": 10,
+     "furthest": 11,
      "furthestStage": "06-plato",
      "end": "cap"
     },
@@ -22319,24 +24179,24 @@
   ]
  },
  "git": {
-  "commits": 1271,
-  "withWorkTrailer": 703,
+  "commits": 1291,
+  "withWorkTrailer": 712,
   "churnByArea": {
-   "design": 601781,
-   "wwwroot/data": 553165,
-   "wwwroot/wiki": 285978,
+   "design": 602084,
+   "wwwroot/data": 554492,
+   "wwwroot/wiki": 298621,
    "playtests": 130390,
-   "scripts": 75232,
+   "scripts": 76167,
    "stationfall-master": 44064,
    "wwwroot/rules": 10141,
-   "wwwroot/scene": 6726,
+   "wwwroot/scene": 7019,
    "wwwroot/engine": 5334,
-   "wwwroot/dashboard": 4886,
-   "decisions": 4235,
+   "wwwroot/dashboard": 4895,
+   "decisions": 4341,
    "porting": 4081,
-   "(top)": 2685,
+   "(top)": 2871,
    "reference": 1649,
-   "wwwroot": 1501,
+   "wwwroot": 1578,
    "methodology": 925,
    "wwwroot/ui": 510,
    "docs": 158,
@@ -22345,12 +24205,24 @@
   },
   "byWork": [
    {
-    "work": "M5 [triage]",
-    "commits": 12
+    "work": "M7 [art-eyes]",
+    "commits": 31
+   },
+   {
+    "work": "M5 [handoff]",
+    "commits": 5
    },
    {
     "work": "M7 [plates]",
-    "commits": 3
+    "commits": 6
+   },
+   {
+    "work": "M5 [history]",
+    "commits": 7
+   },
+   {
+    "work": "M5 [triage]",
+    "commits": 12
    },
    {
     "work": "M5 [playtest]",
@@ -22361,16 +24233,8 @@
     "commits": 1
    },
    {
-    "work": "M7 [art-eyes]",
-    "commits": 27
-   },
-   {
     "work": "M7 [handoff]",
     "commits": 12
-   },
-   {
-    "work": "M5 [history]",
-    "commits": 6
    },
    {
     "work": "M9 [methodology]",
@@ -22399,10 +24263,6 @@
    {
     "work": "M7 [D104]",
     "commits": 1
-   },
-   {
-    "work": "M5 [handoff]",
-    "commits": 4
    },
    {
     "work": "M7 [decisions]",
@@ -23176,6 +25036,10 @@
    "date": "2026-09-30"
   },
   {
+   "room": "AUXILIARY-BARRACKS-BED",
+   "date": "2026-10-18"
+  },
+  {
    "room": "AUXILIARY-SANFAC",
    "date": "2026-10-08"
   },
@@ -23316,6 +25180,10 @@
    "date": "2026-09-29"
   },
   {
+   "room": "FEMALE-BARRACKS-BED",
+   "date": "2026-10-18"
+  },
+  {
    "room": "FIELD-OFFICE",
    "date": "2026-10-05"
   },
@@ -23416,6 +25284,10 @@
    "date": "2026-09-30"
   },
   {
+   "room": "MALE-BARRACKS-BED",
+   "date": "2026-10-18"
+  },
+  {
    "room": "MAYORS-OFFICE",
    "date": "2026-10-12"
   },
@@ -23462,6 +25334,10 @@
   {
    "room": "OFFICERS-QUARTERS-C",
    "date": "2026-10-01"
+  },
+  {
+   "room": "OFFICERS-QUARTERS-C-BED",
+   "date": "2026-10-18"
   },
   {
    "room": "OFFICERS-SANFAC",
@@ -24554,8 +26430,40 @@
    "room": "SCIENTISTS-QUARTERS-BED",
    "change": 1,
    "date": "2026-10-13",
-   "via": "working copy",
+   "via": "6a86790",
    "total": 115
+  },
+  {
+   "t": "2026-10-18 22:57",
+   "room": "AUXILIARY-BARRACKS-BED",
+   "change": 1,
+   "date": "2026-10-18",
+   "via": "ed0cf43",
+   "total": 116
+  },
+  {
+   "t": "2026-10-18 22:57",
+   "room": "FEMALE-BARRACKS-BED",
+   "change": 1,
+   "date": "2026-10-18",
+   "via": "ed0cf43",
+   "total": 117
+  },
+  {
+   "t": "2026-10-18 22:57",
+   "room": "MALE-BARRACKS-BED",
+   "change": 1,
+   "date": "2026-10-18",
+   "via": "ed0cf43",
+   "total": 118
+  },
+  {
+   "t": "2026-10-18 22:57",
+   "room": "OFFICERS-QUARTERS-C-BED",
+   "change": 1,
+   "date": "2026-10-18",
+   "via": "ed0cf43",
+   "total": 119
   }
  ],
  "readLog": {

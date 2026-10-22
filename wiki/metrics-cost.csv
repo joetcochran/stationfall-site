@@ -6,8 +6,8 @@ milestone,M2,10,3653978,3.53
 milestone,M6,5,743344,0.93
 milestone,M3,3,942769,0.93
 milestone,M4,1,540229,0.81
-milestone,M7,594,147268481,341.31
-milestone,M5,299,72382757,118.48
+milestone,M7,597,147929673,342.57
+milestone,M5,300,72553263,118.65
 milestone,D21,3,517122,0.7
 milestone,D22,1,126183,0.18
 milestone,M8,2,581446,1.08
@@ -16,11 +16,11 @@ milestone,playtest,10,1831565,3.5
 milestone,M9,1,265605,0.16
 kind,research,12,2074073,2.75
 kind,tooling,61,14065436,30.92
-kind,engine,62,15819730,39.6
-kind,history,22,3440608,3.9
+kind,engine,63,16038053,39.87
+kind,history,23,3611114,4.07
 kind,porting,10,3653978,3.53
-kind,art-prep,344,104655519,250.56
+kind,art-prep,345,104894719,250.95
 kind,integration,10,1790150,3.54
 kind,playtest,235,57233618,95.66
-kind,review,161,21566441,34.48
+kind,review,162,21770110,35.08
 kind,triage,22,6431537,8.45

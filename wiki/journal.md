@@ -804,3 +804,28 @@ Round 17 gave the D106 build to three new personas on Astra (Codex CLI), the fir
 **Playtests.** ![Current full runs](wiki/metrics-playtest-fullrun-current.svg) Illustrator won at command 1,036, 3 legs; stenographer 58 at the 1,500 cap, scoring; escape-room designer best 54, stuck. Plato 48% (53%), Factory 33% (33%). Ends: 1 won, 1 cap, 1 stuck (1 won, 2 stuck). Caveats: new personas and model, one run each. [Triage](playtests.md#r=17): 9 new, 4 A. [Astra vs Opus](playtesting.md): slightly more friction, triple the diary.
 
 <!-- through: git a12cab42 · mail 20261013-130828-norm-1840 · decisions 123 -->
+
+## 2026-10-22 -- The sponsor plays it through, and the design pages go private (M8, M9)
+
+M8's second half is the sponsor playing the game themselves: four checkpoints and a rewritten stretch of walkthrough came of it. M9 began by closing the design pages to all but a local runner.
+
+**Decisions.** D110: a 3D switch in the game, off by default, so accepted rooms draw as accepted (rule 9); Floyd's rig replaced (ed0cf43a). D111: Q44 against its default -- ***the models are the point of 3D mode, the misses centimetres***. D112 (Norm) applied it: 32 of 41 spots moved 0.9-28.9 cm in 22 accepted rooms, in one package as asked (a3fa7558); Q51 on its default. 22 Oct: ***the design pages for a local runner only***.
+
+**What went wrong and what changed.**
+- The nudge tool called spots fitting that drew flat: one idle clip of three, rounding, two against rule 14. Candidates now face every guard (a3fa7558).
+- 16 flagged clicks went to the sponsor as a review, and the question was not theirs. Norm agreed: defects, not decisions. 16 became 8 (89352e4f).
+- An ambush two sections early read as a bug and is canon (station.zil 3481-3484); it has its own section (e61ff883).
+- A command buried as a paragraph's last clause cost an undiagnosable death -- three reports, one cause. It has a paragraph, the rescue and two checkpoints, whose briefings had replayed the route (6e0ddf07, cb5732e5).
+- The port served the dashboard, mailbox, queue and the sponsor's notes to anyone; all 404 now, tested per route (60bf51c6).
+
+**Milestones:** M7 met, 119 of 119 (a5650a27). M8: clickable throughout, 8 partial-cover clicks left. M9 begun.
+
+**Rework (D20).** Sol all period, no view judged: 547 views, 448 first-pass, 14% (14%), 1.24 rounds (1.24). No guide faults.
+
+**Efficiency (D21).** 424 views (424); 690,000 tokens/view (690,000; log to 7 Oct); 4.8 touches/day (5.4); 943 agent runs.
+
+**Playtests.** No round ran; 17 was the last (D103). ![Current full runs](wiki/metrics-playtest-fullrun-current.svg) The charts moved only because a new checkpoint at 61 points splits the old 22-point Plato band into Plato 10 and the charge 12: each Plato bar now reads against 10 (17 67%, 16b 77%, 16a 100%). Ends, legs and commands unchanged; rotating personas, agent testers, one run each.
+
+**The sponsor's own playthroughs.** Ten reports over two sittings, 20 and 21 October, their first whole play: mostly 3D characters standing or clipping badly with the switch on, one figure behind a held object, three asking for painted states after an assembly. All ten are open; the work above came of them.
+
+<!-- through: git 60bf51c6 · mail 20261018-150901-norm-1854 · decisions 126 -->
