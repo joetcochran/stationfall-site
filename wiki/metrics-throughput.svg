@@ -31,218 +31,225 @@
 <text x="58.0" y="173.0" fill="#8fa3b1" font-size="14" text-anchor="end">150</text>
 <line x1="66" y1="128.0" x2="876" y2="128.0" stroke="#1f2c37"/>
 <text x="58.0" y="133.0" fill="#8fa3b1" font-size="14" text-anchor="end">200</text>
-<g class="tx" data-kind="time" data-dom="1790208000000 1792713600000" data-px="66 128 810 160" data-th="#34495a #d9e3ea #8fa3b1 14">
+<g class="tx" data-kind="time" data-dom="1790208000000 1792800000000" data-px="66 128 810 160" data-th="#34495a #d9e3ea #8fa3b1 14">
 <line x1="66.0" y1="128" x2="66.0" y2="288" stroke="#34495a" stroke-dasharray="3 3"/>
 <text x="66.0" y="307.0" fill="#d9e3ea" font-size="14" text-anchor="middle">09/24</text>
-<line x1="261.5" y1="128" x2="261.5" y2="288" stroke="#34495a" stroke-dasharray="3 3"/>
-<text x="261.5" y="307.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/01</text>
-<line x1="457.0" y1="128" x2="457.0" y2="288" stroke="#34495a" stroke-dasharray="3 3"/>
-<text x="457.0" y="307.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/08</text>
-<line x1="652.6" y1="128" x2="652.6" y2="288" stroke="#34495a" stroke-dasharray="3 3"/>
-<text x="652.6" y="307.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/15</text>
-<line x1="848.1" y1="128" x2="848.1" y2="288" stroke="#34495a" stroke-dasharray="3 3"/>
-<text x="848.1" y="307.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/22</text>
+<line x1="255.0" y1="128" x2="255.0" y2="288" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="255.0" y="307.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/01</text>
+<line x1="444.0" y1="128" x2="444.0" y2="288" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="444.0" y="307.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/08</text>
+<line x1="633.0" y1="128" x2="633.0" y2="288" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="633.0" y="307.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/15</text>
+<line x1="822.0" y1="128" x2="822.0" y2="288" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="822.0" y="307.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/22</text>
 </g>
-<g class="tz" data-kind="time" data-dom="1790208000000 1792713600000" data-px="66 128 810 160">
+<g class="tz" data-kind="time" data-dom="1790208000000 1792800000000" data-px="66 128 810 160">
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="norm" data-v="16" data-rk="- - norm"><title>16 of 36
 09/24
-closed by Norm: 16</title><rect x="67.0" y="275.2" width="25.9" height="12.8" fill="#3987e5"/></g>
+closed by Norm: 16</title><rect x="67.0" y="275.2" width="25.0" height="12.8" fill="#3987e5"/></g>
 <g class="m" data-s="greg" data-v="20" data-rk="- - greg"><title>20 of 36
 09/24
-closed by Greg: 20</title><path d="M67.0,274.2 V262.2 Q67.0,259.2 70.0,259.2 H89.9 Q92.9,259.2 92.9,262.2 V274.2 Z" fill="#d95926" data-b="67.0 259.2 25.9 15.0"/></g>
+closed by Greg: 20</title><path d="M67.0,274.2 V262.2 Q67.0,259.2 70.0,259.2 H89.0 Q92.0,259.2 92.0,262.2 V274.2 Z" fill="#d95926" data-b="67.0 259.2 25.0 15.0"/></g>
 <g class="sum">
-<text x="80.0" y="255.2" fill="#8fa3b1" font-size="13" text-anchor="middle">36</text>
+<text x="79.5" y="255.2" fill="#8fa3b1" font-size="13" text-anchor="middle">36</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="norm" data-v="67" data-rk="- - norm"><title>67 of 178
 09/25
-closed by Norm: 67</title><rect x="94.9" y="234.4" width="25.9" height="53.6" fill="#3987e5"/></g>
+closed by Norm: 67</title><rect x="94.0" y="234.4" width="25.0" height="53.6" fill="#3987e5"/></g>
 <g class="m" data-s="greg" data-v="111" data-rk="- - greg"><title>111 of 178
 09/25
-closed by Greg: 111</title><path d="M94.9,233.4 V148.6 Q94.9,145.6 97.9,145.6 H117.9 Q120.9,145.6 120.9,148.6 V233.4 Z" fill="#d95926" data-b="94.9 145.6 25.9 87.8"/></g>
+closed by Greg: 111</title><path d="M94.0,233.4 V148.6 Q94.0,145.6 97.0,145.6 H116.0 Q119.0,145.6 119.0,148.6 V233.4 Z" fill="#d95926" data-b="94.0 145.6 25.0 87.8"/></g>
 <g class="sum">
-<text x="107.9" y="141.6" fill="#8fa3b1" font-size="13" text-anchor="middle">178</text>
+<text x="106.5" y="141.6" fill="#8fa3b1" font-size="13" text-anchor="middle">178</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="norm" data-v="53" data-rk="- - norm"><title>53 of 113
 09/26
-closed by Norm: 53</title><rect x="122.9" y="245.6" width="25.9" height="42.4" fill="#3987e5"/></g>
+closed by Norm: 53</title><rect x="121.0" y="245.6" width="25.0" height="42.4" fill="#3987e5"/></g>
 <g class="m" data-s="greg" data-v="60" data-rk="- - greg"><title>60 of 113
 09/26
-closed by Greg: 60</title><path d="M122.9,244.6 V200.6 Q122.9,197.6 125.9,197.6 H145.8 Q148.8,197.6 148.8,200.6 V244.6 Z" fill="#d95926" data-b="122.9 197.6 25.9 47.0"/></g>
+closed by Greg: 60</title><path d="M121.0,244.6 V200.6 Q121.0,197.6 124.0,197.6 H143.0 Q146.0,197.6 146.0,200.6 V244.6 Z" fill="#d95926" data-b="121.0 197.6 25.0 47.0"/></g>
 <g class="sum">
-<text x="135.8" y="193.6" fill="#8fa3b1" font-size="13" text-anchor="middle">113</text>
+<text x="133.5" y="193.6" fill="#8fa3b1" font-size="13" text-anchor="middle">113</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="norm" data-v="65" data-rk="- - norm"><title>65 of 163
 09/27
-closed by Norm: 65</title><rect x="150.8" y="236.0" width="25.9" height="52.0" fill="#3987e5"/></g>
+closed by Norm: 65</title><rect x="148.0" y="236.0" width="25.0" height="52.0" fill="#3987e5"/></g>
 <g class="m" data-s="greg" data-v="98" data-rk="- - greg"><title>98 of 163
 09/27
-closed by Greg: 98</title><path d="M150.8,235.0 V160.6 Q150.8,157.6 153.8,157.6 H173.7 Q176.7,157.6 176.7,160.6 V235.0 Z" fill="#d95926" data-b="150.8 157.6 25.9 77.4"/></g>
+closed by Greg: 98</title><path d="M148.0,235.0 V160.6 Q148.0,157.6 151.0,157.6 H170.0 Q173.0,157.6 173.0,160.6 V235.0 Z" fill="#d95926" data-b="148.0 157.6 25.0 77.4"/></g>
 <g class="sum">
-<text x="163.8" y="153.6" fill="#8fa3b1" font-size="13" text-anchor="middle">163</text>
+<text x="160.5" y="153.6" fill="#8fa3b1" font-size="13" text-anchor="middle">163</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="norm" data-v="36" data-rk="- - norm"><title>36 of 82
 09/28
-closed by Norm: 36</title><rect x="178.7" y="259.2" width="25.9" height="28.8" fill="#3987e5"/></g>
+closed by Norm: 36</title><rect x="175.0" y="259.2" width="25.0" height="28.8" fill="#3987e5"/></g>
 <g class="m" data-s="greg" data-v="46" data-rk="- - greg"><title>46 of 82
 09/28
-closed by Greg: 46</title><path d="M178.7,258.2 V225.4 Q178.7,222.4 181.7,222.4 H201.7 Q204.7,222.4 204.7,225.4 V258.2 Z" fill="#d95926" data-b="178.7 222.4 25.9 35.8"/></g>
+closed by Greg: 46</title><path d="M175.0,258.2 V225.4 Q175.0,222.4 178.0,222.4 H197.0 Q200.0,222.4 200.0,225.4 V258.2 Z" fill="#d95926" data-b="175.0 222.4 25.0 35.8"/></g>
 <g class="sum">
-<text x="191.7" y="218.4" fill="#8fa3b1" font-size="13" text-anchor="middle">82</text>
+<text x="187.5" y="218.4" fill="#8fa3b1" font-size="13" text-anchor="middle">82</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="norm" data-v="34" data-rk="- - norm"><title>34 of 60
 09/29
-closed by Norm: 34</title><rect x="206.7" y="260.8" width="25.9" height="27.2" fill="#3987e5"/></g>
+closed by Norm: 34</title><rect x="202.0" y="260.8" width="25.0" height="27.2" fill="#3987e5"/></g>
 <g class="m" data-s="greg" data-v="26" data-rk="- - greg"><title>26 of 60
 09/29
-closed by Greg: 26</title><path d="M206.7,259.8 V243.0 Q206.7,240.0 209.7,240.0 H229.6 Q232.6,240.0 232.6,243.0 V259.8 Z" fill="#d95926" data-b="206.7 240.0 25.9 19.8"/></g>
+closed by Greg: 26</title><path d="M202.0,259.8 V243.0 Q202.0,240.0 205.0,240.0 H224.0 Q227.0,240.0 227.0,243.0 V259.8 Z" fill="#d95926" data-b="202.0 240.0 25.0 19.8"/></g>
 <g class="sum">
-<text x="219.6" y="236.0" fill="#8fa3b1" font-size="13" text-anchor="middle">60</text>
+<text x="214.5" y="236.0" fill="#8fa3b1" font-size="13" text-anchor="middle">60</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="norm" data-v="10" data-rk="- - norm"><title>10 of 18
 09/30
-closed by Norm: 10</title><rect x="234.6" y="280.0" width="25.9" height="8.0" fill="#3987e5"/></g>
+closed by Norm: 10</title><rect x="229.0" y="280.0" width="25.0" height="8.0" fill="#3987e5"/></g>
 <g class="m" data-s="greg" data-v="8" data-rk="- - greg"><title>8 of 18
 09/30
-closed by Greg: 8</title><path d="M234.6,279.0 V276.6 Q234.6,273.6 237.6,273.6 H257.5 Q260.5,273.6 260.5,276.6 V279.0 Z" fill="#d95926" data-b="234.6 273.6 25.9 5.4"/></g>
+closed by Greg: 8</title><path d="M229.0,279.0 V276.6 Q229.0,273.6 232.0,273.6 H251.0 Q254.0,273.6 254.0,276.6 V279.0 Z" fill="#d95926" data-b="229.0 273.6 25.0 5.4"/></g>
 <g class="sum">
-<text x="247.6" y="269.6" fill="#8fa3b1" font-size="13" text-anchor="middle">18</text>
+<text x="241.5" y="269.6" fill="#8fa3b1" font-size="13" text-anchor="middle">18</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="norm" data-v="20" data-rk="- - norm"><title>20 of 41
 10/01
-closed by Norm: 20</title><rect x="262.5" y="272.0" width="25.9" height="16.0" fill="#3987e5"/></g>
+closed by Norm: 20</title><rect x="256.0" y="272.0" width="25.0" height="16.0" fill="#3987e5"/></g>
 <g class="m" data-s="greg" data-v="21" data-rk="- - greg"><title>21 of 41
 10/01
-closed by Greg: 21</title><path d="M262.5,271.0 V258.2 Q262.5,255.2 265.5,255.2 H285.4 Q288.4,255.2 288.4,258.2 V271.0 Z" fill="#d95926" data-b="262.5 255.2 25.9 15.8"/></g>
+closed by Greg: 21</title><path d="M256.0,271.0 V258.2 Q256.0,255.2 259.0,255.2 H278.0 Q281.0,255.2 281.0,258.2 V271.0 Z" fill="#d95926" data-b="256.0 255.2 25.0 15.8"/></g>
 <g class="sum">
-<text x="275.5" y="251.2" fill="#8fa3b1" font-size="13" text-anchor="middle">41</text>
+<text x="268.5" y="251.2" fill="#8fa3b1" font-size="13" text-anchor="middle">41</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="norm" data-v="55" data-rk="- - norm"><title>55 of 83
 10/02
-closed by Norm: 55</title><rect x="290.4" y="244.0" width="25.9" height="44.0" fill="#3987e5"/></g>
+closed by Norm: 55</title><rect x="283.0" y="244.0" width="25.0" height="44.0" fill="#3987e5"/></g>
 <g class="m" data-s="greg" data-v="28" data-rk="- - greg"><title>28 of 83
 10/02
-closed by Greg: 28</title><path d="M290.4,243.0 V224.6 Q290.4,221.6 293.4,221.6 H313.4 Q316.4,221.6 316.4,224.6 V243.0 Z" fill="#d95926" data-b="290.4 221.6 25.9 21.4"/></g>
+closed by Greg: 28</title><path d="M283.0,243.0 V224.6 Q283.0,221.6 286.0,221.6 H305.0 Q308.0,221.6 308.0,224.6 V243.0 Z" fill="#d95926" data-b="283.0 221.6 25.0 21.4"/></g>
 <g class="sum">
-<text x="303.4" y="217.6" fill="#8fa3b1" font-size="13" text-anchor="middle">83</text>
+<text x="295.5" y="217.6" fill="#8fa3b1" font-size="13" text-anchor="middle">83</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="norm" data-v="12" data-rk="- - norm"><title>12 of 21
 10/03
-closed by Norm: 12</title><rect x="318.4" y="278.4" width="25.9" height="9.6" fill="#3987e5"/></g>
+closed by Norm: 12</title><rect x="310.0" y="278.4" width="25.0" height="9.6" fill="#3987e5"/></g>
 <g class="m" data-s="greg" data-v="9" data-rk="- - greg"><title>9 of 21
 10/03
-closed by Greg: 9</title><path d="M318.4,277.4 V274.2 Q318.4,271.2 321.4,271.2 H341.3 Q344.3,271.2 344.3,274.2 V277.4 Z" fill="#d95926" data-b="318.4 271.2 25.9 6.2"/></g>
+closed by Greg: 9</title><path d="M310.0,277.4 V274.2 Q310.0,271.2 313.0,271.2 H332.0 Q335.0,271.2 335.0,274.2 V277.4 Z" fill="#d95926" data-b="310.0 271.2 25.0 6.2"/></g>
 <g class="sum">
-<text x="331.3" y="267.2" fill="#8fa3b1" font-size="13" text-anchor="middle">21</text>
+<text x="322.5" y="267.2" fill="#8fa3b1" font-size="13" text-anchor="middle">21</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="norm" data-v="74" data-rk="- - norm"><title>74 of 126
 10/04
-closed by Norm: 74</title><rect x="346.3" y="228.8" width="25.9" height="59.2" fill="#3987e5"/></g>
+closed by Norm: 74</title><rect x="337.0" y="228.8" width="25.0" height="59.2" fill="#3987e5"/></g>
 <g class="m" data-s="greg" data-v="52" data-rk="- - greg"><title>52 of 126
 10/04
-closed by Greg: 52</title><path d="M346.3,227.8 V190.2 Q346.3,187.2 349.3,187.2 H369.2 Q372.2,187.2 372.2,190.2 V227.8 Z" fill="#d95926" data-b="346.3 187.2 25.9 40.6"/></g>
+closed by Greg: 52</title><path d="M337.0,227.8 V190.2 Q337.0,187.2 340.0,187.2 H359.0 Q362.0,187.2 362.0,190.2 V227.8 Z" fill="#d95926" data-b="337.0 187.2 25.0 40.6"/></g>
 <g class="sum">
-<text x="359.3" y="183.2" fill="#8fa3b1" font-size="13" text-anchor="middle">126</text>
+<text x="349.5" y="183.2" fill="#8fa3b1" font-size="13" text-anchor="middle">126</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="norm" data-v="49" data-rk="- - norm"><title>49 of 97
 10/05
-closed by Norm: 49</title><rect x="374.2" y="248.8" width="25.9" height="39.2" fill="#3987e5"/></g>
+closed by Norm: 49</title><rect x="364.0" y="248.8" width="25.0" height="39.2" fill="#3987e5"/></g>
 <g class="m" data-s="greg" data-v="48" data-rk="- - greg"><title>48 of 97
 10/05
-closed by Greg: 48</title><path d="M374.2,247.8 V213.4 Q374.2,210.4 377.2,210.4 H397.2 Q400.2,210.4 400.2,213.4 V247.8 Z" fill="#d95926" data-b="374.2 210.4 25.9 37.4"/></g>
+closed by Greg: 48</title><path d="M364.0,247.8 V213.4 Q364.0,210.4 367.0,210.4 H386.0 Q389.0,210.4 389.0,213.4 V247.8 Z" fill="#d95926" data-b="364.0 210.4 25.0 37.4"/></g>
 <g class="sum">
-<text x="387.2" y="206.4" fill="#8fa3b1" font-size="13" text-anchor="middle">97</text>
+<text x="376.5" y="206.4" fill="#8fa3b1" font-size="13" text-anchor="middle">97</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="norm" data-v="22" data-rk="- - norm"><title>22 of 45
 10/06
-closed by Norm: 22</title><rect x="402.2" y="270.4" width="25.9" height="17.6" fill="#3987e5"/></g>
+closed by Norm: 22</title><rect x="391.0" y="270.4" width="25.0" height="17.6" fill="#3987e5"/></g>
 <g class="m" data-s="greg" data-v="23" data-rk="- - greg"><title>23 of 45
 10/06
-closed by Greg: 23</title><path d="M402.2,269.4 V255.0 Q402.2,252.0 405.2,252.0 H425.1 Q428.1,252.0 428.1,255.0 V269.4 Z" fill="#d95926" data-b="402.2 252.0 25.9 17.4"/></g>
+closed by Greg: 23</title><path d="M391.0,269.4 V255.0 Q391.0,252.0 394.0,252.0 H413.0 Q416.0,252.0 416.0,255.0 V269.4 Z" fill="#d95926" data-b="391.0 252.0 25.0 17.4"/></g>
 <g class="sum">
-<text x="415.1" y="248.0" fill="#8fa3b1" font-size="13" text-anchor="middle">45</text>
+<text x="403.5" y="248.0" fill="#8fa3b1" font-size="13" text-anchor="middle">45</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="norm" data-v="6" data-rk="- - norm"><title>6 of 11
 10/07
-closed by Norm: 6</title><rect x="430.1" y="283.2" width="25.9" height="4.8" fill="#3987e5"/></g>
+closed by Norm: 6</title><rect x="418.0" y="283.2" width="25.0" height="4.8" fill="#3987e5"/></g>
 <g class="m" data-s="greg" data-v="5" data-rk="- - greg"><title>5 of 11
 10/07
-closed by Greg: 5</title><path d="M430.1,282.2 V282.2 Q430.1,279.2 433.1,279.2 H453.0 Q456.0,279.2 456.0,282.2 V282.2 Z" fill="#d95926" data-b="430.1 279.2 25.9 3.0"/></g>
+closed by Greg: 5</title><path d="M418.0,282.2 V282.2 Q418.0,279.2 421.0,279.2 H440.0 Q443.0,279.2 443.0,282.2 V282.2 Z" fill="#d95926" data-b="418.0 279.2 25.0 3.0"/></g>
 <g class="sum">
-<text x="443.1" y="275.2" fill="#8fa3b1" font-size="13" text-anchor="middle">11</text>
+<text x="430.5" y="275.2" fill="#8fa3b1" font-size="13" text-anchor="middle">11</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="norm" data-v="22" data-rk="- - norm"><title>22 of 41
 10/08
-closed by Norm: 22</title><rect x="458.0" y="270.4" width="25.9" height="17.6" fill="#3987e5"/></g>
+closed by Norm: 22</title><rect x="445.0" y="270.4" width="25.0" height="17.6" fill="#3987e5"/></g>
 <g class="m" data-s="greg" data-v="19" data-rk="- - greg"><title>19 of 41
 10/08
-closed by Greg: 19</title><path d="M458.0,269.4 V258.2 Q458.0,255.2 461.0,255.2 H481.0 Q484.0,255.2 484.0,258.2 V269.4 Z" fill="#d95926" data-b="458.0 255.2 25.9 14.2"/></g>
+closed by Greg: 19</title><path d="M445.0,269.4 V258.2 Q445.0,255.2 448.0,255.2 H467.0 Q470.0,255.2 470.0,258.2 V269.4 Z" fill="#d95926" data-b="445.0 255.2 25.0 14.2"/></g>
 <g class="sum">
-<text x="471.0" y="251.2" fill="#8fa3b1" font-size="13" text-anchor="middle">41</text>
+<text x="457.5" y="251.2" fill="#8fa3b1" font-size="13" text-anchor="middle">41</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="norm" data-v="45" data-rk="- - norm"><title>45 of 88
 10/09
-closed by Norm: 45</title><rect x="486.0" y="252.0" width="25.9" height="36.0" fill="#3987e5"/></g>
+closed by Norm: 45</title><rect x="472.0" y="252.0" width="25.0" height="36.0" fill="#3987e5"/></g>
 <g class="m" data-s="greg" data-v="43" data-rk="- - greg"><title>43 of 88
 10/09
-closed by Greg: 43</title><path d="M486.0,251.0 V220.6 Q486.0,217.6 489.0,217.6 H508.9 Q511.9,217.6 511.9,220.6 V251.0 Z" fill="#d95926" data-b="486.0 217.6 25.9 33.4"/></g>
+closed by Greg: 43</title><path d="M472.0,251.0 V220.6 Q472.0,217.6 475.0,217.6 H494.0 Q497.0,217.6 497.0,220.6 V251.0 Z" fill="#d95926" data-b="472.0 217.6 25.0 33.4"/></g>
 <g class="sum">
-<text x="498.9" y="213.6" fill="#8fa3b1" font-size="13" text-anchor="middle">88</text>
+<text x="484.5" y="213.6" fill="#8fa3b1" font-size="13" text-anchor="middle">88</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="norm" data-v="23" data-rk="- - norm"><title>23 of 46
 10/10
-closed by Norm: 23</title><rect x="513.9" y="269.6" width="25.9" height="18.4" fill="#3987e5"/></g>
+closed by Norm: 23</title><rect x="499.0" y="269.6" width="25.0" height="18.4" fill="#3987e5"/></g>
 <g class="m" data-s="greg" data-v="23" data-rk="- - greg"><title>23 of 46
 10/10
-closed by Greg: 23</title><path d="M513.9,268.6 V254.2 Q513.9,251.2 516.9,251.2 H536.8 Q539.8,251.2 539.8,254.2 V268.6 Z" fill="#d95926" data-b="513.9 251.2 25.9 17.4"/></g>
+closed by Greg: 23</title><path d="M499.0,268.6 V254.2 Q499.0,251.2 502.0,251.2 H521.0 Q524.0,251.2 524.0,254.2 V268.6 Z" fill="#d95926" data-b="499.0 251.2 25.0 17.4"/></g>
 <g class="sum">
-<text x="526.9" y="247.2" fill="#8fa3b1" font-size="13" text-anchor="middle">46</text>
+<text x="511.5" y="247.2" fill="#8fa3b1" font-size="13" text-anchor="middle">46</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="norm" data-v="27" data-rk="- - norm"><title>27 of 54
 10/11
-closed by Norm: 27</title><rect x="541.8" y="266.4" width="25.9" height="21.6" fill="#3987e5"/></g>
+closed by Norm: 27</title><rect x="526.0" y="266.4" width="25.0" height="21.6" fill="#3987e5"/></g>
 <g class="m" data-s="greg" data-v="27" data-rk="- - greg"><title>27 of 54
 10/11
-closed by Greg: 27</title><path d="M541.8,265.4 V247.8 Q541.8,244.8 544.8,244.8 H564.8 Q567.8,244.8 567.8,247.8 V265.4 Z" fill="#d95926" data-b="541.8 244.8 25.9 20.6"/></g>
+closed by Greg: 27</title><path d="M526.0,265.4 V247.8 Q526.0,244.8 529.0,244.8 H548.0 Q551.0,244.8 551.0,247.8 V265.4 Z" fill="#d95926" data-b="526.0 244.8 25.0 20.6"/></g>
 <g class="sum">
-<text x="554.8" y="240.8" fill="#8fa3b1" font-size="13" text-anchor="middle">54</text>
+<text x="538.5" y="240.8" fill="#8fa3b1" font-size="13" text-anchor="middle">54</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="norm" data-v="68" data-rk="- - norm"><title>68 of 138
 10/12
-closed by Norm: 68</title><rect x="569.8" y="233.6" width="25.9" height="54.4" fill="#3987e5"/></g>
+closed by Norm: 68</title><rect x="553.0" y="233.6" width="25.0" height="54.4" fill="#3987e5"/></g>
 <g class="m" data-s="greg" data-v="70" data-rk="- - greg"><title>70 of 138
 10/12
-closed by Greg: 70</title><path d="M569.8,232.6 V180.6 Q569.8,177.6 572.8,177.6 H592.7 Q595.7,177.6 595.7,180.6 V232.6 Z" fill="#d95926" data-b="569.8 177.6 25.9 55.0"/></g>
+closed by Greg: 70</title><path d="M553.0,232.6 V180.6 Q553.0,177.6 556.0,177.6 H575.0 Q578.0,177.6 578.0,180.6 V232.6 Z" fill="#d95926" data-b="553.0 177.6 25.0 55.0"/></g>
 <g class="sum">
-<text x="582.7" y="173.6" fill="#8fa3b1" font-size="13" text-anchor="middle">138</text>
+<text x="565.5" y="173.6" fill="#8fa3b1" font-size="13" text-anchor="middle">138</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="norm" data-v="30" data-rk="- - norm"><title>30 of 60
 10/13
-closed by Norm: 30</title><rect x="597.7" y="264.0" width="25.9" height="24.0" fill="#3987e5"/></g>
+closed by Norm: 30</title><rect x="580.0" y="264.0" width="25.0" height="24.0" fill="#3987e5"/></g>
 <g class="m" data-s="greg" data-v="30" data-rk="- - greg"><title>30 of 60
 10/13
-closed by Greg: 30</title><path d="M597.7,263.0 V243.0 Q597.7,240.0 600.7,240.0 H620.6 Q623.6,240.0 623.6,243.0 V263.0 Z" fill="#d95926" data-b="597.7 240.0 25.9 23.0"/></g>
+closed by Greg: 30</title><path d="M580.0,263.0 V243.0 Q580.0,240.0 583.0,240.0 H602.0 Q605.0,240.0 605.0,243.0 V263.0 Z" fill="#d95926" data-b="580.0 240.0 25.0 23.0"/></g>
 <g class="sum">
-<text x="610.7" y="236.0" fill="#8fa3b1" font-size="13" text-anchor="middle">60</text>
+<text x="592.5" y="236.0" fill="#8fa3b1" font-size="13" text-anchor="middle">60</text>
+</g></g>
+<g class="st" data-dir="y" data-gap="1">
+<g class="m" data-s="norm" data-v="1" data-rk="- - norm"><title>1 of 1
+10/22
+closed by Norm: 1</title><path d="M823.0,288.0 V288.0 Q823.0,287.2 823.8,287.2 H847.2 Q848.0,287.2 848.0,288.0 V288.0 Z" fill="#3987e5" data-b="823.0 287.2 25.0 0.8"/></g>
+<g class="sum">
+<text x="835.5" y="283.2" fill="#8fa3b1" font-size="13" text-anchor="middle">1</text>
 </g></g>
 </g>
 <text x="66.0" y="350.0" fill="#d9e3ea" font-size="15" text-anchor="start">Pictures approved by Norm (first approval of each)</text>
@@ -254,203 +261,210 @@ closed by Greg: 30</title><path d="M597.7,263.0 V243.0 Q597.7,240.0 600.7,240.0 
 <text x="58.0" y="422.3" fill="#8fa3b1" font-size="14" text-anchor="end">40</text>
 <line x1="66" y1="364.0" x2="876" y2="364.0" stroke="#1f2c37"/>
 <text x="58.0" y="369.0" fill="#8fa3b1" font-size="14" text-anchor="end">60</text>
-<g class="tx" data-kind="time" data-dom="1790208000000 1792713600000" data-px="66 364 810 160" data-th="#34495a #d9e3ea #8fa3b1 14">
+<g class="tx" data-kind="time" data-dom="1790208000000 1792800000000" data-px="66 364 810 160" data-th="#34495a #d9e3ea #8fa3b1 14">
 <line x1="66.0" y1="364" x2="66.0" y2="524" stroke="#34495a" stroke-dasharray="3 3"/>
 <text x="66.0" y="543.0" fill="#d9e3ea" font-size="14" text-anchor="middle">09/24</text>
-<line x1="261.5" y1="364" x2="261.5" y2="524" stroke="#34495a" stroke-dasharray="3 3"/>
-<text x="261.5" y="543.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/01</text>
-<line x1="457.0" y1="364" x2="457.0" y2="524" stroke="#34495a" stroke-dasharray="3 3"/>
-<text x="457.0" y="543.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/08</text>
-<line x1="652.6" y1="364" x2="652.6" y2="524" stroke="#34495a" stroke-dasharray="3 3"/>
-<text x="652.6" y="543.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/15</text>
-<line x1="848.1" y1="364" x2="848.1" y2="524" stroke="#34495a" stroke-dasharray="3 3"/>
-<text x="848.1" y="543.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/22</text>
+<line x1="255.0" y1="364" x2="255.0" y2="524" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="255.0" y="543.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/01</text>
+<line x1="444.0" y1="364" x2="444.0" y2="524" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="444.0" y="543.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/08</text>
+<line x1="633.0" y1="364" x2="633.0" y2="524" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="633.0" y="543.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/15</text>
+<line x1="822.0" y1="364" x2="822.0" y2="524" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="822.0" y="543.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/22</text>
 </g>
-<g class="tz" data-kind="time" data-dom="1790208000000 1792713600000" data-px="66 364 810 160">
+<g class="tz" data-kind="time" data-dom="1790208000000 1792800000000" data-px="66 364 810 160">
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="views" data-v="4" data-rk="- - views"><title>4 of 40
 09/24
-room views approved: 4</title><rect x="67.0" y="513.3" width="25.9" height="10.7" fill="#199e70"/></g>
+room views approved: 4</title><rect x="67.0" y="513.3" width="25.0" height="10.7" fill="#199e70"/></g>
 <g class="m" data-s="other" data-v="36" data-rk="- - other"><title>36 of 40
 09/24
-other art approved: 36</title><path d="M67.0,512.3 V420.3 Q67.0,417.3 70.0,417.3 H89.9 Q92.9,417.3 92.9,420.3 V512.3 Z" fill="#9085e9" data-b="67.0 417.3 25.9 95.0"/></g>
+other art approved: 36</title><path d="M67.0,512.3 V420.3 Q67.0,417.3 70.0,417.3 H89.0 Q92.0,417.3 92.0,420.3 V512.3 Z" fill="#9085e9" data-b="67.0 417.3 25.0 95.0"/></g>
 <g class="sum">
-<text x="80.0" y="413.3" fill="#8fa3b1" font-size="13" text-anchor="middle">40</text>
+<text x="79.5" y="413.3" fill="#8fa3b1" font-size="13" text-anchor="middle">40</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="views" data-v="23" data-rk="- - views"><title>23 of 23
 09/25
-room views approved: 23</title><path d="M94.9,524.0 V465.7 Q94.9,462.7 97.9,462.7 H117.9 Q120.9,462.7 120.9,465.7 V524.0 Z" fill="#199e70" data-b="94.9 462.7 25.9 61.3"/></g>
+room views approved: 23</title><path d="M94.0,524.0 V465.7 Q94.0,462.7 97.0,462.7 H116.0 Q119.0,462.7 119.0,465.7 V524.0 Z" fill="#199e70" data-b="94.0 462.7 25.0 61.3"/></g>
 <g class="sum">
-<text x="107.9" y="458.7" fill="#8fa3b1" font-size="13" text-anchor="middle">23</text>
+<text x="106.5" y="458.7" fill="#8fa3b1" font-size="13" text-anchor="middle">23</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="views" data-v="20" data-rk="- - views"><title>20 of 20
 09/26
-room views approved: 20</title><path d="M122.9,524.0 V473.7 Q122.9,470.7 125.9,470.7 H145.8 Q148.8,470.7 148.8,473.7 V524.0 Z" fill="#199e70" data-b="122.9 470.7 25.9 53.3"/></g>
+room views approved: 20</title><path d="M121.0,524.0 V473.7 Q121.0,470.7 124.0,470.7 H143.0 Q146.0,470.7 146.0,473.7 V524.0 Z" fill="#199e70" data-b="121.0 470.7 25.0 53.3"/></g>
 <g class="sum">
-<text x="135.8" y="466.7" fill="#8fa3b1" font-size="13" text-anchor="middle">20</text>
+<text x="133.5" y="466.7" fill="#8fa3b1" font-size="13" text-anchor="middle">20</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="views" data-v="32" data-rk="- - views"><title>32 of 35
 09/27
-room views approved: 32</title><rect x="150.8" y="438.7" width="25.9" height="85.3" fill="#199e70"/></g>
+room views approved: 32</title><rect x="148.0" y="438.7" width="25.0" height="85.3" fill="#199e70"/></g>
 <g class="m" data-s="other" data-v="3" data-rk="- - other"><title>3 of 35
 09/27
-other art approved: 3</title><path d="M150.8,437.7 V433.7 Q150.8,430.7 153.8,430.7 H173.7 Q176.7,430.7 176.7,433.7 V437.7 Z" fill="#9085e9" data-b="150.8 430.7 25.9 7.0"/></g>
+other art approved: 3</title><path d="M148.0,437.7 V433.7 Q148.0,430.7 151.0,430.7 H170.0 Q173.0,430.7 173.0,433.7 V437.7 Z" fill="#9085e9" data-b="148.0 430.7 25.0 7.0"/></g>
 <g class="sum">
-<text x="163.8" y="426.7" fill="#8fa3b1" font-size="13" text-anchor="middle">35</text>
+<text x="160.5" y="426.7" fill="#8fa3b1" font-size="13" text-anchor="middle">35</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="views" data-v="26" data-rk="- - views"><title>26 of 43
 09/28
-room views approved: 26</title><rect x="178.7" y="454.7" width="25.9" height="69.3" fill="#199e70"/></g>
+room views approved: 26</title><rect x="175.0" y="454.7" width="25.0" height="69.3" fill="#199e70"/></g>
 <g class="m" data-s="other" data-v="17" data-rk="- - other"><title>17 of 43
 09/28
-other art approved: 17</title><path d="M178.7,453.7 V412.3 Q178.7,409.3 181.7,409.3 H201.7 Q204.7,409.3 204.7,412.3 V453.7 Z" fill="#9085e9" data-b="178.7 409.3 25.9 44.3"/></g>
+other art approved: 17</title><path d="M175.0,453.7 V412.3 Q175.0,409.3 178.0,409.3 H197.0 Q200.0,409.3 200.0,412.3 V453.7 Z" fill="#9085e9" data-b="175.0 409.3 25.0 44.3"/></g>
 <g class="sum">
-<text x="191.7" y="405.3" fill="#8fa3b1" font-size="13" text-anchor="middle">43</text>
+<text x="187.5" y="405.3" fill="#8fa3b1" font-size="13" text-anchor="middle">43</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="views" data-v="15" data-rk="- - views"><title>15 of 25
 09/29
-room views approved: 15</title><rect x="206.7" y="484.0" width="25.9" height="40.0" fill="#199e70"/></g>
+room views approved: 15</title><rect x="202.0" y="484.0" width="25.0" height="40.0" fill="#199e70"/></g>
 <g class="m" data-s="other" data-v="10" data-rk="- - other"><title>10 of 25
 09/29
-other art approved: 10</title><path d="M206.7,483.0 V460.3 Q206.7,457.3 209.7,457.3 H229.6 Q232.6,457.3 232.6,460.3 V483.0 Z" fill="#9085e9" data-b="206.7 457.3 25.9 25.7"/></g>
+other art approved: 10</title><path d="M202.0,483.0 V460.3 Q202.0,457.3 205.0,457.3 H224.0 Q227.0,457.3 227.0,460.3 V483.0 Z" fill="#9085e9" data-b="202.0 457.3 25.0 25.7"/></g>
 <g class="sum">
-<text x="219.6" y="453.3" fill="#8fa3b1" font-size="13" text-anchor="middle">25</text>
+<text x="214.5" y="453.3" fill="#8fa3b1" font-size="13" text-anchor="middle">25</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="views" data-v="6" data-rk="- - views"><title>6 of 7
 09/30
-room views approved: 6</title><rect x="234.6" y="508.0" width="25.9" height="16.0" fill="#199e70"/></g>
+room views approved: 6</title><rect x="229.0" y="508.0" width="25.0" height="16.0" fill="#199e70"/></g>
 <g class="m" data-s="other" data-v="1" data-rk="- - other"><title>1 of 7
 09/30
-other art approved: 1</title><path d="M234.6,507.0 V507.0 Q234.6,505.3 236.3,505.3 H258.9 Q260.5,505.3 260.5,507.0 V507.0 Z" fill="#9085e9" data-b="234.6 505.3 25.9 1.7"/></g>
+other art approved: 1</title><path d="M229.0,507.0 V507.0 Q229.0,505.3 230.7,505.3 H252.3 Q254.0,505.3 254.0,507.0 V507.0 Z" fill="#9085e9" data-b="229.0 505.3 25.0 1.7"/></g>
 <g class="sum">
-<text x="247.6" y="501.3" fill="#8fa3b1" font-size="13" text-anchor="middle">7</text>
+<text x="241.5" y="501.3" fill="#8fa3b1" font-size="13" text-anchor="middle">7</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="views" data-v="18" data-rk="- - views"><title>18 of 18
 10/01
-room views approved: 18</title><path d="M262.5,524.0 V479.0 Q262.5,476.0 265.5,476.0 H285.4 Q288.4,476.0 288.4,479.0 V524.0 Z" fill="#199e70" data-b="262.5 476.0 25.9 48.0"/></g>
+room views approved: 18</title><path d="M256.0,524.0 V479.0 Q256.0,476.0 259.0,476.0 H278.0 Q281.0,476.0 281.0,479.0 V524.0 Z" fill="#199e70" data-b="256.0 476.0 25.0 48.0"/></g>
 <g class="sum">
-<text x="275.5" y="472.0" fill="#8fa3b1" font-size="13" text-anchor="middle">18</text>
+<text x="268.5" y="472.0" fill="#8fa3b1" font-size="13" text-anchor="middle">18</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="views" data-v="17" data-rk="- - views"><title>17 of 18
 10/02
-room views approved: 17</title><rect x="290.4" y="478.7" width="25.9" height="45.3" fill="#199e70"/></g>
+room views approved: 17</title><rect x="283.0" y="478.7" width="25.0" height="45.3" fill="#199e70"/></g>
 <g class="m" data-s="other" data-v="1" data-rk="- - other"><title>1 of 18
 10/02
-other art approved: 1</title><path d="M290.4,477.7 V477.7 Q290.4,476.0 292.1,476.0 H314.7 Q316.4,476.0 316.4,477.7 V477.7 Z" fill="#9085e9" data-b="290.4 476.0 25.9 1.7"/></g>
+other art approved: 1</title><path d="M283.0,477.7 V477.7 Q283.0,476.0 284.7,476.0 H306.3 Q308.0,476.0 308.0,477.7 V477.7 Z" fill="#9085e9" data-b="283.0 476.0 25.0 1.7"/></g>
 <g class="sum">
-<text x="303.4" y="472.0" fill="#8fa3b1" font-size="13" text-anchor="middle">18</text>
+<text x="295.5" y="472.0" fill="#8fa3b1" font-size="13" text-anchor="middle">18</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="views" data-v="8" data-rk="- - views"><title>8 of 9
 10/03
-room views approved: 8</title><rect x="318.4" y="502.7" width="25.9" height="21.3" fill="#199e70"/></g>
+room views approved: 8</title><rect x="310.0" y="502.7" width="25.0" height="21.3" fill="#199e70"/></g>
 <g class="m" data-s="other" data-v="1" data-rk="- - other"><title>1 of 9
 10/03
-other art approved: 1</title><path d="M318.4,501.7 V501.7 Q318.4,500.0 320.0,500.0 H342.6 Q344.3,500.0 344.3,501.7 V501.7 Z" fill="#9085e9" data-b="318.4 500.0 25.9 1.7"/></g>
+other art approved: 1</title><path d="M310.0,501.7 V501.7 Q310.0,500.0 311.7,500.0 H333.3 Q335.0,500.0 335.0,501.7 V501.7 Z" fill="#9085e9" data-b="310.0 500.0 25.0 1.7"/></g>
 <g class="sum">
-<text x="331.3" y="496.0" fill="#8fa3b1" font-size="13" text-anchor="middle">9</text>
+<text x="322.5" y="496.0" fill="#8fa3b1" font-size="13" text-anchor="middle">9</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="views" data-v="46" data-rk="- - views"><title>46 of 60
 10/04
-room views approved: 46</title><rect x="346.3" y="401.3" width="25.9" height="122.7" fill="#199e70"/></g>
+room views approved: 46</title><rect x="337.0" y="401.3" width="25.0" height="122.7" fill="#199e70"/></g>
 <g class="m" data-s="other" data-v="14" data-rk="- - other"><title>14 of 60
 10/04
-other art approved: 14</title><path d="M346.3,400.3 V367.0 Q346.3,364.0 349.3,364.0 H369.2 Q372.2,364.0 372.2,367.0 V400.3 Z" fill="#9085e9" data-b="346.3 364.0 25.9 36.3"/></g>
+other art approved: 14</title><path d="M337.0,400.3 V367.0 Q337.0,364.0 340.0,364.0 H359.0 Q362.0,364.0 362.0,367.0 V400.3 Z" fill="#9085e9" data-b="337.0 364.0 25.0 36.3"/></g>
 <g class="sum">
-<text x="359.3" y="360.0" fill="#8fa3b1" font-size="13" text-anchor="middle">60</text>
+<text x="349.5" y="360.0" fill="#8fa3b1" font-size="13" text-anchor="middle">60</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="views" data-v="45" data-rk="- - views"><title>45 of 58
 10/05
-room views approved: 45</title><rect x="374.2" y="404.0" width="25.9" height="120.0" fill="#199e70"/></g>
+room views approved: 45</title><rect x="364.0" y="404.0" width="25.0" height="120.0" fill="#199e70"/></g>
 <g class="m" data-s="other" data-v="13" data-rk="- - other"><title>13 of 58
 10/05
-other art approved: 13</title><path d="M374.2,403.0 V372.3 Q374.2,369.3 377.2,369.3 H397.2 Q400.2,369.3 400.2,372.3 V403.0 Z" fill="#9085e9" data-b="374.2 369.3 25.9 33.7"/></g>
+other art approved: 13</title><path d="M364.0,403.0 V372.3 Q364.0,369.3 367.0,369.3 H386.0 Q389.0,369.3 389.0,372.3 V403.0 Z" fill="#9085e9" data-b="364.0 369.3 25.0 33.7"/></g>
 <g class="sum">
-<text x="387.2" y="365.3" fill="#8fa3b1" font-size="13" text-anchor="middle">58</text>
+<text x="376.5" y="365.3" fill="#8fa3b1" font-size="13" text-anchor="middle">58</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="views" data-v="12" data-rk="- - views"><title>12 of 21
 10/06
-room views approved: 12</title><rect x="402.2" y="492.0" width="25.9" height="32.0" fill="#199e70"/></g>
+room views approved: 12</title><rect x="391.0" y="492.0" width="25.0" height="32.0" fill="#199e70"/></g>
 <g class="m" data-s="other" data-v="9" data-rk="- - other"><title>9 of 21
 10/06
-other art approved: 9</title><path d="M402.2,491.0 V471.0 Q402.2,468.0 405.2,468.0 H425.1 Q428.1,468.0 428.1,471.0 V491.0 Z" fill="#9085e9" data-b="402.2 468.0 25.9 23.0"/></g>
+other art approved: 9</title><path d="M391.0,491.0 V471.0 Q391.0,468.0 394.0,468.0 H413.0 Q416.0,468.0 416.0,471.0 V491.0 Z" fill="#9085e9" data-b="391.0 468.0 25.0 23.0"/></g>
 <g class="sum">
-<text x="415.1" y="464.0" fill="#8fa3b1" font-size="13" text-anchor="middle">21</text>
+<text x="403.5" y="464.0" fill="#8fa3b1" font-size="13" text-anchor="middle">21</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="views" data-v="1" data-rk="- - views"><title>1 of 4
 10/07
-room views approved: 1</title><rect x="430.1" y="521.3" width="25.9" height="2.7" fill="#199e70"/></g>
+room views approved: 1</title><rect x="418.0" y="521.3" width="25.0" height="2.7" fill="#199e70"/></g>
 <g class="m" data-s="other" data-v="3" data-rk="- - other"><title>3 of 4
 10/07
-other art approved: 3</title><path d="M430.1,520.3 V516.3 Q430.1,513.3 433.1,513.3 H453.0 Q456.0,513.3 456.0,516.3 V520.3 Z" fill="#9085e9" data-b="430.1 513.3 25.9 7.0"/></g>
+other art approved: 3</title><path d="M418.0,520.3 V516.3 Q418.0,513.3 421.0,513.3 H440.0 Q443.0,513.3 443.0,516.3 V520.3 Z" fill="#9085e9" data-b="418.0 513.3 25.0 7.0"/></g>
 <g class="sum">
-<text x="443.1" y="509.3" fill="#8fa3b1" font-size="13" text-anchor="middle">4</text>
+<text x="430.5" y="509.3" fill="#8fa3b1" font-size="13" text-anchor="middle">4</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="views" data-v="22" data-rk="- - views"><title>22 of 22
 10/08
-room views approved: 22</title><path d="M458.0,524.0 V468.3 Q458.0,465.3 461.0,465.3 H481.0 Q484.0,465.3 484.0,468.3 V524.0 Z" fill="#199e70" data-b="458.0 465.3 25.9 58.7"/></g>
+room views approved: 22</title><path d="M445.0,524.0 V468.3 Q445.0,465.3 448.0,465.3 H467.0 Q470.0,465.3 470.0,468.3 V524.0 Z" fill="#199e70" data-b="445.0 465.3 25.0 58.7"/></g>
 <g class="sum">
-<text x="471.0" y="461.3" fill="#8fa3b1" font-size="13" text-anchor="middle">22</text>
+<text x="457.5" y="461.3" fill="#8fa3b1" font-size="13" text-anchor="middle">22</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="views" data-v="25" data-rk="- - views"><title>25 of 42
 10/09
-room views approved: 25</title><rect x="486.0" y="457.3" width="25.9" height="66.7" fill="#199e70"/></g>
+room views approved: 25</title><rect x="472.0" y="457.3" width="25.0" height="66.7" fill="#199e70"/></g>
 <g class="m" data-s="other" data-v="17" data-rk="- - other"><title>17 of 42
 10/09
-other art approved: 17</title><path d="M486.0,456.3 V415.0 Q486.0,412.0 489.0,412.0 H508.9 Q511.9,412.0 511.9,415.0 V456.3 Z" fill="#9085e9" data-b="486.0 412.0 25.9 44.3"/></g>
+other art approved: 17</title><path d="M472.0,456.3 V415.0 Q472.0,412.0 475.0,412.0 H494.0 Q497.0,412.0 497.0,415.0 V456.3 Z" fill="#9085e9" data-b="472.0 412.0 25.0 44.3"/></g>
 <g class="sum">
-<text x="498.9" y="408.0" fill="#8fa3b1" font-size="13" text-anchor="middle">42</text>
+<text x="484.5" y="408.0" fill="#8fa3b1" font-size="13" text-anchor="middle">42</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="views" data-v="12" data-rk="- - views"><title>12 of 13
 10/10
-room views approved: 12</title><rect x="513.9" y="492.0" width="25.9" height="32.0" fill="#199e70"/></g>
+room views approved: 12</title><rect x="499.0" y="492.0" width="25.0" height="32.0" fill="#199e70"/></g>
 <g class="m" data-s="other" data-v="1" data-rk="- - other"><title>1 of 13
 10/10
-other art approved: 1</title><path d="M513.9,491.0 V491.0 Q513.9,489.3 515.6,489.3 H538.2 Q539.8,489.3 539.8,491.0 V491.0 Z" fill="#9085e9" data-b="513.9 489.3 25.9 1.7"/></g>
+other art approved: 1</title><path d="M499.0,491.0 V491.0 Q499.0,489.3 500.7,489.3 H522.3 Q524.0,489.3 524.0,491.0 V491.0 Z" fill="#9085e9" data-b="499.0 489.3 25.0 1.7"/></g>
 <g class="sum">
-<text x="526.9" y="485.3" fill="#8fa3b1" font-size="13" text-anchor="middle">13</text>
+<text x="511.5" y="485.3" fill="#8fa3b1" font-size="13" text-anchor="middle">13</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="views" data-v="23" data-rk="- - views"><title>23 of 27
 10/11
-room views approved: 23</title><rect x="541.8" y="462.7" width="25.9" height="61.3" fill="#199e70"/></g>
+room views approved: 23</title><rect x="526.0" y="462.7" width="25.0" height="61.3" fill="#199e70"/></g>
 <g class="m" data-s="other" data-v="4" data-rk="- - other"><title>4 of 27
 10/11
-other art approved: 4</title><path d="M541.8,461.7 V455.0 Q541.8,452.0 544.8,452.0 H564.8 Q567.8,452.0 567.8,455.0 V461.7 Z" fill="#9085e9" data-b="541.8 452.0 25.9 9.7"/></g>
+other art approved: 4</title><path d="M526.0,461.7 V455.0 Q526.0,452.0 529.0,452.0 H548.0 Q551.0,452.0 551.0,455.0 V461.7 Z" fill="#9085e9" data-b="526.0 452.0 25.0 9.7"/></g>
 <g class="sum">
-<text x="554.8" y="448.0" fill="#8fa3b1" font-size="13" text-anchor="middle">27</text>
+<text x="538.5" y="448.0" fill="#8fa3b1" font-size="13" text-anchor="middle">27</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="views" data-v="43" data-rk="- - views"><title>43 of 60
 10/12
-room views approved: 43</title><rect x="569.8" y="409.3" width="25.9" height="114.7" fill="#199e70"/></g>
+room views approved: 43</title><rect x="553.0" y="409.3" width="25.0" height="114.7" fill="#199e70"/></g>
 <g class="m" data-s="other" data-v="17" data-rk="- - other"><title>17 of 60
 10/12
-other art approved: 17</title><path d="M569.8,408.3 V367.0 Q569.8,364.0 572.8,364.0 H592.7 Q595.7,364.0 595.7,367.0 V408.3 Z" fill="#9085e9" data-b="569.8 364.0 25.9 44.3"/></g>
+other art approved: 17</title><path d="M553.0,408.3 V367.0 Q553.0,364.0 556.0,364.0 H575.0 Q578.0,364.0 578.0,367.0 V408.3 Z" fill="#9085e9" data-b="553.0 364.0 25.0 44.3"/></g>
 <g class="sum">
-<text x="582.7" y="360.0" fill="#8fa3b1" font-size="13" text-anchor="middle">60</text>
+<text x="565.5" y="360.0" fill="#8fa3b1" font-size="13" text-anchor="middle">60</text>
 </g></g>
 <g class="st" data-dir="y" data-gap="1">
 <g class="m" data-s="views" data-v="26" data-rk="- - views"><title>26 of 26
 10/13
-room views approved: 26</title><path d="M597.7,524.0 V457.7 Q597.7,454.7 600.7,454.7 H620.6 Q623.6,454.7 623.6,457.7 V524.0 Z" fill="#199e70" data-b="597.7 454.7 25.9 69.3"/></g>
+room views approved: 26</title><path d="M580.0,524.0 V457.7 Q580.0,454.7 583.0,454.7 H602.0 Q605.0,454.7 605.0,457.7 V524.0 Z" fill="#199e70" data-b="580.0 454.7 25.0 69.3"/></g>
 <g class="sum">
-<text x="610.7" y="450.7" fill="#8fa3b1" font-size="13" text-anchor="middle">26</text>
+<text x="592.5" y="450.7" fill="#8fa3b1" font-size="13" text-anchor="middle">26</text>
+</g></g>
+<g class="st" data-dir="y" data-gap="1">
+<g class="m" data-s="other" data-v="3" data-rk="- - other"><title>3 of 3
+10/22
+other art approved: 3</title><path d="M823.0,524.0 V519.0 Q823.0,516.0 826.0,516.0 H845.0 Q848.0,516.0 848.0,519.0 V524.0 Z" fill="#9085e9" data-b="823.0 516.0 25.0 8.0"/></g>
+<g class="sum">
+<text x="835.5" y="512.0" fill="#8fa3b1" font-size="13" text-anchor="middle">3</text>
 </g></g>
 </g>
 </svg>

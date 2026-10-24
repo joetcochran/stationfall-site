@@ -1,23 +1,23 @@
 {
- "generated": "2026-10-22T12:44:37.299Z",
+ "generated": "2026-10-23T13:37:28.888Z",
  "clock": "US Eastern wall-clock",
  "span": {
   "from": "2026-09-24 20:34",
-  "to": "2026-10-22 08:44",
-  "hours": 660.2
+  "to": "2026-10-23 09:37",
+  "hours": 685
  },
  "binHours": 24,
  "headline": {
   "asksClosed": 818,
   "asksRaised": 818,
   "asksWithdrawn": 49,
-  "normItemsClosed": 683,
-  "normItems": 684,
-  "itemsClosedPerActiveHour": 2.3,
+  "normItemsClosed": 684,
+  "normItems": 685,
+  "itemsClosedPerActiveHour": 2.2,
   "roomViewsRegistered": 424,
   "cycle": {
    "norm": {
-    "n": 734,
+    "n": 735,
     "p50": 0.03,
     "p90": 0.42
    },
@@ -27,13 +27,13 @@
     "p90": 1.52
    },
    "all": {
-    "n": 1501,
+    "n": 1502,
     "p50": 0.18,
     "p90": 1.16
    }
   },
   "reviewLatency": {
-   "n": 605,
+   "n": 606,
    "p50": 0.03,
    "p90": 0.42
   },
@@ -47,10 +47,10 @@
    "greg": 0
   },
   "rework": {
-   "share": 0.18,
+   "share": 0.17,
    "paint": 0.14,
    "guide": 0.04,
-   "judged": 667
+   "judged": 670
   },
   "tokensPerAcceptedView": 690567,
   "tokensPerAcceptedViewBasis": "greg + norm-main + art subagents, work tokens (fresh + cache writes + output)",
@@ -256,6 +256,13 @@
   },
   {
    "start": "2026-10-22 00:00",
+   "closedByNorm": 1,
+   "closedByGreg": 0,
+   "roomViews": 0,
+   "otherArt": 3
+  },
+  {
+   "start": "2026-10-23 00:00",
    "closedByNorm": 0,
    "closedByGreg": 0,
    "roomViews": 0,
@@ -263,10 +270,10 @@
   }
  ],
  "rework": {
-  "judged": 667,
+  "judged": 670,
   "paint": 91,
   "guide": 26,
-  "share": 0.18,
+  "share": 0.17,
   "paintShare": 0.14,
   "guideShare": 0.04,
   "byCategory": {
@@ -278,8 +285,8 @@
   },
   "byModel": {
    "Sol": {
-    "views": 547,
-    "judged": 521,
+    "views": 550,
+    "judged": 524,
     "rework": 73,
     "rate": 0.14,
     "roundsPerView": 1.24
@@ -471,6 +478,12 @@
   },
   {
    "start": "2026-10-22 00:00",
+   "approved": 3,
+   "paint": 0,
+   "guide": 0
+  },
+  {
+   "start": "2026-10-23 00:00",
    "approved": 0,
    "paint": 0,
    "guide": 0
@@ -6480,7 +6493,7 @@
   "tokensPerAcceptedView": 298738,
   "passes": {
    "tagged": 78,
-   "deliveries": 709,
+   "deliveries": 712,
    "perDelivery": 2.44
   }
  },
@@ -6931,8 +6944,8 @@
   ]
  },
  "touches": {
-  "decisions": 88,
-  "questions": 51,
+  "decisions": 90,
+  "questions": 54,
   "days": [
    {
     "date": "2026-09-24",
@@ -7076,8 +7089,13 @@
    },
    {
     "date": "2026-10-22",
+    "decisions": 2,
+    "questions": 1
+   },
+   {
+    "date": "2026-10-23",
     "decisions": 0,
-    "questions": 0
+    "questions": 2
    }
   ],
   "perDay": 4.8
@@ -7570,8 +7588,22 @@
     "id": "05-day2",
     "name": "Day 2",
     "start": 26,
+    "end": 26,
+    "available": 0
+   },
+   {
+    "id": "05-robot-shop",
+    "name": "05-robot-shop",
+    "start": 26,
+    "end": 40,
+    "available": 14
+   },
+   {
+    "id": "05-px-ostrich",
+    "name": "05-px-ostrich",
+    "start": 40,
     "end": 51,
-    "available": 25
+    "available": 11
    },
    {
     "id": "05a-foil",
@@ -7590,6 +7622,13 @@
    {
     "id": "06b-charge",
     "name": "06b-charge",
+    "start": 61,
+    "end": 61,
+    "available": 0
+   },
+   {
+    "id": "06c-bomb",
+    "name": "06c-bomb",
     "start": 61,
     "end": 73,
     "available": 12
@@ -8217,8 +8256,8 @@
     "startScore": 26,
     "bestScore": 26,
     "gained": 0,
-    "available": 25,
-    "share": 0,
+    "available": 0,
+    "share": null,
     "stagesAdvanced": 0,
     "stuckAt": 0,
     "tail": 397,
@@ -8349,7 +8388,7 @@
     "gained": 20,
     "available": 4,
     "share": 5,
-    "stagesAdvanced": 4.2,
+    "stagesAdvanced": 4,
     "stuckAt": 372,
     "tail": 20,
     "deaths": [
@@ -8554,9 +8593,9 @@
     "startScore": 26,
     "bestScore": 38,
     "gained": 12,
-    "available": 25,
-    "share": 0.48,
-    "stagesAdvanced": 0.48,
+    "available": 0,
+    "share": null,
+    "stagesAdvanced": 0,
     "stuckAt": 383,
     "tail": 8,
     "deaths": [
@@ -8682,7 +8721,7 @@
     "gained": 13,
     "available": 3,
     "share": 4.333,
-    "stagesAdvanced": 1.4,
+    "stagesAdvanced": 1,
     "stuckAt": 356,
     "tail": 31,
     "deaths": [
@@ -8745,9 +8784,9 @@
     "startScore": 26,
     "bestScore": 47,
     "gained": 21,
-    "available": 25,
-    "share": 0.84,
-    "stagesAdvanced": 0.84,
+    "available": 0,
+    "share": null,
+    "stagesAdvanced": 0,
     "stuckAt": 313,
     "tail": 63,
     "deaths": [],
@@ -8945,7 +8984,7 @@
     "gained": 24,
     "available": 4,
     "share": 6,
-    "stagesAdvanced": 4.36,
+    "stagesAdvanced": 4,
     "stuckAt": 321,
     "tail": 66,
     "deaths": [
@@ -9322,7 +9361,7 @@
     "gained": 6,
     "available": 3,
     "share": 2,
-    "stagesAdvanced": 1.12,
+    "stagesAdvanced": 1,
     "stuckAt": 368,
     "tail": 14,
     "deaths": [
@@ -9377,9 +9416,9 @@
     "startScore": 26,
     "bestScore": 41,
     "gained": 15,
-    "available": 25,
-    "share": 0.6,
-    "stagesAdvanced": 0.6,
+    "available": 0,
+    "share": null,
+    "stagesAdvanced": 0,
     "stuckAt": 356,
     "tail": 15,
     "deaths": [
@@ -9560,7 +9599,7 @@
     "gained": 27,
     "available": 4,
     "share": 6.75,
-    "stagesAdvanced": 4.48,
+    "stagesAdvanced": 4,
     "stuckAt": 399,
     "tail": 1,
     "deaths": [
@@ -9821,9 +9860,9 @@
     "startScore": 26,
     "bestScore": 44,
     "gained": 18,
-    "available": 25,
-    "share": 0.72,
-    "stagesAdvanced": 0.72,
+    "available": 0,
+    "share": null,
+    "stagesAdvanced": 0,
     "stuckAt": 332,
     "tail": 68,
     "deaths": [
@@ -10013,7 +10052,7 @@
     "gained": 17,
     "available": 4,
     "share": 4.25,
-    "stagesAdvanced": 4.08,
+    "stagesAdvanced": 4,
     "stuckAt": 372,
     "tail": 28,
     "deaths": [
@@ -10086,7 +10125,7 @@
     "gained": 29,
     "available": 10,
     "share": 2.9,
-    "stagesAdvanced": 2,
+    "stagesAdvanced": 1,
     "stuckAt": 332,
     "tail": 1,
     "deaths": [
@@ -10247,7 +10286,7 @@
     "gained": 13,
     "available": 3,
     "share": 4.333,
-    "stagesAdvanced": 1.4,
+    "stagesAdvanced": 1,
     "stuckAt": 300,
     "tail": 100,
     "deaths": [
@@ -10310,9 +10349,9 @@
     "startScore": 26,
     "bestScore": 41,
     "gained": 15,
-    "available": 25,
-    "share": 0.6,
-    "stagesAdvanced": 0.6,
+    "available": 0,
+    "share": null,
+    "stagesAdvanced": 0,
     "stuckAt": 353,
     "tail": 47,
     "deaths": [],
@@ -10618,12 +10657,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 376,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 376,
-       "commands": 696
+       "commands": 167
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 543,
+       "commands": 529
       },
       {
        "id": "05a-foil",
@@ -10648,6 +10707,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -10696,7 +10765,7 @@
        "commands": 0
       }
      ],
-     "furthest": 11,
+     "furthest": 13,
      "furthestStage": "06-plato",
      "end": "stuck"
     },
@@ -10921,12 +10990,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 420,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 420,
-       "commands": 1057
+       "commands": 85
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 505,
+       "commands": 972
       },
       {
        "id": "05a-foil",
@@ -10951,6 +11040,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -10999,7 +11098,7 @@
        "commands": 0
       }
      ],
-     "furthest": 11,
+     "furthest": 13,
      "furthestStage": "06-plato",
      "end": "cap"
     },
@@ -11255,12 +11354,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 19,
-       "share": 0.76,
+       "points": 0,
+       "share": null,
        "enteredAt": 464,
-       "commands": 1036
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
+       "share": 1,
+       "enteredAt": 464,
+       "commands": 53
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 5,
+       "share": 0.455,
+       "enteredAt": 517,
+       "commands": 983
       },
       {
        "id": "05a-foil",
@@ -11285,6 +11404,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -11333,8 +11462,8 @@
        "commands": 0
       }
      ],
-     "furthest": 9,
-     "furthestStage": "05-day2",
+     "furthest": 11,
+     "furthestStage": "05-px-ostrich",
      "end": "stuck"
     },
     "outcome": "cap"
@@ -11562,12 +11691,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 24,
-       "share": 0.96,
+       "points": 0,
+       "share": null,
        "enteredAt": 545,
-       "commands": 955
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
+       "share": 1,
+       "enteredAt": 545,
+       "commands": 329
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 10,
+       "share": 0.909,
+       "enteredAt": 874,
+       "commands": 626
       },
       {
        "id": "05a-foil",
@@ -11592,6 +11741,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -11640,8 +11799,8 @@
        "commands": 0
       }
      ],
-     "furthest": 9,
-     "furthestStage": "05-day2",
+     "furthest": 11,
+     "furthestStage": "05-px-ostrich",
      "end": "cap"
     },
     "outcome": "cap"
@@ -11905,12 +12064,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 396,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 396,
-       "commands": 386
+       "commands": 153
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 549,
+       "commands": 233
       },
       {
        "id": "05a-foil",
@@ -11935,6 +12114,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 867,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": true,
        "points": 12,
@@ -11983,7 +12172,7 @@
        "commands": 474
       }
      ],
-     "furthest": 16,
+     "furthest": 19,
      "furthestStage": "07-factory",
      "end": "stuck"
     },
@@ -12211,12 +12400,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 608,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 608,
-       "commands": 748
+       "commands": 438
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 1046,
+       "commands": 310
       },
       {
        "id": "05a-foil",
@@ -12241,6 +12450,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -12289,7 +12508,7 @@
        "commands": 0
       }
      ],
-     "furthest": 11,
+     "furthest": 13,
      "furthestStage": "06-plato",
      "end": "cap"
     },
@@ -12558,12 +12777,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 424,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 424,
-       "commands": 349
+       "commands": 180
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 604,
+       "commands": 169
       },
       {
        "id": "05a-foil",
@@ -12588,6 +12827,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 889,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": true,
        "points": 10,
@@ -12636,8 +12885,8 @@
        "commands": 0
       }
      ],
-     "furthest": 12,
-     "furthestStage": "06b-charge",
+     "furthest": 15,
+     "furthestStage": "06c-bomb",
      "end": "stuck"
     },
     "outcome": "cap"
@@ -12873,12 +13122,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 581,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 581,
-       "commands": 908
+       "commands": 69
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 650,
+       "commands": 839
       },
       {
        "id": "05a-foil",
@@ -12903,6 +13172,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -12951,7 +13230,7 @@
        "commands": 0
       }
      ],
-     "furthest": 11,
+     "furthest": 13,
      "furthestStage": "06-plato",
      "end": "cap"
     },
@@ -13179,12 +13458,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 541,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
        "reached": true,
        "points": 12,
-       "share": 0.48,
+       "share": 0.857,
        "enteredAt": 541,
        "commands": 959
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
       },
       {
        "id": "05a-foil",
@@ -13209,6 +13508,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -13257,8 +13566,8 @@
        "commands": 0
       }
      ],
-     "furthest": 9,
-     "furthestStage": "05-day2",
+     "furthest": 10,
+     "furthestStage": "05-robot-shop",
      "end": "cap"
     },
     "outcome": "cap"
@@ -13470,12 +13779,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 21,
-       "share": 0.84,
+       "points": 0,
+       "share": null,
        "enteredAt": 388,
-       "commands": 1112
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
+       "share": 1,
+       "enteredAt": 388,
+       "commands": 220
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 7,
+       "share": 0.636,
+       "enteredAt": 608,
+       "commands": 892
       },
       {
        "id": "05a-foil",
@@ -13500,6 +13829,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -13548,8 +13887,8 @@
        "commands": 0
       }
      ],
-     "furthest": 9,
-     "furthestStage": "05-day2",
+     "furthest": 11,
+     "furthestStage": "05-px-ostrich",
      "end": "stuck"
     },
     "outcome": "cap"
@@ -13829,12 +14168,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 442,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 442,
-       "commands": 448
+       "commands": 271
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 713,
+       "commands": 177
       },
       {
        "id": "05a-foil",
@@ -13859,6 +14218,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1066,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": true,
        "points": 12,
@@ -13907,7 +14276,7 @@
        "commands": 316
       }
      ],
-     "furthest": 16,
+     "furthest": 19,
      "furthestStage": "07-factory",
      "end": "died"
     },
@@ -14127,12 +14496,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 613,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 613,
-       "commands": 454
+       "commands": 361
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 974,
+       "commands": 93
       },
       {
        "id": "05a-foil",
@@ -14157,6 +14546,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -14205,7 +14604,7 @@
        "commands": 0
       }
      ],
-     "furthest": 11,
+     "furthest": 13,
      "furthestStage": "06-plato",
      "end": "cap"
     },
@@ -14450,12 +14849,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 456,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 456,
-       "commands": 930
+       "commands": 434
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 890,
+       "commands": 496
       },
       {
        "id": "05a-foil",
@@ -14480,6 +14899,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -14528,7 +14957,7 @@
        "commands": 0
       }
      ],
-     "furthest": 11,
+     "furthest": 13,
      "furthestStage": "06-plato",
      "end": "cap"
     },
@@ -14745,12 +15174,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 707,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 707,
-       "commands": 514
+       "commands": 433
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 1140,
+       "commands": 81
       },
       {
        "id": "05a-foil",
@@ -14775,6 +15224,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -14823,7 +15282,7 @@
        "commands": 0
       }
      ],
-     "furthest": 11,
+     "furthest": 13,
      "furthestStage": "06-plato",
      "end": "stuck"
     },
@@ -15071,12 +15530,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 597,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 597,
-       "commands": 267
+       "commands": 149
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 746,
+       "commands": 118
       },
       {
        "id": "05a-foil",
@@ -15101,6 +15580,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1453,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": true,
        "points": 6,
@@ -15149,8 +15638,8 @@
        "commands": 0
       }
      ],
-     "furthest": 12,
-     "furthestStage": "06b-charge",
+     "furthest": 15,
+     "furthestStage": "06c-bomb",
      "end": "cap"
     },
     "outcome": "cap"
@@ -15390,12 +15879,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 869,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 869,
-       "commands": 227
+       "commands": 137
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 1006,
+       "commands": 90
       },
       {
        "id": "05a-foil",
@@ -15420,6 +15929,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -15468,7 +15987,7 @@
        "commands": 0
       }
      ],
-     "furthest": 11,
+     "furthest": 13,
      "furthestStage": "06-plato",
      "end": "stuck"
     },
@@ -15705,12 +16224,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 613,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 613,
-       "commands": 689
+       "commands": 210
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 823,
+       "commands": 479
       },
       {
        "id": "05a-foil",
@@ -15735,6 +16274,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -15783,7 +16332,7 @@
        "commands": 0
       }
      ],
-     "furthest": 11,
+     "furthest": 13,
      "furthestStage": "06-plato",
      "end": "cap"
     },
@@ -15995,12 +16544,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 816,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 816,
-       "commands": 359
+       "commands": 205
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 1021,
+       "commands": 154
       },
       {
        "id": "05a-foil",
@@ -16025,6 +16594,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -16073,7 +16652,7 @@
        "commands": 0
       }
      ],
-     "furthest": 11,
+     "furthest": 13,
      "furthestStage": "06-plato",
      "end": "stuck"
     },
@@ -16293,12 +16872,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 21,
-       "share": 0.84,
+       "points": 0,
+       "share": null,
        "enteredAt": 1160,
-       "commands": 341
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
+       "share": 1,
+       "enteredAt": 1160,
+       "commands": 148
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 7,
+       "share": 0.636,
+       "enteredAt": 1308,
+       "commands": 193
       },
       {
        "id": "05a-foil",
@@ -16323,6 +16922,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -16371,8 +16980,8 @@
        "commands": 0
       }
      ],
-     "furthest": 9,
-     "furthestStage": "05-day2",
+     "furthest": 11,
+     "furthestStage": "05-px-ostrich",
      "end": "cap"
     },
     "outcome": "cap"
@@ -16601,12 +17210,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 683,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
        "reached": true,
        "points": 12,
-       "share": 0.48,
+       "share": 0.857,
        "enteredAt": 683,
        "commands": 818
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
       },
       {
        "id": "05a-foil",
@@ -16631,6 +17260,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -16679,8 +17318,8 @@
        "commands": 0
       }
      ],
-     "furthest": 9,
-     "furthestStage": "05-day2",
+     "furthest": 10,
+     "furthestStage": "05-robot-shop",
      "end": "cap"
     },
     "outcome": "cap"
@@ -16872,12 +17511,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1381,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
        "reached": true,
        "points": 1,
-       "share": 0.04,
+       "share": 0.071,
        "enteredAt": 1381,
        "commands": 124
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
       },
       {
        "id": "05a-foil",
@@ -16902,6 +17561,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -16950,8 +17619,8 @@
        "commands": 0
       }
      ],
-     "furthest": 9,
-     "furthestStage": "05-day2",
+     "furthest": 10,
+     "furthestStage": "05-robot-shop",
      "end": "cap"
     },
     "outcome": "cap"
@@ -17199,12 +17868,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 520,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 520,
-       "commands": 527
+       "commands": 375
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 895,
+       "commands": 152
       },
       {
        "id": "05a-foil",
@@ -17229,6 +17918,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1196,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": true,
        "points": 10,
@@ -17277,8 +17976,8 @@
        "commands": 0
       }
      ],
-     "furthest": 12,
-     "furthestStage": "06b-charge",
+     "furthest": 15,
+     "furthestStage": "06c-bomb",
      "end": "cap"
     },
     "outcome": "cap"
@@ -17509,12 +18208,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 642,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 642,
-       "commands": 820
+       "commands": 168
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 810,
+       "commands": 652
       },
       {
        "id": "05a-foil",
@@ -17539,6 +18258,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -17587,7 +18316,7 @@
        "commands": 0
       }
      ],
-     "furthest": 11,
+     "furthest": 13,
      "furthestStage": "06-plato",
      "end": "cap"
     },
@@ -17610,7 +18339,7 @@
     "gained": 29,
     "available": 10,
     "share": 2.9,
-    "stagesAdvanced": 2,
+    "stagesAdvanced": 1,
     "stuckAt": 274,
     "tail": 526,
     "deaths": [
@@ -17933,12 +18662,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 15,
-       "share": 0.6,
+       "points": 0,
+       "share": null,
        "enteredAt": 692,
-       "commands": 753
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
+       "share": 1,
+       "enteredAt": 692,
+       "commands": 495
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 1,
+       "share": 0.091,
+       "enteredAt": 1187,
+       "commands": 258
       },
       {
        "id": "05a-foil",
@@ -17963,6 +18712,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -18011,8 +18770,8 @@
        "commands": 0
       }
      ],
-     "furthest": 9,
-     "furthestStage": "05-day2",
+     "furthest": 11,
+     "furthestStage": "05-px-ostrich",
      "end": "stuck"
     },
     "outcome": "cutoff"
@@ -18232,12 +18991,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 19,
-       "share": 0.76,
+       "points": 0,
+       "share": null,
        "enteredAt": 882,
-       "commands": 618
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
+       "share": 1,
+       "enteredAt": 882,
+       "commands": 459
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 5,
+       "share": 0.455,
+       "enteredAt": 1341,
+       "commands": 159
       },
       {
        "id": "05a-foil",
@@ -18262,6 +19041,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -18310,8 +19099,8 @@
        "commands": 0
       }
      ],
-     "furthest": 9,
-     "furthestStage": "05-day2",
+     "furthest": 11,
+     "furthestStage": "05-px-ostrich",
      "end": "cap"
     },
     "outcome": "cap"
@@ -18495,7 +19284,27 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
        "reached": false,
        "points": 0,
        "share": 0,
@@ -18525,6 +19334,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -18803,12 +19622,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 19,
-       "share": 0.76,
+       "points": 0,
+       "share": null,
        "enteredAt": 623,
-       "commands": 727
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
+       "share": 1,
+       "enteredAt": 623,
+       "commands": 317
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 5,
+       "share": 0.455,
+       "enteredAt": 940,
+       "commands": 410
       },
       {
        "id": "05a-foil",
@@ -18833,6 +19672,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -18881,8 +19730,8 @@
        "commands": 0
       }
      ],
-     "furthest": 9,
-     "furthestStage": "05-day2",
+     "furthest": 11,
+     "furthestStage": "05-px-ostrich",
      "end": "stuck"
     },
     "outcome": "stuck"
@@ -19102,12 +19951,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 19,
-       "share": 0.76,
+       "points": 0,
+       "share": null,
        "enteredAt": 601,
-       "commands": 899
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
+       "share": 1,
+       "enteredAt": 601,
+       "commands": 615
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 5,
+       "share": 0.455,
+       "enteredAt": 1216,
+       "commands": 284
       },
       {
        "id": "05a-foil",
@@ -19132,6 +20001,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -19180,8 +20059,8 @@
        "commands": 0
       }
      ],
-     "furthest": 9,
-     "furthestStage": "05-day2",
+     "furthest": 11,
+     "furthestStage": "05-px-ostrich",
      "end": "cap"
     },
     "outcome": "cap"
@@ -19406,12 +20285,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 965,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
        "reached": true,
        "points": 11,
-       "share": 0.44,
+       "share": 0.786,
        "enteredAt": 965,
        "commands": 518
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
       },
       {
        "id": "05a-foil",
@@ -19436,6 +20335,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -19484,8 +20393,8 @@
        "commands": 0
       }
      ],
-     "furthest": 9,
-     "furthestStage": "05-day2",
+     "furthest": 10,
+     "furthestStage": "05-robot-shop",
      "end": "budget"
     },
     "outcome": "cap"
@@ -19718,12 +20627,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 19,
-       "share": 0.76,
+       "points": 0,
+       "share": null,
        "enteredAt": 706,
-       "commands": 783
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
+       "share": 1,
+       "enteredAt": 706,
+       "commands": 201
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 5,
+       "share": 0.455,
+       "enteredAt": 907,
+       "commands": 582
       },
       {
        "id": "05a-foil",
@@ -19748,6 +20677,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -19796,8 +20735,8 @@
        "commands": 0
       }
      ],
-     "furthest": 9,
-     "furthestStage": "05-day2",
+     "furthest": 11,
+     "furthestStage": "05-px-ostrich",
      "end": "budget"
     },
     "outcome": "cap"
@@ -20020,12 +20959,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 19,
-       "share": 0.76,
+       "points": 0,
+       "share": null,
        "enteredAt": 930,
-       "commands": 570
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
+       "share": 1,
+       "enteredAt": 930,
+       "commands": 521
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 5,
+       "share": 0.455,
+       "enteredAt": 1451,
+       "commands": 49
       },
       {
        "id": "05a-foil",
@@ -20050,6 +21009,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -20098,8 +21067,8 @@
        "commands": 0
       }
      ],
-     "furthest": 9,
-     "furthestStage": "05-day2",
+     "furthest": 11,
+     "furthestStage": "05-px-ostrich",
      "end": "cap"
     },
     "outcome": "cap"
@@ -20334,12 +21303,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 18,
-       "share": 0.72,
+       "points": 0,
+       "share": null,
        "enteredAt": 847,
-       "commands": 653
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
+       "share": 1,
+       "enteredAt": 847,
+       "commands": 551
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 4,
+       "share": 0.364,
+       "enteredAt": 1398,
+       "commands": 102
       },
       {
        "id": "05a-foil",
@@ -20364,6 +21353,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -20412,8 +21411,8 @@
        "commands": 0
       }
      ],
-     "furthest": 9,
-     "furthestStage": "05-day2",
+     "furthest": 11,
+     "furthestStage": "05-px-ostrich",
      "end": "cap"
     },
     "outcome": "cap"
@@ -20655,12 +21654,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 511,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 511,
-       "commands": 184
+       "commands": 52
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 563,
+       "commands": 132
       },
       {
        "id": "05a-foil",
@@ -20685,6 +21704,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 961,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": true,
        "points": 12,
@@ -20733,7 +21762,7 @@
        "commands": 80
       }
      ],
-     "furthest": 16,
+     "furthest": 19,
      "furthestStage": "07-factory",
      "end": "won"
     },
@@ -20937,12 +21966,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 561,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
        "reached": true,
        "points": 12,
-       "share": 0.48,
+       "share": 0.857,
        "enteredAt": 561,
        "commands": 939
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": false,
+       "points": 0,
+       "share": 0,
+       "enteredAt": null,
+       "commands": 0
       },
       {
        "id": "05a-foil",
@@ -20967,6 +22016,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -21015,8 +22074,8 @@
        "commands": 0
       }
      ],
-     "furthest": 9,
-     "furthestStage": "05-day2",
+     "furthest": 10,
+     "furthestStage": "05-robot-shop",
      "end": "stuck"
     },
     "outcome": "cap"
@@ -21223,12 +22282,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 552,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 552,
-       "commands": 723
+       "commands": 238
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 790,
+       "commands": 485
       },
       {
        "id": "05a-foil",
@@ -21253,6 +22332,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -21301,7 +22390,7 @@
        "commands": 0
       }
      ],
-     "furthest": 11,
+     "furthest": 13,
      "furthestStage": "06-plato",
      "end": "stuck"
     },
@@ -21557,12 +22646,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 519,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 519,
-       "commands": 651
+       "commands": 114
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 633,
+       "commands": 537
       },
       {
        "id": "05a-foil",
@@ -21587,6 +22696,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1399,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": true,
        "points": 12,
@@ -21635,7 +22754,7 @@
        "commands": 49
       }
      ],
-     "furthest": 16,
+     "furthest": 19,
      "furthestStage": "07-factory",
      "end": "cap"
     },
@@ -21867,12 +22986,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 545,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 545,
-       "commands": 427
+       "commands": 131
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 676,
+       "commands": 296
       },
       {
        "id": "05a-foil",
@@ -21897,6 +23036,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1393,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": true,
        "points": 8,
@@ -21945,8 +23094,8 @@
        "commands": 0
       }
      ],
-     "furthest": 12,
-     "furthestStage": "06b-charge",
+     "furthest": 15,
+     "furthestStage": "06c-bomb",
      "end": "cap"
     },
     "outcome": "cap"
@@ -22201,12 +23350,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 441,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 441,
-       "commands": 679
+       "commands": 71
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 512,
+       "commands": 608
       },
       {
        "id": "05a-foil",
@@ -22231,6 +23400,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1355,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": true,
        "points": 12,
@@ -22279,7 +23458,7 @@
        "commands": 57
       }
      ],
-     "furthest": 16,
+     "furthest": 19,
      "furthestStage": "07-factory",
      "end": "cap"
     },
@@ -22519,12 +23698,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 614,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 614,
-       "commands": 168
+       "commands": 72
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 686,
+       "commands": 96
       },
       {
        "id": "05a-foil",
@@ -22549,6 +23748,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -22597,7 +23806,7 @@
        "commands": 0
       }
      ],
-     "furthest": 11,
+     "furthest": 13,
      "furthestStage": "06-plato",
      "end": "stuck"
     },
@@ -22853,12 +24062,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 649,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 649,
-       "commands": 385
+       "commands": 226
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 875,
+       "commands": 159
       },
       {
        "id": "05a-foil",
@@ -22883,6 +24112,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1098,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": true,
        "points": 12,
@@ -22931,7 +24170,7 @@
        "commands": 145
       }
      ],
-     "furthest": 16,
+     "furthest": 19,
      "furthestStage": "07-factory",
      "end": "won"
     },
@@ -23171,12 +24410,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 461,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 461,
-       "commands": 442
+       "commands": 91
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 552,
+       "commands": 351
       },
       {
        "id": "05a-foil",
@@ -23201,6 +24460,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 1178,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": true,
        "points": 0,
@@ -23249,8 +24518,8 @@
        "commands": 0
       }
      ],
-     "furthest": 12,
-     "furthestStage": "06b-charge",
+     "furthest": 15,
+     "furthestStage": "06c-bomb",
      "end": "stuck"
     },
     "outcome": "cap"
@@ -23457,12 +24726,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 685,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 685,
-       "commands": 569
+       "commands": 275
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 960,
+       "commands": 294
       },
       {
        "id": "05a-foil",
@@ -23487,6 +24776,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -23535,7 +24834,7 @@
        "commands": 0
       }
      ],
-     "furthest": 11,
+     "furthest": 13,
      "furthestStage": "06-plato",
      "end": "stuck"
     },
@@ -23778,12 +25077,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 486,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 486,
-       "commands": 222
+       "commands": 137
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 623,
+       "commands": 85
       },
       {
        "id": "05a-foil",
@@ -23808,6 +25127,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": true,
+       "points": 0,
+       "share": null,
+       "enteredAt": 856,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": true,
        "points": 12,
@@ -23856,7 +25185,7 @@
        "commands": 91
       }
      ],
-     "furthest": 16,
+     "furthest": 19,
      "furthestStage": "07-factory",
      "end": "won"
     },
@@ -24092,12 +25421,32 @@
       {
        "id": "05-day2",
        "name": "Day 2",
-       "available": 25,
+       "available": 0,
        "reached": true,
-       "points": 25,
+       "points": 0,
+       "share": null,
+       "enteredAt": 591,
+       "commands": 0
+      },
+      {
+       "id": "05-robot-shop",
+       "name": "05-robot-shop",
+       "available": 14,
+       "reached": true,
+       "points": 14,
        "share": 1,
        "enteredAt": 591,
-       "commands": 417
+       "commands": 82
+      },
+      {
+       "id": "05-px-ostrich",
+       "name": "05-px-ostrich",
+       "available": 11,
+       "reached": true,
+       "points": 11,
+       "share": 1,
+       "enteredAt": 673,
+       "commands": 335
       },
       {
        "id": "05a-foil",
@@ -24122,6 +25471,16 @@
       {
        "id": "06b-charge",
        "name": "06b-charge",
+       "available": 0,
+       "reached": false,
+       "points": 0,
+       "share": null,
+       "enteredAt": null,
+       "commands": 0
+      },
+      {
+       "id": "06c-bomb",
+       "name": "06c-bomb",
        "available": 12,
        "reached": false,
        "points": 0,
@@ -24170,7 +25529,7 @@
        "commands": 0
       }
      ],
-     "furthest": 11,
+     "furthest": 13,
      "furthestStage": "06-plato",
      "end": "cap"
     },
@@ -24179,24 +25538,24 @@
   ]
  },
  "git": {
-  "commits": 1291,
+  "commits": 1300,
   "withWorkTrailer": 712,
   "churnByArea": {
-   "design": 602084,
-   "wwwroot/data": 554492,
-   "wwwroot/wiki": 298621,
+   "design": 602274,
+   "wwwroot/data": 555153,
+   "wwwroot/wiki": 311286,
    "playtests": 130390,
-   "scripts": 76167,
+   "scripts": 76472,
    "stationfall-master": 44064,
-   "wwwroot/rules": 10141,
-   "wwwroot/scene": 7019,
-   "wwwroot/engine": 5334,
-   "wwwroot/dashboard": 4895,
-   "decisions": 4341,
+   "wwwroot/rules": 10164,
+   "wwwroot/scene": 7137,
+   "wwwroot/engine": 5344,
+   "wwwroot/dashboard": 4905,
+   "decisions": 4346,
    "porting": 4081,
-   "(top)": 2871,
+   "(top)": 3562,
    "reference": 1649,
-   "wwwroot": 1578,
+   "wwwroot": 1637,
    "methodology": 925,
    "wwwroot/ui": 510,
    "docs": 158,
@@ -26467,9 +27826,9 @@
   }
  ],
  "readLog": {
-  "entries": 1114,
+  "entries": 1118,
   "byAgent": {
-   "greg": 673,
+   "greg": 677,
    "norm": 441
   },
   "since": "2026-09-25T10:40:02.380Z"

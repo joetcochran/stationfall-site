@@ -829,3 +829,27 @@ M8's second half is the sponsor playing the game themselves: four checkpoints an
 **The sponsor's own playthroughs.** Ten reports over two sittings, 20 and 21 October, their first whole play: mostly 3D characters standing or clipping badly with the switch on, one figure behind a held object, three asking for painted states after an assembly. All ten are open; the work above came of them.
 
 <!-- through: git 60bf51c6 · mail 20261018-150901-norm-1854 · decisions 126 -->
+
+## 2026-10-23 -- The sponsor's own play closes, and the site learns to fit (M8, M9)
+
+The sponsor played on three days and filed sixteen reports, fourteen settled. M9 work made the site build and small enough to publish.
+
+**Decisions.** D113: a seated 3D pose for Floyd alone, who rides beside the player all through the opening; the rest keep the painted overlay. D114: Plato's clipped forearms stay, baked into that model and the sponsor's to remake (D43). They also chose visitor counts on the published pages (a20e3d1d). Norm: the armed detonator hangs only while the explosive is out of the hole, as canon moves neither; and WebP 85 for the published copy alone, 1,847 MB of PNG to 141, leaving accepted pixels untouched (567d42cb).
+
+**What went wrong and what changed.**
+- Norm put report 53 to the sponsor as a new-asset decision. Wrong: the rig is standard and the engine already pins poses by bone steps (D65), as with Plato's book. The sponsor caught it; a seated Floyd is Norm's to author.
+- Six of the eight reports of 23 October were Norm's own faults from fixing the batch before: a plate left where its thing had been, a click box taking half its container's clicks, an actor swept against the wrong one of his own pictures (0.9 m standing, 1.84 m sprawled), an opaque cable, and that cable under the deck. Each is in a state the review page cannot reach: it switches every state a package paints, none of a cutout's own. Open as Q54, on a checkpoint per state.
+- Two fixes came back untested, no link reaching them; three checkpoints and `?cmds=A;B;C` now do (1c133415).
+- The site would not build over a decal naming a shared picture by URL (c10ed196).
+
+**Milestones:** M7 met, 119 of 119. M8: 14 of 16 reports closed, 8 partial-cover clicks left. M9: the site builds at 257 MB, counted and localhost-gated.
+
+**Rework (D20).** Sol all period: 550 views, 451 first-pass, 14% (14%), 1.24 rounds (1.24); the three new views are Greg's detonator cutouts, all first pass. No guide faults.
+
+**Efficiency (D21).** 424 views (424); 690,000 tokens/view; 4.8 touches/day (4.8); 943 agent runs.
+
+**Playtests.** No round ran. ![Current full runs](wiki/metrics-playtest-fullrun-current.svg) Three new checkpoints re-cut the bands: Day 2's 25 points become the robot shop 14 and the PX ostrich 11, the charge's 12 the bomb's. Round 17's shares hold (100%, then Plato 67%, bomb 33%, Factory 33%) and its ends: 1 won at 1,109 commands, 1 capped, 1 stuck. Rotating personas, one agent run each.
+
+**The sponsor's own playthroughs.** Sixteen reports over three sittings: figures misplaced or hidden, assemblies that never changed picture, things no click could reach. Eleven accepted, one left as the model is, one a duplicate, one waiting, two with Norm. They bought three detonator cutouts, a container that hides its contents, a drawn cable and three checkpoints.
+
+<!-- through: git 115f56cd · mail 20261022-195806-norm-1858 · decisions 128 -->

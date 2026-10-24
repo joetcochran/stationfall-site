@@ -4,17 +4,17 @@
 <text x="66.0" y="28.0" fill="#d9e3ea" font-size="18" text-anchor="start" font-weight="600">Milestone lead time: started to done</text>
 <text x="66.0" y="386.0" fill="#8fa3b1" font-size="13" text-anchor="start">Timed by the commits named in decisions/milestones.jsonl. A milestone with no start event shows only its end; an open one</text>
 <text x="66.0" y="403.0" fill="#8fa3b1" font-size="13" text-anchor="start">runs to now.</text>
-<g class="tx" data-kind="time" data-dom="1790204400000 1792662277000" data-px="70 76 650 256" data-th="#34495a #d9e3ea #8fa3b1 14">
-<line x1="71.0" y1="76" x2="71.0" y2="332" stroke="#34495a" stroke-dasharray="3 3"/>
-<text x="71.0" y="351.0" fill="#d9e3ea" font-size="14" text-anchor="middle">09/24</text>
-<line x1="230.9" y1="76" x2="230.9" y2="332" stroke="#34495a" stroke-dasharray="3 3"/>
-<text x="230.9" y="351.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/01</text>
-<line x1="390.8" y1="76" x2="390.8" y2="332" stroke="#34495a" stroke-dasharray="3 3"/>
-<text x="390.8" y="351.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/08</text>
-<line x1="550.8" y1="76" x2="550.8" y2="332" stroke="#34495a" stroke-dasharray="3 3"/>
-<text x="550.8" y="351.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/15</text>
-<line x1="710.7" y1="76" x2="710.7" y2="332" stroke="#34495a" stroke-dasharray="3 3"/>
-<text x="710.7" y="351.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/22</text>
+<g class="tx" data-kind="time" data-dom="1790204400000 1792751848000" data-px="70 76 650 256" data-th="#34495a #d9e3ea #8fa3b1 14">
+<line x1="70.9" y1="76" x2="70.9" y2="332" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="70.9" y="351.0" fill="#d9e3ea" font-size="14" text-anchor="middle">09/24</text>
+<line x1="225.2" y1="76" x2="225.2" y2="332" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="225.2" y="351.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/01</text>
+<line x1="379.6" y1="76" x2="379.6" y2="332" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="379.6" y="351.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/08</text>
+<line x1="533.9" y1="76" x2="533.9" y2="332" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="533.9" y="351.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/15</text>
+<line x1="688.2" y1="76" x2="688.2" y2="332" stroke="#34495a" stroke-dasharray="3 3"/>
+<text x="688.2" y="351.0" fill="#d9e3ea" font-size="14" text-anchor="middle">10/22</text>
 </g>
 <text x="60.0" y="97.0" fill="#d9e3ea" font-size="14" text-anchor="end">M0</text>
 <text x="60.0" y="129.0" fill="#d9e3ea" font-size="14" text-anchor="end">M1</text>
@@ -24,58 +24,58 @@
 <text x="60.0" y="257.0" fill="#d9e3ea" font-size="14" text-anchor="end">M5</text>
 <text x="60.0" y="289.0" fill="#d9e3ea" font-size="14" text-anchor="end">M6</text>
 <text x="60.0" y="321.0" fill="#d9e3ea" font-size="14" text-anchor="end">M7</text>
-<g class="tz" data-kind="time" data-dom="1790204400000 1792662277000" data-px="70 76 650 256">
+<g class="tz" data-kind="time" data-dom="1790204400000 1792751848000" data-px="70 76 650 256">
 <g class="m" data-s="done"><title>0 min lead time
 milestone: M0
 started: 09/24 00:00
 done: 09/24 00:00</title>
-<rect x="71.0" y="84.0" width="3.0" height="16" rx="3" fill="#3987e5"/>
-<text x="82.0" y="97.0" fill="#8fa3b1" font-size="13" text-anchor="start" data-ax="74.0">0 min</text>
+<rect x="70.9" y="84.0" width="3.0" height="16" rx="3" fill="#3987e5"/>
+<text x="81.9" y="97.0" fill="#8fa3b1" font-size="13" text-anchor="start" data-ax="73.9">0 min</text>
 </g>
 <g class="m" data-s="done"><title>0 min lead time
 milestone: M1
 started: 09/24 00:00
 done: 09/24 00:00</title>
-<rect x="71.0" y="116.0" width="3.0" height="16" rx="3" fill="#3987e5"/>
-<text x="82.0" y="129.0" fill="#8fa3b1" font-size="13" text-anchor="start" data-ax="74.0">0 min</text>
+<rect x="70.9" y="116.0" width="3.0" height="16" rx="3" fill="#3987e5"/>
+<text x="81.9" y="129.0" fill="#8fa3b1" font-size="13" text-anchor="start" data-ax="73.9">0 min</text>
 </g>
 <g class="m" data-s="done"><title>24.0 h lead time
 milestone: M2
 started: 09/24 00:00
 done: 09/25 00:00</title>
-<rect x="71.0" y="148.0" width="22.8" height="16" rx="3" fill="#3987e5"/>
-<text x="101.8" y="161.0" fill="#8fa3b1" font-size="13" text-anchor="start" data-ax="93.8">24.0 h</text>
+<rect x="70.9" y="148.0" width="22.0" height="16" rx="3" fill="#3987e5"/>
+<text x="101.0" y="161.0" fill="#8fa3b1" font-size="13" text-anchor="start" data-ax="93.0">24.0 h</text>
 </g>
 <g class="m" data-s="done"><title>done 09/25 00:00
 milestone: M3
 no start logged</title>
-<path d="M93.8,180.0 l7,8 l-7,8 l-7,-8 Z" fill="#3987e5"/>
-<text x="105.8" y="193.0" fill="#8fa3b1" font-size="13" text-anchor="start" data-ax="93.8">done (no start logged)</text>
+<path d="M93.0,180.0 l7,8 l-7,8 l-7,-8 Z" fill="#3987e5"/>
+<text x="105.0" y="193.0" fill="#8fa3b1" font-size="13" text-anchor="start" data-ax="93.0">done (no start logged)</text>
 </g>
 <g class="m" data-s="done"><title>done 09/25 00:00
 milestone: M4
 no start logged</title>
-<path d="M93.8,212.0 l7,8 l-7,8 l-7,-8 Z" fill="#3987e5"/>
-<text x="105.8" y="225.0" fill="#8fa3b1" font-size="13" text-anchor="start" data-ax="93.8">done (no start logged)</text>
+<path d="M93.0,212.0 l7,8 l-7,8 l-7,-8 Z" fill="#3987e5"/>
+<text x="105.0" y="225.0" fill="#8fa3b1" font-size="13" text-anchor="start" data-ax="93.0">done (no start logged)</text>
 </g>
-<g class="m" data-s="open"><title>open, 27.4 d so far
+<g class="m" data-s="open"><title>open, 28.4 d so far
 milestone: M5
 started: 09/25 00:00</title>
-<rect x="93.8" y="244.0" width="625.2" height="16" rx="3" fill="url(#hatch)" stroke="#3987e5" stroke-width="1.5"/>
-<text x="727.0" y="257.0" fill="#8fa3b1" font-size="13" text-anchor="start" data-ax="719.0">open, 27.4 d so far</text>
+<rect x="93.0" y="244.0" width="626.1" height="16" rx="3" fill="url(#hatch)" stroke="#3987e5" stroke-width="1.5"/>
+<text x="727.1" y="257.0" fill="#8fa3b1" font-size="13" text-anchor="start" data-ax="719.1">open, 28.4 d so far</text>
 </g>
 <g class="m" data-s="done"><title>24.0 h lead time
 milestone: M6
 started: 09/24 00:00
 done: 09/25 00:00</title>
-<rect x="71.0" y="276.0" width="22.8" height="16" rx="3" fill="#3987e5"/>
-<text x="101.8" y="289.0" fill="#8fa3b1" font-size="13" text-anchor="start" data-ax="93.8">24.0 h</text>
+<rect x="70.9" y="276.0" width="22.0" height="16" rx="3" fill="#3987e5"/>
+<text x="101.0" y="289.0" fill="#8fa3b1" font-size="13" text-anchor="start" data-ax="93.0">24.0 h</text>
 </g>
-<g class="m" data-s="open"><title>open, 27.4 d so far
+<g class="m" data-s="open"><title>open, 28.4 d so far
 milestone: M7
 started: 09/25 00:00</title>
-<rect x="93.8" y="308.0" width="625.2" height="16" rx="3" fill="url(#hatch)" stroke="#3987e5" stroke-width="1.5"/>
-<text x="727.0" y="321.0" fill="#8fa3b1" font-size="13" text-anchor="start" data-ax="719.0">open, 27.4 d so far</text>
+<rect x="93.0" y="308.0" width="626.1" height="16" rx="3" fill="url(#hatch)" stroke="#3987e5" stroke-width="1.5"/>
+<text x="727.1" y="321.0" fill="#8fa3b1" font-size="13" text-anchor="start" data-ax="719.1">open, 28.4 d so far</text>
 </g>
 </g>
 <rect x="70" y="76" width="650" height="256" fill="none" stroke="#34495a"/>

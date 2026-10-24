@@ -25,7 +25,7 @@
 <line x1="823.4" y1="76" x2="823.4" y2="254" stroke="#1f2c37"/>
 <text x="823.4" y="273.0" fill="#8fa3b1" font-size="14" text-anchor="middle">72 h</text>
 <text x="238.0" y="117.5" fill="#d9e3ea" font-size="14" text-anchor="end">Norm: delivery to verdict</text>
-<text x="238.0" y="135.5" fill="#8fa3b1" font-size="13" text-anchor="end">p50 2 min · p90 25 min · n=605</text>
+<text x="238.0" y="135.5" fill="#8fa3b1" font-size="13" text-anchor="end">p50 2 min · p90 25 min · n=606</text>
 <g class="m"><title>3 min
 Norm: delivery to verdict: 20260925-004039-greg-0002
 first verdict: 09/24 20:43</title><circle cx="322.9" cy="110.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
@@ -1841,10 +1841,13 @@ first verdict: 10/13 08:37</title><circle cx="250.0" cy="110.5" r="3.5" fill="#3
 <g class="m"><title>1 min
 Norm: delivery to verdict: 20261013-124753-greg-0810
 first verdict: 10/13 08:48</title><circle cx="250.0" cy="117.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
+<g class="m"><title>18 min
+Norm: delivery to verdict: 20261022-185348-greg-0811
+first verdict: 10/22 15:11</title><circle cx="447.1" cy="124.5" r="3.5" fill="#3987e5" fill-opacity="0.6" stroke="#111a22" stroke-width="1"/></g>
 <g class="m" data-s="p50"><title>2 min
-Norm: delivery to verdict: p50 of 605</title><line x1="290.3" y1="88.5" x2="290.3" y2="152.5" stroke="#d9e3ea" stroke-width="2"/></g>
+Norm: delivery to verdict: p50 of 606</title><line x1="290.3" y1="88.5" x2="290.3" y2="152.5" stroke="#d9e3ea" stroke-width="2"/></g>
 <g class="m" data-s="p90"><title>25 min
-Norm: delivery to verdict: p90 of 605</title><line x1="471.0" y1="88.5" x2="471.0" y2="152.5" stroke="#d9e3ea" stroke-width="2" stroke-dasharray="4 3"/></g>
+Norm: delivery to verdict: p90 of 606</title><line x1="471.0" y1="88.5" x2="471.0" y2="152.5" stroke="#d9e3ea" stroke-width="2" stroke-dasharray="4 3"/></g>
 <text x="238.0" y="206.5" fill="#d9e3ea" font-size="14" text-anchor="end">Greg: ask to delivery</text>
 <text x="238.0" y="224.5" fill="#8fa3b1" font-size="13" text-anchor="end">p50 23 min · p90 1.5 h · n=727</text>
 <g class="m"><title>6 min

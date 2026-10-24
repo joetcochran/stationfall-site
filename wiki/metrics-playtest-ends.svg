@@ -52,7 +52,7 @@ r1-click-01duffy (21/0), r1-click-03village (13/4), r1-typed-02station (12/0)</t
 </g>
 <g class="m" data-s="stuck" data-v="2" data-rk="- stuck"><title>2 of 5 sessions
 round 1: stuck (no new points in the last 200 commands)
-r1-click-06plato (10/10), r1-typed-05day2 (0/25)</title>
+r1-click-06plato (10/10), r1-typed-05day2 (0/0)</title>
 <rect x="450.6" y="132.0" width="203.7" height="24" rx="3" fill="#c98500"/>
 <text x="552.4" y="149.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">2</text>
 </g>
@@ -62,7 +62,7 @@ r1-click-06plato (10/10), r1-typed-05day2 (0/25)</title>
 <g class="st" data-dir="x" data-gap="2">
 <g class="m" data-s="budget" data-v="4" data-rk="- budget"><title>4 of 5 sessions
 round 2: budget spent, still progressing
-r2-click-01duffy (28/0), r2-click-03village (20/4), r2-typed-02station (6/0), r2-typed-05day2 (12/25)</title>
+r2-click-01duffy (28/0), r2-click-03village (20/4), r2-typed-02station (6/0), r2-typed-05day2 (12/0)</title>
 <rect x="140.0" y="180.0" width="411.4" height="24" rx="3" fill="#3987e5"/>
 <text x="345.7" y="197.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">4</text>
 </g>
@@ -84,7 +84,7 @@ r3-click-07factory (7/7)</title>
 </g>
 <g class="m" data-s="budget" data-v="5" data-rk="- budget"><title>5 of 7 sessions
 round 3: budget spent, still progressing
-r3-click-02station (12/0), r3-click-04day1end (13/3), r3-click-05day2 (21/25), r3-typed-01duffy (17/0), r3-typed-03village (24/4)</title>
+r3-click-02station (12/0), r3-click-04day1end (13/3), r3-click-05day2 (21/0), r3-typed-01duffy (17/0), r3-typed-03village (24/4)</title>
 <rect x="244.9" y="228.0" width="512.3" height="24" rx="3" fill="#3987e5"/>
 <text x="501.0" y="245.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">5</text>
 </g>
@@ -106,7 +106,7 @@ r4-typed-07factory (7/7)</title>
 </g>
 <g class="m" data-s="budget" data-v="5" data-rk="- budget"><title>5 of 7 sessions
 round 4: budget spent, still progressing
-r4-click-01duffy (17/0), r4-click-03village (13/4), r4-typed-02station (16/0), r4-typed-04day1end (6/3), r4-typed-05day2 (15/25)</title>
+r4-click-01duffy (17/0), r4-click-03village (13/4), r4-typed-02station (16/0), r4-typed-04day1end (6/3), r4-typed-05day2 (15/0)</title>
 <rect x="244.9" y="276.0" width="512.3" height="24" rx="3" fill="#3987e5"/>
 <text x="501.0" y="293.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">5</text>
 </g>
@@ -128,7 +128,7 @@ r5-typed-07factory (7/7)</title>
 </g>
 <g class="m" data-s="budget" data-v="4" data-rk="- budget"><title>4 of 7 sessions
 round 5: budget spent, still progressing
-r5-click-01duffy (26/0), r5-click-03village (27/4), r5-typed-02station (12/0), r5-typed-05day2 (18/25)</title>
+r5-click-01duffy (26/0), r5-click-03village (27/4), r5-typed-02station (12/0), r5-typed-05day2 (18/0)</title>
 <rect x="244.9" y="324.0" width="409.4" height="24" rx="3" fill="#3987e5"/>
 <text x="449.6" y="341.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">4</text>
 </g>
@@ -150,7 +150,7 @@ r6-click-06plato (29/10), r6-typed-07factory (7/7)</title>
 </g>
 <g class="m" data-s="budget" data-v="5" data-rk="- budget"><title>5 of 7 sessions
 round 6: budget spent, still progressing
-r6-click-01duffy (22/0), r6-click-03village (17/4), r6-typed-02station (12/0), r6-typed-04day1end (13/3), r6-typed-05day2 (15/25)</title>
+r6-click-01duffy (22/0), r6-click-03village (17/4), r6-typed-02station (12/0), r6-typed-04day1end (13/3), r6-typed-05day2 (15/0)</title>
 <rect x="347.7" y="372.0" width="512.3" height="24" rx="3" fill="#3987e5"/>
 <text x="603.9" y="389.0" fill="#111a22" font-size="14" text-anchor="middle" font-weight="600">5</text>
 </g>

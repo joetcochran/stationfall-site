@@ -45,7 +45,7 @@
 r13-typed-full (round 13, typed)
 persona: a stage-magic hobbyist who notices every object, keeps a written inventory and types full sentences
 host: Copilot (Claude Opus 5.5, then GPT-6 Luna)
-best score: 27, furthest stage Day 2
+best score: 27, furthest stage 05-robot-shop
 weighted per 100: 13.49; blocked rows: 28; negative kinds: 7 of 7</title><rect x="250.0" y="164.0" width="461.1" height="18" rx="4" fill="url(#hatch)" stroke="#d95926" stroke-width="2"/></g>
 <text x="717.1" y="178.0" fill="#d9e3ea" font-size="13" text-anchor="start">8.7 · best 27</text>
 <text x="238.0" y="204.0" fill="#d9e3ea" font-size="14" text-anchor="end">r13 click A</text>
@@ -54,7 +54,7 @@ weighted per 100: 13.49; blocked rows: 28; negative kinds: 7 of 7</title><rect x
 r13-click-fullA (round 13, click)
 persona: a museum docent in their sixties on a laptop trackpad who reads everything slowly and twice
 host: Copilot, then Claude Code (Claude Opus 5.5, then GPT-6 Luna)
-best score: 47, furthest stage Day 2
+best score: 47, furthest stage 05-px-ostrich
 weighted per 100: 13.59; blocked rows: 60; negative kinds: 7 of 7</title><rect x="250.0" y="194.0" width="452.1" height="18" rx="4" fill="url(#hatch)" stroke="#c98500" stroke-width="2"/></g>
 <text x="708.1" y="208.0" fill="#d9e3ea" font-size="13" text-anchor="start">8.5 · best 47</text>
 <text x="238.0" y="234.0" fill="#d9e3ea" font-size="14" text-anchor="end">r13 click B</text>
@@ -63,7 +63,7 @@ weighted per 100: 13.59; blocked rows: 60; negative kinds: 7 of 7</title><rect x
 r13-click-fullB (round 13, click)
 persona: a sixteen-year-old who plays survival-crafting games and opens every container looking for loot
 host: Copilot, then Claude Code (Claude Opus 5.5, then GPT-6 Luna)
-best score: 38, furthest stage Day 2
+best score: 38, furthest stage 05-robot-shop
 weighted per 100: 11.66; blocked rows: 43; negative kinds: 7 of 7</title><rect x="250.0" y="224.0" width="399.1" height="18" rx="4" fill="url(#hatch)" stroke="#c98500" stroke-width="2"/></g>
 <text x="655.1" y="238.0" fill="#d9e3ea" font-size="13" text-anchor="start">7.5 · best 38</text>
 <line x1="24" y1="248.0" x2="876" y2="248.0" stroke="#34495a"/>
@@ -101,7 +101,7 @@ weighted per 100: 3.2; blocked rows: 10; negative kinds: 6 of 7</title><path d="
 r8-click-fullA (round 8, click)
 persona: a teenager who plays mobile puzzle games and skims text
 host: Claude Code
-best score: 50, furthest stage Day 2
+best score: 50, furthest stage 05-px-ostrich
 weighted per 100: 3; blocked rows: 9; negative kinds: 6 of 7</title><path d="M250.0,374.0 H346.1 Q349.1,374.0 349.1,377.0 V389.0 Q349.1,392.0 346.1,392.0 H250.0 Z" fill="#3987e5"/></g>
 <text x="355.1" y="388.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.9 · best 50</text>
 <text x="238.0" y="414.0" fill="#d9e3ea" font-size="14" text-anchor="end">r8 typed</text>
@@ -119,7 +119,7 @@ weighted per 100: 2.53; blocked rows: 6; negative kinds: 6 of 7</title><path d="
 r11-click-fullA (round 11, click)
 persona: a cautious first-time adventure player who reads every message and hates dying
 host: Claude Code
-best score: 47, furthest stage Day 2
+best score: 47, furthest stage 05-px-ostrich
 weighted per 100: 3.27; blocked rows: 9; negative kinds: 4 of 7</title><path d="M250.0,434.0 H335.5 Q338.5,434.0 338.5,437.0 V449.0 Q338.5,452.0 335.5,452.0 H250.0 Z" fill="#3987e5"/></g>
 <text x="344.5" y="448.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.7 · best 47</text>
 <text x="238.0" y="474.0" fill="#d9e3ea" font-size="14" text-anchor="end">r14 typed</text>
@@ -155,7 +155,7 @@ weighted per 100: 3; blocked rows: 6; negative kinds: 6 of 7</title><path d="M25
 r12-typed-full (round 12, typed)
 persona: a speedrunner who plays fast, types terse abbreviations and skims long descriptions
 host: Claude Code
-best score: 67, furthest stage 06b-charge
+best score: 67, furthest stage 06c-bomb
 weighted per 100: 2.47; blocked rows: 7; negative kinds: 5 of 7</title><path d="M250.0,554.0 H331.8 Q334.8,554.0 334.8,557.0 V569.0 Q334.8,572.0 331.8,572.0 H250.0 Z" fill="#3987e5"/></g>
 <text x="340.8" y="568.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.6 · best 67</text>
 <text x="238.0" y="594.0" fill="#d9e3ea" font-size="14" text-anchor="end">r7 click B (UNDO on)</text>
@@ -191,7 +191,7 @@ weighted per 100: 2.87; blocked rows: 8; negative kinds: 5 of 7</title><path d="
 r7-typed-full (round 7, typed)
 persona: an adult who played Zork in the 1980s but has never played this game
 host: Claude Code, then Cursor
-best score: 45, furthest stage Day 2
+best score: 45, furthest stage 05-px-ostrich
 weighted per 100: 2.73; blocked rows: 7; negative kinds: 6 of 7</title><path d="M250.0,674.0 H324.9 Q327.9,674.0 327.9,677.0 V689.0 Q327.9,692.0 324.9,692.0 H250.0 Z" fill="#9085e9"/></g>
 <text x="333.9" y="688.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.5 · best 45</text>
 <text x="238.0" y="714.0" fill="#d9e3ea" font-size="14" text-anchor="end">r10 click A</text>
@@ -200,7 +200,7 @@ weighted per 100: 2.73; blocked rows: 7; negative kinds: 6 of 7</title><path d="
 r10-click-fullA (round 10, click)
 persona: a game-design student who narrates theories aloud and experiments with every object
 host: Claude Code
-best score: 71, furthest stage 06b-charge
+best score: 71, furthest stage 06c-bomb
 weighted per 100: 2.47; blocked rows: 7; negative kinds: 5 of 7</title><path d="M250.0,704.0 H324.9 Q327.9,704.0 327.9,707.0 V719.0 Q327.9,722.0 324.9,722.0 H250.0 Z" fill="#3987e5"/></g>
 <text x="333.9" y="718.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.5 · best 71</text>
 <text x="238.0" y="744.0" fill="#d9e3ea" font-size="14" text-anchor="end">r11 typed</text>
@@ -236,7 +236,7 @@ weighted per 100: 2.2; blocked rows: 7; negative kinds: 6 of 7</title><path d="M
 r14-click-full (round 14, click)
 persona: a night-shift nurse who plays in short bursts on a tablet, saves often and distrusts anything that looks dangerous
 host: Claude Code (Claude Opus 5.5)
-best score: 71, furthest stage 06b-charge
+best score: 71, furthest stage 06c-bomb
 weighted per 100: 2.27; blocked rows: 5; negative kinds: 4 of 7</title><path d="M250.0,824.0 H317.5 Q320.5,824.0 320.5,827.0 V839.0 Q320.5,842.0 317.5,842.0 H250.0 Z" fill="#3987e5"/></g>
 <text x="326.5" y="838.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.3 · best 71</text>
 <text x="238.0" y="864.0" fill="#d9e3ea" font-size="14" text-anchor="end">r9 typed</text>
@@ -263,7 +263,7 @@ weighted per 100: 2.13; blocked rows: 4; negative kinds: 6 of 7</title><path d="
 r10-typed-full (round 10, typed)
 persona: a retired librarian who reads the manual first and maps every room on graph paper
 host: Claude Code
-best score: 38, furthest stage Day 2
+best score: 38, furthest stage 05-robot-shop
 weighted per 100: 2.07; blocked rows: 7; negative kinds: 5 of 7</title><path d="M250.0,914.0 H310.6 Q313.6,914.0 313.6,917.0 V929.0 Q313.6,932.0 310.6,932.0 H250.0 Z" fill="#3987e5"/></g>
 <text x="319.6" y="928.0" fill="#d9e3ea" font-size="13" text-anchor="start">1.2 · best 38</text>
 <text x="238.0" y="954.0" fill="#d9e3ea" font-size="14" text-anchor="end">r16a typed</text>
@@ -317,7 +317,7 @@ weighted per 100: 2.07; blocked rows: 4; negative kinds: 3 of 7</title><path d="
 r16-gm-full (round 16a, typed)
 persona: a tabletop game master who treats every character as a person, talks to Floyd and Plato constantly, asks everyone about everything and follows hunches from what they say
 host: not recorded
-best score: 69, furthest stage 06b-charge
+best score: 69, furthest stage 06c-bomb
 weighted per 100: 1.67; blocked rows: 5; negative kinds: 4 of 7</title><path d="M250.0,1094.0 H296.3 Q299.3,1094.0 299.3,1097.0 V1109.0 Q299.3,1112.0 296.3,1112.0 H250.0 Z" fill="#8fa3b1"/></g>
 <text x="305.3" y="1108.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.9 · best 69</text>
 <text x="238.0" y="1134.0" fill="#d9e3ea" font-size="14" text-anchor="end">r16b typed</text>
@@ -344,7 +344,7 @@ weighted per 100: 1.21; blocked rows: 3; negative kinds: 3 of 7</title><path d="
 r15d-typed-full (round 15d, typed)
 persona: a retired air-traffic controller who logs every clock reading, plans each move and types complete sentences
 host: not recorded
-best score: 38, furthest stage Day 2
+best score: 38, furthest stage 05-robot-shop
 weighted per 100: 1.53; blocked rows: 4; negative kinds: 6 of 7</title><path d="M250.0,1184.0 H289.4 Q292.4,1184.0 292.4,1187.0 V1199.0 Q292.4,1202.0 289.4,1202.0 H250.0 Z" fill="#8fa3b1"/></g>
 <text x="298.4" y="1198.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.8 · best 38</text>
 <text x="238.0" y="1224.0" fill="#d9e3ea" font-size="14" text-anchor="end">r16b click</text>
@@ -353,7 +353,7 @@ weighted per 100: 1.53; blocked rows: 4; negative kinds: 6 of 7</title><path d="
 r16b-newcomer-full (round 16b, click)
 persona: a first-time player of text adventures in their twenties who grew up on mobile games, taps whatever looks interactive, reads quickly and gets bored by long descriptions
 host: not recorded
-best score: 61, furthest stage 06b-charge
+best score: 61, furthest stage 06c-bomb
 weighted per 100: 1.53; blocked rows: 5; negative kinds: 3 of 7</title><path d="M250.0,1214.0 H289.4 Q292.4,1214.0 292.4,1217.0 V1229.0 Q292.4,1232.0 289.4,1232.0 H250.0 Z" fill="#8fa3b1"/></g>
 <text x="298.4" y="1228.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.8 · best 61</text>
 <text x="238.0" y="1254.0" fill="#d9e3ea" font-size="14" text-anchor="end">r15b click</text>
@@ -362,7 +362,7 @@ weighted per 100: 1.53; blocked rows: 5; negative kinds: 3 of 7</title><path d="
 r15b-click-full (round 15b, click)
 persona: a night-shift nurse who plays in short bursts on a tablet, saves often and distrusts anything that looks dangerous
 host: not recorded
-best score: 45, furthest stage Day 2
+best score: 45, furthest stage 05-px-ostrich
 weighted per 100: 1.26; blocked rows: 2; negative kinds: 3 of 7</title><path d="M250.0,1244.0 H282.5 Q285.5,1244.0 285.5,1247.0 V1259.0 Q285.5,1262.0 282.5,1262.0 H250.0 Z" fill="#8fa3b1"/></g>
 <text x="291.5" y="1258.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.7 · best 45</text>
 <text x="238.0" y="1284.0" fill="#d9e3ea" font-size="14" text-anchor="end">r15a click</text>
@@ -371,7 +371,7 @@ weighted per 100: 1.26; blocked rows: 2; negative kinds: 3 of 7</title><path d="
 r15-click-full (round 15a, click)
 persona: a night-shift nurse who plays in short bursts on a tablet, saves often and distrusts anything that looks dangerous
 host: Claude Code (Claude Sonnet 5.5)
-best score: 41, furthest stage Day 2
+best score: 41, furthest stage 05-px-ostrich
 weighted per 100: 1.04; blocked rows: 1; negative kinds: 4 of 7</title><path d="M250.0,1274.0 H276.2 Q279.2,1274.0 279.2,1277.0 V1289.0 Q279.2,1292.0 276.2,1292.0 H250.0 Z" fill="#3987e5"/></g>
 <text x="285.2" y="1288.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.6 · best 41</text>
 <text x="238.0" y="1314.0" fill="#d9e3ea" font-size="14" text-anchor="end">r15b typed</text>
@@ -380,7 +380,7 @@ weighted per 100: 1.04; blocked rows: 1; negative kinds: 4 of 7</title><path d="
 r15b-typed-full (round 15b, typed)
 persona: a retired air-traffic controller who logs every clock reading, plans each move and types complete sentences
 host: not recorded
-best score: 45, furthest stage Day 2
+best score: 45, furthest stage 05-px-ostrich
 weighted per 100: 1; blocked rows: 1; negative kinds: 4 of 7</title><path d="M250.0,1304.0 H271.9 Q274.9,1304.0 274.9,1307.0 V1319.0 Q274.9,1322.0 271.9,1322.0 H250.0 Z" fill="#8fa3b1"/></g>
 <text x="280.9" y="1318.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.5 · best 45</text>
 <text x="238.0" y="1344.0" fill="#d9e3ea" font-size="14" text-anchor="end">r15a typed</text>
@@ -389,7 +389,7 @@ weighted per 100: 1; blocked rows: 1; negative kinds: 4 of 7</title><path d="M25
 r15-typed-full (round 15a, typed)
 persona: a retired air-traffic controller who logs every clock reading, plans each move and types complete sentences
 host: Claude Code (Claude Sonnet 5.5)
-best score: 45, furthest stage Day 2
+best score: 45, furthest stage 05-px-ostrich
 weighted per 100: 0.73; blocked rows: 0; negative kinds: 2 of 7</title><path d="M250.0,1334.0 H268.2 Q271.2,1334.0 271.2,1337.0 V1349.0 Q271.2,1352.0 268.2,1352.0 H250.0 Z" fill="#3987e5"/></g>
 <text x="277.2" y="1348.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.4 · best 45</text>
 <text x="238.0" y="1374.0" fill="#d9e3ea" font-size="14" text-anchor="end">r15c click</text>
@@ -398,7 +398,7 @@ weighted per 100: 0.73; blocked rows: 0; negative kinds: 2 of 7</title><path d="
 r15c-click-full (round 15c, click)
 persona: a night-shift nurse who plays in short bursts on a tablet, saves often and distrusts anything that looks dangerous
 host: not recorded
-best score: 45, furthest stage Day 2
+best score: 45, furthest stage 05-px-ostrich
 weighted per 100: 0.81; blocked rows: 2; negative kinds: 3 of 7</title><path d="M250.0,1364.0 H268.2 Q271.2,1364.0 271.2,1367.0 V1379.0 Q271.2,1382.0 268.2,1382.0 H250.0 Z" fill="#8fa3b1"/></g>
 <text x="277.2" y="1378.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.4 · best 45</text>
 <text x="238.0" y="1404.0" fill="#d9e3ea" font-size="14" text-anchor="end">r15b typed</text>
@@ -407,7 +407,7 @@ weighted per 100: 0.81; blocked rows: 2; negative kinds: 3 of 7</title><path d="
 r15b-veteran-full (round 15b, typed)
 persona: a text-adventure veteran who finished every Infocom game in the 1980s, maps carefully, examines everything twice, keeps a save from before every step that cannot be undone and never saves over it, and after anything knocks them down gathers up everything dropped
 host: not recorded
-best score: 37, furthest stage Day 2
+best score: 37, furthest stage 05-robot-shop
 weighted per 100: 0.74; blocked rows: 0; negative kinds: 3 of 7</title><path d="M250.0,1394.0 H265.0 Q268.0,1394.0 268.0,1397.0 V1409.0 Q268.0,1412.0 265.0,1412.0 H250.0 Z" fill="#8fa3b1"/></g>
 <text x="274.0" y="1408.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.3 · best 37</text>
 <text x="238.0" y="1434.0" fill="#d9e3ea" font-size="14" text-anchor="end">r15c typed</text>
@@ -416,7 +416,7 @@ weighted per 100: 0.74; blocked rows: 0; negative kinds: 3 of 7</title><path d="
 r15c-typed-full (round 15c, typed)
 persona: a retired air-traffic controller who logs every clock reading, plans each move and types complete sentences
 host: not recorded
-best score: 45, furthest stage Day 2
+best score: 45, furthest stage 05-px-ostrich
 weighted per 100: 0.6; blocked rows: 0; negative kinds: 2 of 7</title><path d="M250.0,1424.0 H261.3 Q264.3,1424.0 264.3,1427.0 V1439.0 Q264.3,1442.0 261.3,1442.0 H250.0 Z" fill="#8fa3b1"/></g>
 <text x="270.3" y="1438.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.3 · best 45</text>
 <text x="238.0" y="1464.0" fill="#d9e3ea" font-size="14" text-anchor="end">r15a typed</text>
@@ -434,7 +434,7 @@ weighted per 100: 0.33; blocked rows: 0; negative kinds: 3 of 7</title><path d="
 r15c-veteran-full-b (round 15c, typed)
 persona: a text-adventure veteran who finished every Infocom game in the 1980s, maps carefully, examines everything twice, keeps a save from before every step that cannot be undone and never saves over it, and after anything knocks them down gathers up everything dropped
 host: not recorded
-best score: 44, furthest stage Day 2
+best score: 44, furthest stage 05-px-ostrich
 weighted per 100: 0.4; blocked rows: 0; negative kinds: 1 of 7</title><path d="M250.0,1484.0 H257.6 Q260.6,1484.0 260.6,1487.0 V1499.0 Q260.6,1502.0 257.6,1502.0 H250.0 Z" fill="#8fa3b1"/></g>
 <text x="266.6" y="1498.0" fill="#d9e3ea" font-size="13" text-anchor="start">0.2 · best 44</text>
 </svg>

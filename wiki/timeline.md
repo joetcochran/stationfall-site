@@ -112,3 +112,10 @@ At most three milestones a day, one line each, with the commit.
 
 ## 2026-10-22
 - The dashboard, the per-room review pages, the decisions queue, the mailbox and the sponsor's playthrough notes answer 404 to anything but a localhost runner, and a test holds the gate's list to every route the app maps (60bf51c6).
+- The first batch from the sponsor's own play: the PX coin slot reachable at last, the drunk ostrich where canon puts him, Floyd out of the bed, and Greg's three detonator cutouts so an assembled bomb looks assembled (67c30e9c, bdb32d71).
+- The published paintings ship as WebP 85, 1,847 MB of PNG to 141, after the full site proved unbuildable and then too big to host (c10ed196, 567d42cb).
+
+## 2026-10-23
+- The Commander's Quarters bomb: a container may hide its contents, a part drawn by another thing carries its plate and click target there, a new `with` predicate joins two things wherever they are, and a cable is drawn to whatever the detonator is wired to (9b0af921).
+- Three checkpoints to test fixes from, and a link may carry `?cmds=A;B;C` so a test lands in the situation it must be judged in (1c133415).
+- The sponsor's own play ends with fourteen of sixteen reports settled, the last fix being the cable kept on top of the deck (115f56cd).

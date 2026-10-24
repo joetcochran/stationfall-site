@@ -6,7 +6,7 @@
 <text x="24.0" y="623.0" fill="#8fa3b1" font-size="13" text-anchor="start">hours are agent wall-clock.</text>
 <text x="24.0" y="58.0" fill="#d9e3ea" font-size="15" text-anchor="start">231.6M tokens · 474.84 agent-hours · 943 runs</text>
 <text x="24.0" y="80.0" fill="#8fa3b1" font-size="13" text-anchor="start">Art subagents per accepted view: 299k (art-prep + review 126.7M / 424 room views) · all sessions: 691k · image passes per delivery:</text>
-<text x="24.0" y="98.0" fill="#8fa3b1" font-size="13" text-anchor="start">2.44 (78 of 709 tagged)</text>
+<text x="24.0" y="98.0" fill="#8fa3b1" font-size="13" text-anchor="start">2.44 (78 of 712 tagged)</text>
 <text x="24.0" y="140.0" fill="#d9e3ea" font-size="15" text-anchor="start">By milestone (tokens · hours · runs)</text>
 <text x="126.0" y="168.0" fill="#d9e3ea" font-size="14" text-anchor="end">M7</text>
 <g class="m"><title>147,929,673 tokens

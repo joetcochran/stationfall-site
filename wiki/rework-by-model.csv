@@ -546,6 +546,9 @@ Sol,design/packages/FEMALE-BARRACKS-BED/reference/DR-032_FEMALE-BARRACKS-BED-CAP
 Sol,design/packages/FEMALE-BARRACKS-BED/reference/DR-032_FEMALE-BARRACKS-BED-CAP-DOWN_SMEAR_GREG.png,1,approved
 Sol,design/packages/AUXILIARY-BARRACKS-BED/reference/DR-040_AUXILIARY-BARRACKS-BED-CAP-UP_SMEAR_GREG.png,1,approved
 Sol,design/packages/AUXILIARY-BARRACKS-BED/reference/DR-040_AUXILIARY-BARRACKS-BED-CAP-DOWN_SMEAR_GREG.png,1,approved
+Sol,design/characters/DETONATOR@TIMER.png,1,approved
+Sol,design/characters/DETONATOR@EXPLOSIVE.png,1,approved
+Sol,design/characters/DETONATOR@ARMED.png,1,approved
 none (scan-derived),design/papers/BLUEPRINT-1.png,2,changes>approved
 none (scan-derived),design/papers/BLUEPRINT-2.png,2,changes>approved
 none (scan-derived),design/papers/BLUEPRINT-3.png,2,changes>approved
